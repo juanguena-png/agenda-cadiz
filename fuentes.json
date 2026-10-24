@@ -1,0 +1,29 @@
+{
+  "fuentes": [
+    {"id": 1, "nombre": "Ayuntamiento de Cádiz – Programación cultural (Teatros de Cádiz)", "tipo": "oficial", "urls": ["http://laciudad.cadiz.es/programacion-teatros-de-cadiz.asp", "https://www.cadiz.es/"], "parser": "laciudad_indice", "provincial": false},
+    {"id": 2, "nombre": "Turismo de Cádiz – Agenda (Ayuntamiento)", "tipo": "oficial", "urls": ["https://turismo.cadiz.es/"], "parser": "texto", "provincial": false, "nota": "turismodecadiz.com es de la Diputación/Sierra de Grazalema: NO usar"},
+    {"id": 3, "nombre": "Onda Cádiz – Agenda", "tipo": "oficial", "urls": ["https://www.ondacadiz.es/"], "parser": "texto", "provincial": false, "nota": "Responde 400 a clientes sin navegador; revisar"},
+    {"id": 4, "nombre": "Diputación de Cádiz – Agenda cultural", "tipo": "oficial", "urls": ["https://www.dipucadiz.es/cultura/"], "parser": "texto", "provincial": true},
+    {"id": 5, "nombre": "Universidad de Cádiz – actividades culturales", "tipo": "oficial", "urls": ["https://www.uca.es/"], "parser": "texto", "provincial": true},
+    {"id": 6, "nombre": "Deportes del Ayuntamiento de Cádiz", "tipo": "oficial", "urls": [], "parser": "texto", "provincial": false, "nota": "URL por localizar (deportes.cadiz.es no resuelve)"},
+    {"id": 7, "nombre": "Bibliotecas municipales / Biblioteca Provincial", "tipo": "oficial", "urls": [], "parser": "texto", "provincial": false, "nota": "URL por localizar"},
+    {"id": 8, "nombre": "Gran Teatro Falla", "tipo": "recinto", "urls": ["http://laciudad.cadiz.es/programacion-gran-teatro-falla.asp"], "parser": "laciudad", "provincial": false},
+    {"id": 9, "nombre": "Teatro del Títere La Tía Norica", "tipo": "recinto", "urls": ["http://laciudad.cadiz.es/programacion-teatro-del-titere.asp"], "parser": "laciudad", "provincial": false},
+    {"id": 10, "nombre": "Sala Central Lechera", "tipo": "recinto", "urls": ["http://laciudad.cadiz.es/programacion-central-lechera.asp"], "parser": "laciudad", "provincial": false},
+    {"id": 11, "nombre": "Baluarte de la Candelaria", "tipo": "recinto", "urls": ["http://laciudad.cadiz.es/programacion-baluarte-de-la-candelaria.asp"], "parser": "laciudad", "provincial": false},
+    {"id": 12, "nombre": "Castillo de Santa Catalina", "tipo": "recinto", "urls": ["http://laciudad.cadiz.es/programacion-castillo-santa-catalina.asp"], "parser": "laciudad", "provincial": false},
+    {"id": 13, "nombre": "Museo de Cádiz", "tipo": "recinto", "urls": [], "parser": "texto", "provincial": false, "nota": "museosdeandalucia.es no resuelve desde el entorno; URL por localizar"},
+    {"id": 14, "nombre": "Casa de Iberoamérica", "tipo": "recinto", "urls": ["https://www.casadeiberoamerica.es/"], "parser": "texto", "provincial": false},
+    {"id": 15, "nombre": "Palacio de Congresos de Cádiz", "tipo": "recinto", "urls": [], "parser": "texto", "provincial": false, "nota": "URL por localizar"},
+    {"id": 16, "nombre": "Cádiz CF – partidos en casa", "tipo": "recinto", "urls": ["https://www.cadizcf.com/partidos"], "parser": "texto", "provincial": false, "nota": "Estadio Nuevo Mirandilla (Cádiz capital). Solo partidos como local"},
+    {"id": 17, "nombre": "VivaCádiz", "tipo": "agregador", "urls": ["https://www.vivacadiz.es/"], "parser": "texto", "provincial": false, "nota": "/eventos redirige a andaluciainformacion.es (404); localizar sección de agenda"},
+    {"id": 18, "nombre": "Hoy Cádiz", "tipo": "agregador", "urls": [], "parser": "texto", "provincial": false, "nota": "hoycadiz.com no resuelve desde el entorno; URL por localizar"},
+    {"id": 19, "nombre": "Guía de Cádiz – Agenda", "tipo": "agregador", "urls": ["https://www.guiadecadiz.com/es/"], "parser": "texto", "provincial": true},
+    {"id": 20, "nombre": "Eventbrite – Cádiz", "tipo": "agregador", "urls": ["https://www.eventbrite.es/d/spain--c%C3%A1diz/events/"], "parser": "jsonld", "provincial": true},
+    {"id": 21, "nombre": "En buena edad – agenda del Ayuntamiento", "tipo": "agregador", "urls": [], "parser": "texto", "provincial": false, "nota": "enbuenaedad.es redirige a página de inhabilitación temporal de la Junta; solo contraste"},
+    {"id": 22, "nombre": "Diario de Cádiz – agenda", "tipo": "prensa", "urls": ["https://www.diariodecadiz.es/"], "parser": "texto", "provincial": true},
+    {"id": 23, "nombre": "La Voz de Cádiz", "tipo": "prensa", "urls": ["https://www.lavozdigital.es/cadiz/"], "parser": "texto", "provincial": true},
+    {"id": 24, "nombre": "Cádiz Directo", "tipo": "prensa", "urls": ["https://www.cadizdirecto.com/"], "parser": "texto", "provincial": true},
+    {"id": 25, "nombre": "Entradium (Cádiz)", "tipo": "entradas", "urls": ["https://entradium.com/"], "parser": "texto", "provincial": true, "nota": "Ticketmaster y Giglon devuelven 403 a clientes automáticos"}
+  ]
+}

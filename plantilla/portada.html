@@ -1,0 +1,31 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+.lienzo{padding:90px 84px;display:flex;flex-direction:column;justify-content:space-between}
+.lienzo::before{content:"";position:absolute;right:-220px;top:-220px;width:760px;height:760px;border-radius:50%;background:var(--c-acento);opacity:.95}
+.lienzo::after{content:"";position:absolute;left:-260px;bottom:-300px;width:720px;height:720px;border-radius:50%;background:var(--c-acento-2);opacity:.35}
+.lienzo>*{position:relative;z-index:1}
+.marca{font-size:34px}
+h1{font-family:var(--f-titulo);font-weight:900;font-size:128px;line-height:.98;letter-spacing:-.02em}
+h1.largo{font-size:104px}
+.fecha{margin-top:36px;font-size:54px;font-weight:700;color:var(--c-acento)}
+.total{display:flex;align-items:center;gap:28px}
+.total b{font-family:var(--f-titulo);font-size:200px;font-weight:900;line-height:1;color:var(--c-acento)}
+.total span{font-size:48px;font-weight:700;line-height:1.15}
+.pie{font-size:34px;color:var(--c-suave);font-weight:600}
+/* variante B: papel claro */
+.lienzo.B{background:var(--c-papel);color:var(--c-texto-oscuro)}
+.B::before{background:var(--c-fondo);right:-420px;top:-420px}.B::after{background:var(--c-acento)}
+.B .marca{color:var(--c-texto-oscuro)}.B h1{color:var(--c-texto-oscuro)}.B .fecha{color:#B8650A}.B .total b{color:var(--c-fondo)}.B .pie{color:#4B5E73}
+.B h1.sobre{color:var(--c-texto)}
+</style></head><body>
+<div class="lienzo feed" id="l"></div>
+<script>
+function render(d){
+  const l=document.getElementById("l"); l.classList.add(d.variante==="B"?"B":"A");
+  const n=d.total; const titulo=d.titulo||"Qué hacer hoy en Cádiz";
+  l.innerHTML=`<div class="marca">Agenda Cádiz</div>
+  <div><h1 class="${titulo.length>26?'largo':''}">${esc(titulo)}</h1><div class="fecha">${esc((d.subtitulo||"").replace(/^./,c=>c.toUpperCase()))}</div></div>
+  <div class="total"><b>${n}</b><span>${n===1?"plan":"planes"}<br>en la ciudad</span></div>
+  <div class="pie">Guarda este post · Desliza →</div>`;
+}
+</script></body></html>

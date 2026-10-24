@@ -1,0 +1,19 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+.lienzo{background:linear-gradient(160deg,var(--c-fondo) 0%,var(--c-fondo-2) 100%)}
+.zona{position:absolute;left:70px;right:70px;top:250px;bottom:250px;display:flex;flex-direction:column;gap:28px}
+.pub{align-self:flex-start;font-size:30px}
+.zona .foto{flex:1;border-radius:36px;border:3px solid var(--c-linea);min-height:0}
+h1{font-family:var(--f-titulo);font-weight:900;font-size:68px;line-height:1.05}
+.desc{font-size:36px;line-height:1.28}
+</style></head><body>
+<div class="lienzo story" id="l"></div>
+<script>
+async function render(d){ // Usado solo con PATROCINIOS=on. La etiqueta "Publicidad" es obligatoria.
+  const p=d.patrocinador;
+  document.getElementById("l").innerHTML=`<div class="zona"><span class="chip linea pub">Publicidad</span>
+    <div class="foto" style="background-image:${foto(p)}" role="img" aria-label="${esc(p.imagen&&p.imagen.alt_text)}"></div>
+    <h1 class="clamp2">${esc(p.nombre)}</h1><div class="desc clamp3">${esc(p.texto||"")}</div></div>`;
+  await listo();
+}
+</script></body></html>

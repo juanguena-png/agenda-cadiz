@@ -1,0 +1,44 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+.lienzo{display:flex;flex-direction:column;padding:56px 56px 40px}
+.cab{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:26px}
+.cab .marca{font-size:28px}.cab .pag{font-size:28px;color:var(--c-suave);font-weight:700}
+.lista{flex:1;display:flex;flex-direction:column;gap:20px;min-height:0}
+.ev{flex:1;min-height:0;display:flex;gap:28px;background:var(--c-tarjeta);border:2px solid var(--c-linea);border-radius:var(--radio);padding:16px;overflow:hidden}
+.ev .foto{flex:none;aspect-ratio:1/1;height:100%;border-radius:20px}
+.ev .txt{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.ev h2{font-family:var(--f-titulo);font-weight:800;line-height:1.1;overflow-wrap:anywhere}
+.ev .hora,.ev b.hora{font-weight:800;color:var(--c-acento)}
+.ev .meta{color:var(--c-suave);font-weight:600}
+.ev .chip{font-size:24px;align-self:flex-start}
+.pie{margin-top:18px;text-align:center;font-size:26px;color:var(--c-suave);font-weight:600}
+/* nivel de detalle según nº de eventos en la diapositiva */
+.n1 .ev{flex-direction:column;padding:20px}.n1 .ev .foto{width:100%;height:auto;flex:1;aspect-ratio:auto;min-height:0}.n1 .ev .txt{flex:none;gap:14px}
+.n1 h2{font-size:62px}.n1 .hora{font-size:42px}.n1 .meta{font-size:34px}
+.n2 h2{font-size:48px}.n2 .hora{font-size:38px}.n2 .meta{font-size:32px}
+.n3 h2,.n4 h2{font-size:40px}.n3 .hora,.n4 .hora{font-size:34px}.n3 .meta,.n4 .meta{font-size:30px}
+.n5 h2,.n6 h2{font-size:34px}.n5 .hora,.n6 .hora{font-size:30px}.n5 .meta,.n6 .meta{font-size:28px}
+.nm h2{font-size:31px}.nm .hora,.nm .meta{font-size:27px}.nm .ev{padding:12px;gap:22px;border-radius:22px}.nm .lista{gap:14px}
+.n3 .ev .foto,.n4 .ev .foto{border-radius:18px}
+</style></head><body>
+<div class="lienzo feed" id="l"></div>
+<script>
+async function render(d){
+  const n=d.eventos.length; const cls=n<=6?`n${n}`:"nm";
+  const l=document.getElementById("l");
+  l.innerHTML=`<div class="cab"><div class="marca">Agenda Cádiz</div><div class="pag">${esc(d.cabecera||"")}</div></div>
+  <div class="lista ${cls}">${d.eventos.map(ev=>{
+    const fechaTxt = d.mostrar_fecha ? fechaCorta(ev.fecha)+" · " : "";
+    const compacto = n>=5;
+    const lineaCompacta = `<b class="hora">${esc(fechaTxt+horaTxt(ev))}</b> · ${esc(ev.lugar)}${n<=6?" · "+esc(precioTxt(ev)):""}`;
+    return `<div class="ev"><div class="foto" style="background-image:${foto(ev)}" role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
+      <div class="txt">
+        ${n<=4?`<span class="chip alt">${esc(ev.categoria)}</span>`:""}
+        <h2 class="${n<=2?'clamp3':'clamp2'}">${esc(ev.nombre)}</h2>
+        ${compacto?`<div class="meta ${n<=6?'clamp2':'clamp1'}">${lineaCompacta}</div>`:
+        `<div class="hora">${esc(fechaTxt+horaTxt(ev))}</div><div class="meta clamp2">${esc(ev.lugar)}</div><div class="meta">${esc(precioTxt(ev))}</div>`}
+      </div></div>`}).join("")}</div>
+  <div class="pie">${esc(d.pie||"Guarda y comparte · @agenda.cadiz")}</div>`;
+  await listo();
+}
+</script></body></html>

@@ -1,0 +1,29 @@
+/* ÚNICA fuente de colores y tipografías. Valores provisionales: ver marca.md */
+:root {
+  --c-fondo: #0B2A4A;        /* azul marino atlántico */
+  --c-fondo-2: #123E6B;
+  --c-acento: #FFC93C;       /* amarillo sol */
+  --c-acento-2: #14B8A6;     /* turquesa */
+  --c-papel: #FFF8EA;        /* arena clara */
+  --c-texto: #FFFFFF;
+  --c-texto-oscuro: #0B2A4A;
+  --c-suave: rgba(255,255,255,.72);
+  --c-tarjeta: rgba(255,255,255,.09);
+  --c-linea: rgba(255,255,255,.18);
+  --f-titulo: "Inter Display", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --f-texto: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --radio: 28px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; }
+body { font-family: var(--f-texto); color: var(--c-texto); background: var(--c-fondo); overflow: hidden; -webkit-font-smoothing: antialiased; }
+.lienzo { position: relative; width: 1080px; overflow: hidden; background: linear-gradient(160deg, var(--c-fondo) 0%, var(--c-fondo-2) 100%); }
+.lienzo.feed { height: 1350px; }
+.lienzo.story { height: 1920px; }
+.marca { font-family: var(--f-titulo); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--c-acento); }
+.chip { display: inline-block; padding: 6px 16px; border-radius: 999px; background: var(--c-acento); color: var(--c-texto-oscuro); font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+.chip.alt { background: var(--c-acento-2); color: #04302B; }
+.chip.linea { background: transparent; border: 2px solid var(--c-suave); color: var(--c-texto); }
+.clamp1, .clamp2, .clamp3 { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+.clamp1 { -webkit-line-clamp: 1; } .clamp2 { -webkit-line-clamp: 2; } .clamp3 { -webkit-line-clamp: 3; }
+.foto { background-size: cover; background-position: center; background-color: var(--c-fondo-2); }
