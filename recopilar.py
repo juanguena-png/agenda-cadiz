@@ -211,6 +211,112 @@ def parser_uca(fuente, ventana):
     return out, 0
 
 
+JUNTA = "https://www.juntadeandalucia.es"
+
+
+def parser_junta(fuente, ventana):
+    """Agenda Cultural de Andalucía (Junta de Andalucía) filtrada por provincia de Cádiz y por la ventana de fechas. Cada tarjeta trae «Sala - Municipio»:
+    el municipio «Cádiz» (sin «(Cádiz)» detrás) indica la capital. Es una fuente oficial; la verificación final sigue siendo del agente."""
+    ini, fin = ventana
+    out = []
+    for pag in range(0, 10):
+        params = {"province": fuente.get("provincia_id", "1439"), "date_from": ini.isoformat(), "date_to": fin.isoformat()}
+        if pag:
+            params["page"] = pag
+        h = requests.get(fuente["urls"][0], params=params, headers=IMG_UA, timeout=30)
+        h.raise_for_status()
+        arts = BeautifulSoup(h.text, "lxml").select("article[role=article]")
+        nuevos = 0
+        for a in arts:
+            link = next((x for x in a.find_all("a", href=True) if "/evento/" in x["href"]), None)
+            tit = a.select_one(".headline")
+            if not (link and tit):
+                continue
+            nuevos += 1
+            txt = re.sub(r"\s+", " ", a.get_text(" "))
+            fechas = [date(int(y), MES_N[m.lower()], int(d)) for d, m, y in re.findall(r"(\d{2}) (" + "|".join(m.capitalize() for m in ag.MESES) + r") (\d{4})", txt) if m.lower() in MES_N]
+            lugar_el = a.select_one(".text-accent a") or a.select_one(".text-accent")
+            lugar = lugar_el.get_text(" ", strip=True) if lugar_el else ""
+            venue, _, muni = lugar.rpartition(" - ")
+            hora = re.search(r"(?<![\d/])(\d{1,2})[:.](\d{2})(?!\d)", txt)
+            f0, f1 = (min(fechas), max(fechas)) if fechas else (None, None)
+            if not f0:
+                continue
+            url = urljoin(JUNTA, link["href"])
+            for i in range((fin - ini).days + 1):
+                dia = ini + timedelta(days=i)
+                if f0 <= dia <= f1:
+                    out.append({"nombre": tit.get_text(" ", strip=True), "fecha": dia.isoformat(), "fecha_inicio_evento": f0.isoformat(), "fecha_fin_evento": f1.isoformat(),
+                                "hora_inicio": f"{int(hora.group(1)):02d}:{hora.group(2)}" if hora else None, "lugar": venue or lugar, "municipio": muni.strip() or None,
+                                "pista_capital": (muni.strip() == "Cádiz") if muni else None, "url": url, "multidia": f0 != f1, "permanente": (f1 - f0).days > 180})
+        if not nuevos:
+            break
+    vistos, unicos = set(), []
+    for c in out:
+        k = (c["nombre"].lower(), c["fecha"])
+        if k not in vistos:
+            vistos.add(k); unicos.append(c)
+    return unicos, 0
+
+
+def parser_guia(fuente, ventana):
+    """Guía de Cádiz – Agenda por categorías: cada ficha trae el municipio («Cádiz», «Jerez de la Frontera»…), lo que permite filtrar la capital."""
+    ini, fin = ventana
+    out = []
+
+    def pagina(u):
+        h = requests.get(u, headers=IMG_UA, timeout=30)
+        h.raise_for_status()
+        return BeautifulSoup(h.text, "lxml")
+    for base in fuente["urls"]:
+        for pag in range(0, 6):
+            try:
+                s = pagina(base + (f"?page={pag}" if pag else ""))
+            except requests.RequestException:
+                break
+            tarjetas = [a for a in s.find_all("a", href=True) if a.select_one(".short_info")]
+            if not tarjetas:
+                break
+            for a in tarjetas:
+                si = a.select_one(".short_info")
+                muni = (si.select_one(".icon_pin").parent.get_text(" ", strip=True) if si.select_one(".icon_pin") else "")
+                fechas = [date(int(y), int(m), int(d)) for d, m, y in re.findall(r"(\d{2})/(\d{2})/(\d{4})", si.get_text(" "))]
+                if not fechas:
+                    continue
+                f0, f1 = min(fechas), max(fechas)
+                cat = base.rstrip("/").split("/")[-1]
+                for i in range((fin - ini).days + 1):
+                    dia = ini + timedelta(days=i)
+                    if f0 <= dia <= f1:
+                        out.append({"nombre": si.find("h3").get_text(" ", strip=True), "categoria_fuente": cat, "fecha": dia.isoformat(), "fecha_inicio_evento": f0.isoformat(),
+                                    "fecha_fin_evento": f1.isoformat(), "municipio": muni, "pista_capital": muni.strip().lower() == "cádiz", "url": urljoin("https://www.guiadecadiz.com", a["href"]),
+                                    "multidia": f0 != f1, "permanente": (f1 - f0).days > 180})
+    vistos, unicos = set(), []
+    for c in out:
+        k = (c["nombre"].lower(), c["fecha"])
+        if k not in vistos:
+            vistos.add(k); unicos.append(c)
+    return unicos, 0
+
+
+def parser_cgf(fuente, ventana):
+    """Cádiz Guitar Festival (web del organizador): conciertos con fecha, hora, sala y localidad al final del campo «Location»."""
+    ini, fin = ventana
+    h = requests.get(fuente["urls"][0], headers=IMG_UA, timeout=30)
+    h.raise_for_status()
+    t = limpio(h.text, 80000)
+    out = []
+    M = "|".join(ag.MESES)
+    for ciclo, d_, m_, a_, hh, resto, loc, extra in re.findall(r"((?:Ciclo|Concierto)[^“]{0,80}?) (\d{1,2}) de (" + M + r") de (\d{4}) (\d{2}:\d{2}) (.+?) Location (.+?) ENTRADAS & MÁS INFO ([^C]{0,60})", t):
+        dia = date(int(a_), MES_N[m_], int(d_))
+        if not ini <= dia <= fin:
+            continue
+        cap = bool(re.search(r"\bC[áa]diz$", loc.strip())) and not OTROS_MUNICIPIOS.search(loc)
+        out.append({"nombre": f"Cádiz Guitar Festival · {resto.split('“')[0].strip()}", "categoria_fuente": "música", "fecha": dia.isoformat(), "hora_inicio": hh, "lugar": loc.strip(),
+                    "pista_capital": cap, "precio_texto": extra.strip(), "descripcion_fuente": resto[:300], "url": fuente["urls"][0], "multidia": False, "permanente": False})
+    return out, 0
+
+
 def parser_laciudad(r, fuente):
     """Páginas de programación de recintos de laciudad.cadiz.es (bloques .eventitem bajo h3 de mes)."""
     s = BeautifulSoup(r.text, "lxml")
@@ -312,7 +418,7 @@ def parser_texto(r, fuente):
 
 
 IMG_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept-Language": "es-ES,es;q=0.9"}
-PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto}
+PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto, "uca": parser_texto, "junta": parser_texto, "guia": parser_texto, "cgf": parser_texto}
 
 
 def procesar(fuente, ventana=None):
@@ -324,9 +430,9 @@ def procesar(fuente, ventana=None):
     if not fuente["urls"]:
         res.update(estado="sin_url", error=fuente.get("nota", "URL por localizar"))
         return res
-    if fuente["parser"] in ("ayto", "bacantix", "uca"):
+    if fuente["parser"] in ("ayto", "bacantix", "uca", "junta", "guia", "cgf"):
         try:
-            cands, errores = {"ayto": parser_ayto, "bacantix": parser_bacantix, "uca": parser_uca}[fuente["parser"]](fuente, ventana)
+            cands, errores = {"ayto": parser_ayto, "bacantix": parser_bacantix, "uca": parser_uca, "junta": parser_junta, "guia": parser_guia, "cgf": parser_cgf}[fuente["parser"]](fuente, ventana)
             for c in cands:
                 c.update(fuente_id=fuente["id"], fuente=fuente["nombre"], provincial=fuente["provincial"], tipo_fuente=fuente["tipo"])
             res["candidatos"] = cands

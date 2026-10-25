@@ -202,13 +202,30 @@
       "nombre": "Guía de Cádiz – Agenda",
       "tipo": "agregador",
       "urls": [
-        "https://www.guiadecadiz.com/es/"
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/conciertos",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/exposiciones",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/teatro",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/danza",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/flamenco",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/deportes",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/con%20niños",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/eventos%20culturales",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/eventos%20solidarios",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/fiestas%20típicas",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/feria%20de%20muestras",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/festivales",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/gastronomía",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Halloween%20y%20Tosantos",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Magia",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Navidad",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/proyecciones",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/rutas%20y%20visitas",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/semana%20santa",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/carnaval"
       ],
-      "parser": "texto",
+      "parser": "guia",
       "provincial": true,
-      "via": "web",
-      "consulta": "Guía de Cádiz agenda eventos Cádiz capital {fecha}",
-      "nota": "PROVINCIAL; 403 al script; filtrar Cádiz capital"
+      "nota": "PROVINCIAL; cada ficha trae el municipio: se filtra «Cádiz». Es agregador: no se toman imágenes de aquí"
     },
     {
       "id": 20,
@@ -839,6 +856,42 @@
       "via": "web",
       "consulta": "Cádiz actividades turismo {fecha} Ayuntamiento Patronato",
       "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 77,
+      "nombre": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/buscador"
+      ],
+      "parser": "junta",
+      "provincia_id": "1439",
+      "provincial": true,
+      "nota": "Buscador oficial por provincia y fechas; «Sala - Cádiz» = capital. Trae Falla, Baluarte, Casa de Iberoamérica, Museo, Fundación Unicaja, Conservatorio, UCA…"
+    },
+    {
+      "id": 78,
+      "nombre": "Cádiz Guitar Festival (web del organizador)",
+      "tipo": "recinto",
+      "urls": [
+        "https://www.cadizguitarfestival.com/"
+      ],
+      "parser": "cgf",
+      "provincial": true,
+      "nota": "Festival con conciertos en varios municipios; se marca pista_capital si la sala termina en «Cádiz». Hasta el 8 nov 2026"
+    },
+    {
+      "id": 79,
+      "nombre": "Taquilla.com – salas de Cádiz (Momart…)",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.taquilla.com/cadiz/momart-cadiz-11003"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Taquilla Cádiz Momart programación {mes} {año} (taquilla.com/cadiz/momart-cadiz-11003)",
+      "nota": "Venta de entradas: dirección «orientativa»; confirmar con la sala o el promotor"
     }
   ]
 }

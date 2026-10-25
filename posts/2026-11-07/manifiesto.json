@@ -5,7 +5,7 @@
     {
       "archivo": "01.png",
       "tipo": "portada",
-      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, sábado 7 de noviembre. 3 planes."
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, sábado 7 de noviembre. 5 planes."
     },
     {
       "archivo": "02.png",
@@ -30,6 +30,22 @@
         "diexo-sin-plan-b"
       ],
       "alt_text": "Eventos: Diexo · Presentación de «Sin plan B» (21:00, Sala Soho Alternative)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "capullo-momart"
+      ],
+      "alt_text": "Eventos: El Capullo de Jerez en concierto (21:00, Momart Theatre)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "cgf-hurtado"
+      ],
+      "alt_text": "Eventos: Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival (22:30, Casino Gaditano (patio interior))"
     }
   ],
   "stories": [
@@ -47,6 +63,16 @@
       "archivo": "03.png",
       "id": "diexo-sin-plan-b",
       "alt_text": "Cartel oficial de la presentación del disco Sin plan B de Diexo en la Sala Soho Alternative"
+    },
+    {
+      "archivo": "04.png",
+      "id": "capullo-momart",
+      "alt_text": "Ilustración de «El Capullo de Jerez en concierto»: composición con flamenco, micrófono en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "05.png",
+      "id": "cgf-hurtado",
+      "alt_text": "Ilustración de «Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival»: composición con violín, flamenco en azul mar, blanco y amarillo"
     }
   ],
   "noche": [
@@ -54,9 +80,11 @@
       "archivo": "01.png",
       "ids": [
         "vicente-amigo",
-        "diexo-sin-plan-b"
+        "diexo-sin-plan-b",
+        "capullo-momart",
+        "cgf-hurtado"
       ],
-      "alt_text": "Esta noche en Cádiz: Vicente Amigo · Andenes del tiempo; Diexo · Presentación de «Sin plan B»"
+      "alt_text": "Esta noche en Cádiz: Vicente Amigo · Andenes del tiempo; Diexo · Presentación de «Sin plan B»; El Capullo de Jerez en concierto; Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival"
     }
   ]
 }

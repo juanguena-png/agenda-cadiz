@@ -14,6 +14,7 @@ Eres el agente autónomo que recopila las actividades de **Cádiz capital**, las
 
 `recopilar.py` consulta **todas** las fuentes de `fuentes.json` y deja el material en `posts/F/candidatos.json`. Orden de lectura obligatorio:
 1. **Agenda oficial del Ayuntamiento** (`institucional.cadiz.es/programacion_cultural` y `turismo.cadiz.es/eventos`): fichas con fecha, horario, precio, dirección e **imagen oficial** (ya descargada en `posts/F/img/`). Es la fuente prioritaria.
+1b. **Agenda Cultural de Andalucía (Junta de Andalucía)** (`buscador` por provincia de Cádiz y fechas; «Sala - Cádiz» sin paréntesis = capital) y su ficha de cada evento (imagen oficial de la administración).
 2. **Recintos municipales** (laciudad.cadiz.es: Falla, Pemán, Tía Norica, Central Lechera, Baluarte, Santa Catalina, Noches Clásicas, festivales), **Casa de Iberoamérica**, Cádiz CF, deportes municipales (deporte.cadiz.es), UCA, Diputación, Fundación Unicaja, Onda Cádiz.
 3. Venta de entradas, prensa y agregadores (para contrastar o descubrir; nunca prevalecen sobre las oficiales).
 Las fuentes con `via: web` (Museo de Cádiz, bibliotecas, Cádiz CF, VivaCádiz, Guía de Cádiz, Planomato, El Corte Inglés, Ticketmaster, teatro romano, salas…) salen en `consultas_web` de candidatos.json con la búsqueda ya redactada: **consúltalas todas cada día** con WebFetch/WebSearch. Si una fuente falla o no tiene parser, **léela** (WebFetch/WebSearch) en vez de saltarla. Añade a `fuentes.json` toda fuente oficial nueva que encuentres.

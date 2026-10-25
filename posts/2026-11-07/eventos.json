@@ -111,6 +111,94 @@
         "url": "https://institucional.cadiz.es/evento/diexo-presentaci%C3%B3n-del-disco-sin-plan-b"
       },
       "etiquetas_ig": []
+    },
+    {
+      "id": "capullo-momart",
+      "nombre": "El Capullo de Jerez en concierto",
+      "categoria": "música",
+      "fecha": "2026-11-07",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Momart Theatre",
+      "direccion": "Paseo Almte. Pascual Pery, 25, 11004 Cádiz",
+      "precio": "Desde 15 €",
+      "publico": null,
+      "descripcion": "Concierto de El Capullo de Jerez en la sala Momart Theatre. Quedan pocas entradas.",
+      "info": "Entradas en taquilla.com",
+      "imagen": {
+        "archivo": "posts/2026-11-07/img/capullo-momart-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "flamenco",
+          "micrófono"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «El Capullo de Jerez en concierto»: composición con flamenco, micrófono en azul mar, blanco y amarillo"
+      },
+      "ilustracion": {
+        "motivos": [
+          "flamenco",
+          "micrófono"
+        ],
+        "fondo": "noche"
+      },
+      "fuentes": [
+        {
+          "nombre": "Taquilla.com – Momart (Cádiz)",
+          "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Taquilla.com: «Momart, Paseo Almte. Pascual Pery, 25, 11004 Cádiz» (dirección orientativa); la Junta de Andalucía lista Momart Theatre como espacio de Cádiz",
+        "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "cgf-hurtado",
+      "nombre": "Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival",
+      "categoria": "música",
+      "fecha": "2026-11-07",
+      "hora_inicio": "22:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casino Gaditano (patio interior)",
+      "direccion": "Casino Gaditano, Cádiz",
+      "precio": "Gratis hasta completar aforo",
+      "publico": null,
+      "descripcion": "Concierto del Cádiz Guitar Festival: el guitarrista Alejandro Hurtado junto al cuarteto Quartett HANA. Entrada libre hasta completar aforo.",
+      "info": "Programa: cadizguitarfestival.com",
+      "imagen": {
+        "archivo": "posts/2026-11-07/img/cgf-hurtado-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "violín",
+          "flamenco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival»: composición con violín, flamenco en azul mar, blanco y amarillo"
+      },
+      "ilustracion": {
+        "motivos": [
+          "violín",
+          "flamenco"
+        ],
+        "fondo": "mar"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz Guitar Festival – web oficial",
+          "url": "https://www.cadizguitarfestival.com/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Web oficial del festival: «Location Casino Gaditano · Patio interior Cádiz»",
+        "url": "https://www.cadizguitarfestival.com/"
+      },
+      "etiquetas_ig": []
     }
   ]
 }
