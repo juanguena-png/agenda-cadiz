@@ -1,4 +1,4 @@
-# Agenda Cádiz — agente autónomo de Instagram y Facebook
+# Planes en Cádiz — agente autónomo de Instagram y Facebook
 
 Recopila **todas** las actividades de **Cádiz capital** (solo el término municipal; ver `CLAUDE.md`, regla 1), las publica en Instagram con la Graph API de Meta, las replica en la página de Facebook y hace crecer ambos perfiles de forma 100 % orgánica. Funciona con tareas programadas de Claude Code en la nube (Europe/Madrid).
 
@@ -9,6 +9,7 @@ Recopila **todas** las actividades de **Cádiz capital** (solo el término munic
 CLAUDE.md  marca.md  fuentes.md  fuentes.json  tareas.md  setup.sh  requirements.txt
 agenda.py (utilidades, reparto, validación)   recopilar.py   render.py   reel.py
 publicar.py   interaccion.py   metricas.py   notificar.py   patrocinios.py
+marca.md  marca.json  marca/ (foto de perfil, destacadas, logo)  propuestas-marca/ (3 direcciones; elegida: D1)
 plantilla/ (portada, eventos, story, story-noche, story-patrocinio, estilos.css, sin-foto/)
 musica/ (5 pistas CC0 + licencias.md)   patrocinadores/ (desactivado)
 posts/AAAA-MM-DD/ (eventos.json, caption.txt, estado.json, carrusel/, stories/, noche/, reel/, finde/, mensual/)
@@ -54,7 +55,7 @@ registros/ (fuentes.log, mejoras.md, metricas.jsonl, pendientes.json…)   ejemp
 
 ### 4. Resend (avisos por email)
 1. Crea cuenta gratis en resend.com → *API Keys → Create* (permiso *Sending access*) = `RESEND_API_KEY`.
-2. Sin dominio propio el remitente es `onboarding@resend.dev` y **solo puedes enviar a tu propio email** (el de la cuenta de Resend) = `EMAIL_DESTINO`. Con dominio verificado, define también `EMAIL_REMITENTE` ("Agenda Cádiz <avisos@tudominio.es>").
+2. Sin dominio propio el remitente es `onboarding@resend.dev` y **solo puedes enviar a tu propio email** (el de la cuenta de Resend) = `EMAIL_DESTINO`. Con dominio verificado, define también `EMAIL_REMITENTE` ("Planes en Cádiz <avisos@tudominio.es>").
 
 ### 5. Entorno cloud "agenda-cadiz"
 - **Red**: acceso completo (ya lo tiene): necesita las fuentes, `graph.facebook.com`, `api.resend.com`, `raw.githubusercontent.com` y `github.com`.

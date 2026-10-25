@@ -14,3 +14,5 @@ body[data-tema="d1"]{--c-lienzo:#FAF8F2;--c-lienzo-2:#EEF5F7;--c-texto:#0A2E4D;-
 [data-tema="d1"] .total b,[data-tema="d1"] .fecha{color:#FFC62B}
 [data-tema="d1"] .ev h2{letter-spacing:-.01em}
 [data-tema="d1"] .av .deco{background:radial-gradient(circle at 78% 24%,#FFC62B 0 22%,transparent 23%),repeating-linear-gradient(180deg,transparent 0 26px,rgba(255,255,255,.18) 26px 30px) bottom/100% 40% no-repeat}
+[data-tema="d1"] .lienzo.story.portada .deco{background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221080%22 height=%221920%22%3E%3Ccircle cx=%22900%22 cy=%22230%22 r=%22230%22 fill=%22%23FFC62B%22/%3E%3Cg fill=%22none%22 stroke=%22%23FFFFFF%22 stroke-opacity=%22.55%22 stroke-width=%225%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M-20 1620q90-60 180 0t180 0 180 0 180 0 180 0 180 0%22/%3E%3Cpath d=%22M-20 1670q90-60 180 0t180 0 180 0 180 0 180 0 180 0%22/%3E%3Cpath d=%22M-20 1720q90-60 180 0t180 0 180 0 180 0 180 0 180 0%22/%3E%3C/g%3E%3C/svg%3E")}
+[data-tema="d1"] .lienzo.story.portada{padding-top:280px;padding-bottom:280px}

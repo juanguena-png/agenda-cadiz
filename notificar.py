@@ -22,10 +22,10 @@ def enviar(asunto, cuerpo):
     clave = ag.secreto("RESEND_API_KEY")
     if clave:
         cab["Authorization"] = f"Bearer {clave}"
-    remitente = ag.secreto("EMAIL_REMITENTE") or "Agenda Cádiz <onboarding@resend.dev>"
+    remitente = ag.secreto("EMAIL_REMITENTE") or "Planes en Cádiz <onboarding@resend.dev>"
     try:
         r = requests.post(RESEND, headers=cab, timeout=30,
-                          json={"from": remitente, "to": [destino], "subject": f"[Agenda Cádiz] {asunto}", "text": cuerpo})
+                          json={"from": remitente, "to": [destino], "subject": f"[Planes en Cádiz] {asunto}", "text": cuerpo})
         if r.status_code >= 300:
             print(f"Resend {r.status_code}: {r.text[:300]}", file=sys.stderr)
         return r.status_code < 300

@@ -1,4 +1,4 @@
-"""Utilidades comunes del agente de Agenda Cádiz (rutas, reparto, validación, estado, secretos)."""
+"""Utilidades comunes del agente de Planes en Cádiz (rutas, reparto, validación, estado, secretos)."""
 import json
 import os
 import sys

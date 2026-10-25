@@ -53,9 +53,8 @@ def fotogramas(r, eventos, titulo, sub, var, tmp):
     """Cada clip es una story-nocturna-like: usa story.html (1080x1920) -> PNG; portada en versión vertical."""
     pngs = []
     p = tmp / "p0.png"
-    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "variante": var}, p, rd.VIEW_FEED)
-    # la portada es 1080x1350: se pone sobre fondo 1080x1920 en ffmpeg
-    pngs.append((p, T_PORTADA, True))
+    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": "Viernes a domingo", "sufijo": "para el finde", "vertical": True}, p, rd.VIEW_STORY)
+    pngs.append((p, T_PORTADA, False))
     for i, ev in enumerate(eventos):
         q = tmp / f"e{i}.png"
         r.png("story.html", {"evento": ev, "fecha_larga": ag.fecha_larga(ev["fecha"])}, q, rd.VIEW_STORY)
@@ -69,7 +68,7 @@ def rotulo_animado(total):
     if not f or not Path(f).exists():
         return None
     base = "fontfile=%s:fontcolor=0xFFC93C:fontsize=46:borderw=0" % f
-    return (f"drawtext={base}:text='AGENDA CÁDIZ  ·  PLANES DEL FINDE':x='if(lt(t,0.9),-tw+(tw+80)*t/0.9,80)':y=120:enable='between(t,0,{total:.2f})',"
+    return (f"drawtext={base}:text='PLANES EN CÁDIZ  ·  FINDE':x='if(lt(t,0.9),-tw+(tw+80)*t/0.9,80)':y=120:enable='between(t,0,{total:.2f})',"
             f"drawbox=x=0:y=1904:w='iw*t/{total:.2f}':h=16:color=0xFFC93C:t=fill")
 
 
@@ -81,7 +80,7 @@ def componer(pngs, salida, pista=None):
         d = dur + T_TRANS
         entradas += ["-loop", "1", "-t", f"{d}", "-i", str(png)]
         fondo = f"[{i}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}" if not es_portada else \
-            f"[{i}:v]pad={W}:{H}:0:285:color=0x0B2A4A"
+            f"[{i}:v]pad={W}:{H}:0:285:color=0x083F6B"
         filtros.append(f"{fondo},zoompan=z='min(zoom+0.0006,1.06)':d={int(d * FPS)}:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p[v{i}]")
     ult = "v0"
     t = pngs[0][1]

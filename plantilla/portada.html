@@ -15,7 +15,7 @@ h1.largo{font-size:88px}
 <script>
 async function render(d){
   aplicarTema(d);
-  document.getElementById("l").classList.add("portada");const n=d.total, t=d.titulo||"Qué hacer hoy";
+  const L=document.getElementById("l");L.classList.add("portada");if(d.vertical){L.classList.remove("feed");L.classList.add("story");}const n=d.total, t=d.titulo||"Qué hacer hoy";
   document.getElementById("l").innerHTML=`<div class="deco"></div>
   <div class="cab">${logo(d,"",d.tam_logo||190)}</div>
   <div><div class="tag">${esc(d.etiqueta||"")}</div><h1 class="titulo ${t.length>24?'largo':''}">${esc(t)}</h1><div class="fecha">${esc((d.subtitulo||"").replace(/^./,c=>c.toUpperCase()))}</div></div>

@@ -39,8 +39,14 @@ class Renderer:
         self._pw.stop()
 
     def png(self, plantilla, datos, salida, viewport):
+        """Renderiza una plantilla con la identidad de marca.json (tema, prefijo y ciudad del logo modular)."""
+        marca = ag.cargar_json(ag.RAIZ / "marca.json", {})
+        datos = {"tema": marca.get("tema", "d1"), "prefijo": marca.get("prefijo", "Planes en"), "ciudad": marca.get("ciudad", "Cádiz"), **datos}
         page = self.browser.new_page(viewport=viewport, device_scale_factor=1)
         page.goto((PLANTILLA / plantilla).as_uri())
+        tema = PLANTILLA / "temas" / f"{datos['tema']}.css"
+        if tema.exists():
+            page.add_style_tag(url=tema.as_uri())
         page.evaluate("d => render(d)", datos)
         page.wait_for_timeout(150)
         page.screenshot(path=str(salida), clip={"x": 0, "y": 0, **viewport})
@@ -74,10 +80,13 @@ def titulos(tipo, fecha, eventos):
     if tipo == "finde":
         fechas = sorted({e["fecha"] for e in eventos})
         ini, fin = ag.a_fecha(fechas[0]), ag.a_fecha(fechas[-1])
-        return "Planes del finde en Cádiz", f"{ini.day} – {fin.day} de {ag.MESES[fin.month - 1]}"
+        return "Planes del finde", f"{ini.day} – {fin.day} de {ag.MESES[fin.month - 1]}"
     if tipo == "mensual":
-        return f"Lo más destacado de {ag.MESES[f.month - 1]} en Cádiz", f"{ag.MESES[f.month - 1]} {f.year}"
-    return "Qué hacer hoy en Cádiz", ag.fecha_larga(f)
+        return f"Lo más destacado de {ag.MESES[f.month - 1]}", f"{ag.MESES[f.month - 1]} {f.year}"
+    return "Qué hacer hoy", ag.fecha_larga(f)  # la ciudad va en el logo modular («Planes en Cádiz»)
+
+
+PORTADA_EXTRA = {"diario": ("Agenda diaria", "en la ciudad"), "finde": ("Viernes a domingo", "para el finde"), "mensual": ("Agenda mensual", "imprescindibles")}
 
 
 def render_carrusel(r, eventos, tipo, fecha, salida, var):
@@ -88,8 +97,10 @@ def render_carrusel(r, eventos, tipo, fecha, salida, var):
     eventos = ag.ordenar(eventos, por_fecha=tipo != "diario")
     grupos = ag.trocear(eventos, ag.reparto(len(eventos)))
     titulo, sub = titulos(tipo, fecha, eventos)
-    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "variante": var}, salida / "01.png", VIEW_FEED)
-    manifiesto = [{"archivo": "01.png", "tipo": "portada", "alt_text": f"Portada: {titulo}, {sub}. {len(eventos)} planes."}]
+    etiqueta, sufijo = PORTADA_EXTRA[tipo]
+    ciudad = (ag.cargar_json(ag.RAIZ / "marca.json", {}) or {}).get("ciudad", "Cádiz")
+    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": etiqueta, "sufijo": sufijo}, salida / "01.png", VIEW_FEED)
+    manifiesto = [{"archivo": "01.png", "tipo": "portada", "alt_text": f"Portada de Planes en {ciudad}: {titulo}, {sub}. {len(eventos)} planes."}]
     for i, g in enumerate(grupos, start=2):
         r.png("eventos.html", {"eventos": g, "cabecera": f"{i - 1}/{len(grupos)}", "mostrar_fecha": tipo != "diario"}, salida / f"{i:02d}.png", VIEW_FEED)
         manifiesto.append({"archivo": f"{i:02d}.png", "tipo": "eventos", "ids": [e.get("id") for e in g],
@@ -217,7 +228,6 @@ def demo(ns):
             m = render_carrusel(r, evs, "diario", "2026-10-25", carpeta / "carrusel", "A")
             print(f"demo {n}: reparto {ag.reparto(n)} -> {len(m)} imágenes")
             if n == 5:
-                render_carrusel(r, evs, "diario", "2026-10-25", carpeta / "carrusel-variante-B", "B")
                 render_stories(r, evs[:2], "2026-10-25", carpeta / "stories")
                 render_noche(r, [dict(e, hora_inicio="21:00", todo_el_dia=False) for e in evs], "2026-10-25", carpeta / "noche")
 
