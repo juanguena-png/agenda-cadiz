@@ -18,6 +18,7 @@ from publicar import ErrorAPI, api
 PENDIENTES = ag.RAIZ / "registros" / "pendientes.json"
 CLAVES = ag.RAIZ / "registros" / "palabras_clave.json"
 VISTOS = ag.RAIZ / "registros" / "interaccion_vista.json"
+AVISADOS = ag.RAIZ / "registros" / "interaccion_avisados.json"  # ya notificados por email (un solo aviso por comentario)
 DIAS_ATRAS = 7
 
 
@@ -81,23 +82,44 @@ TEXTO_PROPUESTA = ("¡Gracias por avisarnos! Para publicar tu evento necesitamos
                    "oficial (web del organizador o recinto). Lo comprobaremos antes de incluirlo en la agenda. Si tienes cartel, envíanoslo también.")
 
 
+def mensaje_privado(item, msg):
+    """Respuesta privada a un comentario (Messenger Platform): Facebook con el ID de la página; Instagram con el ID de la página y, si no, con el de Instagram."""
+    destino = {"comment_id": item["id"]}
+    if item["plataforma"] == "instagram":
+        ultimo = None
+        for base in (ag.secreto("FB_PAGE_ID"), ag.secreto("IG_USER_ID")):
+            try:
+                return api("POST", f"{base}/messages", recipient=destino, message={"text": msg})
+            except ErrorAPI as e:
+                ultimo = e
+        raise ultimo
+    return api("POST", f"{ag.secreto('FB_PAGE_ID')}/messages", recipient=destino, message={"text": msg}, messaging_type="RESPONSE")
+
+
+def responder_publico(item, texto):
+    """Respuesta pública breve bajo el comentario (avisa de que se ha enviado el mensaje)."""
+    try:
+        ruta = f"{item['id']}/replies" if item["plataforma"] == "instagram" else f"{item['id']}/comments"
+        api("POST", ruta, message=texto)
+    except ErrorAPI as e:
+        print(f"AVISO respuesta pública: {e}")
+
+
 def responder_clave(item, tipo_agenda):
     if tipo_agenda == "propuesta":  # un organizador propone un evento: se agradece y se deja pendiente para que el agente lo verifique
         item["propuesta_evento"] = True
-        msg = TEXTO_PROPUESTA
-        if item["plataforma"] == "instagram":
-            api("POST", f"{ag.secreto('IG_USER_ID')}/messages", recipient={"comment_id": item["id"]}, message={"text": msg})
-        else:
-            api("POST", f"{ag.secreto('FB_PAGE_ID')}/messages", recipient={"comment_id": item["id"]}, message={"text": msg}, messaging_type="RESPONSE")
+        mensaje_privado(item, TEXTO_PROPUESTA)
+        responder_publico(item, "¡Gracias! Te hemos escrito por mensaje privado 📩")
         return False  # no se cierra: queda pendiente (el agente verifica la propuesta con las fuentes)
     texto = agenda_para(tipo_agenda)
     if not texto:
         return False
     msg = f"¡Hola! Aquí tienes la agenda de Cádiz 👇\n\n{texto}\n\nGuárdala y compártela con alguien. ¡Nos vemos por la ciudad!"
-    if item["plataforma"] == "instagram":
-        api("POST", f"{ag.secreto('IG_USER_ID')}/messages", recipient={"comment_id": item["id"]}, message={"text": msg})
-    else:
-        api("POST", f"{ag.secreto('FB_PAGE_ID')}/messages", recipient={"comment_id": item["id"]}, message={"text": msg}, messaging_type="RESPONSE")
+    if item["tipo"] == "mensaje":  # ya es una conversación: se contesta directamente
+        api("POST", f"{ag.secreto('FB_PAGE_ID')}/messages", recipient={"id": item["autor_id"]}, message={"text": msg}, messaging_type="RESPONSE")
+        return True
+    mensaje_privado(item, msg)
+    responder_publico(item, "¡Enviado! Revisa tus mensajes 📩")
     return True
 
 
@@ -109,6 +131,30 @@ def enviar_respuesta(item, texto):
         api("POST", f"{ag.secreto('FB_PAGE_ID')}/messages", recipient={"id": item["autor_id"]}, message={"text": texto}, messaging_type="RESPONSE")
 
 
+MAX_DIAS = 3  # lo más antiguo es histórico: se marca como visto sin responder ni avisar
+
+
+def es_reciente(ts):
+    from datetime import datetime, timezone, timedelta
+    try:
+        t = datetime.strptime(ts.replace("Z", "+0000"), "%Y-%m-%dT%H:%M:%S%z")
+    except (ValueError, AttributeError):
+        return True
+    return t > datetime.now(timezone.utc) - timedelta(days=MAX_DIAS)
+
+
+def avisar(it, estado):
+    """Email por CADA comentario o mensaje nuevo (asunto con el texto, enlace y qué se ha hecho). Una sola vez por comentario."""
+    ya = set(ag.cargar_json(AVISADOS, []))
+    if it["id"] in ya:
+        return
+    ya.add(it["id"]); ag.guardar_json(AVISADOS, sorted(ya))
+    quien = it.get("autor") or "alguien"
+    cuerpo = (f"{it['plataforma'].capitalize()} · {it['tipo']} de {quien}\n\n«{it['texto']}»\n\nEnlace: {it.get('enlace') or 'bandeja de mensajes'}\n"
+              f"Fecha: {it.get('ts')}\n\nEstado: {estado}")
+    notificar.enviar(f"Nuevo {it['tipo']} en {it['plataforma']}: «{it['texto'][:50]}»", cuerpo)
+
+
 def recoger():
     visto = set(ag.cargar_json(VISTOS, []))
     pendientes = {p["id"]: p for p in ag.cargar_json(PENDIENTES, [])}
@@ -118,17 +164,32 @@ def recoger():
             items += fuente()
         except ErrorAPI as e:
             print(f"AVISO lectura: {e}")
-    nuevos = [i for i in items if i["id"] not in visto]
+    marca = ag.cargar_json(ag.RAIZ / "marca.json", {}) or {}
+    propio = (marca.get("usuario") or "@planesencadiz").lstrip("@").lower()
     publicar = ag.modo() == "publicar"
+    nuevos = []
+    for i in items:
+        if i["id"] in visto:
+            continue
+        if (i.get("autor") or "").lower() in (propio, "planes en cádiz · agenda diaria") or not (i.get("texto") or "").strip() or not es_reciente(i.get("ts")):
+            visto.add(i["id"]); continue  # nuestras propias respuestas, vacíos e histórico
+        nuevos.append(i)
     for it in nuevos:
         clave = next((k for k in claves() if re.search(rf"\b{re.escape(k)}\b", it["texto"], re.I)), None)
+        estado = "pendiente de revisión por el agente"
         if clave and publicar:
             try:
                 if responder_clave(it, claves()[clave]):
-                    visto.add(it["id"]); print(f"Palabra clave {clave}: respondido {it['id']}"); continue
+                    visto.add(it["id"]); estado = f"respondido automáticamente (palabra clave {clave})"
+                    print(f"Palabra clave {clave}: respondido {it['id']}")
+                    avisar(it, estado); continue
             except ErrorAPI as e:
+                estado = f"FALLO al responder la palabra clave {clave}: {e}"
                 print(f"Fallo al responder palabra clave: {e}")
+        elif clave:
+            estado = f"palabra clave {clave} detectada; MODO=borrador: no se responde"
         pendientes[it["id"]] = it  # en borrador todo queda pendiente (incluidas las palabras clave); no se marca como visto
+        avisar(it, estado)
     ag.guardar_json(PENDIENTES, list(pendientes.values()))
     ag.guardar_json(VISTOS, sorted(visto))
     print(f"{len(nuevos)} nuevos; {len(pendientes)} pendientes de revisar por el agente (registros/pendientes.json)")
