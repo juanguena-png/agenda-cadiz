@@ -1,0 +1,123 @@
+{
+  "fecha": "2026-10-25",
+  "tipo": "finde",
+  "eventos": [
+    {
+      "id": "south-series",
+      "nombre": "IV South International Series Festival",
+      "categoria": "otros",
+      "fecha": "2026-10-30",
+      "fecha_txt": "30 oct – 4 nov",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": true,
+      "lugar": "Gran Teatro Falla y Teatro del Títere La Tía Norica",
+      "direccion": "Plaza de Fragela s/n y C/ San Miguel, 5, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "El festival de series de Cádiz vuelve con más de 30 títulos y 18 estrenos, invitados y la sección profesional en la Casa de Iberoamérica. Abre «American Hostage» y cierra la segunda temporada de «Física o Química».",
+      "info": "Programación y entradas en southseriesfest.com",
+      "imagen": {
+        "archivo": "img/south-series.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-03/SouthCadiz.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Imagen oficial del South International Series Festival de Cádiz",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/iv-south-international-series-festival-2026"
+        },
+        {
+          "nombre": "Vivir Ediciones (sedes)",
+          "url": "https://vivirediciones.es/south-festival-2026-cadiz-programacion/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Festival en Cádiz; sedes principales Gran Teatro Falla y Teatro del Títere La Tía Norica (C/ San Miguel, 5, Cádiz)",
+        "url": "https://vivirediciones.es/south-festival-2026-cadiz-programacion/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "ory-vilar",
+      "nombre": "Elaine Vilar Madruga · Jornadas de la Fundación Ory",
+      "categoria": "otros",
+      "fecha": "2026-10-30",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Carlos Edmundo de Ory",
+      "direccion": "Calle Ancha, 16, Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "descripcion": "La escritora cubana habla de su obra, que usa el terror para pensar el feminismo y el poder, y presenta «La piel hembra» dentro de las jornadas dedicadas a Lo inquietante.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/ory-vilar.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/elaine_vilar.jpg.webp",
+        "fuente": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+        "alt_text": "Fotografía de la escritora Elaine Vilar Madruga",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-elaine-vilar-madruga-participa-en-el-ciclo-las-xv-jornadas-de-la-fundacion-ory"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Carlos Edmundo de Ory, Calle Ancha, nº 16, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-elaine-vilar-madruga-participa-en-el-ciclo-las-xv-jornadas-de-la-fundacion-ory"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "tertulia-acropolis",
+      "nombre": "Tertulia filosófica «El arte de decidir bien»",
+      "categoria": "otros",
+      "fecha": "2026-10-30",
+      "hora_inicio": "20:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Adultos",
+      "descripcion": "Una hora de conversación presencial sobre las claves filosóficas para elegir con inteligencia y libertad.",
+      "info": "Inscripción en Eventbrite",
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/tertulia-acropolis-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Tertulia filosófica «El arte de decidir bien»»: composición con libro, marco en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Eventbrite (organizador: Nueva Acrópolis Cádiz)",
+          "url": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004 Cádiz",
+        "url": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371"
+      },
+      "etiquetas_ig": [],
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "noche"
+      }
+    }
+  ]
+}
