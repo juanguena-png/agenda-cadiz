@@ -145,14 +145,15 @@
         "fondo": "noche"
       },
       "imagen": {
-        "archivo": "posts/2026-10-29/img/halloween-plazuela-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "calabaza",
-          "castillo"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Halloween · La Plazuela del Truco o Trato»: composición con calabaza, castillo en azul mar, blanco y amarillo"
+        "archivo": "img/halloween-plazuela.jpg",
+        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
+        "fuente": "ondacadiz.es",
+        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
+        "ancho": 1054,
+        "alto": 592,
+        "alt_text": "Ilustración de «Halloween · La Plazuela del Truco o Trato»: composición con calabaza, castillo en azul mar, blanco y amarillo",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
       },
       "verificacion_cadiz_capital": {
         "confirmado": true,
@@ -197,14 +198,15 @@
         "fondo": "noche"
       },
       "imagen": {
-        "archivo": "posts/2026-10-29/img/halloween-matadero13-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "antifaz",
-          "calabaza"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Halloween · Matadero 13, pasaje del terror»: composición con antifaz, calabaza en azul mar, blanco y amarillo"
+        "archivo": "img/halloween-matadero13.jpg",
+        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
+        "fuente": "ondacadiz.es",
+        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
+        "ancho": 1054,
+        "alto": 592,
+        "alt_text": "Ilustración de «Halloween · Matadero 13, pasaje del terror»: composición con antifaz, calabaza en azul mar, blanco y amarillo",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
       },
       "verificacion_cadiz_capital": {
         "confirmado": true,

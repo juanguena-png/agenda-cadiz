@@ -5,6 +5,14 @@
     {
       "archivo": "01.png",
       "tipo": "portada",
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica",
+        "ayuntamientocadiz",
+        "juventudcadiz",
+        "fundacionory"
+      ],
       "alt_text": "Portada de Planes en Cádiz: Planes del finde, 30 oct – 1 nov. 6 planes."
     },
     {
@@ -12,6 +20,11 @@
       "tipo": "eventos",
       "ids": [
         "south-series"
+      ],
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
       ],
       "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
     },
@@ -21,6 +34,10 @@
       "ids": [
         "halloween-plazuela"
       ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz"
+      ],
       "alt_text": "Eventos: Halloween · La Plazuela del Truco o Trato (17:00, Baluarte de la Candelaria)"
     },
     {
@@ -28,6 +45,9 @@
       "tipo": "eventos",
       "ids": [
         "ory-vilar"
+      ],
+      "etiquetas": [
+        "fundacionory"
       ],
       "alt_text": "Eventos: Elaine Vilar Madruga · Jornadas de la Fundación Ory (19:00, Fundación Carlos Edmundo de Ory)"
     },
@@ -37,6 +57,10 @@
       "ids": [
         "halloween-matadero13"
       ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz"
+      ],
       "alt_text": "Eventos: Halloween · Matadero 13, pasaje del terror (19:30, Antigua Casa del Niño Jesús (Matadero 13))"
     },
     {
@@ -45,6 +69,7 @@
       "ids": [
         "tertulia-acropolis"
       ],
+      "etiquetas": [],
       "alt_text": "Eventos: Tertulia filosófica «El arte de decidir bien» (20:00, Nueva Acrópolis Cádiz)"
     },
     {
@@ -52,6 +77,9 @@
       "tipo": "eventos",
       "ids": [
         "halloween-desfile"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
       ],
       "alt_text": "Eventos: Halloween · Desfile «El triunfo del nuevo orden» (19:30, Calles del centro de Cádiz)"
     }

@@ -74,15 +74,18 @@ def resolver_imagenes(eventos, carpeta):
             # Antes de ilustrar, SE INTENTA SIEMPRE la imagen oficial en las fichas de las fuentes del evento (regla 7), sin depender del agente
             try:
                 import imagenes
-                for f in ev.get("fuentes") or []:
-                    url = f.get("url") or ""
-                    if not url.startswith("http"):
-                        continue
-                    r_ = imagenes.buscar_y_descargar(url, ev.get("id") or "evento", Path(carpeta))
-                    if r_ and "archivo" in r_:
-                        r_["alt_text"] = img.get("alt_text") or f"Cartel o imagen oficial de {ev.get('nombre', 'evento')}"
-                        img.clear(); img.update(r_)
-                        ruta = Path(carpeta) / r_["archivo"]
+                urls = [f.get("url") for f in ev.get("fuentes") or [] if (f.get("url") or "").startswith("http")]
+                urls += [u for u in (ev.get("imagenes_extra") or []) if u.startswith("http")]  # páginas relacionadas con el evento que haya encontrado el agente
+                # Prioridad: 1) imagen oficial · 2) cualquier otra imagen relacionada con el evento (prensa, entradas, agregadores…) · 3) logotipo · 4) ilustración propia (último recurso)
+                for nivel in ("oficial", "cualquiera", "logo"):
+                    for url in urls:
+                        r_ = imagenes.buscar_y_descargar(url, ev.get("id") or "evento", Path(carpeta), nivel=nivel)
+                        if r_ and "archivo" in r_:
+                            r_["alt_text"] = img.get("alt_text") or f"Imagen de {ev.get('nombre', 'evento')}"
+                            img.clear(); img.update(r_)
+                            ruta = Path(carpeta) / r_["archivo"]
+                            break
+                    if ruta is not None:
                         break
             except Exception as e_:
                 print(f"AVISO imagen oficial de {ev.get('id')}: {e_}")

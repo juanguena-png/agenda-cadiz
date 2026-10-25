@@ -28,6 +28,8 @@ NO_OFICIAL = ("instagram.", "facebook.", "fbcdn.", "twitter.", "x.com", "tiktok.
 # Se aplica solo al nombre/ruta del archivo (los dominios de redes sociales ya se rechazan en NO_OFICIAL). Ojo: «instagram» NO se excluye en la ruta:
 # muchos carteles oficiales se llaman «…-post-instagram-vertical.jpg» (Casa de Iberoamérica).
 EXCLUIR = re.compile(r"logo|icon|favicon|sprite|avatar|cookies|mapacontenidos|placeholder|share|/themes/|/modules/|iso-face|/img/front/|/assets/|cab-pagina-informativa|header_page", re.I)
+# En el nivel «logo» sí se admiten logotipos (del organizador, recinto o festival), pero no iconos ni elementos de la web
+EXCLUIR_LOGO = re.compile(r"icon|favicon|sprite|avatar|cookies|mapacontenidos|placeholder|share|/themes/|/modules/|iso-face|/assets/|cab-pagina-informativa|header_page|facebook|twitter|instagram\.png|whatsapp", re.I)
 # CDN de los constructores de webs: sirven las imágenes de la web del propio organizador (p. ej. Wix → static.wixstatic.com)
 CDN_PROPIOS = ("wixstatic.com", "squarespace-cdn.com", "squarespace.com", "cdn.shopify.com", "llt-services.com")  # llt-services = CDN de las webs oficiales de clubes (cadizcf.com)
 
@@ -37,8 +39,14 @@ def original_drupal(url):
     return re.sub(r"/styles/[^/]+/public/", "/", url).split("?")[0]
 
 
-def es_oficial(url_imagen, url_pagina):
+# Redes sociales: nunca se descargan imágenes de ahí (scraping de IG/FB prohibido por CLAUDE.md y por las normas de Meta)
+REDES = ("instagram.", "facebook.", "fbcdn.", "cdninstagram", "twitter.", "x.com", "twimg.", "tiktok.", "threads.net")
+
+
+def es_oficial(url_imagen, url_pagina, nivel="oficial"):
     host = urlparse(url_imagen).netloc.lower()
+    if nivel != "oficial":  # «cualquiera» y «logo»: cualquier web relacionada con el evento (prensa, entradas, agregadores…), salvo redes sociales
+        return not any(x in host for x in REDES)
     if any(x in host for x in NO_OFICIAL):
         return False
     h_p = urlparse(url_pagina).netloc.lower()
@@ -48,7 +56,7 @@ def es_oficial(url_imagen, url_pagina):
     return raiz(host) == raiz(h_p)  # misma web que la página oficial del evento
 
 
-def candidatas(html, url_pagina):
+def candidatas(html, url_pagina, nivel="oficial"):
     """URLs de imagen del contenido de la página (og:image primero, luego imágenes del cuerpo), solo del mismo dominio oficial."""
     s = BeautifulSoup(html, "lxml")
     out = []
@@ -63,7 +71,8 @@ def candidatas(html, url_pagina):
     vistos, res = set(), []
     for u in out:
         o = original_drupal(u) if "/styles/" in u else u
-        if o not in vistos and es_oficial(o, url_pagina) and not EXCLUIR.search(urlparse(o).path):
+        excl = EXCLUIR_LOGO if nivel == "logo" else EXCLUIR
+        if o not in vistos and es_oficial(o, url_pagina, nivel) and not excl.search(urlparse(o).path):
             vistos.add(o); res.append(o)
             if u != o and u not in vistos:
                 res.append(u)  # la miniatura como respaldo si el original no existe
@@ -83,7 +92,7 @@ def parece_logo(im):
         return False
 
 
-def descargar(url, destino, referer=None):
+def descargar(url, destino, referer=None, permitir_logo=False):
     """Descarga y valida (imagen real, ancho >= MIN_ANCHO). Guarda JPEG. Devuelve dict o None."""
     try:
         r = requests.get(url, headers={**UA, **({"Referer": referer} if referer else {})}, timeout=30)
@@ -95,7 +104,7 @@ def descargar(url, destino, referer=None):
         return None
     if im.width < MIN_ANCHO:
         return {"descartada": f"ancho {im.width}px < {MIN_ANCHO}px", "url": url}
-    if parece_logo(im):
+    if parece_logo(im) and not permitir_logo:
         return {"descartada": "parece un logotipo (fondo transparente/blanco liso), no un cartel del evento", "url": url}
     if im.height and im.width / im.height > 3.5:
         return {"descartada": f"banner genérico (proporción {im.width}x{im.height})", "url": url}
@@ -123,9 +132,9 @@ def html_con_navegador(url):
         return None
 
 
-def buscar_y_descargar(url_pagina, id_, carpeta, html=None):
+def buscar_y_descargar(url_pagina, id_, carpeta, html=None, nivel="oficial"):
     """Prueba las imágenes candidatas de la página en orden hasta que una sea válida. Devuelve el bloque `imagen` de eventos.json o None."""
-    if urlparse(url_pagina).path in ("", "/"):
+    if nivel != "logo" and urlparse(url_pagina).path in ("", "/"):
         return {"error": "la fuente es la página de inicio, no la ficha del evento: sus imágenes no son del evento"}
     try:
         r_ = None if html else requests.get(url_pagina, headers=UA, timeout=30)
@@ -140,11 +149,11 @@ def buscar_y_descargar(url_pagina, id_, carpeta, html=None):
             return None
     destino = carpeta / "img" / f"{id_}.jpg"
     motivos = []
-    for u in candidatas(html, url_pagina)[:8]:
-        res = descargar(u, destino, referer=url_pagina)
+    for u in candidatas(html, url_pagina, nivel)[:8]:
+        res = descargar(u, destino, referer=url_pagina, permitir_logo=(nivel == "logo"))
         if res and "ancho" in res:
             host = urlparse(url_pagina).netloc
-            return {"archivo": f"img/{id_}.jpg", "url_origen": u, "fuente": host, "pagina": url_pagina, "ancho": res["ancho"], "alto": res["alto"], "alt_text": ""}
+            return {"archivo": f"img/{id_}.jpg", "url_origen": u, "fuente": host, "pagina": url_pagina, "ancho": res["ancho"], "alto": res["alto"], "alt_text": "", "tipo_imagen": nivel}
         if res:
             motivos.append(res["descartada"])
     return {"error": "; ".join(motivos) or "sin imagen oficial descargable"}
@@ -155,5 +164,7 @@ if __name__ == "__main__":
     ap.add_argument("--url", required=True)
     ap.add_argument("--id", required=True)
     ap.add_argument("--fecha", default=ag.hoy().isoformat())
+    ap.add_argument("--nivel", choices=["oficial", "cualquiera", "logo"], default="oficial",
+                    help="oficial: web del organizador/Ayuntamiento · cualquiera: cualquier web relacionada con el evento (prensa, entradas, agregadores; nunca redes sociales) · logo: admite logotipos")
     a = ap.parse_args()
-    print(buscar_y_descargar(a.url, a.id, ag.dir_dia(a.fecha)))
+    print(buscar_y_descargar(a.url, a.id, ag.dir_dia(a.fecha), nivel=a.nivel))

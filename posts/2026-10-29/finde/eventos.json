@@ -90,14 +90,15 @@
       "descripcion": "Una hora de conversación presencial sobre las claves filosóficas para elegir con inteligencia y libertad.",
       "info": "Inscripción en Eventbrite",
       "imagen": {
-        "archivo": "posts/2026-10-29/finde/img/tertulia-acropolis-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "libro",
-          "marco"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Tertulia filosófica «El arte de decidir bien»»: composición con libro, marco en azul mar, blanco y amarillo"
+        "archivo": "img/tertulia-acropolis.jpg",
+        "url_origen": "https://www.eventbrite.es/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1191693159%252F221612058906%252F1%252Foriginal.20260823-115815%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D68368ebc8e63749e1742317d64c9f592&w=940&q=75",
+        "fuente": "www.eventbrite.es",
+        "pagina": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371",
+        "ancho": 940,
+        "alto": 529,
+        "alt_text": "Ilustración de «Tertulia filosófica «El arte de decidir bien»»: composición con libro, marco en azul mar, blanco y amarillo",
+        "tipo_imagen": "cualquiera",
+        "ajuste": "contain"
       },
       "fuentes": [
         {
@@ -157,14 +158,15 @@
         "fondo": "noche"
       },
       "imagen": {
-        "archivo": "posts/2026-10-29/finde/img/halloween-plazuela-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "calabaza",
-          "castillo"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Halloween · La Plazuela del Truco o Trato»: composición con calabaza, castillo en azul mar, blanco y amarillo"
+        "archivo": "img/halloween-plazuela.jpg",
+        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
+        "fuente": "ondacadiz.es",
+        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
+        "ancho": 1054,
+        "alto": 592,
+        "alt_text": "Ilustración de «Halloween · La Plazuela del Truco o Trato»: composición con calabaza, castillo en azul mar, blanco y amarillo",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
       },
       "verificacion_cadiz_capital": {
         "confirmado": true,
@@ -210,14 +212,15 @@
         "fondo": "noche"
       },
       "imagen": {
-        "archivo": "posts/2026-10-29/finde/img/halloween-matadero13-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "antifaz",
-          "calabaza"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Halloween · Matadero 13, pasaje del terror»: composición con antifaz, calabaza en azul mar, blanco y amarillo"
+        "archivo": "img/halloween-matadero13.jpg",
+        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
+        "fuente": "ondacadiz.es",
+        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
+        "ancho": 1054,
+        "alto": 592,
+        "alt_text": "Ilustración de «Halloween · Matadero 13, pasaje del terror»: composición con antifaz, calabaza en azul mar, blanco y amarillo",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
       },
       "verificacion_cadiz_capital": {
         "confirmado": true,
@@ -262,14 +265,15 @@
         "fondo": "noche"
       },
       "imagen": {
-        "archivo": "posts/2026-10-29/finde/img/halloween-desfile-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "máscaras",
-          "confeti"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Halloween · Desfile «El triunfo del nuevo orden»»: composición con máscaras, confeti en azul mar, blanco y amarillo"
+        "archivo": "img/halloween-desfile.jpg",
+        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
+        "fuente": "ondacadiz.es",
+        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
+        "ancho": 1054,
+        "alto": 592,
+        "alt_text": "Ilustración de «Halloween · Desfile «El triunfo del nuevo orden»»: composición con máscaras, confeti en azul mar, blanco y amarillo",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
       },
       "verificacion_cadiz_capital": {
         "confirmado": true,
