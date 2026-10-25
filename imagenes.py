@@ -17,7 +17,7 @@ from PIL import Image
 
 import agenda as ag
 
-MIN_ANCHO = 400
+MIN_ANCHO = 240  # carteles oficiales pequeños (p. ej. 262x350 de la Casa de Iberoamérica) valen: se muestran enteros (contain) sobre fondo desenfocado
 MAX_LADO = 1600
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
       "Accept-Language": "es-ES,es;q=0.9"}
@@ -25,7 +25,11 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 NO_OFICIAL = ("instagram.", "facebook.", "fbcdn.", "twitter.", "x.com", "tiktok.", "youtube.", "ytimg.", "eventbrite", "evbuc.", "ticketmaster",
               "entradium", "giglon", "diariodecadiz", "lavozdigital", "cadizdirecto", "diariobahiadecadiz", "vivacadiz", "andaluciainformacion",
               "hoycadiz", "guiadecadiz", "google.", "gstatic.", "wp.com", "gravatar")
-EXCLUIR = re.compile(r"logo|icon|favicon|sprite|avatar|cookies|mapacontenidos|placeholder|share|/themes/|/modules/|facebook|twitter|instagram|iso-face|/img/front/|/assets/|cab-pagina-informativa|header_page", re.I)
+# Se aplica solo al nombre/ruta del archivo (los dominios de redes sociales ya se rechazan en NO_OFICIAL). Ojo: «instagram» NO se excluye en la ruta:
+# muchos carteles oficiales se llaman «…-post-instagram-vertical.jpg» (Casa de Iberoamérica).
+EXCLUIR = re.compile(r"logo|icon|favicon|sprite|avatar|cookies|mapacontenidos|placeholder|share|/themes/|/modules/|iso-face|/img/front/|/assets/|cab-pagina-informativa|header_page", re.I)
+# CDN de los constructores de webs: sirven las imágenes de la web del propio organizador (p. ej. Wix → static.wixstatic.com)
+CDN_PROPIOS = ("wixstatic.com", "squarespace-cdn.com", "squarespace.com", "cdn.shopify.com")
 
 
 def original_drupal(url):
@@ -39,6 +43,8 @@ def es_oficial(url_imagen, url_pagina):
         return False
     h_p = urlparse(url_pagina).netloc.lower()
     raiz = lambda h: ".".join(h.split(".")[-2:])
+    if any(host.endswith(c) for c in CDN_PROPIOS) and not any(x in h_p for x in NO_OFICIAL):
+        return True  # la página es del organizador y la imagen sale del CDN de su constructor de webs
     return raiz(host) == raiz(h_p)  # misma web que la página oficial del evento
 
 
@@ -64,6 +70,19 @@ def candidatas(html, url_pagina):
     return res
 
 
+def parece_logo(im):
+    """Heurística: un logotipo tiene gran parte transparente o casi blanca y pocos colores; un cartel o una foto no."""
+    try:
+        peq = im.convert("RGBA").resize((96, 96))
+        px = list(peq.getdata())
+        transp = sum(1 for p in px if p[3] < 40) / len(px)
+        blanco = sum(1 for p in px if p[3] >= 40 and min(p[:3]) > 235) / len(px)
+        colores = len({(p[0] // 32, p[1] // 32, p[2] // 32) for p in px if p[3] >= 40})
+        return transp > 0.35 or (blanco + transp > 0.55 and colores < 25)
+    except Exception:
+        return False
+
+
 def descargar(url, destino, referer=None):
     """Descarga y valida (imagen real, ancho >= MIN_ANCHO). Guarda JPEG. Devuelve dict o None."""
     try:
@@ -76,6 +95,8 @@ def descargar(url, destino, referer=None):
         return None
     if im.width < MIN_ANCHO:
         return {"descartada": f"ancho {im.width}px < {MIN_ANCHO}px", "url": url}
+    if parece_logo(im):
+        return {"descartada": "parece un logotipo (fondo transparente/blanco liso), no un cartel del evento", "url": url}
     if im.height and im.width / im.height > 3.5:
         return {"descartada": f"banner genérico (proporción {im.width}x{im.height})", "url": url}
     if im.mode in ("RGBA", "LA", "P"):
@@ -91,6 +112,8 @@ def descargar(url, destino, referer=None):
 
 def buscar_y_descargar(url_pagina, id_, carpeta, html=None):
     """Prueba las imágenes candidatas de la página en orden hasta que una sea válida. Devuelve el bloque `imagen` de eventos.json o None."""
+    if urlparse(url_pagina).path in ("", "/"):
+        return {"error": "la fuente es la página de inicio, no la ficha del evento: sus imágenes no son del evento"}
     try:
         html = html or requests.get(url_pagina, headers=UA, timeout=30).text
     except requests.RequestException:

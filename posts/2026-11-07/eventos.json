@@ -17,15 +17,14 @@
       "descripcion": "Ruta del galeón contada con 27 mantones de colección, una maqueta de galeón y obras del Museo Cruz Herrera. Los sábados abre hasta las 14:00.",
       "info": "Hasta el 9 de enero · casadeiberoamerica.es",
       "imagen": {
-        "archivo": "posts/2026-11-07/img/cdi-manton-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "mantón",
-          "marco",
-          "barco"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo"
+        "archivo": "img/cdi-manton.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/10/mantonmanila-post-instagram-vertical.jpg",
+        "fuente": "www.casadeiberoamerica.es",
+        "pagina": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+        "ancho": 262,
+        "alto": 350,
+        "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo",
+        "ajuste": "contain"
       },
       "fuentes": [
         {
@@ -127,14 +126,14 @@
       "descripcion": "Concierto de El Capullo de Jerez en la sala Momart Theatre. Quedan pocas entradas.",
       "info": "Entradas en taquilla.com",
       "imagen": {
-        "archivo": "posts/2026-11-07/img/capullo-momart-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "flamenco",
-          "micrófono"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «El Capullo de Jerez en concierto»: composición con flamenco, micrófono en azul mar, blanco y amarillo"
+        "archivo": "img/capullo-momart.jpg",
+        "url_origen": "https://cd1.taquilla.com/data/images/t/77/momart.webp",
+        "fuente": "www.taquilla.com",
+        "pagina": "https://www.taquilla.com/cadiz/momart-cadiz-11003",
+        "ancho": 1100,
+        "alto": 734,
+        "alt_text": "Ilustración de «El Capullo de Jerez en concierto»: composición con flamenco, micrófono en azul mar, blanco y amarillo",
+        "ajuste": "contain"
       },
       "ilustracion": {
         "motivos": [

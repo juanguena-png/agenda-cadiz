@@ -60,6 +60,24 @@ def resolver_imagenes(eventos, carpeta):
         img = ev.setdefault("imagen", {})
         cand = [Path(carpeta) / img.get("archivo", "_"), ag.RAIZ / img.get("archivo", "_")]
         ruta = next((c for c in cand if img.get("archivo") and c.is_file()), None)
+        if img.get("generada") and not ev.get("sin_imagen_oficial"):
+            ruta = None  # una ilustración guardada de un render anterior se vuelve a cambiar por la imagen oficial si ya existe
+        if ruta is None and not ev.get("sin_imagen_oficial"):
+            # Antes de ilustrar, SE INTENTA SIEMPRE la imagen oficial en las fichas de las fuentes del evento (regla 7), sin depender del agente
+            try:
+                import imagenes
+                for f in ev.get("fuentes") or []:
+                    url = f.get("url") or ""
+                    if not url.startswith("http"):
+                        continue
+                    r_ = imagenes.buscar_y_descargar(url, ev.get("id") or "evento", Path(carpeta))
+                    if r_ and "archivo" in r_:
+                        r_["alt_text"] = img.get("alt_text") or f"Cartel o imagen oficial de {ev.get('nombre', 'evento')}"
+                        img.clear(); img.update(r_)
+                        ruta = Path(carpeta) / r_["archivo"]
+                        break
+            except Exception as e_:
+                print(f"AVISO imagen oficial de {ev.get('id')}: {e_}")
         if ruta is None:
             # Sin imagen oficial: ilustración PROPIA relacionada con el evento (ilustrar.py). La genérica de categoría es el último recurso.
             try:

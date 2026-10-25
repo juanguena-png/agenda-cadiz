@@ -5,6 +5,11 @@
     {
       "archivo": "01.png",
       "tipo": "portada",
+      "etiquetas": [
+        "casadeiberoamerica",
+        "teatrofalla",
+        "cadizguitarfestival"
+      ],
       "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, sábado 7 de noviembre. 5 planes."
     },
     {
@@ -12,6 +17,9 @@
       "tipo": "eventos",
       "ids": [
         "cdi-manton"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica"
       ],
       "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
     },
@@ -21,6 +29,9 @@
       "ids": [
         "vicente-amigo"
       ],
+      "etiquetas": [
+        "teatrofalla"
+      ],
       "alt_text": "Eventos: Vicente Amigo · Andenes del tiempo (20:00, Gran Teatro Falla)"
     },
     {
@@ -29,6 +40,7 @@
       "ids": [
         "diexo-sin-plan-b"
       ],
+      "etiquetas": [],
       "alt_text": "Eventos: Diexo · Presentación de «Sin plan B» (21:00, Sala Soho Alternative)"
     },
     {
@@ -37,6 +49,7 @@
       "ids": [
         "capullo-momart"
       ],
+      "etiquetas": [],
       "alt_text": "Eventos: El Capullo de Jerez en concierto (21:00, Momart Theatre)"
     },
     {
@@ -44,6 +57,9 @@
       "tipo": "eventos",
       "ids": [
         "cgf-hurtado"
+      ],
+      "etiquetas": [
+        "cadizguitarfestival"
       ],
       "alt_text": "Eventos: Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival (22:30, Casino Gaditano (patio interior))"
     }
