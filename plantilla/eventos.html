@@ -29,8 +29,8 @@ async function render(d){
     const fechaTxt=d.mostrar_fecha?fechaCorta(ev.fecha)+" · ":"";
     const compacto=n>=5;
     const linea=`<b class="hora">${esc(fechaTxt+horaTxt(ev))}</b> · ${esc(ev.lugar)}${n<=6?" · "+esc(precioTxt(ev)):""}`;
-    return `<div class="ev"><div class="foto" style="background-image:${foto(ev)}" role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
-      <div class="txt">${n<=4?`<span class="chip alt">${esc(ev.categoria)}</span>`:""}
+    return `<div class="ev"><div class="foto" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
+      <div class="txt">${n<=4?`<span class="chip alt">${esc(ev.etiqueta||ev.categoria)}</span>`:""}
         <h2 class="${n<=2?'clamp3':'clamp2'}">${esc(ev.nombre)}</h2>
         ${compacto?`<div class="meta ${n<=6?'clamp2':'clamp1'}">${linea}</div>`:
         `<div class="hora">${esc(fechaTxt+horaTxt(ev))}</div><div class="meta clamp2">${esc(ev.lugar)}</div><div class="meta">${esc(precioTxt(ev))}</div>`}

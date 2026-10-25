@@ -28,3 +28,10 @@ function ajustar(maxAncho) { // reduce el tamaño de la ciudad hasta que quepa (
     while (c.scrollWidth > (l.dataset.max || maxAncho) && s > 24) { s -= 2; l.style.fontSize = s + "px"; }
   });
 }
+
+// Foto de evento: cover por defecto; "contain" (con fondo desenfocado) para carteles verticales o imágenes pequeñas
+function fotoAttrs(ev) {
+  const u = foto(ev), im = ev.imagen || {};
+  const aj = im.ajuste === "contain" ? "contain" : "cover";
+  return `style="--img:${u};background-image:${u}" data-aj="${aj}"`;
+}

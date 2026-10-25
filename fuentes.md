@@ -2,6 +2,8 @@
 
 Se scrapean todas en cada ejecución (`recopilar.py`, definidas en `fuentes.json`) y `registros/fuentes.log` guarda cuáles respondieron y cuáles fallaron. **Prohibido** hacer scraping de Instagram o Facebook. Prioridad para contrastar: oficiales > recintos > venta de entradas > prensa > agregadores. Ninguna fuente exime de la **comprobación de Cádiz capital** (CLAUDE.md, regla 1).
 
+**Actualización 2026-10-25 (fuentes oficiales ordinarias):** la agenda oficial real del Ayuntamiento está en `https://institucional.cadiz.es/programacion_cultural` (listado paginado + fichas `/evento/...` con fecha, horario, precio, dirección e imagen) y en `https://turismo.cadiz.es/eventos/all?categoria=All` (calendario mensual con `?mini=AAAA-MM`; fichas `/es/evento/...`). Deporte municipal: `https://deporte.cadiz.es/eventos`. Onda Cádiz responde en `https://ondacadiz.es/` (sin `www`). Ambas agendas incluyen muchos eventos «permanentes» (rutas, exposiciones fijas) que se tratan aparte (CLAUDE.md). Se han añadido fuentes 26-33 (Teatro Pemán, Noches Clásicas, Patrimonio Flamenco, Festival del Títere, Cádiz en Danza, UCA eventos y extensión, Fundación Unicaja).
+
 Estado de verificación comprobado el 2026-10-25 desde el entorno cloud (HTTP + contenido):
 
 | # | Fuente | Tipo | URL de trabajo | Estado |

@@ -31,3 +31,9 @@ h1, h2, .titulo { font-family: var(--f-titulo); font-weight: var(--peso-t); text
 .logo .ciudad { font-family: var(--f-titulo); font-weight: var(--peso-t); font-size: 1em; white-space: nowrap; color: var(--c-texto); text-transform: var(--mayus); }
 .logo.mini { flex-direction: row; align-items: baseline; gap: .3em; }
 .logo.mini .pre { margin: 0; font-size: .7em; } .logo.mini .ciudad { font-size: 1em; }
+
+/* Fotos de evento: "contain" muestra el cartel completo sobre un fondo desenfocado de la misma imagen */
+.foto[data-aj="contain"] { background-image: none !important; position: relative; overflow: hidden; }
+.foto[data-aj="contain"]::before { content: ""; position: absolute; inset: -30px; background: var(--img) center/cover; filter: blur(22px) brightness(.9); }
+.foto[data-aj="contain"]::after { content: ""; position: absolute; inset: 0; background: var(--img) center/contain no-repeat; }
+.chip.etq { background: var(--c-acento-2); color: var(--c-sobre-acento-2); }

@@ -16,7 +16,7 @@ Fuente de verdad en código: `marca.json` (tema, prefijo, ciudad, usuario) + `pl
 | Texto secundario | `#3B566D` |
 | Mar (acento, chips, «PLANES EN») | `#0E6BA8` |
 | Mar medio (horas y fechas sobre blanco) | `#0B5F95` |
-| Portada: degradado mar | `#0A5A94` → `#083F6B` |
+| Portada: degradado mar (variante 0 de 7, ver «Portada con color rotatorio») | `#0A5A94` → `#083F6B` |
 | Sol (relleno de acento; texto sobre él: `#0A2E4D`) | `#FFC62B` |
 | Tarjeta | `#FFFFFF` (borde `#CFE0E8`, sombra `0 10px 28px rgba(10,46,77,.10)`) |
 | Story de tarde (fondo noche) | `#071D33` → `#0A2E4D` (tarjeta `#0F3A5E`, texto `#FFFFFF`/`#D5E3EE`) |
@@ -44,6 +44,7 @@ Fuente de verdad en código: `marca.json` (tema, prefijo, ciudad, usuario) + `pl
 - **Tamaños de letra mínimos (lienzo 1080 px):** nombre de evento ≥ 31 px (34 px con ≤ 6 eventos por diapositiva), hora/lugar/precio ≥ 28 px (30 px con ≤ 6), etiqueta de marca ≥ 26 px, chips de categoría 24 px (mayúsculas en negrita). Nunca por debajo.
 - **Densidad de eventos.** 1: imagen grande + todos los datos; 2: imagen + datos completos; 3–4: imagen cuadrada + categoría, hora, lugar y precio; 5–6: imagen + nombre y una línea (hora · lugar · precio); 7+: imagen pequeña + nombre y hora · lugar.
 - **Decorado:** sol amarillo (esquina superior derecha) + líneas de ola (inferior). Fotografía de evento con esquinas redondeadas (30 px). Nada de símbolos oficiales (escudo de Cádiz, Ayuntamiento, Cádiz CF…) ni material de terceros.
+- **Portada con color rotatorio** (para que el feed no se repita): 7 variantes que cambian **cada día** y usan **solo la paleta D1** (mar, noche, cal, bruma y sol). Misma estructura en todas (logo, sol arriba a la derecha, olas abajo). Orden fijo en `render.py` (`ORDEN_PALETAS`; días consecutivos nunca se parecen): **0 Mar** `#0A5A94→#083F6B` (sol amarillo) · **3 Sol** `#FFC62B→#F5B400` (texto `#0A2E4D`, sol cal) · **2 Cal** `#FAF8F2→#EEF5F7` (texto `#0A2E4D`, sol amarillo) · **5 Mar con sol cal** (olas amarillas) · **4 Bruma** `#BFE6EE→#9FD3E0` (texto `#0A2E4D`, sol amarillo) · **6 Sol con sol azul** `#0E6BA8` · **1 Noche** `#0A2E4D→#071D33` (sol amarillo). Contraste medido ≥ 4,6:1 en las 7 (`propuestas-marca/auditar_portadas.py`, hoja en `propuestas-marca/paletas-portada/`). No se añaden colores fuera de la paleta. Las diapositivas de eventos y stories mantienen siempre el fondo cal.
 - **Portada:** logo grande arriba, etiqueta («Agenda diaria», «Viernes a domingo», «Agenda mensual»), título, fecha, nº de planes. Títulos: «Qué hacer hoy», «Planes del finde», «Lo más destacado de [mes]» (la ciudad la pone el logo; el alt_text dice «Planes en Cádiz»).
 - **Story patrocinada:** misma línea gráfica y etiqueta «Publicidad» visible arriba (`story-patrocinio.html`).
 

@@ -1,6 +1,9 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
 <style>
 .lienzo{padding:84px 80px 76px;display:flex;flex-direction:column;justify-content:space-between}
+.deco .sol{position:absolute;right:-150px;top:-140px;width:460px;height:460px;border-radius:50%;background:var(--c-sol,#FFC62B)}
+.deco .olas{position:absolute;left:0;width:1080px;height:110px;bottom:135px}
+.lienzo.story .deco .sol{right:-120px;top:100px;width:420px;height:420px}.lienzo.story .deco .olas{bottom:330px}
 .cab{display:flex;justify-content:space-between;align-items:flex-start}
 .tag{margin-bottom:22px;font-weight:800;font-size:30px;letter-spacing:.06em;text-transform:uppercase;color:var(--c-suave)}
 h1{font-size:104px;line-height:1.0;letter-spacing:-.02em;overflow-wrap:anywhere;color:var(--c-texto)}
@@ -15,8 +18,8 @@ h1.largo{font-size:88px}
 <script>
 async function render(d){
   aplicarTema(d);
-  const L=document.getElementById("l");L.classList.add("portada");if(d.vertical){L.classList.remove("feed");L.classList.add("story");}const n=d.total, t=d.titulo||"Qué hacer hoy";
-  document.getElementById("l").innerHTML=`<div class="deco"></div>
+  const L=document.getElementById("l");L.classList.add("portada");L.dataset.paleta=d.paleta||0;if(d.vertical){L.classList.remove("feed");L.classList.add("story");}const n=d.total, t=d.titulo||"Qué hacer hoy";
+  document.getElementById("l").innerHTML=`<div class="deco"><i class="sol"></i><svg class="olas" viewBox="0 0 1080 110" preserveAspectRatio="none"><g fill="none" stroke="var(--c-ola)" stroke-width="5" stroke-linecap="round"><path d="M-20 22q90-38 180 0t180 0 180 0 180 0 180 0 180 0"/><path d="M-20 58q90-38 180 0t180 0 180 0 180 0 180 0 180 0"/><path d="M-20 94q90-38 180 0t180 0 180 0 180 0 180 0 180 0"/></g></svg></div>
   <div class="cab">${logo(d,"",d.tam_logo||190)}</div>
   <div><div class="tag">${esc(d.etiqueta||"")}</div><h1 class="titulo ${t.length>24?'largo':''}">${esc(t)}</h1><div class="fecha">${esc((d.subtitulo||"").replace(/^./,c=>c.toUpperCase()))}</div></div>
   <div class="total"><b>${n}</b><span>${n===1?"plan":"planes"}<br>${esc(d.sufijo||"en la ciudad")}</span></div>

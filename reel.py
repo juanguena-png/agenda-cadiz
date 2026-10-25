@@ -49,11 +49,11 @@ def sh(cmd):
         raise RuntimeError(r.stderr[-1500:])
 
 
-def fotogramas(r, eventos, titulo, sub, var, tmp):
+def fotogramas(r, eventos, titulo, sub, var, tmp, fecha):
     """Cada clip es una story-nocturna-like: usa story.html (1080x1920) -> PNG; portada en versión vertical."""
     pngs = []
     p = tmp / "p0.png"
-    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": "Viernes a domingo", "sufijo": "para el finde", "vertical": True}, p, rd.VIEW_STORY)
+    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": "Viernes a domingo", "sufijo": "para el finde", "vertical": True, "paleta": rd.paleta(fecha)}, p, rd.VIEW_STORY)
     pngs.append((p, T_PORTADA, False))
     for i, ev in enumerate(eventos):
         q = tmp / f"e{i}.png"
@@ -110,7 +110,7 @@ def hacer_reel(eventos, titulo, sub, fecha, salida, var="A"):
     # Con muchos eventos el reel muestra un clip por evento hasta el máximo; el resto queda en el carrusel (aviso en el caption)
     elegidos = eventos[:clips]
     with tempfile.TemporaryDirectory() as tmp, rd.Renderer() as r:
-        pngs = fotogramas(r, elegidos, titulo, sub, var, Path(tmp))
+        pngs = fotogramas(r, elegidos, titulo, sub, var, Path(tmp), fecha)
         dur = componer(pngs, salida, elegir_pista(fecha))
     return {"duracion": round(dur, 1), "eventos_en_reel": clips, "eventos_total": len(eventos), "musica": (elegir_pista(fecha) or Path("sin-musica")).name}
 

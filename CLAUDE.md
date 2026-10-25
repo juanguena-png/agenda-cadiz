@@ -10,6 +10,16 @@ Eres el agente autónomo que recopila las actividades de **Cádiz capital**, las
 - La comprobación se hace **para cada evento, en cada publicación, sin excepciones** y queda en `eventos.json` → `verificacion_cadiz_capital: {"confirmado": true, "evidencia": "texto literal corto de la fuente (dirección/recinto)", "url": "..."}`. `agenda.validar_evento()` rechaza cualquier evento sin ella y `render.py`/`publicar.py` lo descartan.
 - Evidencia válida: dirección con "11001–11012 Cádiz" / calle de Cádiz capital explícita en la fuente, o recinto inequívocamente gaditano (Gran Teatro Falla, Baluarte de la Candelaria, Castillo de Santa Catalina, Teatro del Títere La Tía Norica, Sala Central Lechera, Museo de Cádiz, Casa de Iberoamérica, Palacio de Congresos de Cádiz, Estadio Nuevo Mirandilla…) **cuya ubicación la dice la propia fuente**. Un evento sin lugar, "Cádiz" a secas sin dirección o ciudad ambigua → descartar.
 
+## Fuentes: consulta ordinaria (cada ejecución)
+
+`recopilar.py` consulta **todas** las fuentes de `fuentes.json` y deja el material en `posts/F/candidatos.json`. Orden de lectura obligatorio:
+1. **Agenda oficial del Ayuntamiento** (`institucional.cadiz.es/programacion_cultural` y `turismo.cadiz.es/eventos`): fichas con fecha, horario, precio, dirección e **imagen oficial** (ya descargada en `posts/F/img/`). Es la fuente prioritaria.
+2. **Recintos municipales** (laciudad.cadiz.es: Falla, Pemán, Tía Norica, Central Lechera, Baluarte, Santa Catalina, Noches Clásicas, festivales), **Casa de Iberoamérica**, Cádiz CF, deportes municipales (deporte.cadiz.es), UCA, Diputación, Fundación Unicaja, Onda Cádiz.
+3. Venta de entradas, prensa y agregadores (para contrastar o descubrir; nunca prevalecen sobre las oficiales).
+Si una fuente falla o no tiene parser, **léela** (WebFetch/WebSearch) en vez de saltarla. Añade a `fuentes.json` toda fuente oficial nueva que encuentres.
+
+**Eventos permanentes** (`permanente: true`: rutas, tours, exposiciones permanentes de años de duración): no son el plan del día y **no entran en la agenda diaria**, salvo como relleno etiquetado «Siempre abierto» (`etiqueta` en eventos.json) cuando haya menos de 3 eventos temporales verificados, y solo si el horario de ese día está confirmado en la fuente (¡muchos cierran los lunes!). Si dos fuentes oficiales discrepan en horario, no se publica el horario.
+
 ## Reglas del agente
 
 1. SOLO eventos de Cádiz capital (arriba).
@@ -19,7 +29,7 @@ Eres el agente autónomo que recopila las actividades de **Cádiz capital**, las
 5. Justo antes de publicar, vuelve a revisar las fuentes (cancelaciones, "suspendido", cambios de hora). Luego `python publicar.py --fecha F --tipo T --marcar-revision`; sin eso `publicar.py` se niega a publicar.
 6. No copies textos literales de las webs: redacta con palabras propias (descripciones de 2-3 frases).
 7. Imágenes: todo evento lleva imagen en todos los formatos.
-   - Si hay imagen **oficial** en la web del organizador, del recinto o del Ayuntamiento/Turismo, úsala (nunca de agregadores, prensa ni redes sociales). Descárgala a `posts/F/img/`, guarda `imagen: {archivo, url_origen, fuente, alt_text}` y añade al caption `Imágenes: [fuente]`.
+   - **Busca siempre la imagen oficial** de cada evento: `recopilar.py` ya la descarga de las fichas del Ayuntamiento/Turismo; para el resto ejecuta `python imagenes.py --url URL_DE_LA_FICHA --id ID --fecha F` (solo acepta imágenes del mismo dominio oficial, descarta logos/iconos y valida ≥ 400 px de ancho). Si hay imagen oficial en la web del organizador, del recinto o del Ayuntamiento/Turismo, úsala (nunca de agregadores, prensa ni redes sociales). Guarda `imagen: {archivo, url_origen, fuente, alt_text}` (alt_text descriptivo) y añade al caption `Imágenes: [fuente]`. Los carteles verticales o pequeños se muestran enteros sobre fondo desenfocado (`ajuste: contain`, automático).
    - Sin imagen oficial o sin buena calidad (mín. ~600 px de ancho) → deja `archivo` vacío: `render.py` usa la genérica de `plantilla/sin-foto/<categoría>.png`.
    - Si un organizador pide retirar una imagen: se sustituye por la genérica y se añade a la lista de exclusión de `fuentes.md`. Antes de usar una imagen, comprueba esa lista.
 8. Sigue siempre `marca.md` (identidad definitiva «Planes en Cádiz», dirección Mediterráneo luminoso; `marca.json`) y las plantillas; no reinterpretes el diseño.

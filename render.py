@@ -66,6 +66,15 @@ def resolver_imagenes(eventos, carpeta):
         img.setdefault("alt_text", f"Imagen de {ev.get('nombre', 'evento')}")
         if not img["alt_text"]:
             img["alt_text"] = f"Imagen de {ev.get('nombre', 'evento')}"
+        if not img.get("generica"):
+            try:
+                from PIL import Image
+                with Image.open(ruta) as im_:
+                    w, h = im_.size
+                if "ajuste" not in img:
+                    img["ajuste"] = "contain" if (h / w > 1.2 or h / w < 0.8 or w < 800) else "cover"
+            except Exception:
+                pass
         img["ruta_abs"] = ruta.resolve().as_uri()
     return eventos
 
@@ -73,6 +82,14 @@ def resolver_imagenes(eventos, carpeta):
 def variante(fecha):
     fijada = (ag.cargar_json(ag.RAIZ / "registros" / "ab.json", {}) or {}).get("fijar")
     return fijada if fijada in ("A", "B") else ("A" if ag.a_fecha(fecha).toordinal() % 2 == 0 else "B")
+
+
+ORDEN_PALETAS = [0, 3, 2, 5, 4, 6, 1]  # mar, sol, cal, mar+sol cal, bruma, sol+sol azul, noche: días consecutivos nunca se parecen
+
+
+def paleta(fecha):
+    """Índice de paleta de la portada (marca.md): rota cada día. Se puede fijar con registros/ab.json -> "paleta"."""
+    return ORDEN_PALETAS[ag.a_fecha(fecha).toordinal() % len(ORDEN_PALETAS)]
 
 
 def titulos(tipo, fecha, eventos):
@@ -99,7 +116,7 @@ def render_carrusel(r, eventos, tipo, fecha, salida, var):
     titulo, sub = titulos(tipo, fecha, eventos)
     etiqueta, sufijo = PORTADA_EXTRA[tipo]
     ciudad = (ag.cargar_json(ag.RAIZ / "marca.json", {}) or {}).get("ciudad", "Cádiz")
-    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": etiqueta, "sufijo": sufijo}, salida / "01.png", VIEW_FEED)
+    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": etiqueta, "sufijo": sufijo, "paleta": paleta(fecha)}, salida / "01.png", VIEW_FEED)
     manifiesto = [{"archivo": "01.png", "tipo": "portada", "alt_text": f"Portada de Planes en {ciudad}: {titulo}, {sub}. {len(eventos)} planes."}]
     for i, g in enumerate(grupos, start=2):
         r.png("eventos.html", {"eventos": g, "cabecera": f"{i - 1}/{len(grupos)}", "mostrar_fecha": tipo != "diario"}, salida / f"{i:02d}.png", VIEW_FEED)
@@ -162,7 +179,7 @@ def render_dia(fecha, tipo="diario", var=None):
     resolver_imagenes(validos, carpeta)
     var = var or variante(fecha)
     with Renderer() as r:
-        man = {"variante": var, "carrusel": render_carrusel(r, validos, tipo, fecha, carpeta / "carrusel", var)}
+        man = {"variante": var, "paleta": paleta(fecha), "carrusel": render_carrusel(r, validos, tipo, fecha, carpeta / "carrusel", var)}
         if tipo == "diario":
             man["stories"] = render_stories(r, validos, fecha, carpeta / "stories")
             man["noche"] = render_noche(r, validos, fecha, carpeta / "noche")

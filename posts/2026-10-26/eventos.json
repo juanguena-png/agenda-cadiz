@@ -18,7 +18,8 @@
       "info": "Horario de la sala: L–V 9:00–21:00 · casadeiberoamerica.es",
       "imagen": {
         "archivo": "",
-        "alt_text": "Imagen genérica de exposición: un marco de cuadro sobre fondo azul mar con un sol amarillo"
+        "alt_text": "Imagen genérica de exposición: un marco de cuadro sobre fondo azul mar con un sol amarillo",
+        "intento_oficial": "La web de la Casa de Iberoamérica enlaza imágenes que devuelven 404: se usa la genérica"
       },
       "fuentes": [
         {
