@@ -36,7 +36,8 @@ def insights_cuenta_ig(ig, errores):
         if e:
             errores.append(f"ig {m}: {e}")
         else:
-            out[m] = d["data"][0]["total_value"]["value"] if d.get("data") else None
+            dd = d["data"][0] if d.get("data") else {}
+            out[m] = dd.get("total_value", {}).get("value") if "total_value" in dd else ((dd.get("values") or [{}])[-1].get("value"))
     d, e = pedir(f"{ig}/insights", metric="online_followers", period="lifetime")
     if not e and d.get("data"):
         horas = (d["data"][0]["values"] or [{}])[-1].get("value", {})
