@@ -1,0 +1,62 @@
+{
+  "variante": "B",
+  "paleta": 2,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, sábado 7 de noviembre. 3 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "cdi-manton"
+      ],
+      "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "vicente-amigo"
+      ],
+      "alt_text": "Eventos: Vicente Amigo · Andenes del tiempo (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "diexo-sin-plan-b"
+      ],
+      "alt_text": "Eventos: Diexo · Presentación de «Sin plan B» (21:00, Sala Soho Alternative)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "cdi-manton",
+      "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "vicente-amigo",
+      "alt_text": "Cartel oficial del concierto de Vicente Amigo, Andenes del tiempo, en el Gran Teatro Falla"
+    },
+    {
+      "archivo": "03.png",
+      "id": "diexo-sin-plan-b",
+      "alt_text": "Cartel oficial de la presentación del disco Sin plan B de Diexo en la Sala Soho Alternative"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "vicente-amigo",
+        "diexo-sin-plan-b"
+      ],
+      "alt_text": "Esta noche en Cádiz: Vicente Amigo · Andenes del tiempo; Diexo · Presentación de «Sin plan B»"
+    }
+  ]
+}

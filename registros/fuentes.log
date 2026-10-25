@@ -227,3 +227,49 @@
 2026-10-25T02:47:38+01:00	44	web	0	Ticketmaster / Giglon – Cádiz	403 al script: WebSearch
 2026-10-25T02:47:38+01:00	45	web	0	Teatro Romano de Cádiz, Torre Tavira y Catedral	Sin web consultable por script
 2026-10-25T02:47:38+01:00	46	web	0	Salas y locales de conciertos de Cádiz	Búsqueda abierta diaria por categorías
+2026-10-25T03:19:20+01:00	1	ok	28	Ayuntamiento de Cádiz – Programación cultural (agenda oficial)	
+2026-10-25T03:19:20+01:00	2	ok	1	Turismo de Cádiz – Agenda (Ayuntamiento)	
+2026-10-25T03:19:20+01:00	3	ok	0	Onda Cádiz – Agenda	
+2026-10-25T03:19:20+01:00	4	ok	0	Diputación de Cádiz – Agenda cultural	
+2026-10-25T03:19:20+01:00	5	ok	0	Universidad de Cádiz – actividades culturales	
+2026-10-25T03:19:20+01:00	6	ok	0	Deportes del Ayuntamiento de Cádiz	
+2026-10-25T03:19:20+01:00	7	web	0	Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz	Municipales: red del Ayuntamiento. Provincial: Junta de Andalucía publica un PDF mensual
+2026-10-25T03:19:20+01:00	8	ok	23	Gran Teatro Falla	
+2026-10-25T03:19:20+01:00	9	ok	0	Teatro del Títere La Tía Norica	
+2026-10-25T03:19:20+01:00	10	ok	25	Sala Central Lechera	
+2026-10-25T03:19:20+01:00	11	ok	0	Baluarte de la Candelaria	
+2026-10-25T03:19:20+01:00	12	ok	0	Castillo de Santa Catalina	
+2026-10-25T03:19:20+01:00	13	web	0	Museo de Cádiz	museosdeandalucia.es no resuelve desde el contenedor: consultar con WebFetch/WebSearch (Plaza de Mina, Cádiz)
+2026-10-25T03:19:20+01:00	14	ok	0	Casa de Iberoamérica	
+2026-10-25T03:19:20+01:00	15	ok	0	Palacio de Congresos de Cádiz	
+2026-10-25T03:19:20+01:00	16	web	0	Cádiz CF – partidos en casa	La web bloquea al script (403): consultar con WebFetch. Solo partidos como local en Cádiz capital; confirmar día y hora
+2026-10-25T03:19:20+01:00	17	web	0	VivaCádiz	403 al script
+2026-10-25T03:19:20+01:00	18	web	0	Hoy Cádiz	Dominio no localizado; buscar con WebSearch
+2026-10-25T03:19:20+01:00	19	web	0	Guía de Cádiz – Agenda	PROVINCIAL; 403 al script; filtrar Cádiz capital
+2026-10-25T03:19:20+01:00	20	ok	12	Eventbrite – Cádiz	
+2026-10-25T03:19:20+01:00	21	inactiva	0	En buena edad – agenda del Ayuntamiento	enbuenaedad.es devuelve página de inhabilitación temporal de la Junta; reactivar si vuelve
+2026-10-25T03:19:20+01:00	22	ok	0	Diario de Cádiz – agenda	
+2026-10-25T03:19:20+01:00	23	ok	0	La Voz de Cádiz	
+2026-10-25T03:19:20+01:00	24	ok	0	Cádiz Directo	
+2026-10-25T03:19:20+01:00	25	ok	0	Entradium (Cádiz)	
+2026-10-25T03:19:20+01:00	26	ok	0	Teatro Pemán (Teatros de Cádiz)	
+2026-10-25T03:19:20+01:00	27	ok	0	Noches Clásicas de la Ciudad de Cádiz	
+2026-10-25T03:19:20+01:00	28	ok	0	Festival Patrimonio Flamenco	
+2026-10-25T03:19:20+01:00	29	ok	0	Festival Internacional del Títere de Cádiz	
+2026-10-25T03:19:20+01:00	30	ok	0	Cádiz en Danza	
+2026-10-25T03:19:20+01:00	31	ok	0	Universidad de Cádiz – eventos	
+2026-10-25T03:19:20+01:00	32	ok	0	Universidad de Cádiz – Extensión universitaria	
+2026-10-25T03:19:20+01:00	33	ok	0	Fundación Unicaja – agenda cultural	
+2026-10-25T03:19:20+01:00	34	ok	1	Venta de entradas del Ayuntamiento (Bacantix · Teatros de Cádiz)	
+2026-10-25T03:19:20+01:00	35	ok	0	Onda Cádiz – Agenda de eventos	
+2026-10-25T03:19:20+01:00	36	ok	0	Agenda Cádiz (agendacadiz.com)	
+2026-10-25T03:19:20+01:00	37	ok	0	Cádiz Cultura	
+2026-10-25T03:19:20+01:00	38	ok	0	La Ganzúa – conciertos en Cádiz	
+2026-10-25T03:19:20+01:00	39	ok	0	Tickentradas	
+2026-10-25T03:19:20+01:00	40	ok	0	Fundación Cajasol	
+2026-10-25T03:19:20+01:00	41	ok	0	Diario Bahía de Cádiz – Cádiz	
+2026-10-25T03:19:20+01:00	42	web	0	Planomato – planes en Cádiz	403 al script: WebFetch
+2026-10-25T03:19:20+01:00	43	web	0	El Corte Inglés Entradas – Cádiz	403 al script: WebFetch
+2026-10-25T03:19:20+01:00	44	web	0	Ticketmaster / Giglon – Cádiz	403 al script: WebSearch
+2026-10-25T03:19:20+01:00	45	web	0	Teatro Romano de Cádiz, Torre Tavira y Catedral	Sin web consultable por script
+2026-10-25T03:19:20+01:00	46	web	0	Salas y locales de conciertos de Cádiz	Búsqueda abierta diaria por categorías

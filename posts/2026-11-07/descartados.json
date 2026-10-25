@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Programación Octubre–Diciembre de La Tía Norica",
+    "motivo": "Es la programación del ciclo, no una función del 7/11 (Bichitos fue el 6/11)",
+    "url": "https://institucional.cadiz.es/evento/programacion-teatro-del-titere-de-la-tia-norica-octubre-diciembre-2026"
+  },
+  {
+    "nombre": "Media Maratón Ciudad de Cádiz",
+    "motivo": "Es el domingo 8/11, no el sábado 7/11",
+    "url": "https://trainerday.com/fr/events/es/media-maraton-ciudad-de-cadiz"
+  },
+  {
+    "nombre": "Exposición «Ese mar que nos une»",
+    "motivo": "Terminó el 30/10",
+    "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
+  },
+  {
+    "nombre": "Rutas, tours y exposiciones permanentes del Ayuntamiento",
+    "motivo": "Eventos permanentes: no entran en la agenda diaria (hay 3 eventos temporales)",
+    "url": "https://institucional.cadiz.es/programacion_cultural"
+  },
+  {
+    "nombre": "Resto de consultas web (Museo de Cádiz, bibliotecas, Cádiz CF…)",
+    "motivo": "Sin eventos localizables el 7/11 (el Cádiz CF juega fuera, en Mallorca)",
+    "url": "https://www.cadizcf.com/partidos"
+  }
+]

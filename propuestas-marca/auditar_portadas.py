@@ -13,7 +13,7 @@ out.mkdir(exist_ok=True)
 base = dict(ciudad="Cádiz", prefijo="Planes en", titulo="Qué hacer hoy", subtitulo="lunes 26 de octubre", total=12, etiqueta="Agenda diaria")
 malos = []
 with rd.Renderer() as r:
-    for i in range(7):
+    for i in (0, 1, 2, 3, 5, 6):
         g.AUDITORIA.clear()
         g.png_t(r, "d1", "portada.html", dict(base, paleta=i), out / f"paleta-{i}.png", rd.VIEW_FEED, auditar="portada")
         items = g.AUDITORIA["d1"]["portada"]
@@ -21,8 +21,8 @@ with rd.Renderer() as r:
         print(i, "peor contraste", peor["ratio"], peor["t"])
         if peor["ratio"] < 4.5:
             malos.append(i)
-ims = [Image.open(out / f"paleta-{i}.png").convert("RGB").resize((340, 425)) for i in range(7)]
-S = Image.new("RGB", (7 * 348 + 8, 441), "#777")
+ims = [Image.open(out / f"paleta-{i}.png").convert("RGB").resize((340, 425)) for i in (0, 1, 2, 3, 5, 6)]
+S = Image.new("RGB", (6 * 348 + 8, 441), "#777")
 for i, im in enumerate(ims):
     S.paste(im, (8 + i * 348, 8))
 S.save(out / "hoja-paletas.png")

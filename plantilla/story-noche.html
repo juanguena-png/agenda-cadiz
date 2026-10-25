@@ -7,7 +7,7 @@ h1{font-size:86px;line-height:1;margin-bottom:4px}
 .ev{flex:1;min-height:0;display:flex;gap:28px;background:var(--c-tarjeta);color:var(--c-texto-tarjeta);border:2px solid var(--c-borde);border-radius:var(--radio);padding:18px;box-shadow:var(--sombra)}
 .ev .foto{flex:none;height:100%;aspect-ratio:1/1;border-radius:calc(var(--radio) - 8px)}
 .ev .txt{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:8px}
-.ev h2{font-size:40px;line-height:1.1;overflow-wrap:anywhere}
+.ev h2{font-size:37px;line-height:1.08;overflow-wrap:anywhere}
 .ev .hora{font-size:38px;font-weight:900;color:var(--c-dato)}
 .ev .meta{font-size:30px;color:var(--c-suave-tarjeta);font-weight:600}
 </style></head><body>
@@ -19,7 +19,7 @@ async function render(d){
     ${logo(d,"mini",38)}<h1 class="titulo">Esta noche en ${esc(d.ciudad||"Cádiz")}</h1>
     <div class="sub">${esc(d.fecha_larga)}${d.total_paginas>1?` · ${d.pagina}/${d.total_paginas}`:""}</div>
     <div class="lista">${d.eventos.map(ev=>`<div class="ev"><div class="foto" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
-      <div class="txt"><div class="hora">${esc(horaTxt(ev))}</div><h2 class="clamp2">${esc(ev.nombre)}</h2><div class="meta clamp2">${esc(ev.lugar)} · ${esc(precioTxt(ev))}</div></div></div>`).join("")}</div>
+      <div class="txt"><div class="hora">${esc(horaTxt(ev))}</div><h2 class="clamp3">${esc(ev.nombre)}</h2><div class="meta clamp2">${esc(ev.lugar)} · ${esc(precioTxt(ev))}</div></div></div>`).join("")}</div>
   </div>`;
   await listo();
 }
