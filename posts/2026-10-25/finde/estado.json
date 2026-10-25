@@ -10,10 +10,9 @@
         ]
       },
       "facebook": {
-        "ts": "2026-10-25T12:03:04+01:00",
-        "estado": "error",
-        "error": "subida de reel a Facebook: 400 {\"debug_info\":{\"retriable\":false,\"type\":\"NotAuthorizedError\",\"message\":\"User not authorized to perform this request\"}}",
-        "temporal": false
+        "ts": "2026-10-25T12:03:26+01:00",
+        "estado": "publicado",
+        "resultado": "1108556628764247"
       }
     }
   },
@@ -28,7 +27,7 @@
   "limite_publicaciones": {
     "uso": 3,
     "total": 100,
-    "ts": "2026-10-25T12:01:26+01:00"
+    "ts": "2026-10-25T12:03:19+01:00"
   },
-  "ultima_ejecucion": "2026-10-25T12:03:04+01:00"
+  "ultima_ejecucion": "2026-10-25T12:03:26+01:00"
 }

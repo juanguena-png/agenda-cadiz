@@ -188,11 +188,13 @@ def fb_story(url):
 
 def fb_reel(url, caption):
     page = ag.secreto("FB_PAGE_ID")
-    ini = api("POST", f"{page}/video_reels", upload_phase="start")
-    cab = {"file_url": url}
     tok = ag.secreto("META_TOKEN")
-    if tok:
-        cab["Authorization"] = f"OAuth {tok}"
+    if not tok:
+        # Con el token inyectado por el proxy (secreto de red) solo se autentica graph.facebook.com; la subida de reels va a
+        # rupload.facebook.com (sin token). Alternativa autenticada: vídeo por URL en /videos (Facebook lo trata como vídeo vertical corto).
+        return api("POST", f"{page}/videos", file_url=url, description=caption)["id"]
+    ini = api("POST", f"{page}/video_reels", upload_phase="start")
+    cab = {"file_url": url, "Authorization": f"OAuth {tok}"}
     r = requests.post(ini["upload_url"], headers=cab, timeout=300)
     if r.status_code >= 300:
         raise ErrorAPI(f"subida de reel a Facebook: {r.status_code} {r.text[:200]}")
