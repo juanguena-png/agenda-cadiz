@@ -224,13 +224,13 @@ def intentar(estado, clave, plataforma, fn, *a):
 
 
 def esperar_hora(hhmm):
-    """Bloquea hasta HH:MM (Europe/Madrid) para publicar en punto; si ya pasó, sigue (máx. 45 min de espera)."""
+    """Bloquea hasta HH:MM (Europe/Madrid) para publicar en punto; si ya pasó, sigue (máx. 100 min de espera)."""
     if not hhmm:
         return
     h, m = map(int, hhmm.split(":"))
     objetivo = ag.ahora().replace(hour=h, minute=m, second=0, microsecond=0)
     falta = (objetivo - ag.ahora()).total_seconds()
-    if 0 < falta <= 45 * 60:
+    if 0 < falta <= 100 * 60:
         print(f"Esperando {int(falta)} s hasta las {hhmm}")
         time.sleep(falta)
 
