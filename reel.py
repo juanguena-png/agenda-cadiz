@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Reel «Planes del finde» (vertical 1080x1920, 15-30 s). Plantilla ÚNICA: plantilla/reel.html (animación con Web Animations API).
+"""Reel «Planes del finde» (vertical 1080x1920, 15-45 s). Plantilla ÚNICA: plantilla/reel.html (animación con Web Animations API).
 
 Cada fotograma se obtiene fijando la línea de tiempo en un instante (window.seek(t)) y capturando la página con Chromium; ffmpeg ensambla los
-fotogramas y mezcla la música (normalizada de volumen, con fundido de entrada y salida). Estructura fija: intro (3,2 s) + 1 escena por evento
-(2,9 s) + cierre con llamada a la acción (3 s); transiciones con el «sol» de la marca.
+fotogramas y mezcla la música (normalizada de volumen, con fundido de entrada y salida). Estructura fija: intro (3 s) + 1 escena por evento
+(4,2 s, para dar tiempo a leer) + cierre con llamada a la acción (2,8 s); transiciones con el «sol» de la marca.
 
   python reel.py --fecha AAAA-MM-DD     # usa posts/FECHA/finde/eventos.json (FECHA = jueves de publicación)
   python reel.py --demo                 # datos de ejemplo -> ejemplos/reel-demo.mp4
@@ -20,8 +20,8 @@ import agenda as ag
 import render as rd
 
 W, H, FPS = 1080, 1920, 30
-INTRO, POR_EVENTO, OUTRO = 3.2, 2.9, 3.0
-MIN_S, MAX_S = 15.0, 30.0
+INTRO, POR_EVENTO, OUTRO = 3.0, 4.2, 2.8
+MIN_S, MAX_S = 15.0, 45.0
 PISTAS_JSON = ag.RAIZ / "musica" / "pistas.json"
 
 
@@ -44,7 +44,7 @@ def elegir_pista(fecha):
 
 # ---------------------------------------------------------------- plan
 def planificar(n_eventos):
-    """(eventos mostrados, segundos por evento, duración total). Entre 15 y 30 s."""
+    """(eventos mostrados, segundos por evento, duración total). Entre 15 y 45 s (4,2 s de lectura por evento; máx. 9 eventos)."""
     maxn = int((MAX_S - INTRO - OUTRO) // POR_EVENTO)
     n = max(1, min(n_eventos, maxn))
     por = POR_EVENTO
