@@ -34,6 +34,13 @@ El agente debe dejar la base de fuentes **más rica cada día que pasa**. En la 
 4. Anota cada fuente incorporada en `registros/fuentes-nuevas.md` (fecha, nombre, URL, qué aporta) y, si es una mejora relevante, `python metricas.py --mejora "título" "por qué"`. Commit y push a `main`.
 5. Los jueves: auditoría profunda de la semana (qué categorías y barrios tienen menos oferta y qué fuentes nuevas podrían cubrirlos).
 
+## Criterios de filtrado (decididos por el titular; el agente los aplica y los amplía solo con su OK)
+
+1. **Rutas guiadas y tours fijos del Ayuntamiento:** no son el plan del día; entran solo como relleno «Siempre abierto» cuando haya poco contenido, con el horario de ese día confirmado.
+2. **Exposiciones temporales largas abiertas ese día:** solo como relleno (igual que las rutas), no como plan principal.
+3. **Fichas provinciales de la Junta sin municipio** («Jornadas Europeas de Patrimonio», «Circuito Andaluz de Peñas»…): NO se descartan enteras. Abre su programa (PDF o enlace) y extrae solo las actividades celebradas en Cádiz capital, cada una verificada con la regla 1.
+4. **Eventos online o a distancia (Meetup, Eventbrite…):** fuera. Solo planes presenciales en Cádiz capital.
+
 ## Reglas del agente
 
 1. SOLO eventos de Cádiz capital (arriba).
