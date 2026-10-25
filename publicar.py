@@ -240,13 +240,13 @@ def publicar(fecha, tipo, esperar=None):
     estado = ag.cargar_estado(carpeta)
     man = ag.cargar_json(carpeta / "manifiesto.json")
     if not man and tipo != "reel":
-        ag.salir(f"No hay manifiesto en {carpeta}: ejecuta render.py antes (o hay <2 eventos verificados: ver estado.json).", 0)
+        ag.salir(f"No hay manifiesto en {carpeta}: ejecuta render.py antes (o hay 0 eventos verificados: ver estado.json).", 0)
     datos = ag.cargar_eventos(carpeta)
     validos = ag.eventos_validos(datos.get("eventos", []))
-    if len(validos) < 2:
-        ag.log_estado(estado, f"{tipo}: <2 eventos verificados, no se publica")
+    if len(validos) < ag.MIN_EVENTOS:
+        ag.log_estado(estado, f"{tipo}: 0 eventos verificados, no hay nada que publicar (revisar: regla 9 exige publicar todos los días)")
         ag.guardar_estado(carpeta, estado)
-        return print("Menos de 2 eventos verificados: no se publica.")
+        notificar.enviar(f"Sin eventos verificados para publicar ({tipo} {fecha})", "Regla 9: hay que publicar todos los días. Completa eventos.json (eventos o relleno «Siempre abierto») y vuelve a lanzar render y publicar."); return print("0 eventos verificados: no hay nada que publicar (aviso enviado).")
     if not (estado.get("revision_final") or {}).get("hecha"):
         ag.salir("Falta la revisión final de fuentes (cancelaciones/cambios de hora). Ejecuta --marcar-revision tras comprobarlas.")
 

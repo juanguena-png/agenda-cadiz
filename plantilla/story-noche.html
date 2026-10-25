@@ -16,7 +16,7 @@ h1{font-size:86px;line-height:1;margin-bottom:4px}
 async function render(d){
   aplicarTema(d);
   document.getElementById("l").innerHTML=`<div class="deco"></div><div class="zona">
-    ${logo(d,"mini",38)}<h1 class="titulo">Esta noche en ${esc(d.ciudad||"Cádiz")}</h1>
+    ${logo(d,"mini",38)}<h1 class="titulo">${esc(d.titulo||"Esta noche en")} ${esc(d.ciudad||"Cádiz")}</h1>
     <div class="sub">${esc(d.fecha_larga)}${d.total_paginas>1?` · ${d.pagina}/${d.total_paginas}`:""}</div>
     <div class="lista">${d.eventos.map(ev=>`<div class="ev"><div class="foto" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
       <div class="txt"><div class="hora">${esc(horaTxt(ev))}</div><h2 class="clamp3">${esc(ev.nombre)}</h2><div class="meta clamp2">${esc(ev.lugar)} · ${esc(precioTxt(ev))}</div></div></div>`).join("")}</div>

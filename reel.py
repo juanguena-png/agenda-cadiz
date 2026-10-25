@@ -49,7 +49,7 @@ def planificar(n_eventos):
     n = max(1, min(n_eventos, maxn))
     por = POR_EVENTO
     if INTRO + n * por + OUTRO < MIN_S:
-        por = min(3.6, (MIN_S - INTRO - OUTRO) / n)
+        por = (MIN_S - INTRO - OUTRO) / n  # con pocos eventos cada escena dura más (siempre ≥ 15 s en total)
     return n, por, INTRO + n * por + OUTRO
 
 
@@ -145,8 +145,8 @@ if __name__ == "__main__":
     else:
         carpeta = ag.dir_dia(a.fecha, "finde")
         evs = ag.eventos_validos(ag.cargar_eventos(carpeta)["eventos"])
-        if len(evs) < 2:
-            ag.salir("Menos de 2 eventos verificados: no se genera el reel.", 0)
+        if len(evs) < ag.MIN_EVENTOS:
+            ag.salir("0 eventos verificados: no se genera el reel (regla 9: añade eventos o «Siempre abierto»).", 0)
         rd.resolver_imagenes(evs, carpeta)
         titulo, sub = rd.titulos("finde", a.fecha, evs)
         out = carpeta / "reel"

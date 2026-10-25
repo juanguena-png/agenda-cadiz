@@ -50,6 +50,9 @@ def dir_dia(fecha, subtipo=None):
 
 
 # ---------------------------------------------------------------- reparto
+MIN_EVENTOS = 1  # se publica TODOS los días: basta 1 evento verificado (el agente completa con «Siempre abierto» y, si hace falta, ver CLAUDE.md)
+
+
 def reparto(n, diapositivas=9):
     """Tamaños de cada diapositiva de eventos.
     N >= 9 -> 9 diapositivas, floor(N/9) o ceil(N/9) eventos, las más cargadas primero.

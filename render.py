@@ -162,16 +162,16 @@ def render_stories(r, eventos, fecha, salida):
     return man
 
 
-def render_noche(r, eventos, fecha, salida):
+def render_noche(r, eventos, fecha, salida, titulo="Esta noche en", filtrar=True):
     salida.mkdir(parents=True, exist_ok=True)
     for viejo in salida.glob("*.png"):
         viejo.unlink()
-    noche = ag.ordenar([e for e in eventos if ag.es_nocturno(e)])
+    noche = ag.ordenar([e for e in eventos if (not filtrar or ag.es_nocturno(e))])
     grupos = [noche[i:i + NOCHE_POR_STORY] for i in range(0, len(noche), NOCHE_POR_STORY)]
     man = []
     for i, g in enumerate(grupos, start=1):
-        r.png("story-noche.html", {"eventos": g, "fecha_larga": ag.fecha_larga(fecha), "pagina": i, "total_paginas": len(grupos)}, salida / f"{i:02d}.png", VIEW_STORY)
-        man.append({"archivo": f"{i:02d}.png", "ids": [e.get("id") for e in g], "alt_text": "Esta noche en Cádiz: " + "; ".join(e["nombre"] for e in g)})
+        r.png("story-noche.html", {"eventos": g, "titulo": titulo, "fecha_larga": ag.fecha_larga(fecha), "pagina": i, "total_paginas": len(grupos)}, salida / f"{i:02d}.png", VIEW_STORY)
+        man.append({"archivo": f"{i:02d}.png", "ids": [e.get("id") for e in g], "alt_text": f"{titulo} Cádiz: " + "; ".join(e["nombre"] for e in g)})
     return man
 
 
@@ -180,11 +180,11 @@ def render_dia(fecha, tipo="diario", var=None):
     datos = ag.cargar_eventos(carpeta)
     estado = ag.cargar_estado(carpeta)
     validos = ag.eventos_validos(datos.get("eventos", []), log=lambda m: ag.log_estado(estado, m))
-    if len(validos) < 2:
-        ag.log_estado(estado, f"{tipo}: menos de 2 eventos verificados ({len(validos)}); no se publica (regla 9)")
-        estado["omitido"] = {tipo: "menos de 2 eventos verificados"}
+    if len(validos) < ag.MIN_EVENTOS:
+        ag.log_estado(estado, f"{tipo}: 0 eventos verificados; el agente debe completar con «Siempre abierto» (regla 9: se publica todos los días)")
+        estado["omitido"] = {tipo: "0 eventos verificados: falta contenido (regla 9)"}
         ag.guardar_estado(carpeta, estado)
-        print(f"[{tipo}] {len(validos)} eventos verificados: no se genera nada (regla 9).")
+        print(f"[{tipo}] 0 eventos verificados: añade eventos o relleno «Siempre abierto» a eventos.json (regla 9: se publica todos los días).")
         return None
     resolver_imagenes(validos, carpeta)
     # Persistir en eventos.json la imagen definitiva de cada evento (oficial, ilustración propia o genérica), sin rutas temporales
@@ -202,6 +202,13 @@ def render_dia(fecha, tipo="diario", var=None):
         if tipo == "diario":
             man["stories"] = render_stories(r, validos, fecha, carpeta / "stories")
             man["noche"] = render_noche(r, validos, fecha, carpeta / "noche")
+            if not man["noche"] and datos.get("noche_manana"):
+                # Sin planes nocturnos hoy, la story de las 19:00 sale igualmente como «Mañana en Cádiz» (eventos de mañana, verificados)
+                manana = ag.eventos_validos(datos["noche_manana"], log=lambda m: ag.log_estado(estado, m))
+                if manana:
+                    resolver_imagenes(manana, carpeta)
+                    f2 = (ag.a_fecha(fecha) + __import__("datetime").timedelta(days=1)).isoformat()
+                    man["noche"] = render_noche(r, manana, f2, carpeta / "noche", titulo="Mañana en", filtrar=False)
     ag.guardar_json(carpeta / "manifiesto.json", man)
     ag.log_estado(estado, f"{tipo}: render OK ({len(validos)} eventos, variante {var})")
     ag.guardar_estado(carpeta, estado)
