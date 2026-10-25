@@ -48,6 +48,10 @@ El agente debe dejar la base de fuentes **más rica cada día que pasa**. En la 
 10. **Cine:** solo ciclos, estrenos especiales y cine clubs con pase propio (fecha y hora). No la cartelera diaria de los multicines.
 11. **Ocio nocturno:** solo conciertos y música en directo. No discotecas, fiestas temáticas ni noches de DJ.
 12. **Eventos con fecha pero sin hora:** se publican igualmente con «Consultar horario» (o el horario general del recinto si está confirmado); nunca se inventa la hora.
+13. **Gastronomía:** sí, jornadas y eventos puntuales con fecha en la capital (catas, jornadas, rutas de tapas con fechas).
+14. **Mercadillos, ferias y mercados:** sí, los puntuales con fecha y lugar.
+15. **Presentaciones de libros, charlas y tertulias culturales:** sí, todas las abiertas al público (Ateneo, bibliotecas, librerías, fundaciones…), gratuitas o de pago.
+16. **Actividades infantiles:** sí, todas las abiertas a todo el público (cuentacuentos, teatro infantil, talleres, fiestas de entidades y asociaciones).
 
 ## Reglas del agente
 
