@@ -44,6 +44,10 @@ El agente debe dejar la base de fuentes **más rica cada día que pasa**. En la 
 6. **Cursos, talleres y clases:** entran solo los puntuales (una sesión o un taller de un día, con fecha y hora). Los cursos de meses o con matrícula abierta, no.
 7. **Actos religiosos y de cofradías:** solo los grandes o públicos (procesiones, traslados y actos abiertos a toda la ciudad). No las misas ordinarias, novenas o cultos internos.
 8. **Jornadas, congresos y charlas académicas o profesionales con inscripción previa:** no se publican; solo lo cultural y de ocio.
+9. **Deporte:** solo el Cádiz CF masculino jugando en casa (fuera: nada). No fútbol base/femenino ni otros deportes locales.
+10. **Cine:** solo ciclos, estrenos especiales y cine clubs con pase propio (fecha y hora). No la cartelera diaria de los multicines.
+11. **Ocio nocturno:** solo conciertos y música en directo. No discotecas, fiestas temáticas ni noches de DJ.
+12. **Eventos con fecha pero sin hora:** se publican igualmente con «Consultar horario» (o el horario general del recinto si está confirmado); nunca se inventa la hora.
 
 ## Reglas del agente
 
