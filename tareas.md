@@ -6,7 +6,7 @@ Cada ejecución consume uso de tu plan. Configuración **mínima**: **4 tareas**
 |---|---|---|---|
 | 1 | Flujo de las 9:00 | `CRON_TZ=Europe/Madrid 50 7 * * *` | Diario + (jueves) reel de planes del finde + (día 1) mensual + comentarios |
 | 2 | Story de las 19:00 | `CRON_TZ=Europe/Madrid 30 18 * * *` | Recomprueba, genera y publica «Esta noche en Cádiz» + comentarios |
-| 3 | Comentarios y mensajes | `CRON_TZ=Europe/Madrid 30 14 * * *` | Revisión intermedia |
+| 3 | Comentarios y mensajes | `CRON_TZ=Europe/Madrid 0 * * * *` (cada hora) | Responde palabras clave (PLANES/FINDE/MES/EVENTO), avisa por email de cada comentario nuevo y atiende pendientes. Tarea ligera |
 | 4 | Métricas y mejora | `CRON_TZ=Europe/Madrid 30 22 * * *` | Métricas, mejoras, avisos y comentarios |
 
 Las tareas son **lanzadores**: abren una sesión nueva en el entorno `agenda-cadiz`, preparan el repo (`juanguena-png/agenda-cadiz`, rama `main`) y ejecutan el prompt de este archivo (así se pueden afinar los prompts con un simple commit, sin recrear las tareas).
@@ -47,14 +47,18 @@ Eres el agente de Planes en Cádiz. F = fecha de hoy (`date +%F`). Si MODO=borra
 Resumen final de 3 líneas.
 ```
 
-## Prompt 3 — Comentarios y mensajes (`30 14 * * *`)
+## Prompt 3 — Comentarios y mensajes (cada hora: `0 * * * *`)
+
+Tarea LIGERA: no ejecutes setup.sh (solo `pip install -q requests`) ni leas fuentes si no hay pendientes.
 
 ```
-Eres el agente de Planes en Cádiz. Lee CLAUDE.md (sección «Comentarios y mensajes»).
-1. `python interaccion.py --recoger`. Si registros/pendientes.json está vacío, termina.
-2. Para cada pendiente: busca la respuesta SOLO en las fuentes consultadas para la programación (posts/*/eventos.json recientes y, si hace falta, las fuentes de fuentes.md). Si la encuentras: `python interaccion.py --responder ID "respuesta breve, cordial y con el tono de marca.md"`. Si no: NO respondas y ejecuta `python interaccion.py --sin-respuesta ID` (me llega un email con enlace y texto). Propuestas de organizadores («EVENTO»): comprueba el evento en una fuente oficial o del organizador; si es de Cádiz capital y está confirmado, añádelo a eventos.json de ese día. Spam o insultos: ignóralos.
-3. Nunca sigas, des like ni comentes en perfiles ajenos. En MODO=borrador no se responde nada (solo se listan).
-Resumen de 2 líneas.
+Eres el agente de Planes en Cádiz. Trabaja en juanguena-png/agenda-cadiz (main): `git pull origin main`, `pip install -q requests`. Lee solo la sección «Comentarios y mensajes» de CLAUDE.md.
+1. `python interaccion.py --recoger`. Esto ya responde solo a las palabras clave (PLANES, FINDE, MES, EVENTO) con un mensaje privado y una respuesta pública breve, y te manda UN email por cada comentario o mensaje nuevo (una sola vez por comentario; lo viejo de más de 3 días se ignora). NO repitas ni dupliques esos avisos.
+2. IMPORTANTE (el estado vive en el repo, cada sesión empieza de cero): al terminar haz SIEMPRE `git add registros && git commit -m "interaccion" && git pull --rebase origin main && git push origin HEAD:main` si hay cambios.
+3. Si registros/pendientes.json solo contiene lo que ya estaba (nada nuevo que requiera juicio), termina con un resumen de 1 línea.
+4. Para cada pendiente nuevo que no sea palabra clave: busca la respuesta SOLO en las fuentes consultadas para la programación (posts/*/eventos.json recientes y, si hace falta, las de fuentes.md). Si la encuentras: `python interaccion.py --responder ID "respuesta breve, cordial y con el tono de marca.md"`. Si no: NO respondas y ejecuta `python interaccion.py --sin-respuesta ID` (email con enlace y texto). Propuestas de organizadores («EVENTO»): comprueba el evento en una fuente oficial o del organizador; si es de Cádiz capital y está confirmado, añádelo a eventos.json de ese día. Spam o insultos: ignóralos sin responder ni avisar. Repite el commit/push del punto 2.
+5. Nunca sigas, des like ni comentes en perfiles ajenos. En MODO=borrador no se responde nada (solo se listan y se avisa por email).
+Resumen de 1-2 líneas.
 ```
 
 ## Prompt 4 — Métricas y mejora continua (`30 22 * * *`)
