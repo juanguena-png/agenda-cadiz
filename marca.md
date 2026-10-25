@@ -78,7 +78,7 @@ Fresco, claro y cercano, como un amigo que te cuenta qué hay hoy en la ciudad. 
 🌊 Gratis · Finde · Lo mejor del mes
 👇 Comenta PLANES y te la mandamos
 ```
-**Descripción corta de Facebook (≤255):** «Agenda diaria de Cádiz capital: qué hacer hoy, esta noche y el finde. Todos los eventos comprobados, a las 9:00 y a las 18:30. Comenta PLANES y te la mandamos.»
+**Descripción corta de Facebook (≤255):** «Agenda diaria de Cádiz capital: qué hacer hoy, esta noche y el finde. Comenta PLANES y te la mandamos.»
 
 **Acerca de (Facebook):**
 > **Planes en Cádiz · Agenda diaria** — Todos los planes de Cádiz capital en un solo sitio. Cada día a las 9:00 publicamos qué hacer hoy: conciertos, teatro, exposiciones, deporte, actividades infantiles, gastronomía, fiestas y mucho plan gratis. Los jueves, los planes del finde; y el día 1 de cada mes, lo más destacado. 📍 Solo eventos celebrados en Cádiz capital, comprobados uno a uno en fuentes oficiales y en los propios recintos. Si un evento se cancela o cambia de hora, lo actualizamos. 🗓️ Agenda diaria a las 9:00 · «Esta noche en Cádiz» a las 18:30. 💬 Escribe «PLANES» en un comentario y te mandamos la agenda por mensaje. 📣 ¿Organizas algo en Cádiz? Cuéntanoslo por mensaje privado. También en Instagram: @planesencadiz
