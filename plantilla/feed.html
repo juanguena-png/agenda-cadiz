@@ -1,0 +1,36 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css">
+<style>
+html,body{background:#fff!important;color:#111!important;font-family:var(--f-texto)}
+.num b,.bio,.btns div,.top{color:#111!important}.num span{color:#555!important}
+.m{width:1080px;background:#fff}
+.top{display:flex;justify-content:space-between;align-items:center;padding:34px 44px 8px;font:800 40px var(--f-texto)}
+.cab{display:flex;align-items:center;gap:44px;padding:20px 44px 18px}
+.cab img.av{width:230px;height:230px;border-radius:50%;border:2px solid #ddd;flex:none}
+.num{display:flex;gap:54px;text-align:center}.num b{display:block;font-size:46px}.num span{font-size:27px;color:#444}
+.bio{padding:0 44px 24px;font-size:31px;line-height:1.38}.bio b{font-size:33px}
+.btns{display:flex;gap:14px;padding:0 44px 26px}.btns div{flex:1;text-align:center;padding:16px 0;border-radius:16px;background:#EFEFEF;font:700 29px var(--f-texto)}
+.dest{display:flex;gap:38px;padding:6px 44px 26px;overflow:hidden}
+.dest div{width:190px;text-align:center;font:600 26px var(--f-texto)}
+.dest .c{width:176px;height:176px;margin:0 auto 10px;border-radius:50%;border:3px solid #ddd;padding:6px}
+.dest .c i{display:block;width:100%;height:100%;border-radius:50%;background-size:cover;background-position:center}
+.tabs{display:flex;border-top:2px solid #dbdbdb;height:78px}.tabs div{flex:1;display:flex;align-items:center;justify-content:center}
+.tabs div.on{border-top:4px solid #111;margin-top:-2px}.tabs svg{width:42px;height:42px;stroke:#111;fill:none;stroke-width:2.2}.tabs div:not(.on) svg{stroke:#8e8e8e}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}
+.cel{position:relative;aspect-ratio:3/4;background-size:cover;background-position:center}
+.cel svg{position:absolute;right:16px;top:16px;width:46px;height:46px;fill:#fff;filter:drop-shadow(0 2px 4px rgba(0,0,0,.6))}
+.nota{padding:22px 44px;font:600 24px var(--f-texto);color:#777;text-align:center}
+</style></head><body><div class="m" id="l"></div>
+<script>
+const SV_CAR='<svg viewBox="0 0 24 24"><path d="M6 3h12a3 3 0 0 1 3 3v12h-2V6a1 1 0 0 0-1-1H6zM3 7h12a2 2 0 0 1 2 2v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/></svg>';
+const SV_REEL='<svg viewBox="0 0 24 24"><path d="M5 3h14a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3zm3 3L6 9h4l2-3zm5 0l-2 3h4l2-3zM10 12v6l5-3z"/></svg>';
+function render(d){
+  const cel=d.posts.map(p=>`<div class="cel" style="background-image:url('${p.img}')">${p.tipo==="reel"?SV_REEL:SV_CAR}</div>`).join("");
+  document.getElementById("l").innerHTML=`<div class="top"><span>planesencadiz</span><span>☰</span></div>
+  <div class="cab"><img class="av" src="${d.avatar}"><div><div class="num"><div><b>${d.posts.length}</b><span>publicaciones</span></div><div><b>—</b><span>seguidores</span></div><div><b>—</b><span>seguidos</span></div></div></div></div>
+  <div class="bio"><b>${d.nombre}</b><br>${d.bio.replace(/\n/g,"<br>")}</div>
+  <div class="btns"><div>Siguiendo</div><div>Mensaje</div><div>Contacto</div></div>
+  <div class="dest">${d.destacadas.map(x=>`<div><div class="c"><i style="background-image:url('${x.img}')"></i></div>${x.t}</div>`).join("")}</div>
+  <div class="tabs"><div class="on"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div><div><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M10 9v6l5-3z"/></svg></div><div><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4"/><path d="M4 21c1-5 15-5 16 0"/></svg></div></div>
+  <div class="grid">${cel}</div><div class="nota">Simulación del perfil con el contenido de ejemplo · el nº de seguidores se omite</div>`;
+}
+</script></body></html>

@@ -92,7 +92,7 @@ def variante(fecha):
     return fijada if fijada in ("A", "B") else ("A" if ag.a_fecha(fecha).toordinal() % 2 == 0 else "B")
 
 
-ORDEN_PALETAS = [0, 3, 2, 5, 4, 6, 1]  # mar, sol, cal, mar+sol cal, bruma, sol+sol azul, noche: días consecutivos nunca se parecen
+ORDEN_PALETAS = [0, 2, 1, 4, 3, 5, 6]  # elegido por búsqueda: ni el día siguiente ni el de la fila de arriba/abajo de la cuadrícula (3 columnas) comparten familia de color
 
 
 def paleta(fecha):

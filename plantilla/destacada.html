@@ -1,8 +1,8 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
 <style>
 .lienzo{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:44px}
-.disco{width:620px;height:620px;border-radius:50%;background:var(--c-acento);display:flex;align-items:center;justify-content:center;box-shadow:var(--sombra)}
-.disco svg{width:340px;height:340px;fill:none;stroke:var(--c-sobre-acento);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+.disco{width:700px;height:700px;border-radius:50%;background:var(--c-acento);display:flex;align-items:center;justify-content:center;box-shadow:var(--sombra)}
+.disco svg{width:390px;height:390px;fill:none;stroke:var(--c-sobre-acento);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
 .et{font-family:var(--f-titulo);font-weight:var(--peso-t);font-size:116px;text-transform:var(--mayus);color:var(--c-texto);letter-spacing:-.01em}
 </style></head><body>
 <div class="lienzo story" id="l"></div>
@@ -15,7 +15,7 @@ const ICONOS={
 };
 async function render(d){
   aplicarTema(d);
-  document.getElementById("l").innerHTML=`<div class="deco"></div><div class="disco"><svg viewBox="0 0 100 100">${ICONOS[d.icono]}</svg></div><div class="et">${esc(d.etiqueta)}</div>`;
+  document.getElementById("l").innerHTML=`<div class="deco"></div><div class="disco"><svg viewBox="0 0 100 100">${ICONOS[d.icono]}</svg></div>${d.con_etiqueta?`<div class="et">${esc(d.etiqueta)}</div>`:""}`;
   await listo();
 }
 </script></body></html>
