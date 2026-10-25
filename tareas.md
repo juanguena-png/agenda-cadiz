@@ -1,11 +1,11 @@
 # Tareas programadas (Claude Code en la nube)
 
-Cada ejecución consume uso de tu plan. Configuración **mínima**: **4 tareas** (cron en hora de Madrid con `CRON_TZ=Europe/Madrid`). Se lanzan con antelación porque preparar (fuentes, verificación, render, caption) lleva 40-70 min y `publicar.py --esperar-hasta` publica **en punto** (espera hasta 100 min). Los comentarios y mensajes se revisan **dentro** de las tareas de 9:00, 19:00 y 22:30 y con **una única tarea adicional a las 14:30**: 4 revisiones al día, lo mínimo razonable.
+Cada ejecución consume uso de tu plan. Configuración **mínima**: **4 tareas** (cron en hora de Madrid con `CRON_TZ=Europe/Madrid`). Se lanzan con antelación porque preparar (fuentes, verificación, render, caption) lleva 40-70 min y `publicar.py --esperar-hasta` publica **en punto** (espera hasta 100 min). Los comentarios y mensajes se revisan **dentro** de las tareas de 9:00, 18:30 y 22:30 y con una tarea ligera cada hora.
 
 | # | Nombre | Cron | Qué hace |
 |---|---|---|---|
 | 1 | Flujo de las 9:00 | `CRON_TZ=Europe/Madrid 50 7 * * *` | Diario + (jueves) reel de planes del finde + (día 1) mensual + comentarios |
-| 2 | Story de las 19:00 | `CRON_TZ=Europe/Madrid 30 18 * * *` | Recomprueba, genera y publica «Esta noche en Cádiz» + comentarios |
+| 2 | Story de las 18:30 | `CRON_TZ=Europe/Madrid 20 17 * * *` | Recomprueba, genera y publica «Esta noche en Cádiz» + comentarios |
 | 3 | Comentarios y mensajes | `CRON_TZ=Europe/Madrid 0 * * * *` (cada hora) | Responde palabras clave (PLANES/FINDE), avisa por email de cada comentario nuevo y atiende pendientes. Tarea ligera |
 | 4 | Métricas y mejora | `CRON_TZ=Europe/Madrid 30 22 * * *` | Métricas, mejoras, avisos y comentarios |
 
@@ -35,14 +35,14 @@ Eres el agente de Planes en Cádiz. F = fecha de hoy en Europe/Madrid (`date +%F
 Nunca cambies horarios ni reglas, nunca escribas secretos, nunca hagas scraping de Instagram/Facebook, nunca visites dominios bloqueados. Termina con un resumen de 6 líneas: eventos publicados, descartados y por qué, fuentes caídas, cobertura de descubrimiento, errores.
 ```
 
-## Prompt 2 — Story de las 19:00 (`30 18 * * *`)
+## Prompt 2 — Story de las 18:30 (`20 17 * * *`)
 
 ```
 Eres el agente de Planes en Cádiz. F = fecha de hoy (`date +%F`). Si MODO=borrador, no publiques: solo genera y sube posts/F.
 1. Abre posts/F/eventos.json (verificados por la mañana). Si no existe o la mañana no se ejecutó, haz el flujo completo de verificación solo para los eventos nocturnos (desde las 19:30) como en CLAUDE.md. Consulta además las búsquedas de descubrimiento de la noche (ocio nocturno, música en directo, teatro, flamenco).
 2. Recomprueba en las fuentes de cada evento nocturno (cancelaciones, cambios de hora, «suspendido»). Corrige eventos.json: quita lo cancelado, actualiza horas; mantén la verificación de Cádiz capital en cada evento.
-3. `python render.py --fecha F` (genera posts/F/noche/). La story de las 19:00 se publica TODOS los días: si no hay planes nocturnos (desde 19:30), añade a eventos.json la clave `noche_manana` con los eventos verificados de mañana y `render.py` la genera como «Mañana en Cádiz».
-4. `python publicar.py --fecha F --tipo noche --marcar-revision` y luego, en segundo plano, `python publicar.py --fecha F --tipo noche --esperar-hasta 19:00`; espera a que termine y revisa estado.json.
+3. `python render.py --fecha F` (genera posts/F/noche/). La story de las 18:30 se publica TODOS los días: si no hay planes nocturnos (desde 19:30), añade a eventos.json la clave `noche_manana` con los eventos verificados de mañana y `render.py` la genera como «Mañana en Cádiz».
+4. `python publicar.py --fecha F --tipo noche --marcar-revision` y luego, en segundo plano, `python publicar.py --fecha F --tipo noche --esperar-hasta 18:30`; espera a que termine y revisa estado.json.
 5. `git add posts && git commit && git push origin HEAD:main`; `python interaccion.py --recoger` y gestiona pendientes según CLAUDE.md.
 Resumen final de 3 líneas.
 ```
@@ -66,7 +66,7 @@ Resumen de 1-2 líneas.
 ```
 Eres el agente de Planes en Cádiz. Lee CLAUDE.md (sección «Métricas y mejora continua»).
 1. `python metricas.py --recoger` y `python metricas.py --resumen --dias 14`; `python metricas.py --ab`.
-2. Analiza alcance, impresiones/vistas, seguidores, guardados, compartidos, interacciones, horas de mayor actividad y procedencia de la audiencia en Instagram y Facebook. Decide, como máximo, UNA mejora concreta y segura por día (hashtags, primera frase del caption A/B, CTA, orden de los eventos…). Las mejoras nunca pueden saltarse las reglas del agente, la regla 1 (solo Cádiz capital) ni cambiar los horarios 9:00 y 19:00.
+2. Analiza alcance, impresiones/vistas, seguidores, guardados, compartidos, interacciones, horas de mayor actividad y procedencia de la audiencia en Instagram y Facebook. Decide, como máximo, UNA mejora concreta y segura por día (hashtags, primera frase del caption A/B, CTA, orden de los eventos…). Las mejoras nunca pueden saltarse las reglas del agente, la regla 1 (solo Cádiz capital) ni cambiar los horarios 9:00 y 18:30.
 3. Si aplicas una mejora: edítala en el repo y ejecuta `python metricas.py --mejora "título" "qué es y por qué la aplicas"` (registra en registros/mejoras.md y me envía email). Haz commit y push a main.
 4. MEJORA DE FUENTES (obligatoria, ver CLAUDE.md «Mejora continua de la base de fuentes»): `python fuentes_auditar.py`, arregla o sustituye lo que falle, añade al menos 1 fuente nueva a fuentes.json y regístrala en registros/fuentes-nuevas.md; commit y push. Después `python patrocinios.py --avisos` (no hace nada si PATROCINIOS=off). Revisa registros/fuentes.log y registros/cobertura.jsonl: si una fuente lleva 3+ días seguidos sin responder, `python notificar.py` con el aviso; si una búsqueda de descubrimiento no da nunca eventos, propón en mejoras.md sustituirla.
 5. `python interaccion.py --recoger` y gestiona pendientes según CLAUDE.md.

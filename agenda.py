@@ -10,7 +10,7 @@ RAIZ = Path(__file__).resolve().parent
 TZ = ZoneInfo("Europe/Madrid")
 
 CATEGORIAS = ["música", "teatro", "infantil", "exposición", "deporte", "gastronomía", "fiesta", "otros"]
-HORARIOS = {"diario": "09:00", "stories": "09:00", "tarde": "19:00", "finde": "09:00", "mensual": "09:00"}  # no se tocan
+HORARIOS = {"diario": "09:00", "stories": "09:00", "tarde": "18:30", "finde": "09:00", "mensual": "09:00"}  # no se tocan
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 

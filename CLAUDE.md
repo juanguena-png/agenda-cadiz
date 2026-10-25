@@ -47,13 +47,13 @@ El agente debe dejar la base de fuentes **más rica cada día que pasa**. En la 
    - **Sin imagen oficial** (o sin buena calidad, < 400 px) → **ilustración propia relacionada con el evento**: `render.py` la genera con `ilustrar.py` (motivos vectoriales elegidos por las palabras del nombre, la descripción y la categoría: guitarra para flamenco, barco para el mar, calabaza para Halloween…, en la paleta de marca; ver `ejemplos/ilustraciones/catalogo-motivos.png`). Revisa el resultado y, si el motivo no refleja bien el evento, afínalo en eventos.json: `"ilustracion": {"motivos": ["barco", "marco"], "fondo": "mar|bruma|noche|sol|cal"}`; si falta un motivo, añádelo a `ilustrar.py`. Queda marcada `generada: true`; en el caption añade «Ilustraciones: Planes en Cádiz». La imagen genérica de categoría (`plantilla/sin-foto/`) es solo el último recurso si falla la ilustración. Nunca inventes un cartel ni imites uno oficial.
    - Si un organizador pide retirar una imagen: se sustituye por la genérica y se añade a la lista de exclusión de `fuentes.md`. Antes de usar una imagen, comprueba esa lista.
 8. Sigue siempre `marca.md` (identidad definitiva «Planes en Cádiz», dirección Mediterráneo luminoso; `marca.json`) y las plantillas; no reinterpretes el diseño.
-9. **Se publica TODOS los días, sin excepción** (carrusel + stories a las 9:00, story de las 19:00; el reel los jueves). Basta 1 evento verificado. Si hay pocos eventos temporales, el agente busca más (descubrimiento, más fuentes, prensa, organizadores) y completa con «Siempre abierto» (permanentes con horario de ese día confirmado, ver abajo) hasta tener al menos 3 planes. Si aun así solo queda 1 o 0, se publica igual con lo verificado: nunca se inventa nada y nunca se baja la regla 1. Si no hay ningún plan nocturno, la story de las 19:00 sale como «Mañana en Cádiz» (clave `noche_manana` en eventos.json con los eventos verificados de mañana). Solo se omite una publicación si hay 0 eventos verificados incluso con relleno; `publicar.py` avisa por email para resolverlo ese mismo día.
+9. **Se publica TODOS los días, sin excepción** (carrusel + stories a las 9:00, story de las 18:30; el reel los jueves). Basta 1 evento verificado. Si hay pocos eventos temporales, el agente busca más (descubrimiento, más fuentes, prensa, organizadores) y completa con «Siempre abierto» (permanentes con horario de ese día confirmado, ver abajo) hasta tener al menos 3 planes. Si aun así solo queda 1 o 0, se publica igual con lo verificado: nunca se inventa nada y nunca se baja la regla 1. Si no hay ningún plan nocturno, la story de las 19:00 sale como «Mañana en Cádiz» (clave `noche_manana` en eventos.json con los eventos verificados de mañana). Solo se omite una publicación si hay 0 eventos verificados incluso con relleno; `publicar.py` avisa por email para resolverlo ese mismo día.
 10. Todo lo publicado en Instagram se replica en la página de Facebook (lo hace `publicar.py`).
 
 ## Prohibido
 
 - Scraping de Instagram o Facebook. Seguir/dejar de seguir, dar "me gusta" o comentar en perfiles ajenos de forma automática, comprar seguidores o cualquier práctica contra las normas de Meta.
-- Escribir tokens o claves en el repo. Cambiar los horarios (**9:00** y **19:00**) o saltarte estas reglas "por mejorar métricas".
+- Escribir tokens o claves en el repo. Cambiar los horarios (**9:00** y **18:30**) o saltarte estas reglas "por mejorar métricas".
 - Publicar cuando `MODO` no sea `publicar`. En `MODO=borrador` (por defecto) se genera todo pero NO se publica ni se responde nada.
 
 ## Flujo del agente (comandos)
@@ -87,11 +87,11 @@ Los eventos descartados (con motivo) van a `posts/F/descartados.json` para traza
 
 ## Publicaciones (solo estas 5 + el reel)
 
-Horarios **fijos**: 9:00 y 19:00.
+Horarios **fijos**: 9:00 y 18:30.
 
 1. **Carrusel diario (9:00)**: diapositiva 1 portada («Planes en Cádiz» + «Qué hacer hoy», fecha, nº de eventos); diapositivas 2-10 eventos; sin cierre. Reparto: N ≥ 9 → 9 diapositivas con floor/ceil(N/9) (las más cargadas primero); N < 9 → 1 evento por diapositiva. Orden cronológico, "todo el día" primero. (`agenda.reparto`).
 2. **Stories diarias (9:00, tras el carrusel)**: 1 por evento del carrusel, orden cronológico, secuenciales, zonas de 250 px libres.
-3. **Story de tarde "Esta noche en Cádiz" (19:00)**: eventos nocturnos del día (desde las 19:30) ya verificados, recomprobados; 4 por story.
+3. **Story de tarde "Esta noche en Cádiz" (18:30)**: eventos nocturnos del día (desde las 19:30) ya verificados, recomprobados; 4 por story.
 4. **Planes del finde (jueves 9:00)**: SOLO en formato **reel** (viernes a domingo; **no hay carrusel de finde**), 15-45 s, `reel.py`; 4,2 s de lectura por evento, máx. 9 eventos), replicado en Facebook. **Reel = formato propio** (`plantilla/reel.html`, ver marca.md): portada distinta a las demás publicaciones (`reel/portada.png`, se sube como `cover_url`), escenas animadas con estructura única, música normalizada. Se renderiza en ~2 min.
 5. **Agenda mensual (día 1, 9:00)**: SOLO destacados (festivales, fiestas, Carnaval y similares, espectáculos en recintos principales, gran afluencia, eventos únicos). Explica en `estado.json` (`"destacados": {id: motivo}`) por qué cada uno. Portada "Lo más destacado de [mes] en Cádiz"; en el caption recuerda que la agenda completa sale cada día a las 9:00.
 
@@ -113,7 +113,7 @@ Si el carrusel falla, no se publican sus stories. Si falla una story, se registr
 
 ## Métricas y mejora continua
 
-Cada día: `metricas.py --recoger` y `--resumen`. Orienta el trabajo a visibilidad, seguidores e interacciones (portadas, primera frase, hashtags, orden de lo destacado en captions, días con más guardados/compartidos). Cada mejora aplicada se registra con `metricas.py --mejora "título" "por qué"` (registra en `registros/mejoras.md` y envía email). Una mejora **nunca** puede saltarse estas reglas, la regla 1 ni cambiar 9:00/19:00.
+Cada día: `metricas.py --recoger` y `--resumen`. Orienta el trabajo a visibilidad, seguidores e interacciones (portadas, primera frase, hashtags, orden de lo destacado en captions, días con más guardados/compartidos). Cada mejora aplicada se registra con `metricas.py --mejora "título" "por qué"` (registra en `registros/mejoras.md` y envía email). Una mejora **nunca** puede saltarse estas reglas, la regla 1 ni cambiar 9:00/18:30.
 
 ## Avisos por email (`notificar.py`)
 

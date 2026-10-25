@@ -203,7 +203,7 @@ def render_dia(fecha, tipo="diario", var=None):
             man["stories"] = render_stories(r, validos, fecha, carpeta / "stories")
             man["noche"] = render_noche(r, validos, fecha, carpeta / "noche")
             if not man["noche"] and datos.get("noche_manana"):
-                # Sin planes nocturnos hoy, la story de las 19:00 sale igualmente como «Mañana en Cádiz» (eventos de mañana, verificados)
+                # Sin planes nocturnos hoy, la story de las 18:30 sale igualmente como «Mañana en Cádiz» (eventos de mañana, verificados)
                 manana = ag.eventos_validos(datos["noche_manana"], log=lambda m: ag.log_estado(estado, m))
                 if manana:
                     resolver_imagenes(manana, carpeta)

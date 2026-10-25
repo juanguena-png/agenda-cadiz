@@ -34,13 +34,13 @@ Opcional (si quieres usar más espacio, ≤150): añade `📍 Solo Cádiz capita
 | Foto de perfil | `foto-perfil-960.png` |
 | Foto de portada | `facebook-cabecera-1640x624.png` (contenido clave centrado: se ve entero en móvil y escritorio) |
 | Categoría principal | Sitio web de noticias y medios (o «Servicio de información / Agenda de eventos»); secundaria: Turismo local |
-| Descripción corta (≤255) | Agenda diaria de Cádiz capital: qué hacer hoy, esta noche y el finde. Todos los eventos comprobados, a las 9:00 y a las 19:00. Comenta PLANES y te la mandamos. |
+| Descripción corta (≤255) | Agenda diaria de Cádiz capital: qué hacer hoy, esta noche y el finde. Todos los eventos comprobados, a las 9:00 y a las 18:30. Comenta PLANES y te la mandamos. |
 | Ubicación / Zona | Cádiz, España (zona de cobertura; sin dirección postal ni «negocio local») |
 | Email | el de EMAIL_DESTINO (o uno público del proyecto) |
 | Sitio web | enlace a Instagram: instagram.com/planesencadiz |
 | Instagram vinculado | Configuración de la página → Cuentas vinculadas → Instagram (imprescindible para la API) |
 | Botón de acción | «Enviar mensaje» |
-| Horario | No aplica (o «Publicamos a diario 9:00 y 19:00» en la descripción) |
+| Horario | No aplica (o «Publicamos a diario 9:00 y 18:30» en la descripción) |
 | Respuesta automática de Messenger | «¡Hola! 👋 Soy Planes en Cádiz. Escribe PLANES y te mandamos la agenda de hoy. Si organizas algo en Cádiz capital, cuéntanos fecha, hora, lugar y precio.» |
 
 **Acerca de (texto largo):**
