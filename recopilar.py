@@ -25,11 +25,15 @@ import agenda as ag
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AgendaCadizBot/1.0 (+agenda de Cádiz; contacto en README)"}
 MESES = {m: i + 1 for i, m in enumerate(ag.MESES)}
 HOSTS_PROHIBIDOS = ("instagram.com", "facebook.com", "fb.com")
+# Dominios caducados/secuestrados o peligrosos: NUNCA se visitan (p. ej. sohoalternative.es sirve spam de apuestas)
+DOMINIOS_BLOQUEADOS = ("sohoalternative.es",)
 
 
 def descargar(url):
     if any(h in urlparse(url).netloc for h in HOSTS_PROHIBIDOS):
         raise ValueError("Prohibido hacer scraping de Instagram/Facebook")
+    if any(urlparse(url).netloc.endswith(h) for h in DOMINIOS_BLOQUEADOS):
+        raise ValueError("Dominio bloqueado (no seguro)")
     r = requests.get(url, headers=UA, timeout=25)
     r.raise_for_status()
     if "charset" not in r.headers.get("content-type", "").lower():
@@ -104,7 +108,7 @@ def parser_ayto(fuente, ventana):
         s = BeautifulSoup(h.text, "lxml")
         for a in s.find_all("a", href=True):
             href = urljoin(h.url, a["href"])
-            if re.search(r"/evento/[^/?#]+$", urlparse(href).path) and urlparse(href).netloc == urlparse(h.url).netloc:
+            if re.search(fuente.get("enlace_regex", r"/evento/[^/?#]+$"), urlparse(href).path) and urlparse(href).netloc == urlparse(h.url).netloc:
                 enlaces[href] = True
             elif re.search(r"[?&]page=\d+", href) and urlparse(href).path == urlparse(h.url).path:
                 pendientes.append(href)
@@ -177,6 +181,36 @@ def parser_bacantix(fuente, ventana):
     return out, 0
 
 
+MES_N = {m: i + 1 for i, m in enumerate(ag.MESES)}
+
+
+def parser_uca(fuente, ventana):
+    """Agenda de eventos de la UCA (uca.es/evento/): solo los etiquetados «Campus Cádiz» (la UCA tiene campus en Puerto Real, Jerez y Algeciras)."""
+    ini, fin = ventana
+    out = []
+    for pag in range(1, 8):
+        u = fuente["urls"][0] + (f"page/{pag}/" if pag > 1 else "")
+        try:
+            h = requests.get(u, headers=IMG_UA, timeout=25)
+            h.raise_for_status()
+        except requests.RequestException:
+            break
+        arts = BeautifulSoup(h.text, "lxml").select("article")
+        if not arts:
+            break
+        for a in arts:
+            txt = re.sub(r"\s+", " ", a.get_text(" "))
+            m = re.search(r"evento \(\s*(\d{1,2}) ([a-záéíóú]+) (\d{4})\s*\)", txt, re.I)
+            link = a.find("a", href=True)
+            if not (m and link and m.group(2).lower() in MES_N):
+                continue
+            dia = date(int(m.group(3)), MES_N[m.group(2).lower()], int(m.group(1)))
+            if ini <= dia <= fin and "Campus Cádiz" in txt:
+                out.append({"nombre": (a.find(["h2", "h3"]) or link).get_text(" ", strip=True), "fecha": dia.isoformat(), "categoria_fuente": "universidad",
+                            "descripcion_fuente": txt[:500], "url": link["href"], "lugar": "Campus Cádiz (UCA) — confirmar sede y dirección en la ficha", "multidia": False, "permanente": False})
+    return out, 0
+
+
 def parser_laciudad(r, fuente):
     """Páginas de programación de recintos de laciudad.cadiz.es (bloques .eventitem bajo h3 de mes)."""
     s = BeautifulSoup(r.text, "lxml")
@@ -204,6 +238,31 @@ def parser_laciudad(r, fuente):
     return out
 
 
+CP_CADIZ = re.compile(r"\b110(0[1-9]|1[0-2])\b")
+OTROS_MUNICIPIOS = re.compile(r"san fernando|puerto real|puerto de santa|chiclana|jerez|rota|chipiona|sanl[uú]car|conil|vejer|barbate|algeciras|la l[ií]nea|tarifa|el bosque|medina|arcos|ubrique|villamart[ií]n|sotogrande|san roque", re.I)
+
+
+def pista_capital(*textos):
+    """Pista (NO verificación) de que el lugar está en Cádiz capital: código postal 11001-11012 o «Cádiz» sin otro municipio."""
+    t = " ".join(x for x in textos if x)
+    if not t.strip():
+        return None          # sin información: el agente debe verificar
+    if OTROS_MUNICIPIOS.search(t) or re.search(r"\b(sevilla|m[aá]laga|madrid|online|virtual)\b", t, re.I):
+        return False
+    return True if (CP_CADIZ.search(t) or re.search(r"\bC[áa]diz\b", t, re.I)) else None
+
+
+def _loc(x):
+    loc = x.get("location") or {}
+    if isinstance(loc, list):
+        loc = loc[0] if loc else {}
+    addr = loc.get("address") or {}
+    if isinstance(addr, str):
+        addr = {"streetAddress": addr}
+    calle = ", ".join(str(addr.get(k)) for k in ("streetAddress", "postalCode", "addressLocality") if addr.get(k))
+    return loc.get("name"), calle
+
+
 def parser_jsonld(r, fuente):
     out = []
     s = BeautifulSoup(r.text, "lxml")
@@ -219,14 +278,33 @@ def parser_jsonld(r, fuente):
                 if isinstance(x.get("itemListElement"), list):
                     pila += [i.get("item", i) if isinstance(i, dict) else i for i in x["itemListElement"]]
                 if "Event" in str(x.get("@type", "")):
-                    loc = x.get("location") or {}
-                    addr = loc.get("address") or {}
-                    out.append({"nombre": x.get("name"), "fecha": (x.get("startDate") or "")[:10],
-                                "hora_inicio": (x.get("startDate") or "")[11:16] or None, "url": x.get("url"),
-                                "lugar": loc.get("name"), "direccion": json.dumps(addr, ensure_ascii=False) if addr else None,
-                                "imagen_url": x.get("image") if isinstance(x.get("image"), str) else None,
-                                "descripcion_fuente": (x.get("description") or "")[:400]})
+                    nombre_lugar, calle = _loc(x)
+                    img = x.get("image")
+                    out.append({"nombre": x.get("name"), "fecha": (x.get("startDate") or "")[:10], "hora_inicio": (x.get("startDate") or "")[11:16] or None, "url": x.get("url"),
+                                "lugar": nombre_lugar, "direccion": calle or None, "imagen_url": img if isinstance(img, str) else None,
+                                "descripcion_fuente": (x.get("description") or "")[:400], "pista_capital": pista_capital(nombre_lugar, calle, x.get("description")),
+                                "multidia": False, "permanente": False})
     return out
+
+
+def enriquecer_con_ficha(cands, limite=40):
+    """Los listados (Eventbrite…) no traen el lugar: se abre la ficha de cada evento de la ventana y se lee su JSON-LD."""
+    def una(c):
+        try:
+            h = requests.get(c["url"], headers=IMG_UA, timeout=25)
+            for tag in BeautifulSoup(h.text, "lxml").find_all("script", type="application/ld+json"):
+                j = json.loads(tag.string or "")
+                for x in (j if isinstance(j, list) else [j]):
+                    if isinstance(x, dict) and "Event" in str(x.get("@type", "")):
+                        n, calle = _loc(x)
+                        c["lugar"], c["direccion"] = n or c.get("lugar"), calle or c.get("direccion")
+                        c["pista_capital"] = pista_capital(n, calle, c.get("descripcion_fuente"))
+                        return
+        except Exception:
+            pass
+    pend = [c for c in cands if c.get("url") and not c.get("direccion")][:limite]
+    with ThreadPoolExecutor(8) as ex:
+        list(ex.map(una, pend))
 
 
 def parser_texto(r, fuente):
@@ -246,9 +324,9 @@ def procesar(fuente, ventana=None):
     if not fuente["urls"]:
         res.update(estado="sin_url", error=fuente.get("nota", "URL por localizar"))
         return res
-    if fuente["parser"] in ("ayto", "bacantix"):
+    if fuente["parser"] in ("ayto", "bacantix", "uca"):
         try:
-            cands, errores = (parser_ayto if fuente["parser"] == "ayto" else parser_bacantix)(fuente, ventana)
+            cands, errores = {"ayto": parser_ayto, "bacantix": parser_bacantix, "uca": parser_uca}[fuente["parser"]](fuente, ventana)
             for c in cands:
                 c.update(fuente_id=fuente["id"], fuente=fuente["nombre"], provincial=fuente["provincial"], tipo_fuente=fuente["tipo"])
             res["candidatos"] = cands
@@ -260,6 +338,10 @@ def procesar(fuente, ventana=None):
         try:
             r = descargar(url)
             cands = PARSERS[fuente["parser"]](r, fuente)
+            if fuente["parser"] == "jsonld" and ventana:
+                cands = [c for c in cands if ventana[0].isoformat() <= (c.get("fecha") or "") <= ventana[1].isoformat()]
+                if fuente.get("enriquecer", True):
+                    enriquecer_con_ficha(cands)
             for c in cands:
                 c.update(fuente_id=fuente["id"], fuente=fuente["nombre"], provincial=fuente["provincial"], tipo_fuente=fuente["tipo"])
             res["candidatos"] += cands
@@ -325,6 +407,13 @@ def main():
     with open(ag.RAIZ / "registros" / "fuentes.log", "a", encoding="utf-8") as fh:
         for f in fuentes_log:
             fh.write(f"{ag.ahora().isoformat(timespec='seconds')}\t{f['id']}\t{f['estado']}\t{f['candidatos']}\t{f['nombre']}\t{f.get('error') or ''}\n")
+    cob = {}
+    for c in cands:
+        if not c.get("permanente") and c.get("pista_capital") is not False:
+            cob.setdefault(c["fecha"], set()).add((c["nombre"] or "").lower()[:40])
+    with open(ag.RAIZ / "registros" / "cobertura.jsonl", "a", encoding="utf-8") as fh:
+        fh.write(json.dumps({"ts": ag.ahora().isoformat(timespec="seconds"), "ventana": [ini.isoformat(), fin.isoformat()], "candidatos_automaticos_por_dia": {d_: len(v) for d_, v in sorted(cob.items())},
+                             "fuentes_ok": sum(f["estado"] == "ok" for f in fuentes_log), "fuentes_web": len(consultas)}, ensure_ascii=False) + "\n")
     print(f"{len(consultas)} fuentes para consultar con WebFetch/WebSearch (ver consultas_web en candidatos.json)")
     print(f"{len(cands)} candidatos en la ventana; fuentes ok: {sum(f['estado'] == 'ok' for f in fuentes_log)}/{len(fuentes_log)}")
     fallos = [f["nombre"] for f in fuentes_log if f["estado"] not in ("ok", "web", "inactiva")]

@@ -6,7 +6,7 @@
   python interaccion.py --sin-respuesta ID       # el agente no la encuentra: se avisa por email (enlace + texto) y NO se responde
 
 MODO=borrador: solo lee y lista; no responde ni envía mensajes. Nunca se sigue, se da like ni se comenta en perfiles ajenos.
-Palabras clave en registros/palabras_clave.json: {"PLANES": "diario", "FINDE": "finde", "MES": "mensual"}
+Palabras clave en registros/palabras_clave.json: {"PLANES": "diario", "FINDE": "finde", "MES": "mensual", "EVENTO": "propuesta"}
 """
 import argparse
 import re
@@ -22,7 +22,7 @@ DIAS_ATRAS = 7
 
 
 def claves():
-    return ag.cargar_json(CLAVES, {"PLANES": "diario", "FINDE": "finde", "MES": "mensual"})
+    return ag.cargar_json(CLAVES, {"PLANES": "diario", "FINDE": "finde", "MES": "mensual", "EVENTO": "propuesta"})
 
 
 def agenda_para(tipo):
@@ -75,7 +75,19 @@ def mensajes(plataforma):
     return out
 
 
+TEXTO_PROPUESTA = ("¡Gracias por avisarnos! Para publicar tu evento necesitamos: nombre, fecha y hora, lugar con dirección en Cádiz capital, precio (o gratis) y un enlace "
+                   "oficial (web del organizador o recinto). Lo comprobaremos antes de incluirlo en la agenda. Si tienes cartel, envíanoslo también.")
+
+
 def responder_clave(item, tipo_agenda):
+    if tipo_agenda == "propuesta":  # un organizador propone un evento: se agradece y se deja pendiente para que el agente lo verifique
+        item["propuesta_evento"] = True
+        msg = TEXTO_PROPUESTA
+        if item["plataforma"] == "instagram":
+            api("POST", f"{ag.secreto('IG_USER_ID')}/messages", recipient={"comment_id": item["id"]}, message={"text": msg})
+        else:
+            api("POST", f"{ag.secreto('FB_PAGE_ID')}/messages", recipient={"comment_id": item["id"]}, message={"text": msg}, messaging_type="RESPONSE")
+        return False  # no se cierra: queda pendiente (el agente verifica la propuesta con las fuentes)
     texto = agenda_para(tipo_agenda)
     if not texto:
         return False

@@ -48,10 +48,11 @@
       "nombre": "Universidad de Cádiz – actividades culturales",
       "tipo": "oficial",
       "urls": [
-        "https://www.uca.es/"
+        "https://www.uca.es/evento/"
       ],
-      "parser": "texto",
-      "provincial": true
+      "parser": "uca",
+      "provincial": true,
+      "nota": "Solo eventos etiquetados «Campus Cádiz»; confirmar sede y dirección en la ficha"
     },
     {
       "id": 6,
@@ -60,9 +61,10 @@
       "urls": [
         "https://deporte.cadiz.es/eventos"
       ],
-      "parser": "texto",
+      "parser": "ayto",
       "provincial": false,
-      "nota": "Instituto Municipal del Deporte; eventos deportivos municipales"
+      "nota": "Instituto Municipal del Deporte: fichas con fecha; solo eventos con fecha en la ventana",
+      "enlace_regex": "/eventos_deportivos/[^/?#]+$"
     },
     {
       "id": 7,
@@ -213,10 +215,16 @@
       "nombre": "Eventbrite – Cádiz",
       "tipo": "agregador",
       "urls": [
-        "https://www.eventbrite.es/d/spain--c%C3%A1diz/events/"
+        "https://www.eventbrite.es/d/spain--c%C3%A1diz/events/",
+        "https://www.eventbrite.es/d/spain--c%C3%A1diz/all-events/",
+        "https://www.eventbrite.es/b/spain--c%C3%A1diz/family-and-education/",
+        "https://www.eventbrite.es/b/spain--c%C3%A1diz/food-and-drink/",
+        "https://www.eventbrite.es/b/spain--c%C3%A1diz/sports-and-fitness/",
+        "https://www.eventbrite.es/b/spain--c%C3%A1diz/music/"
       ],
       "parser": "jsonld",
-      "provincial": true
+      "provincial": true,
+      "nota": "Mezcla eventos online y de otros municipios: usa `pista_capital` solo como pista y verifica la dirección en la ficha"
     },
     {
       "id": 21,
@@ -333,7 +341,8 @@
       ],
       "parser": "texto",
       "provincial": true,
-      "nota": "filtrar Cádiz capital"
+      "nota": "sustituida por la fuente 5 (parser uca)",
+      "activa": false
     },
     {
       "id": 32,
@@ -412,10 +421,12 @@
       "nombre": "Tickentradas",
       "tipo": "entradas",
       "urls": [
-        "https://www.tickentradas.com/"
+        "https://www.laganzua.net/conciertos/cadiz",
+        "https://www.laganzua.net/conciertos/cadiz/2026"
       ],
-      "parser": "texto",
-      "provincial": true
+      "parser": "jsonld",
+      "provincial": true,
+      "nota": "Conciertos de la provincia con JSON-LD; `pista_capital` por texto («… de Cádiz»); verificar sala y dirección en otra fuente"
     },
     {
       "id": 40,
@@ -497,6 +508,337 @@
       "via": "web",
       "consulta": "conciertos Cádiz {fecha} sala; teatro y monólogos Cádiz {fecha}; eventos infantiles Cádiz {fecha}; mercadillos y ferias Cádiz {fecha}",
       "nota": "Búsqueda abierta diaria por categorías"
+    },
+    {
+      "id": 47,
+      "nombre": "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.andalucia.org/es/cadiz-agenda"
+      ],
+      "parser": "jsonld",
+      "provincial": true,
+      "nota": "Agenda turística provincial (JSON-LD); filtrar Cádiz capital"
+    },
+    {
+      "id": 48,
+      "nombre": "Meetup – grupos de Cádiz",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.meetup.com/es-ES/find/?location=es--C%C3%A1diz&source=EVENTS"
+      ],
+      "parser": "jsonld",
+      "provincial": true,
+      "nota": "Quedadas e intercambios; sin lugar estructurado: verificar en la ficha",
+      "enriquecer": true
+    },
+    {
+      "id": 49,
+      "nombre": "Descubrimiento diario · Música en directo",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "conciertos música en directo Cádiz capital {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 50,
+      "nombre": "Descubrimiento diario · Flamenco",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "flamenco Cádiz peña tablao actuación {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 51,
+      "nombre": "Descubrimiento diario · Teatro y cartelera",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "teatro obra Cádiz {fecha} cartelera",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 52,
+      "nombre": "Descubrimiento diario · Humor y monólogos",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "monólogos humor Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 53,
+      "nombre": "Descubrimiento diario · Exposiciones",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "exposición inauguración Cádiz {fecha} sala museo galería",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 54,
+      "nombre": "Descubrimiento diario · Cine",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "cine proyección filmoteca cineclub Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 55,
+      "nombre": "Descubrimiento diario · Infantil y familia",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "actividades infantiles familia Cádiz {fecha} taller cuentacuentos",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 56,
+      "nombre": "Descubrimiento diario · Talleres y cursos",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "taller curso gratuito Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 57,
+      "nombre": "Descubrimiento diario · Charlas y presentaciones",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "conferencia charla presentación de libro Cádiz {fecha} ateneo",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 58,
+      "nombre": "Descubrimiento diario · Deporte popular",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "carrera popular torneo regata partido Cádiz {fecha} deporte",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 59,
+      "nombre": "Descubrimiento diario · Gastronomía",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "ruta de tapas degustación mercado gastronómico Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 60,
+      "nombre": "Descubrimiento diario · Fiestas y tradiciones",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "fiesta feria verbena tradición Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 61,
+      "nombre": "Descubrimiento diario · Mercadillos y artesanía",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "mercadillo feria artesanía rastro Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 62,
+      "nombre": "Descubrimiento diario · Visitas guiadas y rutas",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "visita guiada ruta Torre Tavira Teatro Romano Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 63,
+      "nombre": "Descubrimiento diario · Religión y cofradías",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "cultos besapié cofradías hermandades Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 64,
+      "nombre": "Descubrimiento diario · Ocio nocturno",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "fiesta DJ discoteca noche Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 65,
+      "nombre": "Descubrimiento diario · Planes gratis",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "plan gratis evento gratuito Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 66,
+      "nombre": "Descubrimiento diario · Solidarios y voluntariado",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "evento solidario voluntariado Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 67,
+      "nombre": "Descubrimiento diario · Agenda de prensa local",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "agenda Cádiz {fecha} Diario de Cádiz La Voz de Cádiz Cádiz Directo",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 68,
+      "nombre": "Descubrimiento diario · Academias, ateneos y colegios",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Real Academia Ateneo Colegio profesional Cádiz actividades {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 69,
+      "nombre": "Descubrimiento diario · Oratorio San Felipe Neri y Museo de las Cortes",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Oratorio de San Felipe Neri Museo de las Cortes Cádiz actividades {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 70,
+      "nombre": "Descubrimiento diario · Fundaciones (Unicaja, Cajasol)",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Fundación Unicaja Cádiz Fundación Cajasol Cádiz exposiciones conciertos {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 71,
+      "nombre": "Descubrimiento diario · Diputación (Palacio Provincial, Sala Rivadavia)",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Diputación de Cádiz Palacio Provincial Sala Rivadavia exposición {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 72,
+      "nombre": "Descubrimiento diario · Salas de conciertos",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Momart Theatre salas de conciertos Cádiz capital programación {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 73,
+      "nombre": "Descubrimiento diario · Universidad (agenda cultural PDF)",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "UCA Campus Cádiz extensión universitaria agenda cultural {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 74,
+      "nombre": "Descubrimiento diario · Festivales",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "festival Cádiz {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 75,
+      "nombre": "Descubrimiento diario · Deportes de equipo",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Cádiz CF baloncesto balonmano rugby fútbol sala partido Cádiz capital {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 76,
+      "nombre": "Descubrimiento diario · Turismo y cruceros",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Cádiz actividades turismo {fecha} Ayuntamiento Patronato",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
     }
   ]
 }
