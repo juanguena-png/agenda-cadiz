@@ -2,6 +2,11 @@
   "publicaciones": {},
   "registro": [
     "2026-10-25T02:52:28+01:00 finde: render OK (8 eventos, variante A)",
-    "2026-10-25T10:49:07+01:00 finde: render OK (3 eventos, variante A)"
-  ]
+    "2026-10-25T10:49:07+01:00 finde: render OK (3 eventos, variante A)",
+    "2026-10-25T10:57:05+01:00 borrador reel: 1 publicaciones preparadas, nada publicado"
+  ],
+  "revision_final": {
+    "hecha": true,
+    "ts": "2026-10-25T10:57:04+01:00"
+  }
 }

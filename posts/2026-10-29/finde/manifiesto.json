@@ -1,35 +1,4 @@
 {
   "variante": "A",
-  "paleta": 5,
-  "carrusel": [
-    {
-      "archivo": "01.png",
-      "tipo": "portada",
-      "alt_text": "Portada de Planes en Cádiz: Planes del finde, 30 oct – 1 nov. 3 planes."
-    },
-    {
-      "archivo": "02.png",
-      "tipo": "eventos",
-      "ids": [
-        "south-series"
-      ],
-      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
-    },
-    {
-      "archivo": "03.png",
-      "tipo": "eventos",
-      "ids": [
-        "ory-vilar"
-      ],
-      "alt_text": "Eventos: Elaine Vilar Madruga · Jornadas de la Fundación Ory (19:00, Fundación Carlos Edmundo de Ory)"
-    },
-    {
-      "archivo": "04.png",
-      "tipo": "eventos",
-      "ids": [
-        "tertulia-acropolis"
-      ],
-      "alt_text": "Eventos: Tertulia filosófica «El arte de decidir bien» (20:00, Nueva Acrópolis Cádiz)"
-    }
-  ]
+  "paleta": 5
 }

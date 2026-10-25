@@ -315,7 +315,7 @@ def construir_plan(carpeta, tipo, man, eventos, fecha):
     """Lista de publicaciones: cada una con archivos, caption y funciones de IG/FB."""
     plan = []
     caption = (carpeta / "caption.txt").read_text(encoding="utf-8") if (carpeta / "caption.txt").exists() else ""
-    if tipo in ("diario", "finde", "mensual"):
+    if tipo in ("diario", "mensual"):  # «Planes del finde» solo sale como reel (tipo reel); no hay carrusel de finde
         if not caption:
             ag.salir(f"Falta {carpeta/'caption.txt'}")
         imgs = [carpeta / "carrusel" / d["archivo"] for d in man["carrusel"]]
@@ -360,6 +360,9 @@ if __name__ == "__main__":
     ap.add_argument("--diagnostico", action="store_true")
     ap.add_argument("--marcar-revision", action="store_true")
     a = ap.parse_args()
+    if a.tipo == "finde":  # «Planes del finde» es solo reel: --tipo finde se trata como --tipo reel
+        print("Aviso: «Planes del finde» solo se publica en formato reel; se usa --tipo reel.")
+        a.tipo = "reel"
     if a.diagnostico:
         diagnostico()
     elif a.marcar_revision:

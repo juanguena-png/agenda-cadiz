@@ -50,10 +50,10 @@ Las fuentes con `via: web` (Museo de Cádiz, bibliotecas, Cádiz CF, VivaCádiz,
 ```
 python recopilar.py --fecha F [--hasta G]   # candidatos en bruto -> posts/F/candidatos.json (+ registros/fuentes.log)
 # TÚ: verificar Cádiz capital, contrastar, redactar, descargar imágenes, escribir posts/F/eventos.json y caption.txt
-python render.py --fecha F [--tipo diario|finde|mensual]   # carrusel, stories (diario), noche (diario)
+python render.py --fecha F [--tipo diario|finde|mensual]   # carrusel, stories (diario), noche (diario); con finde solo prepara imágenes/ilustraciones para el reel (no se publica carrusel)
 python reel.py --fecha F                    # solo jueves (usa posts/F/finde/)
 python publicar.py --fecha F --tipo T --marcar-revision
-python publicar.py --fecha F --tipo T --esperar-hasta 09:00      # T: diario | noche | finde | reel | mensual
+python publicar.py --fecha F --tipo T --esperar-hasta 09:00      # T: diario | noche | reel (planes del finde) | mensual
 python interaccion.py --recoger             # comentarios/mensajes
 python metricas.py --recoger / --resumen / --ab / --mejora "t" "motivo"
 ```
@@ -81,7 +81,7 @@ Horarios **fijos**: 9:00 y 19:00.
 1. **Carrusel diario (9:00)**: diapositiva 1 portada («Planes en Cádiz» + «Qué hacer hoy», fecha, nº de eventos); diapositivas 2-10 eventos; sin cierre. Reparto: N ≥ 9 → 9 diapositivas con floor/ceil(N/9) (las más cargadas primero); N < 9 → 1 evento por diapositiva. Orden cronológico, "todo el día" primero. (`agenda.reparto`).
 2. **Stories diarias (9:00, tras el carrusel)**: 1 por evento del carrusel, orden cronológico, secuenciales, zonas de 250 px libres.
 3. **Story de tarde "Esta noche en Cádiz" (19:00)**: eventos nocturnos del día (desde las 19:30) ya verificados, recomprobados; 4 por story.
-4. **Planes del finde (jueves 9:00)**: carrusel (viernes a domingo) + reel (15-45 s, `reel.py`; 4,2 s de lectura por evento, máx. 9 eventos) replicado en Facebook. **Reel = formato propio** (`plantilla/reel.html`, ver marca.md): portada distinta a las demás publicaciones (`reel/portada.png`, se sube como `cover_url`), escenas animadas con estructura única, música normalizada. Se renderiza en ~2 min.
+4. **Planes del finde (jueves 9:00)**: SOLO en formato **reel** (viernes a domingo; **no hay carrusel de finde**), 15-45 s, `reel.py`; 4,2 s de lectura por evento, máx. 9 eventos), replicado en Facebook. **Reel = formato propio** (`plantilla/reel.html`, ver marca.md): portada distinta a las demás publicaciones (`reel/portada.png`, se sube como `cover_url`), escenas animadas con estructura única, música normalizada. Se renderiza en ~2 min.
 5. **Agenda mensual (día 1, 9:00)**: SOLO destacados (festivales, fiestas, Carnaval y similares, espectáculos en recintos principales, gran afluencia, eventos únicos). Explica en `estado.json` (`"destacados": {id: motivo}`) por qué cada uno. Portada "Lo más destacado de [mes] en Cádiz"; en el caption recuerda que la agenda completa sale cada día a las 9:00.
 
 Si el carrusel falla, no se publican sus stories. Si falla una story, se registra y se continúa (`publicar.py`).

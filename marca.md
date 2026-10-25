@@ -37,7 +37,7 @@ Fuente de verdad en código: `marca.json` (tema, prefijo, ciudad, usuario) + `pl
 ## Formatos y reglas de diseño
 | Formato | Tamaño | Notas |
 |---|---|---|
-| Carrusel / portada / planes del finde / agenda mensual | 1080×1350 | contenido clave en el 90 % central (la cuadrícula del perfil recorta a 3:4) |
+| Carrusel / portada / agenda mensual (planes del finde: solo reel) | 1080×1350 | contenido clave en el 90 % central (la cuadrícula del perfil recorta a 3:4) |
 | Stories, story de tarde, reel, destacadas | 1080×1920 | **250 px libres arriba y abajo** (solo decorado, nunca texto) |
 | Imágenes genéricas «sin foto» | 1200×1200 | `plantilla/sin-foto/<categoría>.png`, una por categoría, color propio sobre mar con sol |
 
