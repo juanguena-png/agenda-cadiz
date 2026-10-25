@@ -163,9 +163,10 @@ def ig_story(url):
     return ig_publicar(c)
 
 
-def ig_reel(url, caption):
+def ig_reel(url, caption, cover=None):
+    """cover = URL pública de la portada del reel (reel/portada.png): formato propio, distinto del resto de publicaciones."""
     ig = ag.secreto("IG_USER_ID")
-    c = api("POST", f"{ig}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true")["id"]
+    c = api("POST", f"{ig}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true", cover_url=cover)["id"]
     ig_esperar(c, intentos=120, pausa=5)
     return ig_publicar(c)
 
@@ -332,7 +333,7 @@ def construir_plan(carpeta, tipo, man, eventos, fecha):
     if tipo == "reel":
         v = carpeta / "reel" / "reel.mp4"
         cap = (carpeta / "caption.txt").read_text(encoding="utf-8") if (carpeta / "caption.txt").exists() else ag.salir("Falta caption.txt")
-        plan.append({"clave": "reel", "archivos": [v], "ig": lambda urls: ig_reel(urls[0], cap), "fb": lambda urls: fb_reel(urls[0], cap)})
+        plan.append({"clave": "reel", "archivos": [v, carpeta / "reel" / "portada.png"], "ig": lambda urls: ig_reel(urls[0], cap, urls[1]), "fb": lambda urls: fb_reel(urls[0], cap)})
     return plan
 
 

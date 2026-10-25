@@ -1,0 +1,7 @@
+{
+  "enchanted-tiki-86.mp3": {"reel": true, "nota": "animada, volumen alto"},
+  "awake-megawall-10.mp3": {"reel": true, "nota": "enérgica, volumen alto"},
+  "town-theme-rpg.mp3": {"reel": true, "nota": "alegre, volumen medio"},
+  "bossa-nova.mp3": {"reel": true, "nota": "suave y rítmica, volumen medio-bajo"},
+  "next-to-you.mp3": {"reel": false, "nota": "piano suave y muy bajo de volumen (-24 dB): no sirve de fondo de reel"}
+}

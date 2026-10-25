@@ -48,6 +48,12 @@ Fuente de verdad en código: `marca.json` (tema, prefijo, ciudad, usuario) + `pl
 - **Portada:** logo grande arriba, etiqueta («Agenda diaria», «Viernes a domingo», «Agenda mensual»), título, fecha, nº de planes. Títulos: «Qué hacer hoy», «Planes del finde», «Lo más destacado de [mes]» (la ciudad la pone el logo; el alt_text dice «Planes en Cádiz»).
 - **Story patrocinada:** misma línea gráfica y etiqueta «Publicidad» visible arriba (`story-patrocinio.html`).
 
+## Reel (formato propio, `plantilla/reel.html`)
+- **Portada propia**, distinta a todas las demás publicaciones para reconocer el reel de un vistazo en el feed: fondo intenso (noche, sol o mar), texto gigante apilado «PLANES / DEL / FINDE» con la última palabra resaltada, fotos de los eventos en **tarjetas inclinadas, arcos mediterráneos o burbujas** (3 composiciones que rotan por fecha, combinadas con 3 fondos), botón de sol-play y sello «N planes», chips de día (VIE 30 · SÁB 31 · DOM 1). Se exporta como `reel/portada.png` (1080×1920) y se usa de `cover_url`.
+- **Márgenes de la portada** (para que no se recorte en el feed 4:5 ni en la cuadrícula 3:4): todo el contenido dentro de **x 70–1010 e y 300–1620**; solo los anillos decorativos y el fondo pueden salir. Comprobado con guías en `ejemplos/`.
+- **Estructura única del vídeo:** intro = portada animada (3,2 s) → una escena por evento (2,9 s: barras de progreso, pestañas de día, foto con zoom lento, categoría, título palabra a palabra, hora · lugar · precio con iconos) → cierre con «Guarda, comparte y elige tu plan · Comenta PLANES · @planesencadiz». Transición: el sol de la marca crece y cubre la pantalla. Todos los elementos animados (entradas escalonadas, olas en bucle, sol que respira, contador). 15–30 s: máx. 8 eventos.
+- **Música:** pistas CC0 de `musica/` (ver `pistas.json`), normalizadas a ~-15 dB con fundido de entrada y salida; se descartan las pistas demasiado suaves.
+
 ## Ilustraciones propias (cuando no hay imagen oficial)
 Composición de línea gruesa y redondeada con **un motivo principal relacionado con el evento** (guitarra, barco, máscaras, calabaza, balón, mapa…) + hasta 2 motivos pequeños, sol amarillo arriba a la derecha y olas abajo. Fondos de la paleta D1 según el evento (mar, bruma, noche, sol, cal), trazo cal o noche y acento amarillo. Sin texto. Catálogo de motivos: `ejemplos/ilustraciones/catalogo-motivos.png`. Caption: «Ilustraciones: Planes en Cádiz». Imagen genérica de categoría solo como último recurso.
 

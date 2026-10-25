@@ -1,33 +1,40 @@
 #!/usr/bin/env python3
-"""Reel vertical 1080x1920 de 15-30 s (ffmpeg) a partir de la portada y los eventos del finde.
+"""Reel «Planes del finde» (vertical 1080x1920, 15-30 s). Plantilla ÚNICA: plantilla/reel.html (animación con Web Animations API).
 
-  python reel.py --fecha AAAA-MM-DD            # usa posts/FECHA/finde/{eventos.json,carrusel/}
-  python reel.py --demo                        # datos de ejemplo -> ejemplos/reel-demo.mp4
-La música sale de musica/ (solo pistas listadas en musica/licencias.md con licencia confirmada). Sin pistas -> reel mudo.
+Cada fotograma se obtiene fijando la línea de tiempo en un instante (window.seek(t)) y capturando la página con Chromium; ffmpeg ensambla los
+fotogramas y mezcla la música (normalizada de volumen, con fundido de entrada y salida). Estructura fija: intro (3,2 s) + 1 escena por evento
+(2,9 s) + cierre con llamada a la acción (3 s); transiciones con el «sol» de la marca.
+
+  python reel.py --fecha AAAA-MM-DD     # usa posts/FECHA/finde/eventos.json (FECHA = jueves de publicación)
+  python reel.py --demo                 # datos de ejemplo -> ejemplos/reel-demo.mp4
 """
 import argparse
-import random
+import json
 import re
 import subprocess
 import sys
-import tempfile
+from datetime import timedelta
 from pathlib import Path
 
 import agenda as ag
 import render as rd
 
 W, H, FPS = 1080, 1920, 30
-T_PORTADA, T_EVENTO, T_TRANS = 3.0, 2.6, 0.5
+INTRO, POR_EVENTO, OUTRO = 3.2, 2.9, 3.0
 MIN_S, MAX_S = 15.0, 30.0
+PISTAS_JSON = ag.RAIZ / "musica" / "pistas.json"
 
 
+# ---------------------------------------------------------------- música
 def pistas_validas():
-    """Pistas de musica/ que figuran en licencias.md (una fila por archivo, con licencia)."""
-    lic = ag.RAIZ / "musica" / "licencias.md"
-    if not lic.exists():
-        return []
-    texto = lic.read_text(encoding="utf-8")
-    return [p for p in sorted((ag.RAIZ / "musica").glob("*.*")) if p.suffix.lower() in (".mp3", ".wav", ".ogg", ".m4a", ".flac") and p.name in texto]
+    """Pistas de musica/ que figuran en licencias.md Y están marcadas para reel en pistas.json (energía/volumen adecuados)."""
+    lic = (ag.RAIZ / "musica" / "licencias.md").read_text(encoding="utf-8") if (ag.RAIZ / "musica" / "licencias.md").exists() else ""
+    meta = ag.cargar_json(PISTAS_JSON, {})
+    out = []
+    for p in sorted((ag.RAIZ / "musica").glob("*.*")):
+        if p.suffix.lower() in (".mp3", ".wav", ".ogg", ".m4a", ".flac") and p.name in lic and meta.get(p.name, {}).get("reel", True):
+            out.append(p)
+    return out
 
 
 def elegir_pista(fecha):
@@ -35,84 +42,92 @@ def elegir_pista(fecha):
     return ps[ag.a_fecha(fecha).toordinal() % len(ps)] if ps else None  # rotación determinista
 
 
+# ---------------------------------------------------------------- plan
 def planificar(n_eventos):
-    """Cuántos eventos caben en 15-30 s. Devuelve (nº de eventos mostrados como clips, duración total)."""
-    max_clips = int((MAX_S - T_PORTADA) // (T_EVENTO - T_TRANS * 0) )
-    clips = max(1, min(n_eventos, max_clips))
-    dur = T_PORTADA + clips * T_EVENTO
-    return clips, max(MIN_S, min(MAX_S, dur))
+    """(eventos mostrados, segundos por evento, duración total). Entre 15 y 30 s."""
+    maxn = int((MAX_S - INTRO - OUTRO) // POR_EVENTO)
+    n = max(1, min(n_eventos, maxn))
+    por = POR_EVENTO
+    if INTRO + n * por + OUTRO < MIN_S:
+        por = min(3.6, (MIN_S - INTRO - OUTRO) / n)
+    return n, por, INTRO + n * por + OUTRO
 
 
-def sh(cmd):
-    r = subprocess.run(cmd, capture_output=True, text=True)
-    if r.returncode:
-        raise RuntimeError(r.stderr[-1500:])
+def dias_finde(fecha):
+    f = ag.a_fecha(fecha)
+    vie = f + timedelta(days=(4 - f.weekday()) % 7) if f.weekday() <= 4 else f + timedelta(days=(4 - f.weekday()) % 7)
+    return [{"abr": a, "num": (vie + timedelta(days=i)).day, "iso": (vie + timedelta(days=i)).isoformat()} for i, a in enumerate(("VIE", "SÁB", "DOM"))]
 
 
-def fotogramas(r, eventos, titulo, sub, var, tmp, fecha):
-    """Cada clip es una story-nocturna-like: usa story.html (1080x1920) -> PNG; portada en versión vertical."""
-    pngs = []
-    p = tmp / "p0.png"
-    r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": "Viernes a domingo", "sufijo": "para el finde", "vertical": True, "paleta": rd.paleta(fecha)}, p, rd.VIEW_STORY)
-    pngs.append((p, T_PORTADA, False))
-    for i, ev in enumerate(eventos):
-        q = tmp / f"e{i}.png"
-        r.png("story.html", {"evento": ev, "fecha_larga": ev.get("fecha_txt") or ag.fecha_larga(ev["fecha"])}, q, rd.VIEW_STORY)
-        pngs.append((q, T_EVENTO, False))
-    return pngs
+def fotos_portada(eventos):
+    """Hasta 3 imágenes distintas para la portada: primero las fotos oficiales, luego las ilustraciones propias."""
+    ordenadas = sorted(eventos, key=lambda e: bool((e.get("imagen") or {}).get("generada") or (e.get("imagen") or {}).get("generica")))
+    vistas, out = set(), []
+    for e in ordenadas:
+        u = (e.get("imagen") or {}).get("ruta_abs")
+        if u and u not in vistas:
+            vistas.add(u); out.append(u)
+    return out[:3]
 
 
-def rotulo_animado(total):
-    """Texto que entra deslizando en cada clip de evento (zona segura superior libre) y una barra de progreso."""
-    f = subprocess.run(["fc-match", "-f", "%{file}", "Inter:bold"], capture_output=True, text=True).stdout
-    if not f or not Path(f).exists():
-        return None
-    base = "fontfile=%s:fontcolor=0x0A2E4D:fontsize=44:box=1:boxcolor=0xFAF8F2@0.92:boxborderw=16" % f
-    return (f"drawtext={base}:text='PLANES EN CÁDIZ  ·  FINDE':x='if(lt(t,0.9),-tw+(tw+80)*t/0.9,80)':y=120:enable='between(t,0,{total:.2f})',"
-            f"drawbox=x=0:y=1904:w='iw*t/{total:.2f}':h=16:color=0xFFC93C:t=fill")
+def datos_reel(eventos, titulo, sub, fecha):
+    eventos = ag.ordenar(eventos, por_fecha=True)
+    n, por, total = planificar(len(eventos))
+    marca = ag.cargar_json(ag.RAIZ / "marca.json", {}) or {}
+    return {"tema": marca.get("tema", "d1"), "prefijo": marca.get("prefijo", "Planes en"), "ciudad": marca.get("ciudad", "Cádiz"), "usuario": marca.get("usuario", "@planesencadiz"),
+            "paleta": rd.paleta(fecha), "layout": (ag.a_fecha(fecha).toordinal() % 3) + 1, "fondo": ["noche", "sol", "mar"][(ag.a_fecha(fecha).toordinal() // 3) % 3],
+            "fotos": fotos_portada(eventos), "titulo": titulo, "subtitulo": sub, "etiqueta": "Viernes a domingo", "sufijo": "para el finde", "total": len(eventos),
+            "eventos": eventos[:n], "intro": INTRO, "por_evento": por, "outro": OUTRO, "total_s": total, "dias": dias_finde(fecha)}, n, total
 
 
-def componer(pngs, salida, pista=None):
-    """Cadena xfade entre clips con zoom suave (Ken Burns) y fundido final; música con fade in/out."""
-    entradas, filtros, ult = [], [], None
-    total = 0.0
-    for i, (png, dur, es_portada) in enumerate(pngs):
-        d = dur + T_TRANS
-        entradas += ["-loop", "1", "-t", f"{d}", "-i", str(png)]
-        fondo = f"[{i}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}" if not es_portada else \
-            f"[{i}:v]pad={W}:{H}:0:285:color=0x083F6B"
-        filtros.append(f"{fondo},zoompan=z='min(zoom+0.0006,1.06)':d={int(d * FPS)}:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p[v{i}]")
-    ult = "v0"
-    t = pngs[0][1]
-    for i in range(1, len(pngs)):
-        filtros.append(f"[{ult}][v{i}]xfade=transition={'slideleft' if i % 2 else 'fade'}:duration={T_TRANS}:offset={t - T_TRANS + T_TRANS:.2f}[x{i}]")
-        ult = f"x{i}"
-        t += pngs[i][1]
-    total = t
-    rotulo = rotulo_animado(total)
-    if rotulo:
-        filtros.append(f"[{ult}]{rotulo}[{ult}t]")
-        ult = f"{ult}t"
-    filtros.append(f"[{ult}]fade=t=out:st={total - 0.6:.2f}:d=0.6[vf]")
-    cmd = ["ffmpeg", "-y", "-loglevel", "error"] + entradas
+# ---------------------------------------------------------------- render
+def capturar(datos, salida, pista=None, log=print):
+    total = datos["total_s"]
+    n_fot = int(round(total * FPS))
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS), "-c:v", "mjpeg", "-i", "-"]
     if pista:
         cmd += ["-i", str(pista)]
-        filtros.append(f"[{len(pngs)}:a]atrim=0:{total:.2f},afade=t=in:d=1,afade=t=out:st={total - 1.5:.2f}:d=1.5[a]")
-    cmd += ["-filter_complex", ";".join(filtros), "-map", "[vf]"] + (["-map", "[a]", "-c:a", "aac", "-b:a", "160k"] if pista else []) + \
-           ["-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(salida)]
-    sh(cmd)
-    return total
+        cmd += ["-filter_complex", f"[1:a]atrim=0:{total:.2f},asetpts=PTS-STARTPTS,loudnorm=I=-15:TP=-1.5:LRA=9,afade=t=in:st=0:d=0.8,afade=t=out:st={total - 1.8:.2f}:d=1.8[a]",
+                "-map", "0:v", "-map", "[a]", "-c:a", "aac", "-b:a", "192k"]
+    cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-r", str(FPS), "-t", f"{total:.2f}", "-movflags", "+faststart", str(salida)]
+    ff = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    with rd.Renderer() as r:
+        pg = r.browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
+        pg.goto((rd.PLANTILLA / "reel.html").as_uri())
+        pg.add_style_tag(url=(rd.PLANTILLA / "temas" / f"{datos['tema']}.css").as_uri())
+        pg.evaluate("d => render(d)", datos)
+        pg.wait_for_timeout(500)
+        for i in range(n_fot):
+            pg.evaluate("t => seek(t)", i / FPS)
+            ff.stdin.write(pg.screenshot(type="jpeg", quality=93))
+            if i % 150 == 0:
+                log(f"  fotograma {i}/{n_fot}")
+        pg.close()
+    ff.stdin.close()
+    if ff.wait():
+        raise RuntimeError("ffmpeg falló")
 
 
-def hacer_reel(eventos, titulo, sub, fecha, salida, var="A"):
-    eventos = ag.ordenar(eventos, por_fecha=True)
-    clips, _ = planificar(len(eventos))
-    # Con muchos eventos el reel muestra un clip por evento hasta el máximo; el resto queda en el carrusel (aviso en el caption)
-    elegidos = eventos[:clips]
-    with tempfile.TemporaryDirectory() as tmp, rd.Renderer() as r:
-        pngs = fotogramas(r, elegidos, titulo, sub, var, Path(tmp), fecha)
-        dur = componer(pngs, salida, elegir_pista(fecha))
-    return {"duracion": round(dur, 1), "eventos_en_reel": clips, "eventos_total": len(eventos), "musica": (elegir_pista(fecha) or Path("sin-musica")).name}
+def capturar_portada(datos, destino):
+    """Portada del reel (1080x1920) = la composición de la intro con todos los elementos ya animados. Se sube como cover_url."""
+    with rd.Renderer() as r:
+        pg = r.browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
+        pg.goto((rd.PLANTILLA / "reel.html").as_uri())
+        pg.add_style_tag(url=(rd.PLANTILLA / "temas" / f"{datos['tema']}.css").as_uri())
+        pg.evaluate("d => render(d)", datos)
+        pg.wait_for_timeout(500)
+        pg.evaluate("t => seek(t)", datos["intro"] - 0.55)
+        pg.screenshot(path=str(destino), type="png")
+        pg.close()
+
+
+def hacer_reel(eventos, titulo, sub, fecha, salida, log=print):
+    datos, n, total = datos_reel(eventos, titulo, sub, fecha)
+    pista = elegir_pista(fecha)
+    capturar(datos, salida, pista, log)
+    portada = Path(salida).parent / "portada.png"
+    capturar_portada(datos, portada)
+    return {"duracion": round(total, 1), "eventos_en_reel": n, "eventos_total": len(eventos), "musica": pista.name if pista else "sin-musica", "portada": f"layout {datos['layout']} · fondo {datos['fondo']}"}
 
 
 if __name__ == "__main__":
@@ -126,7 +141,7 @@ if __name__ == "__main__":
         evs = rd.resolver_imagenes(rd.demo_eventos(8, True), base)
         for i, e in enumerate(evs):
             e["fecha"] = ["2026-10-30", "2026-10-31", "2026-11-01"][i % 3]
-        print(hacer_reel(evs, "Planes del finde en Cádiz", "30 oct – 1 nov", "2026-10-29", base / "reel-demo.mp4"))
+        print(hacer_reel(evs, "Planes del finde", "30 oct – 1 nov", "2026-10-29", base / "reel-demo.mp4"))
     else:
         carpeta = ag.dir_dia(a.fecha, "finde")
         evs = ag.eventos_validos(ag.cargar_eventos(carpeta)["eventos"])
@@ -136,6 +151,6 @@ if __name__ == "__main__":
         titulo, sub = rd.titulos("finde", a.fecha, evs)
         out = carpeta / "reel"
         out.mkdir(exist_ok=True)
-        info = hacer_reel(evs, titulo, sub, a.fecha, out / "reel.mp4", rd.variante(a.fecha))
+        info = hacer_reel(evs, titulo, sub, a.fecha, out / "reel.mp4")
         ag.guardar_json(out / "reel.json", info)
         print(info)

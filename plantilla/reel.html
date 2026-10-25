@@ -1,0 +1,198 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+/* Plantilla ÚNICA del reel (1080x1920). Todo se anima con la Web Animations API sobre una línea de tiempo global: window.seek(t) fija el
+   instante t (segundos) y reel.py captura un fotograma por instante. Zonas seguras: 250 px arriba y abajo libres de texto. */
+:root{--sol:#FFC62B;--noche:#0A2E4D;--mar:#0E6BA8;--cal:#FAF8F2}
+body{background:#000}
+#l{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--cal)}
+.escena{position:absolute;inset:0;opacity:0;overflow:hidden}
+.escena.ev{background:linear-gradient(180deg,#FAF8F2 0%,#EEF5F7 100%);color:var(--noche)}
+.sol{position:absolute;border-radius:50%;background:var(--c-sol,var(--sol))}
+.escena.ev .sol{right:-170px;top:-150px;width:520px;height:520px;--c-sol:var(--sol)}
+.olas{position:absolute;left:0;width:1080px;overflow:hidden}
+.olas svg{display:block;width:2160px;height:110px}
+.escena.ev .olas{bottom:120px;height:110px}.escena.ev .olas path{stroke:var(--mar);stroke-opacity:.28}
+/* barras de progreso (estilo stories) */
+.prog{position:absolute;left:70px;right:70px;top:262px;display:flex;gap:10px}
+.prog i{position:relative;flex:1;height:8px;border-radius:4px;background:rgba(10,46,77,.16);overflow:hidden}
+.prog i b{position:absolute;inset:0;background:var(--noche);transform-origin:left;transform:scaleX(0)}
+/* pestañas de día */
+.dias{position:absolute;left:70px;top:312px;display:flex;gap:14px}
+.dia{padding:12px 26px;border-radius:999px;font:800 32px var(--f-texto);letter-spacing:.04em;text-transform:uppercase;color:var(--noche);background:rgba(10,46,77,.08)}
+.dia.on{background:var(--noche);color:#fff}
+.nro{position:absolute;right:70px;top:322px;font:800 34px var(--f-texto);color:var(--mar)}
+/* foto */
+.foto-w{position:absolute;left:70px;top:410px;width:940px;height:600px;border-radius:40px;overflow:hidden;box-shadow:0 22px 50px rgba(10,46,77,.22);background:var(--mar)}
+.foto-w .k{position:absolute;inset:0;transform-origin:center}
+.foto-w .k .f{position:absolute;inset:0;background-size:cover;background-position:center}
+.foto-w .k .f[data-aj="contain"]{background-image:none!important}
+.foto-w .k .f[data-aj="contain"]::before{content:"";position:absolute;inset:-30px;background:var(--img) center/cover;filter:blur(24px) brightness(.9)}
+.foto-w .k .f[data-aj="contain"]::after{content:"";position:absolute;inset:0;background:var(--img) center/contain no-repeat}
+.cat{position:absolute;left:70px;top:974px;display:inline-block;padding:12px 30px;border-radius:999px;background:var(--sol);color:var(--noche);font:900 32px var(--f-texto);letter-spacing:.07em;text-transform:uppercase;box-shadow:0 8px 20px rgba(10,46,77,.2)}
+.cat.b{left:auto;right:70px;background:var(--mar);color:#fff}
+/* título */
+.tit{position:absolute;left:70px;right:70px;top:1050px;font:700 76px/1.04 var(--f-titulo);letter-spacing:-.01em;color:var(--noche)}
+.tit .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.12em;margin-right:.22em}
+.tit .w span{display:inline-block}
+.meta{position:absolute;left:70px;right:70px;top:1330px;display:flex;flex-direction:column;gap:20px}
+.fila{display:flex;align-items:center;gap:20px;font:700 44px/1.15 var(--f-texto);color:var(--noche)}
+.fila svg{flex:none;width:52px;height:52px;fill:none;stroke:var(--mar);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.hora{display:inline-block;padding:10px 28px;border-radius:18px;background:var(--noche);color:#fff;font:800 54px var(--f-texto)}
+.precio{display:inline-block;padding:8px 24px;border-radius:16px;background:var(--sol);color:var(--noche);font:800 42px var(--f-texto)}
+/* intro / outro */
+.escena.portada .sol{right:-150px;top:-140px;width:520px;height:520px}
+.escena.portada .olas{bottom:290px;height:110px}.escena.portada .olas path{stroke:var(--c-ola)}
+.in-logo{position:absolute;left:80px;top:330px}
+.kick{position:absolute;left:80px;top:700px;font:800 38px var(--f-texto);letter-spacing:.14em;text-transform:uppercase;color:var(--c-dato-portada)}
+.hl{position:absolute;left:80px;right:80px;top:765px;font:700 124px/1 var(--f-titulo);letter-spacing:-.02em;color:var(--c-texto)}
+.hl .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.12em;margin-right:.2em}.hl .w span{display:inline-block}
+.fecha{position:absolute;left:80px;top:1075px;font:700 64px var(--f-texto);color:var(--c-dato-portada)}
+.conteo{position:absolute;left:80px;top:1180px;display:flex;align-items:center;gap:30px}
+.conteo b{font:700 220px/1 var(--f-titulo);color:var(--c-dato-portada)}
+.conteo span{font:700 56px/1.15 var(--f-texto);color:var(--c-texto)}
+.cta1{position:absolute;left:80px;right:80px;top:600px;font:700 120px/1.02 var(--f-titulo);color:var(--c-texto);letter-spacing:-.02em}
+.cta1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.12em;margin-right:.2em}.cta1 .w span{display:inline-block}
+.cta2{position:absolute;left:80px;top:1030px;display:flex;flex-direction:column;gap:22px}
+.cta2 div{display:inline-block;align-self:flex-start;padding:16px 40px;border-radius:999px;font:800 56px var(--f-texto)}
+.cta2 .k1{background:var(--sol);color:#0A2E4D}
+.cta2 .k2{border:4px solid var(--c-texto);color:var(--c-texto)}
+.cta3{position:absolute;left:80px;top:1330px;font:700 46px/1.25 var(--f-texto);color:var(--c-texto)}
+.cta3 b{color:var(--c-dato-portada)}
+.wipe{position:absolute;left:900px;top:1500px;width:200px;height:200px;margin:-100px 0 0 -100px;border-radius:50%;background:var(--sol);opacity:0}
+
+/* ===== PORTADA DEL REEL (distinta a las publicaciones diarias: fondo oscuro/intenso, texto gigante apilado, fotos en tarjetas/arcos/burbujas y sol-play) =====
+   Tres composiciones (d.layout 1-3) x tres fondos (d.fondo noche|mar|sol) que rotan por fecha. Contenido dentro de y=260..1660 (recorte 3:4 de la cuadrícula). */
+.cov{position:absolute;inset:0;overflow:hidden;opacity:0}
+.cov.f-noche{background:linear-gradient(170deg,#0A2E4D 0%,#071D33 100%);--tx:#fff;--ac:#FFC62B;--on-ac:#0A2E4D;--ol:rgba(255,255,255,.28)}
+.cov.f-mar{background:linear-gradient(170deg,#0C62A0 0%,#083F6B 100%);--tx:#fff;--ac:#FFC62B;--on-ac:#0A2E4D;--ol:rgba(255,255,255,.34)}
+.cov.f-sol{background:linear-gradient(170deg,#FFC62B 0%,#F5B400 100%);--tx:#0A2E4D;--ac:#0A2E4D;--on-ac:#FFC62B;--ol:rgba(10,46,77,.35)}
+.cov .anillo{position:absolute;border-radius:50%;border:6px solid var(--ol)}
+.cov .logo-c{position:absolute;left:70px;top:305px;z-index:5}
+.cov .logo-c .pre{color:var(--ac)}.cov .logo-c .ciudad{color:var(--tx)}
+.cov .tg{position:absolute;z-index:5;font:800 174px/.9 var(--f-titulo);letter-spacing:-.025em;text-transform:uppercase;color:var(--tx)}
+.cov .tg .ln{display:block;overflow:hidden;padding:.05em 0 .09em}.cov .tg .ln span{display:inline-block}
+.cov .tg .ln.hi span{background:var(--ac);color:var(--on-ac);padding:0 .14em;border-radius:.1em;transform-origin:left}
+.cov .dchips{position:absolute;z-index:5;display:flex;gap:14px}
+.cov .dchips span{padding:12px 26px;border-radius:999px;border:4px solid var(--tx);font:800 40px var(--f-texto);letter-spacing:.04em;color:var(--tx);text-transform:uppercase}
+.cov .dchips span.f{background:var(--tx);color:var(--bgc,#0A2E4D)}
+.cov.f-sol .dchips span.f{color:#FFC62B}
+.cov .card{position:absolute;z-index:3;background-size:cover;background-position:center;border:10px solid #FAF8F2;border-radius:40px;box-shadow:0 26px 60px rgba(0,0,0,.35)}
+.cov .arco{position:absolute;z-index:3;background-size:cover;background-position:center;border:10px solid #FAF8F2;border-radius:150px 150px 40px 40px;box-shadow:0 26px 60px rgba(0,0,0,.35)}
+.cov .burb{position:absolute;z-index:3;background-size:cover;background-position:center;border:10px solid #FAF8F2;border-radius:50%;box-shadow:0 26px 60px rgba(0,0,0,.35)}
+.cov .play{position:absolute;z-index:6;width:300px;height:300px;border-radius:50%;background:var(--ac);display:flex;align-items:center;justify-content:center;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+.cov .play svg{width:120px;height:120px;margin-left:16px;fill:var(--on-ac)}
+.cov .nro{position:absolute;z-index:6;width:230px;height:230px;border-radius:50%;background:var(--tx);color:var(--bgn,#0A2E4D);display:flex;flex-direction:column;align-items:center;justify-content:center;font:800 120px/.9 var(--f-titulo);transform:rotate(-10deg)}
+.cov.f-sol .nro{color:#FFC62B;background:#0A2E4D}
+.cov .nro small{font:800 34px var(--f-texto);letter-spacing:.1em;text-transform:uppercase;margin-top:6px}
+.cov .olas2{position:absolute;left:0;width:1080px;overflow:hidden;z-index:1}.cov .olas2 svg{display:block;width:2160px;height:110px}.cov .olas2 path{stroke:var(--ol)}
+</style></head><body>
+<div id="l"></div>
+<script>
+const EASE="cubic-bezier(.16,1,.3,1)", POP="cubic-bezier(.34,1.56,.64,1)";
+const A=[], CB=[];
+function an(el,kf,at,dur,ease=EASE,fill="both"){const a=el.animate(kf,{delay:at*1000,duration:dur*1000,easing:ease,fill});a.pause();A.push(a);return a;}
+window.seek=t=>{A.forEach(a=>a.currentTime=t*1000);CB.forEach(f=>f(t));};
+const OLA='<path d="M0 22q90-38 180 0t180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0" fill="none" stroke-width="5" stroke-linecap="round"/><path d="M0 58q90-38 180 0t180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0" fill="none" stroke-width="5" stroke-linecap="round"/><path d="M0 94q90-38 180 0t180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0 180 0" fill="none" stroke-width="5" stroke-linecap="round"/>';
+const I_RELOJ='<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>';
+const I_PIN='<svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>';
+const I_TICKET='<svg viewBox="0 0 24 24"><path d="M3 8h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z"/><path d="M9 8v10" stroke-dasharray="1.5 2"/></svg>';
+function palabras(txt,cls){return txt.split(" ").map(w=>`<span class="w"><span>${esc(w)}</span></span>`).join(" ");}
+function olas(parent,t0,total){const o=document.createElement("div");o.className="olas";o.innerHTML=`<svg viewBox="0 0 2160 110">${OLA}</svg>`;parent.appendChild(o);an(o.firstChild,[{transform:"translateX(0)"},{transform:"translateX(-720px)"}],0,total,"linear");return o;}
+function solAnim(sol,total){an(sol,[{transform:"scale(1) translate(0,0)"},{transform:"scale(1.07) translate(-14px,10px)"},{transform:"scale(1) translate(0,0)"}],0,total,"ease-in-out");}
+function disolver(esc_,ini,dur){an(esc_,[{opacity:1},{opacity:1}],ini,dur,"linear","none");}
+
+async function render(d){
+  document.body.dataset.tema=d.tema||"d1";
+  const L=document.getElementById("l"), n=d.eventos.length, T=d.total_s;
+  const I=d.intro, P=d.por_evento, O=d.outro;
+  const dias=d.dias; // [{abr:"VIE",num:30,iso:"2026-10-30"}...]
+  // ---------- PORTADA / INTRO (composición según d.layout)
+  const e0=document.createElement("div");e0.className="cov f-"+(d.fondo||"noche");
+  const F=d.fotos||[], pal=d.titulo.split(" "), lay=d.layout||1;
+  // Zona segura de la portada: x 70-1010, y 300-1620 (cabe en el recorte 4:5 del feed y en el 3:4 de la cuadrícula)
+  const tg=`<div class="tg" ${lay===1?'style="left:70px;top:395px;font-size:164px"':lay===2?'style="left:70px;top:985px;font-size:144px"':'style="left:70px;top:1075px;font-size:140px"'}>${pal.map((w,i)=>`<span class="ln ${i===pal.length-1?"hi":""}"><span>${esc(w)}</span></span>`).join("")}</div>`;
+  const dch=`<div class="dchips" style="left:70px;top:1545px">${d.dias.map((x,i)=>`<span class="${i===0?"f":""}">${x.abr} ${x.num}</span>`).join("")}</div>`;
+  let cuerpo="";
+  const P3=(i)=>F[i]||F[0]||"";
+  if(lay===1){ // pila de tarjetas inclinadas
+    cuerpo=`<div class="card" style="left:70px;top:900px;width:370px;height:480px;background-image:url('${P3(0)}')"></div>
+      <div class="card" style="left:355px;top:955px;width:370px;height:480px;background-image:url('${P3(1)}')"></div>
+      <div class="card" style="left:640px;top:900px;width:370px;height:480px;background-image:url('${P3(2)}')"></div>
+      <div class="play" style="left:700px;top:1290px"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+      <div class="nro" style="left:780px;top:330px"><span class="cn">0</span><small>planes</small></div>`;
+  } else if(lay===2){ // arcos (ventanas mediterráneas)
+    cuerpo=`<div class="arco" style="left:70px;top:380px;width:290px;height:540px;background-image:url('${P3(0)}')"></div>
+      <div class="arco" style="left:395px;top:310px;width:290px;height:540px;background-image:url('${P3(1)}')"></div>
+      <div class="arco" style="left:720px;top:420px;width:290px;height:540px;background-image:url('${P3(2)}')"></div>
+      <div class="play" style="left:395px;top:650px"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+      <div class="nro" style="left:780px;top:1010px"><span class="cn">0</span><small>planes</small></div>`;
+  } else { // burbujas / soles
+    cuerpo=`<div class="burb" style="left:70px;top:385px;width:480px;height:480px;background-image:url('${P3(0)}')"></div>
+      <div class="burb" style="left:570px;top:430px;width:420px;height:420px;background-image:url('${P3(1)}')"></div>
+      <div class="burb" style="left:300px;top:745px;width:310px;height:310px;background-image:url('${P3(2)}')"></div>
+      <div class="play" style="left:700px;top:790px"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+      <div class="nro" style="left:770px;top:1150px"><span class="cn">0</span><small>planes</small></div>`;
+  }
+  e0.innerHTML=`<div class="anillo" style="width:900px;height:900px;left:-300px;top:1000px"></div><div class="anillo" style="width:640px;height:640px;right:-260px;top:140px"></div>
+    <div class="logo-c">${logo(d,"mini",50)}</div>${cuerpo}${tg}${dch}
+    <div class="olas2" style="bottom:330px"><svg viewBox="0 0 2160 110">${OLA}</svg></div>`;
+  L.appendChild(e0);disolver(e0,0,I+0.45);
+  e0.querySelectorAll(".olas2 svg").forEach(o=>an(o,[{transform:"translateX(0)"},{transform:"translateX(-720px)"}],0,T,"linear"));
+  e0.querySelectorAll(".anillo").forEach((r,i)=>an(r,[{transform:"scale(.6)",opacity:0},{transform:"scale(1)",opacity:1}],0.05+i*0.1,1.0));
+  an(e0.querySelector(".logo-c"),[{opacity:0,transform:"translateY(-24px)"},{opacity:1,transform:"translateY(0)"}],0.15,0.5);
+  const rot=lay===1?[-7,3,-3]:lay===2?[0,0,0]:[0,0,0];
+  e0.querySelectorAll(".card,.arco,.burb").forEach((c,i)=>{
+    const fy=lay===2?(i===1?-160:160):0;
+    an(c,[{opacity:0,transform:`translateY(${lay===2?(i%2?-300:300):260}px) rotate(${(i-1)*18}deg) scale(.7)`},{opacity:1,transform:`translateY(0) rotate(${rot[i]}deg) scale(1)`}],0.25+i*0.16,0.85,POP);
+    an(c,[{transform:`translateY(0) rotate(${rot[i]}deg)`},{transform:`translateY(-14px) rotate(${rot[i]}deg)`},{transform:`translateY(0) rotate(${rot[i]}deg)`}],1.3+i*0.2,1.8,"ease-in-out");
+  });
+  e0.querySelectorAll(".tg .ln > span").forEach((w,i)=>an(w,[{transform:"translateY(112%)"},{transform:"translateY(0)"}],0.5+i*0.14,0.65));
+  an(e0.querySelector(".tg .hi span"),[{transform:"translateY(112%) scaleX(.6)"},{transform:"translateY(0) scaleX(1)"}],0.5+(pal.length-1)*0.14,0.7);
+  e0.querySelectorAll(".dchips span").forEach((c,i)=>an(c,[{opacity:0,transform:"scale(.5)"},{opacity:1,transform:"scale(1)"}],1.05+i*0.1,0.45,POP));
+  const pl=e0.querySelector(".play"), nr=e0.querySelector(".nro");
+  an(pl,[{opacity:0,transform:"scale(.2) rotate(-90deg)"},{opacity:1,transform:"scale(1) rotate(0)"}],0.9,0.7,POP);
+  an(pl,[{transform:"scale(1)"},{transform:"scale(1.08)"},{transform:"scale(1)"}],1.8,1.3,"ease-in-out");
+  an(nr,[{opacity:0,transform:"scale(.2) rotate(40deg)"},{opacity:1,transform:"scale(1) rotate(-10deg)"}],1.1,0.7,POP);
+  const cn=e0.querySelector(".cn");CB.push(t=>{const k=Math.min(1,Math.max(0,(t-1.2)/0.8));cn.textContent=Math.round(n*(1-Math.pow(1-k,3)));});
+  // ---------- EVENTOS
+  d.eventos.forEach((ev,i)=>{
+    const s=I+i*P, e=document.createElement("div");e.className="escena ev";
+    const diaIdx=Math.max(0,dias.findIndex(x=>x.iso===ev.fecha));
+    const segs=d.eventos.map((_,j)=>`<i><b></b></i>`).join("");
+    const tabs=dias.map((x,j)=>`<span class="dia ${j===diaIdx?"on":""}">${x.abr} ${x.num}</span>`).join("");
+    const horaT=(ev.todo_el_dia||!ev.hora_inicio)?"Todo el día":(ev.hora_fin?`${ev.hora_inicio}–${ev.hora_fin}`:ev.hora_inicio);
+    e.innerHTML=`<div class="sol"></div><div class="prog">${segs}</div><div class="dias">${tabs}</div><div class="nro">${i+1}/${n}</div>
+      <div class="foto-w"><div class="k"><div class="f" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div></div></div>
+      <span class="cat">${esc(ev.etiqueta||ev.categoria)}</span>${ev.fecha_txt?`<span class="cat b">${esc(ev.fecha_txt)}</span>`:""}
+      <div class="tit">${palabras(ev.nombre)}</div>
+      <div class="meta"><div class="fila" data-r="1">${I_RELOJ}<span class="hora">${esc(horaT)}</span></div><div class="fila" data-r="2">${I_PIN}<span>${esc(ev.lugar)}</span></div><div class="fila" data-r="3">${I_TICKET}<span class="precio">${esc(ev.precio||"Consultar")}</span></div></div>`;
+    L.appendChild(e);disolver(e,s-0.02,P+0.04);
+    solAnim(e.querySelector(".sol"),T);olas(e,s,T);
+    e.querySelectorAll(".prog i").forEach((bar,j)=>{const b=bar.firstChild;if(j<i)b.style.transform="scaleX(1)";else if(j===i)an(b,[{transform:"scaleX(0)"},{transform:"scaleX(1)"}],s,P,"linear");});
+    an(e.querySelector(".dias"),[{opacity:0,transform:"translateY(-24px)"},{opacity:1,transform:"translateY(0)"}],s+0.1,0.45);
+    an(e.querySelector(".dia.on"),[{transform:"scale(.85)"},{transform:"scale(1)"}],s+0.25,0.45,POP);
+    an(e.querySelector(".nro"),[{opacity:0},{opacity:1}],s+0.2,0.4);
+    an(e.querySelector(".foto-w"),[{clipPath:"inset(0 100% 0 0 round 40px)"},{clipPath:"inset(0 0 0 0 round 40px)"}],s+0.12,0.75);
+    an(e.querySelector(".foto-w .k"),[{transform:"scale(1.14)"},{transform:"scale(1.0)"}],s+0.12,P,"linear");
+    e.querySelectorAll(".cat").forEach((c,j)=>an(c,[{opacity:0,transform:"scale(.5)"},{opacity:1,transform:"scale(1)"}],s+0.6+j*0.1,0.45,POP));
+    e.querySelectorAll(".tit .w span").forEach((w,j)=>an(w,[{transform:"translateY(115%)"},{transform:"translateY(0)"}],s+0.45+j*0.06,0.55));
+    e.querySelectorAll(".fila").forEach((f,j)=>an(f,[{opacity:0,transform:"translateX(-50px)"},{opacity:1,transform:"translateX(0)"}],s+0.85+j*0.13,0.5));
+  });
+  // ---------- OUTRO
+  const s2=I+n*P, e1=document.createElement("div");e1.className="escena portada";e1.dataset.paleta=d.paleta||0;
+  e1.innerHTML=`<div class="sol"></div><div class="in-logo">${logo(d,"",150)}</div><div class="cta1">${palabras("Guarda, comparte y elige tu plan")}</div><div class="cta2"><div class="k1">Comenta PLANES</div><div class="k2">${esc(d.usuario||"@planesencadiz")}</div></div><div class="cta3">Cada día a las <b>9:00</b>,<br>qué hacer en ${esc(d.ciudad||"Cádiz")}.</div>`;
+  L.appendChild(e1);disolver(e1,s2-0.02,O+0.04);
+  solAnim(e1.querySelector(".sol"),T);olas(e1,s2,T);
+  an(e1.querySelector(".in-logo"),[{opacity:0,transform:"translateY(-30px)"},{opacity:1,transform:"translateY(0)"}],s2+0.45,0.6);
+  e1.querySelectorAll(".cta1 .w span").forEach((w,j)=>an(w,[{transform:"translateY(115%)"},{transform:"translateY(0)"}],s2+0.6+j*0.1,0.65));
+  e1.querySelectorAll(".cta2 div").forEach((c,j)=>an(c,[{opacity:0,transform:"scale(.6)"},{opacity:1,transform:"scale(1)"}],s2+1.2+j*0.18,0.55,POP));
+  an(e1.querySelector(".cta2 .k1"),[{transform:"scale(1)"},{transform:"scale(1.07)"},{transform:"scale(1)"}],s2+1.9,0.9,"ease-in-out");
+  an(e1.querySelector(".cta3"),[{opacity:0,transform:"translateY(30px)"},{opacity:1,transform:"translateY(0)"}],s2+1.7,0.55);
+  // ---------- TRANSICIONES: el sol crece, cubre la pantalla y se retira (cambio de escena bajo el sol)
+  const cortes=[I,...d.eventos.map((_,i)=>I+(i+1)*P)].slice(0,n+1);
+  cortes.forEach(c=>{const w=document.createElement("div");w.className="wipe";L.appendChild(w);
+    an(w,[{opacity:1,transform:"scale(0)"},{opacity:1,transform:"scale(15)"}],c-0.42,0.42,"cubic-bezier(.7,0,.84,0)","none");
+    an(w,[{opacity:1,transform:"scale(15)"},{opacity:1,transform:"scale(0)"}],c,0.42,"cubic-bezier(.16,1,.3,1)","none");});
+  await listo();
+}
+</script></body></html>
