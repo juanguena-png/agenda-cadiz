@@ -25,7 +25,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 NO_OFICIAL = ("instagram.", "facebook.", "fbcdn.", "twitter.", "x.com", "tiktok.", "youtube.", "ytimg.", "eventbrite", "evbuc.", "ticketmaster",
               "entradium", "giglon", "diariodecadiz", "lavozdigital", "cadizdirecto", "diariobahiadecadiz", "vivacadiz", "andaluciainformacion",
               "hoycadiz", "guiadecadiz", "google.", "gstatic.", "wp.com", "gravatar")
-EXCLUIR = re.compile(r"logo|icon|favicon|sprite|avatar|cookies|mapacontenidos|placeholder|share|/themes/|/modules/|facebook|twitter|instagram|iso-face|/img/front/|/assets/", re.I)
+EXCLUIR = re.compile(r"logo|icon|favicon|sprite|avatar|cookies|mapacontenidos|placeholder|share|/themes/|/modules/|facebook|twitter|instagram|iso-face|/img/front/|/assets/|cab-pagina-informativa|header_page", re.I)
 
 
 def original_drupal(url):
@@ -76,6 +76,8 @@ def descargar(url, destino, referer=None):
         return None
     if im.width < MIN_ANCHO:
         return {"descartada": f"ancho {im.width}px < {MIN_ANCHO}px", "url": url}
+    if im.height and im.width / im.height > 3.5:
+        return {"descartada": f"banner genérico (proporción {im.width}x{im.height})", "url": url}
     if im.mode in ("RGBA", "LA", "P"):
         fondo = Image.new("RGB", im.size, (255, 255, 255))
         im = im.convert("RGBA"); fondo.paste(im, mask=im.split()[-1]); im = fondo

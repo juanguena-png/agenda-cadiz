@@ -55,7 +55,7 @@ Fuente de verdad en código: `marca.json` (tema, prefijo, ciudad, usuario) + `pl
 - **Música:** pistas CC0 de `musica/` (ver `pistas.json`), normalizadas a ~-15 dB con fundido de entrada y salida; se descartan las pistas demasiado suaves.
 
 ## Ilustraciones propias (cuando no hay imagen oficial)
-Composición de línea gruesa y redondeada con **un motivo principal relacionado con el evento** (guitarra, barco, máscaras, calabaza, balón, mapa…) + hasta 2 motivos pequeños, sol amarillo arriba a la derecha y olas abajo. Fondos de la paleta D1 según el evento (mar, bruma, noche, sol, cal), trazo cal o noche y acento amarillo. Sin texto. Catálogo de motivos: `ejemplos/ilustraciones/catalogo-motivos.png`. Caption: «Ilustraciones: Planes en Cádiz». Imagen genérica de categoría solo como último recurso.
+Composición de línea gruesa y redondeada con **un motivo principal relacionado con el evento** (guitarra, barco, máscaras, calabaza, balón, mapa…) + hasta 2 motivos pequeños, sol amarillo arriba a la derecha y olas abajo. Fondos de la paleta D1 según el evento (mar, bruma, noche, sol, cal). **Decisión: el fondo celeste «bruma» se mantiene SOLO en las ilustraciones** (variedad); nunca en portadas ni en el reel, trazo cal o noche y acento amarillo. Sin texto. Catálogo de motivos: `ejemplos/ilustraciones/catalogo-motivos.png`. Caption: «Ilustraciones: Planes en Cádiz». Imagen genérica de categoría solo como último recurso.
 
 ## Tono de voz
 Fresco, claro y cercano, como un amigo que te cuenta qué hay hoy en la ciudad. Frases cortas y luminosas; una sola llamada a la acción por texto (guardar, compartir, etiquetar, comentar «PLANES»). Tuteo; emojis con mesura (0–3, preferentes: ☀️ 🌊 📍 🗓️ 👇).
