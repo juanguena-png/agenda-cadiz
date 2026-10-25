@@ -1,0 +1,22 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+body{background:transparent}
+.av{width:320px;height:320px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;background:var(--c-avatar-fondo,var(--c-lienzo))}
+.sello{position:relative;z-index:1;text-align:center;line-height:.9;color:var(--c-avatar-texto,var(--c-texto))}
+.sello .p{font-family:var(--f-titulo);font-weight:var(--peso-t);font-size:210px;letter-spacing:-.04em;display:block;margin-top:-14px}
+.sello{position:relative}.sello .punto{position:absolute;right:-6px;bottom:30px;width:56px;height:56px;border-radius:50%;background:var(--c-avatar-acento,var(--c-acento))}
+.prueba{display:flex;gap:48px;align-items:center;padding:48px;background:#E9ECEF;width:1000px}
+.prueba .c{border-radius:50%;overflow:hidden;flex:none}
+</style></head><body>
+<div id="l"></div>
+<script>
+function avatar(d){return `<div class="av"><div class="deco" style="position:absolute;inset:0"></div><div class="sello"><span class="p">P</span><span class="punto"></span></div></div>`;}
+async function render(d){
+  aplicarTema(d);
+  const l=document.getElementById("l");
+  if(d.modo==="prueba"){
+    l.innerHTML=`<div class="prueba">${[320,150,88,46].map(t=>`<div class="c" style="width:${t}px;height:${t}px"><div style="transform:scale(${t/320});transform-origin:0 0">${avatar(d)}</div></div>`).join("")}</div>`;
+  } else l.innerHTML=avatar(d);
+  await listo();
+}
+</script></body></html>

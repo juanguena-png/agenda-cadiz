@@ -1,0 +1,22 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+body{background:#fff;color:#111;font-family:"InterLibre",Arial,sans-serif}
+.m{width:1080px;background:#fff;padding:40px 0 0}
+.cab{display:flex;align-items:center;gap:40px;padding:0 44px 24px}
+.cab img{width:210px;height:210px;border-radius:50%;border:2px solid #ddd}
+.num{display:flex;gap:44px;text-align:center}.num b{display:block;font-size:44px}.num span{font-size:26px;color:#555}
+.bio{padding:0 44px 28px;font-size:30px;line-height:1.35}.bio b{font-size:32px}.bio .u{color:#00376b}
+.tabs{display:flex;border-top:2px solid #ddd;border-bottom:2px solid #eee;height:70px;align-items:center;justify-content:center;gap:0;color:#111;font-size:26px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.grid div{aspect-ratio:3/4;background-size:cover;background-position:center}
+</style></head><body><div class="m" id="l"></div>
+<script>
+async function render(d){
+  document.body.dataset.tema=d.tema||"base";
+  document.getElementById("l").innerHTML=`<div class="cab"><img src="${d.avatar}"><div><div style="font-size:34px;font-weight:700;margin-bottom:16px">planesencadiz</div><div class="num"><div><b>9</b><span>publicaciones</span></div><div><b>—</b><span>seguidores</span></div><div><b>—</b><span>seguidos</span></div></div></div></div>
+  <div class="bio"><b>${d.nombre}</b><br>${d.bio.replace(/\n/g,"<br>")}</div>
+  <div class="tabs">▦ PUBLICACIONES</div>
+  <div class="grid">${d.imagenes.map(u=>`<div style="background-image:url('${u}')"></div>`).join("")}</div>`;
+  await new Promise(r=>setTimeout(r,200)); await document.fonts.ready;
+}
+</script></body></html>

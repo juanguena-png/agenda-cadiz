@@ -1,29 +1,33 @@
-/* ÚNICA fuente de colores y tipografías. Valores provisionales: ver marca.md */
+/* ÚNICA fuente de colores y tipografías. Un tema (plantilla/temas/*.css) sobrescribe estas variables. */
+@import url("fuentes/fuentes.css");
 :root {
-  --c-fondo: #0B2A4A;        /* azul marino atlántico */
-  --c-fondo-2: #123E6B;
-  --c-acento: #FFC93C;       /* amarillo sol */
-  --c-acento-2: #14B8A6;     /* turquesa */
-  --c-papel: #FFF8EA;        /* arena clara */
-  --c-texto: #FFFFFF;
-  --c-texto-oscuro: #0B2A4A;
-  --c-suave: rgba(255,255,255,.72);
-  --c-tarjeta: rgba(255,255,255,.09);
-  --c-linea: rgba(255,255,255,.18);
-  --f-titulo: "Inter Display", "Inter", "Helvetica Neue", Arial, sans-serif;
-  --f-texto: "Inter", "Helvetica Neue", Arial, sans-serif;
-  --radio: 28px;
+  --c-lienzo: #0B2A4A;  --c-lienzo-2: #123E6B;           /* fondo de las diapositivas */
+  --c-texto: #FFFFFF;   --c-suave: rgba(255,255,255,.80);  /* texto sobre el fondo */
+  --c-tarjeta: rgba(255,255,255,.09); --c-borde: rgba(255,255,255,.18); --c-texto-tarjeta: #FFFFFF; --c-suave-tarjeta: rgba(255,255,255,.80);
+  --c-dato: #FFC93C;                                       /* hora/fecha destacadas sobre tarjeta */
+  --c-acento: #FFC93C;  --c-sobre-acento: #0B2A4A;         /* relleno de acento y su texto */
+  --c-acento-2: #14B8A6; --c-sobre-acento-2: #04302B;
+  --c-marca: #FFC93C;                                      /* color de "Planes en" */
+  --f-titulo: "InterLibre", "Inter", Arial, sans-serif; --f-texto: "InterLibre", "Inter", Arial, sans-serif; --peso-t: 800; --mayus: none;
+  --radio: 28px; --sombra: none;
+  --fondo-foto: block;                                      /* story: fondo desenfocado con la foto */
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { width: 100%; height: 100%; }
-body { font-family: var(--f-texto); color: var(--c-texto); background: var(--c-fondo); overflow: hidden; -webkit-font-smoothing: antialiased; }
-.lienzo { position: relative; width: 1080px; overflow: hidden; background: linear-gradient(160deg, var(--c-fondo) 0%, var(--c-fondo-2) 100%); }
-.lienzo.feed { height: 1350px; }
-.lienzo.story { height: 1920px; }
-.marca { font-family: var(--f-titulo); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--c-acento); }
-.chip { display: inline-block; padding: 6px 16px; border-radius: 999px; background: var(--c-acento); color: var(--c-texto-oscuro); font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
-.chip.alt { background: var(--c-acento-2); color: #04302B; }
-.chip.linea { background: transparent; border: 2px solid var(--c-suave); color: var(--c-texto); }
+body { font-family: var(--f-texto); color: var(--c-texto); background: var(--c-lienzo); overflow: hidden; -webkit-font-smoothing: antialiased; }
+.lienzo { color: var(--c-texto); position: relative; width: 1080px; overflow: hidden; background: linear-gradient(160deg, var(--c-lienzo) 0%, var(--c-lienzo-2) 100%); }
+.lienzo.feed { height: 1350px; } .lienzo.story { height: 1920px; }
+.lienzo > * { position: relative; z-index: 1; } .lienzo > .deco { position: absolute; z-index: 0; inset: 0; pointer-events: none; }
+h1, h2, .titulo { font-family: var(--f-titulo); font-weight: var(--peso-t); text-transform: var(--mayus); }
+.chip { display: inline-block; padding: 6px 18px; border-radius: 999px; background: var(--c-acento); color: var(--c-sobre-acento); font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+.chip.alt { background: var(--c-acento-2); color: var(--c-sobre-acento-2); }
+.chip.linea { background: transparent; border: 2px solid currentColor; color: var(--c-texto); }
 .clamp1, .clamp2, .clamp3 { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
 .clamp1 { -webkit-line-clamp: 1; } .clamp2 { -webkit-line-clamp: 2; } .clamp3 { -webkit-line-clamp: 3; }
-.foto { background-size: cover; background-position: center; background-color: var(--c-fondo-2); }
+.foto { background-size: cover; background-position: center; background-color: var(--c-lienzo-2); }
+/* Logo modular: pieza fija "Planes en" + ciudad variable */
+.logo { display: inline-flex; flex-direction: column; align-items: flex-start; line-height: 1; max-width: 100%; }
+.logo .pre { font-family: var(--f-texto); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--c-marca); font-size: .26em; margin-bottom: .22em; }
+.logo .ciudad { font-family: var(--f-titulo); font-weight: var(--peso-t); font-size: 1em; white-space: nowrap; color: var(--c-texto); text-transform: var(--mayus); }
+.logo.mini { flex-direction: row; align-items: baseline; gap: .3em; }
+.logo.mini .pre { margin: 0; font-size: .7em; } .logo.mini .ciudad { font-size: 1em; }

@@ -1,31 +1,30 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
 <style>
-/* Zonas libres: 250px arriba y abajo. Todo el texto va dentro de .zona */
-.lienzo{background:var(--c-fondo)}
-.fondo{position:absolute;inset:-40px;filter:blur(38px) brightness(.45);transform:scale(1.1)}
+.fondo{position:absolute;inset:-40px;filter:blur(38px) brightness(.5);transform:scale(1.1);display:var(--fondo-foto)}
 .zona{position:absolute;left:70px;right:70px;top:250px;bottom:250px;display:flex;flex-direction:column;gap:22px}
-.zona .foto{flex:none;height:560px;border-radius:36px;border:3px solid var(--c-linea)}
-.fila{display:flex;gap:12px;flex-wrap:wrap}
+.zona .foto{flex:1 1 auto;min-height:440px;max-height:680px;border-radius:var(--radio);border:3px solid var(--c-borde)}
+.fila{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 .chip{font-size:28px}
-h1{font-family:var(--f-titulo);font-weight:900;font-size:64px;line-height:1.06;overflow-wrap:anywhere}
+.marcaS{margin-left:auto}
+h1{font-size:62px;line-height:1.06;overflow-wrap:anywhere}
 .dato{font-size:36px;font-weight:700;line-height:1.2}
 .dato small{display:block;font-size:30px;font-weight:500;color:var(--c-suave)}
-.dato.h{color:var(--c-acento)}
-.desc{font-size:34px;line-height:1.28;color:var(--c-texto)}
-.info{margin-top:auto;font-size:32px;font-weight:700;color:var(--c-acento-2)}
+.dato.h{color:var(--c-dato-story,var(--c-dato))}
+.desc{font-size:34px;line-height:1.28}
+.info{margin-top:auto;font-size:32px;font-weight:800;color:var(--c-info,var(--c-acento-2))}
 </style></head><body>
 <div class="lienzo story" id="l"></div>
 <script>
 async function render(d){
-  const ev=d.evento;
+  aplicarTema(d); const ev=d.evento;
   const dir=ev.direccion?`<small class="clamp1">${esc(ev.direccion)}</small>`:"";
-  const fin=ev.hora_fin?` a ${esc(ev.hora_fin)}`:"";
-  const hora=(ev.todo_el_dia||!ev.hora_inicio)?"Todo el día":`${esc(ev.hora_inicio)}${fin}`;
-  document.getElementById("l").innerHTML=`<div class="fondo foto" style="background-image:${foto(ev)}"></div>
+  const hora=(ev.todo_el_dia||!ev.hora_inicio)?"Todo el día":`${esc(ev.hora_inicio)}${ev.hora_fin?" a "+esc(ev.hora_fin):""}`;
+  document.getElementById("l").innerHTML=`<div class="fondo foto" style="background-image:${foto(ev)}"></div><div class="deco"></div>
   <div class="zona">
+    <div class="fila">${logo(d,"mini",38)}</div>
     <div class="foto" style="background-image:${foto(ev)}" role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
     <div class="fila"><span class="chip">${esc(ev.categoria)}</span><span class="chip alt">${esc(ev.publico||"Todos los públicos")}</span></div>
-    <h1 class="clamp3">${esc(ev.nombre)}</h1>
+    <h1 class="titulo clamp3">${esc(ev.nombre)}</h1>
     <div class="dato h">${esc(d.fecha_larga)} · ${hora}</div>
     <div class="dato clamp2">${esc(ev.lugar)}${dir}</div>
     <div class="dato">${esc(precioTxt(ev))}</div>

@@ -1,0 +1,27 @@
+/* Dirección 3 · Editorial moderno. Tipografías: Fraunces + Inter (SIL OFL 1.1) */
+body[data-tema="d3"]{--c-lienzo:#FFFFFF;--c-lienzo-2:#FFFFFF;--c-texto:#111111;--c-suave:#4A4A4A;--c-tarjeta:transparent;--c-borde:#111111;--c-texto-tarjeta:#111111;--c-suave-tarjeta:#4A4A4A;--c-dato:#B72D19;
+ --c-acento:#B72D19;--c-sobre-acento:#FFFFFF;--c-acento-2:#111111;--c-sobre-acento-2:#FFFFFF;--c-marca:#B72D19;--f-titulo:"Fraunces",serif;--f-texto:"InterLibre",sans-serif;--peso-t:700;--radio:0px;--sombra:none;--fondo-foto:none;--c-info:#B72D19;
+ --c-avatar-fondo:#111111;--c-avatar-texto:#FFFFFF;--c-avatar-acento:#B72D19}
+[data-tema="d3"] .lienzo{background:#FFFFFF}
+[data-tema="d3"] .chip,[data-tema="d3"] .chip.alt{border-radius:0;background:none;color:#B72D19;padding:0;font-size:24px;letter-spacing:.14em;border-bottom:3px solid #B72D19}
+[data-tema="d3"] .ev{border:none;border-top:3px solid #111;border-radius:0;padding:18px 0 0;background:none}
+[data-tema="d3"] .ev .foto,[data-tema="d3"] .zona .foto{border-radius:0;border:none}
+[data-tema="d3"] .ev:last-child{border-bottom:none}
+[data-tema="d3"] .logo .pre{font-family:"InterLibre",sans-serif;letter-spacing:.2em;font-weight:700}
+[data-tema="d3"] .logo .ciudad{font-style:italic;font-weight:600}
+[data-tema="d3"] .cab{border-bottom:3px solid #111;padding-bottom:16px}
+[data-tema="d3"] .portada{padding-top:70px}
+[data-tema="d3"] .portada h1{font-weight:600;letter-spacing:-.03em;font-size:112px;line-height:.98}
+[data-tema="d3"] .portada h1.largo{font-size:92px}
+[data-tema="d3"] .portada .cab{border-bottom:none;padding:0}
+[data-tema="d3"] .portada .tag{color:#B72D19;letter-spacing:.2em}
+[data-tema="d3"] .portada .fecha{color:#111;font-family:"InterLibre";text-transform:uppercase;letter-spacing:.14em;font-size:36px;border-top:3px solid #111;padding-top:18px;display:inline-block}
+[data-tema="d3"] .portada .total b{font-weight:500;font-size:260px;color:#B72D19}
+[data-tema="d3"] .portada .total span{font-family:"Fraunces",serif;font-style:italic;font-weight:500;font-size:52px}
+[data-tema="d3"] .portada .pie{border-top:3px solid #111;padding-top:20px;color:#111}
+[data-tema="d3"] h1,[data-tema="d3"] h2{letter-spacing:-.01em}
+[data-tema="d3"] .zona .dato.h{color:#B72D19}
+[data-tema="d3"] .noche{--c-lienzo:#111111;--c-lienzo-2:#111111;--c-texto:#FFFFFF;--c-suave:#E0E0E0;--c-borde:#FFFFFF;--c-texto-tarjeta:#FFFFFF;--c-suave-tarjeta:#E0E0E0;--c-dato:#FF7A5C;--c-marca:#FF7A5C;background:#111}
+[data-tema="d3"] .noche h1{font-weight:500;font-style:italic}
+[data-tema="d3"] .lienzo.story:not(.noche) .zona{border-top:none}
+[data-tema="d3"] .sello .p{font-style:italic;font-weight:600}

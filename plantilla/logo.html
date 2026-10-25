@@ -1,0 +1,19 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+.lienzo{width:1600px;height:1500px;padding:60px 80px;display:flex;flex-direction:column;gap:30px}
+.fila{display:flex;align-items:center;padding:36px 60px;border-radius:32px}
+.fila.cl{background:var(--c-lienzo);color:var(--c-texto);border:2px solid var(--c-borde)}
+.fila.os{background:var(--c-sobre-acento);}
+.fila.os .logo .ciudad{color:var(--c-acento)} .fila.os .logo .pre{color:#fff}
+.fila.ac{background:var(--c-acento)} .fila.ac .logo .ciudad{color:var(--c-sobre-acento)} .fila.ac .logo .pre{color:var(--c-sobre-acento)}
+.et{font:700 24px var(--f-texto);color:var(--c-suave);width:230px;flex:none}
+.cuerpo{display:flex;flex-direction:column;gap:30px}
+</style></head><body>
+<div class="lienzo" id="l" style="height:auto"></div>
+<script>
+async function render(d){
+  aplicarTema(d); const fondos=["cl","os","ac"];
+  document.getElementById("l").innerHTML=d.ciudades.map((c,i)=>`<div class="fila ${fondos[i%3]}"><div class="et" style="color:inherit;opacity:.8">${esc(c.nota)}</div><div class="cuerpo">${logo(c,"",150)}${logo(c,"mini",44)}</div></div>`).join("");
+  document.querySelectorAll(".logo:not(.mini)").forEach(l=>l.dataset.max=1100); ajustar(1100); await listo();
+}
+</script></body></html>

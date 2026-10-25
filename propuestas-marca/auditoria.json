@@ -1,0 +1,1676 @@
+{
+  "d1": {
+    "portada": [
+      {
+        "t": "Planes en",
+        "px": 49.4,
+        "peso": "800",
+        "ratio": 4.6
+      },
+      {
+        "t": "Cádiz",
+        "px": 190,
+        "peso": "700",
+        "ratio": 7.23
+      },
+      {
+        "t": "Agenda diaria",
+        "px": 30,
+        "peso": "800",
+        "ratio": 7.23
+      },
+      {
+        "t": "Qué hacer hoy",
+        "px": 104,
+        "peso": "700",
+        "ratio": 7.23
+      },
+      {
+        "t": "Viernes 6 de noviembre",
+        "px": 52,
+        "peso": "700",
+        "ratio": 4.6
+      },
+      {
+        "t": "12",
+        "px": 190,
+        "peso": "700",
+        "ratio": 4.6
+      },
+      {
+        "t": "planes",
+        "px": 46,
+        "peso": "700",
+        "ratio": 7.23
+      },
+      {
+        "t": "en la ciudad",
+        "px": 46,
+        "peso": "700",
+        "ratio": 7.23
+      },
+      {
+        "t": "Guarda este post",
+        "px": 32,
+        "peso": "600",
+        "ratio": 7.23
+      },
+      {
+        "t": "Desliza →",
+        "px": 32,
+        "peso": "600",
+        "ratio": 7.23
+      }
+    ],
+    "eventos1": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "800",
+        "ratio": 5.36
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "700",
+        "ratio": 13.09
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 7.22
+      },
+      {
+        "t": "música",
+        "px": 24,
+        "peso": "800",
+        "ratio": 5.7
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 62,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 42,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 34,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Gratis",
+        "px": 34,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 7.22
+      }
+    ],
+    "eventos3": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "800",
+        "ratio": 5.36
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "700",
+        "ratio": 13.09
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 7.22
+      },
+      {
+        "t": "música",
+        "px": 24,
+        "peso": "800",
+        "ratio": 5.7
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 40,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 34,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "infantil",
+        "px": 24,
+        "peso": "800",
+        "ratio": 5.7
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 40,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 34,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "Biblioteca municipal",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "teatro",
+        "px": 24,
+        "peso": "800",
+        "ratio": 5.7
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 40,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 34,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "Teatro principal",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 7.22
+      }
+    ],
+    "eventos6": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "800",
+        "ratio": 5.36
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "700",
+        "ratio": 13.09
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 7.22
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 34,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "· Paseo marítimo · Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 34,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "· Biblioteca municipal · Gra",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 34,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "· Teatro principal · 12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Exposición de fotografía del",
+        "px": 34,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "10:00–20:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "· Sala de exposiciones · Gra",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Carrera popular de la bahía",
+        "px": 34,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "09:30",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "· Parque de la ciudad · 5 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Gran concierto extraordinari",
+        "px": 34,
+        "peso": "700",
+        "ratio": 13.9
+      },
+      {
+        "t": "19:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.81
+      },
+      {
+        "t": "· Auditorio municipal · 8–15",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.67
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 7.22
+      }
+    ],
+    "story": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "800",
+        "ratio": 5.36
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "700",
+        "ratio": 13.09
+      },
+      {
+        "t": "música",
+        "px": 28,
+        "peso": "800",
+        "ratio": 8.85
+      },
+      {
+        "t": "Todos los públicos",
+        "px": 28,
+        "peso": "800",
+        "ratio": 5.7
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 62,
+        "peso": "700",
+        "ratio": 13.09
+      },
+      {
+        "t": "viernes 6 de noviembre · 20:",
+        "px": 36,
+        "peso": "700",
+        "ratio": 6.41
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 36,
+        "peso": "700",
+        "ratio": 13.09
+      },
+      {
+        "t": "Calle de ejemplo 1, 11001 Cá",
+        "px": 30,
+        "peso": "500",
+        "ratio": 7.22
+      },
+      {
+        "t": "Gratis",
+        "px": 36,
+        "peso": "700",
+        "ratio": 13.09
+      },
+      {
+        "t": "Una cita para disfrutar en f",
+        "px": 34,
+        "peso": "400",
+        "ratio": 13.09
+      },
+      {
+        "t": "Más info: ejemplo.es",
+        "px": 32,
+        "peso": "800",
+        "ratio": 6.41
+      }
+    ],
+    "noche": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "800",
+        "ratio": 10.84
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "700",
+        "ratio": 17.04
+      },
+      {
+        "t": "Esta noche en Cádiz",
+        "px": 86,
+        "peso": "700",
+        "ratio": 17.04
+      },
+      {
+        "t": "viernes 6 de noviembre",
+        "px": 34,
+        "peso": "700",
+        "ratio": 13.02
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 38,
+        "peso": "900",
+        "ratio": 7.48
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 40,
+        "peso": "700",
+        "ratio": 11.75
+      },
+      {
+        "t": "Paseo marítimo · Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.98
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 38,
+        "peso": "900",
+        "ratio": 7.48
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 40,
+        "peso": "700",
+        "ratio": 11.75
+      },
+      {
+        "t": "Biblioteca municipal · Grati",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.98
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 38,
+        "peso": "900",
+        "ratio": 7.48
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 40,
+        "peso": "700",
+        "ratio": 11.75
+      },
+      {
+        "t": "Teatro principal · 12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.98
+      }
+    ],
+    "destacada": [
+      {
+        "t": "Hoy",
+        "px": 116,
+        "peso": "700",
+        "ratio": 13.09
+      }
+    ],
+    "patrocinio": [
+      {
+        "t": "Publicidad",
+        "px": 30,
+        "peso": "800",
+        "ratio": 13.09
+      },
+      {
+        "t": "Heladería Ejemplo",
+        "px": 66,
+        "peso": "700",
+        "ratio": 13.09
+      },
+      {
+        "t": "Helados artesanos en el cent",
+        "px": 36,
+        "peso": "400",
+        "ratio": 13.09
+      },
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "800",
+        "ratio": 5.36
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "700",
+        "ratio": 13.09
+      }
+    ]
+  },
+  "d2": {
+    "portada": [
+      {
+        "t": "Planes en",
+        "px": 49.4,
+        "peso": "900",
+        "ratio": 12.02
+      },
+      {
+        "t": "Cádiz",
+        "px": 190,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "Agenda diaria",
+        "px": 30,
+        "peso": "800",
+        "ratio": 14.22
+      },
+      {
+        "t": "Qué hacer hoy",
+        "px": 112,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "Viernes 6 de noviembre",
+        "px": 52,
+        "peso": "700",
+        "ratio": 12.02
+      },
+      {
+        "t": "12",
+        "px": 190,
+        "peso": "400",
+        "ratio": 12.02
+      },
+      {
+        "t": "planes",
+        "px": 46,
+        "peso": "700",
+        "ratio": 16.68
+      },
+      {
+        "t": "en la ciudad",
+        "px": 46,
+        "peso": "700",
+        "ratio": 16.68
+      },
+      {
+        "t": "Guarda este post",
+        "px": 32,
+        "peso": "600",
+        "ratio": 14.22
+      },
+      {
+        "t": "Desliza →",
+        "px": 32,
+        "peso": "600",
+        "ratio": 14.22
+      }
+    ],
+    "eventos1": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "900",
+        "ratio": 12.02
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 14.22
+      },
+      {
+        "t": "música",
+        "px": 24,
+        "peso": "800",
+        "ratio": 16.68
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 62,
+        "peso": "400",
+        "ratio": 12.02
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 42,
+        "peso": "800",
+        "ratio": 12.02
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 34,
+        "peso": "600",
+        "ratio": 12.02
+      },
+      {
+        "t": "Gratis",
+        "px": 34,
+        "peso": "600",
+        "ratio": 12.02
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 14.22
+      }
+    ],
+    "eventos3": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "900",
+        "ratio": 12.02
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 14.22
+      },
+      {
+        "t": "música",
+        "px": 24,
+        "peso": "800",
+        "ratio": 16.68
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 40,
+        "peso": "400",
+        "ratio": 12.02
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 34,
+        "peso": "800",
+        "ratio": 12.02
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 30,
+        "peso": "600",
+        "ratio": 12.02
+      },
+      {
+        "t": "Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 12.02
+      },
+      {
+        "t": "infantil",
+        "px": 24,
+        "peso": "800",
+        "ratio": 16.68
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 40,
+        "peso": "400",
+        "ratio": 9.39
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 34,
+        "peso": "800",
+        "ratio": 9.39
+      },
+      {
+        "t": "Biblioteca municipal",
+        "px": 30,
+        "peso": "600",
+        "ratio": 9.39
+      },
+      {
+        "t": "Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 9.39
+      },
+      {
+        "t": "teatro",
+        "px": 24,
+        "peso": "800",
+        "ratio": 16.68
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 40,
+        "peso": "400",
+        "ratio": 7.84
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 34,
+        "peso": "800",
+        "ratio": 7.84
+      },
+      {
+        "t": "Teatro principal",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.84
+      },
+      {
+        "t": "12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.84
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 14.22
+      }
+    ],
+    "eventos6": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "900",
+        "ratio": 12.02
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 14.22
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 34,
+        "peso": "400",
+        "ratio": 12.02
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 12.02
+      },
+      {
+        "t": "· Paseo marítimo · Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 12.02
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 34,
+        "peso": "400",
+        "ratio": 9.39
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 9.39
+      },
+      {
+        "t": "· Biblioteca municipal · Gra",
+        "px": 30,
+        "peso": "600",
+        "ratio": 9.39
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 34,
+        "peso": "400",
+        "ratio": 7.84
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 30,
+        "peso": "800",
+        "ratio": 7.84
+      },
+      {
+        "t": "· Teatro principal · 12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.84
+      },
+      {
+        "t": "Exposición de fotografía del",
+        "px": 34,
+        "peso": "400",
+        "ratio": 9.19
+      },
+      {
+        "t": "10:00–20:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 9.19
+      },
+      {
+        "t": "· Sala de exposiciones · Gra",
+        "px": 30,
+        "peso": "600",
+        "ratio": 9.19
+      },
+      {
+        "t": "Carrera popular de la bahía",
+        "px": 34,
+        "peso": "400",
+        "ratio": 12.02
+      },
+      {
+        "t": "09:30",
+        "px": 30,
+        "peso": "800",
+        "ratio": 12.02
+      },
+      {
+        "t": "· Parque de la ciudad · 5 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 12.02
+      },
+      {
+        "t": "Gran concierto extraordinari",
+        "px": 34,
+        "peso": "400",
+        "ratio": 9.39
+      },
+      {
+        "t": "19:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 9.39
+      },
+      {
+        "t": "· Auditorio municipal · 8–15",
+        "px": 30,
+        "peso": "600",
+        "ratio": 9.39
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 14.22
+      }
+    ],
+    "story": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "900",
+        "ratio": 12.02
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "música",
+        "px": 28,
+        "peso": "800",
+        "ratio": 12.02
+      },
+      {
+        "t": "Todos los públicos",
+        "px": 28,
+        "peso": "800",
+        "ratio": 9.39
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 62,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "viernes 6 de noviembre · 20:",
+        "px": 36,
+        "peso": "700",
+        "ratio": 12.02
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 36,
+        "peso": "700",
+        "ratio": 16.68
+      },
+      {
+        "t": "Calle de ejemplo 1, 11001 Cá",
+        "px": 30,
+        "peso": "500",
+        "ratio": 14.22
+      },
+      {
+        "t": "Gratis",
+        "px": 36,
+        "peso": "700",
+        "ratio": 16.68
+      },
+      {
+        "t": "Una cita para disfrutar en f",
+        "px": 34,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "Más info: ejemplo.es",
+        "px": 32,
+        "peso": "800",
+        "ratio": 9.39
+      }
+    ],
+    "noche": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "900",
+        "ratio": 12.02
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "Esta noche en Cádiz",
+        "px": 86,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "viernes 6 de noviembre",
+        "px": 34,
+        "peso": "700",
+        "ratio": 14.22
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 38,
+        "peso": "900",
+        "ratio": 12.02
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 40,
+        "peso": "400",
+        "ratio": 12.02
+      },
+      {
+        "t": "Paseo marítimo · Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 12.02
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 38,
+        "peso": "900",
+        "ratio": 9.39
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 40,
+        "peso": "400",
+        "ratio": 9.39
+      },
+      {
+        "t": "Biblioteca municipal · Grati",
+        "px": 30,
+        "peso": "600",
+        "ratio": 9.39
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 38,
+        "peso": "900",
+        "ratio": 7.84
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 40,
+        "peso": "400",
+        "ratio": 7.84
+      },
+      {
+        "t": "Teatro principal · 12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 7.84
+      }
+    ],
+    "destacada": [
+      {
+        "t": "Hoy",
+        "px": 116,
+        "peso": "400",
+        "ratio": 16.68
+      }
+    ],
+    "patrocinio": [
+      {
+        "t": "Publicidad",
+        "px": 30,
+        "peso": "800",
+        "ratio": 16.68
+      },
+      {
+        "t": "Heladería Ejemplo",
+        "px": 66,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "Helados artesanos en el cent",
+        "px": 36,
+        "peso": "400",
+        "ratio": 16.68
+      },
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "900",
+        "ratio": 12.02
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "400",
+        "ratio": 16.68
+      }
+    ]
+  },
+  "d3": {
+    "portada": [
+      {
+        "t": "Planes en",
+        "px": 49.4,
+        "peso": "700",
+        "ratio": 6.17
+      },
+      {
+        "t": "Cádiz",
+        "px": 190,
+        "peso": "600",
+        "ratio": 18.88
+      },
+      {
+        "t": "Agenda diaria",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Qué hacer hoy",
+        "px": 112,
+        "peso": "600",
+        "ratio": 18.88
+      },
+      {
+        "t": "Viernes 6 de noviembre",
+        "px": 36,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "12",
+        "px": 260,
+        "peso": "500",
+        "ratio": 6.17
+      },
+      {
+        "t": "planes",
+        "px": 52,
+        "peso": "500",
+        "ratio": 18.88
+      },
+      {
+        "t": "en la ciudad",
+        "px": 52,
+        "peso": "500",
+        "ratio": 18.88
+      },
+      {
+        "t": "Guarda este post",
+        "px": 32,
+        "peso": "600",
+        "ratio": 18.88
+      },
+      {
+        "t": "Desliza →",
+        "px": 32,
+        "peso": "600",
+        "ratio": 18.88
+      }
+    ],
+    "eventos1": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "700",
+        "ratio": 6.17
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "600",
+        "ratio": 18.88
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 8.86
+      },
+      {
+        "t": "música",
+        "px": 24,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 62,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 42,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 34,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Gratis",
+        "px": 34,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 8.86
+      }
+    ],
+    "eventos3": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "700",
+        "ratio": 6.17
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "600",
+        "ratio": 18.88
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 8.86
+      },
+      {
+        "t": "música",
+        "px": 24,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 40,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 34,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "infantil",
+        "px": 24,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 40,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 34,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Biblioteca municipal",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "teatro",
+        "px": 24,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 40,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 34,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Teatro principal",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 8.86
+      }
+    ],
+    "eventos6": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "700",
+        "ratio": 6.17
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "600",
+        "ratio": 18.88
+      },
+      {
+        "t": "2/9",
+        "px": 30,
+        "peso": "800",
+        "ratio": 8.86
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 34,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "· Paseo marítimo · Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 34,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "· Biblioteca municipal · Gra",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 34,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "· Teatro principal · 12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Exposición de fotografía del",
+        "px": 34,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "10:00–20:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "· Sala de exposiciones · Gra",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Carrera popular de la bahía",
+        "px": 34,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "09:30",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "· Parque de la ciudad · 5 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Gran concierto extraordinari",
+        "px": 34,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "19:00",
+        "px": 30,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "· Auditorio municipal · 8–15",
+        "px": 30,
+        "peso": "600",
+        "ratio": 8.86
+      },
+      {
+        "t": "Guarda y comparte · @planese",
+        "px": 28,
+        "peso": "700",
+        "ratio": 8.86
+      }
+    ],
+    "story": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "700",
+        "ratio": 6.17
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "600",
+        "ratio": 18.88
+      },
+      {
+        "t": "música",
+        "px": 24,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Todos los públicos",
+        "px": 24,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 62,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "viernes 6 de noviembre · 20:",
+        "px": 36,
+        "peso": "700",
+        "ratio": 6.17
+      },
+      {
+        "t": "Paseo marítimo",
+        "px": 36,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "Calle de ejemplo 1, 11001 Cá",
+        "px": 30,
+        "peso": "500",
+        "ratio": 8.86
+      },
+      {
+        "t": "Gratis",
+        "px": 36,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "Una cita para disfrutar en f",
+        "px": 34,
+        "peso": "400",
+        "ratio": 18.88
+      },
+      {
+        "t": "Más info: ejemplo.es",
+        "px": 32,
+        "peso": "800",
+        "ratio": 6.17
+      }
+    ],
+    "noche": [
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "700",
+        "ratio": 7.36
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "600",
+        "ratio": 18.88
+      },
+      {
+        "t": "Esta noche en Cádiz",
+        "px": 86,
+        "peso": "500",
+        "ratio": 18.88
+      },
+      {
+        "t": "viernes 6 de noviembre",
+        "px": 34,
+        "peso": "700",
+        "ratio": 14.3
+      },
+      {
+        "t": "20:30–22:00",
+        "px": 38,
+        "peso": "900",
+        "ratio": 7.36
+      },
+      {
+        "t": "Concierto de jazz frente al ",
+        "px": 40,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "Paseo marítimo · Gratis",
+        "px": 30,
+        "peso": "600",
+        "ratio": 14.3
+      },
+      {
+        "t": "11:00–12:00",
+        "px": 38,
+        "peso": "900",
+        "ratio": 7.36
+      },
+      {
+        "t": "Cuentacuentos y globos",
+        "px": 40,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "Biblioteca municipal · Grati",
+        "px": 30,
+        "peso": "600",
+        "ratio": 14.3
+      },
+      {
+        "t": "21:00–22:30",
+        "px": 38,
+        "peso": "900",
+        "ratio": 7.36
+      },
+      {
+        "t": "La función del fantasma",
+        "px": 40,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "Teatro principal · 12 €",
+        "px": 30,
+        "peso": "600",
+        "ratio": 14.3
+      }
+    ],
+    "destacada": [
+      {
+        "t": "Hoy",
+        "px": 116,
+        "peso": "700",
+        "ratio": 18.88
+      }
+    ],
+    "patrocinio": [
+      {
+        "t": "Publicidad",
+        "px": 24,
+        "peso": "800",
+        "ratio": 6.17
+      },
+      {
+        "t": "Heladería Ejemplo",
+        "px": 66,
+        "peso": "700",
+        "ratio": 18.88
+      },
+      {
+        "t": "Helados artesanos en el cent",
+        "px": 36,
+        "peso": "400",
+        "ratio": 18.88
+      },
+      {
+        "t": "Planes en",
+        "px": 26.6,
+        "peso": "700",
+        "ratio": 6.17
+      },
+      {
+        "t": "Cádiz",
+        "px": 38,
+        "peso": "600",
+        "ratio": 18.88
+      }
+    ]
+  }
+}
