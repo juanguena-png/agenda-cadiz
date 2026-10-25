@@ -40,6 +40,10 @@ El agente debe dejar la base de fuentes **más rica cada día que pasa**. En la 
 2. **Exposiciones temporales largas abiertas ese día:** solo como relleno (igual que las rutas), no como plan principal.
 3. **Fichas provinciales de la Junta sin municipio** («Jornadas Europeas de Patrimonio», «Circuito Andaluz de Peñas»…): NO se descartan enteras. Abre su programa (PDF o enlace) y extrae solo las actividades celebradas en Cádiz capital, cada una verificada con la regla 1.
 4. **Eventos online o a distancia (Meetup, Eventbrite…):** fuera. Solo planes presenciales en Cádiz capital.
+5. **Meetup (quedadas, grupos, intercambios de idiomas…):** se descartan.
+6. **Cursos, talleres y clases:** entran solo los puntuales (una sesión o un taller de un día, con fecha y hora). Los cursos de meses o con matrícula abierta, no.
+7. **Actos religiosos y de cofradías:** solo los grandes o públicos (procesiones, traslados y actos abiertos a toda la ciudad). No las misas ordinarias, novenas o cultos internos.
+8. **Jornadas, congresos y charlas académicas o profesionales con inscripción previa:** no se publican; solo lo cultural y de ocio.
 
 ## Reglas del agente
 
