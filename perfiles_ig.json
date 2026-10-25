@@ -1,0 +1,27 @@
+{
+  "_nota": "Perfiles de Instagram VERIFICADOS con la API oficial (business_discovery) y de Cádiz capital. 'claves' = expresiones (regex, sin acentos ni mayúsculas) que, si aparecen en lugar/nombre/descripción/organizador del evento, añaden el perfil. Solo se etiqueta lo que está aquí.",
+  "perfiles": {
+    "cadizclubdefutbol": {"nombre": "Cádiz Club de Fútbol", "claves": ["cadiz cf", "cadiz club de futbol", "nuevo mirandilla"]},
+    "univcadiz": {"nombre": "Universidad de Cádiz", "claves": ["\\buca\\b", "universidad de cadiz", "aulario la bomba", "edificio constitucion 1812", "facultad de filosofia y letras"]},
+    "ateneocadiz": {"nombre": "Ateneo de Cádiz", "claves": ["ateneo de cadiz"]},
+    "fundacioncajasol": {"nombre": "Fundación Cajasol", "claves": ["fundacion cajasol", "cajasol"]},
+    "fundacionory": {"nombre": "Fundación Ory", "claves": ["fundacion carlos edmundo de ory", "fundacion ory", "jornadas de la fundacion ory"]},
+    "ayuntamientocadiz": {"nombre": "Ayuntamiento de Cádiz", "claves": ["ayuntamiento de cadiz", "truco o trato", "matadero 13", "desfile .*nuevo orden", "baluarte de la candelaria"]},
+    "juventudcadiz": {"nombre": "Juventud Cádiz (Casa de la Juventud)", "claves": ["casa de la juventud", "truco o trato", "matadero 13"]},
+    "estereoparque": {"nombre": "Estéreo Parque", "claves": ["estereo parque"]},
+    "southseriesfest": {"nombre": "South International Series Festival", "claves": ["south international series", "south series"]},
+    "valledecuentos": {"nombre": "Valle de Cuentos", "claves": ["valle de cuentos"]},
+    "castillosantacatalina": {"nombre": "Castillo de Santa Catalina", "claves": ["castillo de santa catalina"]},
+    "ecco_cadiz": {"nombre": "ECCO Cádiz", "claves": ["\\becco\\b"]},
+    "palaciocongresoscadiz": {"nombre": "Palacio de Congresos de Cádiz", "claves": ["palacio de congresos de cadiz"]},
+    "teatrofalla": {"nombre": "Gran Teatro Falla", "claves": ["gran teatro falla"]},
+    "cadizguitarfestival": {"nombre": "Cádiz Guitar Festival Ángel G. Piñero", "claves": ["cadiz guitar festival"]},
+    "museodecadiz": {"nombre": "Museo de Cádiz", "claves": ["museo de cadiz"]},
+    "casadeiberoamerica": {"nombre": "Casa Iberoamérica de Cádiz", "claves": ["casa de iberoamerica", "casa iberoamerica"]}
+  },
+  "descartados": {
+    "cadizturismo": "Es «Turismo provincia de Cádiz»: no es de la capital (regla 1)",
+    "cadizcultura": "Cuenta ambigua de 378 seguidores sin relación oficial confirmada",
+    "uca_universidad": "Es la Universidad Católica Argentina: NO es la UCA de Cádiz"
+  }
+}

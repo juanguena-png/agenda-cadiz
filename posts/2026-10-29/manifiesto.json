@@ -5,6 +5,14 @@
     {
       "archivo": "01.png",
       "tipo": "portada",
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz",
+        "valledecuentos",
+        "fundacioncajasol",
+        "univcadiz",
+        "estereoparque"
+      ],
       "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, jueves 29 de octubre. 5 planes."
     },
     {
@@ -12,6 +20,10 @@
       "tipo": "eventos",
       "ids": [
         "halloween-plazuela"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz"
       ],
       "alt_text": "Eventos: Halloween · La Plazuela del Truco o Trato (17:00, Baluarte de la Candelaria)"
     },
@@ -21,6 +33,9 @@
       "ids": [
         "halloween-extremadura"
       ],
+      "etiquetas": [
+        "valledecuentos"
+      ],
       "alt_text": "Eventos: Fiesta de Halloween infantil (18:00, Casa de Extremadura de Cádiz)"
     },
     {
@@ -28,6 +43,10 @@
       "tipo": "eventos",
       "ids": [
         "halloween-matadero13"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz"
       ],
       "alt_text": "Eventos: Halloween · Matadero 13, pasaje del terror (19:30, Antigua Casa del Niño Jesús (Matadero 13))"
     },
@@ -37,6 +56,9 @@
       "ids": [
         "cadiz-canta"
       ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
       "alt_text": "Eventos: Cádiz Canta · Vicente Soto «Sordera» (20:00, Fundación Cajasol)"
     },
     {
@@ -44,6 +66,10 @@
       "tipo": "eventos",
       "ids": [
         "digitalism-estereo"
+      ],
+      "etiquetas": [
+        "univcadiz",
+        "estereoparque"
       ],
       "alt_text": "Eventos: Digitalism · Estéreo Parque «Edición Especial Otoño» (21:00, Aulario La Bomba (UCA) · Edificio Constitución 1812)"
     }

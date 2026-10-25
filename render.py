@@ -127,10 +127,12 @@ def render_carrusel(r, eventos, tipo, fecha, salida, var):
     etiqueta, sufijo = PORTADA_EXTRA[tipo]
     ciudad = (ag.cargar_json(ag.RAIZ / "marca.json", {}) or {}).get("ciudad", "Cádiz")
     r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": etiqueta, "sufijo": sufijo, "paleta": paleta(fecha)}, salida / "01.png", VIEW_FEED)
-    manifiesto = [{"archivo": "01.png", "tipo": "portada", "alt_text": f"Portada de Planes en {ciudad}: {titulo}, {sub}. {len(eventos)} planes."}]
+    import etiquetas
+    manifiesto = [{"archivo": "01.png", "tipo": "portada", "etiquetas": etiquetas.para_diapositiva(eventos),
+                   "alt_text": f"Portada de Planes en {ciudad}: {titulo}, {sub}. {len(eventos)} planes."}]
     for i, g in enumerate(grupos, start=2):
         r.png("eventos.html", {"eventos": g, "cabecera": f"{i - 1}/{len(grupos)}", "mostrar_fecha": tipo != "diario"}, salida / f"{i:02d}.png", VIEW_FEED)
-        manifiesto.append({"archivo": f"{i:02d}.png", "tipo": "eventos", "ids": [e.get("id") for e in g],
+        manifiesto.append({"archivo": f"{i:02d}.png", "tipo": "eventos", "ids": [e.get("id") for e in g], "etiquetas": etiquetas.para_diapositiva(g),
                            "alt_text": "Eventos: " + "; ".join(f"{e['nombre']} ({e.get('hora_inicio') or 'todo el día'}, {e['lugar']})" for e in g)})
     return manifiesto
 

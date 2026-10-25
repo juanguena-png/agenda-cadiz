@@ -144,11 +144,20 @@ def ig_publicar(cid):
     return r["id"], perma
 
 
-def ig_carrusel(urls, alts, caption):
+def ig_carrusel(urls, alts, caption, etiquetas_por_slide=None):
+    """Carrusel de Instagram. etiquetas_por_slide: lista (una por diapositiva) de usuarios a etiquetar con user_tags (perfiles verificados)."""
+    import etiquetas as et
     ig = ag.secreto("IG_USER_ID")
     hijos = []
-    for u, alt in zip(urls, alts):
-        c = api("POST", f"{ig}/media", image_url=u, is_carousel_item="true", alt_text=alt[:1000])["id"]
+    for i, (u, alt) in enumerate(zip(urls, alts)):
+        tags = et.posiciones((etiquetas_por_slide or [[]] * len(urls))[i]) if etiquetas_por_slide and etiquetas_por_slide[i] else None
+        try:
+            c = api("POST", f"{ig}/media", image_url=u, is_carousel_item="true", alt_text=alt[:1000], user_tags=tags)["id"]
+        except ErrorAPI as e:
+            if not tags:
+                raise
+            print(f"AVISO: diapositiva {i + 1} sin etiquetas ({e})")  # una etiqueta rechazada no debe impedir publicar
+            c = api("POST", f"{ig}/media", image_url=u, is_carousel_item="true", alt_text=alt[:1000])["id"]
         ig_esperar(c)
         hijos.append(c)
     padre = api("POST", f"{ig}/media", media_type="CAROUSEL", children=",".join(hijos), caption=caption)["id"]
@@ -322,8 +331,9 @@ def construir_plan(carpeta, tipo, man, eventos, fecha):
             ag.salir(f"Falta {carpeta/'caption.txt'}")
         imgs = [carpeta / "carrusel" / d["archivo"] for d in man["carrusel"]]
         alts = [d["alt_text"] for d in man["carrusel"]]
+        tags = [d.get("etiquetas") or [] for d in man["carrusel"]]
         plan.append({"clave": "carrusel", "archivos": imgs,
-                     "ig": lambda urls, alts=alts: ig_carrusel(urls, alts, caption), "fb": lambda urls: fb_carrusel(urls, caption)})
+                     "ig": lambda urls, alts=alts, tags=tags: ig_carrusel(urls, alts, caption, tags), "fb": lambda urls: fb_carrusel(urls, caption)})
     if tipo == "diario":
         for d in man.get("stories", []):
             plan.append({"clave": f"stories/{d['archivo']}", "archivos": [carpeta / "stories" / d["archivo"]],
