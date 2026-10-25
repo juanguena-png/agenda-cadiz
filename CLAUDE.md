@@ -52,13 +52,17 @@ El agente debe dejar la base de fuentes **más rica cada día que pasa**. En la 
 14. **Mercadillos, ferias y mercados:** sí, los puntuales con fecha y lugar.
 15. **Presentaciones de libros, charlas y tertulias culturales:** sí, todas las abiertas al público (Ateneo, bibliotecas, librerías, fundaciones…), gratuitas o de pago.
 16. **Actividades infantiles:** sí, todas las abiertas a todo el público (cuentacuentos, teatro infantil, talleres, fiestas de entidades y asociaciones).
+17. **Solo prensa o agregadores (sin ficha oficial ni web del organizador):** se publica si lo confirman **2 medios distintos** que coinciden en fecha, hora y lugar en Cádiz capital. Con un solo medio, se busca confirmación; si no se logra, no se publica.
+18. **Eventos solo en redes sociales del organizador:** no se leen las redes. Se publican si hay copia del cartel o la noticia en prensa o en una web (de la sala, del organizador, un agregador) y los datos coinciden.
+19. **Actividades turísticas de empresas privadas (free tours, catamaranes, excursiones, visitas de agencias):** solo como relleno «Siempre abierto», igual que las rutas del Ayuntamiento.
+20. **Entradas agotadas o aforo completo:** se publica igualmente indicando «entradas agotadas» (o «aforo completo») para no crear falsas expectativas.
 
 ## Reglas del agente
 
 1. SOLO eventos de Cádiz capital (arriba).
 2. Se publican **TODOS** los eventos verificados del periodo (única excepción: la agenda mensual, solo destacados). Nunca se descarta un evento por falta de espacio.
 3. Cada dato (fecha, hora, lugar, precio) viene de una fuente consultada; guarda la URL. Si un dato no está claro, **se omite**; nunca se inventa.
-4. **Fuentes por evento:** un evento puede publicarse con UNA sola fuente si esta es **oficial** (Ayuntamiento, Turismo, Junta, Diputación, UCA) o **el propio organizador/recinto** (su web o su ticketing). Si solo aparece en prensa o en agregadores, se busca confirmación en una fuente oficial o del organizador antes de publicar (si no se logra, no se publica). La regla 1 (Cádiz capital con evidencia literal) es siempre obligatoria. Contrasta entre fuentes y elimina duplicados. Si dos fuentes se contradicen, prevalece la oficial; si no hay oficial, el dato se omite. Prioridad: oficiales > recintos > venta de entradas > prensa > agregadores.
+4. **Fuentes por evento:** un evento puede publicarse con UNA sola fuente si esta es **oficial** (Ayuntamiento, Turismo, Junta, Diputación, UCA) o **el propio organizador/recinto** (su web o su ticketing). Si solo aparece en prensa o en agregadores, se busca confirmación en una fuente oficial o del organizador; si no se logra, se publica solo si lo confirman 2 medios distintos que coinciden (criterio 17). La regla 1 (Cádiz capital con evidencia literal) es siempre obligatoria. Contrasta entre fuentes y elimina duplicados. Si dos fuentes se contradicen, prevalece la oficial; si no hay oficial, el dato se omite. Prioridad: oficiales > recintos > venta de entradas > prensa > agregadores.
 5. Justo antes de publicar, vuelve a revisar las fuentes (cancelaciones, "suspendido", cambios de hora). Luego `python publicar.py --fecha F --tipo T --marcar-revision`; sin eso `publicar.py` se niega a publicar.
 6. No copies textos literales de las webs: redacta con palabras propias (descripciones de 2-3 frases).
 7. Imágenes: todo evento lleva imagen en todos los formatos.
