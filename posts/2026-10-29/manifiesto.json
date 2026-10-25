@@ -1,0 +1,62 @@
+{
+  "variante": "A",
+  "paleta": 5,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, jueves 29 de octubre. 3 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "halloween-extremadura"
+      ],
+      "alt_text": "Eventos: Fiesta de Halloween infantil (18:00, Casa de Extremadura de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "cadiz-canta"
+      ],
+      "alt_text": "Eventos: Cádiz Canta · Vicente Soto «Sordera» (20:00, Fundación Cajasol)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "digitalism-estereo"
+      ],
+      "alt_text": "Eventos: Digitalism · Estéreo Parque «Edición Especial Otoño» (21:00, Aulario La Bomba (UCA) · Edificio Constitución 1812)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "halloween-extremadura",
+      "alt_text": "Cartel de la fiesta de Halloween infantil en la Casa de Extremadura de Cádiz"
+    },
+    {
+      "archivo": "02.png",
+      "id": "cadiz-canta",
+      "alt_text": "Cartel del ciclo flamenco Cádiz Canta en la Fundación Cajasol"
+    },
+    {
+      "archivo": "03.png",
+      "id": "digitalism-estereo",
+      "alt_text": "Cartel del concierto de Digitalism en el Estéreo Parque de la Universidad de Cádiz"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "cadiz-canta",
+        "digitalism-estereo"
+      ],
+      "alt_text": "Esta noche en Cádiz: Cádiz Canta · Vicente Soto «Sordera»; Digitalism · Estéreo Parque «Edición Especial Otoño»"
+    }
+  ]
+}

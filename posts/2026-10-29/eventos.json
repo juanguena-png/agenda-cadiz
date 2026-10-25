@@ -1,0 +1,112 @@
+{
+  "fecha": "2026-10-29",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "halloween-extremadura",
+      "nombre": "Fiesta de Halloween infantil",
+      "categoria": "infantil",
+      "fecha": "2026-10-29",
+      "hora_inicio": "18:00",
+      "hora_fin": "20:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Extremadura de Cádiz",
+      "direccion": "C/ Regimiento de Infantería, 7, Cádiz",
+      "precio": "Gratis",
+      "publico": "Infantil (3 a 12 años)",
+      "descripcion": "Fiesta de Halloween para niños y niñas de 3 a 12 años con animación a cargo de Valle de Cuentos y varias sorpresas.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/halloween-extremadura.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-10/image0.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Cartel de la fiesta de Halloween infantil en la Casa de Extremadura de Cádiz",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/fiesta-de-halloween-en-la-casa-de-extremadura-en-c%C3%A1diz"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Extremadura de Cádiz (C/ Regimiento de Infantería 7, Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/fiesta-de-halloween-en-la-casa-de-extremadura-en-c%C3%A1diz"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "cadiz-canta",
+      "nombre": "Cádiz Canta · Vicente Soto «Sordera»",
+      "categoria": "música",
+      "fecha": "2026-10-29",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol",
+      "direccion": "Plaza San Antonio, 14, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Primero de los tres recitales íntimos de cante flamenco del ciclo, con Vicente Soto «Sordera». Después llegarán Lucía Beltrán (5 nov) y Manuel de la Tomasa (12 nov).",
+      "info": "Entradas en la taquilla de Cajasol Cádiz (lun-vie 10-14 y 16-18:30) y online",
+      "imagen": {
+        "archivo": "img/cadiz-canta.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-10/OCT_NOV_II_CADIZ_CANTA_1080x1080.jpg.webp",
+        "fuente": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+        "alt_text": "Cartel del ciclo flamenco Cádiz Canta en la Fundación Cajasol",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-canta"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol, Plaza San Antonio, 14, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-canta"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "digitalism-estereo",
+      "nombre": "Digitalism · Estéreo Parque «Edición Especial Otoño»",
+      "categoria": "música",
+      "fecha": "2026-10-29",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Aulario La Bomba (UCA) · Edificio Constitución 1812",
+      "direccion": "Paseo de Carlos III, 3, Cádiz",
+      "precio": "10 € (8 € comunidad UCA)",
+      "publico": "Todos los públicos",
+      "descripcion": "El dúo alemán Digitalism lleva su electrónica e indie dance al ciclo Estéreo Parque, uno de los nombres clave de la electrónica europea de mediados de los 2000.",
+      "info": "Entradas en estereoparque.es",
+      "imagen": {
+        "archivo": "img/digitalism.jpg",
+        "url_origen": "https://www.uca.es/wp-content/uploads/2026/10/digitalism-estereo-parque-concierto-1024x478.jpg",
+        "fuente": "Universidad de Cádiz",
+        "alt_text": "Cartel del concierto de Digitalism en el Estéreo Parque de la Universidad de Cádiz",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Universidad de Cádiz",
+          "url": "https://www.uca.es/evento/digitalism-en-el-estereo-parque-edicion-especial-otono-campus-rock/"
+        },
+        {
+          "nombre": "Cádiz Guitar Festival (dirección del Edificio Constitución 1812)",
+          "url": "https://www.cadizguitarfestival.com"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Edificio Constitución 1812 (Aulario La Bomba), P.º de Carlos III, 3 – Cádiz",
+        "url": "https://www.cadizguitarfestival.com"
+      },
+      "etiquetas_ig": []
+    }
+  ]
+}

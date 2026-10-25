@@ -1,0 +1,90 @@
+{
+  "fecha": "2026-10-25",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "museo-collage",
+      "nombre": "Taller de collage «Paisajes recortados»",
+      "categoria": "otros",
+      "fecha": "2026-10-25",
+      "hora_inicio": "10:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "El artista Eduardo Query guía un taller de collage con motivo del Día Internacional del Paisaje. Plazas limitadas a 20 personas y con inscripción previa.",
+      "info": "Inscripción previa en la web del Museo de Cádiz",
+      "imagen": {
+        "archivo": "posts/2026-10-25/img/museo-collage-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Taller de collage «Paisajes recortados»»: composición con marco en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+      },
+      "etiquetas_ig": [],
+      "ilustracion": {
+        "motivos": [
+          "marco"
+        ],
+        "fondo": "sol"
+      }
+    },
+    {
+      "id": "cgf-espi",
+      "nombre": "Cádiz Guitar Festival · Fernando Espí",
+      "categoria": "música",
+      "fecha": "2026-10-25",
+      "hora_inicio": "13:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha, 20, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de guitarra clásica del festival internacional que recorre estos días varios espacios de la provincia. Este se celebra en el Ateneo gaditano, a mediodía.",
+      "info": "Entrada libre hasta completar aforo · cadizguitarfestival.com",
+      "imagen": {
+        "archivo": "posts/2026-10-25/img/cgf-espi-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "flamenco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Cádiz Guitar Festival · Fernando Espí»: composición con flamenco en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz Guitar Festival (web del organizador)",
+          "url": "https://www.cadizguitarfestival.com"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Ateneo de Cádiz, C. Ancha, 20 – Cádiz (programa oficial del festival)",
+        "url": "https://www.cadizguitarfestival.com"
+      },
+      "etiquetas_ig": [],
+      "ilustracion": {
+        "motivos": [
+          "flamenco"
+        ],
+        "fondo": "cal"
+      }
+    }
+  ]
+}

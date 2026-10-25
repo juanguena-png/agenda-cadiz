@@ -1,75 +1,35 @@
 {
   "variante": "A",
-  "paleta": 4,
+  "paleta": 5,
   "carrusel": [
     {
       "archivo": "01.png",
       "tipo": "portada",
-      "alt_text": "Portada de Planes en Cádiz: Planes del finde, 30 oct – 1 nov. 8 planes."
+      "alt_text": "Portada de Planes en Cádiz: Planes del finde, 30 oct – 1 nov. 3 planes."
     },
     {
       "archivo": "02.png",
       "tipo": "eventos",
       "ids": [
-        "south-2026"
+        "south-series"
       ],
-      "alt_text": "Eventos: IV South International Series Festival (todo el día, Casa de Iberoamérica (sede principal))"
+      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
     },
     {
       "archivo": "03.png",
       "tipo": "eventos",
       "ids": [
-        "cdi-ese-mar"
+        "ory-vilar"
       ],
-      "alt_text": "Eventos: Exposición «Ese mar que nos une» · último día (09:00, Casa de Iberoamérica · Sala Blas de Lezo)"
+      "alt_text": "Eventos: Elaine Vilar Madruga · Jornadas de la Fundación Ory (19:00, Fundación Carlos Edmundo de Ory)"
     },
     {
       "archivo": "04.png",
       "tipo": "eventos",
       "ids": [
-        "cdi-manton"
-      ],
-      "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
-    },
-    {
-      "archivo": "05.png",
-      "tipo": "eventos",
-      "ids": [
-        "halloween-plazuela"
-      ],
-      "alt_text": "Eventos: La Plazuela del Truco o Trato (17:00, Baluarte de la Candelaria)"
-    },
-    {
-      "archivo": "06.png",
-      "tipo": "eventos",
-      "ids": [
-        "halloween-matadero13-vie"
-      ],
-      "alt_text": "Eventos: Matadero 13 · pasaje del terror (19:30, Antigua Casa del Niño Jesús (bóvedas))"
-    },
-    {
-      "archivo": "07.png",
-      "tipo": "eventos",
-      "ids": [
         "tertulia-acropolis"
       ],
-      "alt_text": "Eventos: Tertulia filosófica: «El arte de decidir bien» (20:00, Nueva Acrópolis Cádiz)"
-    },
-    {
-      "archivo": "08.png",
-      "tipo": "eventos",
-      "ids": [
-        "halloween-desfile"
-      ],
-      "alt_text": "Eventos: El Desfile del Nuevo Orden (19:30, Salida: Baluarte de la Candelaria)"
-    },
-    {
-      "archivo": "09.png",
-      "tipo": "eventos",
-      "ids": [
-        "halloween-matadero13-sab"
-      ],
-      "alt_text": "Eventos: Matadero 13 · noche de Halloween (22:00, Antigua Casa del Niño Jesús (bóvedas))"
+      "alt_text": "Eventos: Tertulia filosófica «El arte de decidir bien» (20:00, Nueva Acrópolis Cádiz)"
     }
   ]
 }

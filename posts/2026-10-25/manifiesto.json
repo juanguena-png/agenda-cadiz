@@ -1,0 +1,40 @@
+{
+  "variante": "A",
+  "paleta": 0,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, domingo 25 de octubre. 2 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "museo-collage"
+      ],
+      "alt_text": "Eventos: Taller de collage «Paisajes recortados» (10:00, Museo de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "cgf-espi"
+      ],
+      "alt_text": "Eventos: Cádiz Guitar Festival · Fernando Espí (13:00, Ateneo de Cádiz)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "museo-collage",
+      "alt_text": "Ilustración de «Taller de collage «Paisajes recortados»»: composición con marco en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "cgf-espi",
+      "alt_text": "Ilustración de «Cádiz Guitar Festival · Fernando Espí»: composición con flamenco en azul mar, blanco y amarillo"
+    }
+  ],
+  "noche": []
+}
