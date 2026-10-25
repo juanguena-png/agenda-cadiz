@@ -6,7 +6,7 @@
   python interaccion.py --sin-respuesta ID       # el agente no la encuentra: se avisa por email (enlace + texto) y NO se responde
 
 MODO=borrador: solo lee y lista; no responde ni envía mensajes. Nunca se sigue, se da like ni se comenta en perfiles ajenos.
-Palabras clave en registros/palabras_clave.json: {"PLANES": "diario", "FINDE": "finde", "MES": "mensual", "EVENTO": "propuesta"}
+Palabras clave en registros/palabras_clave.json: {"PLANES": "diario", "FINDE": "finde"}
 """
 import argparse
 import re
@@ -23,14 +23,14 @@ DIAS_ATRAS = 7
 
 
 def claves():
-    return ag.cargar_json(CLAVES, {"PLANES": "diario", "FINDE": "finde", "MES": "mensual", "EVENTO": "propuesta"})
+    return ag.cargar_json(CLAVES, {"PLANES": "diario", "FINDE": "finde"})
 
 
 def agenda_para(tipo):
     """Resumen de la agenda correspondiente (primeras líneas del caption más reciente de ese tipo)."""
     from datetime import timedelta
     hoy = ag.hoy()
-    sub = {"diario": None, "finde": "finde", "mensual": "mensual"}[tipo]
+    sub = {"diario": None, "finde": "finde"}[tipo]
     for d in range(0, 35):
         base = ag.RAIZ / "posts" / (hoy - timedelta(days=d)).isoformat() / (sub or "")
         for nombre in ("lista.txt", "caption.txt"):  # lista.txt = lista completa de eventos (el caption del reel es corto)
@@ -78,9 +78,6 @@ def mensajes(plataforma):
     return out
 
 
-TEXTO_PROPUESTA = ("¡Gracias por avisarnos! Para publicar tu evento necesitamos: nombre, fecha y hora, lugar con dirección en Cádiz capital, precio (o gratis) y un enlace "
-                   "oficial (web del organizador o recinto). Lo comprobaremos antes de incluirlo en la agenda. Si tienes cartel, envíanoslo también.")
-
 
 def mensaje_privado(item, msg):
     """Respuesta privada a un comentario (Messenger Platform): Facebook con el ID de la página; Instagram con el ID de la página y, si no, con el de Instagram."""
@@ -106,11 +103,6 @@ def responder_publico(item, texto):
 
 
 def responder_clave(item, tipo_agenda):
-    if tipo_agenda == "propuesta":  # un organizador propone un evento: se agradece y se deja pendiente para que el agente lo verifique
-        item["propuesta_evento"] = True
-        mensaje_privado(item, TEXTO_PROPUESTA)
-        responder_publico(item, "¡Gracias! Te hemos escrito por mensaje privado 📩")
-        return False  # no se cierra: queda pendiente (el agente verifica la propuesta con las fuentes)
     texto = agenda_para(tipo_agenda)
     if not texto:
         return False
