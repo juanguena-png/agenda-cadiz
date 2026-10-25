@@ -466,7 +466,9 @@ def parser_texto(r, fuente):
 
 
 IMG_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept-Language": "es-ES,es;q=0.9"}
-PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto, "uca": parser_texto, "junta": parser_texto, "guia": parser_texto, "cgf": parser_texto, "cadizcf": parser_texto}
+import parsers_extra as _pe
+PARSERS_EXTRA = {"onda": _pe.parser_onda, "casaibero": _pe.parser_casaibero, "palacio": _pe.parser_palacio, "ganzua": _pe.parser_ganzua, "cajasol": _pe.parser_cajasol}
+PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto, "uca": parser_texto, "junta": parser_texto, "guia": parser_texto, "cgf": parser_texto, "cadizcf": parser_texto, "onda": parser_texto, "casaibero": parser_texto, "palacio": parser_texto, "ganzua": parser_texto, "cajasol": parser_texto}
 
 
 def procesar(fuente, ventana=None):
@@ -478,9 +480,9 @@ def procesar(fuente, ventana=None):
     if not fuente["urls"]:
         res.update(estado="sin_url", error=fuente.get("nota", "URL por localizar"))
         return res
-    if fuente["parser"] in ("ayto", "bacantix", "uca", "junta", "guia", "cgf", "cadizcf"):
+    if fuente["parser"] in ("ayto", "bacantix", "uca", "junta", "guia", "cgf", "cadizcf", "onda", "casaibero", "palacio", "ganzua", "cajasol"):
         try:
-            cands, errores = {"ayto": parser_ayto, "bacantix": parser_bacantix, "uca": parser_uca, "junta": parser_junta, "guia": parser_guia, "cgf": parser_cgf, "cadizcf": parser_cadizcf}[fuente["parser"]](fuente, ventana)
+            cands, errores = {"ayto": parser_ayto, "bacantix": parser_bacantix, "uca": parser_uca, "junta": parser_junta, "guia": parser_guia, "cgf": parser_cgf, "cadizcf": parser_cadizcf, **PARSERS_EXTRA}[fuente["parser"]](fuente, ventana)
             for c in cands:
                 c.update(fuente_id=fuente["id"], fuente=fuente["nombre"], provincial=fuente["provincial"], tipo_fuente=fuente["tipo"])
             res["candidatos"] = cands
