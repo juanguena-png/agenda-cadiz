@@ -10,6 +10,7 @@ RESEND = "https://api.resend.com/emails"
 
 
 def enviar(asunto, cuerpo):
+    asunto = " ".join(str(asunto).split())[:150]  # Resend no admite saltos de línea en el asunto
     """Registra siempre el aviso en registros/avisos.log y lo envía por email.
     Con 'Secretos de red' la clave la inyecta el proxy: si RESEND_API_KEY no es visible, se envía igualmente sin cabecera."""
     with open(ag.RAIZ / "registros" / "avisos.log", "a", encoding="utf-8") as fh:

@@ -70,8 +70,9 @@ def mensajes(plataforma):
         ms = (conv.get("messages") or {}).get("data", [])
         if not ms:
             continue
-        ult = ms[0]  # el más reciente; si lo escribió la propia página, ya está atendido
-        if (ult.get("from") or {}).get("id") == page:
+        ult = ms[0]  # el más reciente; si lo escribió la propia página/cuenta (nuestra respuesta), ya está atendido
+        propios = {page, ag.secreto("IG_USER_ID")}
+        if (ult.get("from") or {}).get("id") in propios:
             continue
         out.append({"id": ult["id"], "plataforma": plataforma, "tipo": "mensaje", "texto": ult.get("message", ""), "autor": (ult.get("from") or {}).get("name"),
                     "autor_id": (ult.get("from") or {}).get("id"), "enlace": conv.get("link"), "ts": ult.get("created_time")})
