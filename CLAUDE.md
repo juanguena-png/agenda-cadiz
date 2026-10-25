@@ -99,7 +99,7 @@ Si el carrusel falla, no se publican sus stories. Si falla una story, se registr
 
 ## Textos (caption.txt)
 
-- **Caption del reel «Planes del finde»: corto, 3 líneas** (1: gancho según variante A/B; 2: «Mira el reel y guarda tus planes del finde 🎬»; 3: «Comenta FINDE y te mandamos la lista completa por mensaje»), seguido de los hashtags (5-8). Sin lista de eventos: el reel ya los muestra.
+- **Caption del reel «Planes del finde»: corto, 3 líneas** (1: gancho según variante A/B; 2: «Mira el reel y guarda tus planes del finde 🎬»; 3: «Comenta FINDE y te mandamos la lista completa por mensaje»), seguido de los hashtags (5-8). Sin lista de eventos: el reel ya los muestra; la lista completa va en `posts/F/finde/lista.txt` (es lo que se manda por mensaje al comentar FINDE).
 - Resumen breve de 1-2 frases + lista de eventos con hora (todos los del carrusel) + 5-8 hashtags locales (#CádizCapital #QuéHacerEnCádiz #PlanesCádiz …; investiga y ajusta según `metricas.py --resumen`).
 - Palabras clave naturales: "planes en Cádiz", "qué hacer en Cádiz", "agenda Cádiz".
 - Llamada a la acción: guardar, compartir, etiquetar a alguien. Menciona la palabra clave **PLANES** (comenta "PLANES" y te enviamos la agenda).

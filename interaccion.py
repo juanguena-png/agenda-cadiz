@@ -31,9 +31,11 @@ def agenda_para(tipo):
     hoy = ag.hoy()
     sub = {"diario": None, "finde": "finde", "mensual": "mensual"}[tipo]
     for d in range(0, 35):
-        c = ag.RAIZ / "posts" / (hoy - timedelta(days=d)).isoformat() / (sub or "") / "caption.txt"
-        if c.exists():
-            return c.read_text(encoding="utf-8")[:900]
+        base = ag.RAIZ / "posts" / (hoy - timedelta(days=d)).isoformat() / (sub or "")
+        for nombre in ("lista.txt", "caption.txt"):  # lista.txt = lista completa de eventos (el caption del reel es corto)
+            c = base / nombre
+            if c.exists():
+                return c.read_text(encoding="utf-8")[:900]
     return None
 
 
