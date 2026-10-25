@@ -5,7 +5,7 @@
     {
       "archivo": "01.png",
       "tipo": "portada",
-      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, domingo 25 de octubre. 2 planes."
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, domingo 25 de octubre. 3 planes."
     },
     {
       "archivo": "02.png",
@@ -22,6 +22,14 @@
         "cgf-espi"
       ],
       "alt_text": "Eventos: Cádiz Guitar Festival · Fernando Espí (13:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "cadiz-ceuta"
+      ],
+      "alt_text": "Eventos: Cádiz CF – AD Ceuta FC · LaLiga Hypermotion (16:15, Estadio Nuevo Mirandilla)"
     }
   ],
   "stories": [
@@ -34,6 +42,11 @@
       "archivo": "02.png",
       "id": "cgf-espi",
       "alt_text": "Ilustración de «Cádiz Guitar Festival · Fernando Espí»: composición con flamenco en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "03.png",
+      "id": "cadiz-ceuta",
+      "alt_text": "Ilustración de «Cádiz CF – AD Ceuta FC · LaLiga Hypermotion»: composición con balón en azul mar, blanco y amarillo"
     }
   ],
   "noche": []

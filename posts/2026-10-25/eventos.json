@@ -85,6 +85,56 @@
         ],
         "fondo": "cal"
       }
+    },
+    {
+      "id": "cadiz-ceuta",
+      "nombre": "Cádiz CF – AD Ceuta FC · LaLiga Hypermotion",
+      "categoria": "deporte",
+      "fecha": "2026-10-25",
+      "hora_inicio": "16:15",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Estadio Nuevo Mirandilla",
+      "direccion": "Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Jornada 11 de LaLiga Hypermotion en casa: el Cádiz recibe al Ceuta en un duelo directo de la zona baja, con Borja Jiménez en su estreno en el banquillo.",
+      "info": "Entradas en entradas.cadizcf.com · TV: LaLiga TV Hypermotion y DAZN",
+      "ilustracion": {
+        "motivos": [
+          "balón"
+        ],
+        "fondo": "mar"
+      },
+      "imagen": {
+        "archivo": "posts/2026-10-25/img/cadiz-ceuta-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "balón"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Cádiz CF – AD Ceuta FC · LaLiga Hypermotion»: composición con balón en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz CF (web oficial)",
+          "url": "https://www.cadizcf.com/"
+        },
+        {
+          "nombre": "Ceuta TV (hora y estadio)",
+          "url": "https://www.ceutatv.com/articulo/ad-ceuta-fc/ad-ceuta-fc-anuncia-convocatoria-oficial-cara-importante-duelo-cadiz-cf/20261024134832258839.html"
+        },
+        {
+          "nombre": "El Periódico de Ceuta",
+          "url": "https://www.elperiodicodeceuta.es/cadiz-cf-ad-ceuta-fc-horario-fecha-y-donde-ver-en-directo-el-partido-de-laliga-hypermotion/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Cádiz CF – AD Ceuta FC, jornada 11, en el Nuevo Mirandilla, Cádiz (partido en casa; estadio del club en Cádiz)",
+        "url": "https://www.ceutatv.com/articulo/ad-ceuta-fc/ad-ceuta-fc-anuncia-convocatoria-oficial-cara-importante-duelo-cadiz-cf/20261024134832258839.html"
+      },
+      "etiquetas_ig": []
     }
   ]
 }
