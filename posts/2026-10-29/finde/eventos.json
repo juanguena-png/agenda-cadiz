@@ -118,6 +118,164 @@
         ],
         "fondo": "noche"
       }
+    },
+    {
+      "categoria": "fiesta",
+      "hora_fin": "22:00",
+      "todo_el_dia": false,
+      "etiquetas_ig": [],
+      "fuentes": [
+        {
+          "nombre": "Onda Cádiz (radio municipal)",
+          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
+        },
+        {
+          "nombre": "Cádiz Directo",
+          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+        },
+        {
+          "nombre": "Andalucía Información",
+          "url": "https://www.andaluciainformacion.es/articulo/cadiz-local/programacion-pasarlo-miedo-halloween/202610221531313514926.html"
+        }
+      ],
+      "id": "halloween-plazuela",
+      "nombre": "Halloween · La Plazuela del Truco o Trato",
+      "fecha": "2026-10-30",
+      "fecha_txt": "Vie 30 y sáb 31 oct",
+      "hora_inicio": "17:00",
+      "lugar": "Baluarte de la Candelaria",
+      "direccion": "Cádiz",
+      "precio": "Gratis (con invitación)",
+      "publico": "Infantil y familiar",
+      "descripcion": "El Baluarte se convierte en un pueblo de Halloween para familias: zona de sustos, casitas temáticas con actividades interactivas y talleres.",
+      "info": "Invitaciones el día anterior en la Casa de la Juventud (C/ Cánovas del Castillo, 41), hasta 4 por persona",
+      "ilustracion": {
+        "motivos": [
+          "calabaza",
+          "castillo"
+        ],
+        "fondo": "noche"
+      },
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/halloween-plazuela-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "calabaza",
+          "castillo"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Halloween · La Plazuela del Truco o Trato»: composición con calabaza, castillo en azul mar, blanco y amarillo"
+      },
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "La Plazuela del Truco o Trato, Baluarte de la Candelaria (Ayuntamiento de Cádiz), 29-31 octubre, 17:00-22:00",
+        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+      }
+    },
+    {
+      "categoria": "fiesta",
+      "hora_fin": "00:30",
+      "todo_el_dia": false,
+      "etiquetas_ig": [],
+      "fuentes": [
+        {
+          "nombre": "Onda Cádiz (radio municipal)",
+          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
+        },
+        {
+          "nombre": "Cádiz Directo",
+          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+        },
+        {
+          "nombre": "Andalucía Información",
+          "url": "https://www.andaluciainformacion.es/articulo/cadiz-local/programacion-pasarlo-miedo-halloween/202610221531313514926.html"
+        }
+      ],
+      "id": "halloween-matadero13",
+      "nombre": "Halloween · Matadero 13, pasaje del terror",
+      "fecha": "2026-10-30",
+      "fecha_txt": "Vie 30 y sáb 31 oct",
+      "hora_inicio": "19:30",
+      "lugar": "Antigua Casa del Niño Jesús (Matadero 13)",
+      "direccion": "Cádiz",
+      "precio": "Gratis (con invitación)",
+      "publico": "Juvenil y adulto (no recomendado a menores de 12)",
+      "descripcion": "Pasaje del terror inmersivo en las bóvedas de la antigua Casa del Niño Jesús. Viernes de 19:30 a 00:30 y sábado de 22:00 a 01:30; el viernes hay pase inclusivo de 18:30 a 19:30.",
+      "info": "Invitaciones el día anterior en la Casa de la Juventud (C/ Cánovas del Castillo, 41)",
+      "ilustracion": {
+        "motivos": [
+          "antifaz",
+          "calabaza"
+        ],
+        "fondo": "noche"
+      },
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/halloween-matadero13-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "antifaz",
+          "calabaza"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Halloween · Matadero 13, pasaje del terror»: composición con antifaz, calabaza en azul mar, blanco y amarillo"
+      },
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Matadero 13, bóvedas de la antigua Casa del Niño Jesús (Cádiz), programa municipal de Halloween 2026",
+        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+      }
+    },
+    {
+      "categoria": "fiesta",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "etiquetas_ig": [],
+      "fuentes": [
+        {
+          "nombre": "Onda Cádiz (radio municipal)",
+          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
+        },
+        {
+          "nombre": "Cádiz Directo",
+          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+        },
+        {
+          "nombre": "Andalucía Información",
+          "url": "https://www.andaluciainformacion.es/articulo/cadiz-local/programacion-pasarlo-miedo-halloween/202610221531313514926.html"
+        }
+      ],
+      "id": "halloween-desfile",
+      "nombre": "Halloween · Desfile «El triunfo del nuevo orden»",
+      "fecha": "2026-10-31",
+      "hora_inicio": "19:30",
+      "lugar": "Calles del centro de Cádiz",
+      "direccion": "Cádiz (termina en la antigua Casa del Niño Jesús sobre las 21:30)",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Desfile itinerante de música, teatro, danza y artes circenses por el centro de la ciudad la noche de Halloween, con final en la antigua Casa del Niño Jesús.",
+      "info": "Acceso libre",
+      "ilustracion": {
+        "motivos": [
+          "máscaras",
+          "confeti"
+        ],
+        "fondo": "noche"
+      },
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/halloween-desfile-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "máscaras",
+          "confeti"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Halloween · Desfile «El triunfo del nuevo orden»»: composición con máscaras, confeti en azul mar, blanco y amarillo"
+      },
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Desfile del nuevo orden por las calles de Cádiz, acaba en la antigua Casa del Niño Jesús (programa municipal de Halloween 2026)",
+        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+      }
     }
   ]
 }

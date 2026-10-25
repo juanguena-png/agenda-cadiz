@@ -892,6 +892,33 @@
       "via": "web",
       "consulta": "Taquilla Cádiz Momart programación {mes} {año} (taquilla.com/cadiz/momart-cadiz-11003)",
       "nota": "Venta de entradas: dirección «orientativa»; confirmar con la sala o el promotor"
+    },
+    {
+      "id": 80,
+      "nombre": "Ayuntamiento de Cádiz – Notas de prensa y programaciones especiales (Halloween, Tosantos, Carnaval, fiestas)",
+      "tipo": "oficial",
+      "urls": [
+        "https://transparencia.cadiz.es/",
+        "https://ondacadiz.es/noticias/"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Ayuntamiento de Cádiz programación {mes} {año} fiestas Halloween Tosantos Navidad Carnaval actividades Casa de la Juventud Baluarte de la Candelaria",
+      "nota": "Las programaciones especiales del Ayuntamiento (p. ej. Halloween 2026: Plazuela del Truco o Trato, Matadero 13, desfile) se anuncian en notas de prensa y NO siempre salen en la agenda por fechas. Consultar cada día. Si dos medios discrepan en un dato (p. ej. punto de salida del desfile), se omite ese dato."
+    },
+    {
+      "id": 81,
+      "nombre": "Casa de la Juventud de Cádiz (Ayuntamiento) – actividades",
+      "tipo": "oficial",
+      "urls": [
+        "https://juventud.cadiz.es/"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Casa de la Juventud Cádiz actividades {fecha} {mes} {año} Cánovas del Castillo 41",
+      "nota": "Reparte invitaciones de actividades municipales (C/ Cánovas del Castillo, 41)."
     }
   ]
 }
