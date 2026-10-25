@@ -19,7 +19,7 @@ from publicar import ErrorAPI, api
 SALIDA = ag.RAIZ / "registros" / "metricas.jsonl"
 IG_CUENTA = ["reach", "views", "accounts_engaged", "total_interactions", "likes", "comments", "saves", "shares", "follows_and_unfollows", "profile_views"]
 IG_MEDIA = ["reach", "saved", "shares", "likes", "comments", "total_interactions", "views"]
-FB_PAGINA = ["page_impressions_unique", "page_media_view", "page_post_engagements", "page_follows", "page_daily_follows_unique"]
+FB_PAGINA = ["page_media_view", "page_post_engagements", "page_follows", "page_daily_follows_unique"]
 
 
 def pedir(ruta, **p):

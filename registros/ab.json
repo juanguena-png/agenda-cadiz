@@ -1,0 +1,10 @@
+{
+  "muestras": {
+    "A": 1,
+    "B": 0
+  },
+  "alcance_medio": {
+    "A": 7.0,
+    "B": null
+  }
+}
