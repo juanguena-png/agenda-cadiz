@@ -168,9 +168,9 @@
       ],
       "parser": "texto",
       "provincial": false,
-      "nota": "La web bloquea al script (403): consultar con WebFetch. Solo partidos como local en Cádiz capital; confirmar día y hora",
+      "nota": "OBLIGATORIO TODOS LOS DÍAS: ¿juega el Cádiz CF en casa hoy, mañana o el finde? La web bloquea al script (403) y a veces no da la hora: consultar con WebFetch/WebSearch y, si falta la hora, contrastarla en 2 medios (prensa local o del rival). El estadio es el Nuevo Mirandilla (la web lo llama JP Financial Estadio). Solo partidos como local en Cádiz capital; fuera de casa no se publican",
       "via": "web",
-      "consulta": "Cádiz CF próximo partido en casa fecha y hora {mes} {año} Estadio Nuevo Mirandilla"
+      "consulta": "Cádiz CF partido hoy {fecha} Nuevo Mirandilla JP Financial Estadio hora rival jornada"
     },
     {
       "id": 17,

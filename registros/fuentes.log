@@ -790,3 +790,82 @@
 2026-10-25T10:45:57+01:00	77	ok	19	Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)	
 2026-10-25T10:45:57+01:00	78	ok	0	Cádiz Guitar Festival (web del organizador)	
 2026-10-25T10:45:57+01:00	79	web	0	Taquilla.com – salas de Cádiz (Momart…)	Venta de entradas: dirección «orientativa»; confirmar con la sala o el promotor
+2026-10-25T11:01:14+01:00	1	ok	26	Ayuntamiento de Cádiz – Programación cultural (agenda oficial)	
+2026-10-25T11:01:14+01:00	2	ok	0	Turismo de Cádiz – Agenda (Ayuntamiento)	
+2026-10-25T11:01:14+01:00	3	ok	0	Onda Cádiz – Agenda	
+2026-10-25T11:01:14+01:00	4	ok	0	Diputación de Cádiz – Agenda cultural	
+2026-10-25T11:01:14+01:00	5	ok	1	Universidad de Cádiz – actividades culturales	
+2026-10-25T11:01:14+01:00	6	ok	0	Deportes del Ayuntamiento de Cádiz	
+2026-10-25T11:01:14+01:00	7	web	0	Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz	Municipales: red del Ayuntamiento. Provincial: Junta de Andalucía publica un PDF mensual
+2026-10-25T11:01:14+01:00	8	ok	23	Gran Teatro Falla	
+2026-10-25T11:01:14+01:00	9	ok	0	Teatro del Títere La Tía Norica	
+2026-10-25T11:01:14+01:00	10	ok	25	Sala Central Lechera	
+2026-10-25T11:01:14+01:00	11	ok	0	Baluarte de la Candelaria	
+2026-10-25T11:01:14+01:00	12	ok	0	Castillo de Santa Catalina	
+2026-10-25T11:01:14+01:00	13	web	0	Museo de Cádiz	museosdeandalucia.es no resuelve desde el contenedor: consultar con WebFetch/WebSearch (Plaza de Mina, Cádiz)
+2026-10-25T11:01:14+01:00	14	ok	0	Casa de Iberoamérica	
+2026-10-25T11:01:14+01:00	15	ok	0	Palacio de Congresos de Cádiz	
+2026-10-25T11:01:14+01:00	16	web	0	Cádiz CF – partidos en casa	OBLIGATORIO TODOS LOS DÍAS: ¿juega el Cádiz CF en casa hoy, mañana o el finde? La web bloquea al script (403) y a veces no da la hora: consultar con WebFetch/WebSearch y, si falta la hora, contrastarla en 2 medios (prensa local o del rival). El estadio es el Nuevo Mirandilla (la web lo llama JP Financial Estadio). Solo partidos como local en Cádiz capital; fuera de casa no se publican
+2026-10-25T11:01:14+01:00	17	web	0	VivaCádiz	403 al script
+2026-10-25T11:01:14+01:00	18	web	0	Hoy Cádiz	Dominio no localizado; buscar con WebSearch
+2026-10-25T11:01:14+01:00	19	ok	18	Guía de Cádiz – Agenda	
+2026-10-25T11:01:14+01:00	20	ok	1	Eventbrite – Cádiz	
+2026-10-25T11:01:14+01:00	21	inactiva	0	En buena edad – agenda del Ayuntamiento	enbuenaedad.es devuelve página de inhabilitación temporal de la Junta; reactivar si vuelve
+2026-10-25T11:01:14+01:00	22	ok	0	Diario de Cádiz – agenda	
+2026-10-25T11:01:14+01:00	23	ok	0	La Voz de Cádiz	
+2026-10-25T11:01:14+01:00	24	ok	0	Cádiz Directo	
+2026-10-25T11:01:14+01:00	25	ok	0	Entradium (Cádiz)	
+2026-10-25T11:01:14+01:00	26	ok	0	Teatro Pemán (Teatros de Cádiz)	
+2026-10-25T11:01:14+01:00	27	ok	0	Noches Clásicas de la Ciudad de Cádiz	
+2026-10-25T11:01:14+01:00	28	ok	0	Festival Patrimonio Flamenco	
+2026-10-25T11:01:14+01:00	29	ok	0	Festival Internacional del Títere de Cádiz	
+2026-10-25T11:01:14+01:00	30	ok	0	Cádiz en Danza	
+2026-10-25T11:01:14+01:00	31	inactiva	0	Universidad de Cádiz – eventos	sustituida por la fuente 5 (parser uca)
+2026-10-25T11:01:14+01:00	32	ok	0	Universidad de Cádiz – Extensión universitaria	
+2026-10-25T11:01:14+01:00	33	ok	0	Fundación Unicaja – agenda cultural	
+2026-10-25T11:01:14+01:00	34	ok	0	Venta de entradas del Ayuntamiento (Bacantix · Teatros de Cádiz)	
+2026-10-25T11:01:14+01:00	35	ok	0	Onda Cádiz – Agenda de eventos	
+2026-10-25T11:01:14+01:00	36	ok	0	Agenda Cádiz (agendacadiz.com)	
+2026-10-25T11:01:14+01:00	37	ok	0	Cádiz Cultura	
+2026-10-25T11:01:14+01:00	38	ok	0	La Ganzúa – conciertos en Cádiz	
+2026-10-25T11:01:14+01:00	39	ok	0	Tickentradas	
+2026-10-25T11:01:14+01:00	40	ok	0	Fundación Cajasol	
+2026-10-25T11:01:14+01:00	41	ok	0	Diario Bahía de Cádiz – Cádiz	
+2026-10-25T11:01:14+01:00	42	web	0	Planomato – planes en Cádiz	403 al script: WebFetch
+2026-10-25T11:01:14+01:00	43	web	0	El Corte Inglés Entradas – Cádiz	403 al script: WebFetch
+2026-10-25T11:01:14+01:00	44	web	0	Ticketmaster / Giglon – Cádiz	403 al script: WebSearch
+2026-10-25T11:01:14+01:00	45	web	0	Teatro Romano de Cádiz, Torre Tavira y Catedral	Sin web consultable por script
+2026-10-25T11:01:14+01:00	46	web	0	Salas y locales de conciertos de Cádiz	Búsqueda abierta diaria por categorías
+2026-10-25T11:01:14+01:00	47	fallo	0	Andalucía.org – agenda de Cádiz (Junta de Andalucía)	404 Client Error: Not Found for url: https://www.andalucia.org/cadiz-agenda/
+2026-10-25T11:01:14+01:00	48	ok	1	Meetup – grupos de Cádiz	
+2026-10-25T11:01:14+01:00	49	web	0	Descubrimiento diario · Música en directo	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	50	web	0	Descubrimiento diario · Flamenco	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	51	web	0	Descubrimiento diario · Teatro y cartelera	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	52	web	0	Descubrimiento diario · Humor y monólogos	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	53	web	0	Descubrimiento diario · Exposiciones	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	54	web	0	Descubrimiento diario · Cine	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	55	web	0	Descubrimiento diario · Infantil y familia	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	56	web	0	Descubrimiento diario · Talleres y cursos	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	57	web	0	Descubrimiento diario · Charlas y presentaciones	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	58	web	0	Descubrimiento diario · Deporte popular	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	59	web	0	Descubrimiento diario · Gastronomía	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	60	web	0	Descubrimiento diario · Fiestas y tradiciones	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	61	web	0	Descubrimiento diario · Mercadillos y artesanía	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	62	web	0	Descubrimiento diario · Visitas guiadas y rutas	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	63	web	0	Descubrimiento diario · Religión y cofradías	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	64	web	0	Descubrimiento diario · Ocio nocturno	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	65	web	0	Descubrimiento diario · Planes gratis	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	66	web	0	Descubrimiento diario · Solidarios y voluntariado	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	67	web	0	Descubrimiento diario · Agenda de prensa local	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	68	web	0	Descubrimiento diario · Academias, ateneos y colegios	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	69	web	0	Descubrimiento diario · Oratorio San Felipe Neri y Museo de las Cortes	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	70	web	0	Descubrimiento diario · Fundaciones (Unicaja, Cajasol)	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	71	web	0	Descubrimiento diario · Diputación (Palacio Provincial, Sala Rivadavia)	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	72	web	0	Descubrimiento diario · Salas de conciertos	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	73	web	0	Descubrimiento diario · Universidad (agenda cultural PDF)	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	74	web	0	Descubrimiento diario · Festivales	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	75	web	0	Descubrimiento diario · Deportes de equipo	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	76	web	0	Descubrimiento diario · Turismo y cruceros	Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.
+2026-10-25T11:01:14+01:00	77	ok	7	Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)	
+2026-10-25T11:01:14+01:00	78	ok	0	Cádiz Guitar Festival (web del organizador)	
+2026-10-25T11:01:14+01:00	79	web	0	Taquilla.com – salas de Cádiz (Momart…)	Venta de entradas: dirección «orientativa»; confirmar con la sala o el promotor
