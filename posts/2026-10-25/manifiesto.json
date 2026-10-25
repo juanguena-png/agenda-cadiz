@@ -36,5 +36,14 @@
       "alt_text": "Ilustración de «Cádiz CF – AD Ceuta FC · LaLiga Hypermotion»: composición con balón en azul mar, blanco y amarillo"
     }
   ],
-  "noche": []
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "cdi-ese-mar",
+        "cdi-manton"
+      ],
+      "alt_text": "Mañana en Cádiz: Exposición «Ese mar que nos une»; Exposición «¿Dónde vas con mantón de Manila?»"
+    }
+  ]
 }
