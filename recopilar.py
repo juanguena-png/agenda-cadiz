@@ -284,6 +284,7 @@ def main():
     ap.add_argument("--fecha", default=ag.hoy().isoformat())
     ap.add_argument("--hasta")
     ap.add_argument("--verificar", action="store_true")
+    ap.add_argument("--destino", help="carpeta de salida AAAA-MM-DD[/finde|/mensual] (p. ej. 2026-10-29/finde para el reel del jueves)")
     a = ap.parse_args()
     fuentes = ag.cargar_json(ag.RAIZ / "fuentes.json")["fuentes"]
     ini = date.fromisoformat(a.fecha)
@@ -297,7 +298,7 @@ def main():
             c["detalle_texto"] = t
     # Imágenes oficiales de cada candidato (misma web oficial de la ficha); se guardan en posts/F/img/
     import imagenes
-    carpeta_img = ag.dir_dia(ini)
+    carpeta_img = ag.dir_dia(*(a.destino.split("/") if a.destino else [ini]))
     hechas = {}
     def img(c):
         if c["url"] in hechas or not c.get("url") or c.get("tipo_fuente") not in ("oficial", "recinto"):
@@ -314,7 +315,7 @@ def main():
         for f in fuentes_log:
             print(f"{f['id']:>2} {f['estado']:<8} {f['candidatos']:>3}  {f['nombre']}  {f.get('error') or ''}")
         return
-    carpeta = ag.dir_dia(ini)
+    carpeta = ag.dir_dia(*(a.destino.split("/") if a.destino else [ini]))
     consultas = [r["consulta_web"] for r in resultados if r.get("consulta_web")]
     for c in consultas:  # búsquedas listas para el agente, con el mes/año de la ventana
         c["busqueda"] = c["busqueda"].replace("{mes}", ag.MESES[ini.month - 1]).replace("{año}", str(ini.year)).replace("{fecha}", f"{ini.day} de {ag.MESES[ini.month - 1]} de {ini.year}")

@@ -21,3 +21,4 @@ body[data-tema="d1"]{--c-lienzo:#FAF8F2;--c-lienzo-2:#EEF5F7;--c-texto:#0A2E4D;-
 [data-tema="d1"] .portada[data-paleta="5"]{--c-texto:#FFFFFF;--c-suave:#FFFFFF;--c-dato-portada:#FFC62B;--c-acento:#FFC62B;--c-sol:#FAF8F2;--c-ola:rgba(255,198,43,.85);--c-marca:#FFC62B;background:linear-gradient(170deg,#0A5A94 0%,#083F6B 100%)}
 [data-tema="d1"] .portada[data-paleta="6"]{--c-texto:#0A2E4D;--c-suave:#0A2E4D;--c-dato-portada:#0A2E4D;--c-acento:#0A2E4D;--c-sol:#0E6BA8;--c-ola:rgba(10,46,77,.45);--c-marca:#0A2E4D;background:linear-gradient(170deg,#FFC62B 0%,#F5B400 100%)}
 [data-tema="d1"] .portada .total b{color:var(--c-dato-portada)}
+[data-tema="d1"] .lienzo.story.portada .deco{background:none}

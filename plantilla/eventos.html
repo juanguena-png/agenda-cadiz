@@ -26,7 +26,7 @@ async function render(d){
   const n=d.eventos.length, cls=n<=6?`n${n}`:"nm";
   document.getElementById("l").innerHTML=`<div class="deco"></div><div class="cab">${logo(d,"mini",38)}<div class="pag">${esc(d.cabecera||"")}</div></div>
   <div class="lista ${cls}">${d.eventos.map(ev=>{
-    const fechaTxt=d.mostrar_fecha?fechaCorta(ev.fecha)+" · ":"";
+    const fechaTxt=d.mostrar_fecha?(ev.fecha_txt||fechaCorta(ev.fecha))+" · ":"";
     const compacto=n>=5;
     const linea=`<b class="hora">${esc(fechaTxt+horaTxt(ev))}</b> · ${esc(ev.lugar)}${n<=6?" · "+esc(precioTxt(ev)):""}`;
     return `<div class="ev"><div class="foto" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>

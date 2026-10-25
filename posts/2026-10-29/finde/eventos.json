@@ -1,0 +1,373 @@
+{
+  "fecha": "2026-10-29",
+  "tipo": "finde",
+  "eventos": [
+    {
+      "id": "south-2026",
+      "nombre": "IV South International Series Festival",
+      "categoria": "fiesta",
+      "fecha": "2026-10-30",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": true,
+      "lugar": "Casa de Iberoamérica (sede principal)",
+      "direccion": "Calle Concepción Arenal, s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": null,
+      "descripcion": "Festival de series con más de 30 títulos y 18 estrenos, y el «Revival» de El Ministerio del Tiempo el sábado por la mañana.",
+      "info": "Entradas y programa: casadeiberoamerica.es",
+      "imagen": {
+        "archivo": "img/evento-iv-south-international-series-festival-2026.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-03/SouthCadiz.jpeg",
+        "fuente": "Ayuntamiento de Cádiz (institucional.cadiz.es)",
+        "alt_text": "Cartel oficial del IV South International Series Festival 2026",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica – Novedades y programación del South Festival",
+          "url": "https://www.casadeiberoamerica.es/noticia/5365/novedades-y-programacion-del-south-festival"
+        },
+        {
+          "nombre": "Ayuntamiento de Cádiz – Agenda",
+          "url": "https://institucional.cadiz.es/evento/iv-south-international-series-festival-2026"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica (Antigua Cárcel Real), Calle Concepción Arenal, s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/contacto"
+      },
+      "etiquetas_ig": [],
+      "fecha_txt": "30 oct–4 nov",
+      "etiqueta": "Festival"
+    },
+    {
+      "id": "cdi-ese-mar",
+      "nombre": "Exposición «Ese mar que nos une» · último día",
+      "categoria": "exposición",
+      "fecha": "2026-10-30",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Sala Blas de Lezo",
+      "direccion": "Calle Concepción Arenal, s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": null,
+      "descripcion": "Muestra sobre el mar como lazo de unión, organizada por Cádiz 2012, la Zona Franca y la Real Academia de Bellas Artes. Hoy es su último día.",
+      "info": "Horario: L–V 9:00–21:00 · casadeiberoamerica.es",
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/cdi-ese-mar-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "barco",
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «Ese mar que nos une» · último día»: composición con barco, marco en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica – Agenda",
+          "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica (Antigua Cárcel Real), Calle Concepción Arenal, s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/contacto"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "cdi-manton",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-10-30",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Sala Zitman",
+      "direccion": "Calle Concepción Arenal, s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": null,
+      "descripcion": "Ruta del galeón contada con 27 mantones de colección, una maqueta de galeón y obras del Museo Cruz Herrera. El sábado abre de 9:00 a 14:00; el domingo, cerrado.",
+      "info": "Hasta el 9 de enero · casadeiberoamerica.es",
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/cdi-manton-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "mantón",
+          "marco",
+          "barco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica – Agenda",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica (Antigua Cárcel Real), Calle Concepción Arenal, s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/contacto"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "halloween-plazuela",
+      "nombre": "La Plazuela del Truco o Trato",
+      "categoria": "infantil",
+      "fecha": "2026-10-30",
+      "hora_inicio": "17:00",
+      "hora_fin": "22:00",
+      "todo_el_dia": false,
+      "lugar": "Baluarte de la Candelaria",
+      "direccion": "La Alameda Apodaca, Cádiz",
+      "precio": "Gratis con invitación",
+      "publico": "Infantil y familias",
+      "descripcion": "Un pueblo de Halloween con diez casas temáticas, brujas, fantasmas y la Scream Zone: los niños ayudan a recuperar los caramelos escondidos. También el sábado 31.",
+      "info": "Invitaciones el día antes en la Casa de la Juventud (C/ Cánovas del Castillo, 41)",
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/halloween-plazuela-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "calabaza",
+          "castillo",
+          "globos"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «La Plazuela del Truco o Trato»: composición con calabaza, castillo, globos en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Onda Cádiz (medio municipal) – programación de Halloween 2026",
+          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
+        },
+        {
+          "nombre": "Cádiz Directo – horarios y lugares",
+          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+        },
+        {
+          "nombre": "La Nación (Cádiz) – horarios, lugares e invitaciones",
+          "url": "https://www.lanocion.es/cadiz/20261022/cadiz-repartira-invitaciones-para-tres-noches-de-h-f3ff1.html"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«El Baluarte de La Candelaria se encuentra en La Alameda Apodaca… ciudad de Cádiz»; programa municipal de Halloween del Ayuntamiento de Cádiz",
+        "url": "http://laciudad.cadiz.es/programacion-baluarte-de-la-candelaria.asp"
+      },
+      "etiquetas_ig": [],
+      "fecha_txt": "30 y 31 oct",
+      "ilustracion": {
+        "motivos": [
+          "calabaza",
+          "castillo",
+          "globos"
+        ],
+        "fondo": "noche"
+      }
+    },
+    {
+      "id": "halloween-matadero13-vie",
+      "nombre": "Matadero 13 · pasaje del terror",
+      "categoria": "fiesta",
+      "fecha": "2026-10-30",
+      "hora_inicio": "19:30",
+      "hora_fin": "00:30",
+      "todo_el_dia": false,
+      "lugar": "Antigua Casa del Niño Jesús (bóvedas)",
+      "direccion": "Antigua Casa del Niño Jesús, Cádiz",
+      "precio": "Gratis con invitación",
+      "publico": "Juvenil y adulto (no recomendado a menores de 12)",
+      "descripcion": "Pasaje inmersivo ambientado en una granja experimental dominada por animales. Pases inclusivos de 18:30 a 19:30 para personas con necesidades especiales.",
+      "info": "Invitaciones el día antes en la Casa de la Juventud (C/ Cánovas del Castillo, 41)",
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/halloween-matadero13-vie-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "calabaza",
+          "máscaras"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Matadero 13 · pasaje del terror»: composición con calabaza, máscaras en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Onda Cádiz (medio municipal) – programación de Halloween 2026",
+          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
+        },
+        {
+          "nombre": "Cádiz Directo – horarios y lugares",
+          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+        },
+        {
+          "nombre": "La Nación (Cádiz) – horarios, lugares e invitaciones",
+          "url": "https://www.lanocion.es/cadiz/20261022/cadiz-repartira-invitaciones-para-tres-noches-de-h-f3ff1.html"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Programa del Ayuntamiento de Cádiz (Juventud e Infancia): «bóvedas de la antigua Casa del Niño Jesús» y calles del centro histórico de Cádiz; invitaciones en Casa de la Juventud, calle Cánovas del Castillo 41",
+        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+      },
+      "etiquetas_ig": [],
+      "ilustracion": {
+        "motivos": [
+          "calabaza",
+          "máscaras"
+        ],
+        "fondo": "noche"
+      }
+    },
+    {
+      "id": "tertulia-acropolis",
+      "nombre": "Tertulia filosófica: «El arte de decidir bien»",
+      "categoria": "otros",
+      "fecha": "2026-10-30",
+      "hora_inicio": "20:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": null,
+      "descripcion": "Charla de una hora sobre las claves filosóficas para elegir con inteligencia y libertad. Presencial.",
+      "info": "Más info y entradas: Eventbrite · Nueva Acrópolis Cádiz",
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/tertulia-acropolis-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "micrófono",
+          "estrella"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Tertulia filosófica: «El arte de decidir bien»»: composición con micrófono, estrella en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Eventbrite · organiza Nueva Acrópolis Cádiz",
+          "url": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Eventbrite: «Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004 Cádiz»",
+        "url": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "halloween-desfile",
+      "nombre": "El Desfile del Nuevo Orden",
+      "categoria": "fiesta",
+      "fecha": "2026-10-31",
+      "hora_inicio": "19:30",
+      "hora_fin": "21:30",
+      "todo_el_dia": false,
+      "lugar": "Salida: Baluarte de la Candelaria",
+      "direccion": "Del Baluarte de la Candelaria a la antigua Casa del Niño Jesús (centro histórico, Cádiz)",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Desfile itinerante con música, danza, teatro y circo: los personajes de Matadero 13 recorren el centro histórico en la noche de Halloween.",
+      "info": "Recorrido: Carlos III, Mentidero, San Antonio, Ancha, Columela, San Juan de Dios…",
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/halloween-desfile-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "antifaz",
+          "calabaza",
+          "confeti"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «El Desfile del Nuevo Orden»: composición con antifaz, calabaza, confeti en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Onda Cádiz (medio municipal) – programación de Halloween 2026",
+          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
+        },
+        {
+          "nombre": "Cádiz Directo – horarios y lugares",
+          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+        },
+        {
+          "nombre": "La Nación (Cádiz) – horarios, lugares e invitaciones",
+          "url": "https://www.lanocion.es/cadiz/20261022/cadiz-repartira-invitaciones-para-tres-noches-de-h-f3ff1.html"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Recorrido por calles del centro histórico de Cádiz (paseo Carlos III, Mentidero, San Antonio, Ancha, Columela…) desde el Baluarte de la Candelaria",
+        "url": "https://www.lanocion.es/cadiz/20261022/cadiz-repartira-invitaciones-para-tres-noches-de-h-f3ff1.html"
+      },
+      "etiquetas_ig": [],
+      "ilustracion": {
+        "motivos": [
+          "antifaz",
+          "calabaza",
+          "confeti"
+        ],
+        "fondo": "noche"
+      }
+    },
+    {
+      "id": "halloween-matadero13-sab",
+      "nombre": "Matadero 13 · noche de Halloween",
+      "categoria": "fiesta",
+      "fecha": "2026-10-31",
+      "hora_inicio": "22:00",
+      "hora_fin": "01:30",
+      "todo_el_dia": false,
+      "lugar": "Antigua Casa del Niño Jesús (bóvedas)",
+      "direccion": "Antigua Casa del Niño Jesús, Cádiz",
+      "precio": "Gratis con invitación",
+      "publico": "Juvenil y adulto (no recomendado a menores de 12)",
+      "descripcion": "El pasaje del terror abre después del desfile, de 22:00 a 01:30, para cerrar la noche de Halloween.",
+      "info": "Invitaciones el día antes en la Casa de la Juventud (C/ Cánovas del Castillo, 41)",
+      "imagen": {
+        "archivo": "posts/2026-10-29/finde/img/halloween-matadero13-sab-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "noche",
+          "calabaza",
+          "máscaras"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Matadero 13 · noche de Halloween»: composición con noche, calabaza, máscaras en azul mar, blanco y amarillo"
+      },
+      "fuentes": [
+        {
+          "nombre": "Onda Cádiz (medio municipal) – programación de Halloween 2026",
+          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
+        },
+        {
+          "nombre": "Cádiz Directo – horarios y lugares",
+          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+        },
+        {
+          "nombre": "La Nación (Cádiz) – horarios, lugares e invitaciones",
+          "url": "https://www.lanocion.es/cadiz/20261022/cadiz-repartira-invitaciones-para-tres-noches-de-h-f3ff1.html"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Programa del Ayuntamiento de Cádiz (Juventud e Infancia): «bóvedas de la antigua Casa del Niño Jesús» y calles del centro histórico de Cádiz; invitaciones en Casa de la Juventud, calle Cánovas del Castillo 41",
+        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+      },
+      "etiquetas_ig": [],
+      "ilustracion": {
+        "motivos": [
+          "noche",
+          "calabaza",
+          "máscaras"
+        ],
+        "fondo": "noche"
+      }
+    }
+  ]
+}

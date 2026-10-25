@@ -6,6 +6,7 @@ Uso:
   python render.py --demo 5 14 22 33 50      # datos de ejemplo -> ejemplos/demo-N/
 """
 import argparse
+from datetime import timedelta
 import glob
 import shutil
 import sys
@@ -102,9 +103,11 @@ def paleta(fecha):
 def titulos(tipo, fecha, eventos):
     f = ag.a_fecha(fecha)
     if tipo == "finde":
-        fechas = sorted({e["fecha"] for e in eventos})
-        ini, fin = ag.a_fecha(fechas[0]), ag.a_fecha(fechas[-1])
-        return "Planes del finde", f"{ini.day} – {fin.day} de {ag.MESES[fin.month - 1]}"
+        # fin de semana = viernes a domingo siguientes a la publicación (jueves)
+        vie = f + timedelta(days=(4 - f.weekday()) % 7 or 7) if f.weekday() != 4 else f
+        dom = vie + timedelta(days=2)
+        txt = f"{vie.day} – {dom.day} de {ag.MESES[dom.month - 1]}" if vie.month == dom.month else f"{vie.day} {ag.MESES[vie.month - 1][:3]} – {dom.day} {ag.MESES[dom.month - 1][:3]}"
+        return "Planes del finde", txt
     if tipo == "mensual":
         return f"Lo más destacado de {ag.MESES[f.month - 1]}", f"{ag.MESES[f.month - 1]} {f.year}"
     return "Qué hacer hoy", ag.fecha_larga(f)  # la ciudad va en el logo modular («Planes en Cádiz»)
@@ -185,12 +188,14 @@ def render_dia(fecha, tipo="diario", var=None):
         return None
     resolver_imagenes(validos, carpeta)
     # Persistir en eventos.json la imagen definitiva de cada evento (oficial, ilustración propia o genérica), sin rutas temporales
+    import copy
     por_id = {e.get("id"): e for e in validos}
-    for e in datos.get("eventos", []):
+    guardar = copy.deepcopy(datos)
+    for e in guardar.get("eventos", []):
         v = por_id.get(e.get("id"))
         if v:
             e["imagen"] = {k: x for k, x in v["imagen"].items() if k != "ruta_abs"}
-    ag.guardar_json(carpeta / "eventos.json", datos)
+    ag.guardar_json(carpeta / "eventos.json", guardar)
     var = var or variante(fecha)
     with Renderer() as r:
         man = {"variante": var, "paleta": paleta(fecha), "carrusel": render_carrusel(r, validos, tipo, fecha, carpeta / "carrusel", var)}

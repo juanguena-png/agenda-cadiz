@@ -57,7 +57,7 @@ def fotogramas(r, eventos, titulo, sub, var, tmp, fecha):
     pngs.append((p, T_PORTADA, False))
     for i, ev in enumerate(eventos):
         q = tmp / f"e{i}.png"
-        r.png("story.html", {"evento": ev, "fecha_larga": ag.fecha_larga(ev["fecha"])}, q, rd.VIEW_STORY)
+        r.png("story.html", {"evento": ev, "fecha_larga": ev.get("fecha_txt") or ag.fecha_larga(ev["fecha"])}, q, rd.VIEW_STORY)
         pngs.append((q, T_EVENTO, False))
     return pngs
 
@@ -67,7 +67,7 @@ def rotulo_animado(total):
     f = subprocess.run(["fc-match", "-f", "%{file}", "Inter:bold"], capture_output=True, text=True).stdout
     if not f or not Path(f).exists():
         return None
-    base = "fontfile=%s:fontcolor=0xFFC93C:fontsize=46:borderw=0" % f
+    base = "fontfile=%s:fontcolor=0x0A2E4D:fontsize=44:box=1:boxcolor=0xFAF8F2@0.92:boxborderw=16" % f
     return (f"drawtext={base}:text='PLANES EN CÁDIZ  ·  FINDE':x='if(lt(t,0.9),-tw+(tw+80)*t/0.9,80)':y=120:enable='between(t,0,{total:.2f})',"
             f"drawbox=x=0:y=1904:w='iw*t/{total:.2f}':h=16:color=0xFFC93C:t=fill")
 
