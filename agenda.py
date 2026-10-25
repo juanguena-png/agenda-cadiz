@@ -154,8 +154,8 @@ def ya_publicado(estado, clave, plataforma=None):
     return p.get("instagram", {}).get("estado") == "publicado" and p.get("facebook", {}).get("estado") == "publicado"
 
 
-def anotar(estado, clave, plataforma, **datos):
-    estado.setdefault("publicaciones", {}).setdefault(clave, {})[plataforma] = {"ts": ahora().isoformat(timespec="seconds"), **datos}
+def anotar(est, clave, plataforma, **datos):  # «est» y no «estado»: los datos incluyen la clave estado="publicado"|"error"
+    est.setdefault("publicaciones", {}).setdefault(clave, {})[plataforma] = {"ts": ahora().isoformat(timespec="seconds"), **datos}
 
 
 def log_estado(estado, mensaje):
