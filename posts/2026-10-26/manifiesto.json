@@ -1,40 +1,124 @@
 {
   "variante": "B",
-  "paleta": 3,
+  "paleta": 2,
   "carrusel": [
     {
       "archivo": "01.png",
       "tipo": "portada",
-      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, lunes 26 de octubre. 2 planes."
+      "etiquetas": [
+        "univcadiz",
+        "casadeiberoamerica",
+        "fundacioncajasol",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, lunes 26 de octubre. 6 planes."
     },
     {
       "archivo": "02.png",
       "tipo": "eventos",
       "ids": [
-        "cdi-ese-mar"
+        "expo-campos"
       ],
-      "alt_text": "Eventos: Exposición «Ese mar que nos une» (09:00, Casa de Iberoamérica · Sala Blas de Lezo)"
+      "etiquetas": [
+        "univcadiz"
+      ],
+      "alt_text": "Eventos: Exposición «Campos de concentración en la provincia de Cádiz» (todo el día, Biblioteca de Humanidades · Facultad de Filosofía y Letras (UCA))"
     },
     {
       "archivo": "03.png",
       "tipo": "eventos",
       "ids": [
-        "cdi-manton"
+        "ese-mar"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: Exposición «Ese mar que nos une» (09:00, Casa de Iberoamérica · Sala Blas de Lezo)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-manila"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica"
       ],
       "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "patrocinio-cajasol"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Exposición «Patrocinio. 50 años de devoción, arte y patrimonio» (11:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "tosantos-exornos"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Eventos: Tosantos: concurso de exornos en los mercados (18:00, Mercado Central y Mercado Virgen del Rosario)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "tosantos-infantil"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Eventos: Tosantos: gala de circo y talleres infantiles (18:00, Mercado Central y Mercado Virgen del Rosario)"
     }
   ],
   "stories": [
     {
       "archivo": "01.png",
-      "id": "cdi-ese-mar",
-      "alt_text": "Ilustración de «Exposición «Ese mar que nos une»»: composición con barco, marco en azul mar, blanco y amarillo"
+      "id": "expo-campos",
+      "alt_text": "Imagen de Exposición «Campos de concentración en la provincia de Cádiz»"
     },
     {
       "archivo": "02.png",
-      "id": "cdi-manton",
-      "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo"
+      "id": "ese-mar",
+      "alt_text": "Imagen de Exposición «Ese mar que nos une»"
+    },
+    {
+      "archivo": "03.png",
+      "id": "manton-manila",
+      "alt_text": "Imagen de Exposición «¿Dónde vas con mantón de Manila?»"
+    },
+    {
+      "archivo": "04.png",
+      "id": "patrocinio-cajasol",
+      "alt_text": "Imagen de Exposición «Patrocinio. 50 años de devoción, arte y patrimonio»"
+    },
+    {
+      "archivo": "05.png",
+      "id": "tosantos-exornos",
+      "alt_text": "Imagen de Tosantos: concurso de exornos en los mercados"
+    },
+    {
+      "archivo": "06.png",
+      "id": "tosantos-infantil",
+      "alt_text": "Imagen de Tosantos: gala de circo y talleres infantiles"
     }
   ],
-  "noche": []
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "cineforum-blade-runner"
+      ],
+      "alt_text": "Mañana en Cádiz: Cinefórum Cádiz: «Blade Runner 2049»"
+    }
+  ]
 }

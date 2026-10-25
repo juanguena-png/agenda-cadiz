@@ -17,13 +17,15 @@
       "descripcion": "Concierto de guitarra clásica del festival internacional que recorre estos días varios espacios de la provincia. Este se celebra en el Ateneo gaditano, a mediodía.",
       "info": "Entrada libre hasta completar aforo · cadizguitarfestival.com",
       "imagen": {
-        "archivo": "posts/2026-10-25/img/cgf-espi-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "flamenco"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Cádiz Guitar Festival · Fernando Espí»: composición con flamenco en azul mar, blanco y amarillo"
+        "archivo": "img/cgf-espi.jpg",
+        "url_origen": "https://static.wixstatic.com/media/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png",
+        "fuente": "www.cadizguitarfestival.com",
+        "pagina": "https://www.cadizguitarfestival.com",
+        "ancho": 1217,
+        "alto": 807,
+        "alt_text": "Imagen de Cádiz Guitar Festival · Fernando Espí",
+        "tipo_imagen": "logo",
+        "ajuste": "contain"
       },
       "fuentes": [
         {
@@ -65,15 +67,17 @@
         "fondo": "mar"
       },
       "imagen": {
-        "archivo": "posts/2026-10-25/img/cadiz-ceuta-ilustracion.svg",
+        "archivo": "img/cadiz-ceuta-cartel.png",
+        "fuente": "Cartel propio de Planes en Cádiz con los escudos oficiales de la web del Cádiz CF",
         "generada": true,
-        "motivos": [
-          "balón"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Cádiz CF – AD Ceuta FC · LaLiga Hypermotion»: composición con balón en azul mar, blanco y amarillo"
+        "alt_text": "Cartel del partido Cádiz CF contra AD Ceuta FC: LaLiga Hypermotion, Domingo 25 de octubre · 16:15, Estadio Nuevo Mirandilla",
+        "ajuste": "cover"
       },
       "fuentes": [
+        {
+          "nombre": "Cádiz CF (ficha oficial del partido)",
+          "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-11-cadiz-cf-vs-ad-ceuta-fc-3414"
+        },
         {
           "nombre": "Cádiz CF (web oficial)",
           "url": "https://www.cadizcf.com/"
@@ -97,79 +101,72 @@
   ],
   "noche_manana": [
     {
-      "id": "cdi-ese-mar",
-      "nombre": "Exposición «Ese mar que nos une»",
-      "categoria": "exposición",
+      "id": "tosantos-infantil",
+      "nombre": "Tosantos: gala de circo y talleres infantiles",
+      "categoria": "infantil",
       "fecha": "2026-10-26",
-      "hora_inicio": "09:00",
+      "hora_inicio": "18:00",
       "hora_fin": "21:00",
       "todo_el_dia": false,
-      "lugar": "Casa de Iberoamérica · Sala Blas de Lezo",
-      "direccion": "Calle Concepción Arenal, s/n, 11006 Cádiz",
+      "lugar": "Mercado Central y Mercado Virgen del Rosario",
+      "direccion": "Mercados municipales de Cádiz",
       "precio": "Consultar",
-      "publico": null,
-      "descripcion": "Muestra sobre el mar como lazo de unión, organizada por Cádiz 2012, la Zona Franca y la Real Academia de Bellas Artes. Hasta el 30 de octubre.",
-      "info": "Horario de la sala: L–V 9:00–21:00 · casadeiberoamerica.es",
-      "imagen": {
-        "archivo": "posts/2026-10-26/img/cdi-ese-mar-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "barco",
-          "marco"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Exposición «Ese mar que nos une»»: composición con barco, marco en azul mar, blanco y amarillo"
-      },
+      "publico": "Infantil y familiar",
+      "descripcion": "Actividades infantiles de temática circense: gala de circo, animación y taller en el Mercado Central; «Había una vez un musical de circo» y talleres de malabares y acrobacias en el Mercado Virgen del Rosario.",
+      "info": "Los puestos reparten bolsas de fruta a los más pequeños",
+      "imagen": {},
       "fuentes": [
         {
-          "nombre": "Casa de Iberoamérica – Agenda",
-          "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
+          "nombre": "Vivir Ediciones",
+          "url": "https://vivirediciones.es/?p=1139894"
+        },
+        {
+          "nombre": "Cádiz Directo",
+          "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "Casa de Iberoamérica (Antigua Cárcel Real), Calle Concepción Arenal, s/n, 11006 Cádiz",
-        "url": "https://www.casadeiberoamerica.es/contacto"
+        "evidencia": "Mercado Central y Mercado Virgen del Rosario de Cádiz (Tosantos 2026, Ayuntamiento de Cádiz)",
+        "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [
+        "ayuntamientocadiz"
+      ]
     },
     {
-      "id": "cdi-manton",
-      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
-      "categoria": "exposición",
+      "id": "tosantos-exornos",
+      "nombre": "Tosantos: concurso de exornos en los mercados",
+      "categoria": "fiesta",
       "fecha": "2026-10-26",
-      "hora_inicio": "09:00",
-      "hora_fin": "21:00",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
       "todo_el_dia": false,
-      "lugar": "Casa de Iberoamérica · Sala Zitman",
-      "direccion": "Calle Concepción Arenal, s/n, 11006 Cádiz",
+      "lugar": "Mercado Central y Mercado Virgen del Rosario",
+      "direccion": "Mercados municipales de Cádiz",
       "precio": "Consultar",
-      "publico": null,
-      "descripcion": "Ruta del galeón contada con 27 mantones de colección, una maqueta de galeón y obras del Museo Cruz Herrera. Hasta el 9 de enero de 2027.",
-      "info": "Horario de la sala: L–V 9:00–21:00 · casadeiberoamerica.es",
-      "imagen": {
-        "archivo": "posts/2026-10-26/img/cdi-manton-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "mantón",
-          "marco",
-          "barco"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo"
-      },
+      "publico": "Todos los públicos",
+      "descripcion": "Recorrido por los puestos participantes en el concurso de exornos de los Tosantos, con iluminación especial en ambos mercados.",
+      "info": "Los puestos reparten bolsas de fruta a los más pequeños",
+      "imagen": {},
       "fuentes": [
         {
-          "nombre": "Casa de Iberoamérica – Agenda",
-          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+          "nombre": "Vivir Ediciones",
+          "url": "https://vivirediciones.es/?p=1139894"
+        },
+        {
+          "nombre": "Cádiz Directo",
+          "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "Casa de Iberoamérica (Antigua Cárcel Real), Calle Concepción Arenal, s/n, 11006 Cádiz",
-        "url": "https://www.casadeiberoamerica.es/contacto"
+        "evidencia": "Mercado Central y Mercado Virgen del Rosario de Cádiz (Tosantos 2026, Ayuntamiento de Cádiz)",
+        "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [
+        "ayuntamientocadiz"
+      ]
     }
   ]
 }

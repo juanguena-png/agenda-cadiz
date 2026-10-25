@@ -5,6 +5,11 @@
     {
       "archivo": "01.png",
       "tipo": "portada",
+      "etiquetas": [
+        "ateneocadiz",
+        "cadizguitarfestival",
+        "cadizclubdefutbol"
+      ],
       "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, domingo 25 de octubre. 2 planes."
     },
     {
@@ -12,6 +17,10 @@
       "tipo": "eventos",
       "ids": [
         "cgf-espi"
+      ],
+      "etiquetas": [
+        "ateneocadiz",
+        "cadizguitarfestival"
       ],
       "alt_text": "Eventos: Cádiz Guitar Festival · Fernando Espí (13:00, Ateneo de Cádiz)"
     },
@@ -21,6 +30,9 @@
       "ids": [
         "cadiz-ceuta"
       ],
+      "etiquetas": [
+        "cadizclubdefutbol"
+      ],
       "alt_text": "Eventos: Cádiz CF – AD Ceuta FC · LaLiga Hypermotion (16:15, Estadio Nuevo Mirandilla)"
     }
   ],
@@ -28,22 +40,22 @@
     {
       "archivo": "01.png",
       "id": "cgf-espi",
-      "alt_text": "Ilustración de «Cádiz Guitar Festival · Fernando Espí»: composición con flamenco en azul mar, blanco y amarillo"
+      "alt_text": "Imagen de Cádiz Guitar Festival · Fernando Espí"
     },
     {
       "archivo": "02.png",
       "id": "cadiz-ceuta",
-      "alt_text": "Ilustración de «Cádiz CF – AD Ceuta FC · LaLiga Hypermotion»: composición con balón en azul mar, blanco y amarillo"
+      "alt_text": "Cartel del partido Cádiz CF contra AD Ceuta FC: LaLiga Hypermotion, Domingo 25 de octubre · 16:15, Estadio Nuevo Mirandilla"
     }
   ],
   "noche": [
     {
       "archivo": "01.png",
       "ids": [
-        "cdi-ese-mar",
-        "cdi-manton"
+        "tosantos-exornos",
+        "tosantos-infantil"
       ],
-      "alt_text": "Mañana en Cádiz: Exposición «Ese mar que nos une»; Exposición «¿Dónde vas con mantón de Manila?»"
+      "alt_text": "Mañana en Cádiz: Tosantos: concurso de exornos en los mercados; Tosantos: gala de circo y talleres infantiles"
     }
   ]
 }

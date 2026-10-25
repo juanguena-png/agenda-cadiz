@@ -64,7 +64,8 @@
     "2026-10-25T11:04:51+01:00 diario: render OK (3 eventos, variante A)",
     "2026-10-25T11:54:38+01:00 diario: render OK (2 eventos, variante A)",
     "2026-10-25T11:55:58+01:00 carrusel/instagram publicado (registro manual tras fallo de anotar(): permalink https://www.instagram.com/p/De6iqyQFy0z/)",
-    "2026-10-25T17:24:13+01:00 diario: render OK (2 eventos, variante A)"
+    "2026-10-25T17:24:13+01:00 diario: render OK (2 eventos, variante A)",
+    "2026-10-25T21:28:13+01:00 diario: render OK (2 eventos, variante A)"
   ],
   "revision_final": {
     "hecha": true,
