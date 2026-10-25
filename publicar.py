@@ -246,9 +246,12 @@ def esperar_hora(hhmm):
         time.sleep(falta)
 
 
+PRUEBA = False  # --prueba: solo Instagram, sin revisión ni registro de estado (no interfiere con la publicación real del día)
+
+
 def publicar(fecha, tipo, esperar=None):
     carpeta = carpetas(fecha, tipo)
-    estado = ag.cargar_estado(carpeta)
+    estado = {} if PRUEBA else ag.cargar_estado(carpeta)
     man = ag.cargar_json(carpeta / "manifiesto.json")
     if not man and tipo != "reel":
         ag.salir(f"No hay manifiesto en {carpeta}: ejecuta render.py antes (o hay 0 eventos verificados: ver estado.json).", 0)
@@ -258,7 +261,7 @@ def publicar(fecha, tipo, esperar=None):
         ag.log_estado(estado, f"{tipo}: 0 eventos verificados, no hay nada que publicar (revisar: regla 9 exige publicar todos los días)")
         ag.guardar_estado(carpeta, estado)
         notificar.enviar(f"Sin eventos verificados para publicar ({tipo} {fecha})", "Regla 9: hay que publicar todos los días. Completa eventos.json (eventos o relleno «Siempre abierto») y vuelve a lanzar render y publicar."); return print("0 eventos verificados: no hay nada que publicar (aviso enviado).")
-    if not (estado.get("revision_final") or {}).get("hecha"):
+    if not PRUEBA and not (estado.get("revision_final") or {}).get("hecha"):
         ag.salir("Falta la revisión final de fuentes (cancelaciones/cambios de hora). Ejecuta --marcar-revision tras comprobarlas.")
 
     publicando = ag.modo() == "publicar"
@@ -310,7 +313,7 @@ def publicar(fecha, tipo, esperar=None):
                 carrusel_ok = False
             continue
         ok_ig = intentar(estado, p["clave"], "instagram", p["ig"], urls)
-        ok_fb = intentar(estado, p["clave"], "facebook", p["fb"], urls)
+        ok_fb = True if PRUEBA else intentar(estado, p["clave"], "facebook", p["fb"], urls)
         ag.guardar_estado(carpeta, estado)
         if p["clave"] == "carrusel" and not ok_ig:
             carrusel_ok = False
@@ -371,7 +374,11 @@ if __name__ == "__main__":
     ap.add_argument("--esperar-hasta", metavar="HH:MM", help="espera a esa hora (Europe/Madrid) antes de llamar a la API, p. ej. 09:00")
     ap.add_argument("--diagnostico", action="store_true")
     ap.add_argument("--marcar-revision", action="store_true")
+    ap.add_argument("--prueba", action="store_true", help="publica SOLO en Instagram, sin exigir revisión y sin guardar el estado (para pruebas que se borran a mano)")
     a = ap.parse_args()
+    if a.prueba:
+        PRUEBA = True
+        ag.guardar_estado = lambda *x, **k: None
     if a.tipo == "finde":  # «Planes del finde» es solo reel: --tipo finde se trata como --tipo reel
         print("Aviso: «Planes del finde» solo se publica en formato reel; se usa --tipo reel.")
         a.tipo = "reel"
