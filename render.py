@@ -62,6 +62,14 @@ def resolver_imagenes(eventos, carpeta):
         ruta = next((c for c in cand if img.get("archivo") and c.is_file()), None)
         if img.get("generada") and not ev.get("sin_imagen_oficial"):
             ruta = None  # una ilustración guardada de un render anterior se vuelve a cambiar por la imagen oficial si ya existe
+        if ruta is None and any("cadizcf.com/partidos/" in (f.get("url") or "") for f in ev.get("fuentes") or []):
+            # Partido del Cádiz CF en casa: la web oficial no tiene cartel; se genera un cartel propio con los escudos oficiales de la ficha
+            try:
+                import cartel_partido
+                img.clear(); img.update(cartel_partido.generar(ev, carpeta))
+                ruta = Path(carpeta) / img["archivo"]
+            except Exception as e_:
+                print(f"AVISO cartel de partido {ev.get('id')}: {e_}")
         if ruta is None and not ev.get("sin_imagen_oficial"):
             # Antes de ilustrar, SE INTENTA SIEMPRE la imagen oficial en las fichas de las fuentes del evento (regla 7), sin depender del agente
             try:

@@ -919,6 +919,17 @@
       "via": "web",
       "consulta": "Casa de la Juventud Cádiz actividades {fecha} {mes} {año} Cánovas del Castillo 41",
       "nota": "Reparte invitaciones de actividades municipales (C/ Cánovas del Castillo, 41)."
+    },
+    {
+      "id": 82,
+      "nombre": "Cádiz CF – partidos en casa (web oficial, automático)",
+      "tipo": "recinto",
+      "urls": [
+        "https://www.cadizcf.com/"
+      ],
+      "parser": "cadizcf",
+      "provincial": false,
+      "nota": "Lee la web oficial con Chromium (403 a scripts). Solo partidos COMO LOCAL (Estadio Nuevo Mirandilla, Cádiz) con fecha/hora oficial e imagen oficial. Los partidos fuera de casa no se publican."
     }
   ]
 }

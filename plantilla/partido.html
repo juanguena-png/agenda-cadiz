@@ -1,0 +1,28 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+body{margin:0;background:#0A2E4D}
+.cartel{width:1080px;height:1080px;position:relative;overflow:hidden;background:linear-gradient(170deg,#0A5A94 0%,#083F6B 100%);color:#fff;font-family:var(--f-texto)}
+.sol{position:absolute;width:300px;height:300px;border-radius:50%;background:#FFC62B;right:-60px;top:-70px}
+.olas{position:absolute;left:0;right:0;bottom:0;height:200px;opacity:.5}
+.centro{position:absolute;left:0;right:0;top:250px;display:flex;align-items:center;justify-content:center;gap:50px}
+.eq{width:340px;display:flex;flex-direction:column;align-items:center;gap:24px;text-align:center}
+.eq img{width:300px;height:300px;object-fit:contain;filter:drop-shadow(0 12px 22px rgba(0,0,0,.35))}
+.eq b{font:700 38px var(--f-titulo);line-height:1.05}
+.vs{font:900 90px var(--f-titulo);color:#FFC62B}
+.arriba{position:absolute;left:70px;top:70px;font:800 34px var(--f-texto);letter-spacing:.08em;text-transform:uppercase;color:#FFC62B}
+.abajo{position:absolute;left:0;right:0;bottom:215px;text-align:center;font:700 42px var(--f-titulo)}
+.abajo span{display:block;font:600 32px var(--f-texto);color:#D5E3EE;margin-top:8px}
+</style></head><body>
+<div class="cartel" id="c"></div>
+<script>
+async function render(d){
+  aplicarTema(d);
+  document.getElementById("c").innerHTML=`<div class="sol"></div>
+  <svg class="olas" viewBox="0 0 1080 200" preserveAspectRatio="none"><g fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"><path d="M-20 60q45-40 90 0t90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0"/><path d="M-20 120q45-40 90 0t90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0"/></g></svg>
+  <div class="arriba">${esc(d.competicion)}</div>
+  <div class="centro"><div class="eq"><img src="${esc(d.escudo_local)}"><b>${esc(d.local)}</b></div><div class="vs">VS</div><div class="eq"><img src="${esc(d.escudo_visitante)}"><b>${esc(d.visitante)}</b></div></div>
+  <div class="abajo">${esc(d.cuando)}<span>${esc(d.lugar)}</span></div>`;
+  await document.fonts.ready;
+  await Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r})));
+}
+</script></body></html>

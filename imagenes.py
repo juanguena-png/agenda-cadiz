@@ -29,7 +29,7 @@ NO_OFICIAL = ("instagram.", "facebook.", "fbcdn.", "twitter.", "x.com", "tiktok.
 # muchos carteles oficiales se llaman «…-post-instagram-vertical.jpg» (Casa de Iberoamérica).
 EXCLUIR = re.compile(r"logo|icon|favicon|sprite|avatar|cookies|mapacontenidos|placeholder|share|/themes/|/modules/|iso-face|/img/front/|/assets/|cab-pagina-informativa|header_page", re.I)
 # CDN de los constructores de webs: sirven las imágenes de la web del propio organizador (p. ej. Wix → static.wixstatic.com)
-CDN_PROPIOS = ("wixstatic.com", "squarespace-cdn.com", "squarespace.com", "cdn.shopify.com")
+CDN_PROPIOS = ("wixstatic.com", "squarespace-cdn.com", "squarespace.com", "cdn.shopify.com", "llt-services.com")  # llt-services = CDN de las webs oficiales de clubes (cadizcf.com)
 
 
 def original_drupal(url):
@@ -110,14 +110,34 @@ def descargar(url, destino, referer=None):
     return {"ancho": im.width, "alto": im.height, "url": url}
 
 
+def html_con_navegador(url):
+    """HTML de una página con Chromium real (para webs que devuelven 403 a los scripts, p. ej. cadizcf.com)."""
+    try:
+        import render as rd
+        with rd.Renderer() as r:
+            ctx = r.browser.new_context(user_agent=UA["User-Agent"], locale="es-ES")
+            pg = ctx.new_page()
+            resp = pg.goto(url, wait_until="networkidle", timeout=45000)
+            return pg.content() if resp and resp.status < 400 else None
+    except Exception:
+        return None
+
+
 def buscar_y_descargar(url_pagina, id_, carpeta, html=None):
     """Prueba las imágenes candidatas de la página en orden hasta que una sea válida. Devuelve el bloque `imagen` de eventos.json o None."""
     if urlparse(url_pagina).path in ("", "/"):
         return {"error": "la fuente es la página de inicio, no la ficha del evento: sus imágenes no son del evento"}
     try:
-        html = html or requests.get(url_pagina, headers=UA, timeout=30).text
+        r_ = None if html else requests.get(url_pagina, headers=UA, timeout=30)
+        if r_ is not None and r_.status_code in (403, 429, 503):
+            html = html_con_navegador(url_pagina)  # la web bloquea los scripts: se lee con un navegador real (Chromium)
+        html = html or (r_.text if r_ is not None else None)
+        if not html:
+            return {"error": "no se pudo leer la página"}
     except requests.RequestException:
-        return None
+        html = html_con_navegador(url_pagina)
+        if not html:
+            return None
     destino = carpeta / "img" / f"{id_}.jpg"
     motivos = []
     for u in candidatas(html, url_pagina)[:8]:

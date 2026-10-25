@@ -198,6 +198,40 @@
         "url": "https://www.cadizguitarfestival.com/"
       },
       "etiquetas_ig": []
+    },
+    {
+      "id": "cadizcf-oviedo",
+      "nombre": "Cádiz CF – Real Oviedo · LALIGA HYPERMOTION J13",
+      "categoria": "deporte",
+      "fecha": "2026-11-07",
+      "hora_inicio": "16:15",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Estadio Nuevo Mirandilla (JP Financial Estadio)",
+      "direccion": "Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Jornada 13 de LaLiga Hypermotion en casa: el Cádiz recibe al Real Oviedo en el Nuevo Mirandilla.",
+      "info": "Entradas en entradas.cadizcf.com",
+      "imagen": {
+        "archivo": "img/cadizcf-oviedo-cartel.png",
+        "fuente": "Cartel propio de Planes en Cádiz con los escudos oficiales de la web del Cádiz CF",
+        "generada": true,
+        "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: LALIGA HYPERMOTION J13, Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla (JP Financial Estadio)",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz CF (web oficial, ficha del partido)",
+          "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Cádiz CF vs Real Oviedo, JP Financial Estadio (Estadio Nuevo Mirandilla, Cádiz), ficha oficial del club",
+        "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
+      },
+      "etiquetas_ig": []
     }
   ]
 }

@@ -299,6 +299,54 @@ def parser_guia(fuente, ventana):
     return unicos, 0
 
 
+MESES_ABR = {"ENE": 1, "FEB": 2, "MAR": 3, "ABR": 4, "MAY": 5, "JUN": 6, "JUL": 7, "AGO": 8, "SEP": 9, "SET": 9, "OCT": 10, "NOV": 11, "DIC": 12}
+
+
+def parser_cadizcf(fuente, ventana):
+    """Cádiz CF (web oficial, leída con Chromium porque devuelve 403 a los scripts): próximos partidos COMO LOCAL en el Nuevo Mirandilla (Cádiz capital)
+    con fecha, hora, rival, competición, ficha oficial e imagen oficial (og:image)."""
+    import render as rd
+    ini, fin = ventana
+    UA_ = IMG_UA["User-Agent"]
+    out = []
+    with rd.Renderer() as r:
+        ctx = r.browser.new_context(user_agent=UA_, locale="es-ES")
+        pg = ctx.new_page()
+        pg.goto(fuente["urls"][0], wait_until="networkidle", timeout=45000)
+        enlaces = []
+        for h in pg.evaluate("Array.from(document.querySelectorAll('a')).map(a=>a.href)"):
+            if "/partidos/temporada-" in h and h not in enlaces:
+                enlaces.append(h)
+        for h in enlaces:
+            p2 = ctx.new_page()
+            try:
+                if p2.goto(h, wait_until="networkidle", timeout=45000).status >= 400:
+                    continue
+                html = p2.content()
+                titulo = (re.findall(r'property="og:title"[^>]*content="([^"]+)"', html) or [""])[0]
+                if not titulo.startswith("Cádiz CF vs "):
+                    continue  # solo partidos en casa
+                texto = p2.inner_text("body")
+                m = re.search(r"([A-ZÁÉÍÓÚ]{3}),?\s+(\d{1,2})\s+DE\s+([A-Z]{3})\s*\|?\s*(\d{1,2}):(\d{2})\s*([ap])\.?m", texto.replace("\n", " | "), re.I)
+                if not m:
+                    continue  # partido ya jugado o sin fecha publicada
+                dia, mes = int(m.group(2)), MESES_ABR.get(m.group(3).upper())
+                hh = int(m.group(4)) % 12 + (12 if m.group(6).lower() == "p" else 0)
+                anio = ini.year if mes >= ini.month or ini.month < 11 else ini.year + 1
+                f = date(anio, mes, dia)
+                if not (ini <= f <= fin):
+                    continue
+                rival, comp = re.match(r"Cádiz CF vs (.+?) - (.+)$", titulo).groups()
+                est = "JP Financial Estadio" if "JP Financial" in texto else "Nuevo Mirandilla"
+                img = (re.findall(r'property="og:image"[^>]*content="([^"]+)"', html) or [None])[0]
+                out.append({"nombre": f"Cádiz CF – {rival} · {comp}", "fecha": f.isoformat(), "hora_inicio": f"{hh:02d}:{m.group(5)}", "lugar": f"Estadio Nuevo Mirandilla ({est})",
+                            "direccion": "Cádiz", "url": h, "imagen_url_oficial": img, "pista_capital": True, "multidia": False, "permanente": False,
+                            "descripcion_fuente": f"Partido en casa del Cádiz CF ({comp}) contra {rival}. Ficha oficial del club.", "precio_texto": "Consultar en entradas.cadizcf.com"})
+            finally:
+                p2.close()
+    return out, 0
+
+
 def parser_cgf(fuente, ventana):
     """Cádiz Guitar Festival (web del organizador): conciertos con fecha, hora, sala y localidad al final del campo «Location»."""
     ini, fin = ventana
@@ -418,7 +466,7 @@ def parser_texto(r, fuente):
 
 
 IMG_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept-Language": "es-ES,es;q=0.9"}
-PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto, "uca": parser_texto, "junta": parser_texto, "guia": parser_texto, "cgf": parser_texto}
+PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto, "uca": parser_texto, "junta": parser_texto, "guia": parser_texto, "cgf": parser_texto, "cadizcf": parser_texto}
 
 
 def procesar(fuente, ventana=None):
@@ -430,9 +478,9 @@ def procesar(fuente, ventana=None):
     if not fuente["urls"]:
         res.update(estado="sin_url", error=fuente.get("nota", "URL por localizar"))
         return res
-    if fuente["parser"] in ("ayto", "bacantix", "uca", "junta", "guia", "cgf"):
+    if fuente["parser"] in ("ayto", "bacantix", "uca", "junta", "guia", "cgf", "cadizcf"):
         try:
-            cands, errores = {"ayto": parser_ayto, "bacantix": parser_bacantix, "uca": parser_uca, "junta": parser_junta, "guia": parser_guia, "cgf": parser_cgf}[fuente["parser"]](fuente, ventana)
+            cands, errores = {"ayto": parser_ayto, "bacantix": parser_bacantix, "uca": parser_uca, "junta": parser_junta, "guia": parser_guia, "cgf": parser_cgf, "cadizcf": parser_cadizcf}[fuente["parser"]](fuente, ventana)
             for c in cands:
                 c.update(fuente_id=fuente["id"], fuente=fuente["nombre"], provincial=fuente["provincial"], tipo_fuente=fuente["tipo"])
             res["candidatos"] = cands

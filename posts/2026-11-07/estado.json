@@ -2,7 +2,9 @@
   "publicaciones": {},
   "registro": [
     "2026-10-25T03:38:05+01:00 diario: render OK (5 eventos, variante B)",
-    "2026-10-25T20:29:01+01:00 diario: render OK (5 eventos, variante B)"
+    "2026-10-25T20:29:01+01:00 diario: render OK (5 eventos, variante B)",
+    "2026-10-25T20:35:55+01:00 diario: render OK (6 eventos, variante B)",
+    "2026-10-25T20:36:18+01:00 diario: render OK (6 eventos, variante B)"
   ],
   "revision_final": {
     "hecha": true,

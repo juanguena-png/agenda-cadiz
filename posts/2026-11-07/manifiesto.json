@@ -7,10 +7,11 @@
       "tipo": "portada",
       "etiquetas": [
         "casadeiberoamerica",
+        "cadizclubdefutbol",
         "teatrofalla",
         "cadizguitarfestival"
       ],
-      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, sábado 7 de noviembre. 5 planes."
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, sábado 7 de noviembre. 6 planes."
     },
     {
       "archivo": "02.png",
@@ -27,6 +28,17 @@
       "archivo": "03.png",
       "tipo": "eventos",
       "ids": [
+        "cadizcf-oviedo"
+      ],
+      "etiquetas": [
+        "cadizclubdefutbol"
+      ],
+      "alt_text": "Eventos: Cádiz CF – Real Oviedo · LALIGA HYPERMOTION J13 (16:15, Estadio Nuevo Mirandilla (JP Financial Estadio))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
         "vicente-amigo"
       ],
       "etiquetas": [
@@ -35,7 +47,7 @@
       "alt_text": "Eventos: Vicente Amigo · Andenes del tiempo (20:00, Gran Teatro Falla)"
     },
     {
-      "archivo": "04.png",
+      "archivo": "05.png",
       "tipo": "eventos",
       "ids": [
         "diexo-sin-plan-b"
@@ -44,7 +56,7 @@
       "alt_text": "Eventos: Diexo · Presentación de «Sin plan B» (21:00, Sala Soho Alternative)"
     },
     {
-      "archivo": "05.png",
+      "archivo": "06.png",
       "tipo": "eventos",
       "ids": [
         "capullo-momart"
@@ -53,7 +65,7 @@
       "alt_text": "Eventos: El Capullo de Jerez en concierto (21:00, Momart Theatre)"
     },
     {
-      "archivo": "06.png",
+      "archivo": "07.png",
       "tipo": "eventos",
       "ids": [
         "cgf-hurtado"
@@ -72,21 +84,26 @@
     },
     {
       "archivo": "02.png",
+      "id": "cadizcf-oviedo",
+      "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: LALIGA HYPERMOTION J13, Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla (JP Financial Estadio)"
+    },
+    {
+      "archivo": "03.png",
       "id": "vicente-amigo",
       "alt_text": "Cartel oficial del concierto de Vicente Amigo, Andenes del tiempo, en el Gran Teatro Falla"
     },
     {
-      "archivo": "03.png",
+      "archivo": "04.png",
       "id": "diexo-sin-plan-b",
       "alt_text": "Cartel oficial de la presentación del disco Sin plan B de Diexo en la Sala Soho Alternative"
     },
     {
-      "archivo": "04.png",
+      "archivo": "05.png",
       "id": "capullo-momart",
       "alt_text": "Ilustración de «El Capullo de Jerez en concierto»: composición con flamenco, micrófono en azul mar, blanco y amarillo"
     },
     {
-      "archivo": "05.png",
+      "archivo": "06.png",
       "id": "cgf-hurtado",
       "alt_text": "Ilustración de «Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival»: composición con violín, flamenco en azul mar, blanco y amarillo"
     }
