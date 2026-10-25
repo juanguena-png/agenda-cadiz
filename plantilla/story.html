@@ -23,7 +23,7 @@ async function render(d){
   <div class="zona">
     <div class="fila">${logo(d,"mini",38)}</div>
     <div class="foto" style="background-image:${foto(ev)}" role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
-    <div class="fila"><span class="chip">${esc(ev.categoria)}</span><span class="chip alt">${esc(ev.publico||"Todos los públicos")}</span></div>
+    <div class="fila"><span class="chip">${esc(ev.categoria)}</span>${ev.publico?`<span class="chip alt">${esc(ev.publico)}</span>`:""}</div>
     <h1 class="titulo clamp3">${esc(ev.nombre)}</h1>
     <div class="dato h">${esc(d.fecha_larga)} · ${hora}</div>
     <div class="dato clamp2">${esc(ev.lugar)}${dir}</div>

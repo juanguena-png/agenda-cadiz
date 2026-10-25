@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Exposición de Juan Luis Vassallo (Casa de Iberoamérica)",
+    "motivo": "Colección permanente (2019–2029): no es un plan del día. Pendiente de decisión del editor.",
+    "url": "https://www.casadeiberoamerica.es/agenda/148/exposicion-de-juan-luis-vassallo"
+  },
+  {
+    "nombre": "Escuela de Cine UCA · Taller de cine exprés",
+    "motivo": "Aviso de inscripción, no una sesión el 26/10; sin dirección verificable",
+    "url": "https://www.uca.es/evento/escuela-de-cine-modulo-1-taller-de-cine-expres-inscripcion-abierta/"
+  },
+  {
+    "nombre": "Cádiz CF – AD Ceuta (J11)",
+    "motivo": "La web no indica día ni hora; no se puede confirmar que sea el 26/10",
+    "url": "https://www.cadizcf.com/partidos"
+  },
+  {
+    "nombre": "Diputación · Sala Rivadavia (Ángeles Cutillas)",
+    "motivo": "Terminó el 20/06/2026; la web de la Diputación muestra información desactualizada",
+    "url": "https://www.dipucadiz.es/cultura/fomento-y-promocion-cultural/exposiciones/"
+  },
+  {
+    "nombre": "Eventbrite (resultados de la ventana)",
+    "motivo": "Eventos online o fuera de Cádiz capital; ninguno verificable en Cádiz capital el 26/10",
+    "url": "https://www.eventbrite.es/d/spain--c%C3%A1diz/events/"
+  },
+  {
+    "nombre": "Gran Teatro Falla, Sala Central Lechera, Tía Norica",
+    "motivo": "Sin función el 26/10 (próximas: Tía Norica 6/11, Falla 7/11)",
+    "url": "http://laciudad.cadiz.es/programacion-teatros-de-cadiz.asp"
+  },
+  {
+    "nombre": "Imágenes oficiales de las dos exposiciones",
+    "motivo": "Las URLs de imagen de la web del organizador devuelven 404: se usa la genérica de categoría (regla 7)",
+    "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
+  }
+]

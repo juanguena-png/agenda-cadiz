@@ -1,0 +1,39 @@
+{
+  "variante": "B",
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, lunes 26 de octubre. 2 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "cdi-ese-mar"
+      ],
+      "alt_text": "Eventos: Exposición «Ese mar que nos une» (09:00, Casa de Iberoamérica · Sala Blas de Lezo)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "cdi-manton"
+      ],
+      "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "cdi-ese-mar",
+      "alt_text": "Imagen genérica de exposición: un marco de cuadro sobre fondo azul mar con un sol amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "cdi-manton",
+      "alt_text": "Imagen genérica de exposición: un marco de cuadro sobre fondo azul mar con un sol amarillo"
+    }
+  ],
+  "noche": []
+}

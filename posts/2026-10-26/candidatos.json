@@ -1,0 +1,1105 @@
+{
+  "generado": "2026-10-25T02:14:24+01:00",
+  "ventana": [
+    "2026-10-26",
+    "2026-10-26"
+  ],
+  "candidatos": [],
+  "fuentes": [
+    {
+      "id": 1,
+      "nombre": "Ayuntamiento de Cádiz – Programación cultural (Teatros de Cádiz)",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "http://laciudad.cadiz.es/programacion-teatros-de-cadiz.asp",
+          "http": 200,
+          "texto": "Agenda de Eventos y Programación de los Teatros de Cádiz El Teatro del Títere la Tía Norica acoge una programación variada y para todos los públicos. SABER + El Gran Teatro Falla es un edificio destinado a la representaciones escénicas y conciertos de la ciudad española de Cádiz, situado en la plaza Fragela, frente a la Casa de las Viudas y junto a la Facultad de Medicina de la Universidad de Cádiz. Está catalogado como Bien de Interés Cultural. SABER + Plaza del Falla s/n · 11003 Cádiz Teléfono: 956 22 08 34 Diseño: i3net"
+        },
+        {
+          "url": "https://cadiz.es/",
+          "http": 200,
+          "texto": "Cádiz"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 2,
+      "nombre": "Turismo de Cádiz – Agenda (Ayuntamiento)",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://turismo.cadiz.es/",
+          "http": 200,
+          "texto": "Turismo - Ayuntamiento de Cádiz | Pasar al contenido principal Turismo Cádiz Cadiz.es turismo Tu Ayuntamiento Turismo Onda-Cádiz Programación Cultural Formulario de búsqueda Qué ver Museos Miradores Edificios religiosos Centros de exposiciones Monumentos y lugares de interés Yacimientos arqueológicos Teatros y artes escénicas Zonas verdes Qué comer Restaurante Bar de tapas Marisquería Freidor Taberna-Mesón Algo dulce Mercados gastronómicos Chiringuito Gastronomía Qué hacer Regalos y souvenirs Visitas guiadas Visitas teatralizadas Actividades recreativas Deportes naúticos Ocio nocturno Con niños Aprender español Actividades culturales Dónde dormir Hoteles Hostales Pensiones Apartamentos Albergues Oficinas de Turismo Mapas e info. útil Como moverse Rutas Multimedia Carnaval Congresos y convenciones Cruceros Fiestas y Tradiciones Playas Artesanía y comercio CÁDIZ 365 DÍAS - ORGULLOS@S DE NUESTRA HISTORIA Hemeroteca de noticias > El tiempo en Cádiz Máx: 23ºC Min: 15ºC Domingo 25/10/2026 26 Lunes Máx: 24ºC Min: 15ºC 27 Martes Máx: 22ºC Min: 16ºC 28 Miércoles Máx: 24ºC Min: 14ºC Agenda Ver todos los eventos > Tweets por el @VisitCadiz. Carnaval Semana Santa Festival Iberoamericano de \"Música Manuel de Falla\" Playas de Cádiz y Deportes naúticos Exposiciones y muestras culturales Yacimientos arqueológicos Rutas Gastronómicas Oferta de Ocio Veraniego Visitas y paseos por la Ciudad Muestra Cinematográfica del Atlántico Gran Premio de España Sail G.P. Festival Iberoamericano de Teatro Desplaza el cursor Tu ayuntamiento en la red Ayuntamiento Tablón de anuncios Estadísticas Patrimonio Contratación Enlaces de interés Normativa municipal Turismo Descúbrenos Museos Rutas Monumentos Alojamientos Comercio Restauración Cruceros Playas Deporte IMD Cádiz Alquiler Eventos Instalaciones Onda Cádiz Tu radio y televisión TV en directo Radio en directo Noticias Programación Televisión a la carta YouTube ¡SUSCRÍBETE! YouTube Ayuntamiento YouTube Cadiz.es YouTube Turismo Contactar Cuéntanos Contacta Accesibilidad | Aviso Legal | Contactar | Política de cookies | Contactos de Interés © Ayuntamiento de Cádiz 2012"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 3,
+      "nombre": "Onda Cádiz – Agenda",
+      "estado": "fallo",
+      "paginas": [
+        {
+          "url": "https://www.ondacadiz.es/",
+          "error": "400 Client Error: Bad Request for url: https://www.ondacadiz.es/"
+        }
+      ],
+      "candidatos": [],
+      "error": "400 Client Error: Bad Request for url: https://www.ondacadiz.es/"
+    },
+    {
+      "id": 4,
+      "nombre": "Diputación de Cádiz – Agenda cultural",
+      "estado": "fallo",
+      "paginas": [
+        {
+          "url": "https://www.dipucadiz.es/cultura/",
+          "error": "403 Client Error: Forbidden for url: https://www.dipucadiz.es/cultura/"
+        }
+      ],
+      "candidatos": [],
+      "error": "403 Client Error: Forbidden for url: https://www.dipucadiz.es/cultura/"
+    },
+    {
+      "id": 5,
+      "nombre": "Universidad de Cádiz – actividades culturales",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.uca.es/",
+          "http": 200,
+          "texto": "Portal UCA – Portal principal de la Universidad de Cádiz Política de Cookies El sitio web de la Universidad de Cádiz utiliza cookies propias y de terceros para realizar análisis de uso y medición del tráfico, así como permitir el correcto funcionamiento en redes sociales, y de este modo poder mejorar su experiencia de navegación. Si desea configurar las cookies, pulse el botón Personalizar Cookies . También puede acceder a la configuración de cookies en cualquier momento desde el enlace correspondiente en el pie de página. Para obtener más información sobre las cookies puede consultar la Política de cookies del sitio web de la Universidad de Cádiz. Aceptar Todas Rechazar Todas Personalizar Cookies Personalización de Cookies El sitio web de la Universidad de Cádiz utiliza cookies propias y de terceros para realizar análisis de uso y medición del tráfico, así como permitir el correcto funcionamiento en redes sociales, y de este modo poder mejorar su experiencia de navegación. Para obtener más información sobre las cookies puede consultar la Política de cookies del sitio web de la Universidad de Cádiz. También puede acceder a la configuración de cookies en cualquier momento desde el enlace correspondiente en el pie de página. A continuación podrá configurar las cookies del sitio web según su finalidad: Análisis estadístico On Off En este sitio se utilizan cookies de terceros (Google Analytics) que permiten cuantificar el número de usuarios de forma anónima (nunca se obtendrán datos personales que permitan identificar al usuario) y así poder analizar la utilización que hacen los usuarios del nuestro servicio, a fin de mejorar la experiencia de navegación y ofrecer nuestros contenidos de manera óptima. Redes sociales On Off En este sitio web se utilizan cookies de terceros que permiten el correcto funcionamiento de algunas redes sociales (principalmente Youtube y Twitter) sin utilizar ningún dato personal del usuario. Marcar Todas Desmarcar Todas Aceptar Universidad de Cádiz Valores UCA Codigo Peñalver CSLM Slider IMEYMAT The Conversation+Muy Interesante Tienda UCA Diversidad Inibica Microcredenciales UCA Plan Extraordinario Franja de Gaza 10 aniversario CEI·Mar Previous Next Noticias 23.10.2026 Más allá de los papeles: el Gabinete de Auditoría y Control Interno de la UCA es referente universitario en buenas prácticas en el sector público 24.10.2026 BZF InnovAzul 2026 impulsa la Transferencia de Conocimiento Marino en el Espacio ‘B2R Azul’ 24.10.2026 SEA-EU en ‘BlueZone Forum InnovAzul 2026’: formación, talento e innovación para el futuro de la economía azul 23.10.2026 Fallece Augusto Delkader, presidente del Consejo Social de la UCA entre 1993 y 2002 23.10.2026 Montar un negocio sí, pero aún no: la intención de emprender de los universitarios casi se duplica a los cinco años de terminar la carrera 23.10.2026 Científicos de la UCA lideran una investigación internacional sobre un antiguo puerto militar romano en el Danubio mas noticias... Agenda 25 octubre Doctorado, Premio, Premios Abierta la inscripción en los Premios TFG, TFM y Tesis Doctorales en Cooperación para el Desarrollo Humano Sostenible 26 octubre Campus Cádiz, Escuela de Cine Escuela de Cine. Módulo 1 ‘Taller de cine exprés’: Inscripción abierta 28 octubre Campus Cádiz, Campus Rock, Estéreo Parque Eli Paperboy Reed, en el Estéreo Parque “Edición Especial Otoño” Campus Rock 28 octubre CEI·Mar, Empresas, Innovazul, Internacional, Investigación Blue Zone Forum InnovAzul 2026: ‘Proyectando en azul’ 28 octubre Igualdad, Puerto Real, Unidad de Igualdad Inscripciones abiertas para la presentación del documental ‘Ni una Menos’ mas eventos... Destacamos CSLM, tu centro de idiomas de la UCA ¿Quieres mejorar o aprender algún idioma? Apúntate en el Centro Superior de Lenguas Modernas, tu centro de idiomas de la Universidad de Cádiz y ve donde quieras. Microcredenciales UCA ¿Conoces la estrategia de microcredenciales UCA? Forma parte de esta acción formativa de cualificación profesional para personas entre 24 y 65 años, dirigida a todos los sectores productivos. En este nuevo curso académico, contarás con un nuevo espacio para mejorar tu empleabilidad desde tu propia universidad: Portal de Empleo UCAEmplea Accede a tu nueva plataforma introduciendo tu correo y contraseña de la UCA y podrás encontrar empleos y otros recursos de empleabilidad Puntos Violeta La UCA se suma a la iniciativa de Puntos violetas, un instrumento promovido por el Ministerio de Igualdad para implicar al conjunto de la sociedad en la lucha contra la violencia de género. Portal de Transparencia UCA Incrementamos el cumplimiento de indicadores de los rankings más exigentes para consolidarnos entre las universidades españolas más transparentes. Emprendedoras y emprendedores como tú Programa de visualización de casos de emprendimiento de egresados de la Universidad de Cádiz. Una iniciativa de UCAEmprende financiada por la Diputación de Cádiz a través del programa Dipuactiva 2022. Becas Santander ¡Benefíciate de más de 30 mil becas para seguir formándote, vivir tu movilidad nacional e internacional! Consulta programa Becas Santander Cursos para emprendedores Aprovecha la oportunidad. Cursos online gratuitos en Economía Circular Azul. Compartir coche con tus compañeros, la nueva forma de venir a la uni La Universidad de Cádiz pone a disposición de sus estudiantes y trabajadores la aplicación Hoop Carpool para compartir coche en sus desplazamientos diarios y promover la movilidad sostenible. UCA es Cultura Conoce y disfruta la amplia y diversa agenda cultural de la UCA en sus cuatro campus Previous Next Canal UCA “Decidamos lo que nos define” Entrevista Carmen Camelo. 18 años Cátedra Emprendimiento mas vídeos... Facebook Instagram Youtube Flickr WhatsApp UCA Social Universidad de Cádiz Anuncios CEIA Fenici LA RÁBIDA ISO 14001 EFQM 500 GRI t3s"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 6,
+      "nombre": "Deportes del Ayuntamiento de Cádiz",
+      "estado": "sin_url",
+      "paginas": [],
+      "candidatos": [],
+      "error": "URL por localizar (deportes.cadiz.es no resuelve)"
+    },
+    {
+      "id": 7,
+      "nombre": "Bibliotecas municipales / Biblioteca Provincial",
+      "estado": "sin_url",
+      "paginas": [],
+      "candidatos": [],
+      "error": "URL por localizar"
+    },
+    {
+      "id": 8,
+      "nombre": "Gran Teatro Falla",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "http://laciudad.cadiz.es/programacion-gran-teatro-falla.asp",
+          "http": 200,
+          "texto": "Programación del Gran Teatro Falla de Cádiz PROGRAMACIÓN SEPTIEMBRE YO SOLO QUIERO IRME A FRANCIA TEATRO · 23 septiembre | 20h. ANDY MORALES · TOUR SOLO MÚSICA · 25 septiembre | 20h. JAVIER RUIBAL · CUENTO CHINO MÚSICA · 26 septiembre | 20h. UBÚ TEATRO · 29 septiembre | 20h. OCTUBRE MIGUEL RÍOS · EL ÚLTIMO VALS MÚSICA · 1 octubre | 20h. TRES NOCHES EN ÍTACA TEATRO · 3 octubre | 20h. PASIÓN ALMODÓVAR MÚSICA · 6 octubre | 20h. 11002 · BIENVENIDO SINFÓNICO MÚSICA · 10 octubre | 17h. y 20.30h. 41º FESTIVAL IBEROAMERICANO DE TEATRO DE CÁDIZ Del 14 al 24 octubre de 2026 NOVIEMBRE FLAMENCO PATRIMONIO DE LA HUMANIDAD VICENTE AMIGO · ANDENES DEL TIEMPO FLAMENCO / GUITARRA · 7 noviembre | 20h. LA LUPI· LO INÉDITO FLAMENCO / BAILE · 10 noviembre | 20h. REQUIEM A D. MANUEL DE FALLA CON DAVID PALOMAR 150º Aniversario Manuel de Falla FLAMENCO / CANTE · 14 noviembre | 20h. 24 FESTIVAL DE CÁDIZ. MÚSICA ESPAÑOLA Organiza: Agencia Andaluza de Instituciones Culturales. Consejería de Cultura y Deporte. Colabora: Ayuntamiento de Cádiz Consultar programación específica: www.festivaldecadiz.es CONCIERTO PIANO · JAVIER PERIANES MÚSICA · 23 noviembre | 20h. LA ESENCIA DEL MÚSICO 150º Aniversario Manuel de Falla VISITAS TEATRALIZADAS · 25 y 26 noviembre | 17h. / 18h. / 19h. y 20h. VERBORREA VERBORREA · 30 noviembre | 20h. DICIEMBRE PURO CÁDIZ · Bienvenidos a la nueva experiencia de la Navidad Flamenca VILLANCICOS FLAMENCOS · 1 diciembre | 20h. VILLANCICOS LUMBRE · Navidad con Alma Flamenca VILLANCICOS FLAMENCOS · 2 diciembre | 20h. PERICO SAMBEAT PLAYS ZAPPA CAMPUS JAZZ CÁDIZ · 3 diciembre | 20h. PABLO LÓPEZ EL NIÑO DEL ESPACIO EN CONCIERTO 2026 MÚSICA · 5 diciembre | 20h. Radioteatro histórico de ficción Manuel de Falla – Hijo predilecto de la Ciudad de Cádiz 100 años (1926-2026) RADIOTEATRO HISTÓRICO · 7 diciembre | 20h. CARMINHO · 'Eu vou morrer de amor ou resistir' MÚSICA · 9 diciembre | 20h. GRAN GALA NAVIDAD 2026 MÚSICA · 12 diciembre | 20h. ESPACIO ABIERTO SOUTH INTERNATIONAL SERIES FESTIVAL · del 30 de octubre al 4 de noviembre GALA REYES MAGOS · 13 diciembre 2026 Organiza: Asociación Reyes Magos de Cádiz Colabora: Ayuntamiento de Cádiz VENTA DE ENTRADAS EN TAQUILLA • De martes a viernes: De 10.30h. a 13.30h. y de 17.30h. a 20h. El horario de taquilla durante el mes de agosto será de: 10:30 h. a 13:30 h. de martes a viernes. A partir del 1 de septiembre la taquilla abrirá en horario de mañana y tarde de: 10:30 h. a 13:30 h. y de 17:30 h. a 20 h. Días de función en sábados, domingos, festivos y lunes: 1 hora antes del comienzo de la función. Una hora antes del comienzo de cada función, sólo se podrán adquirir localidades para la mencionada función. SERVICIOS DE BACANTIX • Pago mediante tarjeta de crédito. • Impresión de entradas en casa (Print at home) o recogida en taquilla. • Por internet https://www.bacantix.com/aytocadiz • SERVICIO 24 H. • LAS LOCALIDADES ADQUIRIDAS A TRAVÉS DE LOS SERVICIOS DE BACANTIX GENERARÁN COMISIÓN. PRECIOS ESPECIALES • Para los espectáculos señalados: 15% descuento tercera edad (mayores 65 años), desempleados y colectivos (mínimo 25 personas, previa solicitud). • Con carné joven: 6€ en paraíso en todos los espectáculos organizados por el Ayuntamiento. Las localidades con carné joven, sólo podrán adquirirse directamente en la taquilla del Teatro. Imprescindible presentación del carné correspondiente en taquilla y acceso al Teatro. Más información: 956 22 08 34 * Una vez comenzada la función, no estará permitido el acceso al patio de butacas. * Los menores a partir de 3 años, abonarán su localidad. * No se admiten reservas, cambios ni devoluciones. * El acceso al teatro no estará permitido con bebidas y/o alimentos. * La ubicación de todos los asientos de Palcos y Paraíso del Teatro Falla, será por orden de llegada al mismo. * Los asientos de Palcos y Paraíso no están numerados. PROGRAMACIÓN SUJETA A POSIBLES CAMBIOS Teatro adaptado a la normativa de Ley 4/2017 de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucia. Plaza del Falla s/n · 11003 Cádiz Teléfono: 956 22 08 34 Diseño: i3net"
+        }
+      ],
+      "candidatos": [
+        {
+          "nombre": "YO SOLO QUIERO IRME A FRANCIA",
+          "categoria_fuente": "teatro",
+          "fecha": "2026-09-23",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72067",
+          "horario_texto": "23 septiembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "ANDY MORALES · TOUR SOLO",
+          "categoria_fuente": "música",
+          "fecha": "2026-09-25",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72068",
+          "horario_texto": "25 septiembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "JAVIER RUIBAL · CUENTO CHINO",
+          "categoria_fuente": "música",
+          "fecha": "2026-09-26",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72069",
+          "horario_texto": "26 septiembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "UBÚ",
+          "categoria_fuente": "teatro",
+          "fecha": "2026-09-29",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72070",
+          "horario_texto": "29 septiembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "MIGUEL RÍOS · EL ÚLTIMO VALS",
+          "categoria_fuente": "música",
+          "fecha": "2026-10-01",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72071",
+          "horario_texto": "1 octubre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "TRES NOCHES EN ÍTACA",
+          "categoria_fuente": "teatro",
+          "fecha": "2026-10-03",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72072",
+          "horario_texto": "3 octubre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "PASIÓN ALMODÓVAR",
+          "categoria_fuente": "música",
+          "fecha": "2026-10-06",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72073",
+          "horario_texto": "6 octubre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "11002 · BIENVENIDO SINFÓNICO",
+          "categoria_fuente": "música",
+          "fecha": "2026-10-10",
+          "hora_inicio": "17:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72074",
+          "horario_texto": "10 octubre | 17h. y 20.30h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "VICENTE AMIGO · ANDENES DEL TIEMPO",
+          "categoria_fuente": "flamenco / guitarra",
+          "fecha": "2026-11-07",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72080",
+          "horario_texto": "7 noviembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "LA LUPI· LO INÉDITO",
+          "categoria_fuente": "flamenco / baile",
+          "fecha": "2026-11-10",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72081",
+          "horario_texto": "10 noviembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "REQUIEM A D. MANUEL DE FALLA CON DAVID PALOMAR",
+          "categoria_fuente": "flamenco / cante",
+          "fecha": "2026-11-14",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72082",
+          "horario_texto": "14 noviembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "CONCIERTO PIANO · JAVIER PERIANES",
+          "categoria_fuente": "música",
+          "fecha": "2026-11-23",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72083",
+          "horario_texto": "23 noviembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "LA ESENCIA DEL MÚSICO 150º Aniversario Manuel de Falla",
+          "categoria_fuente": "visitas teatralizadas",
+          "fecha": "2026-11-25",
+          "hora_inicio": "17:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72084",
+          "horario_texto": "25 y 26 noviembre | 17h. / 18h. / 19h. y 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "LA ESENCIA DEL MÚSICO 150º Aniversario Manuel de Falla",
+          "categoria_fuente": "visitas teatralizadas",
+          "fecha": "2026-11-26",
+          "hora_inicio": "17:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72084",
+          "horario_texto": "25 y 26 noviembre | 17h. / 18h. / 19h. y 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "VERBORREA",
+          "categoria_fuente": "verborrea",
+          "fecha": "2026-11-30",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72085",
+          "horario_texto": "30 noviembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "PURO CÁDIZ · Bienvenidos a la nueva experiencia de la Navidad Flamenca",
+          "categoria_fuente": "villancicos flamencos",
+          "fecha": "2026-12-01",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72086",
+          "horario_texto": "1 diciembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "VILLANCICOS LUMBRE · Navidad con Alma Flamenca",
+          "categoria_fuente": "villancicos flamencos",
+          "fecha": "2026-12-02",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72087",
+          "horario_texto": "2 diciembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "PERICO SAMBEAT PLAYS ZAPPA",
+          "categoria_fuente": "campus jazz cádiz",
+          "fecha": "2026-12-03",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72088",
+          "horario_texto": "3 diciembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "PABLO LÓPEZ EL NIÑO DEL ESPACIO EN CONCIERTO 2026",
+          "categoria_fuente": "música",
+          "fecha": "2026-12-05",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72089",
+          "horario_texto": "5 diciembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "Radioteatro histórico de ficción Manuel de Falla – Hijo predilecto de la Ciudad de Cádiz 100 años (1926-2026)",
+          "categoria_fuente": "radioteatro histórico",
+          "fecha": "2026-12-07",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72091",
+          "horario_texto": "7 diciembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "CARMINHO · 'Eu vou morrer de amor ou resistir'",
+          "categoria_fuente": "música",
+          "fecha": "2026-12-09",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72090",
+          "horario_texto": "9 diciembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "GRAN GALA NAVIDAD 2026",
+          "categoria_fuente": "música",
+          "fecha": "2026-12-12",
+          "hora_inicio": "20:00",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72092",
+          "horario_texto": "12 diciembre | 20h.",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "GALA REYES MAGOS",
+          "categoria_fuente": "",
+          "fecha": "2026-12-13",
+          "hora_inicio": null,
+          "url": "http://laciudad.cadiz.es/programacion-gran-teatro-falla.asp",
+          "horario_texto": "13 diciembre 2026",
+          "suspendido": false,
+          "fuente_id": 8,
+          "fuente": "Gran Teatro Falla",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Teatro del Títere La Tía Norica",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "http://laciudad.cadiz.es/programacion-teatro-del-titere.asp",
+          "http": 200,
+          "texto": "Programación del Teatro del Títere de Cádiz - La Tía Norica PROGRAMACIÓN OCTUBRE “MEMORIAS DE TRAPO” · LAMONA DANZA Danza y teatro 9 de Octubre | 18 h. NOVIEMBRE “BICHITOS” · SPASMO TEATRO Teatro gestual 6 de Noviembre | 18 h. “EL GRAN TRAJE” · LASAL TEATRO Actriz, títeres y objetos 27 de Noviembre | 18 h. DICIEMBRE y ENERO “LA CASA DEL ABUELO” · LA ROUS Títeres y objetos 4 de Diciembre | 18 h. “AUTOS DE NAVIDAD” · COMPAÑÍA LA TÍA NORICA Títeres y objetos 21, 22, 23, 28, 29 y 30 de Diciembre | 18 h. 2 y 3 de Enero | 18 h. VENTA DE ENTRADAS EN TAQUILLA DEL TEATRO DEL TÍTERE 1 hora antes de cada espectáculo, siempre que queden entradas disponibles. PAGO MEDIANTE TARJETA DE CRÉDITO TAQUILLA DEL GRAN TEATRO FALLA De martes a viernes de 10.30 a 13.30 y de 17.30 a 20.00 (no festivos). El día del espectáculo solo venta en taquilla en horario de mañana. PAGO MEDIANTE TARJETA DE CRÉDITO SERVICIOS DE BACANTIX Por teléfono: 919 320 484 Pago mediante tarjeta de crédito. Impresión de entradas en casa (Print at home) o recogida en taquilla. Por internet www.bacantix.com/aytocadiz SERVICIO 24 H. Las localidades adquiridas a través de los servicios de Bacantix generarán comisión. Programación sujeta a posibles cambios Plaza del Falla s/n · 11003 Cádiz Teléfono: 956 22 08 34 Diseño: i3net"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 10,
+      "nombre": "Sala Central Lechera",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "http": 200,
+          "texto": "Programación de la Sala Central Lechera de Cádiz MUESTRA DE TEATRO Del 18 al 25 de enero/ 20.30 h. / 5€ y abono 8 Espectáculos 20 € del 50% del aforo *CONSULTAR PROGRAMACIÓN ESPECÍFiCA ALBANTA TEATRO · \"MARIQUITA APARECE AHOGADA EN UNA CESTA\" TEATRO · 18 enero | 20.30 h. CRISANTEMO TEATRO · \"YERMA\" TEATRO · 19 enero | 20.30 h. CÍA. TELÓN CÁDIZ INCLUSIÓN · \"TENEMOS QUE HABLAR\" TEATRO · 20 enero | 20.30 h. CÍA. TRIPET · \"LA PRUDENCIA\" TEATRO · 21 enero | 20.30 h. LABARANDA TEATRO · \"UN ANÁLISIS PERFECTO DADO POR UN LORO\" TEATRO · 22 enero | 20.30 h. LA CABAL TEATRO · \"BÉSAME MUCHO\" TEATRO · 23 enero | 20.30 h. AHORA EN SERIO · \"THE COMEDY OF HAMLET\" TEATRO · 24 enero | 20.30 h. TEATRO ESTUDIO 21 · \"MANO A MANO\" TEATRO · 25 enero | 20.30 h. LECTURAS DRAMATIZADAS LECTURAS DRAMATIZADAS (ECCO) / 13.00 h. COLECTIVO MESA DE TEATRO. EN COLABORACIÓN CON ACTRICES Y ACTORES DE CÁDIZ · \"La Venganza de Don Mendo\" LECTURAS · 18 enero | 13.00 h. PACHAMAMI NO HAY MÁS QUE UNA LECTURAS · 19 enero | 13.00 h. ZURRAPA TEATRO · \"El Montaplatos\" LECTURAS · 25 enero | 13.00 h. PROGRAMACIÓN FEBRERO WISE GUYS OCTET PLAYS · \"Guais plais mais\" MÚSICA · 7 febrero | 20.00 h. IOSUNE ONRAITA· \"Del fondo del río\" ¡SUSPENDIDO! TEATRO · 14 y 15 febrero | 20.00 h. DAVID OTERO · \"Naturalmente acústico\" MÚSICA · 22 febrero | 20.00 h. MARZO ÁFRICA MARTÍNEZ FERRIN · \"Médium\" NUEVAS DRAMATURGIAS · 15 marzo | 20.00 h. SUSANA GÓMEZ · \"Mirando a ‘Cai’\" NUEVAS DRAMATURGIAS · 22 marzo | 20.00 h. JUAN SANTAMARÍA · \"Músicas sin fronteras\" MÚSICA · 29 marzo | 20.00 h. ABRIL CÍA.MARTA ALONSO TEJADA · \"Dance Join\" DANZA. PROYECTO GARABATO ARTE Y EDUCACIÓN · 5 abril | 20.00 h. CANDILEJAS TEATRO · \"Amor que nunca dice basta\" TEATRO · 8, 9 y 10 abril | 19.00 h. ALBACALÍ · \"La Lechera en danza o de los afortunados encuentros en la vía láctea\" DANZA CONTEMPORÁNEA · 30 abril | 18.00 h. MAYO PAU FIGUERES · \"Latido\" MÚSICA · 3 mayo | 20.00 h. ANA CAVILLA · \"No me iría contigo a Berlín ni a ninguna parte\" NUEVAS DRAMATURGIAS · 9 mayo | 20.00 h. MARÍA LA MÓNICA, ADRI TRUJILLO, ISMAEL ALCINA Y ROBERT CHACÓN · \"Amisuri\" MÚSICA · 30 mayo | 20.00 h. 41º FESTIVAL INTERNACIONAL DEL TÍTERE \"CIUDAD DE CÁDIZ\" FESTIVAL INTERNACIONAL DEL TÍTERE TÍTERES · Del 20 al 25 mayo Consultar programación específica XXIII FESTIVAL INTERNACIONAL CÁDIZ EN DANZA CÁDIZ EN DANZA DANZA · Del 7 al 14 junio Consultar programación específica: www.cadizendanza.es VENTA DE ENTRADAS TAQUILLA SALA CENTRAL LECHERA 1 hora antes de cada espectáculo, siempre que queden entradas disponibles. Pago mediante tarjeta de crédito TAQUILLA DEL GRAN TEATRO FALLA De martes a viernes de 10.30 a 13.30 y de 17.30 a 20.00 (no festivos). El día del espectáculo solo venta en taquilla en horario de mañana. Pago mediante tarjeta de crédito SERVICIOS DE BACANTIX Por teléfono: 919 320 484 Pago: mediante tarjeta de crédito. Impresión de entradas en casa (Print at home) o recogida en taquilla. Por internet: www.bacantix.com/aytocadiz SERVICIO 24 H. Las localidades adquiridas a través de los servicios de Bacantix generarán comisión. Programación sujeta a posibles cambios Plaza del Falla s/n · 11003 Cádiz Teléfono: 956 22 08 34 Diseño: i3net"
+        }
+      ],
+      "candidatos": [
+        {
+          "nombre": "ALBANTA TEATRO · \"MARIQUITA APARECE AHOGADA EN UNA CESTA\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-01-18",
+          "hora_inicio": "20:30",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "18 enero | 20.30 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "CRISANTEMO TEATRO · \"YERMA\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-01-19",
+          "hora_inicio": "20:30",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "19 enero | 20.30 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "CÍA. TELÓN CÁDIZ INCLUSIÓN · \"TENEMOS QUE HABLAR\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-01-20",
+          "hora_inicio": "20:30",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "20 enero | 20.30 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "CÍA. TRIPET · \"LA PRUDENCIA\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-01-21",
+          "hora_inicio": "20:30",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "21 enero | 20.30 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "LABARANDA TEATRO · \"UN ANÁLISIS PERFECTO DADO POR UN LORO\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-01-22",
+          "hora_inicio": "20:30",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "22 enero | 20.30 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "LA CABAL TEATRO · \"BÉSAME MUCHO\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-01-23",
+          "hora_inicio": "20:30",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "23 enero | 20.30 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "AHORA EN SERIO · \"THE COMEDY OF HAMLET\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-01-24",
+          "hora_inicio": "20:30",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "24 enero | 20.30 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "TEATRO ESTUDIO 21 · \"MANO A MANO\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-01-25",
+          "hora_inicio": "20:30",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "25 enero | 20.30 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "COLECTIVO MESA DE TEATRO. EN COLABORACIÓN CON ACTRICES Y ACTORES\nDE CÁDIZ · \"La Venganza de Don Mendo\"",
+          "categoria_fuente": "lecturas",
+          "fecha": "2027-01-18",
+          "hora_inicio": "13:00",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "18 enero | 13.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "PACHAMAMI NO HAY MÁS QUE UNA",
+          "categoria_fuente": "lecturas",
+          "fecha": "2027-01-19",
+          "hora_inicio": "13:00",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "19 enero | 13.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "ZURRAPA TEATRO · \"El Montaplatos\"",
+          "categoria_fuente": "lecturas",
+          "fecha": "2027-01-25",
+          "hora_inicio": "13:00",
+          "url": "http://laciudad.cadiz.es/programacion-central-lechera.asp",
+          "horario_texto": "25 enero | 13.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "WISE GUYS OCTET PLAYS · \"Guais plais mais\"",
+          "categoria_fuente": "música",
+          "fecha": "2027-02-07",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=68430",
+          "horario_texto": "7 febrero | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "IOSUNE ONRAITA· \"Del fondo del río\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-02-14",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68431",
+          "horario_texto": "14 y 15 febrero | 20.00 h.",
+          "suspendido": true,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "IOSUNE ONRAITA· \"Del fondo del río\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-02-15",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68431",
+          "horario_texto": "14 y 15 febrero | 20.00 h.",
+          "suspendido": true,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "DAVID OTERO · \"Naturalmente acústico\"",
+          "categoria_fuente": "música",
+          "fecha": "2027-02-22",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68432",
+          "horario_texto": "22 febrero | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "ÁFRICA MARTÍNEZ FERRIN · \"Médium\"",
+          "categoria_fuente": "nuevas dramaturgias",
+          "fecha": "2027-03-15",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68433",
+          "horario_texto": "15 marzo | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "SUSANA GÓMEZ · \"Mirando a ‘Cai’\"",
+          "categoria_fuente": "nuevas dramaturgias",
+          "fecha": "2027-03-22",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68434",
+          "horario_texto": "22 marzo | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "JUAN SANTAMARÍA · \"Músicas sin fronteras\"",
+          "categoria_fuente": "música",
+          "fecha": "2027-03-29",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68435",
+          "horario_texto": "29 marzo | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "CÍA.MARTA ALONSO TEJADA · \"Dance Join\"",
+          "categoria_fuente": "danza. proyecto garabato arte y educación",
+          "fecha": "2027-04-05",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68436",
+          "horario_texto": "5 abril | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "CANDILEJAS TEATRO · \"Amor que nunca dice basta\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-04-09",
+          "hora_inicio": "19:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68437",
+          "horario_texto": "8, 9 y 10 abril | 19.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "CANDILEJAS TEATRO · \"Amor que nunca dice basta\"",
+          "categoria_fuente": "teatro",
+          "fecha": "2027-04-10",
+          "hora_inicio": "19:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68437",
+          "horario_texto": "8, 9 y 10 abril | 19.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "ALBACALÍ · \"La Lechera en danza o de los afortunados encuentros\nen la vía láctea\"",
+          "categoria_fuente": "danza contemporánea",
+          "fecha": "2027-04-30",
+          "hora_inicio": "18:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68438",
+          "horario_texto": "30 abril | 18.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "PAU FIGUERES · \"Latido\"",
+          "categoria_fuente": "música",
+          "fecha": "2027-05-03",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68439",
+          "horario_texto": "3 mayo | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "ANA CAVILLA · \"No me iría contigo a Berlín ni a ninguna parte\"",
+          "categoria_fuente": "nuevas dramaturgias",
+          "fecha": "2027-05-09",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68440",
+          "horario_texto": "9 mayo | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        },
+        {
+          "nombre": "MARÍA LA MÓNICA, ADRI TRUJILLO, ISMAEL ALCINA\nY ROBERT CHACÓN · \"Amisuri\"",
+          "categoria_fuente": "música",
+          "fecha": "2027-05-30",
+          "hora_inicio": "20:00",
+          "url": "http://laciudad.cadiz.es/tdc_detalles_agenda.asp?ID_EVENTO=68441",
+          "horario_texto": "30 mayo | 20.00 h.",
+          "suspendido": false,
+          "fuente_id": 10,
+          "fuente": "Sala Central Lechera",
+          "provincial": false,
+          "tipo_fuente": "recinto"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Baluarte de la Candelaria",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "http://laciudad.cadiz.es/programacion-baluarte-de-la-candelaria.asp",
+          "http": 200,
+          "texto": "Programación del Baluarte de la Candelaria de Cádiz El Baluarte de La Candelaria se encuentra en La Alameda Apodaca. Formaba parte del frente marítimo de la Bahía que protegía la entrada al puerto y el frente noroeste de la ciudad de Cádiz. Fue construido en el año 1672 por iniciativa de D. Diego Caballero de Illescas cuando era gobernador de la plaza, con la intención de proteger la entrada natural al puerto de Cádiz. PROGRAMACIÓN JULIO Razoptimismo Fecha: 15/07/2025 Horario: 22.00 h. Ismael Serrano. Guitarra y Voz Fecha: 16/07/2025 Horario: 22.00 h. FLAMENCAD 2025: Raimundo Amador \"Evocando a Pata Negra\" Fecha: 17/07/2025 Horario: 21.30 h. XXVI FESTIVAL \"LA ISLA DEL BLUES\" CÁDIZ 2025: Kaz Hawkins Fecha: 18/07/2025 Horario: 22.00 h. XXVI FESTIVAL \"LA ISLA DEL BLUES\" CÁDIZ 2025: Ana Popovic Fecha: 19/07/2025 Horario: 22.00 h. Tributo Musical Mamma Mía Fecha: 20/07/2025 Horario: 22.00 h. Teatro admirado Raphael Fecha: 22/07/2025 Horario: 21.30 h. 18 EDICIÓN FESTIVAL JAZZ: Ogun Afrobeat Fecha: 23/07/2025 Horario: 22.00 h. 18 EDICIÓN FESTIVAL JAZZ: Alba Careta & Alba Aceytuno \"Montserrat\" + Jove Big Band Sedajazz \"In Bloom\" Fecha: 24/07/2025 Horario: 21.30 h. 18 EDICIÓN FESTIVAL JAZZ: Erik Truffaz & Antonio Lizana \"New Sketches of Spain\" Fecha: 25/07/2025 Horario: 22.00 h. 18 EDICIÓN FESTIVAL JAZZ: Ariel Brínguez Quintet \"Latidos\" + Harold López-Nussa Trío Fecha: 26/07/2025 Horario: 21.30 h. 18 EDICIÓN FESTIVAL JAZZ: Rita Payés Quintet \"De camino al camino\" Fecha: 27/07/2025 Horario: 22.00 h. Morera for President Fecha: 29/07/2025 Horario: 22.00 h. VI Gala Benéfica de Carnaval Mi Princesa Rett Fecha: 30/07/2025 Horario: 21.00 h. FLAMENCAD 2025: ANTONIO REYES Y LA FABI \"Cara y cruz de la misma moneda\" Fecha: 31/07/2025 Horario: 21.30 h. AGOSTO Noche Flamenca del Nazareno Fecha: 01/08/2025 Horario: 21.00 h. Pepe El Caja. Verano salvaje Fecha: 02/08/2025 Horario: 22.00 h. Falete “Desnudando el alma” Fecha: 03/08/2025 Horario: 21.30 h. El Tangai Festival Fecha: 05/08/2025 Horario: 20.00 h. Premio Capitán Veneno Fecha: 06/08/2025 Horario: 21.00 h. FLAMENCAD 2025: FARRU Y LA TANA \"Del Baile al Cante\" Fecha: 07/08/2025 Horario: 21.30 h. Malas compañías, homenaje a Joaquín Sabina Fecha: 08/08/2025 Horario: 22.00 h. Gala de Carnaval de los Reyes Magos Fecha: 09/08/2025 Horario: 21.00 h. La Boda de Luis Alonso Fecha: 10/08/2025 Horario: 22.00 h. Festival Martes de Carnaval Fecha: 12/08/2025 Horario: 20.30 h. Ángel Martín Fecha: 13/08/2025 Horario: 22.00 h. Borja Montón - ilusiónate Fecha: 14/08/2025 Horario: 22.00 h. Bernarda Alba – El Musical Fecha: 15/08/2025 Horario: 22.00 h. Queen forever tributo Fecha: 16/08/2025 Horario: 22.00 h. Laura Gallego – en concierto Fecha: 17/08/2025 Horario: 22.00 h. Festival me río de Janeiro Fecha: 19/08/2025 Horario: 20.30 h. Javier Ruibal “Triana – 30 aniversario Fecha: 20/08/2025 Horario: 23.00 h. FLAMENCAD 2025: ENCARNA ANILLO Y ALBA MOLINA \"La mujer y el Flamenco\" Fecha: 21/08/2025 Horario: 21.30 h. Festival Benéfico Sagrada cena Cádiz\" Fecha: 22/08/2025 Horario: 21.00 h. Diego Ramos Tributo a Julio Iglesias\" Fecha: 23/08/2025 Horario: 22.00 h. Las Leandras Fecha: 24/08/2025 Horario: 22.00 h. Bodas de Sangre – El musical Fecha: 27/08/2025 Horario: 22.00 h. Joana Jiménez Fecha: 28/08/2025 Horario: 22.00 h. Rafel Álvarez El Brujo presenta “Cómico” Fecha: 29/08/2025 Horario: 23.00 h. Guelmi – poca verguenza Fecha: 30/08/2025 Horario: 22.00 h. BSO Harry Potter y el señor de los anillos a la luz de las velas Fecha: 31/08/2025 Horario: 21.30 h. SEPTIEMBRE Carnaval, todos contra el cáncer Fecha:02/09/2025 Horario: 20.30 h. XXX FESTIVAL INTERNACIONAL FOLKLORE \"CIUDAD DE CÁDIZ Fecha:04/09/2025 Horario: 21.00 h. XXX FESTIVAL INTERNACIONAL FOLKLORE \"CIUDAD DE CÁDIZ Fecha:05/09/2025 Horario: 21.00 h. XXX FESTIVAL INTERNACIONAL FOLKLORE \"CIUDAD DE CÁDIZ Fecha:06/09/2025 Horario: 21.00 h. Plaza del Falla s/n · 11003 Cádiz Teléfono: 956 22 08 34 Diseño: i3net"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 12,
+      "nombre": "Castillo de Santa Catalina",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "http://laciudad.cadiz.es/programacion-castillo-santa-catalina.asp",
+          "http": 200,
+          "texto": "Programación de Conciertos del Castillo de Santa Catalina de Cádiz El Castillo de Santa Catalina de Cádiz es una fortificación construida sobre escollos de piedra y avanzada en el mar, cierra en su extremo la playa de la Caleta protegiendo el frente noroeste. Construido en el siglo XVII, posee planta estrellada de influencia italiana, sirviendo de prisión militar. Fue declarado Bien de Interés Cultural en 1985. PROGRAMACIÓN JULIO LINA presenta LINA_FADO CAMÔES (PORTUGAL) Fecha: 04/07/2025 Horario: 22.00 h. TARTA RELENA presenta ES PREGUNTA (CATALUÑA) Fecha: 18/07/2025 Horario: 22.00 h. LEO MIDDEA presenta LEO MIDDEA TRÍO (BRASIL) Fecha: 25/07/2025 Horario: 22.00 h. AGOSTO BRATIA presenta BALKAN POMPE IGNITION (SERBIA) Fecha: 01/08/2025 Horario: 22.00 h. PROGRAMACIÓN SUJETA A POSIBLES CAMBIOS Más info: 956 755 185 / 956 755 186 Todos los conciertos comienzan a las 22.00 h. Entrada por invitación – recogida a partir de las 20:30 h. en el Castillo de Santa Catalina el mismo día del concierto. Plaza del Falla s/n · 11003 Cádiz Teléfono: 956 22 08 34 Diseño: i3net"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 13,
+      "nombre": "Museo de Cádiz",
+      "estado": "sin_url",
+      "paginas": [],
+      "candidatos": [],
+      "error": "museosdeandalucia.es no resuelve desde el entorno; URL por localizar"
+    },
+    {
+      "id": 14,
+      "nombre": "Casa de Iberoamérica",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.casadeiberoamerica.es/",
+          "http": 200,
+          "texto": "Casa de Iberoamérica de Cádiz Novedades y programación del South Festival + ampliar información La IA protagoniza el arranque del Festival Verso Libre + ampliar información El mantón de Manila, protagonista de la nueva muestra + ampliar información El mar que nos une, en una nueva exposición + ampliar información ‘Ornamentos’, de Fernando Clemente, XI Premio de Creación Cortes de Cádiz + ampliar información ¿Qué hacer esta semana? Del 19-oct-2026 al 25-oct-2026 Exposición de Juan Luis Vassallo Exposición 'Ese Mar que Nos Une' Exposición '¿Dónde vas con mantón de Manila?' + Agenda Completa Verso Libre supera los 2.000 asistentes Verso Libre, Festival Iberoamericano de Música y Literatura , ha cerrado hoy su segunda edición con un balance de más de 2.000 asistentes a lo largo de cuatro jornadas que han convertido distintos espacios culturales de Cádiz en escenarios de encuentro entre la literatura, la música, el flamenco y el pensamiento contemporáneo. + ampliar información Tercera edición del Día del Galeón El 8 y 9 de octubre se conmemorará el III Día del Galeón , un programa que se ha presentado hoy en la Diputación Provincial con el título de ‘El Galeón de Manila: puente entre culturas’. La efeméride está organizada por la asociación Hespérides y el Ayuntamiento de Cádiz y cuenta con el respaldo de la Junta de Andalucía , la Diputación y la Fundación Cajasol . + ampliar información La innovación pública en Iberoamérica toma el protagonismo Cerca de sesenta personas expertas en innovación pública de varios países iberoamericanos acudirán a Cádiz entre el 29 de septiembre y el 2 de octubre para participar en la Semana de Innovación Pública (SIP 2026) , una de las actividades previas a la Cumbre de Jefas y Jefes de Estado que tendrá lugar este año en Madrid. + ampliar información Una obra consagrada al momento culmen de Cádiz La Universidad de Cádiz y el Ayuntamiento de Cádiz han presentado hoy en la Casa Iberoamérica el libro Emporio del Orbe: Cádiz en la Edad Moderna dentro de la programación impulsada por el Consistorio gaditano del Festival Cádiz, Emporio del Orbe. La teniente de alcalde de Cultura, Maite González , y el director de secretariado de Extensión Universitaria y Proyección Social de la Universidad de Cádiz (UCA), Manuel Ceballos , han acompañado en la presentación a uno de los editores del libro, el catedrático de Historia Moderna Arturo Morgado . El otro editor, el profesor Pablo Ortega , no ha podido estar presente en el acto. + ampliar información Tercera edición del Encuentro de Memoria Democrática El Servicio de Memoria Histórica y Democrática de Diputació n celebrará el jueves 12 de noviembre la tercera edición del Encuentro de Memoria Democrática . Este foro, al igual que en las ediciones precedentes, se reunirá en la Casa de Iberoamérica, en la capital gaditana. El programa, los ponentes y moderadores, así como el formulario de inscripción están disponibles en memoriacadiz.es . La inscripción es gratuita, si bien está limitada al aforo de la estancia. Diputación organiza este Encuentro con la colaboración del Ayuntamiento de Cádiz y la Casa de Iberoamérica . + ampliar información El Festival Verso Libre dialoga sobre Falla y las poetas del 27 El Festival Verso Libre regresa a la Casa de Iberoamérica con un diálogo sobre gastronomía, un concierto dedicado a las poetas del 27 y una conversación en torno a El amor brujo de Falla. Los actos están incluidos en la programación de la segunda edición del certamen iberoamericano de música y literatura que tendrá lugar en Cádiz entre los días 8 y 11 de octubre y que se ha presentado esta mañana en el Ayuntamiento. El festival regresa a la ciudad con doce actividades de entrada libre y una programación que este año se inspira en Atlántida —la obra cumbre e inconclusa de Manuel de Falla— para convertir Cádiz en punto de encuentro entre las dos orillas del Atlántico. Bajo el lema Atlántida: entre el verso, el cante y el mar , palabra y música volverán a programarse siempre en diálogo. + ampliar información ‘La Constitución del Mar’, Premio de los Mares Cortes de Cádiz El profesor canario Manuel Alejandro del Rosario ha sido el ganador del II Premio de los Mares y Océanos Cortes de Cádiz, que organiza el Ayuntamiento de Cádiz . La obra merecedora del galardón es La Constitución del Mar , un trabajo que se basa en la idea que el mismo autor califica como ‘casi utópica’ pero que tiene un eco histórico en Cádiz, con ‘La Pepa’. + ampliar información 5 minutos con... Marcelo Martín Guglielmino / Arquitecto, gestor cultural y artista - Argentina \"Cádiz es cientos de americanos intentando fundar una república\" Arquitecto de profesión, gestor cultural, viajero infatigable y seguramente por todo ello, artista, Marcelo Martín Guglielmino acaba de inaugurar la exposición Ensamblajes. Encajar la vida o la vida en cajas en la Sala Rivadavia de Cádiz (hasta el 4 de septiembre de 2021). Nacido en Argentina junio de 1954, cuatro décadas después se nacionalizó español. En 1980 finaliza los estudios de Arquitectura en la Universidad de Buenos Aires. Durante ese mismo período, trabaja la Revista Summa y se retira para cambiar de país y de vida. Hace crítica de arquitectura, viaja por Latinoamérica, es parte de la organización de los Seminarios de Arquitectura Latinoamericana y padre de dos hermosas niñas, Sol y Luz. En Sevilla trabaja en Obras Públicas y en Cultura, hasta que en el 2001 se hace autónomo y descubre que la gestión cultural, la museografía y el diseño de publicaciones es compatible con una vocación artística que estaba latente. Su producción de centros de interpretación y pequeños museos locales, paralelamente a la docencia y la publicación de artículos y conferencias lo llevan por toda Andalucía y gran parte de España. Esta vida ajetreada lo aleja de su primera familia y funda una segunda, hijo andaluz incluido. Esta última década la dedica a la docencia de posgrado y la gestión cultural al tiempo que se realiza plenamente como arti"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 15,
+      "nombre": "Palacio de Congresos de Cádiz",
+      "estado": "sin_url",
+      "paginas": [],
+      "candidatos": [],
+      "error": "URL por localizar"
+    },
+    {
+      "id": 16,
+      "nombre": "Cádiz CF – partidos en casa",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.cadizcf.com/partidos",
+          "http": 200,
+          "texto": "Partidos | Cádiz Club de Fútbol | Web Oficial Skip to main content Partidos agosto LALIGA HYPERMOTION · J1 Cádiz CF 0 - 0 Celta Fortuna LALIGA HYPERMOTION · J2 CD Eldense 2 - 2 Cádiz CF LALIGA HYPERMOTION · J3 Cádiz CF 1 - 1 Real Valladolid CF septiembre LALIGA HYPERMOTION · J4 UD Almería 3 - 2 Cádiz CF LALIGA HYPERMOTION · J5 Cádiz CF 0 - 1 UD Las Palmas LALIGA HYPERMOTION · J6 Cádiz CF 1 - 2 Girona FC LALIGA HYPERMOTION · J7 CD Tenerife 1 - 1 Cádiz CF octubre LALIGA HYPERMOTION · J8 Cádiz CF 4 - 0 CD Leganés LALIGA HYPERMOTION · J9 Cádiz CF 0 - 1 Real Sporting Anterior LALIGA HYPERMOTION · J10 Nuevo Los Cármenes Granada CF 2 0 Cádiz CF Partido completado Siguiente LALIGA HYPERMOTION · J11 JP Financial Estadio Cádiz CF AD Ceuta FC Match center Copa del Rey · J3 Xerez Cádiz CF noviembre LALIGA HYPERMOTION · J12 RCD Mallorca Cádiz CF LALIGA HYPERMOTION · J13 Cádiz CF Real Oviedo LALIGA HYPERMOTION · J14 SD Eibar Cádiz CF LALIGA HYPERMOTION · J15 R. Sociedad B -- : -- Cádiz CF LALIGA HYPERMOTION · J16 Cádiz CF -- : -- Córdoba CF diciembre LALIGA HYPERMOTION · J17 Burgos CF -- : -- Cádiz CF LALIGA HYPERMOTION · J18 Cádiz CF -- : -- CE Sabadell LALIGA HYPERMOTION · J19 FC Andorra -- : -- Cádiz CF enero LALIGA HYPERMOTION · J20 Cádiz CF -- : -- Albacete BP LALIGA HYPERMOTION · J21 CD Castellón -- : -- Cádiz CF LALIGA HYPERMOTION · J22 Cádiz CF -- : -- RCD Mallorca LALIGA HYPERMOTION · J23 Cádiz CF -- : -- CD Eldense LALIGA HYPERMOTION · J24 Real Oviedo -- : -- Cádiz CF febrero LALIGA HYPERMOTION · J25 Córdoba CF -- : -- Cádiz CF LALIGA HYPERMOTION · J26 Cádiz CF -- : -- R. Sociedad B LALIGA HYPERMOTION · J27 CD Leganés -- : -- Cádiz CF LALIGA HYPERMOTION · J28 Cádiz CF -- : -- UD Almería marzo LALIGA HYPERMOTION · J29 Real Sporting -- : -- Cádiz CF LALIGA HYPERMOTION · J30 Cádiz CF -- : -- Granada CF LALIGA HYPERMOTION · J31 Real Valladolid CF -- : -- Cádiz CF LALIGA HYPERMOTION · J32 Girona FC -- : -- Cádiz CF abril LALIGA HYPERMOTION · J33 Cádiz CF -- : -- CD Castellón LALIGA HYPERMOTION · J34 Celta Fortuna -- : -- Cádiz CF LALIGA HYPERMOTION · J35 Cádiz CF -- : -- FC Andorra LALIGA HYPERMOTION · J36 UD Las Palmas -- : -- Cádiz CF mayo LALIGA HYPERMOTION · J37 Cádiz CF -- : -- SD Eibar LALIGA HYPERMOTION · J38 AD Ceuta FC -- : -- Cádiz CF LALIGA HYPERMOTION · J39 Cádiz CF -- : -- Burgos CF LALIGA HYPERMOTION · J40 CE Sabadell -- : -- Cádiz CF LALIGA HYPERMOTION · J41 Cádiz CF -- : -- CD Tenerife junio LALIGA HYPERMOTION · J42 Albacete BP -- : -- Cádiz CF"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 17,
+      "nombre": "VivaCádiz",
+      "estado": "fallo",
+      "paginas": [
+        {
+          "url": "https://www.vivacadiz.es/",
+          "error": "403 Client Error: Forbidden for url: https://www.andaluciainformacion.es/cadiz/"
+        }
+      ],
+      "candidatos": [],
+      "error": "403 Client Error: Forbidden for url: https://www.andaluciainformacion.es/cadiz/"
+    },
+    {
+      "id": 18,
+      "nombre": "Hoy Cádiz",
+      "estado": "sin_url",
+      "paginas": [],
+      "candidatos": [],
+      "error": "hoycadiz.com no resuelve desde el entorno; URL por localizar"
+    },
+    {
+      "id": 19,
+      "nombre": "Guía de Cádiz – Agenda",
+      "estado": "fallo",
+      "paginas": [
+        {
+          "url": "https://www.guiadecadiz.com/es/",
+          "error": "403 Client Error: Forbidden for url: https://www.guiadecadiz.com/es/"
+        }
+      ],
+      "candidatos": [],
+      "error": "403 Client Error: Forbidden for url: https://www.guiadecadiz.com/es/"
+    },
+    {
+      "id": 20,
+      "nombre": "Eventbrite – Cádiz",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.eventbrite.es/d/spain--c%C3%A1diz/events/",
+          "http": 200,
+          "texto": null
+        }
+      ],
+      "candidatos": [
+        {
+          "nombre": "Washington Crossing the Delaware / The Crossing - Film History Livestream",
+          "fecha": "2026-12-19",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.com/e/washington-crossing-the-delaware-the-crossing-film-history-livestream-tickets-1288476210029",
+          "lugar": null,
+          "direccion": null,
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F536316699%2F37309396322%2F1%2Foriginal.20211020-221453?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C422%2C6004%2C3002&s=f271b45ddf4bb7074a185f971f034a11",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "The MI5 Archive: Official Secrets",
+          "fecha": "2026-11-27",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.co.uk/e/the-mi5-archive-official-secrets-tickets-1997551526388",
+          "lugar": null,
+          "direccion": null,
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190779296%2F2824116931731%2F1%2Foriginal.20260811-081733?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=1.0&fp-y=0.436&s=280506bd8d9da07630862e26a56088fc",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "Lean Global Connection 2026",
+          "fecha": "2026-11-12",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.com/e/lean-global-connection-2026-tickets-1992427899482",
+          "lugar": null,
+          "direccion": null,
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187560392%2F488918536279%2F1%2Foriginal.20260624-134619?crop=focalpoint&fit=crop&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.696&s=a6b1397593a8127fc3a1f2b4a1c63efc",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "Better Landscapes: Essential Camera Skills in the Field with Adam Edwards",
+          "fecha": "2026-11-11",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.com.au/e/better-landscapes-essential-camera-skills-in-the-field-with-adam-edwards-tickets-1992798149911",
+          "lugar": null,
+          "direccion": null,
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188589935%2F346512392669%2F1%2Foriginal.20260710-035802?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.063&fp-y=0.618&s=b32fd8cd4099770474c8cb6c0d490a6a",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "Psychoanalysis and (De)polarization",
+          "fecha": "2026-11-07",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.com/e/psychoanalysis-and-depolarization-tickets-2002088514642",
+          "lugar": null,
+          "direccion": null,
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173282439%2F1697274332%2F1%2Foriginal.20251219-182442?w=450&auto=format%2Ccompress&q=75&sharp=10&s=9095ae71eb4b73fbfcadf932574d630d",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "No Title, No Permission, No Problem: Harnessing the Power of Influence",
+          "fecha": "2026-11-05",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.co.uk/e/no-title-no-permission-no-problem-harnessing-the-power-of-influence-tickets-1993676700680",
+          "lugar": null,
+          "direccion": null,
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189702495%2F63677645%2F1%2Foriginal.20260727-143754?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.691&fp-y=0.467&s=e62cc18728c0ed573a52fe45a2d27ce2",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "Humanitarian Water Engineering Fall 2026",
+          "fecha": "2026-11-04",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.ca/e/humanitarian-water-engineering-fall-2026-registration-1992773753942",
+          "lugar": null,
+          "direccion": null,
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F543078039%2F258873711344%2F1%2Foriginal.20230626-155818?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=edadac96bc0d98784580d164e66aa652",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "(ONLINE) Women on the Move with Ann Patchett",
+          "fecha": "2026-10-27",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.com/e/online-women-on-the-move-with-ann-patchett-tickets-1993341229276",
+          "lugar": null,
+          "direccion": null,
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188386463%2F2802773536521%2F1%2Foriginal.20260707-171817?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4e426e1aaa50b1e115a68a04a4d677a9",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "DevFest Jerez de la Frontera",
+          "fecha": "2026-11-21",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.es/e/devfest-jerez-de-la-frontera-tickets-2000010449092",
+          "lugar": "Coworking CYEC",
+          "direccion": "{\"@type\": \"PostalAddress\", \"addressRegion\": \"AN\", \"streetAddress\": \"15 Calle Sevilla\", \"addressLocality\": \"Jerez de la Frontera\", \"addressCountry\": \"ES\", \"postalCode\": \"11402\"}",
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193038892%2F3013261730654%2F1%2Foriginal.20260909-085937?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.449&s=eb67b7b1164781e9946b9b321d55f710",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "Día Mundial de la Ecología 31 Octubre 2026",
+          "fecha": "2026-10-31",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.es/e/entradas-dia-mundial-de-la-ecologia-31-octubre-2026-2001241959573",
+          "lugar": "Venta El Florín",
+          "direccion": "{\"@type\": \"PostalAddress\", \"addressRegion\": \"AN\", \"streetAddress\": \"s/n Carretera de Fuente Amarga\", \"addressLocality\": \"Chiclana de la Frontera\", \"addressCountry\": \"ES\", \"postalCode\": \"11130\"}",
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193671681%2F712788796713%2F1%2Foriginal.20260916-170857?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c13007b03c8a5a553909ae43cac44ede",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "Tertulia Filosófica: 'El arte de decidir bien'",
+          "fecha": "2026-10-30",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371",
+          "lugar": "Nueva Acrópolis Cádiz",
+          "direccion": "{\"@type\": \"PostalAddress\", \"addressRegion\": \"\", \"streetAddress\": \"calle san Pedro nº1\", \"addressLocality\": \"Cádiz\", \"addressCountry\": \"ES\", \"postalCode\": \"11004\"}",
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191693159%2F221612058906%2F1%2Foriginal.20260823-115815?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1cd06e5aad0960ea535913d8023f4cdb",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        },
+        {
+          "nombre": "Blue Zone Forum - Innovazul - Proyectando en Azul",
+          "fecha": "2026-10-28",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.es/e/entradas-blue-zone-forum-innovazul-proyectando-en-azul-1996432248598",
+          "lugar": "Palacio de Congresos de Cádiz",
+          "direccion": "{\"@type\": \"PostalAddress\", \"addressRegion\": \"AN\", \"streetAddress\": \"s/n Calle Plocia\", \"addressLocality\": \"Cádiz\", \"addressCountry\": \"ES\", \"postalCode\": \"11006\"}",
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190186069%2F2398355917903%2F1%2Foriginal.20260803-111934?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.509&fp-y=0.208&s=4643348f59f9b65aaf4667e83db0e902",
+          "descripcion_fuente": "",
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "nombre": "En buena edad – agenda del Ayuntamiento",
+      "estado": "sin_url",
+      "paginas": [],
+      "candidatos": [],
+      "error": "enbuenaedad.es redirige a página de inhabilitación temporal de la Junta; solo contraste"
+    },
+    {
+      "id": 22,
+      "nombre": "Diario de Cádiz – agenda",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.diariodecadiz.es/",
+          "http": 200,
+          "texto": "Diario de Cádiz | Noticias de Cádiz, Andalucía y España, actualidad y última hora Cádiz abre sus puertas a las mascotas Rafael del Cuvillo La zona azul pasa a la historia en San Fernando: desconectados los parquímetros Arturo Rivera Un hombre corneado gravemente en el Toro del Barrio Bajo de Arcos Redacción Sierra Los chiringuitos de Puerto Sherry aseguran que el desmontaje ya comenzó en verano Mila Alarcón El Ayuntamiento portuense demolerá los chiringuitos de Puerto Sherry El nuevo entrenador del Cádiz CF desvela qué le pide a los jugadores y el primer objetivo J.J.N. Lo que más impactó a Borja Jiménez cuando visitó al Cádiz CF como técnico del Sporting Borja Jiménez quiere aplicar en el Cádiz CF lo que hizo en el Sporting Llega el día de cambio de hora: el horario de invierno comienza esta madrugada Redacción Diario de Cádiz El calor provoca marcas de récord en la contaminación por ozono en el Campo de Gibraltar Pilar Vera Cádiz ya tiene a sus Reyes Magos, Cartero Real y Estrella de Oriente Redacción Diario de Cádiz Antonio Orozco y Niña Pastori estrenan canción juntos con el Teatro Falla como escenario Redacción Diario de Cádiz Felipe VI se somete a una operación de cataratas en el ojo izquierdo Agencias Sánchez promete blindar el derecho al aborto y el SMI frente \"a tijeras y motosierras\" Salva Rodríguez Halloween ya está aquí: San Fernando empieza a 'disfrazarse' para la noche del 31 Arturo Rivera Muere el periodista gaditano Augusto Delkáder Juan M. Marqués Perales Opinión Augusto Antonio Hernández-Rodicio El periodista que todos hubiéramos querido ser José A. Hidalgo La defensa de la bandera andaluza en un editorial de Delkáder en el Diario J. A. H. Negro sobre negro Natalia Guerra: “Casi nadie somos lo que decimos ser y todos estamos haciendo un papel” Pedro M. Espinosa EDITORIAL Grave choque institucional El equipo de gobierno de Conil se mantendrá bajo mínimos hasta mayo Jesús Guerrero Cupibar solicita ampliar la concesión de las marismas de Barbate para acuicultura Jesús Guerrero Estas son las calles de Cádiz capital que se asfaltarán con dinero de la Diputación Redacción Diario de Cádiz La nueva estafa de WhatsApp: el falso concurso de baile para robarte la identidad Redacción Diario de Cádiz Detenido en El Puerto por poner a vigilar obras a trabajadores sin licencia profesional Redacción Diario de Cádiz El BOE eleva a 300 euros por hijo el anticipo por impago de la pensión de alimentos Redacción Diario de Cádiz Dos nuevos curas se ordenan este sábado en Cádiz P-M.D. Muiños, líder deportivo del Cádiz CF: vuelven Jesús Casas y Varela y nada se sabe de Cala J.J.N. Borja Jiménez ya ha elegido portero titular en su debut como entrenador del Cádiz CF J.J.N. Borja Jiménez quiere aplicar en el Cádiz CF lo que hizo en el Sporting Horario y dónde ver en televisión el partido Cádiz CF -Ceuta de la undécima jornada de LaLiga Hypermotion La Federación de Peñas del Cádiz CF exige medidas al club y señala a Juan Cala R.D. El Ceuta se agarra al partido de la pasada temporada para ganar en Cádiz La ciudad y los días Carlos Colón Valladolid, el cine, Vox y el PP Manual de disidencia Ignacio Martínez Tribunales en la diana Por montera Mariló Montero Transparencia cero ¡Oh, Fabio! Luis Sánchez-Moliní Quiero un sereno en mi calle La esquina José Aguilar La motosierra contra el amor calle ancha Alberto Ramos Santana Pensiones de jubilación Un fallecido y cuatro heridos en una colisión frontal en Alhaurín el Grande Pablo Benítez La Lotería Nacional deja en la provincia de Almería parte del primer y segundo premio Redacción Almería Muere un hombre de 74 años tras atragantarse en Palma del Río El Día El incendio de una autocaravana en Benagalbón obliga al corte de la A-7 durante una hora Pablo Benítez La vivienda se encarece en Jaén capital un 9,7 por ciento en un año Jesús Mudarra La alemana TCB Beverages hará en Utrera la segunda mayor fábrica de cerveza de Andalucía María Jesús Pereira Andalucía suma el 80% de la demanda eléctrica industrial pendiente de conexión a la red Raquel Montenegro Red Eléctrica defiende que programó respaldo suficiente en Ceuta el día del apagón Alberto Grimaldi Javier Gándara (Easyjet): \"los márgenes de las aerolíneas se están reduciendo\" Claudia T. Ferrero Análisis Algo gordo se cuece en economía Joaquín Aurioles La zona naranja de Chiclana genera 1,63 millones de euros, un 17,2% más que el año pasado Carmen Meléndez La Junta frena la nueva promoción de viviendas de Zahara de los Atunes Pedro M. Espinosa La ministra de Infancia destaca en la guardería de Bornos el peso de los recursos públicos Elisa Armario El juicio por los ruidos en la calle Misericordia de El Puerto, visto para sentencia Teresa Almendros Contenido ofrecido por colegio de Ingenieros Técnicos de Cádiz COGITI Cádiz reconoce con su premio Ingenio Gaditano a Naturgy Una protesta de jóvenes en Barcelona deriva en quemas, destrozos y choques con la policía Agencias Feijóo proclama que no indultará a los corruptos: \"Me encargaré de que paguen por todo\" Agencias Sánchez hace campaña junto al Guernica de Picasso Agencias Moreno avala los pactos con Vox el 29-N: \"El PP no se cierra a nada\" José Izquierdo Interior detecta una llamada yihadista a atentar contra policías y manifestantes Agencias TECNOLOGÍA Y CIENCIA OpenAI cancela el lanzamiento de su modelo GPT-6.1 Astra por problemas de seguridad Agencias Sánchez defiende \"un nuevo contrato social\" para abordar la IA La Junta cierra dos líneas de ayudas para instalar energía solar por agotar el presupuesto Redacción Andalucía El SAS también desactiva su web por riesgo de ciberseguridad Redacción Andalucía El juez pide a Patrimonio el acta de todos los regalos que recibió Zapatero M. H. \"Todo el mundo debería tener un pueblo en su vida\" Diego J. Geniz Las protestas en Francia mantienen su fuerza con menos violencia Agencias Queman el 'Nido del Águila', la famosa residencia de Hitler en Baviera Agencias La patronal pide más mano dura a Macron mientras los sindic"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 23,
+      "nombre": "La Voz de Cádiz",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.lavozdigital.es/cadiz/",
+          "http": 200,
+          "texto": "Cádiz. Noticias y actualidad informativa de Cádiz | Lavozdigital.es Saltar al contenido Cádiz José Manuel Albares en una imagen de archivo. (La Voz) Elecciones 29-N Albares participa este lunes en Cádiz en su primer acto de campaña como cabeza de lista del PSOE al Congreso en la provincia El ministro de Asuntos Exteriores reemplaza a Fernando Grande-Marlaska como número uno de los socialistas en la provincia, a pesar de que Ruiz Boix prefiriese a Margarita Robles Jesús Mejías Augusto Delkáder en una imagen de archivo. (Cedida) Obituario Fallece el periodista gaditano Augusto Delkáder Fue reconocido como Hijo Predilecto de la provincia de Cádiz y su trayectoria fue distinguida con la Medalla de Andalucía en 2002 La Voz de Cádiz | 23/10/2026 16:40h. Edificio de la Aduana de Cádiz. Urbanismo El edificio de la Aduana de Cádiz, en la Lista Roja de Patrimonio Hispania Nostra alerta del riesgo de desaparición del edificio de la Plaza de Sevilla y el Ayuntamiento incide en que el derribo se aprobó de forma unánime Ana Mendoza | 23/10/2026 15:00h. Viviendas de Manuel de Falla. (Nacho Frade) Vivienda Cádiz Cádiz destinará siete millones de euros a vivienda pública en la barriada de Manuel de Falla El Ayuntamiento llevará a Pleno una modificación de crédito para financiar nuevas actuaciones residenciales y amortizar deuda municipal Ana Mendoza | 23/10/2026 14:37h. Rueda de prensa tras la Junta de Gobierno Local. (Nacho Frade) Cádiz A licitación las obras de reurbanización de la plaza Francisca Larrea y de la glorieta Pablo Iglesias en la barriada a la Paz La Junta de Gobierno Local aprueba el pliego para la licitación de la colaboración técnica para realizar un análisis, descripción y prevaloración de los puestos de trabajo del Ayuntamiento de Cádiz Ana Mendoza | 23/10/2026 14:32h. Tandas de karting para adulto o niño Karting Jerez 17,90€ Ver Oferta Conoce Cádiz en autobús panorámico ¡Nuevas fechas! City Sightseeing 3€ Ver Oferta Excursión Cádiz Trimilenaria en catamarán Pura Vida - Septiembre Albarco.com | Cádiz 10,80€ Ver Oferta Beer Spa Cádiz + kit de regalo para dos personas Beer Spa Cádiz | Cádiz 119,99€ Ver Oferta Pulido de faros delanteros Automoción Le Mans | Cádiz 14€ Ver Oferta Imagen de archivo de la tercera edición de Blue Zone Forum. (La Voz) Economía Azul Más de 2.000 personas inscritas para la cuarta edición de Blue Zone Forum InnovAzul El delegado del Estado en la Zona Franca, Fran González, y el rector de la UCA, Casimiro Mantell, inaugurarán este miércoles el gran encuentro de Economía Azul, que se prolongará hasta el viernes Jesús Mejías | 23/10/2026 Halloween Cádiz 2026 Cádiz celebra Halloween con tres grandes espectáculos: actividades, horarios y cómo conseguir las invitaciones La programación se desarrollará los días 29, 30 y 31 de octubre con propuestas para el público infantil, juvenil y adulto, un pasaje del terror y un desfile por las calles del centro histórico Ana Mendoza | 23/10/2026 Horizonte Rural Energía y desarrollo productivo: así es el proyecto que mejora la vida de comunidades vulnerables en Brasil Daniel Méndez Un proyecto con Ana Sanjuán explica a los inquilinos el nuevo plan de rehabilitación interior. Vivienda Procasa presenta a inquilinos del parque municipal de viviendas en Cádiz el II Plan de Rehabilitación Interior A partir de diciembre se abrirá el plazo para inscribirse y poder optar a las ayudas Ana Mendoza | 23/10/2026 La concejala de Juventud e Infancia del Ayuntamiento de Cádiz, Gloria Bazán, en la presentación de los espectáculos de Halloween. (La Voz) Cádiz Halloween llega a Cádiz: Tres espectáculos terroríficos para vivir con la familia en el centro de la ciudad El Ayuntamiento presenta las actividades dirigidas al público infantil, juvenil y familiar del 29 al 31 de octubre J.M.A. | 22/10/2026 Cádiz Máximo reconocimiento a la Policía Local de Cádiz en el día de su patrón En el acto celebrado en los antiguos Depósitos de Tabaco se han reconocido actuaciones policiales que han permitido salvar vidas, rescatar a personas en peligro y propiciar un reencuentro familiar después de cuarenta años Jesús Mejías | 22/10/2026 Domingo Villero, decano de COGITI Cádiz. Cádiz COGITI Cádiz reconoce con su premio Ingenio Gaditano a Naturgy y reconoce la trayectoria profesional de sus colegiados La Gala Ingenio Gaditano 2026 se celebra este viernes 23 de octubre en los Antiguos Depósitos de Tabaco de Cádiz La Voz | 22/10/2026 A la izquierda, vista de la sábana en una fotografía normal. A la derecha, el negativo. (LA VOZ) CÁDIZ Los secretos de la Sábana Santa se desvelan en el Ateneo de Cádiz 'La Huella Sagrada', la obra que versa sobre los secretos de la reliquia de Turín, se presentará en la capital gaditana de la mano de su autor M. Almagro | 22/10/2026 Agentes de Policía Local en Cádiz. (LA VOZ) CÁDIZ El Ayuntamiento de Cádiz sufrió retrasos en la entrega de uniformes a sus policías por problemas en la adjudicación Tras haber sido condenados por no dotar de vestuario a un agente, el Consistorio asegura que este año ya han podido hacer entrega de todo el material M. Almagro | 21/10/2026 Foto de recurso de un policía local en Cádiz. (LA VOZ) CÁDIZ Un juzgado condena al Ayuntamiento de Cádiz por no dotar de uniforme a un policía local El fallo, contra el que no cabe recurso, admite la denuncia del agente ante el «silencio administrativo» del Consistorio por lo que se le tendrá que indemnizar María Almagro | 21/10/2026 Bruno García, durante la firma del documento en Madrid. (L.V.) Cádiz Cádiz se adhiere a la 'Alianza Iberoamérica 500+: Ciudades con legado para el futuro'. El alcalde, Bruno García, firma la Declaración de Santa Marta, un documento en el que los miembros de la UCCI «reconocen que son territorios que históricamente han contribuido a las construcción y desarrollo de la región iberoamericana» J.M.A. | 20/10/2026 Paco Álvarez, Míriam Ballesteros, Brenda García, Beatriz Gandullo y Pepe Mata. (NACHO FRADE) CÁDIZ Cádiz se prepara para los Tosantos, su fiest"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 24,
+      "nombre": "Cádiz Directo",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.cadizdirecto.com/",
+          "http": 200,
+          "texto": "Cádiz Directo - Noticias de Cádiz y Provincia Noticias Estas son las calles de Cádiz que se asfaltarán con el nuevo plan municipal de 845.000 euros José Luis Porquicho Prada El Cádiz CF presenta a Borja Jiménez mientras Contreras y Septien vuelven a esconderse de la prensa José Luis Porquicho Prada Llega el 'invierno gaditano' con el cierre de Los Italianos, toca despedirse del Topolino José Luis Porquicho Prada Nace la Asociación Memorial 'Eterno Carlete' para ayudar a sus dos hijas tras su fallecimiento José Luis Porquicho Prada El Ayuntamiento de Cádiz licita por 150.000 euros un estudio para analizar sus puestos de trabajo José Luis Porquicho Prada Muere un joven motorista de 24 años tras salirse de la vía en Jerez José Luis Porquicho Prada Muere Augusto Delkáder a los 76 años, una de las grandes figuras del periodismo gaditano José Luis Porquicho Prada Fin de semana de sol en la provincia de Cádiz con temperaturas de hasta 26 grados y mañanas frescas José Luis Porquicho Prada La taberna de Cádiz que abrió en 1955 y ahora recibe un reconocimiento por su valor turístico El verdadero Sandokán era de Cádiz (y no hablamos de Juan José) José Luis Porquicho Prada Cádiz será escenario de un experimento para confirmar la Teoría de la Relatividad de Einstein durante el eclipse de 2027 José Luis Porquicho Prada Qué ver este sábado 24 de octubre en la clausura del FIT de Cádiz 2026 El Cádiz CF reorganiza su estructura deportiva con los fichajes de Jesús Casas y Varela, da el mando a Muiños pero no aclara el futuro de Cala José Luis Porquicho Prada El Ayuntamiento de Cádiz licita por más de un millón de euros la reforma de dos plazas de la barriada de la Paz José Luis Porquicho Prada Te Puede Interesar Cuidado si recibes este mensaje por WhatsApp, una falsa votación puede dar acceso a tu cuenta a los estafadores José Manuel García Bautista Ni el pan más caro ni el de panadería tiene por qué ser mejor, cómo elegir uno de calidad José Manuel García Bautista ¿Cuál es el seguro de coche más barato que cumple la ley en 2026? Paqui Sánchez Ríos"
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 25,
+      "nombre": "Entradium (Cádiz)",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://entradium.com/",
+          "http": 200,
+          "texto": "entradium Conciertos Varias fechas Desde 10,20 € AFRO LATIN JAM ALL STARS TODOS LOS DOMINGOS EN MARULA CAFÉ Marula Café , Barcelona 06 nov Desde 23,00 € Carlos Sadness + Juan Belda. Gandiautor'26 Fomento, Gandia 27 nov Desde 12,00 € CONCIERTO PABLO LESUIT - OURENSE CAFÉ AURIENSE Café Auriense, Ourense Varias fechas Desde 25,00 € MICROMAMBO Café Berlín, Madrid 03 dic Desde 35,00 € Mikkey Dee en Madrid Sala Revi Live, Madrid 05 dic Desde 35,00 € Mikkey Dee en Valladolid Sala LAVA, Valladolid 06 dic Desde 35,00 € Mikkey Dee And Friends en Bilbao + Negra Calavera Sala Santana 27, Bilbao Varias fechas Desde 15,00 € THE SINFUL SOULS R&B REVUE (BLUES, R&B, SOUL) Harlem Jazz Club, Barcelona Teatro Varias fechas Desde 10,35 € Villanos - El musical de Halloween Teatro Carolina, Valencia Varias fechas Desde 25,00 € \"Intima Triana\" Flamenco Teatro, Sevilla 07 nov Desde 25,00 € Cabaret El Bicho - Burlesque y burbujas. Local, Barcelona Varias fechas Desde 16,00 € TERAPIA - Teatre TEATRO METAMORFOSIS , Barcelona Varias fechas Desde 10,99 € Comedy Gold - Bumping Mics El Medi (Bar Mediterráneo), Barcelona Varias fechas Desde 13,60 € EL GEPERUT (musical en català) LA LÍRICA DE SANT ANDREU (Casal Catòlic) Pons i Gallarza, 58, Barcelona Varias fechas Desde 13,00 € Nos va de Muerte Vodevil Circus, Alcala de Henares Varias fechas Desde 16,50 € SUBIT! Teatro Carolina, Valencia Festivales Varias fechas Desde 25,78 € METALMERIA - LONG LIVE THE LOUD FESTIVAL Sala Berlin Social Club, Almería Varias fechas Desde 7,00 € 11ª AlbaToy Feria del Coleccionismo Juego y Ocio de Albacete Pabellón Ferial del IFAB de Albacete, Albacete 13 nov Desde 117,16 € COROFONIA 2026 - I Festival Internacional de Coros Contemporáneos Assejazz Espacio Assejazz, SEVILLA 14 nov Desde 15,50 € Regreso al pasado VI Plaza de Toros Plurifuncional, Villena 21 nov Desde 5,00 € ALFAJARÍN, CULTURA ELECTRÓNICA 2026 (The Raven Clan) SALÓN CULTURAL “LA PORTAZA” , Alfajarín 09 ene Desde 12,00 € HIENAS FEST V Sala Terra, Castellón de la Plana 26 feb Desde 105,00 € Bom Demais Vinil 2027 - Valencia Varias espacios y salas. El programa con la distribución de espacios se colgará en nuestra redes, Valencia 17 jul Desde 35,00 € Madrid Splash Beats Festival 2027 Secure fenced outdoor festival site with controlled entry and exit points, medical stations, security checkpoints, restrooms, and shaded relaxation areas., Madrid Fiestas y clubs 31 oct Desde 14,65 € MUSGO 2026 MOGAMBO, TRINTXERPE, DONOSTIA 31 oct Desde 8,00 € Paparahot Edición HALLOWEEN Delulu Club (Detrás del Teatro Circo), Murcia 31 oct Desde 6,10 € HALLOWEEN by MELON PARTY (18H-00:30H) SALVAJE DISCO, Barcelona 31 oct Desde 16,00 € Halloween Party Savage, Palma de Mallorca 31 oct Desde 18,00 € ENIGMA · SÁBADO 31 OCT26 Enigma Discoteca Barcelona, Barcelona 31 oct Desde 15,00 € Metalcore Party, Halloween Edition Next Clubbing, Madrid 05 dic Desde 25,00 € The Rave Kulture - 5 diciembre Gekko Club, Santa Cruz de Tenerife Deportes 25 oct Desde 26,00 € Pilates, Bites&Social by SYN ES BARRÉ TRAFALGAR, Madrid 01 nov Desde 60,65 € VUELO EN PARAPENTE BIPLAZA- Sopelana (Bilbao) Las laderas de la playa de Barinatxe (Sopelana), Sopelana 01 nov Desde 70,32 € VUELO EN PARAPENTE BIPLAZA - Conil, El Roqueo o La Fontanilla (Cádiz) Playa de Conil, El Roqueo o La Fontanilla - Cádiz, Conil, El Roqueo o La Fontanilla (Cádiz) Varias fechas Desde 12,50 € BASQUE CROSSFIT TXAPELKETA. EDITION V BEC- BILBAO EXHIBITION CENTRE, Bilbao 21 nov Desde 20,00 € Boxeo Profesiona 21-11-2026 Castellbisbal CASAL CULTURAL I RECREATIVO , CASTELLBISBAL 12 dic Desde 17,00 € GALA POLE STUDIO DONOSTIA Centro Cultural Erribera - Erribera Kulturgunea, Astigarraga 22 dic Desde 65,00 € SB23 Manresa - Christmas Camp - 2026 ShotBasketball23 Ateneu Les Bases, Carrer dels Cintaires, 32, 08241 Manresa, Barcelona, España 31 dic Desde 11,00 € Gimnasio Sancti-Spíritus Otoño-Invierno 2024-25-26 Dependencias municipales, Sancti-Spíritus Cine 25 oct Desde 5,00 € Conoce a los bárbaros Teatre El Casal d'Amer, Amer 30 oct Desde 10,00 € El gabinet del Dr. Cagliari- BYRON CINEMUT Librería Byron, Barcelona 12 nov Desde 4,00 € Zinekluba. Paris 1900 Biteri kultur etxea, Hernani 22 nov Desde 4,50 € Tanit Teatre El Casal d'Amer, Amer 29 nov Desde 9,00 € ILIPA. EL ÚLTIMO DESAFÍO MULTICINES LOS ARCOS- UCC, Sevilla 13 dic Desde 4,50 € L’Olivia i el terratrèmol invisible Teatre El Casal d'Amer, Amer 16 dic Desde 0,97 € Cicle de Cinema Participatiu: NI CHAÎNES, NI MAÎTRES Sala Polivalent Albert Camus, Sant Lluís, Menorca Varias fechas Desde 5,00 € Núremberg Teatre El Casal d'Amer, Amer Formación Varias fechas Desde 85,00 € Taller intensivo de CANTO DE ARMÓNICOS y de iniciación al Khoomei (BARCELONA) Espacio Àgora, Barcelona Varias fechas Desde 244,09 € El poder de la naturaleza en los espacios Online, - Varias fechas Desde 60,00 € TALLER FÍLMAME Espacio Cinético TaKtá, Navalmoral de la Mata 14 nov Desde 75,00 € Aprende a calcular un canesú circular Carmen García de Mora Auditorio, aula 3 Alpaca | Auditorium, Classroom 3 Alpaca, Barcelona Varias fechas Desde 50,00 € Curso Profundización Long Form - Córdoba - Improductivos Teatro Sala El Almíbar, Córdoba 28 nov Desde 30,00 € CURSO INTENSIVO: Construcción de Personajes II: la música Sala La Dramática, Barcelona Turismo Varias fechas Desde 0,00 € V. NO GUIADA bbk Karpin BBK Karpin Fauna, Valle de Carranza Varias fechas Desde 12,90 € ENTRADA FORT BRAVO - 9.00-19.00 Fort Bravo, Tabernas, Almería Varias fechas Desde 19,53 € ESTERO NATURAL: DESPESQUES 2026 SALINA NUESTRA SEÑORA DE BELÉN (SITIO DE ENCUENTRO EN EL PUNTO LIMPIO DE CASINES A LAS 11:30), PUERTO REAL (PUNTO LIMPIO DE CASINES A LAS 11:30 ) Varias fechas Desde 25,00 € .Guided tasting and brewery tour Mallorca Beer Co, Campanet, junt restaurant Menestralia 07 nov Desde 5,00 € Ruta guiada 'Far de Porto Pi i Castell de Sant Carles' Aparcament del Dic de l'Oest, Palma 13 nov Desde 41,01 € GRATABOCA Cellers de Gratallops, Gratallops 15 nov Desde 0,00 € Visita guiada familiar al "
+        }
+      ],
+      "candidatos": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+2026-10-25T02:14:24+01:00	1	ok	0	Ayuntamiento de Cádiz – Programación cultural (Teatros de Cádiz)	
+2026-10-25T02:14:24+01:00	2	ok	0	Turismo de Cádiz – Agenda (Ayuntamiento)	
+2026-10-25T02:14:24+01:00	3	fallo	0	Onda Cádiz – Agenda	400 Client Error: Bad Request for url: https://www.ondacadiz.es/
+2026-10-25T02:14:24+01:00	4	fallo	0	Diputación de Cádiz – Agenda cultural	403 Client Error: Forbidden for url: https://www.dipucadiz.es/cultura/
+2026-10-25T02:14:24+01:00	5	ok	0	Universidad de Cádiz – actividades culturales	
+2026-10-25T02:14:24+01:00	6	sin_url	0	Deportes del Ayuntamiento de Cádiz	URL por localizar (deportes.cadiz.es no resuelve)
+2026-10-25T02:14:24+01:00	7	sin_url	0	Bibliotecas municipales / Biblioteca Provincial	URL por localizar
+2026-10-25T02:14:24+01:00	8	ok	23	Gran Teatro Falla	
+2026-10-25T02:14:24+01:00	9	ok	0	Teatro del Títere La Tía Norica	
+2026-10-25T02:14:24+01:00	10	ok	25	Sala Central Lechera	
+2026-10-25T02:14:24+01:00	11	ok	0	Baluarte de la Candelaria	
+2026-10-25T02:14:24+01:00	12	ok	0	Castillo de Santa Catalina	
+2026-10-25T02:14:24+01:00	13	sin_url	0	Museo de Cádiz	museosdeandalucia.es no resuelve desde el entorno; URL por localizar
+2026-10-25T02:14:24+01:00	14	ok	0	Casa de Iberoamérica	
+2026-10-25T02:14:24+01:00	15	sin_url	0	Palacio de Congresos de Cádiz	URL por localizar
+2026-10-25T02:14:24+01:00	16	ok	0	Cádiz CF – partidos en casa	
+2026-10-25T02:14:24+01:00	17	fallo	0	VivaCádiz	403 Client Error: Forbidden for url: https://www.andaluciainformacion.es/cadiz/
+2026-10-25T02:14:24+01:00	18	sin_url	0	Hoy Cádiz	hoycadiz.com no resuelve desde el entorno; URL por localizar
+2026-10-25T02:14:24+01:00	19	fallo	0	Guía de Cádiz – Agenda	403 Client Error: Forbidden for url: https://www.guiadecadiz.com/es/
+2026-10-25T02:14:24+01:00	20	ok	12	Eventbrite – Cádiz	
+2026-10-25T02:14:24+01:00	21	sin_url	0	En buena edad – agenda del Ayuntamiento	enbuenaedad.es redirige a página de inhabilitación temporal de la Junta; solo contraste
+2026-10-25T02:14:24+01:00	22	ok	0	Diario de Cádiz – agenda	
+2026-10-25T02:14:24+01:00	23	ok	0	La Voz de Cádiz	
+2026-10-25T02:14:24+01:00	24	ok	0	Cádiz Directo	
+2026-10-25T02:14:24+01:00	25	ok	0	Entradium (Cádiz)	
