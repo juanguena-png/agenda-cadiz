@@ -1,10 +1,34 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "reel": {
+      "instagram": {
+        "ts": "2026-10-25T12:03:02+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17973028746169781",
+          "https://www.instagram.com/reel/De6jedGx895/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-10-25T12:03:04+01:00",
+        "estado": "error",
+        "error": "subida de reel a Facebook: 400 {\"debug_info\":{\"retriable\":false,\"type\":\"NotAuthorizedError\",\"message\":\"User not authorized to perform this request\"}}",
+        "temporal": false
+      }
+    }
+  },
   "registro": [
-    "prueba real de reel (copia de posts/2026-10-29/finde)"
+    "prueba real de reel (copia de posts/2026-10-29/finde)",
+    "2026-10-25T12:03:04+01:00 ERROR reel/facebook: subida de reel a Facebook: 400 {\"debug_info\":{\"retriable\":false,\"type\":\"NotAuthorizedError\",\"message\":\"User not authorized to perform this request\"}}"
   ],
   "revision_final": {
     "hecha": true,
     "ts": "2026-10-25T12:01:24+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 3,
+    "total": 100,
+    "ts": "2026-10-25T12:01:26+01:00"
+  },
+  "ultima_ejecucion": "2026-10-25T12:03:04+01:00"
 }
