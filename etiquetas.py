@@ -43,6 +43,64 @@ def verificar(usuario):
         return False, None, None
 
 
+def instagram_en_web(url):
+    """Perfiles de Instagram enlazados en una web OFICIAL (usuario, existe_en_API, nombre real). Es la fuente más fiable para descubrir el perfil de un organizador."""
+    import requests
+    UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
+    try:
+        r = requests.get(url, headers=UA, timeout=30)
+        html = r.text if r.status_code < 400 else None
+    except requests.RequestException:
+        html = None
+    if not html:
+        try:
+            import imagenes
+            html = imagenes.html_con_navegador(url)
+        except Exception:
+            html = None
+    usuarios = []
+    for u in re.findall(r"instagram\.com/([A-Za-z0-9._]{3,30})/?", html or ""):
+        u = u.lower().rstrip(".")
+        if u not in usuarios and u not in ("p", "reel", "reels", "explore", "accounts", "stories", "tv", "about", "developer", "legal", "web", "direct"):
+            usuarios.append(u)
+    out = []
+    for u in usuarios[:10]:
+        ok, n, sg = verificar(u)
+        out.append((u, ok, n, sg))
+    return out
+
+
+def variantes(nombre):
+    """Posibles usuarios de Instagram a partir de un nombre (sin acentos, junto, con _ o . y con sufijos habituales de Cádiz)."""
+    base = re.sub(r"[^a-z0-9 ]", "", _norm(nombre)).strip()
+    sin_art = re.sub(r"\b(de|del|la|el|los|las|y|en)\b", " ", base)
+    out = []
+    for b in (base, sin_art):
+        pal = b.split()
+        if not pal:
+            continue
+        for sep in ("", "_", "."):
+            out.append(sep.join(pal))
+        for suf in ("cadiz", "oficial", "_oficial", "_cadiz", "cadiz_"):
+            out.append("".join(pal) + suf)
+        out.append("".join(pal[:2]))
+        out.append("".join(pal[:1]) + "".join(pal[-1:]))
+    vistos = []
+    for u in out:
+        if 3 <= len(u) <= 30 and u not in vistos:
+            vistos.append(u)
+    return vistos
+
+
+def buscar(nombre, maximo=14):
+    """Prueba variantes del nombre con la API oficial y devuelve [(usuario, nombre_real, seguidores)]. El agente DEBE comprobar que el nombre es el correcto y de Cádiz capital."""
+    from concurrent.futures import ThreadPoolExecutor
+    cand = variantes(nombre)[:maximo]
+    with ThreadPoolExecutor(6) as ex:
+        res = list(ex.map(verificar, cand))
+    return [(u, n, sg) for u, (ok, n, sg) in zip(cand, res) if ok]
+
+
 def para_evento(ev):
     """Usuarios (sin @) a etiquetar en un evento: etiquetas_ig explícitas válidas + coincidencias del directorio."""
     dir_ = directorio()
@@ -78,6 +136,8 @@ if __name__ == "__main__":
     ap.add_argument("--verificar", nargs="+")
     ap.add_argument("--anadir", nargs="+", metavar=("USUARIO", "NOMBRE"))
     ap.add_argument("--evento")
+    ap.add_argument("--web", nargs="+", metavar="URL", help="busca los enlaces de Instagram en webs oficiales de organizadores/recintos")
+    ap.add_argument("--buscar", nargs="+", metavar="NOMBRE", help="prueba variantes de cada nombre y muestra los perfiles que existen (hay que comprobar que son los correctos)")
     a = ap.parse_args()
     if a.verificar:
         for u in a.verificar:
@@ -92,6 +152,16 @@ if __name__ == "__main__":
         d.setdefault("perfiles", {})[limpiar(u)] = {"nombre": nombre, "claves": [_norm(c) for c in claves]}
         ag.guardar_json(RUTA, d)
         print(f"Añadido @{limpiar(u)} ({real}, {seg} seguidores). Comprueba que es de Cádiz capital.")
+    elif a.web:
+        for u in a.web:
+            print(f"## {u}")
+            for us, ok, n, sg in instagram_en_web(u):
+                print(f"   @{us} | {'verificado API: ' + str(n) + ' (' + str(sg) + ')' if ok else 'cuenta no profesional/no verificable por API'}")
+    elif a.buscar:
+        for n in a.buscar:
+            print(f"## {n}")
+            for u, nom, sg in buscar(n):
+                print(f"   @{u} | {nom} | {sg} seguidores")
     elif a.evento:
         for ev in ag.cargar_eventos(__import__("pathlib").Path(a.evento).parent)["eventos"]:
             print(ev["nombre"][:60], "->", [f"@{u}" for u in para_evento(ev)])

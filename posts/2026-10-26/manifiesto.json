@@ -7,9 +7,11 @@
       "tipo": "portada",
       "etiquetas": [
         "univcadiz",
+        "ucaculturacadiz",
         "casadeiberoamerica",
         "fundacioncajasol",
-        "ayuntamientocadiz"
+        "ayuntamientocadiz",
+        "mercadovirgendelrosario"
       ],
       "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, lunes 26 de octubre. 6 planes."
     },
@@ -20,7 +22,8 @@
         "expo-campos"
       ],
       "etiquetas": [
-        "univcadiz"
+        "univcadiz",
+        "ucaculturacadiz"
       ],
       "alt_text": "Eventos: Exposición «Campos de concentración en la provincia de Cádiz» (todo el día, Biblioteca de Humanidades · Facultad de Filosofía y Letras (UCA))"
     },
@@ -64,7 +67,8 @@
         "tosantos-exornos"
       ],
       "etiquetas": [
-        "ayuntamientocadiz"
+        "ayuntamientocadiz",
+        "mercadovirgendelrosario"
       ],
       "alt_text": "Eventos: Tosantos: concurso de exornos en los mercados (18:00, Mercado Central y Mercado Virgen del Rosario)"
     },
@@ -75,7 +79,8 @@
         "tosantos-infantil"
       ],
       "etiquetas": [
-        "ayuntamientocadiz"
+        "ayuntamientocadiz",
+        "mercadovirgendelrosario"
       ],
       "alt_text": "Eventos: Tosantos: gala de circo y talleres infantiles (18:00, Mercado Central y Mercado Virgen del Rosario)"
     }
