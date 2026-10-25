@@ -146,6 +146,37 @@ def parser_ayto(fuente, ventana):
     return unicos, errores
 
 
+def parser_bacantix(fuente, ventana):
+    """Venta de entradas oficial del Ayuntamiento (Teatros de Cádiz) en Bacantix: la web se pinta con JavaScript, se renderiza con Chromium
+    y se leen los atributos data-* de cada tarjeta (título, fechas, recinto, sinopsis)."""
+    import render as rd
+    ini, fin = ventana
+    out = []
+    with rd.Renderer() as r:
+        pg = r.browser.new_page(user_agent=IMG_UA["User-Agent"], locale="es-ES")
+        pg.goto(fuente["urls"][0], wait_until="networkidle", timeout=60000)
+        pg.wait_for_timeout(1500)
+        tarjetas = pg.evaluate("""() => [...document.querySelectorAll('article[data-literalespectaculo]')].map(a => ({
+            nombre: a.dataset.literalespectaculo, ini: a.dataset.fechainicio, fin: a.dataset.fechafin, tipo: (a.dataset.tipoevento || '').split('|')[1] || '',
+            busc: a.dataset.buscarevento || '', agotado: /agotado/i.test(a.innerText), enlace: (a.querySelector('a[href]') || {}).href || ''}))""")
+        pg.close()
+    for t in tarjetas:
+        try:
+            f0, f1 = date(int(t["ini"][:4]), int(t["ini"][4:6]), int(t["ini"][6:])), date(int(t["fin"][:4]), int(t["fin"][4:6]), int(t["fin"][6:]))
+        except Exception:
+            continue
+        partes = t["busc"].split("|")
+        lugar = next((x for x in reversed(partes) if x.strip()), "")
+        sinopsis = re.sub(r"\s+", " ", partes[1] if len(partes) > 1 else "")[:600]
+        for i in range((fin - ini).days + 1):
+            dia = ini + timedelta(days=i)
+            if f0 <= dia <= f1:
+                out.append({"nombre": t["nombre"], "categoria_fuente": t["tipo"].lower(), "fecha": dia.isoformat(), "fecha_inicio_evento": f0.isoformat(),
+                            "fecha_fin_evento": f1.isoformat(), "lugar": lugar, "descripcion_fuente": sinopsis, "agotado": t["agotado"],
+                            "url": t["enlace"] or fuente["urls"][0], "multidia": f0 != f1, "permanente": False})
+    return out, 0
+
+
 def parser_laciudad(r, fuente):
     """Páginas de programación de recintos de laciudad.cadiz.es (bloques .eventitem bajo h3 de mes)."""
     s = BeautifulSoup(r.text, "lxml")
@@ -203,17 +234,21 @@ def parser_texto(r, fuente):
 
 
 IMG_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept-Language": "es-ES,es;q=0.9"}
-PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto}
+PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto}
 
 
 def procesar(fuente, ventana=None):
     res = {"id": fuente["id"], "nombre": fuente["nombre"], "estado": "ok", "paginas": [], "candidatos": []}
+    if fuente.get("via") == "web" or fuente.get("activa") is False:
+        res.update(estado="web" if fuente.get("via") == "web" else "inactiva", error=fuente.get("nota", ""))
+        res["consulta_web"] = {"fuente": fuente["nombre"], "urls": fuente.get("urls", []), "busqueda": fuente.get("consulta", ""), "nota": fuente.get("nota", "")}
+        return res
     if not fuente["urls"]:
         res.update(estado="sin_url", error=fuente.get("nota", "URL por localizar"))
         return res
-    if fuente["parser"] == "ayto":
+    if fuente["parser"] in ("ayto", "bacantix"):
         try:
-            cands, errores = parser_ayto(fuente, ventana)
+            cands, errores = (parser_ayto if fuente["parser"] == "ayto" else parser_bacantix)(fuente, ventana)
             for c in cands:
                 c.update(fuente_id=fuente["id"], fuente=fuente["nombre"], provincial=fuente["provincial"], tipo_fuente=fuente["tipo"])
             res["candidatos"] = cands
@@ -280,13 +315,18 @@ def main():
             print(f"{f['id']:>2} {f['estado']:<8} {f['candidatos']:>3}  {f['nombre']}  {f.get('error') or ''}")
         return
     carpeta = ag.dir_dia(ini)
+    consultas = [r["consulta_web"] for r in resultados if r.get("consulta_web")]
+    for c in consultas:  # búsquedas listas para el agente, con el mes/año de la ventana
+        c["busqueda"] = c["busqueda"].replace("{mes}", ag.MESES[ini.month - 1]).replace("{año}", str(ini.year)).replace("{fecha}", f"{ini.day} de {ag.MESES[ini.month - 1]} de {ini.year}")
     ag.guardar_json(carpeta / "candidatos.json", {"generado": ag.ahora().isoformat(timespec="seconds"), "ventana": [ini.isoformat(), fin.isoformat()],
-                                                  "candidatos": cands, "fuentes": resultados})
+                                                  "candidatos": cands, "fuentes": resultados, "consultas_web": consultas,
+                                                  "instruccion": "Consulta TODAS las 'consultas_web' con WebFetch/WebSearch cada día (fuentes que bloquean a los bots o no se pueden leer con el script) y revisa el texto de las fuentes sin parser."})
     with open(ag.RAIZ / "registros" / "fuentes.log", "a", encoding="utf-8") as fh:
         for f in fuentes_log:
             fh.write(f"{ag.ahora().isoformat(timespec='seconds')}\t{f['id']}\t{f['estado']}\t{f['candidatos']}\t{f['nombre']}\t{f.get('error') or ''}\n")
+    print(f"{len(consultas)} fuentes para consultar con WebFetch/WebSearch (ver consultas_web en candidatos.json)")
     print(f"{len(cands)} candidatos en la ventana; fuentes ok: {sum(f['estado'] == 'ok' for f in fuentes_log)}/{len(fuentes_log)}")
-    fallos = [f["nombre"] for f in fuentes_log if f["estado"] != "ok"]
+    fallos = [f["nombre"] for f in fuentes_log if f["estado"] not in ("ok", "web", "inactiva")]
     if fallos:
         print("Fuentes sin respuesta:", "; ".join(fallos))
 

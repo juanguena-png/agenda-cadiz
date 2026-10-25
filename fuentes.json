@@ -66,12 +66,14 @@
     },
     {
       "id": 7,
-      "nombre": "Bibliotecas municipales / Biblioteca Provincial",
+      "nombre": "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
       "tipo": "oficial",
       "urls": [],
       "parser": "texto",
       "provincial": false,
-      "nota": "URL por localizar"
+      "nota": "Municipales: red del Ayuntamiento. Provincial: Junta de Andalucía publica un PDF mensual",
+      "via": "web",
+      "consulta": "Bibliotecas municipales de Cádiz actividades {mes} {año} cuentacuentos talleres club de lectura; Biblioteca Provincial de Cádiz programación de actividades {mes} {año} (PDF en cdn.juntadeandalucia.es)"
     },
     {
       "id": 8,
@@ -130,7 +132,9 @@
       "urls": [],
       "parser": "texto",
       "provincial": false,
-      "nota": "museosdeandalucia.es no resuelve desde el entorno; URL por localizar"
+      "nota": "museosdeandalucia.es no resuelve desde el contenedor: consultar con WebFetch/WebSearch (Plaza de Mina, Cádiz)",
+      "via": "web",
+      "consulta": "Museo de Cádiz exposiciones temporales y actividades {mes} {año}; Casa Pinillos Cádiz exposición {mes} {año}; Museo y Teatro Romano de Cádiz actividades"
     },
     {
       "id": 14,
@@ -146,10 +150,12 @@
       "id": 15,
       "nombre": "Palacio de Congresos de Cádiz",
       "tipo": "recinto",
-      "urls": [],
+      "urls": [
+        "https://palaciocongresos-cadiz.com/eventos/"
+      ],
       "parser": "texto",
       "provincial": false,
-      "nota": "URL por localizar"
+      "nota": "Web oficial; páginas /eventos/<tipo>/ con 'Próximos eventos'"
     },
     {
       "id": 16,
@@ -160,18 +166,23 @@
       ],
       "parser": "texto",
       "provincial": false,
-      "nota": "Estadio Nuevo Mirandilla (Cádiz capital). Solo partidos como local"
+      "nota": "La web bloquea al script (403): consultar con WebFetch. Solo partidos como local en Cádiz capital; confirmar día y hora",
+      "via": "web",
+      "consulta": "Cádiz CF próximo partido en casa fecha y hora {mes} {año} Estadio Nuevo Mirandilla"
     },
     {
       "id": 17,
       "nombre": "VivaCádiz",
       "tipo": "agregador",
       "urls": [
-        "https://www.vivacadiz.es/"
+        "https://www.vivacadiz.es/",
+        "https://www.andaluciainformacion.es/cadiz/"
       ],
       "parser": "texto",
       "provincial": false,
-      "nota": "/eventos redirige a andaluciainformacion.es (404); localizar sección de agenda"
+      "nota": "403 al script",
+      "via": "web",
+      "consulta": "VivaCádiz agenda eventos Cádiz {fecha}"
     },
     {
       "id": 18,
@@ -180,7 +191,9 @@
       "urls": [],
       "parser": "texto",
       "provincial": false,
-      "nota": "hoycadiz.com no resuelve desde el entorno; URL por localizar"
+      "nota": "Dominio no localizado; buscar con WebSearch",
+      "via": "web",
+      "consulta": "Hoy Cádiz agenda eventos planes Cádiz {fecha}"
     },
     {
       "id": 19,
@@ -190,7 +203,10 @@
         "https://www.guiadecadiz.com/es/"
       ],
       "parser": "texto",
-      "provincial": true
+      "provincial": true,
+      "via": "web",
+      "consulta": "Guía de Cádiz agenda eventos Cádiz capital {fecha}",
+      "nota": "PROVINCIAL; 403 al script; filtrar Cádiz capital"
     },
     {
       "id": 20,
@@ -209,7 +225,8 @@
       "urls": [],
       "parser": "texto",
       "provincial": false,
-      "nota": "enbuenaedad.es redirige a página de inhabilitación temporal de la Junta; solo contraste"
+      "nota": "enbuenaedad.es devuelve página de inhabilitación temporal de la Junta; reactivar si vuelve",
+      "activa": false
     },
     {
       "id": 22,
@@ -339,6 +356,147 @@
       "parser": "texto",
       "provincial": true,
       "nota": "filtrar Cádiz capital"
+    },
+    {
+      "id": 34,
+      "nombre": "Venta de entradas del Ayuntamiento (Bacantix · Teatros de Cádiz)",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz"
+      ],
+      "parser": "bacantix",
+      "provincial": false
+    },
+    {
+      "id": 35,
+      "nombre": "Onda Cádiz – Agenda de eventos",
+      "tipo": "oficial",
+      "urls": [
+        "https://ondacadiz.es/agenda-de-eventos"
+      ],
+      "parser": "texto",
+      "provincial": false
+    },
+    {
+      "id": 36,
+      "nombre": "Agenda Cádiz (agendacadiz.com)",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.agendacadiz.com/"
+      ],
+      "parser": "texto",
+      "provincial": false
+    },
+    {
+      "id": 37,
+      "nombre": "Cádiz Cultura",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.cadizcultura.com/"
+      ],
+      "parser": "texto",
+      "provincial": false
+    },
+    {
+      "id": 38,
+      "nombre": "La Ganzúa – conciertos en Cádiz",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.laganzua.net/conciertos/cadiz/2026"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 39,
+      "nombre": "Tickentradas",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.tickentradas.com/"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 40,
+      "nombre": "Fundación Cajasol",
+      "tipo": "recinto",
+      "urls": [
+        "https://fundacioncajasol.com/"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 41,
+      "nombre": "Diario Bahía de Cádiz – Cádiz",
+      "tipo": "prensa",
+      "urls": [
+        "https://www.diariobahiadecadiz.com/cadiz"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 42,
+      "nombre": "Planomato – planes en Cádiz",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.planomato.com/es/cadiz"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "via": "web",
+      "consulta": "Planomato Cádiz planes eventos {fecha}",
+      "nota": "403 al script: WebFetch"
+    },
+    {
+      "id": 43,
+      "nombre": "El Corte Inglés Entradas – Cádiz",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.elcorteingles.es/entradas/cultura/cadiz/"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "via": "web",
+      "consulta": "El Corte Inglés entradas Cádiz exposiciones espectáculos {mes} {año}",
+      "nota": "403 al script: WebFetch"
+    },
+    {
+      "id": 44,
+      "nombre": "Ticketmaster / Giglon – Cádiz",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.ticketmaster.es/"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "via": "web",
+      "consulta": "Ticketmaster conciertos Cádiz {mes} {año}; Giglon conciertos Cádiz {mes} {año}",
+      "nota": "403 al script: WebSearch"
+    },
+    {
+      "id": 45,
+      "nombre": "Teatro Romano de Cádiz, Torre Tavira y Catedral",
+      "tipo": "recinto",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Teatro Romano de Cádiz actividades {mes} {año}; Torre Tavira Cádiz actividades {mes} {año}; Catedral de Cádiz conciertos y actos {mes} {año}",
+      "nota": "Sin web consultable por script"
+    },
+    {
+      "id": 46,
+      "nombre": "Salas y locales de conciertos de Cádiz",
+      "tipo": "recinto",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "conciertos Cádiz {fecha} sala; teatro y monólogos Cádiz {fecha}; eventos infantiles Cádiz {fecha}; mercadillos y ferias Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria por categorías"
     }
   ]
 }

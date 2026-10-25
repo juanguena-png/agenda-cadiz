@@ -17,9 +17,14 @@
       "descripcion": "Muestra sobre el mar como lazo de unión, organizada por Cádiz 2012, la Zona Franca y la Real Academia de Bellas Artes. Hasta el 30 de octubre.",
       "info": "Horario de la sala: L–V 9:00–21:00 · casadeiberoamerica.es",
       "imagen": {
-        "archivo": "",
-        "alt_text": "Imagen genérica de exposición: un marco de cuadro sobre fondo azul mar con un sol amarillo",
-        "intento_oficial": "La web de la Casa de Iberoamérica enlaza imágenes que devuelven 404: se usa la genérica"
+        "archivo": "posts/2026-10-26/img/cdi-ese-mar-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "barco",
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «Ese mar que nos une»»: composición con barco, marco en azul mar, blanco y amarillo"
       },
       "fuentes": [
         {
@@ -49,8 +54,15 @@
       "descripcion": "Ruta del galeón contada con 27 mantones de colección, una maqueta de galeón y obras del Museo Cruz Herrera. Hasta el 9 de enero de 2027.",
       "info": "Horario de la sala: L–V 9:00–21:00 · casadeiberoamerica.es",
       "imagen": {
-        "archivo": "",
-        "alt_text": "Imagen genérica de exposición: un marco de cuadro sobre fondo azul mar con un sol amarillo"
+        "archivo": "posts/2026-10-26/img/cdi-manton-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "mantón",
+          "marco",
+          "barco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo"
       },
       "fuentes": [
         {

@@ -60,9 +60,16 @@ def resolver_imagenes(eventos, carpeta):
         cand = [Path(carpeta) / img.get("archivo", "_"), ag.RAIZ / img.get("archivo", "_")]
         ruta = next((c for c in cand if img.get("archivo") and c.is_file()), None)
         if ruta is None:
-            ruta = PLANTILLA / "sin-foto" / f"{ev.get('categoria', 'otros')}.png"
-            img.update(archivo=str(ruta.relative_to(ag.RAIZ)), generica=True,
-                       alt_text=img.get("alt_text") or f"Imagen genérica de la categoría {ev.get('categoria', 'otros')}")
+            # Sin imagen oficial: ilustración PROPIA relacionada con el evento (ilustrar.py). La genérica de categoría es el último recurso.
+            try:
+                import ilustrar
+                img.clear()
+                img.update(ilustrar.generar(ev, Path(carpeta) / "img"))
+                ruta = ag.RAIZ / img["archivo"] if not Path(img["archivo"]).is_absolute() else Path(img["archivo"])
+            except Exception:
+                ruta = PLANTILLA / "sin-foto" / f"{ev.get('categoria', 'otros')}.png"
+                img.update(archivo=str(ruta.relative_to(ag.RAIZ)), generica=True,
+                           alt_text=img.get("alt_text") or f"Imagen genérica de la categoría {ev.get('categoria', 'otros')}")
         img.setdefault("alt_text", f"Imagen de {ev.get('nombre', 'evento')}")
         if not img["alt_text"]:
             img["alt_text"] = f"Imagen de {ev.get('nombre', 'evento')}"
@@ -177,6 +184,13 @@ def render_dia(fecha, tipo="diario", var=None):
         print(f"[{tipo}] {len(validos)} eventos verificados: no se genera nada (regla 9).")
         return None
     resolver_imagenes(validos, carpeta)
+    # Persistir en eventos.json la imagen definitiva de cada evento (oficial, ilustración propia o genérica), sin rutas temporales
+    por_id = {e.get("id"): e for e in validos}
+    for e in datos.get("eventos", []):
+        v = por_id.get(e.get("id"))
+        if v:
+            e["imagen"] = {k: x for k, x in v["imagen"].items() if k != "ruta_abs"}
+    ag.guardar_json(carpeta / "eventos.json", datos)
     var = var or variante(fecha)
     with Renderer() as r:
         man = {"variante": var, "paleta": paleta(fecha), "carrusel": render_carrusel(r, validos, tipo, fecha, carpeta / "carrusel", var)}

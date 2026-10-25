@@ -103,7 +103,7 @@ def validar_evento(ev):
     if v.get("confirmado") is not True or not v.get("evidencia") or not v.get("url"):
         e.append("SIN verificación de Cádiz capital (evidencia + URL): se descarta")
     img = ev.get("imagen") or {}
-    if img.get("archivo") and not img.get("generica") and not (img.get("url_origen") and img.get("fuente")):
+    if img.get("archivo") and not img.get("generica") and not img.get("generada") and not (img.get("url_origen") and img.get("fuente")):
         e.append("imagen oficial sin url_origen/fuente")
     return e
 

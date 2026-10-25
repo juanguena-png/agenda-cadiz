@@ -1,10 +1,11 @@
 {
   "publicaciones": {},
   "registro": [
-    "2026-10-25T02:29:53+01:00 diario: render OK (2 eventos, variante B)"
+    "2026-10-25T02:41:30+01:00 diario: render OK (2 eventos, variante B)",
+    "2026-10-25T02:41:31+01:00 borrador diario: 3 publicaciones preparadas, nada publicado"
   ],
   "revision_final": {
     "hecha": true,
-    "ts": "2026-10-25T02:29:53+01:00"
+    "ts": "2026-10-25T02:41:31+01:00"
   }
 }
