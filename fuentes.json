@@ -1007,6 +1007,19 @@
    "via": "web",
    "provincial": false,
    "nota": "Teatro de pequeño formato y talleres de la Fundación Municipal de Cultura; revisar fichas de cada centro cultural."
+  },
+  {
+   "id": 90,
+   "nombre": "Antiguos Depósitos de Tabaco – agenda semanal",
+   "tipo": "oficial",
+   "urls": [
+    "https://vivirediciones.es/depositos-cadiz-agenda-semanal-cursos-formacion/",
+    "https://edusi.cadiz.es/",
+    "https://transparencia.cadiz.es/"
+   ],
+   "via": "web",
+   "provincial": false,
+   "nota": "Agenda diaria del espacio municipal (Av. Marconi 34, Cádiz): talleres puntuales (Martes del Empleo, ERACIS+), mesas sectoriales, exposiciones y ludoteca. Publicada cada semana por el Ayuntamiento y recogida en vivirediciones.es."
   }
  ]
 }
