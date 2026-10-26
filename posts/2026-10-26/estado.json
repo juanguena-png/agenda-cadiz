@@ -111,11 +111,13 @@
     "2026-10-25T02:41:31+01:00 borrador diario: 3 publicaciones preparadas, nada publicado",
     "2026-10-25T21:28:37+01:00 diario: render OK (6 eventos, variante B)",
     "2026-10-25T21:40:32+01:00 diario: render OK (6 eventos, variante B)",
-    "2026-10-26T08:00:15+01:00 diario: render OK (6 eventos, variante B)"
+    "2026-10-26T08:00:15+01:00 diario: render OK (6 eventos, variante B)",
+    "2026-10-26T17:22:35+01:00 diario: render OK (6 eventos, variante B)",
+    "2026-10-26T17:23:11+01:00 diario: render OK (6 eventos, variante B)"
   ],
   "revision_final": {
     "hecha": true,
-    "ts": "2026-10-26T08:00:27+01:00"
+    "ts": "2026-10-26T17:23:21+01:00"
   },
   "limite_publicaciones": {
     "uso": 17,
