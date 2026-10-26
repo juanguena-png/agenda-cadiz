@@ -107,19 +107,17 @@ def comentarios_fb():
 def mensajes(plataforma):
     page = ag.secreto("FB_PAGE_ID")
     out = []
-    params = {"fields": "id,link,messages.limit(5){id,message,from,created_time}", "limit": 25}
+    params = {"fields": "id,link,messages.limit(8){id,message,from,created_time}", "limit": 25}
     if plataforma == "instagram":
         params["platform"] = "instagram"
+    propios = {page, ag.secreto("IG_USER_ID")}
     for conv in api("GET", f"{page}/conversations", **params).get("data", []):
-        ms = (conv.get("messages") or {}).get("data", [])
-        if not ms:
-            continue
-        ult = ms[0]  # el más reciente; si lo escribió la propia página/cuenta (nuestra respuesta), ya está atendido
-        propios = {page, ag.secreto("IG_USER_ID")}
-        if (ult.get("from") or {}).get("id") in propios:
-            continue
-        out.append({"id": ult["id"], "plataforma": plataforma, "tipo": "mensaje", "texto": ult.get("message", ""), "autor": (ult.get("from") or {}).get("name"),
-                    "autor_id": (ult.get("from") or {}).get("id"), "enlace": conv.get("link"), "ts": ult.get("created_time")})
+        # TODOS los mensajes del usuario posteriores a nuestra última respuesta (puede escribir varios seguidos: «PLANES» y luego «FINDE»)
+        for m in (conv.get("messages") or {}).get("data", []):
+            if (m.get("from") or {}).get("id") in propios:
+                break
+            out.append({"id": m["id"], "plataforma": plataforma, "tipo": "mensaje", "texto": m.get("message", ""), "autor": (m.get("from") or {}).get("name"),
+                        "autor_id": (m.get("from") or {}).get("id"), "enlace": conv.get("link"), "ts": m.get("created_time")})
     return out
 
 
@@ -252,7 +250,7 @@ def recoger():
         if clave and publicar:
             try:
                 if responder_clave(it, claves()[clave]):
-                    visto.add(it["id"]); estado = f"respondido automáticamente (palabra clave {clave})"
+                    visto.add(it["id"]); pendientes.pop(it["id"], None); estado = f"respondido automáticamente (palabra clave {clave})"
                     print(f"Palabra clave {clave}: respondido {it['id']}")
                     avisar(it, estado); continue
             except ErrorAPI as e:
