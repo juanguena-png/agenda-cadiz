@@ -26,18 +26,62 @@ def claves():
     return ag.cargar_json(CLAVES, {"PLANES": "diario", "FINDE": "finde"})
 
 
-def agenda_para(tipo):
-    """Resumen de la agenda correspondiente (primeras líneas del caption más reciente de ese tipo)."""
+EMOJI = {"música": "🎶", "teatro": "🎭", "infantil": "🧒", "exposición": "🖼️", "deporte": "⚽", "gastronomía": "🍽️", "fiesta": "🎉", "otros": "✨"}
+
+
+def _linea_evento(ev, con_dia=False):
+    """Dos líneas por plan: «🎶 20:00 · Nombre» y «📍 Lugar · precio»."""
+    hora = "Todo el día" if (ev.get("todo_el_dia") or not ev.get("hora_inicio")) else (f"{ev['hora_inicio']}–{ev['hora_fin']}" if ev.get("hora_fin") else ev["hora_inicio"])
+    emo = EMOJI.get(ev.get("categoria"), "✨")
+    dia = (ev.get("fecha_txt") or "") if con_dia else ""
+    sin_hora = hora == "Todo el día"
+    partes = [x for x in (dia, None if sin_hora else hora) if x]
+    cab = f"{emo} {' · '.join(partes)} · {ev['nombre']}" if partes else f"{emo} {ev['nombre']}"
+    detalle = " · ".join(x for x in (ev.get("lugar"), ev.get("precio") if ev.get("precio") not in (None, "", "Consultar") else None) if x)
+    return f"{cab}\n📍 {detalle}" if detalle else cab
+
+
+def mensaje_agenda(tipo):
+    """Texto de respuesta para PLANES/FINDE, construido desde los eventos verificados (NO es el caption: sin hashtags, CTA ni créditos).
+    Devuelve (cabecera, cuerpo, pie) o None si no hay agenda."""
     from datetime import timedelta
     hoy = ag.hoy()
     sub = {"diario": None, "finde": "finde"}[tipo]
-    for d in range(0, 35):
-        base = ag.RAIZ / "posts" / (hoy - timedelta(days=d)).isoformat() / (sub or "")
-        for nombre in ("lista.txt", "caption.txt"):  # lista.txt = lista completa de eventos (el caption del reel es corto)
-            c = base / nombre
-            if c.exists():
-                return c.read_text(encoding="utf-8")
+    for d in range(0, 8 if tipo == "finde" else 1):
+        f = (hoy - timedelta(days=d)).isoformat()
+        carpeta = ag.RAIZ / "posts" / f / (sub or "")
+        if not (carpeta / "eventos.json").exists():
+            continue
+        evs = ag.eventos_validos(ag.cargar_eventos(carpeta).get("eventos", []), log=lambda m: None)
+        if not evs:
+            continue
+        if tipo == "diario":
+            fijos = [e for e in evs if e.get("etiqueta") == "Siempre abierto"]
+            con_hora = ag.ordenar([e for e in evs if e not in fijos])
+            partes = []
+            if con_hora:
+                partes.append("\n\n".join(_linea_evento(e) for e in con_hora))
+            if fijos:
+                partes.append("🕘 Siempre abierto hoy\n\n" + "\n\n".join(_linea_evento(e) for e in ag.ordenar(fijos)))
+            cab = f"¡Hola! 👋 Esto es lo que hay hoy en Cádiz ({ag.fecha_larga(f)}):"
+            pie = "Cada día a las 9:00 publicamos la agenda completa de Cádiz capital. ¡Guárdala y compártela!"
+        else:
+            dias = {}
+            for e in ag.ordenar(evs, por_fecha=True):
+                dias.setdefault(e.get("fecha"), []).append(e)
+            partes = []
+            for fe, lista in dias.items():
+                partes.append(f"📅 {ag.fecha_larga(fe).capitalize()}\n\n" + "\n\n".join(_linea_evento(e, con_dia=bool(e.get("fecha_txt"))) for e in lista))
+            cab = "¡Hola! 👋 Estos son los planes del finde en Cádiz:"
+            pie = "Los jueves a las 9:00 publicamos el reel con los planes del finde. ¡Nos vemos por la ciudad!"
+        return cab, "\n\n".join(partes), pie
     return None
+
+
+def agenda_para(tipo):
+    """Compatibilidad: texto plano de la agenda (cuerpo del mensaje)."""
+    m = mensaje_agenda(tipo)
+    return m[1] if m else None
 
 
 def comentarios_ig():
@@ -128,10 +172,10 @@ def enviar_dm(item, partes):
 
 
 def responder_clave(item, tipo_agenda):
-    texto = agenda_para(tipo_agenda)
-    if not texto:
+    m = mensaje_agenda(tipo_agenda)
+    if not m:
         return False
-    cabecera, pie = "¡Hola! Aquí tienes la agenda de Cádiz 👇", "Guárdala y compártela con alguien. ¡Nos vemos por la ciudad!"
+    cabecera, texto, pie = m
     if item["tipo"] == "mensaje":  # conversación abierta: el texto completo, en los mensajes que hagan falta
         partes = trocear_mensaje(f"{cabecera}\n\n{texto}\n\n{pie}")
         enviar_dm(item, partes)
