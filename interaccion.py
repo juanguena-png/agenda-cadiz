@@ -36,7 +36,7 @@ def agenda_para(tipo):
         for nombre in ("lista.txt", "caption.txt"):  # lista.txt = lista completa de eventos (el caption del reel es corto)
             c = base / nombre
             if c.exists():
-                return c.read_text(encoding="utf-8")[:900]
+                return c.read_text(encoding="utf-8")
     return None
 
 
@@ -103,14 +103,49 @@ def responder_publico(item, texto):
         print(f"AVISO respuesta pública: {e}")
 
 
+LIMITE_MSG = 950  # Instagram/Messenger admiten 1000 caracteres por mensaje
+
+
+def trocear_mensaje(texto, limite=LIMITE_MSG):
+    """Divide un texto largo en mensajes de <= limite caracteres, cortando siempre por líneas completas (nunca en mitad de un plan)."""
+    partes, actual = [], ""
+    for linea in texto.splitlines():
+        while len(linea) > limite:
+            corte = linea.rfind(" ", 0, limite) or limite
+            partes.append((actual + "\n" + linea[:corte]).strip()); actual, linea = "", linea[corte:].strip()
+        if len(actual) + len(linea) + 1 > limite:
+            partes.append(actual.strip()); actual = ""
+        actual += linea + "\n"
+    if actual.strip():
+        partes.append(actual.strip())
+    return [x for x in partes if x]
+
+
+def enviar_dm(item, partes):
+    """Mensajes directos consecutivos a quien nos escribe (se pueden enviar varios dentro de la ventana de 24 h)."""
+    for t in partes:
+        api("POST", f"{ag.secreto('FB_PAGE_ID')}/messages", recipient={"id": item["autor_id"]}, message={"text": t}, messaging_type="RESPONSE")
+
+
 def responder_clave(item, tipo_agenda):
     texto = agenda_para(tipo_agenda)
     if not texto:
         return False
-    msg = f"¡Hola! Aquí tienes la agenda de Cádiz 👇\n\n{texto}\n\nGuárdala y compártela con alguien. ¡Nos vemos por la ciudad!"
-    if item["tipo"] == "mensaje":  # ya es una conversación: se contesta directamente
-        api("POST", f"{ag.secreto('FB_PAGE_ID')}/messages", recipient={"id": item["autor_id"]}, message={"text": msg}, messaging_type="RESPONSE")
+    cabecera, pie = "¡Hola! Aquí tienes la agenda de Cádiz 👇", "Guárdala y compártela con alguien. ¡Nos vemos por la ciudad!"
+    if item["tipo"] == "mensaje":  # conversación abierta: el texto completo, en los mensajes que hagan falta
+        partes = trocear_mensaje(f"{cabecera}\n\n{texto}\n\n{pie}")
+        enviar_dm(item, partes)
         return True
+    # respuesta privada a un comentario: Meta solo permite UN mensaje, así que se recorta por líneas completas y se indica cómo seguir
+    cuerpo = ""
+    for linea in texto.splitlines():
+        if len(cabecera) + len(cuerpo) + len(linea) + 160 > LIMITE_MSG:
+            cuerpo += "\n… y más planes: escríbenos PLANES por mensaje directo y te mandamos la lista completa 📩"
+            break
+        cuerpo += "\n" + linea
+    msg = f"{cabecera}\n{cuerpo}".strip()
+    if len(msg) + len(pie) + 2 <= LIMITE_MSG:
+        msg += f"\n\n{pie}"
     mensaje_privado(item, msg)
     responder_publico(item, "¡Enviado! Revisa tus mensajes 📩")
     return True
