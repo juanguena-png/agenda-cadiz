@@ -1,1025 +1,1027 @@
 {
- "fuentes": [
-  {
-   "id": 1,
-   "nombre": "Ayuntamiento de Cádiz – Programación cultural (agenda oficial)",
-   "tipo": "oficial",
-   "urls": [
-    "https://institucional.cadiz.es/programacion_cultural"
-   ],
-   "parser": "ayto",
-   "provincial": false,
-   "nota": "Agenda oficial con fichas (fecha, horario, precio, dirección, imagen). Además: teatros municipales en laciudad.cadiz.es (fuentes 8-12)"
-  },
-  {
-   "id": 2,
-   "nombre": "Turismo de Cádiz – Agenda (Ayuntamiento)",
-   "tipo": "oficial",
-   "urls": [
-    "https://turismo.cadiz.es/eventos/all?categoria=All"
-   ],
-   "parser": "ayto",
-   "provincial": false,
-   "nota": "turismodecadiz.com es de la Diputación/Grazalema: NO usar"
-  },
-  {
-   "id": 3,
-   "nombre": "Onda Cádiz – Agenda",
-   "tipo": "oficial",
-   "urls": [
-    "https://ondacadiz.es/"
-   ],
-   "parser": "texto",
-   "provincial": false,
-   "nota": "Sin 'www' responde; buscar noticias de agenda"
-  },
-  {
-   "id": 4,
-   "nombre": "Diputación de Cádiz – Agenda cultural",
-   "tipo": "oficial",
-   "urls": [
-    "https://www.dipucadiz.es/cultura/"
-   ],
-   "parser": "texto",
-   "provincial": true
-  },
-  {
-   "id": 5,
-   "nombre": "Universidad de Cádiz – actividades culturales",
-   "tipo": "oficial",
-   "urls": [
-    "https://www.uca.es/evento/"
-   ],
-   "parser": "uca",
-   "provincial": true,
-   "nota": "Solo eventos etiquetados «Campus Cádiz»; confirmar sede y dirección en la ficha"
-  },
-  {
-   "id": 6,
-   "nombre": "Deportes del Ayuntamiento de Cádiz",
-   "tipo": "oficial",
-   "urls": [
-    "https://deporte.cadiz.es/eventos"
-   ],
-   "parser": "ayto",
-   "provincial": false,
-   "nota": "Instituto Municipal del Deporte: fichas con fecha; solo eventos con fecha en la ventana",
-   "enlace_regex": "/eventos_deportivos/[^/?#]+$"
-  },
-  {
-   "id": 7,
-   "nombre": "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
-   "tipo": "oficial",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "nota": "Municipales: red del Ayuntamiento. Provincial: Junta de Andalucía publica un PDF mensual",
-   "via": "web",
-   "consulta": "Bibliotecas municipales de Cádiz actividades {mes} {año} cuentacuentos talleres club de lectura; Biblioteca Provincial de Cádiz programación de actividades {mes} {año} (PDF en cdn.juntadeandalucia.es)"
-  },
-  {
-   "id": 8,
-   "nombre": "Gran Teatro Falla",
-   "tipo": "recinto",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-gran-teatro-falla.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false
-  },
-  {
-   "id": 9,
-   "nombre": "Teatro del Títere La Tía Norica",
-   "tipo": "recinto",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-teatro-del-titere.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false
-  },
-  {
-   "id": 10,
-   "nombre": "Sala Central Lechera",
-   "tipo": "recinto",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-central-lechera.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false
-  },
-  {
-   "id": 11,
-   "nombre": "Baluarte de la Candelaria",
-   "tipo": "recinto",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-baluarte-de-la-candelaria.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false
-  },
-  {
-   "id": 12,
-   "nombre": "Castillo de Santa Catalina",
-   "tipo": "recinto",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-castillo-santa-catalina.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false
-  },
-  {
-   "id": 13,
-   "nombre": "Museo de Cádiz",
-   "tipo": "recinto",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "nota": "museosdeandalucia.es no resuelve desde el contenedor: consultar con WebFetch/WebSearch (Plaza de Mina, Cádiz)",
-   "via": "web",
-   "consulta": "Museo de Cádiz exposiciones temporales y actividades {mes} {año}; Casa Pinillos Cádiz exposición {mes} {año}; Museo y Teatro Romano de Cádiz actividades"
-  },
-  {
-   "id": 14,
-   "nombre": "Casa de Iberoamérica",
-   "tipo": "recinto",
-   "urls": [
-    "https://www.casadeiberoamerica.es/"
-   ],
-   "parser": "casaibero",
-   "provincial": false
-  },
-  {
-   "id": 15,
-   "nombre": "Palacio de Congresos de Cádiz",
-   "tipo": "recinto",
-   "urls": [
-    "https://palaciocongresos-cadiz.com/eventos/"
-   ],
-   "parser": "palacio",
-   "provincial": false,
-   "nota": "Web oficial; páginas /eventos/<tipo>/ con 'Próximos eventos'"
-  },
-  {
-   "id": 16,
-   "nombre": "Cádiz CF – partidos en casa",
-   "tipo": "recinto",
-   "urls": [
-    "https://www.cadizcf.com/partidos"
-   ],
-   "parser": "texto",
-   "provincial": false,
-   "nota": "OBLIGATORIO TODOS LOS DÍAS: ¿juega el Cádiz CF en casa hoy, mañana o el finde? La web bloquea al script (403) y a veces no da la hora: consultar con WebFetch/WebSearch y, si falta la hora, contrastarla en 2 medios (prensa local o del rival). El estadio es el Nuevo Mirandilla (la web lo llama JP Financial Estadio). Solo partidos como local en Cádiz capital; fuera de casa no se publican",
-   "via": "web",
-   "consulta": "Cádiz CF partido hoy {fecha} Nuevo Mirandilla JP Financial Estadio hora rival jornada"
-  },
-  {
-   "id": 17,
-   "nombre": "VivaCádiz",
-   "tipo": "agregador",
-   "urls": [
-    "https://www.vivacadiz.es/",
-    "https://www.andaluciainformacion.es/cadiz/"
-   ],
-   "parser": "texto",
-   "provincial": false,
-   "nota": "403 al script",
-   "via": "web",
-   "consulta": "VivaCádiz agenda eventos Cádiz {fecha}"
-  },
-  {
-   "id": 18,
-   "nombre": "Hoy Cádiz",
-   "tipo": "agregador",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "nota": "Dominio no localizado; buscar con WebSearch",
-   "via": "web",
-   "consulta": "Hoy Cádiz agenda eventos planes Cádiz {fecha}"
-  },
-  {
-   "id": 19,
-   "nombre": "Guía de Cádiz – Agenda",
-   "tipo": "agregador",
-   "urls": [
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/conciertos",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/exposiciones",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/teatro",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/danza",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/flamenco",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/deportes",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/con%20niños",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/eventos%20culturales",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/eventos%20solidarios",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/fiestas%20típicas",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/feria%20de%20muestras",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/festivales",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/gastronomía",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Halloween%20y%20Tosantos",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Magia",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Navidad",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/proyecciones",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/rutas%20y%20visitas",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/semana%20santa",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/carnaval"
-   ],
-   "parser": "guia",
-   "provincial": true,
-   "nota": "PROVINCIAL; cada ficha trae el municipio: se filtra «Cádiz». Es agregador: no se toman imágenes de aquí"
-  },
-  {
-   "id": 20,
-   "nombre": "Eventbrite – Cádiz",
-   "tipo": "agregador",
-   "urls": [
-    "https://www.eventbrite.es/d/spain--c%C3%A1diz/events/",
-    "https://www.eventbrite.es/d/spain--c%C3%A1diz/all-events/",
-    "https://www.eventbrite.es/b/spain--c%C3%A1diz/family-and-education/",
-    "https://www.eventbrite.es/b/spain--c%C3%A1diz/food-and-drink/",
-    "https://www.eventbrite.es/b/spain--c%C3%A1diz/sports-and-fitness/",
-    "https://www.eventbrite.es/b/spain--c%C3%A1diz/music/"
-   ],
-   "parser": "jsonld",
-   "provincial": true,
-   "nota": "Mezcla eventos online y de otros municipios: usa `pista_capital` solo como pista y verifica la dirección en la ficha"
-  },
-  {
-   "id": 21,
-   "nombre": "En buena edad – agenda del Ayuntamiento",
-   "tipo": "agregador",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "nota": "enbuenaedad.es devuelve página de inhabilitación temporal de la Junta; reactivar si vuelve",
-   "activa": false
-  },
-  {
-   "id": 22,
-   "nombre": "Diario de Cádiz – agenda",
-   "tipo": "prensa",
-   "urls": [
-    "https://www.diariodecadiz.es/"
-   ],
-   "parser": "texto",
-   "provincial": true
-  },
-  {
-   "id": 23,
-   "nombre": "La Voz de Cádiz",
-   "tipo": "prensa",
-   "urls": [
-    "https://www.lavozdigital.es/cadiz/"
-   ],
-   "parser": "texto",
-   "provincial": true
-  },
-  {
-   "id": 24,
-   "nombre": "Cádiz Directo",
-   "tipo": "prensa",
-   "urls": [
-    "https://www.cadizdirecto.com/"
-   ],
-   "parser": "texto",
-   "provincial": true
-  },
-  {
-   "id": 25,
-   "nombre": "Entradium (Cádiz)",
-   "tipo": "entradas",
-   "urls": [
-    "https://entradium.com/"
-   ],
-   "parser": "texto",
-   "provincial": true,
-   "nota": "Ticketmaster y Giglon devuelven 403 a clientes automáticos"
-  },
-  {
-   "id": 26,
-   "nombre": "Teatro Pemán (Teatros de Cádiz)",
-   "tipo": "recinto",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-teatro-peman.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false,
-   "nota": ""
-  },
-  {
-   "id": 27,
-   "nombre": "Noches Clásicas de la Ciudad de Cádiz",
-   "tipo": "oficial",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-noches-clasicas.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false,
-   "nota": ""
-  },
-  {
-   "id": 28,
-   "nombre": "Festival Patrimonio Flamenco",
-   "tipo": "oficial",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-festival-patrimonio-flamenco.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false,
-   "nota": ""
-  },
-  {
-   "id": 29,
-   "nombre": "Festival Internacional del Títere de Cádiz",
-   "tipo": "oficial",
-   "urls": [
-    "http://laciudad.cadiz.es/programacion-festival-titere-cadiz.asp"
-   ],
-   "parser": "laciudad",
-   "provincial": false,
-   "nota": ""
-  },
-  {
-   "id": 30,
-   "nombre": "Cádiz en Danza",
-   "tipo": "oficial",
-   "urls": [
-    "https://www.cadizendanza.es/"
-   ],
-   "parser": "texto",
-   "provincial": false,
-   "nota": ""
-  },
-  {
-   "id": 31,
-   "nombre": "Universidad de Cádiz – eventos",
-   "tipo": "oficial",
-   "urls": [
-    "https://www.uca.es/evento/"
-   ],
-   "parser": "texto",
-   "provincial": true,
-   "nota": "sustituida por la fuente 5 (parser uca)",
-   "activa": false
-  },
-  {
-   "id": 32,
-   "nombre": "Universidad de Cádiz – Extensión universitaria",
-   "tipo": "oficial",
-   "urls": [
-    "https://extension.uca.es/"
-   ],
-   "parser": "texto",
-   "provincial": true,
-   "nota": "filtrar Cádiz capital"
-  },
-  {
-   "id": 33,
-   "nombre": "Fundación Unicaja – agenda cultural",
-   "tipo": "oficial",
-   "urls": [
-    "https://www.fundacionunicaja.com/"
-   ],
-   "parser": "texto",
-   "provincial": true,
-   "nota": "filtrar Cádiz capital"
-  },
-  {
-   "id": 34,
-   "nombre": "Venta de entradas del Ayuntamiento (Bacantix · Teatros de Cádiz)",
-   "tipo": "entradas",
-   "urls": [
-    "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz"
-   ],
-   "parser": "bacantix",
-   "provincial": false
-  },
-  {
-   "id": 35,
-   "nombre": "Onda Cádiz – Agenda de eventos",
-   "tipo": "oficial",
-   "urls": [
-    "https://ondacadiz.es/agenda-de-eventos"
-   ],
-   "parser": "onda",
-   "provincial": false
-  },
-  {
-   "id": 36,
-   "nombre": "Agenda Cádiz (agendacadiz.com)",
-   "tipo": "agregador",
-   "urls": [
-    "https://www.agendacadiz.com/"
-   ],
-   "parser": "texto",
-   "provincial": false
-  },
-  {
-   "id": 37,
-   "nombre": "Cádiz Cultura",
-   "tipo": "agregador",
-   "urls": [
-    "https://www.cadizcultura.com/"
-   ],
-   "parser": "texto",
-   "provincial": false
-  },
-  {
-   "id": 38,
-   "nombre": "La Ganzúa – conciertos en Cádiz",
-   "tipo": "agregador",
-   "urls": [
-    "https://www.laganzua.net/conciertos/cadiz/2026"
-   ],
-   "parser": "ganzua",
-   "provincial": true
-  },
-  {
-   "id": 39,
-   "nombre": "Tickentradas",
-   "tipo": "entradas",
-   "urls": [
-    "https://www.laganzua.net/conciertos/cadiz",
-    "https://www.laganzua.net/conciertos/cadiz/2026"
-   ],
-   "parser": "jsonld",
-   "provincial": true,
-   "nota": "Conciertos de la provincia con JSON-LD; `pista_capital` por texto («… de Cádiz»); verificar sala y dirección en otra fuente"
-  },
-  {
-   "id": 40,
-   "nombre": "Fundación Cajasol",
-   "tipo": "recinto",
-   "urls": [
-    "https://fundacioncajasol.com/eventos/"
-   ],
-   "parser": "cajasol",
-   "provincial": true
-  },
-  {
-   "id": 41,
-   "nombre": "Diario Bahía de Cádiz – Cádiz",
-   "tipo": "prensa",
-   "urls": [
-    "https://www.diariobahiadecadiz.com/cadiz"
-   ],
-   "parser": "texto",
-   "provincial": true
-  },
-  {
-   "id": 42,
-   "nombre": "Planomato – planes en Cádiz",
-   "tipo": "agregador",
-   "urls": [
-    "https://www.planomato.com/es/cadiz"
-   ],
-   "parser": "texto",
-   "provincial": true,
-   "via": "web",
-   "consulta": "Planomato Cádiz planes eventos {fecha}",
-   "nota": "403 al script: WebFetch"
-  },
-  {
-   "id": 43,
-   "nombre": "El Corte Inglés Entradas – Cádiz",
-   "tipo": "entradas",
-   "urls": [
-    "https://www.elcorteingles.es/entradas/cultura/cadiz/"
-   ],
-   "parser": "texto",
-   "provincial": true,
-   "via": "web",
-   "consulta": "El Corte Inglés entradas Cádiz exposiciones espectáculos {mes} {año}",
-   "nota": "403 al script: WebFetch"
-  },
-  {
-   "id": 44,
-   "nombre": "Ticketmaster / Giglon – Cádiz",
-   "tipo": "entradas",
-   "urls": [
-    "https://www.ticketmaster.es/"
-   ],
-   "parser": "texto",
-   "provincial": true,
-   "via": "web",
-   "consulta": "Ticketmaster conciertos Cádiz {mes} {año}; Giglon conciertos Cádiz {mes} {año}",
-   "nota": "403 al script: WebSearch"
-  },
-  {
-   "id": 45,
-   "nombre": "Teatro Romano de Cádiz, Torre Tavira y Catedral",
-   "tipo": "recinto",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Teatro Romano de Cádiz actividades {mes} {año}; Torre Tavira Cádiz actividades {mes} {año}; Catedral de Cádiz conciertos y actos {mes} {año}",
-   "nota": "Sin web consultable por script"
-  },
-  {
-   "id": 46,
-   "nombre": "Salas y locales de conciertos de Cádiz",
-   "tipo": "recinto",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "conciertos Cádiz {fecha} sala; teatro y monólogos Cádiz {fecha}; eventos infantiles Cádiz {fecha}; mercadillos y ferias Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria por categorías"
-  },
-  {
-   "id": 47,
-   "nombre": "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
-   "tipo": "oficial",
-   "urls": [
-    "https://www.andalucia.org/es/cadiz-agenda"
-   ],
-   "parser": "jsonld",
-   "provincial": true,
-   "nota": "Agenda turística provincial (JSON-LD); filtrar Cádiz capital"
-  },
-  {
-   "id": 48,
-   "nombre": "Meetup – grupos de Cádiz",
-   "tipo": "agregador",
-   "urls": [
-    "https://www.meetup.com/es-ES/find/?location=es--C%C3%A1diz&source=EVENTS"
-   ],
-   "parser": "jsonld",
-   "provincial": true,
-   "nota": "Quedadas e intercambios; sin lugar estructurado: verificar en la ficha",
-   "enriquecer": true
-  },
-  {
-   "id": 49,
-   "nombre": "Descubrimiento diario · Música en directo",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "conciertos música en directo Cádiz capital {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 50,
-   "nombre": "Descubrimiento diario · Flamenco",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "flamenco Cádiz peña tablao actuación {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 51,
-   "nombre": "Descubrimiento diario · Teatro y cartelera",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "teatro obra Cádiz {fecha} cartelera",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 52,
-   "nombre": "Descubrimiento diario · Humor y monólogos",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "monólogos humor Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 53,
-   "nombre": "Descubrimiento diario · Exposiciones",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "exposición inauguración Cádiz {fecha} sala museo galería",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 54,
-   "nombre": "Descubrimiento diario · Cine",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "cine proyección filmoteca cineclub Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 55,
-   "nombre": "Descubrimiento diario · Infantil y familia",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "actividades infantiles familia Cádiz {fecha} taller cuentacuentos",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 56,
-   "nombre": "Descubrimiento diario · Talleres y cursos",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "taller curso gratuito Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 57,
-   "nombre": "Descubrimiento diario · Charlas y presentaciones",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "conferencia charla presentación de libro Cádiz {fecha} ateneo",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 58,
-   "nombre": "Descubrimiento diario · Deporte popular",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "carrera popular torneo regata partido Cádiz {fecha} deporte",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 59,
-   "nombre": "Descubrimiento diario · Gastronomía",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "ruta de tapas degustación mercado gastronómico Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 60,
-   "nombre": "Descubrimiento diario · Fiestas y tradiciones",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "fiesta feria verbena tradición Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 61,
-   "nombre": "Descubrimiento diario · Mercadillos y artesanía",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "mercadillo feria artesanía rastro Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 62,
-   "nombre": "Descubrimiento diario · Visitas guiadas y rutas",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "visita guiada ruta Torre Tavira Teatro Romano Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 63,
-   "nombre": "Descubrimiento diario · Religión y cofradías",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "cultos besapié cofradías hermandades Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 64,
-   "nombre": "Descubrimiento diario · Ocio nocturno",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "fiesta DJ discoteca noche Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 65,
-   "nombre": "Descubrimiento diario · Planes gratis",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "plan gratis evento gratuito Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 66,
-   "nombre": "Descubrimiento diario · Solidarios y voluntariado",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "evento solidario voluntariado Cádiz {fecha}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 67,
-   "nombre": "Descubrimiento diario · Agenda de prensa local",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "agenda Cádiz {fecha} Diario de Cádiz La Voz de Cádiz Cádiz Directo",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 68,
-   "nombre": "Descubrimiento diario · Academias, ateneos y colegios",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Real Academia Ateneo Colegio profesional Cádiz actividades {mes} {año}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 69,
-   "nombre": "Descubrimiento diario · Oratorio San Felipe Neri y Museo de las Cortes",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Oratorio de San Felipe Neri Museo de las Cortes Cádiz actividades {mes} {año}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 70,
-   "nombre": "Descubrimiento diario · Fundaciones (Unicaja, Cajasol)",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Fundación Unicaja Cádiz Fundación Cajasol Cádiz exposiciones conciertos {mes} {año}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 71,
-   "nombre": "Descubrimiento diario · Diputación (Palacio Provincial, Sala Rivadavia)",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Diputación de Cádiz Palacio Provincial Sala Rivadavia exposición {mes} {año}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 72,
-   "nombre": "Descubrimiento diario · Salas de conciertos",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Momart Theatre salas de conciertos Cádiz capital programación {mes} {año}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 73,
-   "nombre": "Descubrimiento diario · Universidad (agenda cultural PDF)",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "UCA Campus Cádiz extensión universitaria agenda cultural {mes} {año}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 74,
-   "nombre": "Descubrimiento diario · Festivales",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "festival Cádiz {mes} {año}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 75,
-   "nombre": "Descubrimiento diario · Deportes de equipo",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Cádiz CF baloncesto balonmano rugby fútbol sala partido Cádiz capital {mes} {año}",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 76,
-   "nombre": "Descubrimiento diario · Turismo y cruceros",
-   "tipo": "descubrimiento",
-   "urls": [],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Cádiz actividades turismo {fecha} Ayuntamiento Patronato",
-   "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
-  },
-  {
-   "id": 77,
-   "nombre": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
-   "tipo": "oficial",
-   "urls": [
-    "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/buscador"
-   ],
-   "parser": "junta",
-   "provincia_id": "1439",
-   "provincial": true,
-   "nota": "Buscador oficial por provincia y fechas; «Sala - Cádiz» = capital. Trae Falla, Baluarte, Casa de Iberoamérica, Museo, Fundación Unicaja, Conservatorio, UCA…"
-  },
-  {
-   "id": 78,
-   "nombre": "Cádiz Guitar Festival (web del organizador)",
-   "tipo": "recinto",
-   "urls": [
-    "https://www.cadizguitarfestival.com/"
-   ],
-   "parser": "cgf",
-   "provincial": true,
-   "nota": "Festival con conciertos en varios municipios; se marca pista_capital si la sala termina en «Cádiz». Hasta el 8 nov 2026"
-  },
-  {
-   "id": 79,
-   "nombre": "Taquilla.com – salas de Cádiz (Momart…)",
-   "tipo": "entradas",
-   "urls": [
-    "https://www.taquilla.com/cadiz/momart-cadiz-11003"
-   ],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Taquilla Cádiz Momart programación {mes} {año} (taquilla.com/cadiz/momart-cadiz-11003)",
-   "nota": "Venta de entradas: dirección «orientativa»; confirmar con la sala o el promotor"
-  },
-  {
-   "id": 80,
-   "nombre": "Ayuntamiento de Cádiz – Notas de prensa y programaciones especiales (Halloween, Tosantos, Carnaval, fiestas)",
-   "tipo": "oficial",
-   "urls": [
-    "https://transparencia.cadiz.es/",
-    "https://ondacadiz.es/noticias/"
-   ],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Ayuntamiento de Cádiz programación {mes} {año} fiestas Halloween Tosantos Navidad Carnaval actividades Casa de la Juventud Baluarte de la Candelaria",
-   "nota": "Las programaciones especiales del Ayuntamiento (p. ej. Halloween 2026: Plazuela del Truco o Trato, Matadero 13, desfile) se anuncian en notas de prensa y NO siempre salen en la agenda por fechas. Consultar cada día. Si dos medios discrepan en un dato (p. ej. punto de salida del desfile), se omite ese dato."
-  },
-  {
-   "id": 81,
-   "nombre": "Casa de la Juventud de Cádiz (Ayuntamiento) – actividades",
-   "tipo": "oficial",
-   "urls": [
-    "https://juventud.cadiz.es/"
-   ],
-   "parser": "texto",
-   "provincial": false,
-   "via": "web",
-   "consulta": "Casa de la Juventud Cádiz actividades {fecha} {mes} {año} Cánovas del Castillo 41",
-   "nota": "Reparte invitaciones de actividades municipales (C/ Cánovas del Castillo, 41)."
-  },
-  {
-   "id": 82,
-   "nombre": "Cádiz CF – partidos en casa (web oficial, automático)",
-   "tipo": "recinto",
-   "urls": [
-    "https://www.cadizcf.com/"
-   ],
-   "parser": "cadizcf",
-   "provincial": false,
-   "nota": "Lee la web oficial con Chromium (403 a scripts). Solo partidos COMO LOCAL (Estadio Nuevo Mirandilla, Cádiz) con fecha/hora oficial e imagen oficial. Los partidos fuera de casa no se publican."
-  },
-  {
-   "id": 83,
-   "nombre": "Palacio de Congresos de Cádiz – eventos (web oficial)",
-   "tipo": "recinto",
-   "urls": [
-    "https://palaciocongresos-cadiz.com/es"
-   ],
-   "via": "web",
-   "provincial": false,
-   "nota": "Sección Events de la web del recinto (Cádiz capital). Conciertos, congresos abiertos y espectáculos; confirmar dirección en la ficha."
-  },
-  {
-   "id": 84,
-   "nombre": "CádizNoticias – agenda y avisos de actos",
-   "tipo": "prensa",
-   "urls": [
-    "https://cadiznoticias.es/"
-   ],
-   "via": "web",
-   "provincial": false,
-   "nota": "Prensa local que publica la programación semanal del Ateneo, proyecciones y talleres municipales (Ateneo 19-28 oct, «Cómo habitar un cuerpo», Martes del Empleo). Busca «agenda/programa» y «se proyectará/se celebrará»."
-  },
-  {
-   "id": 85,
-   "nombre": "Ateneo de Cádiz – programa",
-   "tipo": "recinto",
-   "urls": [
-    "https://ateneocadiz.es/"
-   ],
-   "via": "web",
-   "provincial": false,
-   "nota": "Programa mensual/semanal con presentaciones, conferencias y conciertos en Calle Ancha 20 (Cádiz capital). Actos a las 19:00 salvo indicación."
-  },
-  {
-   "id": 86,
-   "nombre": "IFEF Cádiz – Los Martes del Empleo y talleres",
-   "tipo": "oficial",
-   "urls": [
-    "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
-   ],
-   "via": "web",
-   "provincial": false,
-   "nota": "Talleres puntuales en los Depósitos de Tabaco (Av. Marconi 34), martes 11:00; con inscripción previa (criterio 8)."
-  },
-  {
-   "id": 87,
-   "nombre": "Fundación Cádiz CF – actividades",
-   "tipo": "oficial",
-   "urls": [
-    "https://cadizcf.com/fundacion/"
-   ],
-   "via": "web",
-   "provincial": false,
-   "nota": "Proyecciones y actos solidarios abiertos (p. ej. «Cómo habitar un cuerpo», Edificio Ma'Arifa, Av. Marconi 37)."
-  },
-  {
-   "id": 88,
-   "nombre": "Cádiz Ilustrada – conferencias",
-   "tipo": "organizador",
-   "urls": [
-    "https://www.google.com/search?q=C%C3%A1diz+Ilustrada+conferencia"
-   ],
-   "via": "web",
-   "provincial": false,
-   "nota": "Asociación que organiza conferencias en el Centro Cultural Ancha 16 con el Ayuntamiento; localizar su web/avisos en prensa."
-  },
-  {
-   "id": 89,
-   "nombre": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
-   "tipo": "oficial",
-   "urls": [
-    "https://institucional.cadiz.es/programacion_cultural"
-   ],
-   "via": "web",
-   "provincial": false,
-   "nota": "Teatro de pequeño formato y talleres de la Fundación Municipal de Cultura; revisar fichas de cada centro cultural."
-  },
-  {
-   "id": 90,
-   "nombre": "Antiguos Depósitos de Tabaco – agenda semanal",
-   "tipo": "oficial",
-   "urls": [
-    "https://vivirediciones.es/depositos-cadiz-agenda-semanal-cursos-formacion/",
-    "https://edusi.cadiz.es/",
-    "https://transparencia.cadiz.es/"
-   ],
-   "via": "web",
-   "provincial": false,
-   "nota": "Agenda diaria del espacio municipal (Av. Marconi 34, Cádiz): talleres puntuales (Martes del Empleo, ERACIS+), mesas sectoriales, exposiciones y ludoteca. Publicada cada semana por el Ayuntamiento y recogida en vivirediciones.es."
-  }
- ]
+  "fuentes": [
+    {
+      "id": 1,
+      "nombre": "Ayuntamiento de Cádiz – Programación cultural (agenda oficial)",
+      "tipo": "oficial",
+      "urls": [
+        "https://institucional.cadiz.es/programacion_cultural"
+      ],
+      "parser": "ayto",
+      "provincial": false,
+      "nota": "Agenda oficial con fichas (fecha, horario, precio, dirección, imagen). Además: teatros municipales en laciudad.cadiz.es (fuentes 8-12)"
+    },
+    {
+      "id": 2,
+      "nombre": "Turismo de Cádiz – Agenda (Ayuntamiento)",
+      "tipo": "oficial",
+      "urls": [
+        "https://turismo.cadiz.es/eventos/all?categoria=All"
+      ],
+      "parser": "ayto",
+      "provincial": false,
+      "nota": "turismodecadiz.com es de la Diputación/Grazalema: NO usar"
+    },
+    {
+      "id": 3,
+      "nombre": "Onda Cádiz – Agenda",
+      "tipo": "oficial",
+      "urls": [
+        "https://ondacadiz.es/"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "nota": "Sin 'www' responde; buscar noticias de agenda"
+    },
+    {
+      "id": 4,
+      "nombre": "Diputación de Cádiz – Agenda cultural",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.dipucadiz.es/cultura/"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 5,
+      "nombre": "Universidad de Cádiz – actividades culturales",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.uca.es/evento/"
+      ],
+      "parser": "uca",
+      "provincial": true,
+      "nota": "Solo eventos etiquetados «Campus Cádiz»; confirmar sede y dirección en la ficha"
+    },
+    {
+      "id": 6,
+      "nombre": "Deportes del Ayuntamiento de Cádiz",
+      "tipo": "oficial",
+      "urls": [
+        "https://deporte.cadiz.es/eventos"
+      ],
+      "parser": "ayto",
+      "provincial": false,
+      "nota": "Instituto Municipal del Deporte: fichas con fecha; solo eventos con fecha en la ventana",
+      "enlace_regex": "/eventos_deportivos/[^/?#]+$"
+    },
+    {
+      "id": 7,
+      "nombre": "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
+      "tipo": "oficial",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "nota": "Municipales: red del Ayuntamiento. Provincial: Junta de Andalucía publica un PDF mensual",
+      "via": "web",
+      "consulta": "Bibliotecas municipales de Cádiz actividades {mes} {año} cuentacuentos talleres club de lectura; Biblioteca Provincial de Cádiz programación de actividades {mes} {año} (PDF en cdn.juntadeandalucia.es)"
+    },
+    {
+      "id": 8,
+      "nombre": "Gran Teatro Falla",
+      "tipo": "recinto",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-gran-teatro-falla.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false
+    },
+    {
+      "id": 9,
+      "nombre": "Teatro del Títere La Tía Norica",
+      "tipo": "recinto",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-teatro-del-titere.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false
+    },
+    {
+      "id": 10,
+      "nombre": "Sala Central Lechera",
+      "tipo": "recinto",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-central-lechera.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false
+    },
+    {
+      "id": 11,
+      "nombre": "Baluarte de la Candelaria",
+      "tipo": "recinto",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-baluarte-de-la-candelaria.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false
+    },
+    {
+      "id": 12,
+      "nombre": "Castillo de Santa Catalina",
+      "tipo": "recinto",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-castillo-santa-catalina.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false
+    },
+    {
+      "id": 13,
+      "nombre": "Museo de Cádiz",
+      "tipo": "recinto",
+      "urls": [
+        "https://www.cultura.gob.es/mcadiz/"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "nota": "museosdeandalucia.es no resuelve desde el contenedor: consultar con WebFetch/WebSearch (Plaza de Mina, Cádiz)",
+      "via": "web",
+      "consulta": "Museo de Cádiz exposiciones temporales y actividades {mes} {año}; Casa Pinillos Cádiz exposición {mes} {año}; Museo y Teatro Romano de Cádiz actividades"
+    },
+    {
+      "id": 14,
+      "nombre": "Casa de Iberoamérica",
+      "tipo": "recinto",
+      "urls": [
+        "https://www.casadeiberoamerica.es/"
+      ],
+      "parser": "casaibero",
+      "provincial": false
+    },
+    {
+      "id": 15,
+      "nombre": "Palacio de Congresos de Cádiz",
+      "tipo": "recinto",
+      "urls": [
+        "https://palaciocongresos-cadiz.com/eventos/"
+      ],
+      "parser": "palacio",
+      "provincial": false,
+      "nota": "Web oficial; páginas /eventos/<tipo>/ con 'Próximos eventos'"
+    },
+    {
+      "id": 16,
+      "nombre": "Cádiz CF – partidos en casa",
+      "tipo": "recinto",
+      "urls": [
+        "https://www.cadizcf.com/partidos"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "nota": "OBLIGATORIO TODOS LOS DÍAS: ¿juega el Cádiz CF en casa hoy, mañana o el finde? La web bloquea al script (403) y a veces no da la hora: consultar con WebFetch/WebSearch y, si falta la hora, contrastarla en 2 medios (prensa local o del rival). El estadio es el Nuevo Mirandilla (la web lo llama JP Financial Estadio). Solo partidos como local en Cádiz capital; fuera de casa no se publican",
+      "via": "web",
+      "consulta": "Cádiz CF partido hoy {fecha} Nuevo Mirandilla JP Financial Estadio hora rival jornada"
+    },
+    {
+      "id": 17,
+      "nombre": "VivaCádiz",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.vivacadiz.es/",
+        "https://www.andaluciainformacion.es/cadiz/"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "nota": "403 al script",
+      "via": "web",
+      "consulta": "VivaCádiz agenda eventos Cádiz {fecha}"
+    },
+    {
+      "id": 18,
+      "nombre": "Hoy Cádiz",
+      "tipo": "agregador",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "nota": "Dominio no localizado; buscar con WebSearch",
+      "via": "web",
+      "consulta": "Hoy Cádiz agenda eventos planes Cádiz {fecha}"
+    },
+    {
+      "id": 19,
+      "nombre": "Guía de Cádiz – Agenda",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/conciertos",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/exposiciones",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/teatro",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/danza",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/flamenco",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/deportes",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/con%20niños",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/eventos%20culturales",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/eventos%20solidarios",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/fiestas%20típicas",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/feria%20de%20muestras",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/festivales",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/gastronomía",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Halloween%20y%20Tosantos",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Magia",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Navidad",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/proyecciones",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/rutas%20y%20visitas",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/semana%20santa",
+        "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/carnaval"
+      ],
+      "parser": "guia",
+      "provincial": true,
+      "nota": "PROVINCIAL; cada ficha trae el municipio: se filtra «Cádiz». Es agregador: no se toman imágenes de aquí"
+    },
+    {
+      "id": 20,
+      "nombre": "Eventbrite – Cádiz",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.eventbrite.es/d/spain--c%C3%A1diz/events/",
+        "https://www.eventbrite.es/d/spain--c%C3%A1diz/all-events/",
+        "https://www.eventbrite.es/b/spain--c%C3%A1diz/family-and-education/",
+        "https://www.eventbrite.es/b/spain--c%C3%A1diz/food-and-drink/",
+        "https://www.eventbrite.es/b/spain--c%C3%A1diz/sports-and-fitness/",
+        "https://www.eventbrite.es/b/spain--c%C3%A1diz/music/"
+      ],
+      "parser": "jsonld",
+      "provincial": true,
+      "nota": "Mezcla eventos online y de otros municipios: usa `pista_capital` solo como pista y verifica la dirección en la ficha"
+    },
+    {
+      "id": 21,
+      "nombre": "En buena edad – agenda del Ayuntamiento",
+      "tipo": "agregador",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "nota": "enbuenaedad.es devuelve página de inhabilitación temporal de la Junta; reactivar si vuelve",
+      "activa": false
+    },
+    {
+      "id": 22,
+      "nombre": "Diario de Cádiz – agenda",
+      "tipo": "prensa",
+      "urls": [
+        "https://www.diariodecadiz.es/"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 23,
+      "nombre": "La Voz de Cádiz",
+      "tipo": "prensa",
+      "urls": [
+        "https://www.lavozdigital.es/cadiz/"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 24,
+      "nombre": "Cádiz Directo",
+      "tipo": "prensa",
+      "urls": [
+        "https://www.cadizdirecto.com/"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 25,
+      "nombre": "Entradium (Cádiz)",
+      "tipo": "entradas",
+      "urls": [
+        "https://entradium.com/"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "nota": "Ticketmaster y Giglon devuelven 403 a clientes automáticos"
+    },
+    {
+      "id": 26,
+      "nombre": "Teatro Pemán (Teatros de Cádiz)",
+      "tipo": "recinto",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-teatro-peman.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false,
+      "nota": ""
+    },
+    {
+      "id": 27,
+      "nombre": "Noches Clásicas de la Ciudad de Cádiz",
+      "tipo": "oficial",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-noches-clasicas.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false,
+      "nota": ""
+    },
+    {
+      "id": 28,
+      "nombre": "Festival Patrimonio Flamenco",
+      "tipo": "oficial",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-festival-patrimonio-flamenco.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false,
+      "nota": ""
+    },
+    {
+      "id": 29,
+      "nombre": "Festival Internacional del Títere de Cádiz",
+      "tipo": "oficial",
+      "urls": [
+        "http://laciudad.cadiz.es/programacion-festival-titere-cadiz.asp"
+      ],
+      "parser": "laciudad",
+      "provincial": false,
+      "nota": ""
+    },
+    {
+      "id": 30,
+      "nombre": "Cádiz en Danza",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.cadizendanza.es/"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "nota": ""
+    },
+    {
+      "id": 31,
+      "nombre": "Universidad de Cádiz – eventos",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.uca.es/evento/"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "nota": "sustituida por la fuente 5 (parser uca)",
+      "activa": false
+    },
+    {
+      "id": 32,
+      "nombre": "Universidad de Cádiz – Extensión universitaria",
+      "tipo": "oficial",
+      "urls": [
+        "https://extension.uca.es/"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "nota": "filtrar Cádiz capital"
+    },
+    {
+      "id": 33,
+      "nombre": "Fundación Unicaja – agenda cultural",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.fundacionunicaja.com/"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "nota": "filtrar Cádiz capital"
+    },
+    {
+      "id": 34,
+      "nombre": "Venta de entradas del Ayuntamiento (Bacantix · Teatros de Cádiz)",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz"
+      ],
+      "parser": "bacantix",
+      "provincial": false
+    },
+    {
+      "id": 35,
+      "nombre": "Onda Cádiz – Agenda de eventos",
+      "tipo": "oficial",
+      "urls": [
+        "https://ondacadiz.es/agenda-de-eventos"
+      ],
+      "parser": "onda",
+      "provincial": false
+    },
+    {
+      "id": 36,
+      "nombre": "Agenda Cádiz (agendacadiz.com)",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.agendacadiz.com/"
+      ],
+      "parser": "texto",
+      "provincial": false
+    },
+    {
+      "id": 37,
+      "nombre": "Cádiz Cultura",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.cadizcultura.com/"
+      ],
+      "parser": "texto",
+      "provincial": false
+    },
+    {
+      "id": 38,
+      "nombre": "La Ganzúa – conciertos en Cádiz",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.laganzua.net/conciertos/cadiz/2026"
+      ],
+      "parser": "ganzua",
+      "provincial": true
+    },
+    {
+      "id": 39,
+      "nombre": "Tickentradas",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.laganzua.net/conciertos/cadiz",
+        "https://www.laganzua.net/conciertos/cadiz/2026"
+      ],
+      "parser": "jsonld",
+      "provincial": true,
+      "nota": "Conciertos de la provincia con JSON-LD; `pista_capital` por texto («… de Cádiz»); verificar sala y dirección en otra fuente"
+    },
+    {
+      "id": 40,
+      "nombre": "Fundación Cajasol",
+      "tipo": "recinto",
+      "urls": [
+        "https://fundacioncajasol.com/eventos/"
+      ],
+      "parser": "cajasol",
+      "provincial": true
+    },
+    {
+      "id": 41,
+      "nombre": "Diario Bahía de Cádiz – Cádiz",
+      "tipo": "prensa",
+      "urls": [
+        "https://www.diariobahiadecadiz.com/cadiz"
+      ],
+      "parser": "texto",
+      "provincial": true
+    },
+    {
+      "id": 42,
+      "nombre": "Planomato – planes en Cádiz",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.planomato.com/es/cadiz"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "via": "web",
+      "consulta": "Planomato Cádiz planes eventos {fecha}",
+      "nota": "403 al script: WebFetch"
+    },
+    {
+      "id": 43,
+      "nombre": "El Corte Inglés Entradas – Cádiz",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.elcorteingles.es/entradas/cultura/cadiz/"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "via": "web",
+      "consulta": "El Corte Inglés entradas Cádiz exposiciones espectáculos {mes} {año}",
+      "nota": "403 al script: WebFetch"
+    },
+    {
+      "id": 44,
+      "nombre": "Ticketmaster / Giglon – Cádiz",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.ticketmaster.es/"
+      ],
+      "parser": "texto",
+      "provincial": true,
+      "via": "web",
+      "consulta": "Ticketmaster conciertos Cádiz {mes} {año}; Giglon conciertos Cádiz {mes} {año}",
+      "nota": "403 al script: WebSearch"
+    },
+    {
+      "id": 45,
+      "nombre": "Teatro Romano de Cádiz, Torre Tavira y Catedral",
+      "tipo": "recinto",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Teatro Romano de Cádiz actividades {mes} {año}; Torre Tavira Cádiz actividades {mes} {año}; Catedral de Cádiz conciertos y actos {mes} {año}",
+      "nota": "Sin web consultable por script"
+    },
+    {
+      "id": 46,
+      "nombre": "Salas y locales de conciertos de Cádiz",
+      "tipo": "recinto",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "conciertos Cádiz {fecha} sala; teatro y monólogos Cádiz {fecha}; eventos infantiles Cádiz {fecha}; mercadillos y ferias Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria por categorías"
+    },
+    {
+      "id": 47,
+      "nombre": "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.andalucia.org/es/cadiz-agenda"
+      ],
+      "parser": "jsonld",
+      "provincial": true,
+      "nota": "Agenda turística provincial (JSON-LD); filtrar Cádiz capital"
+    },
+    {
+      "id": 48,
+      "nombre": "Meetup – grupos de Cádiz",
+      "tipo": "agregador",
+      "urls": [
+        "https://www.meetup.com/es-ES/find/?location=es--C%C3%A1diz&source=EVENTS"
+      ],
+      "parser": "jsonld",
+      "provincial": true,
+      "nota": "Quedadas e intercambios; sin lugar estructurado: verificar en la ficha",
+      "enriquecer": true
+    },
+    {
+      "id": 49,
+      "nombre": "Descubrimiento diario · Música en directo",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "conciertos música en directo Cádiz capital {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 50,
+      "nombre": "Descubrimiento diario · Flamenco",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "flamenco Cádiz peña tablao actuación {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 51,
+      "nombre": "Descubrimiento diario · Teatro y cartelera",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "teatro obra Cádiz {fecha} cartelera",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 52,
+      "nombre": "Descubrimiento diario · Humor y monólogos",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "monólogos humor Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 53,
+      "nombre": "Descubrimiento diario · Exposiciones",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "exposición inauguración Cádiz {fecha} sala museo galería",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 54,
+      "nombre": "Descubrimiento diario · Cine",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "cine proyección filmoteca cineclub Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 55,
+      "nombre": "Descubrimiento diario · Infantil y familia",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "actividades infantiles familia Cádiz {fecha} taller cuentacuentos",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 56,
+      "nombre": "Descubrimiento diario · Talleres y cursos",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "taller curso gratuito Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 57,
+      "nombre": "Descubrimiento diario · Charlas y presentaciones",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "conferencia charla presentación de libro Cádiz {fecha} ateneo",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 58,
+      "nombre": "Descubrimiento diario · Deporte popular",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "carrera popular torneo regata partido Cádiz {fecha} deporte",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 59,
+      "nombre": "Descubrimiento diario · Gastronomía",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "ruta de tapas degustación mercado gastronómico Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 60,
+      "nombre": "Descubrimiento diario · Fiestas y tradiciones",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "fiesta feria verbena tradición Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 61,
+      "nombre": "Descubrimiento diario · Mercadillos y artesanía",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "mercadillo feria artesanía rastro Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 62,
+      "nombre": "Descubrimiento diario · Visitas guiadas y rutas",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "visita guiada ruta Torre Tavira Teatro Romano Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 63,
+      "nombre": "Descubrimiento diario · Religión y cofradías",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "cultos besapié cofradías hermandades Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 64,
+      "nombre": "Descubrimiento diario · Ocio nocturno",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "fiesta DJ discoteca noche Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 65,
+      "nombre": "Descubrimiento diario · Planes gratis",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "plan gratis evento gratuito Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 66,
+      "nombre": "Descubrimiento diario · Solidarios y voluntariado",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "evento solidario voluntariado Cádiz {fecha}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 67,
+      "nombre": "Descubrimiento diario · Agenda de prensa local",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "agenda Cádiz {fecha} Diario de Cádiz La Voz de Cádiz Cádiz Directo",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 68,
+      "nombre": "Descubrimiento diario · Academias, ateneos y colegios",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Real Academia Ateneo Colegio profesional Cádiz actividades {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 69,
+      "nombre": "Descubrimiento diario · Oratorio San Felipe Neri y Museo de las Cortes",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Oratorio de San Felipe Neri Museo de las Cortes Cádiz actividades {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 70,
+      "nombre": "Descubrimiento diario · Fundaciones (Unicaja, Cajasol)",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Fundación Unicaja Cádiz Fundación Cajasol Cádiz exposiciones conciertos {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 71,
+      "nombre": "Descubrimiento diario · Diputación (Palacio Provincial, Sala Rivadavia)",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Diputación de Cádiz Palacio Provincial Sala Rivadavia exposición {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 72,
+      "nombre": "Descubrimiento diario · Salas de conciertos",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Momart Theatre salas de conciertos Cádiz capital programación {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 73,
+      "nombre": "Descubrimiento diario · Universidad (agenda cultural PDF)",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "UCA Campus Cádiz extensión universitaria agenda cultural {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 74,
+      "nombre": "Descubrimiento diario · Festivales",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "festival Cádiz {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 75,
+      "nombre": "Descubrimiento diario · Deportes de equipo",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Cádiz CF baloncesto balonmano rugby fútbol sala partido Cádiz capital {mes} {año}",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 76,
+      "nombre": "Descubrimiento diario · Turismo y cruceros",
+      "tipo": "descubrimiento",
+      "urls": [],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Cádiz actividades turismo {fecha} Ayuntamiento Patronato",
+      "nota": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador."
+    },
+    {
+      "id": 77,
+      "nombre": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/buscador"
+      ],
+      "parser": "junta",
+      "provincia_id": "1439",
+      "provincial": true,
+      "nota": "Buscador oficial por provincia y fechas; «Sala - Cádiz» = capital. Trae Falla, Baluarte, Casa de Iberoamérica, Museo, Fundación Unicaja, Conservatorio, UCA…"
+    },
+    {
+      "id": 78,
+      "nombre": "Cádiz Guitar Festival (web del organizador)",
+      "tipo": "recinto",
+      "urls": [
+        "https://www.cadizguitarfestival.com/"
+      ],
+      "parser": "cgf",
+      "provincial": true,
+      "nota": "Festival con conciertos en varios municipios; se marca pista_capital si la sala termina en «Cádiz». Hasta el 8 nov 2026"
+    },
+    {
+      "id": 79,
+      "nombre": "Taquilla.com – salas de Cádiz (Momart…)",
+      "tipo": "entradas",
+      "urls": [
+        "https://www.taquilla.com/cadiz/momart-cadiz-11003"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Taquilla Cádiz Momart programación {mes} {año} (taquilla.com/cadiz/momart-cadiz-11003)",
+      "nota": "Venta de entradas: dirección «orientativa»; confirmar con la sala o el promotor"
+    },
+    {
+      "id": 80,
+      "nombre": "Ayuntamiento de Cádiz – Notas de prensa y programaciones especiales (Halloween, Tosantos, Carnaval, fiestas)",
+      "tipo": "oficial",
+      "urls": [
+        "https://transparencia.cadiz.es/",
+        "https://ondacadiz.es/noticias/"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Ayuntamiento de Cádiz programación {mes} {año} fiestas Halloween Tosantos Navidad Carnaval actividades Casa de la Juventud Baluarte de la Candelaria",
+      "nota": "Las programaciones especiales del Ayuntamiento (p. ej. Halloween 2026: Plazuela del Truco o Trato, Matadero 13, desfile) se anuncian en notas de prensa y NO siempre salen en la agenda por fechas. Consultar cada día. Si dos medios discrepan en un dato (p. ej. punto de salida del desfile), se omite ese dato."
+    },
+    {
+      "id": 81,
+      "nombre": "Casa de la Juventud de Cádiz (Ayuntamiento) – actividades",
+      "tipo": "oficial",
+      "urls": [
+        "https://juventud.cadiz.es/"
+      ],
+      "parser": "texto",
+      "provincial": false,
+      "via": "web",
+      "consulta": "Casa de la Juventud Cádiz actividades {fecha} {mes} {año} Cánovas del Castillo 41",
+      "nota": "Reparte invitaciones de actividades municipales (C/ Cánovas del Castillo, 41)."
+    },
+    {
+      "id": 82,
+      "nombre": "Cádiz CF – partidos en casa (web oficial, automático)",
+      "tipo": "recinto",
+      "urls": [
+        "https://www.cadizcf.com/"
+      ],
+      "parser": "cadizcf",
+      "provincial": false,
+      "nota": "Lee la web oficial con Chromium (403 a scripts). Solo partidos COMO LOCAL (Estadio Nuevo Mirandilla, Cádiz) con fecha/hora oficial e imagen oficial. Los partidos fuera de casa no se publican."
+    },
+    {
+      "id": 83,
+      "nombre": "Palacio de Congresos de Cádiz – eventos (web oficial)",
+      "tipo": "recinto",
+      "urls": [
+        "https://palaciocongresos-cadiz.com/es"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Sección Events de la web del recinto (Cádiz capital). Conciertos, congresos abiertos y espectáculos; confirmar dirección en la ficha."
+    },
+    {
+      "id": 84,
+      "nombre": "CádizNoticias – agenda y avisos de actos",
+      "tipo": "prensa",
+      "urls": [
+        "https://cadiznoticias.es/"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Prensa local que publica la programación semanal del Ateneo, proyecciones y talleres municipales (Ateneo 19-28 oct, «Cómo habitar un cuerpo», Martes del Empleo). Busca «agenda/programa» y «se proyectará/se celebrará»."
+    },
+    {
+      "id": 85,
+      "nombre": "Ateneo de Cádiz – programa",
+      "tipo": "recinto",
+      "urls": [
+        "https://ateneocadiz.es/"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Programa mensual/semanal con presentaciones, conferencias y conciertos en Calle Ancha 20 (Cádiz capital). Actos a las 19:00 salvo indicación."
+    },
+    {
+      "id": 86,
+      "nombre": "IFEF Cádiz – Los Martes del Empleo y talleres",
+      "tipo": "oficial",
+      "urls": [
+        "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Talleres puntuales en los Depósitos de Tabaco (Av. Marconi 34), martes 11:00; con inscripción previa (criterio 8)."
+    },
+    {
+      "id": 87,
+      "nombre": "Fundación Cádiz CF – actividades",
+      "tipo": "oficial",
+      "urls": [
+        "https://cadizcf.com/fundacion/"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Proyecciones y actos solidarios abiertos (p. ej. «Cómo habitar un cuerpo», Edificio Ma'Arifa, Av. Marconi 37)."
+    },
+    {
+      "id": 88,
+      "nombre": "Cádiz Ilustrada – conferencias",
+      "tipo": "organizador",
+      "urls": [
+        "https://www.google.com/search?q=C%C3%A1diz+Ilustrada+conferencia"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Asociación que organiza conferencias en el Centro Cultural Ancha 16 con el Ayuntamiento; localizar su web/avisos en prensa."
+    },
+    {
+      "id": 89,
+      "nombre": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
+      "tipo": "oficial",
+      "urls": [
+        "https://institucional.cadiz.es/programacion_cultural"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Teatro de pequeño formato y talleres de la Fundación Municipal de Cultura; revisar fichas de cada centro cultural."
+    },
+    {
+      "id": 90,
+      "nombre": "Antiguos Depósitos de Tabaco – agenda semanal",
+      "tipo": "oficial",
+      "urls": [
+        "https://vivirediciones.es/depositos-cadiz-agenda-semanal-cursos-formacion/",
+        "https://edusi.cadiz.es/",
+        "https://transparencia.cadiz.es/"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Agenda diaria del espacio municipal (Av. Marconi 34, Cádiz): talleres puntuales (Martes del Empleo, ERACIS+), mesas sectoriales, exposiciones y ludoteca. Publicada cada semana por el Ayuntamiento y recogida en vivirediciones.es."
+    }
+  ]
 }
