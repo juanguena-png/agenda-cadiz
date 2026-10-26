@@ -1,340 +1,428 @@
 {
-  "fecha": "2026-10-26",
-  "tipo": "diario",
-  "eventos": [
+ "fecha": "2026-10-26",
+ "tipo": "diario",
+ "eventos": [
+  {
+   "id": "tosantos-infantil",
+   "nombre": "Tosantos: gala de circo y talleres infantiles",
+   "categoria": "infantil",
+   "fecha": "2026-10-26",
+   "hora_inicio": "18:00",
+   "hora_fin": "21:00",
+   "todo_el_dia": false,
+   "lugar": "Mercado Central y Mercado Virgen del Rosario",
+   "direccion": "Mercados municipales de Cádiz",
+   "precio": "Consultar",
+   "publico": "Infantil y familiar",
+   "descripcion": "Actividades infantiles de temática circense: gala de circo, animación y taller en el Mercado Central; «Había una vez un musical de circo» y talleres de malabares y acrobacias en el Mercado Virgen del Rosario.",
+   "info": "Los puestos reparten bolsas de fruta a los más pequeños",
+   "imagen": {
+    "archivo": "img/tosantos-infantil.jpg",
+    "url_origen": "https://www.cadizdirecto.com/wp-content/uploads/2026/10/Beatriz-Gandullo-Paco-Alvarez-pepe-Mata-Brenda-Garcia-y-Miriam-Ballesteros-en-la-presentacion-de-los-Tosantos-2026.webp",
+    "fuente": "www.cadizdirecto.com",
+    "pagina": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026",
+    "ancho": 1200,
+    "alto": 675,
+    "alt_text": "Imagen de Tosantos: gala de circo y talleres infantiles",
+    "tipo_imagen": "cualquiera",
+    "ajuste": "contain"
+   },
+   "fuentes": [
     {
-      "id": "tosantos-infantil",
-      "nombre": "Tosantos: gala de circo y talleres infantiles",
-      "categoria": "infantil",
-      "fecha": "2026-10-26",
-      "hora_inicio": "18:00",
-      "hora_fin": "21:00",
-      "todo_el_dia": false,
-      "lugar": "Mercado Central y Mercado Virgen del Rosario",
-      "direccion": "Mercados municipales de Cádiz",
-      "precio": "Consultar",
-      "publico": "Infantil y familiar",
-      "descripcion": "Actividades infantiles de temática circense: gala de circo, animación y taller en el Mercado Central; «Había una vez un musical de circo» y talleres de malabares y acrobacias en el Mercado Virgen del Rosario.",
-      "info": "Los puestos reparten bolsas de fruta a los más pequeños",
-      "imagen": {
-        "archivo": "img/tosantos-infantil.jpg",
-        "url_origen": "https://www.cadizdirecto.com/wp-content/uploads/2026/10/Beatriz-Gandullo-Paco-Alvarez-pepe-Mata-Brenda-Garcia-y-Miriam-Ballesteros-en-la-presentacion-de-los-Tosantos-2026.webp",
-        "fuente": "www.cadizdirecto.com",
-        "pagina": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026",
-        "ancho": 1200,
-        "alto": 675,
-        "alt_text": "Imagen de Tosantos: gala de circo y talleres infantiles",
-        "tipo_imagen": "cualquiera",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Vivir Ediciones",
-          "url": "https://vivirediciones.es/?p=1139894"
-        },
-        {
-          "nombre": "Cádiz Directo",
-          "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Mercado Central y Mercado Virgen del Rosario de Cádiz (Tosantos 2026, Ayuntamiento de Cádiz)",
-        "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
-      },
-      "etiquetas_ig": [
-        "ayuntamientocadiz"
-      ]
+     "nombre": "Vivir Ediciones",
+     "url": "https://vivirediciones.es/?p=1139894"
     },
     {
-      "id": "tosantos-exornos",
-      "nombre": "Tosantos: concurso de exornos en los mercados",
-      "categoria": "fiesta",
-      "fecha": "2026-10-26",
-      "hora_inicio": "18:00",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Mercado Central y Mercado Virgen del Rosario",
-      "direccion": "Mercados municipales de Cádiz",
-      "precio": "Consultar",
-      "publico": "Todos los públicos",
-      "descripcion": "Recorrido por los puestos participantes en el concurso de exornos de los Tosantos, con iluminación especial en ambos mercados.",
-      "info": "Los puestos reparten bolsas de fruta a los más pequeños",
-      "imagen": {
-        "archivo": "img/tosantos-exornos.jpg",
-        "url_origen": "https://www.cadizdirecto.com/wp-content/uploads/2026/10/Beatriz-Gandullo-Paco-Alvarez-pepe-Mata-Brenda-Garcia-y-Miriam-Ballesteros-en-la-presentacion-de-los-Tosantos-2026.webp",
-        "fuente": "www.cadizdirecto.com",
-        "pagina": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026",
-        "ancho": 1200,
-        "alto": 675,
-        "alt_text": "Imagen de Tosantos: concurso de exornos en los mercados",
-        "tipo_imagen": "cualquiera",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Vivir Ediciones",
-          "url": "https://vivirediciones.es/?p=1139894"
-        },
-        {
-          "nombre": "Cádiz Directo",
-          "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Mercado Central y Mercado Virgen del Rosario de Cádiz (Tosantos 2026, Ayuntamiento de Cádiz)",
-        "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
-      },
-      "etiquetas_ig": [
-        "ayuntamientocadiz"
-      ]
-    },
-    {
-      "id": "ese-mar",
-      "nombre": "Exposición «Ese mar que nos une»",
-      "categoria": "exposición",
-      "fecha": "2026-10-26",
-      "hora_inicio": "09:00",
-      "hora_fin": "21:00",
-      "todo_el_dia": false,
-      "lugar": "Casa de Iberoamérica · Sala Blas de Lezo",
-      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
-      "precio": "Consultar",
-      "publico": "Todos los públicos",
-      "descripcion": "Muestra sobre el mar como vínculo entre Cádiz e Iberoamérica. Abierta hasta el 30 de octubre.",
-      "info": "Exposición abierta",
-      "imagen": {
-        "archivo": "img/ese-mar.jpg",
-        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/09/Invitacion_Ese Mar Que.jpg",
-        "fuente": "www.casadeiberoamerica.es",
-        "pagina": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une",
-        "ancho": 262,
-        "alto": 372,
-        "alt_text": "Imagen de Exposición «Ese mar que nos une»",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Casa de Iberoamérica",
-          "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
-        "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
-      },
-      "etiquetas_ig": [],
-      "etiqueta": "Siempre abierto"
-    },
-    {
-      "id": "manton-manila",
-      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
-      "categoria": "exposición",
-      "fecha": "2026-10-26",
-      "hora_inicio": "09:00",
-      "hora_fin": "21:00",
-      "todo_el_dia": false,
-      "lugar": "Casa de Iberoamérica · Sala Zitman",
-      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
-      "precio": "Consultar",
-      "publico": "Todos los públicos",
-      "descripcion": "La ruta del galeón contada con mantones de colección y obras del Museo Cruz Herrera. Hasta el 9 de enero.",
-      "info": "Exposición abierta",
-      "imagen": {
-        "archivo": "img/manton-manila.jpg",
-        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/10/mantonmanila-post-instagram-vertical.jpg",
-        "fuente": "www.casadeiberoamerica.es",
-        "pagina": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
-        "ancho": 262,
-        "alto": 350,
-        "alt_text": "Imagen de Exposición «¿Dónde vas con mantón de Manila?»",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Casa de Iberoamérica",
-          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
-        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
-      },
-      "etiquetas_ig": [],
-      "etiqueta": "Siempre abierto"
-    },
-    {
-      "id": "patrocinio-cajasol",
-      "nombre": "Exposición «Patrocinio. 50 años de devoción, arte y patrimonio»",
-      "categoria": "exposición",
-      "fecha": "2026-10-26",
-      "hora_inicio": "11:00",
-      "hora_fin": "20:30",
-      "todo_el_dia": false,
-      "lugar": "Fundación Cajasol (Casa Pemán)",
-      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "Gratis",
-      "publico": "Todos los públicos",
-      "descripcion": "Medio siglo de la bendición de María Santísima del Patrocinio, con piezas históricas y obras creadas para la ocasión. Horario: 11:00–14:00 y 16:30–20:30 (hasta el 30 de octubre).",
-      "info": "Exposición abierta",
-      "imagen": {
-        "archivo": "img/patrocinio-cajasol.jpg",
-        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/1920x1080-23.jpg",
-        "fuente": "fundacioncajasol.com",
-        "pagina": "https://fundacioncajasol.com/evento/patrocinio/",
-        "ancho": 1600,
-        "alto": 900,
-        "alt_text": "Imagen de Exposición «Patrocinio. 50 años de devoción, arte y patrimonio»",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Fundación Cajasol",
-          "url": "https://fundacioncajasol.com/evento/patrocinio/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
-        "url": "https://fundacioncajasol.com/evento/patrocinio/"
-      },
-      "etiquetas_ig": [],
-      "etiqueta": "Siempre abierto"
-    },
-    {
-      "id": "expo-campos",
-      "nombre": "Exposición «Campos de concentración en la provincia de Cádiz»",
-      "categoria": "exposición",
-      "fecha": "2026-10-26",
-      "hora_inicio": null,
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Biblioteca de Humanidades · Facultad de Filosofía y Letras (UCA)",
-      "direccion": "Campus de Cádiz",
-      "precio": "Gratis",
-      "publico": "Todos los públicos",
-      "descripcion": "Muestra de la Cátedra de Memoria Histórica y Democrática basada en el libro «Arena cautiva». Última semana: termina el 30 de octubre. Horario de la biblioteca.",
-      "info": "Exposición abierta",
-      "imagen": {
-        "archivo": "img/expo-campos.jpg",
-        "url_origen": "https://www.uca.es/wp-content/uploads/2026/04/Destacado-Expo-Campos-Concentracion-470x300.png",
-        "fuente": "www.uca.es",
-        "pagina": "https://www.uca.es/evento/exposicion-campos-de-concentracion-en-la-provincia-de-cadiz/",
-        "ancho": 470,
-        "alto": 300,
-        "alt_text": "Imagen de Exposición «Campos de concentración en la provincia de Cádiz»",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Universidad de Cádiz",
-          "url": "https://www.uca.es/evento/exposicion-campos-de-concentracion-en-la-provincia-de-cadiz/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Biblioteca de Humanidades, Facultad de Filosofía y Letras, Campus de Cádiz",
-        "url": "https://www.uca.es/evento/exposicion-campos-de-concentracion-en-la-provincia-de-cadiz/"
-      },
-      "etiquetas_ig": [],
-      "etiqueta": "Siempre abierto"
+     "nombre": "Cádiz Directo",
+     "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
     }
-  ],
-  "noche_manana": [
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Mercado Central y Mercado Virgen del Rosario de Cádiz (Tosantos 2026, Ayuntamiento de Cádiz)",
+    "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
+   },
+   "etiquetas_ig": [
+    "ayuntamientocadiz"
+   ]
+  },
+  {
+   "id": "tosantos-exornos",
+   "nombre": "Tosantos: concurso de exornos en los mercados",
+   "categoria": "fiesta",
+   "fecha": "2026-10-26",
+   "hora_inicio": "18:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Mercado Central y Mercado Virgen del Rosario",
+   "direccion": "Mercados municipales de Cádiz",
+   "precio": "Consultar",
+   "publico": "Todos los públicos",
+   "descripcion": "Recorrido por los puestos participantes en el concurso de exornos de los Tosantos, con iluminación especial en ambos mercados.",
+   "info": "Los puestos reparten bolsas de fruta a los más pequeños",
+   "imagen": {
+    "archivo": "img/tosantos-exornos.jpg",
+    "url_origen": "https://www.cadizdirecto.com/wp-content/uploads/2026/10/Beatriz-Gandullo-Paco-Alvarez-pepe-Mata-Brenda-Garcia-y-Miriam-Ballesteros-en-la-presentacion-de-los-Tosantos-2026.webp",
+    "fuente": "www.cadizdirecto.com",
+    "pagina": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026",
+    "ancho": 1200,
+    "alto": 675,
+    "alt_text": "Imagen de Tosantos: concurso de exornos en los mercados",
+    "tipo_imagen": "cualquiera",
+    "ajuste": "contain"
+   },
+   "fuentes": [
     {
-      "categoria": "otros",
-      "fecha": "2026-10-27",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "imagen": {},
-      "etiquetas_ig": [
-        "@fundacioncajasol"
-      ],
-      "id": "mente-en-movimiento",
-      "nombre": "Mente en movimiento",
-      "hora_inicio": "11:00",
-      "lugar": "Fundación Cajasol (Casa Pemán)",
-      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "Gratis",
-      "publico": "Todos los públicos",
-      "descripcion": "Sesión del programa «Cajasol te cuida» dedicada al bienestar y la salud mental, en la sede gaditana de la fundación.",
-      "info": "Entrada libre hasta completar aforo",
-      "fuentes": [
-        {
-          "nombre": "Fundación Cajasol",
-          "url": "https://fundacioncajasol.com/evento/mente-en-movimiento/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
-        "url": "https://fundacioncajasol.com/evento/mente-en-movimiento/"
-      }
+     "nombre": "Vivir Ediciones",
+     "url": "https://vivirediciones.es/?p=1139894"
     },
     {
-      "id": "cineforum-blade-runner",
-      "nombre": "Cinefórum Cádiz: «Blade Runner 2049»",
-      "categoria": "otros",
-      "fecha": "2026-10-27",
-      "hora_inicio": "18:00",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Fundación Cajasol (Casa Pemán)",
-      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "Gratis",
-      "publico": "Adultos",
-      "descripcion": "Proyección y coloquio de la película de Denis Villeneuve, que cierra el programa de octubre de la fundación bajo el lema «¿IA Humanos?».",
-      "info": "Entrada libre hasta completar aforo",
-      "imagen": {},
-      "fuentes": [
-        {
-          "nombre": "Fundación Cajasol",
-          "url": "https://fundacioncajasol.com/evento/blade-runner-2049/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
-        "url": "https://fundacioncajasol.com/evento/blade-runner-2049/"
-      },
-      "etiquetas_ig": []
-    },
-    {
-      "id": "zonas-francas-iberoamericanas",
-      "nombre": "XXIX Conferencia de Zonas Francas Iberoamericanas",
-      "categoria": "otros",
-      "fecha": "2026-10-27",
-      "hora_inicio": null,
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Palacio de Congresos y Exposiciones de Cádiz",
-      "direccion": "Plaza Sevilla s/n, 11006 Cádiz",
-      "precio": "Consultar",
-      "publico": "Profesional",
-      "descripcion": "Encuentro profesional sobre zonas francas y comercio en Iberoamérica en el Palacio de Congresos. Consulta el horario y el acceso con el recinto.",
-      "info": "Consultar horario y acceso (956 29 10 17)",
-      "imagen": {},
-      "fuentes": [
-        {
-          "nombre": "Palacio de Congresos de Cádiz",
-          "url": "https://palaciocongresos-cadiz.com/eventos/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Palacio de Congresos y Exposiciones de Cádiz, Plaza Sevilla s/n, 11006 Cádiz",
-        "url": "https://palaciocongresos-cadiz.com/eventos/"
-      },
-      "etiquetas_ig": [
-        "@palaciocongresoscadiz"
-      ]
+     "nombre": "Cádiz Directo",
+     "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
     }
-  ]
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Mercado Central y Mercado Virgen del Rosario de Cádiz (Tosantos 2026, Ayuntamiento de Cádiz)",
+    "url": "https://www.cadizdirecto.com/cadiz/el-ayuntamiento-de-cadiz-presenta-las-fechas-y-novedades-de-los-tosantos-2026"
+   },
+   "etiquetas_ig": [
+    "ayuntamientocadiz"
+   ]
+  },
+  {
+   "id": "ese-mar",
+   "nombre": "Exposición «Ese mar que nos une»",
+   "categoria": "exposición",
+   "fecha": "2026-10-26",
+   "hora_inicio": "09:00",
+   "hora_fin": "21:00",
+   "todo_el_dia": false,
+   "lugar": "Casa de Iberoamérica · Sala Blas de Lezo",
+   "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+   "precio": "Consultar",
+   "publico": "Todos los públicos",
+   "descripcion": "Muestra sobre el mar como vínculo entre Cádiz e Iberoamérica. Abierta hasta el 30 de octubre.",
+   "info": "Exposición abierta",
+   "imagen": {
+    "archivo": "img/ese-mar.jpg",
+    "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/09/Invitacion_Ese Mar Que.jpg",
+    "fuente": "www.casadeiberoamerica.es",
+    "pagina": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une",
+    "ancho": 262,
+    "alto": 372,
+    "alt_text": "Imagen de Exposición «Ese mar que nos une»",
+    "tipo_imagen": "oficial",
+    "ajuste": "contain"
+   },
+   "fuentes": [
+    {
+     "nombre": "Casa de Iberoamérica",
+     "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+    "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
+   },
+   "etiquetas_ig": [],
+   "etiqueta": "Siempre abierto"
+  },
+  {
+   "id": "manton-manila",
+   "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+   "categoria": "exposición",
+   "fecha": "2026-10-26",
+   "hora_inicio": "09:00",
+   "hora_fin": "21:00",
+   "todo_el_dia": false,
+   "lugar": "Casa de Iberoamérica · Sala Zitman",
+   "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+   "precio": "Consultar",
+   "publico": "Todos los públicos",
+   "descripcion": "La ruta del galeón contada con mantones de colección y obras del Museo Cruz Herrera. Hasta el 9 de enero.",
+   "info": "Exposición abierta",
+   "imagen": {
+    "archivo": "img/manton-manila.jpg",
+    "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/10/mantonmanila-post-instagram-vertical.jpg",
+    "fuente": "www.casadeiberoamerica.es",
+    "pagina": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+    "ancho": 262,
+    "alto": 350,
+    "alt_text": "Imagen de Exposición «¿Dónde vas con mantón de Manila?»",
+    "tipo_imagen": "oficial",
+    "ajuste": "contain"
+   },
+   "fuentes": [
+    {
+     "nombre": "Casa de Iberoamérica",
+     "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+    "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+   },
+   "etiquetas_ig": [],
+   "etiqueta": "Siempre abierto"
+  },
+  {
+   "id": "patrocinio-cajasol",
+   "nombre": "Exposición «Patrocinio. 50 años de devoción, arte y patrimonio»",
+   "categoria": "exposición",
+   "fecha": "2026-10-26",
+   "hora_inicio": "11:00",
+   "hora_fin": "20:30",
+   "todo_el_dia": false,
+   "lugar": "Fundación Cajasol (Casa Pemán)",
+   "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+   "precio": "Gratis",
+   "publico": "Todos los públicos",
+   "descripcion": "Medio siglo de la bendición de María Santísima del Patrocinio, con piezas históricas y obras creadas para la ocasión. Horario: 11:00–14:00 y 16:30–20:30 (hasta el 30 de octubre).",
+   "info": "Exposición abierta",
+   "imagen": {
+    "archivo": "img/patrocinio-cajasol.jpg",
+    "url_origen": "https://fundacioncajasol.com/wp-content/uploads/1920x1080-23.jpg",
+    "fuente": "fundacioncajasol.com",
+    "pagina": "https://fundacioncajasol.com/evento/patrocinio/",
+    "ancho": 1600,
+    "alto": 900,
+    "alt_text": "Imagen de Exposición «Patrocinio. 50 años de devoción, arte y patrimonio»",
+    "tipo_imagen": "oficial",
+    "ajuste": "contain"
+   },
+   "fuentes": [
+    {
+     "nombre": "Fundación Cajasol",
+     "url": "https://fundacioncajasol.com/evento/patrocinio/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+    "url": "https://fundacioncajasol.com/evento/patrocinio/"
+   },
+   "etiquetas_ig": [],
+   "etiqueta": "Siempre abierto"
+  },
+  {
+   "id": "expo-campos",
+   "nombre": "Exposición «Campos de concentración en la provincia de Cádiz»",
+   "categoria": "exposición",
+   "fecha": "2026-10-26",
+   "hora_inicio": null,
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Biblioteca de Humanidades · Facultad de Filosofía y Letras (UCA)",
+   "direccion": "Campus de Cádiz",
+   "precio": "Gratis",
+   "publico": "Todos los públicos",
+   "descripcion": "Muestra de la Cátedra de Memoria Histórica y Democrática basada en el libro «Arena cautiva». Última semana: termina el 30 de octubre. Horario de la biblioteca.",
+   "info": "Exposición abierta",
+   "imagen": {
+    "archivo": "img/expo-campos.jpg",
+    "url_origen": "https://www.uca.es/wp-content/uploads/2026/04/Destacado-Expo-Campos-Concentracion-470x300.png",
+    "fuente": "www.uca.es",
+    "pagina": "https://www.uca.es/evento/exposicion-campos-de-concentracion-en-la-provincia-de-cadiz/",
+    "ancho": 470,
+    "alto": 300,
+    "alt_text": "Imagen de Exposición «Campos de concentración en la provincia de Cádiz»",
+    "tipo_imagen": "oficial",
+    "ajuste": "contain"
+   },
+   "fuentes": [
+    {
+     "nombre": "Universidad de Cádiz",
+     "url": "https://www.uca.es/evento/exposicion-campos-de-concentracion-en-la-provincia-de-cadiz/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Biblioteca de Humanidades, Facultad de Filosofía y Letras, Campus de Cádiz",
+    "url": "https://www.uca.es/evento/exposicion-campos-de-concentracion-en-la-provincia-de-cadiz/"
+   },
+   "etiquetas_ig": [],
+   "etiqueta": "Siempre abierto"
+  }
+ ],
+ "noche_manana": [
+  {
+   "categoria": "otros",
+   "fecha": "2026-10-27",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "imagen": {},
+   "etiquetas_ig": [
+    "@fundacioncajasol"
+   ],
+   "id": "mente-en-movimiento",
+   "nombre": "Mente en movimiento",
+   "hora_inicio": "11:00",
+   "lugar": "Fundación Cajasol (Casa Pemán)",
+   "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+   "precio": "Gratis",
+   "publico": "Todos los públicos",
+   "descripcion": "Sesión del programa «Cajasol te cuida» dedicada al bienestar y la salud mental, en la sede gaditana de la fundación.",
+   "info": "Entrada libre hasta completar aforo",
+   "fuentes": [
+    {
+     "nombre": "Fundación Cajasol",
+     "url": "https://fundacioncajasol.com/evento/mente-en-movimiento/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+    "url": "https://fundacioncajasol.com/evento/mente-en-movimiento/"
+   }
+  },
+  {
+   "id": "cineforum-blade-runner",
+   "nombre": "Cinefórum Cádiz: «Blade Runner 2049»",
+   "categoria": "otros",
+   "fecha": "2026-10-27",
+   "hora_inicio": "18:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Fundación Cajasol (Casa Pemán)",
+   "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+   "precio": "Gratis",
+   "publico": "Adultos",
+   "descripcion": "Proyección y coloquio de la película de Denis Villeneuve, que cierra el programa de octubre de la fundación bajo el lema «¿IA Humanos?».",
+   "info": "Entrada libre hasta completar aforo",
+   "imagen": {},
+   "fuentes": [
+    {
+     "nombre": "Fundación Cajasol",
+     "url": "https://fundacioncajasol.com/evento/blade-runner-2049/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+    "url": "https://fundacioncajasol.com/evento/blade-runner-2049/"
+   },
+   "etiquetas_ig": []
+  },
+  {
+   "id": "zonas-francas-iberoamericanas",
+   "nombre": "XXIX Conferencia de Zonas Francas Iberoamericanas",
+   "categoria": "otros",
+   "fecha": "2026-10-27",
+   "hora_inicio": null,
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Palacio de Congresos y Exposiciones de Cádiz",
+   "direccion": "Plaza Sevilla s/n, 11006 Cádiz",
+   "precio": "Consultar",
+   "publico": "Profesional",
+   "descripcion": "Encuentro profesional sobre zonas francas y comercio en Iberoamérica en el Palacio de Congresos. Consulta el horario y el acceso con el recinto.",
+   "info": "Consultar horario y acceso (956 29 10 17)",
+   "imagen": {},
+   "fuentes": [
+    {
+     "nombre": "Palacio de Congresos de Cádiz",
+     "url": "https://palaciocongresos-cadiz.com/eventos/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Palacio de Congresos y Exposiciones de Cádiz, Plaza Sevilla s/n, 11006 Cádiz",
+    "url": "https://palaciocongresos-cadiz.com/eventos/"
+   },
+   "etiquetas_ig": [
+    "@palaciocongresoscadiz"
+   ]
+  },
+  {
+   "id": "martes-empleo-presentaciones",
+   "nombre": "Los Martes del Empleo: «Presentaciones eficaces»",
+   "categoria": "otros",
+   "fecha": "2026-10-27",
+   "hora_inicio": "11:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Antiguos Depósitos de Tabaco",
+   "direccion": "Avenida Marconi 34, Cádiz",
+   "precio": "Gratis",
+   "publico": "Todos los públicos",
+   "descripcion": "Taller del IFEF para aprender a presentar tu trayectoria profesional con apps y técnicas de comunicación. Dura hasta las 12:30.",
+   "info": "Inscripción previa en el formulario del IFEF",
+   "imagen": {},
+   "fuentes": [
+    {
+     "nombre": "CádizNoticias",
+     "url": "https://cadiznoticias.es/los-talleres-de-empleo-en-cadiz-abordaran-en-octubre-los-recursos-del-sae-y-el-nuevo-sistema-de-fp/"
+    },
+    {
+     "nombre": "IFEF",
+     "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Depósitos de Tabaco, avenida Marconi 34, Cádiz (rotonda Marconi con Lacave)",
+    "url": "https://cadiznoticias.es/los-talleres-de-empleo-en-cadiz-abordaran-en-octubre-los-recursos-del-sae-y-el-nuevo-sistema-de-fp/"
+   },
+   "etiquetas_ig": []
+  },
+  {
+   "id": "como-habitar-un-cuerpo",
+   "nombre": "Proyección del documental «Cómo habitar un cuerpo»",
+   "categoria": "otros",
+   "fecha": "2026-10-27",
+   "hora_inicio": "17:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Edificio Ma'Arifa (Confederación de Empresarios de Cádiz)",
+   "direccion": "Avenida Marconi 37, Cádiz",
+   "precio": "Gratis",
+   "publico": "Todos los públicos",
+   "descripcion": "Pase del documental sobre discapacidad, salud mental e inclusión laboral, organizado por la Fundación Cádiz CF.",
+   "info": "Entrada libre hasta completar aforo",
+   "imagen": {},
+   "fuentes": [
+    {
+     "nombre": "CádizNoticias",
+     "url": "https://cadiznoticias.es/el-documental-como-habitar-un-cuerpo-se-proyectara-en-cadiz-el-27-de-octubre/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Edificio Ma'Arifa, avenida Marconi 37, Cádiz",
+    "url": "https://cadiznoticias.es/el-documental-como-habitar-un-cuerpo-se-proyectara-en-cadiz-el-27-de-octubre/"
+   },
+   "etiquetas_ig": []
+  },
+  {
+   "id": "ateneo-comidas-andariegos",
+   "nombre": "Presentación del libro «Comidas de andariegos»",
+   "categoria": "otros",
+   "fecha": "2026-10-27",
+   "hora_inicio": "19:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Ateneo de Cádiz",
+   "direccion": "Calle Ancha 20, 1.º, Cádiz",
+   "precio": "Gratis",
+   "publico": "Todos los públicos",
+   "descripcion": "Francisco Súnico Varela presenta su recetario ligado a los caminos y andariegos de la provincia, con Ana María Súnico.",
+   "info": "Entrada libre hasta completar aforo",
+   "imagen": {},
+   "fuentes": [
+    {
+     "nombre": "CádizNoticias (programa del Ateneo)",
+     "url": "https://cadiznoticias.es/el-ateneo-de-cadiz-programa-ocho-actos-culturales-del-19-al-28-de-octubre/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "sede del Ateneo, número 20 de la calle Ancha, Cádiz",
+    "url": "https://cadiznoticias.es/el-ateneo-de-cadiz-programa-ocho-actos-culturales-del-19-al-28-de-octubre/"
+   },
+   "etiquetas_ig": []
+  }
+ ]
 }
