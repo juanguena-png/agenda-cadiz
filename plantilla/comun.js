@@ -2,7 +2,8 @@
 function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
 function foto(ev) { return (ev.imagen && ev.imagen.ruta_abs) ? `url('${ev.imagen.ruta_abs}')` : "none"; }
 function horaTxt(ev) {
-  if (ev.todo_el_dia || !ev.hora_inicio) return "Todo el día";
+  if (ev.todo_el_dia || (!ev.hora_inicio && ev.etiqueta)) return "Todo el día";
+  if (!ev.hora_inicio) return "Consultar horario";
   return ev.hora_fin ? `${ev.hora_inicio}–${ev.hora_fin}` : ev.hora_inicio;
 }
 function precioTxt(ev) { return ev.precio || "Consultar"; }

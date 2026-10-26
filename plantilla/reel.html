@@ -160,7 +160,7 @@ async function render(d){
     const diaIdx=Math.max(0,dias.findIndex(x=>x.iso===ev.fecha));
     const segs=d.eventos.map((_,j)=>`<i><b></b></i>`).join("");
     const tabs=dias.map((x,j)=>`<span class="dia ${j===diaIdx?"on":""}">${x.abr} ${x.num}</span>`).join("");
-    const horaT=(ev.todo_el_dia||!ev.hora_inicio)?"Todo el día":(ev.hora_fin?`${ev.hora_inicio}–${ev.hora_fin}`:ev.hora_inicio);
+    const horaT=(ev.todo_el_dia||(!ev.hora_inicio&&ev.etiqueta))?"Todo el día":!ev.hora_inicio?"Consultar horario":(ev.hora_fin?`${ev.hora_inicio}–${ev.hora_fin}`:ev.hora_inicio);
     e.innerHTML=`<div class="sol"></div><div class="prog">${segs}</div><div class="dias">${tabs}</div><div class="nro">${i+1}/${n}</div>
       <div class="foto-w"><div class="k"><div class="f" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div></div></div>
       <span class="cat">${esc(ev.etiqueta||ev.categoria)}</span>${ev.fecha_txt?`<span class="cat b">${esc(ev.fecha_txt)}</span>`:""}

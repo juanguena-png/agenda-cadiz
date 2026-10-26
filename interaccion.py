@@ -31,7 +31,7 @@ EMOJI = {"música": "🎶", "teatro": "🎭", "infantil": "🧒", "exposición":
 
 def _linea_evento(ev, con_dia=False):
     """Dos líneas por plan: «🎶 20:00 · Nombre» y «📍 Lugar · precio»."""
-    hora = "Todo el día" if (ev.get("todo_el_dia") or not ev.get("hora_inicio")) else (f"{ev['hora_inicio']}–{ev['hora_fin']}" if ev.get("hora_fin") else ev["hora_inicio"])
+    hora = "Todo el día" if (ev.get("todo_el_dia") or (not ev.get("hora_inicio") and ev.get("etiqueta"))) else ("Consultar horario" if not ev.get("hora_inicio") else None) or (f"{ev['hora_inicio']}–{ev['hora_fin']}" if ev.get("hora_fin") else ev["hora_inicio"])
     emo = EMOJI.get(ev.get("categoria"), "✨")
     dia = (ev.get("fecha_txt") or "") if con_dia else ""
     sin_hora = hora == "Todo el día"

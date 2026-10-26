@@ -121,9 +121,11 @@
     {
       "archivo": "01.png",
       "ids": [
+        "zonas-francas-iberoamericanas",
+        "mente-en-movimiento",
         "cineforum-blade-runner"
       ],
-      "alt_text": "Mañana en Cádiz: Cinefórum Cádiz: «Blade Runner 2049»"
+      "alt_text": "Mañana en Cádiz: XXIX Conferencia de Zonas Francas Iberoamericanas; Mente en movimiento; Cinefórum Cádiz: «Blade Runner 2049»"
     }
   ]
 }

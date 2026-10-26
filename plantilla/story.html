@@ -18,7 +18,7 @@ h1{font-size:62px;line-height:1.06;overflow-wrap:anywhere}
 async function render(d){
   aplicarTema(d); const ev=d.evento;
   const dir=ev.direccion?`<small class="clamp1">${esc(ev.direccion)}</small>`:"";
-  const hora=(ev.todo_el_dia||!ev.hora_inicio)?"Todo el día":`${esc(ev.hora_inicio)}${ev.hora_fin?" a "+esc(ev.hora_fin):""}`;
+  const hora=(ev.todo_el_dia||(!ev.hora_inicio&&ev.etiqueta))?"Todo el día":!ev.hora_inicio?"Consultar horario":`${esc(ev.hora_inicio)}${ev.hora_fin?" a "+esc(ev.hora_fin):""}`;
   document.getElementById("l").innerHTML=`<div class="fondo foto" style="background-image:${foto(ev)}"></div><div class="deco"></div>
   <div class="zona">
     <div class="fila">${logo(d,"mini",38)}</div>
