@@ -1022,6 +1022,17 @@
       "via": "web",
       "provincial": false,
       "nota": "Agenda diaria del espacio municipal (Av. Marconi 34, Cádiz): talleres puntuales (Martes del Empleo, ERACIS+), mesas sectoriales, exposiciones y ludoteca. Publicada cada semana por el Ayuntamiento y recogida en vivirediciones.es."
+    },
+    {
+      "id": 91,
+      "nombre": "Colegio de Arquitectos de Cádiz – ciclos y conferencias",
+      "tipo": "organizador",
+      "urls": [
+        "https://www.google.com/search?q=Colegio+Arquitectos+C%C3%A1diz+ciclo+conferencias"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Ciclos con Fundación Unicaja (p. ej. Arquitectura, paisaje y territorio). Web propia aún sin URL verificada: localizarla y confirmar dirección en Cádiz capital (regla 1)."
     }
   ]
 }
