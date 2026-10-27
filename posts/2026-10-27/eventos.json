@@ -126,5 +126,121 @@
         "@ateneocadiz"
       ]
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "locos-azotea-1028",
+      "nombre": "Pódcast «Locos de la azotea» con Manolo Morera",
+      "categoria": "otros",
+      "fecha": "2026-10-28",
+      "hora_inicio": "19:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "publico": "Adultos",
+      "descripcion": "Manolo Morera repasa la actualidad con humor y colaboradores invitados, en directo desde la Casa Pemán. La recaudación de las entradas va a dos entidades benéficas gaditanas.",
+      "info": "Apertura de puertas a las 19:00 · entradas en la sede de Cádiz y online (fundacioncajasol.com)",
+      "imagen": {},
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-9/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-9/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "leer-queer-te-hice-dios",
+      "nombre": "Leer Queer: Marcos Augusto presenta «Te hice dios»",
+      "categoria": "otros",
+      "fecha": "2026-10-28",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Biblioteca Provincial de Cádiz",
+      "direccion": "Avenida Cuatro de Diciembre de 1977, 16, Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "descripcion": "El poeta Marcos Augusto presenta su primera novela, sobre dos hombres y un deseo obsesivo, en conversación con Salvador García, director de la Fundación Ory.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {},
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-marcos-augusto-participa-con-te-hice-dios-en-el-ciclo-leer-queer"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Biblioteca Pública Provincial de Cádiz, Avenida Cuatro de diciembre de 1977, 16, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-marcos-augusto-participa-con-te-hice-dios-en-el-ciclo-leer-queer"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "ese-mar-1028",
+      "nombre": "Exposición «Ese mar que nos une»",
+      "categoria": "exposición",
+      "fecha": "2026-10-28",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Sala Blas de Lezo",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Muestra sobre el mar como vínculo entre Cádiz e Iberoamérica. Abierta hasta el 30 de octubre.",
+      "info": "Exposición abierta",
+      "imagen": {},
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/319/exposicion-ese-mar-que-nos-une"
+      },
+      "etiquetas_ig": [],
+      "etiqueta": "Siempre abierto"
+    },
+    {
+      "id": "manton-manila-1028",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-10-28",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Sala Zitman",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "La ruta del galeón contada con mantones de colección y obras del Museo Cruz Herrera. Hasta el 9 de enero.",
+      "info": "Exposición abierta",
+      "imagen": {},
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [],
+      "etiqueta": "Siempre abierto"
+    }
   ]
 }

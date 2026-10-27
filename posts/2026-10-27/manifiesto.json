@@ -62,5 +62,16 @@
       "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial"
     }
   ],
-  "noche": []
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "ese-mar-1028",
+        "manton-manila-1028",
+        "leer-queer-te-hice-dios",
+        "locos-azotea-1028"
+      ],
+      "alt_text": "Mañana en Cádiz: Exposición «Ese mar que nos une»; Exposición «¿Dónde vas con mantón de Manila?»; Leer Queer: Marcos Augusto presenta «Te hice dios»; Pódcast «Locos de la azotea» con Manolo Morera"
+    }
+  ]
 }
