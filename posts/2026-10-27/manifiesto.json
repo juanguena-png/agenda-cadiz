@@ -1,0 +1,66 @@
+{
+  "variante": "A",
+  "paleta": 1,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundacioncajasol",
+        "ateneocadiz"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, martes 27 de octubre. 3 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "mente-en-movimiento"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Cajasol Te Cuida: «Mente en movimiento» (11:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "cineforum-blade-runner"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Cinefórum Cádiz: «Blade Runner 2049» (18:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-comidas-andariegos"
+      ],
+      "etiquetas": [
+        "ateneocadiz"
+      ],
+      "alt_text": "Eventos: Presentación del libro «Comidas de andariegos» (19:00, Ateneo de Cádiz)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "mente-en-movimiento",
+      "alt_text": "Cartel oficial del programa Cajasol Te Cuida de la Fundación Cajasol"
+    },
+    {
+      "archivo": "02.png",
+      "id": "cineforum-blade-runner",
+      "alt_text": "Cartel oficial del Cinefórum Cádiz de la Fundación Cajasol"
+    },
+    {
+      "archivo": "03.png",
+      "id": "ateneo-comidas-andariegos",
+      "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial"
+    }
+  ],
+  "noche": []
+}

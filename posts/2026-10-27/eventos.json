@@ -1,0 +1,130 @@
+{
+  "fecha": "2026-10-27",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "categoria": "otros",
+      "fecha": "2026-10-27",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "imagen": {
+        "archivo": "img/mente-en-movimiento.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-CAJASOL-TE-CUIDA_1920x1080.jpg",
+        "fuente": "Fundación Cajasol",
+        "pagina": "https://fundacioncajasol.com/evento/mente-en-movimiento/",
+        "alt_text": "Cartel oficial del programa Cajasol Te Cuida de la Fundación Cajasol",
+        "tipo_imagen": "oficial",
+        "ancho": 1600,
+        "alto": 900,
+        "ajuste": "contain"
+      },
+      "etiquetas_ig": [
+        "@fundacioncajasol"
+      ],
+      "id": "mente-en-movimiento",
+      "nombre": "Cajasol Te Cuida: «Mente en movimiento»",
+      "hora_inicio": "11:00",
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Sesión dinámica del programa «Cajasol Te Cuida» con ejercicios de agilidad mental, coordinación y flexibilidad, en la sede gaditana de la fundación.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/mente-en-movimiento/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/mente-en-movimiento/"
+      }
+    },
+    {
+      "id": "cineforum-blade-runner",
+      "nombre": "Cinefórum Cádiz: «Blade Runner 2049»",
+      "categoria": "otros",
+      "fecha": "2026-10-27",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "descripcion": "Pase de la película de Denis Villeneuve seguido de coloquio. Cierra el Cinefórum Cádiz de octubre, que ha girado en torno a la pregunta «¿IA Humanos?».",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/cineforum-blade-runner.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/13-27-OCT-CINEFORUM-CADIZ_1920x1080.jpg",
+        "fuente": "Fundación Cajasol",
+        "pagina": "https://fundacioncajasol.com/evento/blade-runner-2049/",
+        "alt_text": "Cartel oficial del Cinefórum Cádiz de la Fundación Cajasol",
+        "tipo_imagen": "oficial",
+        "ancho": 1600,
+        "alto": 900,
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/blade-runner-2049/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/blade-runner-2049/"
+      },
+      "etiquetas_ig": [
+        "@fundacioncajasol"
+      ]
+    },
+    {
+      "id": "ateneo-comidas-andariegos",
+      "nombre": "Presentación del libro «Comidas de andariegos»",
+      "categoria": "otros",
+      "fecha": "2026-10-27",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha 20, 1.º, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "El capitán de navío Francisco Súnico Varela presenta su recetario sobre la cocina de caminos y andariegos de la provincia, con acompañamiento de Ana María Súnico.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/ateneo-comidas-andariegos.jpg",
+        "url_origen": "https://ateneocadiz.es/wp-content/uploads/2024/10/P1010164-1024x768-1.jpg",
+        "fuente": "Ateneo de Cádiz",
+        "pagina": "https://ateneocadiz.es/octubre-de-2026/",
+        "ancho": 1024,
+        "alto": 768,
+        "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/octubre-de-2026/"
+        },
+        {
+          "nombre": "CádizNoticias",
+          "url": "https://cadiznoticias.es/el-ateneo-de-cadiz-programa-ocho-actos-culturales-del-19-al-28-de-octubre/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "La sede del Ateneo, en la calle Ancha 20, 1.º, Cádiz",
+        "url": "https://ateneocadiz.es/octubre-de-2026/"
+      },
+      "etiquetas_ig": [
+        "@ateneocadiz"
+      ]
+    }
+  ]
+}
