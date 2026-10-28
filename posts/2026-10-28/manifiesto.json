@@ -1,0 +1,115 @@
+{
+  "variante": "B",
+  "paleta": 3,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "univcadiz",
+        "fundacionory",
+        "ateneocadiz",
+        "fundacioncajasol",
+        "estereoparque",
+        "ucaculturacadiz"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, miércoles 28 de octubre. 5 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "blue-zone-forum"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "univcadiz"
+      ],
+      "alt_text": "Eventos: Blue Zone Forum: encuentro de economía azul (09:00, Palacio de Congresos de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "leer-queer-te-hice-dios"
+      ],
+      "etiquetas": [
+        "fundacionory"
+      ],
+      "alt_text": "Eventos: Leer Queer: Marcos Augusto presenta «Te hice dios» (19:00, Biblioteca Provincial de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-tertulia-infancia"
+      ],
+      "etiquetas": [
+        "ateneocadiz"
+      ],
+      "alt_text": "Eventos: Tertulia literaria «La casa de mi infancia» (19:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "locos-azotea-1028"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Pódcast «Locos de la azotea» con Manolo Morera (19:30, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "eli-paperboy-reed"
+      ],
+      "etiquetas": [
+        "estereoparque",
+        "univcadiz",
+        "ucaculturacadiz"
+      ],
+      "alt_text": "Eventos: Eli Paperboy Reed en Estéreo Parque (Campus Rock) (21:00, Edificio Constitución 1812 (UCA))"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "blue-zone-forum",
+      "alt_text": "Auditorio del Palacio de Congresos de Cádiz, sede del Blue Zone Forum"
+    },
+    {
+      "archivo": "02.png",
+      "id": "leer-queer-te-hice-dios",
+      "alt_text": "Fotografía del escritor Marcos Augusto, autor de «Te hice dios» (foto: Víctor Aloy)"
+    },
+    {
+      "archivo": "03.png",
+      "id": "ateneo-tertulia-infancia",
+      "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial"
+    },
+    {
+      "archivo": "04.png",
+      "id": "locos-azotea-1028",
+      "alt_text": "Cartel oficial del pódcast Locos de la azotea de la Fundación Cajasol"
+    },
+    {
+      "archivo": "05.png",
+      "id": "eli-paperboy-reed",
+      "alt_text": "Imagen promocional del concierto de Eli Paperboy Reed en Estéreo Parque"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "locos-azotea-1028",
+        "eli-paperboy-reed"
+      ],
+      "alt_text": "Esta noche en Cádiz: Pódcast «Locos de la azotea» con Manolo Morera; Eli Paperboy Reed en Estéreo Parque (Campus Rock)"
+    }
+  ]
+}

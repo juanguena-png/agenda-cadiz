@@ -1,0 +1,216 @@
+{
+  "fecha": "2026-10-28",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "categoria": "otros",
+      "fecha": "2026-10-28",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Profesional",
+      "imagen": {
+        "archivo": "img/blue-zone-forum.jpg",
+        "url_origen": "https://palaciocongresos-cadiz.com/wp-content/uploads/2026/04/proximos-eventos-header.png",
+        "fuente": "palaciocongresos-cadiz.com",
+        "pagina": "https://palaciocongresos-cadiz.com/eventos/",
+        "ancho": 531,
+        "alto": 255,
+        "alt_text": "Auditorio del Palacio de Congresos de Cádiz, sede del Blue Zone Forum",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "etiquetas_ig": [
+        "@palaciocongresoscadiz",
+        "@univcadiz"
+      ],
+      "id": "blue-zone-forum",
+      "nombre": "Blue Zone Forum: encuentro de economía azul",
+      "hora_inicio": "09:00",
+      "lugar": "Palacio de Congresos de Cádiz",
+      "direccion": "Palacio de Congresos y Exposiciones, Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Foro de economía azul con ponencias, mesas sobre recursos marinos, turismo sostenible e IA, documental y hackathon. El miércoles abre con acreditación a las 9:00 y sigue hasta media tarde.",
+      "info": "Del 28 al 30 de octubre · inscripción previa en proyectandoenazul.es",
+      "fuentes": [
+        {
+          "nombre": "Blue Zone Forum (web del evento)",
+          "url": "https://www.proyectandoenazul.es/programa/"
+        },
+        {
+          "nombre": "Palacio de Congresos de Cádiz",
+          "url": "https://palaciocongresos-cadiz.com/eventos/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Palacio de Congresos y Exposiciones de Cádiz",
+        "url": "https://palaciocongresos-cadiz.com/eventos/"
+      }
+    },
+    {
+      "categoria": "otros",
+      "fecha": "2026-10-28",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Adultos",
+      "imagen": {
+        "archivo": "img/leer-queer-te-hice-dios.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/foto_marcos_augusto_c_victor_aloy.jpg.webp?itok=LZlFzZep",
+        "fuente": "Junta de Andalucía",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-marcos-augusto-participa-con-te-hice-dios-en-el-ciclo-leer-queer",
+        "alt_text": "Fotografía del escritor Marcos Augusto, autor de «Te hice dios» (foto: Víctor Aloy)",
+        "tipo_imagen": "oficial",
+        "ancho": 960,
+        "alto": 1440,
+        "ajuste": "contain"
+      },
+      "etiquetas_ig": [
+        "@fundacionory"
+      ],
+      "id": "leer-queer-te-hice-dios",
+      "nombre": "Leer Queer: Marcos Augusto presenta «Te hice dios»",
+      "hora_inicio": "19:00",
+      "lugar": "Biblioteca Provincial de Cádiz",
+      "direccion": "Avenida Cuatro de Diciembre de 1977, 16, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "El poeta Marcos Augusto presenta su primera novela y charla con Salvador García, director de la Fundación Ory, dentro del ciclo Leer Queer.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-marcos-augusto-participa-con-te-hice-dios-en-el-ciclo-leer-queer"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Biblioteca Pública Provincial de Cádiz, Avenida Cuatro de Diciembre de 1977, 16, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-marcos-augusto-participa-con-te-hice-dios-en-el-ciclo-leer-queer"
+      }
+    },
+    {
+      "categoria": "otros",
+      "fecha": "2026-10-28",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "imagen": {
+        "archivo": "img/ateneo-tertulia-infancia.jpg",
+        "url_origen": "https://ateneocadiz.es/wp-content/uploads/2024/10/P1010164-1024x768-1.jpg",
+        "fuente": "Ateneo de Cádiz",
+        "pagina": "https://ateneocadiz.es/octubre-de-2026/",
+        "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial",
+        "tipo_imagen": "oficial",
+        "ancho": 1024,
+        "alto": 768,
+        "ajuste": "contain"
+      },
+      "etiquetas_ig": [
+        "@ateneocadiz"
+      ],
+      "id": "ateneo-tertulia-infancia",
+      "nombre": "Tertulia literaria «La casa de mi infancia»",
+      "hora_inicio": "19:00",
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha 20, 1.º, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Tertulia abierta de la Sección de Literatura del Ateneo, coordinada por Ramón Luque Sánchez, sobre los recuerdos de la casa de la infancia.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/octubre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "La sede del Ateneo, en la calle Ancha 20, 1.º, Cádiz",
+        "url": "https://ateneocadiz.es/octubre-de-2026/"
+      }
+    },
+    {
+      "categoria": "otros",
+      "fecha": "2026-10-28",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Adultos",
+      "imagen": {
+        "archivo": "img/locos-azotea-1028.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-DIC-LOCOS-EN-LA-AZOTEA_1080x1080.jpg",
+        "fuente": "Fundación Cajasol",
+        "pagina": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-9/",
+        "alt_text": "Cartel oficial del pódcast Locos de la azotea de la Fundación Cajasol",
+        "tipo_imagen": "oficial",
+        "ancho": 1081,
+        "alto": 1081,
+        "ajuste": "cover"
+      },
+      "etiquetas_ig": [
+        "@fundacioncajasol"
+      ],
+      "id": "locos-azotea-1028",
+      "nombre": "Pódcast «Locos de la azotea» con Manolo Morera",
+      "hora_inicio": "19:30",
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Manolo Morera y sus colaboradores repasan la actualidad con humor en directo desde la Casa Pemán. La recaudación va a AGAMAMA y al Economato Manuel Garrido Serrano.",
+      "info": "Puertas a las 19:00 · entradas en la sede de Cádiz y online",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-9/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol, Plaza San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-9/"
+      }
+    },
+    {
+      "categoria": "música",
+      "fecha": "2026-10-28",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "imagen": {
+        "archivo": "img/eli-paperboy-reed.jpg",
+        "url_origen": "https://www.uca.es/wp-content/uploads/2026/10/elipaperboyconcierto-470x300.jpg",
+        "fuente": "Universidad de Cádiz",
+        "pagina": "https://www.uca.es/evento/eli-paperboy-reed-en-el-estereo-parque-edicion-especial-otono-campus-rock/",
+        "alt_text": "Imagen promocional del concierto de Eli Paperboy Reed en Estéreo Parque",
+        "tipo_imagen": "oficial",
+        "ancho": 470,
+        "alto": 300,
+        "ajuste": "contain"
+      },
+      "etiquetas_ig": [
+        "@estereoparque",
+        "@univcadiz"
+      ],
+      "id": "eli-paperboy-reed",
+      "nombre": "Eli Paperboy Reed en Estéreo Parque (Campus Rock)",
+      "hora_inicio": "21:00",
+      "lugar": "Edificio Constitución 1812 (UCA)",
+      "direccion": "Paseo de Carlos III, 3, Cádiz",
+      "precio": "10 € (8 € comunidad UCA) + gastos",
+      "descripcion": "El cantante estadounidense llega con su soul y rhythm & blues a la Edición Especial Otoño de Estéreo Parque, el ciclo de conciertos de la UCA.",
+      "info": "Entradas en enterticket.es",
+      "fuentes": [
+        {
+          "nombre": "Universidad de Cádiz",
+          "url": "https://www.uca.es/evento/eli-paperboy-reed-en-el-estereo-parque-edicion-especial-otono-campus-rock/"
+        },
+        {
+          "nombre": "Estéreo Parque",
+          "url": "https://estereoparque.es"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Edificio Constitución 1812 (Antiguo Aulario La Bomba), Paseo de Carlos III, 3, Cádiz",
+        "url": "https://estereoparque.es"
+      }
+    }
+  ]
+}
