@@ -1,14 +1,19 @@
 [
- {
-  "id": "eventbrite-online-meetup",
-  "motivo": "Online/Meetup/otros municipios (criterios 4 y 5)"
- },
- {
-  "id": "jerez-tebeos-penas-baelo-patrimonio",
-  "motivo": "Otros municipios o fichas provinciales sin actividad en capital"
- },
- {
-  "id": "expos-permanentes",
-  "motivo": "Relleno innecesario: ya hay 5 planes"
- }
+  {
+    "id": "eventbrite-online-meetup",
+    "motivo": "Online/Meetup/otros municipios (criterios 4 y 5)"
+  },
+  {
+    "id": "jerez-tebeos-penas-baelo-patrimonio",
+    "motivo": "Otros municipios o fichas provinciales sin actividad en capital"
+  },
+  {
+    "id": "expos-permanentes",
+    "motivo": "Relleno innecesario: ya hay 5 planes"
+  },
+  {
+    "id": "locos-azotea-1028",
+    "nombre": "Pódcast «Locos de la azotea» con Manolo Morera",
+    "motivo": "La ficha oficial de Fundación Cajasol indica «Pódcast aplazado al próximo 03/11/2026»; no se puede confirmar que el 28/10 siga en pie (18:30, no se publica en la story de tarde)"
+  }
 ]

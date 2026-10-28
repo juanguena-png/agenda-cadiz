@@ -128,46 +128,6 @@
       }
     },
     {
-      "categoria": "otros",
-      "fecha": "2026-10-28",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "publico": "Adultos",
-      "imagen": {
-        "archivo": "img/locos-azotea-1028.jpg",
-        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-DIC-LOCOS-EN-LA-AZOTEA_1080x1080.jpg",
-        "fuente": "Fundación Cajasol",
-        "pagina": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-9/",
-        "alt_text": "Cartel oficial del pódcast Locos de la azotea de la Fundación Cajasol",
-        "tipo_imagen": "oficial",
-        "ancho": 1081,
-        "alto": 1081,
-        "ajuste": "cover"
-      },
-      "etiquetas_ig": [
-        "@fundacioncajasol"
-      ],
-      "id": "locos-azotea-1028",
-      "nombre": "Pódcast «Locos de la azotea» con Manolo Morera",
-      "hora_inicio": "19:30",
-      "lugar": "Fundación Cajasol (Casa Pemán)",
-      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "Consultar",
-      "descripcion": "Manolo Morera y sus colaboradores repasan la actualidad con humor en directo desde la Casa Pemán. La recaudación va a AGAMAMA y al Economato Manuel Garrido Serrano.",
-      "info": "Puertas a las 19:00 · entradas en la sede de Cádiz y online",
-      "fuentes": [
-        {
-          "nombre": "Fundación Cajasol",
-          "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-9/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Sede de la Fundación Cajasol, Plaza San Antonio 14 (Casa Pemán), 11003 Cádiz",
-        "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-9/"
-      }
-    },
-    {
       "categoria": "música",
       "fecha": "2026-10-28",
       "hora_fin": null,
