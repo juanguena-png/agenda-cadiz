@@ -70,7 +70,9 @@
       "id": 7,
       "nombre": "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
       "tipo": "oficial",
-      "urls": [],
+      "urls": [
+        "https://www.juntadeandalucia.es/cultura/bibliotecas/bpcadiz"
+      ],
       "parser": "texto",
       "provincial": false,
       "nota": "Municipales: red del Ayuntamiento. Provincial: Junta de Andalucía publica un PDF mensual",
