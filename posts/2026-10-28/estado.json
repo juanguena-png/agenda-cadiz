@@ -1,11 +1,107 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-10-28T09:01:04+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18089262386302746",
+          "https://www.instagram.com/p/DfB9FSAF-9S/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-10-28T09:01:12+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122104970307519566"
+      }
+    },
+    "stories/01.png": {
+      "instagram": {
+        "ts": "2026-10-28T09:01:25+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18124897862483802",
+          "https://www.instagram.com/stories/planesencadiz/4017761147281685745"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-10-28T09:01:31+01:00",
+        "estado": "publicado",
+        "resultado": "1306589318231865"
+      }
+    },
+    "stories/02.png": {
+      "instagram": {
+        "ts": "2026-10-28T09:01:43+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17964187449248465",
+          "https://www.instagram.com/stories/planesencadiz/4017761310129743024"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-10-28T09:01:47+01:00",
+        "estado": "publicado",
+        "resultado": "1657717042598471"
+      }
+    },
+    "stories/03.png": {
+      "instagram": {
+        "ts": "2026-10-28T09:01:59+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18191583322408416",
+          "https://www.instagram.com/stories/planesencadiz/4017761443869356145"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-10-28T09:02:03+01:00",
+        "estado": "publicado",
+        "resultado": "4036566796640133"
+      }
+    },
+    "stories/04.png": {
+      "instagram": {
+        "ts": "2026-10-28T09:02:08+01:00",
+        "estado": "error",
+        "error": "The requested resource does not exist (code 24/2207006)",
+        "temporal": false
+      },
+      "facebook": {
+        "ts": "2026-10-28T09:02:12+01:00",
+        "estado": "publicado",
+        "resultado": "2636194153486505"
+      }
+    },
+    "stories/05.png": {
+      "instagram": {
+        "ts": "2026-10-28T09:02:25+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17975312013179094",
+          "https://www.instagram.com/stories/planesencadiz/4017761652796014798"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-10-28T09:02:30+01:00",
+        "estado": "publicado",
+        "resultado": "1797090621603319"
+      }
+    }
+  },
   "registro": [
     "2026-10-28T08:00:23+01:00 diario: render OK (5 eventos, variante B)",
-    "2026-10-28T08:00:44+01:00 diario: render OK (5 eventos, variante B)"
+    "2026-10-28T08:00:44+01:00 diario: render OK (5 eventos, variante B)",
+    "2026-10-28T09:02:08+01:00 ERROR stories/04.png/instagram: The requested resource does not exist (code 24/2207006)"
   ],
   "revision_final": {
     "hecha": true,
     "ts": "2026-10-28T08:00:44+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 5,
+    "total": 100,
+    "ts": "2026-10-28T08:00:50+01:00"
+  },
+  "ultima_ejecucion": "2026-10-28T09:02:30+01:00"
 }
