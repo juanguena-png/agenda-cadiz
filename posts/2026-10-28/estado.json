@@ -94,11 +94,12 @@
   "registro": [
     "2026-10-28T08:00:23+01:00 diario: render OK (5 eventos, variante B)",
     "2026-10-28T08:00:44+01:00 diario: render OK (5 eventos, variante B)",
-    "2026-10-28T09:02:08+01:00 ERROR stories/04.png/instagram: The requested resource does not exist (code 24/2207006)"
+    "2026-10-28T09:02:08+01:00 ERROR stories/04.png/instagram: The requested resource does not exist (code 24/2207006)",
+    "2026-10-28T17:35:06+01:00 diario: render OK (4 eventos, variante B)"
   ],
   "revision_final": {
     "hecha": true,
-    "ts": "2026-10-28T08:00:44+01:00"
+    "ts": "2026-10-28T17:35:12+01:00"
   },
   "limite_publicaciones": {
     "uso": 6,

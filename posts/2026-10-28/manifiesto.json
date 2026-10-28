@@ -10,11 +10,10 @@
         "univcadiz",
         "fundacionory",
         "ateneocadiz",
-        "fundacioncajasol",
         "estereoparque",
         "ucaculturacadiz"
       ],
-      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, miércoles 28 de octubre. 5 planes."
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, miércoles 28 de octubre. 4 planes."
     },
     {
       "archivo": "02.png",
@@ -54,17 +53,6 @@
       "archivo": "05.png",
       "tipo": "eventos",
       "ids": [
-        "locos-azotea-1028"
-      ],
-      "etiquetas": [
-        "fundacioncajasol"
-      ],
-      "alt_text": "Eventos: Pódcast «Locos de la azotea» con Manolo Morera (19:30, Fundación Cajasol (Casa Pemán))"
-    },
-    {
-      "archivo": "06.png",
-      "tipo": "eventos",
-      "ids": [
         "eli-paperboy-reed"
       ],
       "etiquetas": [
@@ -93,11 +81,6 @@
     },
     {
       "archivo": "04.png",
-      "id": "locos-azotea-1028",
-      "alt_text": "Cartel oficial del pódcast Locos de la azotea de la Fundación Cajasol"
-    },
-    {
-      "archivo": "05.png",
       "id": "eli-paperboy-reed",
       "alt_text": "Imagen promocional del concierto de Eli Paperboy Reed en Estéreo Parque"
     }
@@ -106,10 +89,9 @@
     {
       "archivo": "01.png",
       "ids": [
-        "locos-azotea-1028",
         "eli-paperboy-reed"
       ],
-      "alt_text": "Esta noche en Cádiz: Pódcast «Locos de la azotea» con Manolo Morera; Eli Paperboy Reed en Estéreo Parque (Campus Rock)"
+      "alt_text": "Esta noche en Cádiz: Eli Paperboy Reed en Estéreo Parque (Campus Rock)"
     }
   ]
 }
