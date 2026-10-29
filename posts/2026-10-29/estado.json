@@ -67,11 +67,12 @@
     "2026-10-25T20:25:30+01:00 diario: render OK (5 eventos, variante A)",
     "2026-10-25T20:37:46+01:00 diario: render OK (5 eventos, variante A)",
     "2026-10-29T07:59:34+01:00 diario: render OK (3 eventos, variante A)",
-    "2026-10-29T07:59:46+01:00 diario: render OK (3 eventos, variante A)"
+    "2026-10-29T07:59:46+01:00 diario: render OK (3 eventos, variante A)",
+    "2026-10-29T17:28:36+01:00 diario: render OK (3 eventos, variante A)"
   ],
   "revision_final": {
     "hecha": true,
-    "ts": "2026-10-29T08:00:00+01:00"
+    "ts": "2026-10-29T17:28:40+01:00"
   },
   "limite_publicaciones": {
     "uso": 7,
