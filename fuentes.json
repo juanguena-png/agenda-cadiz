@@ -1035,6 +1035,17 @@
       "via": "web",
       "provincial": false,
       "nota": "Ciclos con Fundación Unicaja (p. ej. Arquitectura, paisaje y territorio). Web propia aún sin URL verificada: localizarla y confirmar dirección en Cádiz capital (regla 1)."
+    },
+    {
+      "id": 92,
+      "nombre": "Peña Flamenca La Perla de Cádiz – Viernes Flamencos y ciclos",
+      "tipo": "organizador",
+      "urls": [
+        "https://www.google.com/search?q=Pe%C3%B1a+Flamenca+La+Perla+de+C%C3%A1diz+programaci%C3%B3n"
+      ],
+      "via": "web",
+      "provincial": false,
+      "nota": "Viernes Flamencos, concursos (Tanguillos, Baile por Alegrías) y Día del Flamenco (16 nov). Web propia (laperladecadiz.es) no responde desde el servidor: contrastar en prensa/Ayuntamiento y confirmar dirección en Cádiz capital (regla 1)."
     }
   ]
 }
