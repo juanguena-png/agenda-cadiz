@@ -6,52 +6,29 @@
       "archivo": "01.png",
       "tipo": "portada",
       "etiquetas": [
-        "ayuntamientocadiz",
-        "juventudcadiz",
-        "valledecuentos",
-        "fundacioncajasol",
+        "palaciocongresoscadiz",
         "univcadiz",
-        "estereoparque"
+        "fundacioncajasol",
+        "estereoparque",
+        "ucaculturacadiz",
+        "digitalism"
       ],
-      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, jueves 29 de octubre. 5 planes."
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, jueves 29 de octubre. 3 planes."
     },
     {
       "archivo": "02.png",
       "tipo": "eventos",
       "ids": [
-        "halloween-plazuela"
+        "blue-zone-forum-1029"
       ],
       "etiquetas": [
-        "ayuntamientocadiz",
-        "juventudcadiz"
+        "palaciocongresoscadiz",
+        "univcadiz"
       ],
-      "alt_text": "Eventos: Halloween · La Plazuela del Truco o Trato (17:00, Baluarte de la Candelaria)"
+      "alt_text": "Eventos: Blue Zone Forum: encuentro de economía azul (09:30, Palacio de Congresos de Cádiz)"
     },
     {
       "archivo": "03.png",
-      "tipo": "eventos",
-      "ids": [
-        "halloween-extremadura"
-      ],
-      "etiquetas": [
-        "valledecuentos"
-      ],
-      "alt_text": "Eventos: Fiesta de Halloween infantil (18:00, Casa de Extremadura de Cádiz)"
-    },
-    {
-      "archivo": "04.png",
-      "tipo": "eventos",
-      "ids": [
-        "halloween-matadero13"
-      ],
-      "etiquetas": [
-        "ayuntamientocadiz",
-        "juventudcadiz"
-      ],
-      "alt_text": "Eventos: Halloween · Matadero 13, pasaje del terror (19:30, Antigua Casa del Niño Jesús (Matadero 13))"
-    },
-    {
-      "archivo": "05.png",
       "tipo": "eventos",
       "ids": [
         "cadiz-canta"
@@ -62,14 +39,16 @@
       "alt_text": "Eventos: Cádiz Canta · Vicente Soto «Sordera» (20:00, Fundación Cajasol)"
     },
     {
-      "archivo": "06.png",
+      "archivo": "04.png",
       "tipo": "eventos",
       "ids": [
         "digitalism-estereo"
       ],
       "etiquetas": [
+        "estereoparque",
         "univcadiz",
-        "estereoparque"
+        "ucaculturacadiz",
+        "digitalism"
       ],
       "alt_text": "Eventos: Digitalism · Estéreo Parque «Edición Especial Otoño» (21:00, Aulario La Bomba (UCA) · Edificio Constitución 1812)"
     }
@@ -77,26 +56,16 @@
   "stories": [
     {
       "archivo": "01.png",
-      "id": "halloween-plazuela",
-      "alt_text": "Ilustración de «Halloween · La Plazuela del Truco o Trato»: composición con calabaza, castillo en azul mar, blanco y amarillo"
+      "id": "blue-zone-forum-1029",
+      "alt_text": "Auditorio del Palacio de Congresos de Cádiz, sede del Blue Zone Forum"
     },
     {
       "archivo": "02.png",
-      "id": "halloween-extremadura",
-      "alt_text": "Cartel de la fiesta de Halloween infantil en la Casa de Extremadura de Cádiz"
-    },
-    {
-      "archivo": "03.png",
-      "id": "halloween-matadero13",
-      "alt_text": "Ilustración de «Halloween · Matadero 13, pasaje del terror»: composición con antifaz, calabaza en azul mar, blanco y amarillo"
-    },
-    {
-      "archivo": "04.png",
       "id": "cadiz-canta",
       "alt_text": "Cartel del ciclo flamenco Cádiz Canta en la Fundación Cajasol"
     },
     {
-      "archivo": "05.png",
+      "archivo": "03.png",
       "id": "digitalism-estereo",
       "alt_text": "Cartel del concierto de Digitalism en el Estéreo Parque de la Universidad de Cádiz"
     }
@@ -105,11 +74,10 @@
     {
       "archivo": "01.png",
       "ids": [
-        "halloween-matadero13",
         "cadiz-canta",
         "digitalism-estereo"
       ],
-      "alt_text": "Esta noche en Cádiz: Halloween · Matadero 13, pasaje del terror; Cádiz Canta · Vicente Soto «Sordera»; Digitalism · Estéreo Parque «Edición Especial Otoño»"
+      "alt_text": "Esta noche en Cádiz: Cádiz Canta · Vicente Soto «Sordera»; Digitalism · Estéreo Parque «Edición Especial Otoño»"
     }
   ]
 }

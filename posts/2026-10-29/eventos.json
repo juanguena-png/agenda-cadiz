@@ -3,38 +3,45 @@
   "tipo": "diario",
   "eventos": [
     {
-      "id": "halloween-extremadura",
-      "nombre": "Fiesta de Halloween infantil",
-      "categoria": "infantil",
+      "categoria": "otros",
       "fecha": "2026-10-29",
-      "hora_inicio": "18:00",
-      "hora_fin": "20:00",
+      "hora_fin": null,
       "todo_el_dia": false,
-      "lugar": "Casa de Extremadura de Cádiz",
-      "direccion": "C/ Regimiento de Infantería, 7, Cádiz",
-      "precio": "Gratis",
-      "publico": "Infantil (3 a 12 años)",
-      "descripcion": "Fiesta de Halloween para niños y niñas de 3 a 12 años con animación a cargo de Valle de Cuentos y varias sorpresas.",
-      "info": "Entrada libre hasta completar aforo",
+      "publico": "Profesional",
       "imagen": {
-        "archivo": "img/halloween-extremadura.jpg",
-        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-10/image0.jpeg",
-        "fuente": "Ayuntamiento de Cádiz",
-        "alt_text": "Cartel de la fiesta de Halloween infantil en la Casa de Extremadura de Cádiz",
+        "archivo": "img/blue-zone-forum.jpg",
+        "url_origen": "https://palaciocongresos-cadiz.com/eventos/",
+        "fuente": "Palacio de Congresos de Cádiz",
+        "alt_text": "Auditorio del Palacio de Congresos de Cádiz, sede del Blue Zone Forum",
         "ajuste": "contain"
       },
+      "etiquetas_ig": [
+        "@palaciocongresoscadiz",
+        "@univcadiz"
+      ],
+      "id": "blue-zone-forum-1029",
+      "nombre": "Blue Zone Forum: encuentro de economía azul",
+      "hora_inicio": "09:30",
+      "lugar": "Palacio de Congresos de Cádiz",
+      "direccion": "Palacio de Congresos y Exposiciones, Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Segunda jornada del foro de economía azul en el Palacio de Congresos, con la ponencia inaugural del biólogo marino Manu San Félix y mesas sobre océanos, transporte marítimo verde y financiación europea. Este año se han suspendido la entrega de premios y los eventos paralelos por el luto oficial.",
+      "info": "Del 28 al 30 de octubre · inscripción previa en proyectandoenazul.es",
       "fuentes": [
         {
-          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
-          "url": "https://institucional.cadiz.es/evento/fiesta-de-halloween-en-la-casa-de-extremadura-en-c%C3%A1diz"
+          "nombre": "Blue Zone Forum (programa oficial)",
+          "url": "https://www.proyectandoenazul.es/programa/"
+        },
+        {
+          "nombre": "Onda Cádiz",
+          "url": "https://ondacadiz.es/noticias/2026-10/el-ayuntamiento-suspende-la-programacion-municipal-de-halloweenn"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "Casa de Extremadura de Cádiz (C/ Regimiento de Infantería 7, Cádiz)",
-        "url": "https://institucional.cadiz.es/evento/fiesta-de-halloween-en-la-casa-de-extremadura-en-c%C3%A1diz"
-      },
-      "etiquetas_ig": []
+        "evidencia": "Palacio de Congresos de Cádiz (programa: «Lugar: Palacio de Congresos de Cádiz, 28 a 30 de octubre de 2026»)",
+        "url": "https://www.proyectandoenazul.es/programa/"
+      }
     },
     {
       "id": "cadiz-canta",
@@ -48,7 +55,7 @@
       "direccion": "Plaza San Antonio, 14, Cádiz",
       "precio": "10 €",
       "publico": "Todos los públicos",
-      "descripcion": "Primero de los tres recitales íntimos de cante flamenco del ciclo, con Vicente Soto «Sordera». Después llegarán Lucía Beltrán (5 nov) y Manuel de la Tomasa (12 nov).",
+      "descripcion": "Primer recital íntimo de cante del ciclo «Cádiz Canta», con Vicente Soto «Sordera» en la sede gaditana de la Fundación Cajasol.",
       "info": "Entradas en la taquilla de Cajasol Cádiz (lun-vie 10-14 y 16-18:30) y online",
       "imagen": {
         "archivo": "img/cadiz-canta.jpg",
@@ -61,6 +68,10 @@
         {
           "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
           "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-canta"
+        },
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/eventos/"
         }
       ],
       "verificacion_cadiz_capital": {
@@ -68,7 +79,9 @@
         "evidencia": "Fundación Cajasol, Plaza San Antonio, 14, Cádiz",
         "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-canta"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [
+        "@fundacioncajasol"
+      ]
     },
     {
       "id": "digitalism-estereo",
@@ -97,122 +110,19 @@
           "url": "https://www.uca.es/evento/digitalism-en-el-estereo-parque-edicion-especial-otono-campus-rock/"
         },
         {
-          "nombre": "Cádiz Guitar Festival (dirección del Edificio Constitución 1812)",
-          "url": "https://www.cadizguitarfestival.com"
+          "nombre": "Estéreo Parque",
+          "url": "https://estereoparque.es"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "Edificio Constitución 1812 (Aulario La Bomba), P.º de Carlos III, 3 – Cádiz",
-        "url": "https://www.cadizguitarfestival.com"
+        "evidencia": "Edificio Constitución 1812 (Antiguo Aulario La Bomba), Paseo de Carlos III, 3, Cádiz",
+        "url": "https://estereoparque.es"
       },
-      "etiquetas_ig": []
-    },
-    {
-      "categoria": "fiesta",
-      "hora_fin": "22:00",
-      "todo_el_dia": false,
-      "etiquetas_ig": [],
-      "fuentes": [
-        {
-          "nombre": "Onda Cádiz (radio municipal)",
-          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
-        },
-        {
-          "nombre": "Cádiz Directo",
-          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-        },
-        {
-          "nombre": "Andalucía Información",
-          "url": "https://www.andaluciainformacion.es/articulo/cadiz-local/programacion-pasarlo-miedo-halloween/202610221531313514926.html"
-        }
-      ],
-      "id": "halloween-plazuela",
-      "nombre": "Halloween · La Plazuela del Truco o Trato",
-      "fecha": "2026-10-29",
-      "hora_inicio": "17:00",
-      "lugar": "Baluarte de la Candelaria",
-      "direccion": "Cádiz",
-      "precio": "Gratis (con invitación)",
-      "publico": "Infantil y familiar",
-      "descripcion": "El Baluarte se convierte en un pueblo de Halloween para familias: zona de sustos, casitas temáticas con actividades interactivas y talleres.",
-      "info": "Invitaciones el día anterior en la Casa de la Juventud (C/ Cánovas del Castillo, 41), hasta 4 por persona",
-      "ilustracion": {
-        "motivos": [
-          "calabaza",
-          "castillo"
-        ],
-        "fondo": "noche"
-      },
-      "imagen": {
-        "archivo": "img/halloween-plazuela.jpg",
-        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
-        "fuente": "ondacadiz.es",
-        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
-        "ancho": 1054,
-        "alto": 592,
-        "alt_text": "Ilustración de «Halloween · La Plazuela del Truco o Trato»: composición con calabaza, castillo en azul mar, blanco y amarillo",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "La Plazuela del Truco o Trato, Baluarte de la Candelaria (Ayuntamiento de Cádiz), 29-31 octubre, 17:00-22:00",
-        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-      }
-    },
-    {
-      "categoria": "fiesta",
-      "hora_fin": "00:30",
-      "todo_el_dia": false,
-      "etiquetas_ig": [],
-      "fuentes": [
-        {
-          "nombre": "Onda Cádiz (radio municipal)",
-          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
-        },
-        {
-          "nombre": "Cádiz Directo",
-          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-        },
-        {
-          "nombre": "Andalucía Información",
-          "url": "https://www.andaluciainformacion.es/articulo/cadiz-local/programacion-pasarlo-miedo-halloween/202610221531313514926.html"
-        }
-      ],
-      "id": "halloween-matadero13",
-      "nombre": "Halloween · Matadero 13, pasaje del terror",
-      "fecha": "2026-10-29",
-      "hora_inicio": "19:30",
-      "lugar": "Antigua Casa del Niño Jesús (Matadero 13)",
-      "direccion": "Cádiz",
-      "precio": "Gratis (con invitación)",
-      "publico": "Juvenil y adulto (no recomendado a menores de 12)",
-      "descripcion": "Pasaje del terror inmersivo en las bóvedas de la antigua Casa del Niño Jesús, de 19:30 a 00:30 (pase inclusivo de 18:30 a 19:30).",
-      "info": "Invitaciones el día anterior en la Casa de la Juventud (C/ Cánovas del Castillo, 41)",
-      "ilustracion": {
-        "motivos": [
-          "antifaz",
-          "calabaza"
-        ],
-        "fondo": "noche"
-      },
-      "imagen": {
-        "archivo": "img/halloween-matadero13.jpg",
-        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
-        "fuente": "ondacadiz.es",
-        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
-        "ancho": 1054,
-        "alto": 592,
-        "alt_text": "Ilustración de «Halloween · Matadero 13, pasaje del terror»: composición con antifaz, calabaza en azul mar, blanco y amarillo",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Matadero 13, bóvedas de la antigua Casa del Niño Jesús (Cádiz), programa municipal de Halloween 2026",
-        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-      }
+      "etiquetas_ig": [
+        "@estereoparque",
+        "@univcadiz"
+      ]
     }
   ]
 }
