@@ -1,11 +1,11 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
 <style>
 .lienzo{background:#f4f1ea !important}
-.zona{position:absolute;left:90px;right:90px;top:250px;bottom:250px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:42px}
-.lazo{width:190px;height:auto}
-h1{font-size:84px;line-height:1.08;color:#111;font-weight:900}
-.msg{font-size:44px;line-height:1.3;color:#2b2b2b;font-weight:600}
-.luto{font-size:36px;line-height:1.3;color:#555;font-weight:700;border-top:2px solid #bbb;padding-top:34px}
+.zona{position:absolute;left:90px;right:90px;top:250px;bottom:250px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:46px}
+.lazo{width:120px;height:auto}
+h1{font-size:58px;line-height:1.18;color:#111;font-weight:700;letter-spacing:.2px}
+.msg{font-size:36px;line-height:1.4;color:#333;font-weight:500}
+.luto{font-size:30px;line-height:1.4;color:#666;font-weight:600;letter-spacing:.5px;border-top:2px solid #bbb;padding-top:34px}
 .marca{position:absolute;left:0;right:0;bottom:250px;display:flex;justify-content:center}
 .mini{filter:none}
 </style></head><body>
@@ -14,9 +14,9 @@ h1{font-size:84px;line-height:1.08;color:#111;font-weight:900}
 async function render(d){
   aplicarTema(d);
   document.getElementById("l").innerHTML=`<div class="zona">
-    <svg class="lazo" viewBox="0 0 100 130" role="img" aria-label="Lazo negro de luto" fill="none" stroke="#111" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><path d="M50 62 C20 30 22 6 40 6 C58 6 64 34 50 62 C38 90 30 108 24 122"/><path d="M50 62 C80 30 78 6 60 6 C42 6 36 34 50 62 C62 90 70 108 76 122"/></svg>
-    <h1>Todo nuestro apoyo a las víctimas</h1>
-    <div class="msg">Nuestro más sentido pésame a las familias y mucho ánimo a los heridos del accidente ferroviario de Urda (Toledo).</div>
+    <svg class="lazo" viewBox="0 0 100 132" role="img" aria-label="Crespón negro de luto" fill="#111"><path fill-rule="evenodd" d="M50 64 C12 32 20 2 50 2 C80 2 88 32 50 64 Z M50 50 C33 32 35 14 50 14 C65 14 67 32 50 50 Z"/><path d="M46 56 L57 64 L35 128 L11 119 Z"/><path d="M54 56 L43 64 L65 128 L89 119 Z"/></svg>
+    <h1>Con las víctimas del accidente ferroviario de Urda</h1>
+    <div class="msg">Nuestro más sentido pésame a las familias de los fallecidos y todo nuestro ánimo a los heridos.</div>
     <div class="luto">Tres días de luto oficial<br>29, 30 y 31 de octubre</div>
   </div>
   <div class="marca">${logo(d,"mini",38)}</div>`;
