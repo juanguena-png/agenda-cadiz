@@ -1,32 +1,18 @@
 [
-  {
-    "nombre": "Día Mundial de la Ecología (Eventbrite)",
-    "motivo": "Venta El Florín, Chiclana de la Frontera: NO es Cádiz capital",
-    "url": "https://www.eventbrite.es/e/entradas-dia-mundial-de-la-ecologia-31-octubre-2026-2001241959573"
-  },
-  {
-    "nombre": "Cádiz CF – AD Ceuta",
-    "motivo": "Se juega el domingo 25/10 (no es del finde); próximo partido en casa: jornada 13 vs Oviedo, sin fecha confirmada",
-    "url": "https://www.cadizcf.com/partidos"
-  },
-  {
-    "nombre": "Tosantos (mercados, 31/10–1/11)",
-    "motivo": "Solo en listados no oficiales; el Ayuntamiento no publica programa 2026 con lugar y horario confirmados",
-    "url": "https://institucional.cadiz.es/area/contenido/tosantos"
-  },
-  {
-    "nombre": "Tía Norica, Falla, Central Lechera",
-    "motivo": "Sin función el 30/10–1/11 (próximas: Bichitos 6/11, Vicente Amigo 7/11)",
-    "url": "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz"
-  },
-  {
-    "nombre": "Rutas, tours y exposiciones permanentes del Ayuntamiento",
-    "motivo": "Eventos permanentes: no entran en la agenda (regla de relleno solo si <3 eventos)",
-    "url": "https://institucional.cadiz.es/programacion_cultural"
-  },
-  {
-    "nombre": "Cartel/foto de Halloween",
-    "motivo": "La única imagen oficial (Onda Cádiz) es una foto de la presentación, no un cartel del evento: se usa ilustración propia",
-    "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
-  }
+ {
+  "id": "halloween-plazuela",
+  "motivo": "Suspendida por el Ayuntamiento (luto oficial)"
+ },
+ {
+  "id": "halloween-matadero13",
+  "motivo": "Suspendida por el Ayuntamiento (luto oficial)"
+ },
+ {
+  "id": "halloween-desfile",
+  "motivo": "Desfile del 31 suspendido por el Ayuntamiento (luto oficial)"
+ },
+ {
+  "id": "varios",
+  "motivo": "Cádiz Guitar Festival sin conciertos 30-1; Estéreo Parque sin conciertos; sin Falla confirmado; Meetup/online"
+ }
 ]

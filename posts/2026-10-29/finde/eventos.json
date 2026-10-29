@@ -3,43 +3,41 @@
   "tipo": "finde",
   "eventos": [
     {
-      "id": "south-series",
-      "nombre": "IV South International Series Festival",
+      "id": "blue-zone-forum-1030",
+      "nombre": "Blue Zone Forum: jornada de clausura",
       "categoria": "otros",
       "fecha": "2026-10-30",
-      "fecha_txt": "30 oct – 4 nov",
-      "hora_inicio": null,
-      "hora_fin": null,
-      "todo_el_dia": true,
-      "lugar": "Gran Teatro Falla y Teatro del Títere La Tía Norica",
-      "direccion": "Plaza de Fragela s/n y C/ San Miguel, 5, Cádiz",
+      "hora_inicio": "09:00",
+      "hora_fin": "12:45",
+      "todo_el_dia": false,
+      "lugar": "Palacio de Congresos de Cádiz",
+      "direccion": "Palacio de Congresos y Exposiciones, Cádiz",
       "precio": "Consultar",
-      "publico": "Todos los públicos",
-      "descripcion": "El festival de series de Cádiz vuelve con más de 30 títulos y 18 estrenos, invitados y la sección profesional en la Casa de Iberoamérica. Abre «American Hostage» y cierra la segunda temporada de «Física o Química».",
-      "info": "Programación y entradas en southseriesfest.com",
+      "publico": "Profesional",
+      "descripcion": "Último día del foro de economía azul, con el foro Blue Women, la visita de la medallista olímpica Carolina Marín y un monólogo de Santi Rodríguez como cierre.",
+      "info": "Inscripción previa en proyectandoenazul.es",
       "imagen": {
-        "archivo": "img/south-series.jpg",
-        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-03/SouthCadiz.jpeg",
-        "fuente": "Ayuntamiento de Cádiz",
-        "alt_text": "Imagen oficial del South International Series Festival de Cádiz",
+        "archivo": "img/blue-zone-forum.jpg",
+        "url_origen": "https://palaciocongresos-cadiz.com/eventos/",
+        "fuente": "Palacio de Congresos de Cádiz",
+        "alt_text": "Auditorio del Palacio de Congresos de Cádiz, sede del Blue Zone Forum",
         "ajuste": "contain"
       },
       "fuentes": [
         {
-          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
-          "url": "https://institucional.cadiz.es/evento/iv-south-international-series-festival-2026"
-        },
-        {
-          "nombre": "Vivir Ediciones (sedes)",
-          "url": "https://vivirediciones.es/south-festival-2026-cadiz-programacion/"
+          "nombre": "Blue Zone Forum (programa oficial)",
+          "url": "https://www.proyectandoenazul.es/programa/"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "Festival en Cádiz; sedes principales Gran Teatro Falla y Teatro del Títere La Tía Norica (C/ San Miguel, 5, Cádiz)",
-        "url": "https://vivirediciones.es/south-festival-2026-cadiz-programacion/"
+        "evidencia": "Palacio de Congresos de Cádiz (programa: «Lugar: Palacio de Congresos de Cádiz, 28 a 30 de octubre de 2026»)",
+        "url": "https://www.proyectandoenazul.es/programa/"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [
+        "@palaciocongresoscadiz",
+        "@univcadiz"
+      ]
     },
     {
       "id": "ory-vilar",
@@ -73,7 +71,9 @@
         "evidencia": "Fundación Carlos Edmundo de Ory, Calle Ancha, nº 16, Cádiz",
         "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-elaine-vilar-madruga-participa-en-el-ciclo-las-xv-jornadas-de-la-fundacion-ory"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [
+        "@fundacionory"
+      ]
     },
     {
       "id": "tertulia-acropolis",
@@ -121,165 +121,123 @@
       }
     },
     {
-      "categoria": "fiesta",
-      "hora_fin": "22:00",
-      "todo_el_dia": false,
-      "etiquetas_ig": [],
-      "fuentes": [
-        {
-          "nombre": "Onda Cádiz (radio municipal)",
-          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
-        },
-        {
-          "nombre": "Cádiz Directo",
-          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-        },
-        {
-          "nombre": "Andalucía Información",
-          "url": "https://www.andaluciainformacion.es/articulo/cadiz-local/programacion-pasarlo-miedo-halloween/202610221531313514926.html"
-        }
-      ],
-      "id": "halloween-plazuela",
-      "nombre": "Halloween · La Plazuela del Truco o Trato",
+      "id": "south-series",
+      "nombre": "IV South International Series Festival",
+      "categoria": "otros",
       "fecha": "2026-10-30",
-      "fecha_txt": "Vie 30 y sáb 31 oct",
-      "hora_inicio": "17:00",
-      "lugar": "Baluarte de la Candelaria",
-      "direccion": "Cádiz",
-      "precio": "Gratis (con invitación)",
-      "publico": "Infantil y familiar",
-      "descripcion": "El Baluarte se convierte en un pueblo de Halloween para familias: zona de sustos, casitas temáticas con actividades interactivas y talleres.",
-      "info": "Invitaciones el día anterior en la Casa de la Juventud (C/ Cánovas del Castillo, 41), hasta 4 por persona",
-      "ilustracion": {
-        "motivos": [
-          "calabaza",
-          "castillo"
-        ],
-        "fondo": "noche"
-      },
-      "imagen": {
-        "archivo": "img/halloween-plazuela.jpg",
-        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
-        "fuente": "ondacadiz.es",
-        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
-        "ancho": 1054,
-        "alto": 592,
-        "alt_text": "Ilustración de «Halloween · La Plazuela del Truco o Trato»: composición con calabaza, castillo en azul mar, blanco y amarillo",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "La Plazuela del Truco o Trato, Baluarte de la Candelaria (Ayuntamiento de Cádiz), 29-31 octubre, 17:00-22:00",
-        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-      }
-    },
-    {
-      "categoria": "fiesta",
-      "hora_fin": "00:30",
-      "todo_el_dia": false,
-      "etiquetas_ig": [],
-      "fuentes": [
-        {
-          "nombre": "Onda Cádiz (radio municipal)",
-          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
-        },
-        {
-          "nombre": "Cádiz Directo",
-          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-        },
-        {
-          "nombre": "Andalucía Información",
-          "url": "https://www.andaluciainformacion.es/articulo/cadiz-local/programacion-pasarlo-miedo-halloween/202610221531313514926.html"
-        }
-      ],
-      "id": "halloween-matadero13",
-      "nombre": "Halloween · Matadero 13, pasaje del terror",
-      "fecha": "2026-10-30",
-      "fecha_txt": "Vie 30 y sáb 31 oct",
-      "hora_inicio": "19:30",
-      "lugar": "Antigua Casa del Niño Jesús (Matadero 13)",
-      "direccion": "Cádiz",
-      "precio": "Gratis (con invitación)",
-      "publico": "Juvenil y adulto (no recomendado a menores de 12)",
-      "descripcion": "Pasaje del terror inmersivo en las bóvedas de la antigua Casa del Niño Jesús. Viernes de 19:30 a 00:30 y sábado de 22:00 a 01:30; el viernes hay pase inclusivo de 18:30 a 19:30.",
-      "info": "Invitaciones el día anterior en la Casa de la Juventud (C/ Cánovas del Castillo, 41)",
-      "ilustracion": {
-        "motivos": [
-          "antifaz",
-          "calabaza"
-        ],
-        "fondo": "noche"
-      },
-      "imagen": {
-        "archivo": "img/halloween-matadero13.jpg",
-        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
-        "fuente": "ondacadiz.es",
-        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
-        "ancho": 1054,
-        "alto": 592,
-        "alt_text": "Ilustración de «Halloween · Matadero 13, pasaje del terror»: composición con antifaz, calabaza en azul mar, blanco y amarillo",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Matadero 13, bóvedas de la antigua Casa del Niño Jesús (Cádiz), programa municipal de Halloween 2026",
-        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-      }
-    },
-    {
-      "categoria": "fiesta",
+      "fecha_txt": "30 oct – 4 nov",
+      "hora_inicio": null,
       "hora_fin": null,
-      "todo_el_dia": false,
-      "etiquetas_ig": [],
+      "todo_el_dia": true,
+      "lugar": "Gran Teatro Falla y Teatro del Títere La Tía Norica",
+      "direccion": "Plaza de Fragela s/n y C/ San Miguel, 5, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Más de 30 títulos y 18 estrenos de series en el Gran Teatro Falla y La Tía Norica, con la parte profesional en la Casa de Iberoamérica. Por el luto oficial se ha cancelado la gala de inauguración; las proyecciones continúan.",
+      "info": "Programación y entradas en southseriesfest.com",
+      "imagen": {
+        "archivo": "img/south-series.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-03/SouthCadiz.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Imagen oficial del South International Series Festival de Cádiz",
+        "ajuste": "contain"
+      },
       "fuentes": [
         {
-          "nombre": "Onda Cádiz (radio municipal)",
-          "url": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de"
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/iv-south-international-series-festival-2026"
         },
         {
-          "nombre": "Cádiz Directo",
-          "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
+          "nombre": "Onda Cádiz",
+          "url": "https://ondacadiz.es/noticias/2026-10/south-international-series-festival-cancela-su-gala-de-inauguracion-en-senal-de"
         },
         {
-          "nombre": "Andalucía Información",
-          "url": "https://www.andaluciainformacion.es/articulo/cadiz-local/programacion-pasarlo-miedo-halloween/202610221531313514926.html"
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/322/south-international-series-festival"
         }
       ],
-      "id": "halloween-desfile",
-      "nombre": "Halloween · Desfile «El triunfo del nuevo orden»",
-      "fecha": "2026-10-31",
-      "hora_inicio": "19:30",
-      "lugar": "Calles del centro de Cádiz",
-      "direccion": "Cádiz (termina en la antigua Casa del Niño Jesús sobre las 21:30)",
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla y Teatro del Títere La Tía Norica (C/ San Miguel, 5, Cádiz); Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/322/south-international-series-festival"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "patrocinio-ultimo-dia",
+      "nombre": "Exposición «Patrocinio. 50 años de devoción, arte y patrimonio»",
+      "categoria": "exposición",
+      "fecha": "2026-10-30",
+      "fecha_txt": "Vie 30 (último día)",
+      "etiqueta": "Siempre abierto",
+      "hora_inicio": "11:00",
+      "hora_fin": "20:30",
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
       "precio": "Gratis",
       "publico": "Todos los públicos",
-      "descripcion": "Desfile itinerante de música, teatro, danza y artes circenses por el centro de la ciudad la noche de Halloween, con final en la antigua Casa del Niño Jesús.",
-      "info": "Acceso libre",
-      "ilustracion": {
-        "motivos": [
-          "máscaras",
-          "confeti"
-        ],
-        "fondo": "noche"
-      },
+      "descripcion": "Último día de la muestra sobre cinco décadas de devoción, arte y patrimonio. Abre el viernes de 11:00 a 14:00 y de 16:30 a 20:30.",
+      "info": "Entrada libre",
       "imagen": {
-        "archivo": "img/halloween-desfile.jpg",
-        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-10/imagenes/halloween.jpg",
-        "fuente": "ondacadiz.es",
-        "pagina": "https://ondacadiz.es/noticias/2026-10/un-pueblo-magico-un-pasaje-del-terror-y-un-desfile-completan-la-programacion-de",
-        "ancho": 1054,
-        "alto": 592,
-        "alt_text": "Ilustración de «Halloween · Desfile «El triunfo del nuevo orden»»: composición con máscaras, confeti en azul mar, blanco y amarillo",
-        "tipo_imagen": "oficial",
+        "archivo": "img/patrocinio-cajasol.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/1920x1080-23.jpg",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Imagen oficial de la exposición Patrocinio de la Fundación Cajasol",
         "ajuste": "contain"
       },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/patrocinio/"
+        }
+      ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "Desfile del nuevo orden por las calles de Cádiz, acaba en la antigua Casa del Niño Jesús (programa municipal de Halloween 2026)",
-        "url": "https://www.cadizdirecto.com/cadiz/halloween-2026-en-cadiz-tendra-un-pasaje-del-terror-un-pueblo-magico-y-un-desfile-por-las-calles"
-      }
+        "evidencia": "Sede de la Fundación Cajasol, Plaza San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/patrocinio/"
+      },
+      "etiquetas_ig": [
+        "@fundacioncajasol"
+      ]
+    },
+    {
+      "id": "manton-manila-finde",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-10-30",
+      "fecha_txt": "Vie y sáb",
+      "etiqueta": "Siempre abierto",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Sala Zitman",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "La ruta del galeón contada con mantones de colección y obras del Museo Cruz Herrera. Abierta el viernes de 9:00 a 21:00 y el sábado hasta las 14:00 (domingo cerrado). Hasta el 9 de enero.",
+      "info": "Casa de Iberoamérica: sábados hasta las 14:00, domingos cerrado",
+      "imagen": {
+        "archivo": "img/manton-manila.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/10/mantonmanila-post-instagram-vertical.jpg",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Cartel oficial de la exposición ¿Dónde vas con mantón de Manila?",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [
+        "@casadeiberoamerica"
+      ]
     }
   ]
 }

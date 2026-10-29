@@ -9,9 +9,11 @@
         "southseriesfest",
         "teatrofalla",
         "casadeiberoamerica",
-        "ayuntamientocadiz",
-        "juventudcadiz",
-        "fundacionory"
+        "palaciocongresoscadiz",
+        "univcadiz",
+        "fundacioncajasol",
+        "fundacionory",
+        "nuevaacropolis.cadiz"
       ],
       "alt_text": "Portada de Planes en Cádiz: Planes del finde, 30 oct – 1 nov. 6 planes."
     },
@@ -32,16 +34,38 @@
       "archivo": "03.png",
       "tipo": "eventos",
       "ids": [
-        "halloween-plazuela"
+        "blue-zone-forum-1030"
       ],
       "etiquetas": [
-        "ayuntamientocadiz",
-        "juventudcadiz"
+        "palaciocongresoscadiz",
+        "univcadiz"
       ],
-      "alt_text": "Eventos: Halloween · La Plazuela del Truco o Trato (17:00, Baluarte de la Candelaria)"
+      "alt_text": "Eventos: Blue Zone Forum: jornada de clausura (09:00, Palacio de Congresos de Cádiz)"
     },
     {
       "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-manila-finde"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "patrocinio-ultimo-dia"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Exposición «Patrocinio. 50 años de devoción, arte y patrimonio» (11:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "06.png",
       "tipo": "eventos",
       "ids": [
         "ory-vilar"
@@ -52,36 +76,15 @@
       "alt_text": "Eventos: Elaine Vilar Madruga · Jornadas de la Fundación Ory (19:00, Fundación Carlos Edmundo de Ory)"
     },
     {
-      "archivo": "05.png",
-      "tipo": "eventos",
-      "ids": [
-        "halloween-matadero13"
-      ],
-      "etiquetas": [
-        "ayuntamientocadiz",
-        "juventudcadiz"
-      ],
-      "alt_text": "Eventos: Halloween · Matadero 13, pasaje del terror (19:30, Antigua Casa del Niño Jesús (Matadero 13))"
-    },
-    {
-      "archivo": "06.png",
+      "archivo": "07.png",
       "tipo": "eventos",
       "ids": [
         "tertulia-acropolis"
       ],
-      "etiquetas": [],
-      "alt_text": "Eventos: Tertulia filosófica «El arte de decidir bien» (20:00, Nueva Acrópolis Cádiz)"
-    },
-    {
-      "archivo": "07.png",
-      "tipo": "eventos",
-      "ids": [
-        "halloween-desfile"
-      ],
       "etiquetas": [
-        "ayuntamientocadiz"
+        "nuevaacropolis.cadiz"
       ],
-      "alt_text": "Eventos: Halloween · Desfile «El triunfo del nuevo orden» (19:30, Calles del centro de Cádiz)"
+      "alt_text": "Eventos: Tertulia filosófica «El arte de decidir bien» (20:00, Nueva Acrópolis Cádiz)"
     }
   ]
 }
