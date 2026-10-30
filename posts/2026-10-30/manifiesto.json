@@ -1,0 +1,131 @@
+{
+  "variante": "B",
+  "paleta": 6,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica",
+        "palaciocongresoscadiz",
+        "univcadiz",
+        "fundacioncajasol",
+        "fundacionory",
+        "nuevaacropolis.cadiz"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, viernes 30 de octubre. 6 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "south-series"
+      ],
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "blue-zone-forum-1030"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "univcadiz"
+      ],
+      "alt_text": "Eventos: Blue Zone Forum: jornada de clausura (09:00, Palacio de Congresos de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-manila-finde"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "patrocinio-ultimo-dia"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Exposición «Patrocinio. 50 años de devoción, arte y patrimonio» (11:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "ory-vilar"
+      ],
+      "etiquetas": [
+        "fundacionory"
+      ],
+      "alt_text": "Eventos: Elaine Vilar Madruga · Jornadas de la Fundación Ory (19:00, Fundación Carlos Edmundo de Ory)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "tertulia-acropolis"
+      ],
+      "etiquetas": [
+        "nuevaacropolis.cadiz"
+      ],
+      "alt_text": "Eventos: Tertulia filosófica «El arte de decidir bien» (20:00, Nueva Acrópolis Cádiz)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "south-series",
+      "alt_text": "Imagen oficial del South International Series Festival de Cádiz"
+    },
+    {
+      "archivo": "02.png",
+      "id": "blue-zone-forum-1030",
+      "alt_text": "Auditorio del Palacio de Congresos de Cádiz, sede del Blue Zone Forum"
+    },
+    {
+      "archivo": "03.png",
+      "id": "manton-manila-finde",
+      "alt_text": "Cartel oficial de la exposición ¿Dónde vas con mantón de Manila?"
+    },
+    {
+      "archivo": "04.png",
+      "id": "patrocinio-ultimo-dia",
+      "alt_text": "Imagen oficial de la exposición Patrocinio de la Fundación Cajasol"
+    },
+    {
+      "archivo": "05.png",
+      "id": "ory-vilar",
+      "alt_text": "Fotografía de la escritora Elaine Vilar Madruga"
+    },
+    {
+      "archivo": "06.png",
+      "id": "tertulia-acropolis",
+      "alt_text": "Ilustración de «Tertulia filosófica «El arte de decidir bien»»: composición con libro, marco en azul mar, blanco y amarillo"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "tertulia-acropolis"
+      ],
+      "alt_text": "Esta noche en Cádiz: Tertulia filosófica «El arte de decidir bien»"
+    }
+  ]
+}

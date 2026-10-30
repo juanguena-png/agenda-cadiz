@@ -1,0 +1,242 @@
+{
+  "fecha": "2026-10-30",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "blue-zone-forum-1030",
+      "nombre": "Blue Zone Forum: jornada de clausura",
+      "categoria": "otros",
+      "fecha": "2026-10-30",
+      "hora_inicio": "09:00",
+      "hora_fin": "12:00",
+      "todo_el_dia": false,
+      "lugar": "Palacio de Congresos de Cádiz",
+      "direccion": "Palacio de Congresos y Exposiciones, Cádiz",
+      "precio": "Consultar",
+      "publico": "Profesional",
+      "descripcion": "Último día del foro de economía azul en el Palacio de Congresos, con el foro Blue Women y la charla de la medallista olímpica Carolina Marín. El monólogo de cierre de Santi Rodríguez se ha cancelado.",
+      "info": "Inscripción previa en proyectandoenazul.es",
+      "imagen": {
+        "archivo": "img/blue-zone-forum.jpg",
+        "url_origen": "https://palaciocongresos-cadiz.com/eventos/",
+        "fuente": "Palacio de Congresos de Cádiz",
+        "alt_text": "Auditorio del Palacio de Congresos de Cádiz, sede del Blue Zone Forum",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Blue Zone Forum (programa oficial)",
+          "url": "https://www.proyectandoenazul.es/programa/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Palacio de Congresos de Cádiz (programa: «Lugar: Palacio de Congresos de Cádiz, 28 a 30 de octubre de 2026»)",
+        "url": "https://www.proyectandoenazul.es/programa/"
+      },
+      "etiquetas_ig": [
+        "@palaciocongresoscadiz",
+        "@univcadiz"
+      ]
+    },
+    {
+      "id": "ory-vilar",
+      "nombre": "Elaine Vilar Madruga · Jornadas de la Fundación Ory",
+      "categoria": "otros",
+      "fecha": "2026-10-30",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Carlos Edmundo de Ory",
+      "direccion": "Calle Ancha, 16, Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "descripcion": "La escritora cubana habla de su obra, que usa el terror para pensar el feminismo y el poder, y presenta «La piel hembra» dentro de las jornadas dedicadas a Lo inquietante.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/ory-vilar.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/elaine_vilar.jpg.webp",
+        "fuente": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+        "alt_text": "Fotografía de la escritora Elaine Vilar Madruga",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-elaine-vilar-madruga-participa-en-el-ciclo-las-xv-jornadas-de-la-fundacion-ory"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Carlos Edmundo de Ory, Calle Ancha, nº 16, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-elaine-vilar-madruga-participa-en-el-ciclo-las-xv-jornadas-de-la-fundacion-ory"
+      },
+      "etiquetas_ig": [
+        "@fundacionory"
+      ]
+    },
+    {
+      "id": "tertulia-acropolis",
+      "nombre": "Tertulia filosófica «El arte de decidir bien»",
+      "categoria": "otros",
+      "fecha": "2026-10-30",
+      "hora_inicio": "20:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Adultos",
+      "descripcion": "Una hora de conversación presencial sobre las claves filosóficas para elegir con inteligencia y libertad.",
+      "info": "Inscripción en Eventbrite",
+      "imagen": {
+        "archivo": "img/tertulia-acropolis.jpg",
+        "url_origen": "https://www.eventbrite.es/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1191693159%252F221612058906%252F1%252Foriginal.20260823-115815%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D68368ebc8e63749e1742317d64c9f592&w=940&q=75",
+        "fuente": "www.eventbrite.es",
+        "pagina": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371",
+        "ancho": 940,
+        "alto": 529,
+        "alt_text": "Ilustración de «Tertulia filosófica «El arte de decidir bien»»: composición con libro, marco en azul mar, blanco y amarillo",
+        "tipo_imagen": "cualquiera",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Eventbrite (organizador: Nueva Acrópolis Cádiz)",
+          "url": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004 Cádiz",
+        "url": "https://www.eventbrite.es/e/tertulia-filosofica-el-arte-de-decidir-bien-tickets-1998669531371"
+      },
+      "etiquetas_ig": [],
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "noche"
+      }
+    },
+    {
+      "id": "south-series",
+      "nombre": "IV South International Series Festival",
+      "categoria": "otros",
+      "fecha": "2026-10-30",
+      "fecha_txt": "Desde hoy · hasta el 4 nov",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": true,
+      "lugar": "Gran Teatro Falla y Teatro del Títere La Tía Norica",
+      "direccion": "Plaza de Fragela s/n y C/ San Miguel, 5, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Más de 30 títulos y 18 estrenos de series en el Gran Teatro Falla y La Tía Norica, con la parte profesional en la Casa de Iberoamérica. Por el luto oficial se ha cancelado la gala de inauguración; las proyecciones continúan.",
+      "info": "Programación y entradas en southseriesfest.com",
+      "imagen": {
+        "archivo": "img/south-series.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-03/SouthCadiz.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Imagen oficial del South International Series Festival de Cádiz",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/iv-south-international-series-festival-2026"
+        },
+        {
+          "nombre": "Onda Cádiz",
+          "url": "https://ondacadiz.es/noticias/2026-10/south-international-series-festival-cancela-su-gala-de-inauguracion-en-senal-de"
+        },
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/322/south-international-series-festival"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla y Teatro del Títere La Tía Norica (C/ San Miguel, 5, Cádiz); Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/322/south-international-series-festival"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "patrocinio-ultimo-dia",
+      "nombre": "Exposición «Patrocinio. 50 años de devoción, arte y patrimonio»",
+      "categoria": "exposición",
+      "fecha": "2026-10-30",
+      "fecha_txt": "Último día",
+      "etiqueta": "Siempre abierto",
+      "hora_inicio": "11:00",
+      "hora_fin": "20:30",
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Último día de la muestra sobre cinco décadas de devoción, arte y patrimonio. Abre el viernes de 11:00 a 14:00 y de 16:30 a 20:30.",
+      "info": "Entrada libre",
+      "imagen": {
+        "archivo": "img/patrocinio-cajasol.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/1920x1080-23.jpg",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Imagen oficial de la exposición Patrocinio de la Fundación Cajasol",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/patrocinio/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol, Plaza San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/patrocinio/"
+      },
+      "etiquetas_ig": [
+        "@fundacioncajasol"
+      ]
+    },
+    {
+      "id": "manton-manila-finde",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-10-30",
+      "etiqueta": "Siempre abierto",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Sala Zitman",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "La ruta del galeón contada con mantones de colección y obras del Museo Cruz Herrera. Hoy abre de 9:00 a 21:00 (el sábado, hasta las 14:00). Hasta el 9 de enero.",
+      "info": "Casa de Iberoamérica: sábados hasta las 14:00, domingos cerrado",
+      "imagen": {
+        "archivo": "img/manton-manila.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/10/mantonmanila-post-instagram-vertical.jpg",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Cartel oficial de la exposición ¿Dónde vas con mantón de Manila?",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [
+        "@casadeiberoamerica"
+      ]
+    }
+  ]
+}
