@@ -1,0 +1,70 @@
+{
+  "variante": "A",
+  "paleta": 0,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "museodecadiz",
+        "casadeiberoamerica",
+        "southseriesfest",
+        "teatrofalla"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, sábado 31 de octubre. 3 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "nexos-museo-cadiz"
+      ],
+      "etiquetas": [
+        "museodecadiz"
+      ],
+      "alt_text": "Eventos: Exposición «Nexos. Del lienzo al objeto» (todo el día, Museo de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-manila-1031"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (todo el día, Casa de Iberoamérica · Sala Zitman)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "south-series"
+      ],
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "nexos-museo-cadiz",
+      "alt_text": "Imagen de la exposición Nexos. Del lienzo al objeto en el Museo de Cádiz"
+    },
+    {
+      "archivo": "02.png",
+      "id": "manton-manila-1031",
+      "alt_text": "Cartel oficial de la exposición ¿Dónde vas con mantón de Manila?"
+    },
+    {
+      "archivo": "03.png",
+      "id": "south-series",
+      "alt_text": "Imagen oficial del South International Series Festival de Cádiz"
+    }
+  ],
+  "noche": []
+}

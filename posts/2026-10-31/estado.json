@@ -1,0 +1,11 @@
+{
+  "publicaciones": {},
+  "registro": [
+    "2026-10-31T07:55:06+01:00 diario: render OK (3 eventos, variante A)",
+    "2026-10-31T07:55:19+01:00 diario: render OK (3 eventos, variante A)"
+  ],
+  "revision_final": {
+    "hecha": true,
+    "ts": "2026-10-31T07:55:23+01:00"
+  }
+}

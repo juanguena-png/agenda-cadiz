@@ -1,0 +1,127 @@
+{
+  "fecha": "2026-10-31",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "south-series",
+      "nombre": "IV South International Series Festival",
+      "categoria": "otros",
+      "fecha": "2026-10-31",
+      "fecha_txt": "Hasta el 4 nov",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": true,
+      "lugar": "Gran Teatro Falla y Teatro del Títere La Tía Norica",
+      "direccion": "Plaza de Fragela s/n y C/ San Miguel, 5, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Segundo día del festival de series de Cádiz, con proyecciones y estrenos en el Gran Teatro Falla y La Tía Norica, y actividades de industria en la Casa de Iberoamérica. La gala inaugural se canceló por el luto oficial.",
+      "info": "Programación y entradas en southseriesfest.com",
+      "imagen": {
+        "archivo": "img/south-series.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-03/SouthCadiz.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Imagen oficial del South International Series Festival de Cádiz",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/iv-south-international-series-festival-2026"
+        },
+        {
+          "nombre": "Onda Cádiz",
+          "url": "https://ondacadiz.es/noticias/2026-10/south-international-series-festival-cancela-su-gala-de-inauguracion-en-senal-de"
+        },
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/322/south-international-series-festival"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla y Teatro del Títere La Tía Norica (C/ San Miguel, 5, Cádiz); Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/322/south-international-series-festival"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "manton-manila-1031",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-10-31",
+      "etiqueta": "Siempre abierto",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": true,
+      "lugar": "Casa de Iberoamérica · Sala Zitman",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "La ruta del galeón contada con mantones de colección y obras del Museo Cruz Herrera, en la Sala Zitman. El sábado abre solo por la mañana; consulta el horario exacto con la Casa de Iberoamérica. Hasta el 9 de enero.",
+      "info": "Casa de Iberoamérica: domingos cerrado",
+      "imagen": {
+        "archivo": "img/manton-manila.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/10/mantonmanila-post-instagram-vertical.jpg",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Cartel oficial de la exposición ¿Dónde vas con mantón de Manila?",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [
+        "@casadeiberoamerica"
+      ]
+    },
+    {
+      "id": "nexos-museo-cadiz",
+      "nombre": "Exposición «Nexos. Del lienzo al objeto»",
+      "categoria": "exposición",
+      "fecha": "2026-10-31",
+      "etiqueta": "Siempre abierto",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": true,
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Pintura y objetos arqueológicos para asomarse a la vida cotidiana, el comercio y la cultura material del Cádiz de la Edad Moderna. En la planta de Bellas Artes, hasta el 10 de enero de 2027.",
+      "info": "Entrada gratuita · horario de visita en la web del museo",
+      "imagen": {
+        "archivo": "img/nexos-museo-cadiz.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2024-02/museo_cadiz.jpg.webp?itok=-vxDTylc",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz",
+        "ancho": 960,
+        "alto": 421,
+        "alt_text": "Imagen de la exposición Nexos. Del lienzo al objeto en el Museo de Cádiz",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+      },
+      "etiquetas_ig": [
+        "@museodecadiz"
+      ]
+    }
+  ]
+}
