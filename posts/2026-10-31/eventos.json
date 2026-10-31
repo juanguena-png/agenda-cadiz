@@ -123,5 +123,50 @@
         "@museodecadiz"
       ]
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "south-series-1101",
+      "nombre": "IV South International Series Festival",
+      "categoria": "otros",
+      "fecha": "2026-11-01",
+      "fecha_txt": "Hasta el 4 nov",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": true,
+      "lugar": "Gran Teatro Falla y Teatro del Títere La Tía Norica",
+      "direccion": "Plaza de Fragela s/n y C/ San Miguel, 5, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Tercera jornada del festival de series de Cádiz, con proyecciones y estrenos en el Gran Teatro Falla y La Tía Norica, y actividades de industria en la Casa de Iberoamérica. Por la tarde, el homenaje al guionista Ronan Bennett.",
+      "info": "Consultar horario de las sesiones · programación y entradas en southseriesfest.com",
+      "imagen": {
+        "archivo": "img/south-series.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-03/SouthCadiz.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Imagen oficial del South International Series Festival de Cádiz",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/iv-south-international-series-festival-2026"
+        },
+        {
+          "nombre": "Onda Cádiz",
+          "url": "https://ondacadiz.es/noticias/2026-10/south-international-series-festival-cancela-su-gala-de-inauguracion-en-senal-de"
+        },
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/322/south-international-series-festival"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla y Teatro del Títere La Tía Norica (C/ San Miguel, 5, Cádiz); Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/322/south-international-series-festival"
+      },
+      "etiquetas_ig": []
+    }
   ]
 }

@@ -66,5 +66,13 @@
       "alt_text": "Imagen oficial del South International Series Festival de Cádiz"
     }
   ],
-  "noche": []
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "south-series-1101"
+      ],
+      "alt_text": "Mañana en Cádiz: IV South International Series Festival"
+    }
+  ]
 }
