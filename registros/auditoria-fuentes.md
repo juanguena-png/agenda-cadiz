@@ -16,7 +16,6 @@ Fuentes registradas: 94
 - Baluarte de la Candelaria
 - Castillo de Santa Catalina
 - Cádiz CF – partidos en casa
-- Cádiz CF – partidos en casa (web oficial, automático)
 - Cádiz Cultura
 - Cádiz Directo
 - Cádiz en Danza
@@ -34,21 +33,20 @@ Fuentes registradas: 94
 - Onda Cádiz – Agenda
 - Teatro Pemán (Teatros de Cádiz)
 - Teatro del Títere La Tía Norica
-- Tickentradas
 - Universidad de Cádiz – Extensión universitaria
 - Universidad de Cádiz – eventos
 
 ## Las que más aportan
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 1760 candidatos
-- Sala Central Lechera: 775 candidatos
-- Gran Teatro Falla: 713 candidatos
-- Guía de Cádiz – Agenda: 687 candidatos
-- Onda Cádiz – Agenda de eventos: 672 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 281 candidatos
-- Eventbrite – Cádiz: 219 candidatos
-- Casa de Iberoamérica: 65 candidatos
-- Meetup – grupos de Cádiz: 59 candidatos
-- Fundación Cajasol: 36 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 2608 candidatos
+- Onda Cádiz – Agenda de eventos: 1648 candidatos
+- Guía de Cádiz – Agenda: 1251 candidatos
+- Sala Central Lechera: 850 candidatos
+- Gran Teatro Falla: 782 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 289 candidatos
+- Eventbrite – Cádiz: 266 candidatos
+- Casa de Iberoamérica: 151 candidatos
+- Meetup – grupos de Cádiz: 75 candidatos
+- Fundación Cajasol: 52 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
 - (aún sin datos: el agente debe rellenar descubiertos_web cada día)
