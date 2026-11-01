@@ -1,5 +1,21 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-01T09:02:40+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17872923000645054",
+          "https://www.instagram.com/p/DfMQcAOgOlp/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-01T09:03:00+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122106647013519566"
+      }
+    }
+  },
   "registro": [
     "2026-11-01T08:06:10+01:00 mensual: render OK (9 eventos, variante B)"
   ],
@@ -17,5 +33,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-01T08:06:23+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 3,
+    "total": 100,
+    "ts": "2026-11-01T09:01:31+01:00"
+  },
+  "ultima_ejecucion": "2026-11-01T09:03:00+01:00"
 }
