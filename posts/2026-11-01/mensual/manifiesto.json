@@ -1,0 +1,123 @@
+{
+  "variante": "B",
+  "paleta": 2,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "cadizclubdefutbol",
+        "palaciocongresoscadiz",
+        "univcadiz",
+        "estereoparque",
+        "ucaculturacadiz"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Lo más destacado de noviembre, noviembre 2026. 9 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "south-2026"
+      ],
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla"
+      ],
+      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "cadiz-oviedo"
+      ],
+      "etiquetas": [
+        "cadizclubdefutbol"
+      ],
+      "alt_text": "Eventos: Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13) (16:15, Estadio Nuevo Mirandilla)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "vicente-amigo"
+      ],
+      "etiquetas": [
+        "teatrofalla"
+      ],
+      "alt_text": "Eventos: Vicente Amigo · «Andenes del tiempo» (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "la-lupi"
+      ],
+      "etiquetas": [
+        "teatrofalla"
+      ],
+      "alt_text": "Eventos: La Lupi · «Lo inédito» (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "morera-congresos"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz"
+      ],
+      "alt_text": "Eventos: Manolo Morera · «No me enfado pero me da coraje» (todo el día, Palacio de Congresos de Cádiz)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "requiem-falla"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "univcadiz"
+      ],
+      "alt_text": "Eventos: Réquiem a D. Manuel de Falla · David Palomar (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "beth-orton"
+      ],
+      "etiquetas": [
+        "estereoparque",
+        "univcadiz",
+        "ucaculturacadiz"
+      ],
+      "alt_text": "Eventos: Beth Orton en Estéreo Parque (21:00, Edificio Constitución 1812 (UCA))"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "perianes"
+      ],
+      "etiquetas": [
+        "teatrofalla"
+      ],
+      "alt_text": "Eventos: Javier Perianes · Concierto de piano (Falla 150) (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "eventos",
+      "ids": [
+        "esencia-musico"
+      ],
+      "etiquetas": [
+        "teatrofalla"
+      ],
+      "alt_text": "Eventos: La esencia del músico · visitas teatralizadas (Falla 150) (17:00, Gran Teatro Falla)"
+    }
+  ]
+}
