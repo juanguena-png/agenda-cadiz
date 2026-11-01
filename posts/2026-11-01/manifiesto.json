@@ -1,0 +1,51 @@
+{
+  "variante": "B",
+  "paleta": 2,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, domingo 1 de noviembre. 2 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "south-series-1101"
+      ],
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "procesion-virgen-palma"
+      ],
+      "etiquetas": [],
+      "alt_text": "Eventos: Procesión de la Virgen de la Palma por La Viña (17:30, Parroquia de la Palma · barrio de La Viña)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "south-series-1101",
+      "alt_text": "Imagen oficial del South International Series Festival de Cádiz"
+    },
+    {
+      "archivo": "02.png",
+      "id": "procesion-virgen-palma",
+      "alt_text": "Virgen de la Palma, titular de la hermandad del barrio de La Viña de Cádiz"
+    }
+  ],
+  "noche": []
+}
