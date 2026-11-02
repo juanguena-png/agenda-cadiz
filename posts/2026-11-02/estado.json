@@ -1,10 +1,47 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-02T09:00:23+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18133155451790124",
+          "https://www.instagram.com/p/DfO0-3_F9B8/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-02T09:00:29+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122107041879519566"
+      }
+    },
+    "stories/01.png": {
+      "instagram": {
+        "ts": "2026-11-02T09:00:40+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18571855183079916",
+          "https://www.instagram.com/stories/planesencadiz/4021384662778057200"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-02T09:00:45+01:00",
+        "estado": "publicado",
+        "resultado": "1141841828602205"
+      }
+    }
+  },
   "registro": [
     "2026-11-02T07:54:54+01:00 diario: render OK (1 eventos, variante A)"
   ],
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-02T07:54:54+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 5,
+    "total": 100,
+    "ts": "2026-11-02T07:55:00+01:00"
+  },
+  "ultima_ejecucion": "2026-11-02T09:00:45+01:00"
 }
