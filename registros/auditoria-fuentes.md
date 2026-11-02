@@ -37,16 +37,16 @@ Fuentes registradas: 94
 - Universidad de Cádiz – eventos
 
 ## Las que más aportan
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 2608 candidatos
-- Onda Cádiz – Agenda de eventos: 1648 candidatos
-- Guía de Cádiz – Agenda: 1251 candidatos
-- Sala Central Lechera: 850 candidatos
-- Gran Teatro Falla: 782 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 289 candidatos
-- Eventbrite – Cádiz: 266 candidatos
-- Casa de Iberoamérica: 151 candidatos
-- Meetup – grupos de Cádiz: 75 candidatos
-- Fundación Cajasol: 52 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 2662 candidatos
+- Onda Cádiz – Agenda de eventos: 1710 candidatos
+- Guía de Cádiz – Agenda: 1290 candidatos
+- Sala Central Lechera: 900 candidatos
+- Gran Teatro Falla: 828 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 297 candidatos
+- Eventbrite – Cádiz: 268 candidatos
+- Casa de Iberoamérica: 157 candidatos
+- Meetup – grupos de Cádiz: 79 candidatos
+- Fundación Cajasol: 54 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
 - (aún sin datos: el agente debe rellenar descubiertos_web cada día)
