@@ -1,0 +1,37 @@
+{
+  "variante": "A",
+  "paleta": 1,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, lunes 2 de noviembre. 1 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "south-series-1102"
+      ],
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "south-series-1102",
+      "alt_text": "Imagen oficial del South International Series Festival de Cádiz"
+    }
+  ],
+  "noche": []
+}
