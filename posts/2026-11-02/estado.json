@@ -29,6 +29,21 @@
         "estado": "publicado",
         "resultado": "1141841828602205"
       }
+    },
+    "noche/01.png": {
+      "instagram": {
+        "ts": "2026-11-02T18:30:08+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17924590137225176",
+          "https://www.instagram.com/stories/planesencadiz/4021671316738785329"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-02T18:30:14+01:00",
+        "estado": "publicado",
+        "resultado": "1170402895319455"
+      }
     }
   },
   "registro": [
@@ -40,9 +55,9 @@
     "ts": "2026-11-02T17:39:38+01:00"
   },
   "limite_publicaciones": {
-    "uso": 5,
+    "uso": 3,
     "total": 100,
-    "ts": "2026-11-02T07:55:00+01:00"
+    "ts": "2026-11-02T17:39:40+01:00"
   },
-  "ultima_ejecucion": "2026-11-02T09:00:45+01:00"
+  "ultima_ejecucion": "2026-11-02T18:30:14+01:00"
 }
