@@ -1,0 +1,81 @@
+{
+  "variante": "B",
+  "paleta": 3,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica",
+        "ateneocadiz",
+        "univcadiz",
+        "fundacioncajasol"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, martes 3 de noviembre. 3 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "south-series-1103"
+      ],
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-cambio-climatico"
+      ],
+      "etiquetas": [
+        "ateneocadiz",
+        "univcadiz"
+      ],
+      "alt_text": "Eventos: Conferencia «Cambio climático: certeza científica, problema político» (19:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "locos-azotea-1103"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Pódcast «Locos de la azotea» con Manolo Morera (19:30, Fundación Cajasol (Casa Pemán))"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "south-series-1103",
+      "alt_text": "Imagen oficial del South International Series Festival de Cádiz"
+    },
+    {
+      "archivo": "02.png",
+      "id": "ateneo-cambio-climatico",
+      "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial"
+    },
+    {
+      "archivo": "03.png",
+      "id": "locos-azotea-1103",
+      "alt_text": "Cartel oficial del pódcast Locos de la azotea de la Fundación Cajasol"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "locos-azotea-1103"
+      ],
+      "alt_text": "Esta noche en Cádiz: Pódcast «Locos de la azotea» con Manolo Morera"
+    }
+  ]
+}
