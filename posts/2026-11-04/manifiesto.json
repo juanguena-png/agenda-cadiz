@@ -1,0 +1,80 @@
+{
+  "variante": "A",
+  "paleta": 5,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "univcadiz",
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica",
+        "ucaculturacadiz"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, miércoles 4 de noviembre. 3 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "congreso-tierra"
+      ],
+      "etiquetas": [
+        "univcadiz"
+      ],
+      "alt_text": "Eventos: Congreso «Y ¿de quién es la tierra?» (todo el día, Sala Argüelles · Edificio Constitución 1812 (UCA))"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "south-series-1104"
+      ],
+      "etiquetas": [
+        "southseriesfest",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Eventos: IV South International Series Festival (todo el día, Gran Teatro Falla y Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "uca-perspectivas-4"
+      ],
+      "etiquetas": [
+        "univcadiz",
+        "ucaculturacadiz"
+      ],
+      "alt_text": "Eventos: Perspectivas: sesión de fotografía artística y documental (19:30, Sala Bolívar · Edificio Constitución 1812 (UCA))"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "congreso-tierra",
+      "alt_text": "Imagen de Congreso «Y ¿de quién es la tierra?»"
+    },
+    {
+      "archivo": "02.png",
+      "id": "south-series-1104",
+      "alt_text": "Imagen oficial del South International Series Festival de Cádiz"
+    },
+    {
+      "archivo": "03.png",
+      "id": "uca-perspectivas-4",
+      "alt_text": "Cartel del ciclo Perspectivas de fotografía de la Universidad de Cádiz"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "uca-perspectivas-4"
+      ],
+      "alt_text": "Esta noche en Cádiz: Perspectivas: sesión de fotografía artística y documental"
+    }
+  ]
+}
