@@ -1,0 +1,93 @@
+{
+  "variante": "B",
+  "paleta": 6,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "nuevaacropolis.cadiz",
+        "fundacioncajasol",
+        "cadizclubdefutbol",
+        "teatrofalla",
+        "cadizguitarfestival"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Planes del finde, 6 – 8 de noviembre. 7 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "bichitos"
+      ],
+      "etiquetas": [],
+      "alt_text": "Eventos: Bichitos · Spasmos Teatro (18:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "neurociencia-acropolis"
+      ],
+      "etiquetas": [
+        "nuevaacropolis.cadiz"
+      ],
+      "alt_text": "Eventos: Conferencia «Neurociencia y Conciencia: el cerebro que nos piensa» (20:00, Nueva Acrópolis Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "lolo-pastrana"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Lolo Pastrana · Noches en Cajasol (20:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "cadiz-oviedo-finde"
+      ],
+      "etiquetas": [
+        "cadizclubdefutbol"
+      ],
+      "alt_text": "Eventos: Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13) (16:15, Estadio Nuevo Mirandilla)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "vicente-amigo-finde"
+      ],
+      "etiquetas": [
+        "teatrofalla"
+      ],
+      "alt_text": "Eventos: Vicente Amigo · «Andenes del tiempo» (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "guitar-hurtado"
+      ],
+      "etiquetas": [
+        "cadizguitarfestival"
+      ],
+      "alt_text": "Eventos: Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA (22:30, Casino Gaditano (patio interior))"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "guitar-guzman"
+      ],
+      "etiquetas": [
+        "cadizguitarfestival"
+      ],
+      "alt_text": "Eventos: Cádiz Guitar Festival · María Esther Guzman (13:00, La Caleta · Espacio Fernando Quiñones)"
+    }
+  ]
+}

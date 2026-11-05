@@ -1,0 +1,283 @@
+{
+  "fecha": "2026-11-05",
+  "tipo": "finde",
+  "eventos": [
+    {
+      "id": "bichitos",
+      "nombre": "Bichitos · Spasmos Teatro",
+      "categoria": "infantil",
+      "fecha": "2026-11-06",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "Calle San Miguel, 5, Cádiz",
+      "precio": "Consultar",
+      "publico": "Infantil",
+      "descripcion": "Teatro gestual familiar (+4 años) que mira de cerca a los pequeños bichos del mundo. Dura una hora.",
+      "info": "Familiar +4 años · entradas en bacantix.com",
+      "imagen": {
+        "archivo": "img/evento-bichitos-c2-b7-spasmos-teatro.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-09/ChatGPT_Image_23_sept_2026%2C_10_30_37.png",
+        "fuente": "Ayuntamiento de Cádiz",
+        "pagina": "https://institucional.cadiz.es/evento/bichitos-%C2%B7-spasmos-teatro",
+        "ancho": 1600,
+        "alto": 900,
+        "alt_text": "Cartel de Bichitos, de Spasmos Teatro",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz",
+          "url": "https://institucional.cadiz.es/evento/bichitos-%C2%B7-spasmos-teatro"
+        },
+        {
+          "nombre": "Onda Cádiz",
+          "url": "https://ondacadiz.es/agenda/2026-11/bichitos-spasmos-teatro"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere de la Tía Norica (Calle San Miguel, número 5, Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/bichitos-%C2%B7-spasmos-teatro"
+      },
+      "etiquetas_ig": [
+        "@tianorica"
+      ]
+    },
+    {
+      "id": "lolo-pastrana",
+      "nombre": "Lolo Pastrana · Noches en Cajasol",
+      "categoria": "música",
+      "fecha": "2026-11-06",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de Lolo Pastrana dentro del ciclo «Noches en Cajasol», en la sede gaditana de la fundación.",
+      "info": "Entradas online en la web de Cajasol y en la taquilla de Cádiz",
+      "imagen": {
+        "archivo": "img/lolo-pastrana.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/16-OCT-LOLO-PASTRATNA-1080x1080-2.jpg",
+        "fuente": "Fundación Cajasol",
+        "pagina": "https://fundacioncajasol.com/evento/lolo-pastrana/",
+        "alt_text": "Cartel oficial del concierto de Lolo Pastrana en Cajasol",
+        "tipo_imagen": "oficial",
+        "ancho": 1081,
+        "alto": 1081,
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/lolo-pastrana/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/lolo-pastrana/"
+      },
+      "etiquetas_ig": [
+        "@fundacioncajasol"
+      ]
+    },
+    {
+      "id": "neurociencia-acropolis",
+      "nombre": "Conferencia «Neurociencia y Conciencia: el cerebro que nos piensa»",
+      "categoria": "otros",
+      "fecha": "2026-11-06",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "El doctor Jesús Lorente Campos ofrece una charla sobre neurociencia y conciencia en la escuela de filosofía Nueva Acrópolis.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/neurociencia-acropolis.jpg",
+        "url_origen": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379",
+        "fuente": "Eventbrite",
+        "alt_text": "Cartel de la conferencia Neurociencia y Conciencia en Nueva Acrópolis Cádiz",
+        "tipo_imagen": "cualquiera",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Eventbrite (organizador: Nueva Acrópolis Cádiz)",
+          "url": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004 Cádiz",
+        "url": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379"
+      },
+      "etiquetas_ig": [
+        "@nuevaacropolis.cadiz"
+      ]
+    },
+    {
+      "id": "cadiz-oviedo-finde",
+      "nombre": "Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13)",
+      "categoria": "deporte",
+      "fecha": "2026-11-07",
+      "hora_inicio": "16:15",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Estadio Nuevo Mirandilla",
+      "direccion": "Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Partido de la jornada 13 de LaLiga Hypermotion en casa. Entradas en entradas.cadizcf.com.",
+      "info": "Entradas en entradas.cadizcf.com",
+      "imagen": {
+        "archivo": "img/cadiz-oviedo-finde-cartel.png",
+        "fuente": "Cartel propio de Planes en Cádiz con los escudos oficiales de la web del Cádiz CF",
+        "generada": true,
+        "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13), Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz CF (web oficial)",
+          "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Estadio Nuevo Mirandilla (ficha oficial del Cádiz CF)",
+        "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
+      },
+      "etiquetas_ig": [
+        "@cadizclubdefutbol"
+      ]
+    },
+    {
+      "id": "vicente-amigo-finde",
+      "nombre": "Vicente Amigo · «Andenes del tiempo»",
+      "categoria": "música",
+      "fecha": "2026-11-07",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "30–55 €",
+      "publico": "Todos los públicos",
+      "descripcion": "El guitarrista y compositor flamenco presenta su espectáculo en el Gran Teatro Falla.",
+      "info": "Entradas en bacantix.com y taquilla del Falla",
+      "imagen": {
+        "archivo": "img/evento-vicente-amigo-andenes-del-tiempo.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-08/Vicente_Amigo.jpg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "pagina": "https://institucional.cadiz.es/evento/vicente-amigo-andenes-del-tiempo",
+        "ancho": 1080,
+        "alto": 1440,
+        "alt_text": "Cartel oficial del concierto de Vicente Amigo en el Gran Teatro Falla",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/vicente-amigo-andenes-del-tiempo"
+        },
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/vicente-amigo-presenta-andenes-del-tiempo"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla (agenda oficial del Ayuntamiento de Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/vicente-amigo-andenes-del-tiempo"
+      },
+      "etiquetas_ig": [
+        "@teatrofalla"
+      ]
+    },
+    {
+      "id": "guitar-hurtado",
+      "nombre": "Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA",
+      "categoria": "música",
+      "fecha": "2026-11-07",
+      "hora_inicio": "22:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casino Gaditano (patio interior)",
+      "direccion": "Plaza de San Antonio, 15, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de guitarra clásica con Alejandro Hurtado y el cuarteto HANA en el patio del Casino Gaditano.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/guitar-hurtado.jpg",
+        "url_origen": "https://static.wixstatic.com/media/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png",
+        "fuente": "www.cadizguitarfestival.com",
+        "pagina": "https://www.cadizguitarfestival.com/",
+        "ancho": 1217,
+        "alto": 807,
+        "alt_text": "Imagen de Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA",
+        "tipo_imagen": "logo",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz Guitar Festival",
+          "url": "https://www.cadizguitarfestival.com/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casino Gaditano, patio interior, Plaza San Antonio, 15, 11003 Cádiz",
+        "url": "https://www.cadizguitarfestival.com/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "guitar-guzman",
+      "nombre": "Cádiz Guitar Festival · María Esther Guzman",
+      "categoria": "música",
+      "fecha": "2026-11-08",
+      "hora_inicio": "13:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "La Caleta · Espacio Fernando Quiñones",
+      "direccion": "La Caleta, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "La guitarrista María Esther Guzman, de carrera internacional, actúa en La Caleta dentro del Cádiz Guitar Festival.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/guitar-guzman.jpg",
+        "url_origen": "https://static.wixstatic.com/media/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png",
+        "fuente": "www.cadizguitarfestival.com",
+        "pagina": "https://www.cadizguitarfestival.com/",
+        "ancho": 1217,
+        "alto": 807,
+        "alt_text": "Imagen de Cádiz Guitar Festival · María Esther Guzman",
+        "tipo_imagen": "logo",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz Guitar Festival",
+          "url": "https://www.cadizguitarfestival.com/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "La Caleta, Espacio Fernando Quiñones, Cádiz (programa del festival)",
+        "url": "https://www.cadizguitarfestival.com/"
+      },
+      "etiquetas_ig": []
+    }
+  ]
+}
