@@ -141,6 +141,15 @@ def _boton(url, txt, color="#0a66c2"):
     return f'<a href="{H.escape(url)}" style="display:inline-block;background:{color};color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px">{H.escape(txt)}</a>'
 
 
+PAGINA_COPIAR = "https://raw.githack.com/juanguena-png/agenda-cadiz/main/web/copiar.html"
+
+
+def _enlace_copiar(publicacion, comentario):
+    """Los correos no ejecutan JavaScript: el botón abre una página sencilla que copia el comentario al portapapeles (al tocar) y abre la publicación."""
+    from urllib.parse import quote
+    return f"{PAGINA_COPIAR}#p={quote(publicacion, safe='')}&t={quote(comentario or '', safe='')}"
+
+
 def construir_correo(d, comentarios):
     perfil_url = lambda u: f"https://www.instagram.com/{u}/"
     seg, sig = d["yo"]["seguidores"], d["yo"]["seguidos"]
@@ -169,7 +178,7 @@ def construir_correo(d, comentarios):
         return (f'<div>{_a(perfil_url(u), "@" + u)} <span style="color:#777;font-size:13px">· {it.get("seguidores") or "?"} seguidores</span></div>'
                 f'<div style="color:#555;font-size:13px;margin:4px 0 8px">«{t}…»</div>'
                 f'<div style="background:#f5f7fa;border-left:4px solid #0a66c2;padding:8px 10px;margin-bottom:8px">{H.escape(com)}</div>'
-                + (_boton(it["publicacion"], "Abrir su publicación") if it.get("publicacion") else _boton(perfil_url(u), "Abrir perfil")))
+                + (_boton(_enlace_copiar(it["publicacion"], com), "Copiar comentario y abrir publicación") + f'<div style="margin-top:8px;font-size:13px"><a href="{H.escape(it["publicacion"])}" style="color:#777">o abrir solo la publicación</a></div>' if it.get("publicacion") else _boton(perfil_url(u), "Abrir perfil")))
     def fb(it):
         u = it["usuario"]
         return (f'<div>{_a(perfil_url(u), "@" + u)} <span style="color:#777;font-size:13px">· {it.get("seguidores") or "?"} seguidores</span></div>'
