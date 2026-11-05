@@ -16,3 +16,9 @@ Una línea por fuente: fecha · nombre · URL · cómo se encontró · qué apor
 - 2026-10-27 · Colegio de Arquitectos de Cádiz – ciclos y conferencias · búsqueda web (URL propia pendiente de verificar) · hallazgo: ciclo «Arquitectura, paisaje y territorio» en Planomato; conferencias abiertas (criterio 8)
 - 2026-10-28 · Biblioteca Provincial de Cádiz (URL oficial asignada a la fuente 7, antes sin enlace) · https://www.juntadeandalucia.es/cultura/bibliotecas/bpcadiz · Junta de Andalucía; actividades, presentaciones y exposiciones de la biblioteca (confirmar dirección en Cádiz capital en cada ficha)
 - 2026-10-29 · Peña Flamenca La Perla de Cádiz – Viernes Flamencos y ciclos · búsqueda web (laperladecadiz.es no responde desde el servidor) · hallazgo: auditoría del jueves, flamenco/peñas casi sin cobertura; aporta Viernes Flamencos y Día del Flamenco (16 nov)
+- 2026-11-05 · Fundación Unicaja Cádiz (parser) · fundacionunicaja.com/agenda/?ciudad=cadiz&dia=… · agenda por día con hora y sede (p. ej. recital de Juan Medina, 6-nov 19:30)
+- 2026-11-05 · Ateneo de Cádiz (parser) · ateneocadiz.es/<mes>-de-<año>/ · programa mensual estructurado
+- 2026-11-05 · IFEF – Martes del Empleo (parser) · ifef.es · talleres martes 11:00-12:30 Depósitos de Tabaco
+- 2026-11-05 · RSS de prensa y organizadores (parser) · CádizNoticias, Cádiz Directo, Diario de Cádiz, Europa Sur, La Voz del Sur, notas del Ayuntamiento (transparencia.cadiz.es), vivirediciones, Cádiz Ilustrada, UCA · artículos recientes que mencionan el día
+- 2026-11-05 · Peña Flamenca La Perla (perladecadiz.com) y Viral Agenda – Cádiz · fragmentos por día
+- 2026-11-05 · arreglos: Cádiz Guitar Festival (reintentos ante 429), Cádiz CF (más tiempo), Andalucía.org (URL nueva, vía web)

@@ -995,11 +995,11 @@
    "nombre": "Cádiz Ilustrada – conferencias",
    "tipo": "organizador",
    "urls": [
-    "https://www.google.com/search?q=C%C3%A1diz+Ilustrada+conferencia"
+    "https://cadizilustrada.wordpress.com/feed/"
    ],
-   "via": "web",
    "provincial": false,
-   "nota": "Asociación que organiza conferencias en el Centro Cultural Ancha 16 con el Ayuntamiento; localizar su web/avisos en prensa."
+   "nota": "RSS del blog de la asociación (conferencias en Ancha 16 y ECCO)",
+   "parser": "rss"
   },
   {
    "id": 89,
@@ -1039,11 +1039,11 @@
    "nombre": "Peña Flamenca La Perla de Cádiz – Viernes Flamencos y ciclos",
    "tipo": "organizador",
    "urls": [
-    "https://www.google.com/search?q=Pe%C3%B1a+Flamenca+La+Perla+de+C%C3%A1diz+programaci%C3%B3n"
+    "https://perladecadiz.com/"
    ],
-   "via": "web",
    "provincial": false,
-   "nota": "Viernes Flamencos, concursos (Tanguillos, Baile por Alegrías) y Día del Flamenco (16 nov). Web propia (laperladecadiz.es) no responde desde el servidor: contrastar en prensa/Ayuntamiento y confirmar dirección en Cádiz capital (regla 1)."
+   "nota": "Web de la peña: viernes flamencos y ciclos; fragmentos por día",
+   "parser": "texto"
   },
   {
    "id": 93,
@@ -1066,6 +1066,39 @@
    "parser": "rss",
    "provincial": true,
    "nota": "RSS prensa (provincial: filtrar Cádiz capital)"
+  },
+  {
+   "id": 95,
+   "nombre": "UCA – feed de noticias y eventos",
+   "tipo": "oficial",
+   "urls": [
+    "https://www.uca.es/feed/"
+   ],
+   "parser": "rss",
+   "provincial": true,
+   "nota": "RSS UCA: ojo, campus en Puerto Real, Jerez y Algeciras; solo Cádiz capital"
+  },
+  {
+   "id": 96,
+   "nombre": "Viral Agenda – Cádiz",
+   "tipo": "agregador",
+   "urls": [
+    "https://www.viralagenda.com/es/andalucia/cadiz"
+   ],
+   "parser": "texto",
+   "provincial": false,
+   "nota": "agregador: fragmentos por día; confirmar en fuente del organizador"
+  },
+  {
+   "id": 97,
+   "nombre": "Cádiz Directo – feed Cádiz",
+   "tipo": "prensa",
+   "urls": [
+    "https://www.cadizdirecto.com/cadiz/feed"
+   ],
+   "parser": "rss",
+   "provincial": false,
+   "nota": "RSS sección Cádiz"
   }
  ]
 }
