@@ -1,6 +1,6 @@
 # Auditoría de fuentes (últimos 14 días)
 
-Fuentes registradas: 94
+Fuentes registradas: 96
 
 ## Caídas (nunca responden): sustituir o buscar la URL nueva
 - Andalucía.org – agenda de Cádiz (Junta de Andalucía)
@@ -12,23 +12,24 @@ Fuentes registradas: 94
 
 ## Responden pero no aportan candidatos: revisar parser o enlace
 - Agenda Cádiz (agendacadiz.com)
+- Ateneo de Cádiz – programa
 - Ayuntamiento de Cádiz – Programación cultural (Teatros de Cádiz)
 - Baluarte de la Candelaria
 - Castillo de Santa Catalina
 - Cádiz CF – partidos en casa
 - Cádiz Cultura
-- Cádiz Directo
 - Cádiz en Danza
 - Deportes del Ayuntamiento de Cádiz
 - Diario Bahía de Cádiz – Cádiz
-- Diario de Cádiz – agenda
 - Diputación de Cádiz – Agenda cultural
 - Entradium (Cádiz)
+- Europa Sur – RSS
 - Festival Internacional del Títere de Cádiz
 - Festival Patrimonio Flamenco
-- Fundación Unicaja – agenda cultural
+- IFEF Cádiz – Los Martes del Empleo y talleres
 - La Ganzúa – conciertos en Cádiz
 - La Voz de Cádiz
+- La Voz del Sur – RSS
 - Noches Clásicas de la Ciudad de Cádiz
 - Onda Cádiz – Agenda
 - Teatro Pemán (Teatros de Cádiz)
@@ -37,16 +38,16 @@ Fuentes registradas: 94
 - Universidad de Cádiz – eventos
 
 ## Las que más aportan
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 2769 candidatos
-- Onda Cádiz – Agenda de eventos: 1832 candidatos
-- Guía de Cádiz – Agenda: 1368 candidatos
-- Sala Central Lechera: 1000 candidatos
-- Gran Teatro Falla: 920 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 311 candidatos
-- Eventbrite – Cádiz: 274 candidatos
-- Casa de Iberoamérica: 167 candidatos
-- Meetup – grupos de Cádiz: 91 candidatos
-- Fundación Cajasol: 58 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 2930 candidatos
+- Onda Cádiz – Agenda de eventos: 2017 candidatos
+- Guía de Cádiz – Agenda: 1491 candidatos
+- Sala Central Lechera: 1100 candidatos
+- Gran Teatro Falla: 1012 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 370 candidatos
+- Eventbrite – Cádiz: 310 candidatos
+- Casa de Iberoamérica: 181 candidatos
+- Meetup – grupos de Cádiz: 104 candidatos
+- Fundación Cajasol: 66 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
 - (aún sin datos: el agente debe rellenar descubiertos_web cada día)

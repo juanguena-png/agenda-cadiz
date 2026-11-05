@@ -1,10 +1,21 @@
 {
-  "muestras": {
-    "A": 6,
-    "B": 6
+  "experimentos": {
+    "frase": {
+      "A": {
+        "n": 6,
+        "alcance": 39.3,
+        "seguidores": 0,
+        "guardados": 0
+      },
+      "B": {
+        "n": 7,
+        "alcance": 74.7,
+        "seguidores": 1.57,
+        "guardados": 0.14
+      }
+    },
+    "cta": {},
+    "hashtags": {}
   },
-  "alcance_medio": {
-    "A": 37.666666666666664,
-    "B": 80.0
-  }
+  "fijados": {}
 }
