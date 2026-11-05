@@ -164,7 +164,7 @@ async function render(d){
     e.innerHTML=`<div class="sol"></div><div class="prog">${segs}</div><div class="dias">${tabs}</div><div class="nro">${i+1}/${n}</div>
       <div class="foto-w"><div class="k"><div class="f" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div></div></div>
       <span class="cat">${esc(ev.etiqueta||ev.categoria)}</span>${ev.fecha_txt?`<span class="cat b">${esc(ev.fecha_txt)}</span>`:""}
-      <div class="tit">${palabras(ev.nombre)}</div>
+      <div class="tit" style="font-size:${ev.nombre.length>70?52:ev.nombre.length>52?58:ev.nombre.length>38?66:76}px">${palabras(ev.nombre)}</div>
       <div class="meta"><div class="fila" data-r="1">${I_RELOJ}<span class="hora">${esc(horaT)}</span></div><div class="fila" data-r="2">${I_PIN}<span>${esc(ev.lugar)}</span></div><div class="fila" data-r="3">${I_TICKET}<span class="precio">${esc(ev.precio||"Consultar")}</span></div></div>`;
     L.appendChild(e);disolver(e,s-0.02,P+0.04);
     solAnim(e.querySelector(".sol"),T);olas(e,s,T);
