@@ -119,6 +119,30 @@ def para_evento(ev):
     return out
 
 
+def descubrir(eventos):
+    """Por cada entidad de cada evento que NO esté en el directorio (cuentas nuevas), busca candidatos: enlaces de Instagram en las webs
+    de las fuentes del evento y variantes del nombre con la API oficial. El agente debe comprobar que el nombre devuelto es el correcto
+    y de Cádiz capital, y entonces ejecutar --anadir. Devuelve {nombre_entidad: [(usuario, nombre_real, seguidores)]}."""
+    dir_ = directorio()
+    out = {}
+    for ev in eventos:
+        webs = [f.get("url") for f in ev.get("fuentes") or [] if f.get("url")]
+        enlazados = []
+        for w in webs[:2]:
+            try:
+                enlazados += [(u, n, sg) for u, ok, n, sg in instagram_en_web(w) if ok and u not in dir_]
+            except Exception:
+                pass
+        if enlazados:
+            out[f"[web de «{ev.get('nombre', '')[:40]}»]"] = enlazados
+        for e in ev.get("entidades") or []:
+            if limpiar(e.get("instagram")) in dir_ or e.get("nombre") in out:
+                continue
+            c = [x for x in buscar(e.get("nombre") or "") if x[0] not in dir_]
+            out[e.get("nombre")] = c
+    return out
+
+
 MIN_ETIQUETAS_EVENTO = 3  # umbral de aviso: lugar + organizador + al menos una entidad o artista
 
 
@@ -143,7 +167,10 @@ def auditar(eventos, fecha=None):
         for e in ents:
             u = limpiar(e.get("instagram"))
             if not u or u not in dir_:
-                problemas.append(f"sin perfil verificado: {e.get('nombre')} ({e.get('rol')})")
+                if not u and not e.get("buscado"):
+                    problemas.append(f"perfil NO buscado todavía: {e.get('nombre')} ({e.get('rol')}); ejecuta --descubrir y marca `buscado` (fecha) si no existe")
+                else:
+                    problemas.append(f"sin perfil verificado: {e.get('nombre')} ({e.get('rol')})")
                 pend[e.get("nombre") or "?"] = {"rol": e.get("rol"), "evento": ev.get("nombre"), "fecha": fecha or ev.get("fecha"), "instagram_probado": u or None}
         if len(tags) < MIN_ETIQUETAS_EVENTO:
             problemas.append(f"solo {len(tags)} etiqueta(s) (mínimo {MIN_ETIQUETAS_EVENTO})")
@@ -173,6 +200,7 @@ if __name__ == "__main__":
     ap.add_argument("--verificar", nargs="+")
     ap.add_argument("--anadir", nargs="+", metavar=("USUARIO", "NOMBRE"))
     ap.add_argument("--evento")
+    ap.add_argument("--descubrir", metavar="eventos.json", help="busca perfiles NUEVOS (no están en el directorio) de las entidades de cada evento")
     ap.add_argument("--auditar", metavar="eventos.json", help="informe de etiquetas por evento (entidades sin perfil, mínimos)")
     ap.add_argument("--web", nargs="+", metavar="URL", help="busca los enlaces de Instagram en webs oficiales de organizadores/recintos")
     ap.add_argument("--buscar", nargs="+", metavar="NOMBRE", help="prueba variantes de cada nombre y muestra los perfiles que existen (hay que comprobar que son los correctos)")
@@ -200,6 +228,14 @@ if __name__ == "__main__":
             print(f"## {n}")
             for u, nom, sg in buscar(n):
                 print(f"   @{u} | {nom} | {sg} seguidores")
+    elif a.descubrir:
+        import pathlib
+        for nombre, cands in descubrir(ag.cargar_eventos(pathlib.Path(a.descubrir).parent)["eventos"]).items():
+            print(f"## {nombre}")
+            for u, n, sg in cands:
+                print(f"   @{u} | {n} | {sg} seguidores  -> si es correcto: --anadir {u} \"{n}\" clave…")
+            if not cands:
+                print("   (sin candidatos: busca su web/prensa o márcala `buscado` con la fecha)")
     elif a.auditar:
         import pathlib
         ruta = pathlib.Path(a.auditar)
