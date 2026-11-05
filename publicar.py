@@ -152,12 +152,15 @@ def ig_comentar(media_id, texto):
         print(f"AVISO: no se pudo publicar el primer comentario ({e})")
 
 
+LOCATION_CADIZ = "107993639228077"  # página de lugar «Cádiz» (ID de Facebook Places según Wikidata P1997; la API de Instagram lo acepta como location_id)
+
+
 def _extras_contenedor(colaboradores):
     """Parámetros opcionales del contenedor: colaboradores invitados (máx. 3) y ubicación (IG_LOCATION_ID = id de la página de lugar de Cádiz)."""
     extra = {}
     if colaboradores:
         extra["collaborators"] = colaboradores[:3]
-    loc = ag.secreto("IG_LOCATION_ID")
+    loc = ag.secreto("IG_LOCATION_ID") or LOCATION_CADIZ
     if loc:
         extra["location_id"] = loc
     return extra

@@ -206,7 +206,6 @@ def informe():
 
 
 def semanal():
-    import notificar
     filas = _filas()[-8:]
     seg = [((f["instagram"].get("cuenta") or {}).get("followers_count")) for f in filas]
     seg = [s for s in seg if s is not None]
@@ -229,7 +228,6 @@ def semanal():
     ruta = REG / "informes" / f"semanal-{ag.hoy().isoformat()}.md"
     ruta.parent.mkdir(exist_ok=True)
     ruta.write_text("\n".join(L) + "\n", encoding="utf-8")
-    notificar.enviar(f"Revisión semanal de crecimiento ({ag.hoy().isoformat()})", "\n".join(L))
     print("\n".join(L))
 
 
