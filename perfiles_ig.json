@@ -1,362 +1,387 @@
 {
- "_nota": "Perfiles de Instagram VERIFICADOS con la API oficial (business_discovery) y de Cádiz capital. 'claves' = expresiones (regex, sin acentos ni mayúsculas) que, si aparecen en lugar/nombre/descripción/organizador del evento, añaden el perfil. Solo se etiqueta lo que está aquí.",
- "perfiles": {
-  "cadizclubdefutbol": {
-   "nombre": "Cádiz Club de Fútbol",
-   "claves": [
-    "cadiz cf",
-    "cadiz club de futbol",
-    "nuevo mirandilla"
-   ]
+  "_nota": "Perfiles de Instagram VERIFICADOS con la API oficial (business_discovery) y de Cádiz capital. 'claves' = expresiones (regex, sin acentos ni mayúsculas) que, si aparecen en lugar/nombre/descripción/organizador del evento, añaden el perfil. Solo se etiqueta lo que está aquí.",
+  "perfiles": {
+    "cadizclubdefutbol": {
+      "nombre": "Cádiz Club de Fútbol",
+      "claves": [
+        "cadiz cf",
+        "cadiz club de futbol",
+        "nuevo mirandilla"
+      ]
+    },
+    "univcadiz": {
+      "nombre": "Universidad de Cádiz",
+      "claves": [
+        "\\buca\\b",
+        "universidad de cadiz",
+        "aulario la bomba",
+        "edificio constitucion 1812",
+        "facultad de filosofia y letras",
+        "facultad de filosofia",
+        "facultad de medicina de cadiz",
+        "facultad de ciencias del mar"
+      ]
+    },
+    "ateneocadiz": {
+      "nombre": "Ateneo de Cádiz",
+      "claves": [
+        "ateneo de cadiz",
+        "ateneo literario",
+        "calle ancha 20",
+        "ancha, 20"
+      ]
+    },
+    "fundacioncajasol": {
+      "nombre": "Fundación Cajasol",
+      "claves": [
+        "fundacion cajasol",
+        "cajasol",
+        "casa peman",
+        "plaza de san antonio"
+      ]
+    },
+    "fundacionory": {
+      "nombre": "Fundación Ory",
+      "claves": [
+        "fundacion carlos edmundo de ory",
+        "fundacion ory",
+        "jornadas de la fundacion ory"
+      ]
+    },
+    "ayuntamientocadiz": {
+      "nombre": "Ayuntamiento de Cádiz",
+      "claves": [
+        "ayuntamiento de cadiz",
+        "truco o trato",
+        "matadero 13",
+        "desfile .*nuevo orden",
+        "baluarte de la candelaria",
+        "tosantos",
+        "delegacion de cultura",
+        "fundacion municipal de cultura",
+        "centro cultural ancha",
+        "ancha 16",
+        "espacio cultural fernando quinones",
+        "el bidon"
+      ]
+    },
+    "juventudcadiz": {
+      "nombre": "Juventud Cádiz (Casa de la Juventud)",
+      "claves": [
+        "casa de la juventud",
+        "truco o trato",
+        "matadero 13",
+        "delegacion de juventud"
+      ]
+    },
+    "estereoparque": {
+      "nombre": "Estéreo Parque",
+      "claves": [
+        "estereo parque"
+      ]
+    },
+    "southseriesfest": {
+      "nombre": "South International Series Festival",
+      "claves": [
+        "south international series",
+        "south series"
+      ]
+    },
+    "valledecuentos": {
+      "nombre": "Valle de Cuentos",
+      "claves": [
+        "valle de cuentos"
+      ]
+    },
+    "castillosantacatalina": {
+      "nombre": "Castillo de Santa Catalina",
+      "claves": [
+        "castillo de santa catalina"
+      ]
+    },
+    "ecco_cadiz": {
+      "nombre": "ECCO Cádiz",
+      "claves": [
+        "\\becco\\b"
+      ]
+    },
+    "palaciocongresoscadiz": {
+      "nombre": "Palacio de Congresos de Cádiz",
+      "claves": [
+        "palacio de congresos de cadiz",
+        "palacio de congresos",
+        "plaza sevilla"
+      ]
+    },
+    "teatrofalla": {
+      "nombre": "Gran Teatro Falla",
+      "claves": [
+        "gran teatro falla",
+        "teatro falla",
+        "plaza de fragela"
+      ]
+    },
+    "cadizguitarfestival": {
+      "nombre": "Cádiz Guitar Festival Ángel G. Piñero",
+      "claves": [
+        "cadiz guitar festival"
+      ]
+    },
+    "museodecadiz": {
+      "nombre": "Museo de Cádiz",
+      "claves": [
+        "museo de cadiz",
+        "plaza de mina"
+      ]
+    },
+    "casadeiberoamerica": {
+      "nombre": "Casa Iberoamérica de Cádiz",
+      "claves": [
+        "casa de iberoamerica",
+        "casa iberoamerica"
+      ]
+    },
+    "visit_cadizturismo": {
+      "nombre": "Delegación Municipal de Turismo de Cádiz",
+      "claves": [
+        "delegacion municipal de turismo",
+        "turismo de cadiz",
+        "visit cadiz",
+        "delegacion de turismo",
+        "turismo.cadiz.es"
+      ]
+    },
+    "ucaculturacadiz": {
+      "nombre": "UCA Cultura (Universidad de Cádiz)",
+      "claves": [
+        "uca cultura",
+        "extension universitaria",
+        "estereo parque",
+        "vicerrectorado de sostenibilidad y cultura",
+        "catedra de memoria historica"
+      ]
+    },
+    "nuevaacropolis.cadiz": {
+      "nombre": "Nueva Acrópolis Cádiz",
+      "claves": [
+        "nueva acropolis"
+      ]
+    },
+    "mercadovirgendelrosario": {
+      "nombre": "Mercado Virgen del Rosario de Cádiz",
+      "claves": [
+        "virgen del rosario"
+      ]
+    },
+    "digitalism": {
+      "nombre": "Digitalism",
+      "claves": [
+        "digitalism"
+      ]
+    },
+    "manueldelatomasa": {
+      "nombre": "Manuel de la Tomasa",
+      "claves": [
+        "manuel de la tomasa"
+      ]
+    },
+    "centroandaluzdelasletras": {
+      "nombre": "Centro Andaluz de las Letras",
+      "claves": [
+        "centro andaluz de las letras"
+      ]
+    },
+    "torre_tavira": {
+      "nombre": "Torre Tavira – Cámara Oscura",
+      "claves": [
+        "torre tavira"
+      ]
+    },
+    "catedraldecadiz": {
+      "nombre": "Catedral de Cádiz",
+      "claves": [
+        "catedral de cadiz"
+      ]
+    },
+    "puppets_marionetas": {
+      "nombre": "Puppets Marionetas",
+      "claves": [
+        "puppets marionetas",
+        "puppets"
+      ]
+    },
+    "fundunicaja": {
+      "nombre": "Fundación Unicaja",
+      "claves": [
+        "fundacion unicaja",
+        "centro fundacion unicaja",
+        "calle san francisco 26"
+      ]
+    },
+    "diputaciondecadiz": {
+      "nombre": "Diputación de Cádiz",
+      "claves": [
+        "diputacion de cadiz",
+        "diputacion provincial"
+      ]
+    },
+    "cadizcf_fundacion": {
+      "nombre": "Fundación Cádiz CF",
+      "claves": [
+        "fundacion cadiz cf",
+        "fundacion del cadiz",
+        "edificio ma'?arifa"
+      ]
+    },
+    "zfcadiz": {
+      "nombre": "Zona Franca de Cádiz",
+      "claves": [
+        "zona franca",
+        "zonafranca",
+        "consorcio de la zona franca"
+      ]
+    },
+    "puertodecadiz": {
+      "nombre": "Puerto de la Bahía de Cádiz (Autoridad Portuaria)",
+      "claves": [
+        "autoridad portuaria",
+        "puerto de la bahia de cadiz",
+        "puerto de cadiz"
+      ]
+    },
+    "ifef_cadiz": {
+      "nombre": "Instituto de Fomento, Empleo y Formación (IFEF)",
+      "claves": [
+        "\\bifef\\b",
+        "instituto de fomento",
+        "martes del empleo",
+        "depositos de tabaco",
+        "antiguos depositos"
+      ]
+    },
+    "camaracadiz": {
+      "nombre": "Cámara de Comercio de Cádiz",
+      "claves": [
+        "camara de comercio de cadiz"
+      ]
+    },
+    "crisantemoteatro": {
+      "nombre": "Crisantemo Teatro",
+      "claves": [
+        "crisantemo"
+      ]
+    },
+    "adaccacadiz": {
+      "nombre": "Adacca Cádiz (daño cerebral)",
+      "claves": [
+        "adacca"
+      ]
+    },
+    "arteliseando": {
+      "nombre": "Arteliseando",
+      "claves": [
+        "arteliseando"
+      ]
+    },
+    "imdcadiz": {
+      "nombre": "IMD Cádiz (Instituto Municipal del Deporte)",
+      "claves": [
+        "instituto municipal del deporte",
+        "\\bimd\\b"
+      ]
+    },
+    "comcadiz": {
+      "nombre": "Colegio de Médicos de Cádiz",
+      "claves": [
+        "colegio de medicos de cadiz",
+        "colegio oficial de medicos"
+      ]
+    },
+    "colegioabogadoscadiz": {
+      "nombre": "Ilustre Colegio de Abogados de Cádiz",
+      "claves": [
+        "colegio de abogados de cadiz"
+      ]
+    },
+    "quorumlibros": {
+      "nombre": "Quorum Libros",
+      "claves": [
+        "quorum libros",
+        "libreria quorum"
+      ]
+    },
+    "culturacuenta": {
+      "nombre": "Agencia Andaluza de Instituciones Culturales",
+      "claves": [
+        "agencia andaluza de instituciones culturales",
+        "junta de andalucia",
+        "consejeria de cultura",
+        "centro andaluz de las letras",
+        "agenda cultural de andalucia"
+      ]
+    },
+    "culturagob": {
+      "nombre": "Ministerio de Cultura",
+      "claves": [
+        "ministerio de cultura"
+      ]
+    },
+    "ondacadiz": {
+      "nombre": "Onda Cádiz",
+      "claves": [
+        "onda cadiz"
+      ]
+    },
+    "turismoandaluz": {
+      "nombre": "Turismo Andaluz",
+      "claves": [
+        "turismo andaluz",
+        "turismo de andalucia"
+      ]
+    },
+    "unicajabanco": {
+      "nombre": "Unicaja",
+      "claves": [
+        "unicaja banco"
+      ]
+    },
+    "caixabank": {
+      "nombre": "CaixaBank",
+      "claves": [
+        "caixabank",
+        "fundacion la caixa"
+      ]
+    },
+    "gaditanoir": {
+      "nombre": "Gaditanoir (festival de novela negra)",
+      "claves": [
+        "gaditanoir"
+      ]
+    },
+    "spasmoteatro": {
+      "nombre": "Spasmo Teatro",
+      "claves": [
+        "spasmo"
+      ]
+    },
+    "_one_medina": {
+      "nombre": "Juan Medina (Juanito Makandé)",
+      "claves": [
+        "juan medina",
+        "makande"
+      ]
+    },
+    "lolopastrana_oficial": {
+      "nombre": "Lolo Pastrana",
+      "claves": [
+        "lolo pastrana"
+      ]
+    }
   },
-  "univcadiz": {
-   "nombre": "Universidad de Cádiz",
-   "claves": [
-    "\\buca\\b",
-    "universidad de cadiz",
-    "aulario la bomba",
-    "edificio constitucion 1812",
-    "facultad de filosofia y letras",
-    "facultad de filosofia",
-    "facultad de medicina de cadiz",
-    "facultad de ciencias del mar"
-   ]
-  },
-  "ateneocadiz": {
-   "nombre": "Ateneo de Cádiz",
-   "claves": [
-    "ateneo de cadiz",
-    "ateneo literario",
-    "calle ancha 20",
-    "ancha, 20"
-   ]
-  },
-  "fundacioncajasol": {
-   "nombre": "Fundación Cajasol",
-   "claves": [
-    "fundacion cajasol",
-    "cajasol",
-    "casa peman",
-    "plaza de san antonio"
-   ]
-  },
-  "fundacionory": {
-   "nombre": "Fundación Ory",
-   "claves": [
-    "fundacion carlos edmundo de ory",
-    "fundacion ory",
-    "jornadas de la fundacion ory"
-   ]
-  },
-  "ayuntamientocadiz": {
-   "nombre": "Ayuntamiento de Cádiz",
-   "claves": [
-    "ayuntamiento de cadiz",
-    "truco o trato",
-    "matadero 13",
-    "desfile .*nuevo orden",
-    "baluarte de la candelaria",
-    "tosantos",
-    "delegacion de cultura",
-    "fundacion municipal de cultura",
-    "centro cultural ancha",
-    "ancha 16",
-    "espacio cultural fernando quinones",
-    "el bidon"
-   ]
-  },
-  "juventudcadiz": {
-   "nombre": "Juventud Cádiz (Casa de la Juventud)",
-   "claves": [
-    "casa de la juventud",
-    "truco o trato",
-    "matadero 13",
-    "delegacion de juventud"
-   ]
-  },
-  "estereoparque": {
-   "nombre": "Estéreo Parque",
-   "claves": [
-    "estereo parque"
-   ]
-  },
-  "southseriesfest": {
-   "nombre": "South International Series Festival",
-   "claves": [
-    "south international series",
-    "south series"
-   ]
-  },
-  "valledecuentos": {
-   "nombre": "Valle de Cuentos",
-   "claves": [
-    "valle de cuentos"
-   ]
-  },
-  "castillosantacatalina": {
-   "nombre": "Castillo de Santa Catalina",
-   "claves": [
-    "castillo de santa catalina"
-   ]
-  },
-  "ecco_cadiz": {
-   "nombre": "ECCO Cádiz",
-   "claves": [
-    "\\becco\\b"
-   ]
-  },
-  "palaciocongresoscadiz": {
-   "nombre": "Palacio de Congresos de Cádiz",
-   "claves": [
-    "palacio de congresos de cadiz",
-    "palacio de congresos",
-    "plaza sevilla"
-   ]
-  },
-  "teatrofalla": {
-   "nombre": "Gran Teatro Falla",
-   "claves": [
-    "gran teatro falla",
-    "teatro falla",
-    "plaza de fragela"
-   ]
-  },
-  "cadizguitarfestival": {
-   "nombre": "Cádiz Guitar Festival Ángel G. Piñero",
-   "claves": [
-    "cadiz guitar festival"
-   ]
-  },
-  "museodecadiz": {
-   "nombre": "Museo de Cádiz",
-   "claves": [
-    "museo de cadiz",
-    "plaza de mina"
-   ]
-  },
-  "casadeiberoamerica": {
-   "nombre": "Casa Iberoamérica de Cádiz",
-   "claves": [
-    "casa de iberoamerica",
-    "casa iberoamerica"
-   ]
-  },
-  "visit_cadizturismo": {
-   "nombre": "Delegación Municipal de Turismo de Cádiz",
-   "claves": [
-    "delegacion municipal de turismo",
-    "turismo de cadiz",
-    "visit cadiz",
-    "delegacion de turismo",
-    "turismo.cadiz.es"
-   ]
-  },
-  "ucaculturacadiz": {
-   "nombre": "UCA Cultura (Universidad de Cádiz)",
-   "claves": [
-    "uca cultura",
-    "extension universitaria",
-    "estereo parque",
-    "vicerrectorado de sostenibilidad y cultura",
-    "catedra de memoria historica"
-   ]
-  },
-  "nuevaacropolis.cadiz": {
-   "nombre": "Nueva Acrópolis Cádiz",
-   "claves": [
-    "nueva acropolis"
-   ]
-  },
-  "mercadovirgendelrosario": {
-   "nombre": "Mercado Virgen del Rosario de Cádiz",
-   "claves": [
-    "virgen del rosario"
-   ]
-  },
-  "digitalism": {
-   "nombre": "Digitalism",
-   "claves": [
-    "digitalism"
-   ]
-  },
-  "manueldelatomasa": {
-   "nombre": "Manuel de la Tomasa",
-   "claves": [
-    "manuel de la tomasa"
-   ]
-  },
-  "centroandaluzdelasletras": {
-   "nombre": "Centro Andaluz de las Letras",
-   "claves": [
-    "centro andaluz de las letras"
-   ]
-  },
-  "torre_tavira": {
-   "nombre": "Torre Tavira – Cámara Oscura",
-   "claves": [
-    "torre tavira"
-   ]
-  },
-  "catedraldecadiz": {
-   "nombre": "Catedral de Cádiz",
-   "claves": [
-    "catedral de cadiz"
-   ]
-  },
-  "puppets_marionetas": {
-   "nombre": "Puppets Marionetas",
-   "claves": [
-    "puppets marionetas",
-    "puppets"
-   ]
-  },
-  "fundunicaja": {
-   "nombre": "Fundación Unicaja",
-   "claves": [
-    "fundacion unicaja",
-    "centro fundacion unicaja",
-    "calle san francisco 26"
-   ]
-  },
-  "diputaciondecadiz": {
-   "nombre": "Diputación de Cádiz",
-   "claves": [
-    "diputacion de cadiz",
-    "diputacion provincial"
-   ]
-  },
-  "cadizcf_fundacion": {
-   "nombre": "Fundación Cádiz CF",
-   "claves": [
-    "fundacion cadiz cf",
-    "fundacion del cadiz",
-    "edificio ma'?arifa"
-   ]
-  },
-  "zfcadiz": {
-   "nombre": "Zona Franca de Cádiz",
-   "claves": [
-    "zona franca",
-    "zonafranca",
-    "consorcio de la zona franca"
-   ]
-  },
-  "puertodecadiz": {
-   "nombre": "Puerto de la Bahía de Cádiz (Autoridad Portuaria)",
-   "claves": [
-    "autoridad portuaria",
-    "puerto de la bahia de cadiz",
-    "puerto de cadiz"
-   ]
-  },
-  "ifef_cadiz": {
-   "nombre": "Instituto de Fomento, Empleo y Formación (IFEF)",
-   "claves": [
-    "\\bifef\\b",
-    "instituto de fomento",
-    "martes del empleo",
-    "depositos de tabaco",
-    "antiguos depositos"
-   ]
-  },
-  "camaracadiz": {
-   "nombre": "Cámara de Comercio de Cádiz",
-   "claves": [
-    "camara de comercio de cadiz"
-   ]
-  },
-  "crisantemoteatro": {
-   "nombre": "Crisantemo Teatro",
-   "claves": [
-    "crisantemo"
-   ]
-  },
-  "adaccacadiz": {
-   "nombre": "Adacca Cádiz (daño cerebral)",
-   "claves": [
-    "adacca"
-   ]
-  },
-  "arteliseando": {
-   "nombre": "Arteliseando",
-   "claves": [
-    "arteliseando"
-   ]
-  },
-  "imdcadiz": {
-   "nombre": "IMD Cádiz (Instituto Municipal del Deporte)",
-   "claves": [
-    "instituto municipal del deporte",
-    "\\bimd\\b"
-   ]
-  },
-  "comcadiz": {
-   "nombre": "Colegio de Médicos de Cádiz",
-   "claves": [
-    "colegio de medicos de cadiz",
-    "colegio oficial de medicos"
-   ]
-  },
-  "colegioabogadoscadiz": {
-   "nombre": "Ilustre Colegio de Abogados de Cádiz",
-   "claves": [
-    "colegio de abogados de cadiz"
-   ]
-  },
-  "quorumlibros": {
-   "nombre": "Quorum Libros",
-   "claves": [
-    "quorum libros",
-    "libreria quorum"
-   ]
-  },
-  "culturacuenta": {
-   "nombre": "Agencia Andaluza de Instituciones Culturales",
-   "claves": [
-    "agencia andaluza de instituciones culturales",
-    "junta de andalucia",
-    "consejeria de cultura",
-    "centro andaluz de las letras",
-    "agenda cultural de andalucia"
-   ]
-  },
-  "culturagob": {
-   "nombre": "Ministerio de Cultura",
-   "claves": [
-    "ministerio de cultura"
-   ]
-  },
-  "ondacadiz": {
-   "nombre": "Onda Cádiz",
-   "claves": [
-    "onda cadiz"
-   ]
-  },
-  "turismoandaluz": {
-   "nombre": "Turismo Andaluz",
-   "claves": [
-    "turismo andaluz",
-    "turismo de andalucia"
-   ]
-  },
-  "unicajabanco": {
-   "nombre": "Unicaja",
-   "claves": [
-    "unicaja banco"
-   ]
-  },
-  "caixabank": {
-   "nombre": "CaixaBank",
-   "claves": [
-    "caixabank",
-    "fundacion la caixa"
-   ]
+  "descartados": {
+    "cadizturismo": "Es «Turismo provincia de Cádiz»: no es de la capital (regla 1)",
+    "cadizcultura": "Cuenta ambigua de 378 seguidores sin relación oficial confirmada",
+    "uca_universidad": "Es la Universidad Católica Argentina: NO es la UCA de Cádiz",
+    "soho": "sohoalternative.es está secuestrado y sirve spam (lista de bloqueo): no se enlaza ni etiqueta"
   }
- },
- "descartados": {
-  "cadizturismo": "Es «Turismo provincia de Cádiz»: no es de la capital (regla 1)",
-  "cadizcultura": "Cuenta ambigua de 378 seguidores sin relación oficial confirmada",
-  "uca_universidad": "Es la Universidad Católica Argentina: NO es la UCA de Cádiz",
-  "soho": "sohoalternative.es está secuestrado y sirve spam (lista de bloqueo): no se enlaza ni etiqueta"
- }
 }

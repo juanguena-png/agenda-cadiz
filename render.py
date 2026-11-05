@@ -162,7 +162,7 @@ def render_carrusel(r, eventos, tipo, fecha, salida, var):
     for i, g in enumerate(grupos, start=2):
         r.png("eventos.html", {"eventos": g, "cabecera": f"{i - 1}/{len(grupos)}", "mostrar_fecha": tipo != "diario"}, salida / f"{i:02d}.png", VIEW_FEED)
         manifiesto.append({"archivo": f"{i:02d}.png", "tipo": "eventos", "ids": [e.get("id") for e in g], "etiquetas": etiquetas.para_diapositiva(g),
-                           "alt_text": "Agenda de eventos en Cádiz, planes de hoy: " + "; ".join(f"{e['nombre']} ({e.get('hora_inicio') or 'todo el día'}, {e['lugar']})" for e in g)})
+                           "alt_text": "Agenda de eventos en Cádiz, planes de hoy: " + "; ".join(f"{e['nombre']} ({e.get('hora_inicio') or ('todo el día' if e.get('todo_el_dia') else 'consultar horario')}, {e['lugar']})" for e in g)})
     return manifiesto
 
 
