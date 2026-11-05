@@ -135,7 +135,7 @@ Si el carrusel falla, no se publican sus stories. Si falla una story, se registr
 
 ## Comentarios y mensajes (IG y FB)
 
-`interaccion.py --recoger` responde solo a las palabras clave (**PLANES** y **FINDE**; no hay MES ni EVENTO) y deja el resto en `registros/pendientes.json`. Para cada pendiente: responde (`--responder ID "texto"`) **solo si la respuesta está en las fuentes consultadas para la programación**; si no la encuentras, **no respondas** y ejecuta `--sin-respuesta ID` (email con enlace y texto). Respuestas breves, cordiales, tono de `marca.md`. Nunca información inventada. Ignora spam e insultos (sin responder ni avisar).
+`interaccion.py --recoger` responde solo a las palabras clave (**PLANES** y **FINDE**; no hay MES ni EVENTO) y deja el resto en `registros/pendientes.json`. Para cada pendiente: responde (`--responder ID "texto"`) **solo si la respuesta está en las fuentes consultadas para la programación**; si no la encuentras, **no respondas** y ejecuta `--sin-respuesta ID` (email con enlace y texto). Respuestas breves, cordiales, tono de `marca.md`. Nunca información inventada. Ignora spam e insultos (sin responder ni avisar). **Se responde a TODOS los que comentan, escriben o nos etiquetan** (decisión del titular): a cada comentario o mensaje de un usuario real, una respuesta breve, cordial y personalizada (nombra algo concreto de lo que dijo; si pregunta algo y la respuesta está en las fuentes, se contesta; si no, se agradece y se dice que se confirma). Los comentarios que son solo emojis o felicitaciones se agradecen con una respuesta corta y distinta cada vez.
 
 ## Crecimiento orgánico diario (acciones elegidas por el titular; todas con la API oficial, nada contra las normas de Meta)
 
@@ -146,6 +146,10 @@ Script: `crecimiento.py`. Cada día, en la tarea de las 22:30: `metricas.py --re
 - **Ubicación:** `publicar.py` pone siempre la ubicación «Cádiz» (lugar de Facebook Places 107993639228077, aceptado por la API) en carruseles y reels; `IG_LOCATION_ID` permite sustituirla.
 - **Experimentos A/B** (`manifiesto.json` → `experimentos`): `frase` (A pregunta / B dato), `cta` (A guardar / B compartir) y `hashtags` (5 u 8). El agente redacta el caption siguiendo esas tres variables y usa `crecimiento.py --recomendar-hashtags N` para elegir los hashtags (siempre #CádizCapital y #PlanesCádiz). Una variante se fija sola con ≥10 muestras por lado y >15 % de mejora (seguidores nuevos pesan más que el alcance).
 - No se envían mensajes a nuevos seguidores (la API no avisa de ellos); sí se responde a quien escribe (PLANES/FINDE y pendientes).
+
+## Rutina humana diaria de crecimiento (decisión del titular; NADA se automatiza en Instagram)
+
+Seguir, dar «me gusta», comentar en cuentas ajenas y dejar de seguir son acciones **siempre manuales**: las hace una persona desde el móvil. El agente solo **prepara la lista** con la API oficial y la envía por correo a las **23:30** (`rutina.py`, tarea programada «Rutina humana»): **15 cuentas para comentar** (enlace a su última publicación + comentario sugerido, escrito por el agente a partir de lo que dice esa publicación: concreto, cordial, nunca genérico ni promocional), **10 cuentas gaditanas para seguir** (probables seguidores de vuelta) y **12 cuentas seguidas hace ≥ 7 días** para revisar si nos siguen y, si no, dejar de seguirlas. Objetivo: que el número de seguidos sea siempre inferior al de seguidores (el correo lo vigila). Cada noche el agente amplía el pool de cuentas (`rutina.py --anadir`) con búsquedas web de organizadores, recintos, peñas, librerías, academias, artistas, agrupaciones de Carnaval, galerías y creadores locales, comprobando con la API que son cuentas profesionales públicas y relacionadas con Cádiz; no repite cuentas en 7 días y no guarda listas de personas, solo cuentas profesionales públicas (el repositorio es público).
 
 ## Métricas y mejora continua
 

@@ -9,12 +9,12 @@ import agenda as ag
 RESEND = "https://api.resend.com/emails"
 
 
-def enviar(asunto, cuerpo):
+def enviar(asunto, cuerpo, html=None):
     asunto = " ".join(str(asunto).split())[:150]  # Resend no admite saltos de línea en el asunto
     """Registra siempre el aviso en registros/avisos.log y lo envía por email.
     Con 'Secretos de red' la clave la inyecta el proxy: si RESEND_API_KEY no es visible, se envía igualmente sin cabecera."""
     with open(ag.RAIZ / "registros" / "avisos.log", "a", encoding="utf-8") as fh:
-        fh.write(f"{ag.ahora().isoformat(timespec='seconds')}\t{asunto}\n{cuerpo}\n---\n")
+        fh.write(f"{ag.ahora().isoformat(timespec='seconds')}\t{asunto}\n{cuerpo if not html else '(correo HTML)'}\n---\n")
     destino = ag.secreto("EMAIL_DESTINO")
     if not destino:
         print(f"[aviso sin enviar: falta EMAIL_DESTINO] {asunto}", file=sys.stderr)
@@ -26,7 +26,7 @@ def enviar(asunto, cuerpo):
     remitente = ag.secreto("EMAIL_REMITENTE") or "Planes en Cádiz <onboarding@resend.dev>"
     try:
         r = requests.post(RESEND, headers=cab, timeout=30,
-                          json={"from": remitente, "to": [destino], "subject": f"[Planes en Cádiz] {asunto}", "text": cuerpo})
+                          json={"from": remitente, "to": [destino], "subject": f"[Planes en Cádiz] {asunto}", "text": cuerpo, **({"html": html} if html else {})})
         if r.status_code >= 300:
             print(f"Resend {r.status_code}: {r.text[:300]}", file=sys.stderr)
         return r.status_code < 300
