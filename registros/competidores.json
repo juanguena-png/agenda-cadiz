@@ -1,0 +1,13 @@
+{
+ "cuentas": [
+  "gaditanisimamente",
+  "eventoscadiz",
+  "planes_cadiz_",
+  "eventos_cadiz",
+  "cadizoculto"
+ ],
+ "no_verificables_por_api": [
+  "agendacadiz"
+ ],
+ "nota": "Solo cuentas profesionales públicas (business_discovery). @agendacadiz no se puede leer por la API (cuenta personal o privada)."
+}
