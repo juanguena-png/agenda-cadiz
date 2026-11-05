@@ -9,6 +9,7 @@ Nunca scrapea Instagram ni Facebook.
   python recopilar.py --verificar                                  # solo comprueba qué URLs responden
 """
 import argparse
+import time
 from datetime import date, timedelta
 import json
 import re
@@ -312,7 +313,14 @@ def parser_cadizcf(fuente, ventana):
     with rd.Renderer() as r:
         ctx = r.browser.new_context(user_agent=UA_, locale="es-ES")
         pg = ctx.new_page()
-        pg.goto(fuente["urls"][0], wait_until="networkidle", timeout=45000)
+        for intento in range(3):  # la web del club tarda: más tiempo y espera de carga más tolerante
+            try:
+                pg.goto(fuente["urls"][0], wait_until="domcontentloaded", timeout=90000)
+                pg.wait_for_selector("a[href*='/partidos/temporada-']", timeout=60000)
+                break
+            except Exception:
+                if intento == 2:
+                    raise
         enlaces = []
         for h in pg.evaluate("Array.from(document.querySelectorAll('a')).map(a=>a.href)"):
             if "/partidos/temporada-" in h and h not in enlaces:
@@ -320,8 +328,9 @@ def parser_cadizcf(fuente, ventana):
         for h in enlaces:
             p2 = ctx.new_page()
             try:
-                if p2.goto(h, wait_until="networkidle", timeout=45000).status >= 400:
+                if p2.goto(h, wait_until="domcontentloaded", timeout=90000).status >= 400:
                     continue
+                p2.wait_for_timeout(2500)
                 html = p2.content()
                 titulo = (re.findall(r'property="og:title"[^>]*content="([^"]+)"', html) or [""])[0]
                 if not titulo.startswith("Cádiz CF vs "):
@@ -350,7 +359,12 @@ def parser_cadizcf(fuente, ventana):
 def parser_cgf(fuente, ventana):
     """Cádiz Guitar Festival (web del organizador): conciertos con fecha, hora, sala y localidad al final del campo «Location»."""
     ini, fin = ventana
-    h = requests.get(fuente["urls"][0], headers=IMG_UA, timeout=30)
+    h = None
+    for espera in (0, 4, 10, 25):  # la web limita las peticiones (429): se reintenta con pausas crecientes
+        time.sleep(espera)
+        h = requests.get(fuente["urls"][0], headers=IMG_UA, timeout=45)
+        if h.status_code not in (429, 500, 502, 503, 504):
+            break
     h.raise_for_status()
     t = limpio(h.text, 80000)
     out = []
@@ -467,20 +481,39 @@ def parser_texto(r, fuente):
 
 IMG_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept-Language": "es-ES,es;q=0.9"}
 import parsers_extra as _pe
-PARSERS_EXTRA = {"onda": _pe.parser_onda, "casaibero": _pe.parser_casaibero, "palacio": _pe.parser_palacio, "ganzua": _pe.parser_ganzua, "cajasol": _pe.parser_cajasol}
-PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto, "uca": parser_texto, "junta": parser_texto, "guia": parser_texto, "cgf": parser_texto, "cadizcf": parser_texto, "onda": parser_texto, "casaibero": parser_texto, "palacio": parser_texto, "ganzua": parser_texto, "cajasol": parser_texto}
+import parsers_locales as _pl
+PARSERS_EXTRA = {"unicaja": _pl.parser_unicaja, "ateneo": _pl.parser_ateneo, "ifef": _pl.parser_ifef, "rss": _pl.parser_rss, "onda": _pe.parser_onda, "casaibero": _pe.parser_casaibero, "palacio": _pe.parser_palacio, "ganzua": _pe.parser_ganzua, "cajasol": _pe.parser_cajasol}
+PARSERS = {"laciudad": parser_laciudad, "jsonld": parser_jsonld, "texto": parser_texto, "laciudad_indice": parser_texto, "ayto": parser_texto, "bacantix": parser_texto, "uca": parser_texto, "junta": parser_texto, "guia": parser_texto, "cgf": parser_texto, "cadizcf": parser_texto, "onda": parser_texto, "casaibero": parser_texto, "palacio": parser_texto, "ganzua": parser_texto, "cajasol": parser_texto, "unicaja": parser_texto, "ateneo": parser_texto, "ifef": parser_texto, "rss": parser_texto}
+
+
+def _fragmentos_de_urls(fuente, ventana):
+    """Lee las URL reales de la fuente (no búsquedas) y devuelve los trozos de texto que mencionan cada día de la ventana."""
+    import parsers_locales as pl
+    out = {}
+    for u in fuente.get("urls", []):
+        if not u.startswith("http") or "google.com/search" in u:
+            continue
+        try:
+            txt = limpio(descargar(u).text, 120000)
+        except Exception:
+            continue
+        for dia, frs in pl.fragmentos_ventana(txt, ventana).items():
+            out.setdefault(dia, []).extend({"url": u, "fragmento": f} for f in frs)
+    return out
 
 
 def procesar(fuente, ventana=None):
     res = {"id": fuente["id"], "nombre": fuente["nombre"], "estado": "ok", "paginas": [], "candidatos": []}
     if fuente.get("via") == "web" or fuente.get("activa") is False:
         res.update(estado="web" if fuente.get("via") == "web" else "inactiva", error=fuente.get("nota", ""))
+        if ventana and fuente.get("activa") is not False:
+            res["fragmentos"] = _fragmentos_de_urls(fuente, ventana)
         res["consulta_web"] = {"fuente": fuente["nombre"], "urls": fuente.get("urls", []), "busqueda": fuente.get("consulta", ""), "nota": fuente.get("nota", "")}
         return res
     if not fuente["urls"]:
         res.update(estado="sin_url", error=fuente.get("nota", "URL por localizar"))
         return res
-    if fuente["parser"] in ("ayto", "bacantix", "uca", "junta", "guia", "cgf", "cadizcf", "onda", "casaibero", "palacio", "ganzua", "cajasol"):
+    if fuente["parser"] in ("ayto", "bacantix", "uca", "junta", "guia", "cgf", "cadizcf", "onda", "casaibero", "palacio", "ganzua", "cajasol", "unicaja", "ateneo", "ifef", "rss"):
         try:
             cands, errores = {"ayto": parser_ayto, "bacantix": parser_bacantix, "uca": parser_uca, "junta": parser_junta, "guia": parser_guia, "cgf": parser_cgf, "cadizcf": parser_cadizcf, **PARSERS_EXTRA}[fuente["parser"]](fuente, ventana)
             for c in cands:
@@ -502,6 +535,10 @@ def procesar(fuente, ventana=None):
                 c.update(fuente_id=fuente["id"], fuente=fuente["nombre"], provincial=fuente["provincial"], tipo_fuente=fuente["tipo"])
             res["candidatos"] += cands
             res["paginas"].append({"url": r.url, "http": r.status_code, "texto": limpio(r.text) if fuente["parser"] in ("texto", "laciudad", "laciudad_indice") else None})
+            if ventana and fuente["parser"] == "texto":
+                import parsers_locales as pl
+                for dia, frs in pl.fragmentos_ventana(limpio(r.text, 120000), ventana).items():
+                    res.setdefault("fragmentos", {}).setdefault(dia, []).extend({"url": r.url, "fragmento": f} for f in frs)
         except Exception as e:  # una fuente caída no detiene el resto
             res["paginas"].append({"url": url, "error": str(e)[:200]})
     if not any("error" not in p for p in res["paginas"]):
@@ -557,9 +594,14 @@ def main():
     consultas = [r["consulta_web"] for r in resultados if r.get("consulta_web")]
     for c in consultas:  # búsquedas listas para el agente, con el mes/año de la ventana
         c["busqueda"] = c["busqueda"].replace("{mes}", ag.MESES[ini.month - 1]).replace("{año}", str(ini.year)).replace("{fecha}", f"{ini.day} de {ag.MESES[ini.month - 1]} de {ini.year}")
+    pistas = {}
+    for r_ in resultados:
+        for dia, frs in (r_.get("fragmentos") or {}).items():
+            for x in frs:
+                pistas.setdefault(dia, []).append({"fuente": r_["nombre"], "url": x["url"], "fragmento": x["fragmento"]})
     ag.guardar_json(carpeta / "candidatos.json", {"generado": ag.ahora().isoformat(timespec="seconds"), "ventana": [ini.isoformat(), fin.isoformat()],
-                                                  "candidatos": cands, "fuentes": resultados, "consultas_web": consultas,
-                                                  "instruccion": "Consulta TODAS las 'consultas_web' con WebFetch/WebSearch cada día (fuentes que bloquean a los bots o no se pueden leer con el script) y revisa el texto de las fuentes sin parser."})
+                                                  "pistas_por_dia": pistas, "candidatos": cands, "fuentes": resultados, "consultas_web": consultas,
+                                                  "instruccion": "1) Revisa `candidatos` (estructurados). 2) Lee `pistas_por_dia`: trozos de texto de las fuentes sin parser que mencionan cada día (no hace falta leer las páginas enteras). 3) Consulta las 'consultas_web' con WebFetch/WebSearch (fuentes que el script no puede leer y búsquedas de descubrimiento)."})
     with open(ag.RAIZ / "registros" / "fuentes.log", "a", encoding="utf-8") as fh:
         for f in fuentes_log:
             fh.write(f"{ag.ahora().isoformat(timespec='seconds')}\t{f['id']}\t{f['estado']}\t{f['candidatos']}\t{f['nombre']}\t{f.get('error') or ''}\n")
