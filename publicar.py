@@ -172,10 +172,18 @@ def ig_story(url):
     return ig_publicar(c)
 
 
-def ig_reel(url, caption, cover=None):
-    """cover = URL pública de la portada del reel (reel/portada.png): formato propio, distinto del resto de publicaciones."""
+def ig_reel(url, caption, cover=None, etiquetas=None):
+    """cover = URL pública de la portada del reel (reel/portada.png): formato propio, distinto del resto de publicaciones.
+    etiquetas = usuarios verificados a etiquetar (user_tags de reels: solo usernames, sin coordenadas; máx. 20)."""
     ig = ag.secreto("IG_USER_ID")
-    c = api("POST", f"{ig}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true", cover_url=cover)["id"]
+    tags = [{"username": u} for u in (etiquetas or [])[:20]] or None
+    try:
+        c = api("POST", f"{ig}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true", cover_url=cover, user_tags=tags)["id"]
+    except ErrorAPI as e:
+        if not tags:
+            raise
+        print(f"AVISO: reel sin etiquetas ({e})")  # una etiqueta rechazada no debe impedir publicar
+        c = api("POST", f"{ig}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true", cover_url=cover)["id"]
     ig_esperar(c, intentos=120, pausa=5)
     return ig_publicar(c)
 
@@ -261,7 +269,7 @@ def publicar(fecha, tipo, esperar=None):
         ag.log_estado(estado, f"{tipo}: 0 eventos verificados, no hay nada que publicar (revisar: regla 9 exige publicar todos los días)")
         ag.guardar_estado(carpeta, estado)
         notificar.enviar(f"Sin eventos verificados para publicar ({tipo} {fecha})", "Regla 9: hay que publicar todos los días. Completa eventos.json (eventos o relleno «Siempre abierto») y vuelve a lanzar render y publicar."); return print("0 eventos verificados: no hay nada que publicar (aviso enviado).")
-    if tipo in ("diario", "mensual") and not PRUEBA:
+    if tipo in ("diario", "mensual", "reel") and not PRUEBA:
         import etiquetas as et
         flojos = [(ev, tags, pr) for ev, tags, pr in et.auditar(validos, fecha) if pr]
         if flojos:  # no bloquea la publicación (regla 9), pero avisa: hay que completar etiquetas
@@ -353,8 +361,10 @@ def construir_plan(carpeta, tipo, man, eventos, fecha):
                          "ig": lambda urls: ig_story(urls[0]), "fb": lambda urls: fb_story(urls[0])})
     if tipo == "reel":
         v = carpeta / "reel" / "reel.mp4"
+        import etiquetas as et
+        tags = et.para_diapositiva(eventos)  # todos los perfiles de los eventos del reel (máx. 20)
         cap = (carpeta / "caption.txt").read_text(encoding="utf-8") if (carpeta / "caption.txt").exists() else ag.salir("Falta caption.txt")
-        plan.append({"clave": "reel", "archivos": [v, carpeta / "reel" / "portada.png"], "ig": lambda urls: ig_reel(urls[0], cap, urls[1]), "fb": lambda urls: fb_reel(urls[0], cap)})
+        plan.append({"clave": "reel", "archivos": [v, carpeta / "reel" / "portada.png"], "ig": lambda urls, tags=tags: ig_reel(urls[0], cap, urls[1], tags), "fb": lambda urls: fb_reel(urls[0], cap)})
     return plan
 
 
