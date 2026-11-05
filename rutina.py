@@ -141,7 +141,7 @@ def _boton(url, txt, color="#0a66c2"):
     return f'<a href="{H.escape(url)}" style="display:inline-block;background:{color};color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px">{H.escape(txt)}</a>'
 
 
-PAGINA_COPIAR = "https://raw.githack.com/juanguena-png/agenda-cadiz/main/web/copiar.html"
+PAGINA_COPIAR = "https://juanguena-png.github.io/agenda-cadiz/copiar.html"  # GitHub Pages (carpeta /docs de main)
 
 
 def _enlace_copiar(publicacion, comentario):
