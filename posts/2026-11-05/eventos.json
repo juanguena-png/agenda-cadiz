@@ -1,134 +1,289 @@
 {
-  "fecha": "2026-11-05",
-  "tipo": "diario",
-  "eventos": [
+ "fecha": "2026-11-05",
+ "tipo": "diario",
+ "eventos": [
+  {
+   "id": "ateneo-sabana-santa",
+   "nombre": "Conferencia «Los secretos de la Sábana Santa» y novela «La Huella Sagrada»",
+   "categoria": "otros",
+   "fecha": "2026-11-05",
+   "hora_inicio": "19:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Ateneo de Cádiz",
+   "direccion": "Calle Ancha 20, 1.º, Cádiz",
+   "precio": "Gratis",
+   "publico": "Todos los públicos",
+   "descripcion": "El ingeniero y divulgador Pedro San José habla sobre la Sábana Santa y presenta su novela «La Huella Sagrada» en el Ateneo.",
+   "info": "Entrada libre hasta completar aforo",
+   "imagen": {
+    "archivo": "img/ateneo-tertulia-infancia.jpg",
+    "url_origen": "https://ateneocadiz.es/wp-content/uploads/2024/10/P1010164-1024x768-1.jpg",
+    "fuente": "Ateneo de Cádiz",
+    "pagina": "https://ateneocadiz.es/noviembre-de-2026/",
+    "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial",
+    "tipo_imagen": "oficial",
+    "ancho": 1024,
+    "alto": 768,
+    "ajuste": "contain"
+   },
+   "fuentes": [
     {
-      "id": "ateneo-sabana-santa",
-      "nombre": "Conferencia «Los secretos de la Sábana Santa» y novela «La Huella Sagrada»",
-      "categoria": "otros",
-      "fecha": "2026-11-05",
-      "hora_inicio": "19:00",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Ateneo de Cádiz",
-      "direccion": "Calle Ancha 20, 1.º, Cádiz",
-      "precio": "Gratis",
-      "publico": "Todos los públicos",
-      "descripcion": "El ingeniero y divulgador Pedro San José habla sobre la Sábana Santa y presenta su novela «La Huella Sagrada» en el Ateneo.",
-      "info": "Entrada libre hasta completar aforo",
-      "imagen": {
-        "archivo": "img/ateneo-tertulia-infancia.jpg",
-        "url_origen": "https://ateneocadiz.es/wp-content/uploads/2024/10/P1010164-1024x768-1.jpg",
-        "fuente": "Ateneo de Cádiz",
-        "pagina": "https://ateneocadiz.es/noviembre-de-2026/",
-        "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial",
-        "tipo_imagen": "oficial",
-        "ancho": 1024,
-        "alto": 768,
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Ateneo de Cádiz",
-          "url": "https://ateneocadiz.es/noviembre-de-2026/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Sede del Ateneo, calle Ancha 20, 1.º, Cádiz",
-        "url": "https://ateneocadiz.es/noviembre-de-2026/"
-      },
-      "etiquetas_ig": [
-        "@ateneocadiz"
-      ]
-    },
-    {
-      "id": "cadiz-canta-beltran",
-      "nombre": "Cádiz Canta · Lucía Beltrán",
-      "categoria": "música",
-      "fecha": "2026-11-05",
-      "hora_inicio": "20:00",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Fundación Cajasol (Casa Pemán)",
-      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "10 €",
-      "publico": "Todos los públicos",
-      "descripcion": "Segundo recital íntimo de cante del ciclo «Cádiz Canta», con Lucía Beltrán en la sede gaditana de la Fundación Cajasol.",
-      "info": "Entradas online y en la taquilla de Cajasol Cádiz",
-      "imagen": {
-        "archivo": "img/lucia-beltran.jpg",
-        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-II-CADIZ-CANTA_1920x1080-1.jpg",
-        "fuente": "Fundación Cajasol",
-        "pagina": "https://fundacioncajasol.com/evento/lucia-beltran/",
-        "alt_text": "Cartel oficial del ciclo Cádiz Canta en la Fundación Cajasol",
-        "tipo_imagen": "oficial",
-        "ancho": 1600,
-        "alto": 900,
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
-          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-canta"
-        },
-        {
-          "nombre": "Fundación Cajasol",
-          "url": "https://fundacioncajasol.com/eventos/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Fundación Cajasol, Plaza San Antonio, 14, Cádiz",
-        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-canta"
-      },
-      "etiquetas_ig": [
-        "@fundacioncajasol"
-      ]
-    },
-    {
-      "id": "noche-psicologia",
-      "nombre": "La Noche de la Psicología",
-      "categoria": "otros",
-      "fecha": "2026-11-05",
-      "hora_inicio": null,
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Palacio de Congresos de Cádiz",
-      "direccion": "Plaza Sevilla s/n, 11006 Cádiz",
-      "precio": "Consultar",
-      "publico": "Todos los públicos",
-      "descripcion": "Acto institucional del Colegio de Psicología de Andalucía Occidental en Cádiz, con la actuación de la comparsa «DSAS3», ganadora del premio Psicología y Carnaval.",
-      "info": "Consultar horario y acceso con el Colegio de Psicología o el Palacio de Congresos (956 29 10 17)",
-      "imagen": {
-        "archivo": "img/noche-psicologia.jpg",
-        "url_origen": "https://palaciocongresos-cadiz.com/wp-content/uploads/2026/04/proximos-eventos-header.png",
-        "fuente": "palaciocongresos-cadiz.com",
-        "pagina": "https://palaciocongresos-cadiz.com/eventos/",
-        "ancho": 531,
-        "alto": 255,
-        "alt_text": "Imagen de La Noche de la Psicología",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Palacio de Congresos de Cádiz",
-          "url": "https://palaciocongresos-cadiz.com/eventos/"
-        },
-        {
-          "nombre": "Infocop",
-          "url": "https://www.infocop.es/?p=70893"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Palacio de Congresos y Exposiciones de Cádiz, Plaza Sevilla s/n, 11006 Cádiz (programación del recinto)",
-        "url": "https://palaciocongresos-cadiz.com/eventos/"
-      },
-      "etiquetas_ig": [
-        "@palaciocongresoscadiz"
-      ]
+     "nombre": "Ateneo de Cádiz",
+     "url": "https://ateneocadiz.es/noviembre-de-2026/"
     }
-  ]
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Sede del Ateneo, calle Ancha 20, 1.º, Cádiz",
+    "url": "https://ateneocadiz.es/noviembre-de-2026/"
+   },
+   "etiquetas_ig": [
+    "@ateneocadiz"
+   ]
+  },
+  {
+   "id": "cadiz-canta-beltran",
+   "nombre": "Cádiz Canta · Lucía Beltrán",
+   "categoria": "música",
+   "fecha": "2026-11-05",
+   "hora_inicio": "20:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Fundación Cajasol (Casa Pemán)",
+   "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+   "precio": "10 €",
+   "publico": "Todos los públicos",
+   "descripcion": "Segundo recital íntimo de cante del ciclo «Cádiz Canta», con Lucía Beltrán en la sede gaditana de la Fundación Cajasol.",
+   "info": "Entradas online y en la taquilla de Cajasol Cádiz",
+   "imagen": {
+    "archivo": "img/lucia-beltran.jpg",
+    "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-II-CADIZ-CANTA_1920x1080-1.jpg",
+    "fuente": "Fundación Cajasol",
+    "pagina": "https://fundacioncajasol.com/evento/lucia-beltran/",
+    "alt_text": "Cartel oficial del ciclo Cádiz Canta en la Fundación Cajasol",
+    "tipo_imagen": "oficial",
+    "ancho": 1600,
+    "alto": 900,
+    "ajuste": "contain"
+   },
+   "fuentes": [
+    {
+     "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+     "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-canta"
+    },
+    {
+     "nombre": "Fundación Cajasol",
+     "url": "https://fundacioncajasol.com/eventos/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Fundación Cajasol, Plaza San Antonio, 14, Cádiz",
+    "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-canta"
+   },
+   "etiquetas_ig": [
+    "@fundacioncajasol"
+   ]
+  },
+  {
+   "id": "noche-psicologia",
+   "nombre": "La Noche de la Psicología",
+   "categoria": "otros",
+   "fecha": "2026-11-05",
+   "hora_inicio": null,
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Palacio de Congresos de Cádiz",
+   "direccion": "Plaza Sevilla s/n, 11006 Cádiz",
+   "precio": "Consultar",
+   "publico": "Todos los públicos",
+   "descripcion": "Acto institucional del Colegio de Psicología de Andalucía Occidental en Cádiz, con la actuación de la comparsa «DSAS3», ganadora del premio Psicología y Carnaval.",
+   "info": "Consultar horario y acceso con el Colegio de Psicología o el Palacio de Congresos (956 29 10 17)",
+   "imagen": {
+    "archivo": "img/noche-psicologia.jpg",
+    "url_origen": "https://palaciocongresos-cadiz.com/wp-content/uploads/2026/04/proximos-eventos-header.png",
+    "fuente": "palaciocongresos-cadiz.com",
+    "pagina": "https://palaciocongresos-cadiz.com/eventos/",
+    "ancho": 531,
+    "alto": 255,
+    "alt_text": "Imagen de La Noche de la Psicología",
+    "tipo_imagen": "oficial",
+    "ajuste": "contain"
+   },
+   "fuentes": [
+    {
+     "nombre": "Palacio de Congresos de Cádiz",
+     "url": "https://palaciocongresos-cadiz.com/eventos/"
+    },
+    {
+     "nombre": "Infocop",
+     "url": "https://www.infocop.es/?p=70893"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Palacio de Congresos y Exposiciones de Cádiz, Plaza Sevilla s/n, 11006 Cádiz (programación del recinto)",
+    "url": "https://palaciocongresos-cadiz.com/eventos/"
+   },
+   "etiquetas_ig": [
+    "@palaciocongresoscadiz"
+   ]
+  }
+ ],
+ "noche_manana": [
+  {
+   "id": "lolo-pastrana",
+   "nombre": "Lolo Pastrana · Noches en Cajasol",
+   "categoria": "música",
+   "fecha": "2026-11-06",
+   "hora_inicio": "20:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Fundación Cajasol (Casa Pemán)",
+   "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+   "precio": "Consultar",
+   "publico": "Todos los públicos",
+   "descripcion": "Concierto de Lolo Pastrana dentro del ciclo «Noches en Cajasol», en la sede gaditana de la fundación.",
+   "info": "Entradas online en la web de Cajasol y en la taquilla de Cádiz",
+   "imagen": {
+    "archivo": "img/lolo-pastrana.jpg",
+    "url_origen": "https://fundacioncajasol.com/wp-content/uploads/16-OCT-LOLO-PASTRATNA-1080x1080-2.jpg",
+    "fuente": "Fundación Cajasol",
+    "pagina": "https://fundacioncajasol.com/evento/lolo-pastrana/",
+    "alt_text": "Cartel oficial del concierto de Lolo Pastrana en Cajasol",
+    "tipo_imagen": "oficial",
+    "ancho": 1081,
+    "alto": 1081,
+    "ajuste": "cover"
+   },
+   "fuentes": [
+    {
+     "nombre": "Fundación Cajasol",
+     "url": "https://fundacioncajasol.com/evento/lolo-pastrana/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+    "url": "https://fundacioncajasol.com/evento/lolo-pastrana/"
+   },
+   "etiquetas_ig": [
+    "@fundacioncajasol"
+   ],
+   "importancia": 8
+  },
+  {
+   "id": "bichitos",
+   "nombre": "Bichitos · Spasmos Teatro",
+   "categoria": "infantil",
+   "fecha": "2026-11-06",
+   "hora_inicio": "18:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Teatro del Títere La Tía Norica",
+   "direccion": "Calle San Miguel, 5, Cádiz",
+   "precio": "Consultar",
+   "publico": "Infantil",
+   "descripcion": "Teatro gestual familiar (+4 años) que mira de cerca a los pequeños bichos del mundo. Dura una hora.",
+   "info": "Familiar +4 años · entradas en bacantix.com",
+   "imagen": {
+    "archivo": "img/evento-bichitos-c2-b7-spasmos-teatro.jpg",
+    "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-09/ChatGPT_Image_23_sept_2026%2C_10_30_37.png",
+    "fuente": "Ayuntamiento de Cádiz",
+    "pagina": "https://institucional.cadiz.es/evento/bichitos-%C2%B7-spasmos-teatro",
+    "ancho": 1600,
+    "alto": 900,
+    "alt_text": "Cartel de Bichitos, de Spasmos Teatro",
+    "tipo_imagen": "oficial",
+    "ajuste": "contain"
+   },
+   "fuentes": [
+    {
+     "nombre": "Ayuntamiento de Cádiz",
+     "url": "https://institucional.cadiz.es/evento/bichitos-%C2%B7-spasmos-teatro"
+    },
+    {
+     "nombre": "Onda Cádiz",
+     "url": "https://ondacadiz.es/agenda/2026-11/bichitos-spasmos-teatro"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Teatro del Títere de la Tía Norica (Calle San Miguel, número 5, Cádiz)",
+    "url": "https://institucional.cadiz.es/evento/bichitos-%C2%B7-spasmos-teatro"
+   },
+   "etiquetas_ig": [
+    "@tianorica"
+   ],
+   "importancia": 6
+  },
+  {
+   "id": "neurociencia-acropolis",
+   "nombre": "Conferencia «Neurociencia y Conciencia: el cerebro que nos piensa»",
+   "categoria": "otros",
+   "fecha": "2026-11-06",
+   "hora_inicio": "20:00",
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Nueva Acrópolis Cádiz",
+   "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+   "precio": "Gratis",
+   "publico": "Todos los públicos",
+   "descripcion": "El doctor Jesús Lorente Campos ofrece una charla sobre neurociencia y conciencia en la escuela de filosofía Nueva Acrópolis.",
+   "info": "Entrada libre hasta completar aforo",
+   "imagen": {
+    "archivo": "img/neurociencia-acropolis.jpg",
+    "url_origen": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379",
+    "fuente": "Eventbrite",
+    "alt_text": "Cartel de la conferencia Neurociencia y Conciencia en Nueva Acrópolis Cádiz",
+    "tipo_imagen": "cualquiera",
+    "ajuste": "contain"
+   },
+   "fuentes": [
+    {
+     "nombre": "Eventbrite (organizador: Nueva Acrópolis Cádiz)",
+     "url": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004 Cádiz",
+    "url": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379"
+   },
+   "etiquetas_ig": [
+    "@nuevaacropolis.cadiz"
+   ],
+   "importancia": 5
+  },
+  {
+   "id": "gaditanoir-2026-agatha",
+   "nombre": "Gaditanoir · Jornada Agatha Christie",
+   "categoria": "otros",
+   "fecha": "2026-11-06",
+   "hora_inicio": null,
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "lugar": "Casa de Iberoamérica",
+   "direccion": "Casa de Iberoamérica, Cádiz",
+   "precio": "Consultar",
+   "publico": "Todos los públicos",
+   "descripcion": "Cuarta jornada del festival de novela negra, dedicada a Agatha Christie en el 50 aniversario de su muerte, con charla de Óscar Lobato y encuentros con autores.",
+   "info": "Consultar horario del programa",
+   "imagen": {},
+   "importancia": 10,
+   "fuentes": [
+    {
+     "nombre": "Onda Cádiz",
+     "url": "https://ondacadiz.es/noticias/2026-11/gaditanoir-reune-en-cadiz-escritores-y-expertos-en-novela-negra-del-5-al-8-de"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Viernes 6 de noviembre, Casa de Iberoamérica (Cádiz), jornada Agatha Christie",
+    "url": "https://ondacadiz.es/noticias/2026-11/gaditanoir-reune-en-cadiz-escritores-y-expertos-en-novela-negra-del-5-al-8-de"
+   },
+   "etiquetas_ig": []
+  }
+ ]
 }

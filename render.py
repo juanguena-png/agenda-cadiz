@@ -207,10 +207,10 @@ def render_noche(r, eventos, fecha, salida, titulo="Esta noche en", filtrar=True
 
 
 def _importantes(manana, k):
-    """Los k eventos más importantes de mañana: respeta `importancia` (mayor = más) y, si no la hay, el orden en que el agente los puso en
-    noche_manana; los rellenos «Siempre abierto» y los eventos sin hora solo entran si no hay otros."""
+    """Los k eventos más importantes de mañana: respeta `importancia` (mayor = más) y, si no la hay, los de hora fija van antes que los sin hora y luego el orden en que el agente los puso
+    en noche_manana; los rellenos «Siempre abierto» solo entran si no hay otros."""
     cand = list(enumerate(manana))
-    cand.sort(key=lambda t: (bool(t[1].get("etiqueta")), not t[1].get("hora_inicio"), -(t[1].get("importancia") or 0), t[0]))
+    cand.sort(key=lambda t: (bool(t[1].get("etiqueta")), -(t[1].get("importancia") or 0), not t[1].get("hora_inicio"), t[0]))
     return ag.ordenar([e for _, e in cand[:k]])
 
 
