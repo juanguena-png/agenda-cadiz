@@ -1,9 +1,28 @@
 {
-  "generado": "2026-11-05T17:23:55+01:00",
+  "generado": "2026-11-05T19:11:04+01:00",
   "ventana": [
     "2026-11-06",
     "2026-11-06"
   ],
+  "pistas_por_dia": {
+    "2026-11-06": [
+      {
+        "fuente": "Taquilla.com – salas de Cádiz (Momart…)",
+        "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003",
+        "fragmento": "o la gran fiesta nocturna del Carnaval de Cádiz . Fotos de Momart Videos destacados Momart Theatre Cargando... Del 06-11-2026 al 12-12-2026 Conciertos Antílopez Desde 22,00€ +INFO Del 28-11-2026 al 15-05-2027 Conciertos Barón Rojo Desde 29,00€ +INFO Cádiz, Málaga Del 07-11-2026 al 26-02-2027 Entradas El Capullo de Jerez Desde 15,00€ +INFO Del 06-11"
+      },
+      {
+        "fuente": "Taquilla.com – salas de Cádiz (Momart…)",
+        "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003",
+        "fragmento": "Desde 29,00€ +INFO Cádiz, Málaga Del 07-11-2026 al 26-02-2027 Entradas El Capullo de Jerez Desde 15,00€ +INFO Del 06-11-2026 al 29-05-2027 Conciertos Mescalina - Banda Tributo Desde 17,50€ +INFO Cádiz El 27-11-2026 Conciertos Toma Castaña Desde 15,00€ +INFO Del 08-11-2026 al 19-12-2026 Entradas Triana En Concierto Desde 22,05€ +INFO Capullo de Jer"
+      },
+      {
+        "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
+        "url": "https://institucional.cadiz.es/programacion_cultural",
+        "fragmento": "e el Date E.g., 05/11/2026 Hasta el Hasta el Date E.g., 05/11/2026 Bichitos · Spasmos Teatro - ( Humor ) Hasta el: 06/11/2026 Horario: 18:00 h. Diexo - Presentación Del Disco &Quot;Sin Plan B&Quot; - ( Conciertos ) Hasta el: 07/11/2026 Horario: Apertura puertas - 20:30 / Hora de inicio - 21:00 Vicente Amigo: Andenes Del Tiempo - ( Conciertos ) Hast"
+      }
+    ]
+  },
   "candidatos": [
     {
       "nombre": "Bichitos · Spasmos Teatro",
@@ -1297,13 +1316,32 @@
       "imagen_oficial": null
     },
     {
+      "nombre": "Conferencia: 'Neurociencia y Conciencia. El cerebro que nos piensa'",
+      "fecha": "2026-11-06",
+      "hora_inicio": null,
+      "url": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379",
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "calle san Pedro nº1, 11004, Cádiz",
+      "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197064213%2F221612058906%2F1%2Foriginal.20261102-093606?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=24648774477286f036523491837ee7b0",
+      "descripcion_fuente": "",
+      "pista_capital": true,
+      "multidia": false,
+      "permanente": false,
+      "fuente_id": 20,
+      "fuente": "Eventbrite – Cádiz",
+      "provincial": true,
+      "tipo_fuente": "agregador",
+      "detalle_texto": "Conferencia: 'Neurociencia y Conciencia. El cerebro que nos piensa' Tickets, Friday, November 6 • 8 PM - 9 PM | Eventbrite Share this event Conferencia: 'Neurociencia y Conciencia. El cerebro que nos piensa' By Nueva Acrópolis Cádiz Follow Nueva Acrópolis Cádiz Cádiz Friday, November 6 • 8 PM - 9 PM Overview Conferencia sobre neurociencia y conciencia, impartida por el Dr. Jesús Lorente Campos, bajo el título \"El cerebro que nos piensa\". Desde NUEVA ACRÓPOLIS CÁDIZ, como Escuela de Filosofía que promueve la Cultura y practica el Voluntariado, afrontamos un mes de noviembre en torno a la celebración del DÍA MUNDIAL DE LA FILOSOFÍA , donde ofreceremos una multitud de ACTIVIDADES a realizarse en nuestra sede. El Día Mundial de la Filosofía es una jornada que se celebra cada tercer jueves de noviembre desde 2006, siendo proclamado por la UNESCO en 2005. Este año 2026 corresponde al jueves 19 de noviembre. Una de estas actividades es la conferencia sobre neurociencia y conciencia, impartida por el Dr. Jesús Lorente Campos, bajo el título \"El cerebro que nos piensa\", a la que os animamos a asistir y os agradecemos su difusión. Entrada libre hasta completar aforo. Read more Good to know Highlights 1 hour In person Doors at 6:30 PM Highlights 1 hour In person Doors at 6:30 PM Location Nueva Acrópolis Cádiz calle san Pedro nº1 11004 Cádiz How do you want to get there? Driving Public transport Biking Walking Show map Organized by Nueva Acrópolis Cádiz Contact Follow Report this event More events from Nueva Acrópolis Cádiz Discover more events from Nueva Acrópolis Cádiz, from Science & Tech to other experiences you might love. You might also like... Browse more events with different dates, prices, and formats to find your next great experience. Still looking for the right event? Explore all events in Cádiz and filter by date, category, and more to find the perfect fit. Spain Events Cádiz Events Things to do in Cádiz Cádiz conferences Cádiz Science & Tech conferences Get tickets",
+      "imagen_oficial": null
+    },
+    {
       "nombre": "Afro Friday Nights",
       "fecha": "2026-11-06",
       "hora_inicio": null,
       "url": "https://www.eventbrite.com/e/entradas-afro-friday-nights-2003423050274",
       "lugar": "Mango Copas",
       "direccion": "Calle Jose Demaria 1, 11405, jerez",
-      "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195802523%2F3017144245336%2F1%2Foriginal.20261014-180805?crop=focalpoint&fit=crop&w=398&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.44&s=d7880bf154bc0a8abbea82238274a8cd",
+      "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195802523%2F3017144245336%2F1%2Foriginal.20261014-180805?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.44&s=481f85589114a66eaa18ac0df15355c5",
       "descripcion_fuente": "",
       "pista_capital": false,
       "multidia": false,
@@ -1341,7 +1379,7 @@
       "url": "https://www.eventbrite.com/e/entradas-afro-friday-nights-2003423050274",
       "lugar": "Mango Copas",
       "direccion": "Calle Jose Demaria 1, 11405, jerez",
-      "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195802523%2F3017144245336%2F1%2Foriginal.20261014-180805?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.44&s=481f85589114a66eaa18ac0df15355c5",
+      "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195802523%2F3017144245336%2F1%2Foriginal.20261014-180805?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.44&s=b1a23746075c491e3edc9ed8e7dd27df",
       "descripcion_fuente": "!!Prepárate para una noche inolvidable!! Afrobeats,Amapiano y Dancehall el 6 de Noviembre !!Siente el ritmo y vive la experiencia!!",
       "pista_capital": false,
       "multidia": false,
@@ -1379,7 +1417,7 @@
       "url": "https://www.eventbrite.com/e/mezkla-en-melia-sevilla-una-cena-dedicada-al-atun-rojo-tickets-2001538353094",
       "lugar": "Quimera",
       "direccion": "1 Calle Doctor Pedro de Castro, 41004, Sevilla",
-      "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193827779%2F2917306353141%2F1%2Foriginal.20260918-105802?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.089&fp-y=0.522&s=f5ce25a45400fba23132bb3970cab7e8",
+      "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193827779%2F2917306353141%2F1%2Foriginal.20260918-105802?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.089&fp-y=0.522&s=cbf9cde4a5327e624f4b43918838ca24",
       "descripcion_fuente": "Una experiencia gastronómica de seis pases donde el atún rojo de almadraba y el producto de Gadira son los grandes protagonistas.",
       "pista_capital": false,
       "multidia": false,
@@ -1447,6 +1485,150 @@
       "tipo_fuente": "agregador",
       "detalle_texto": "Afro Friday Nights Entradas, viernes, 6 de noviembre-sábado, 7 de noviembre • 0:00-7:00 | Eventbrite Comparte este evento Afro Friday Nights A Por Alfa Soul Seguir Mango Copas jerez, cadiz viernes, 6 de noviembre-sábado, 7 de noviembre • 0:00-7:00 Resumen !!Prepárate para una noche inolvidable!! Afrobeats,Amapiano y Dancehall el 6 de Noviembre !!Siente el ritmo y vive la experiencia!! Bueno saberlo Aspectos destacados 1 día 7 horas En persona Política de reembolso No hay reembolsos Aspectos destacados 1 día 7 horas En persona Política de reembolso No hay reembolsos Ubicación Mango Copas Calle Jose Demaria 1 11405 jerez ¿Cómo quieres llegar allí? Conducción Transporte público Ciclismo Caminar Mostrar mapa Organizado por A Alfa Soul Contacto Seguir Informa de este evento Más eventos de Alfa Soul Descubre más eventos de Alfa Soul, desde Música hasta otras experiencias que te encantarán. También te podría gustar... Descubre más eventos con distintas fechas, precios y formatos para encontrar tu próxima gran experiencia. ¿Sigues buscando el evento perfecto? Explora todos los eventos en jerez y filtra por fecha, categoría y más para encontrar el plan perfecto. Eventos en Spain Eventos en Cádiz Cosas que hacer en Jerez de la Frontera Jerez de la Frontera fiestas Jerez de la Frontera Música fiestas Conseguir entradas",
       "imagen_oficial": null
+    },
+    {
+      "nombre": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://www.diariodecadiz.es/cadiz/arte-flamenco-juan-medina-llega-fundacion-unicaja-cadiz_0_2008429411.html",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "noticia de prensa (pista)",
+      "hora_inicio": "19:30",
+      "pista_prensa": true,
+      "descripcion_fuente": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz. El guitarrista gaditano ofrece este viernes 6 de noviembre, a las 19:30 horas, un recital de guitarra con entrada libre hasta completar aforo Programación de otoño la Fundación Unicaja de Cádiz",
+      "publicado": "2026-11-05",
+      "pista_capital": false,
+      "fuente_id": 22,
+      "fuente": "Diario de Cádiz – agenda",
+      "provincial": true,
+      "tipo_fuente": "prensa",
+      "detalle_texto": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz Televisión La TDT cambia este 5 de noviembre: qué canales hay que resintonizar y cuándo hacerlo El guitarrista Juan Medina. El guitarrista y compositor gaditano Juan Medina protagonizará un recital de flamenco el próximo viernes 6 de noviembre, a las 19:30 horas con entrada libre hasta completar aforo, en el Centro Fundación Unicaja Cádiz. En esta cita presentará su trabajo discográfico ‘Fugaz’ (2025), una propuesta que explora las posibilidades de la guitarra flamenca a través de composiciones propias y de la fusión con otros estilos como el jazz, el neosoul y las músicas de raíz. Juan Medina, a la guitarra, estará acompañado de su banda de flamenco y jazz, integrada por Alba Molina al cante, Óscar Manzano a la guitarra acompañante y Poti Trujillo a la percusión. Juntos darán forma a un recital que combina la raíz flamenca con nuevas sonoridades y refleja la personalidad musical del guitarrista. El guitarrista Juan Medina, artísticamente conocido durante años como Juanito Makandé , es un destacado guitarrista y compositor español, reconocido por su enfoque innovador dentro del género flamenco. Desde temprana edad, el músico se sumergió en el mundo de la guitarra de forma autodidacta, absorbiendo conocimientos de maestros como Rycardo Moreno y otros guitarristas locales e internacionales. Entre sus proyectos destacados se encuentra el lanzamiento de un EP titulado ‘Septiembre’, en el cual fusiona la guitarra con el piano en cuatro temas, tres de ellos composiciones originales y uno en colaboración con la talentosa Alba Molina. Actualmente, Juan Medina se encuentra inmerso en la preparación de su primer disco como solista, prometiendo una obra que refleje su pasión por la música y su innovador enfoque en la fusión de estilos, con una predilección por el flamenco y el jazz. Esta actuación se enmarca en el ciclo de artes escénicas del Centro Fundación Unicaja Cádiz. Tras el concierto de Juan Medina, la programación continúa el 10 de diciembre a las 19:30 horas con un recital de piano de Chico Pérez. El músico y compositor es uno de los pianistas y compositores más reconocidos en nuestro país. Con un estilo único y versátil, ha pisado los escenarios más importantes del continente y ha llevado su música por los festivales de flamenco y jazz de mayor prestigio en nuestro país. Temas relacionados Últimas noticias Cádiz Vox Cádiz pide aparcamiento libre en la tapia del cementerio en horario labo",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Melendi estará el 13 de agosto en Concert Music Festival",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://www.diariodecadiz.es/chiclana/melendi-estara-13-agosto-concert_0_2008429058.html",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "noticia de prensa (pista)",
+      "hora_inicio": null,
+      "pista_prensa": true,
+      "descripcion_fuente": "Music Festival. El artista asturiano presentará en directo ‘Pop Rock’ Las entradas podrán adquirirse a partir del viernes 6 de noviembre Camilo volverá a Concert Music Festival en Chiclana con su nueva gira de 2027",
+      "publicado": "2026-11-05",
+      "pista_capital": false,
+      "fuente_id": 22,
+      "fuente": "Diario de Cádiz – agenda",
+      "provincial": true,
+      "tipo_fuente": "prensa",
+      "detalle_texto": "Melendi estará el 13 de agosto en Concert Music Festival Televisión La TDT cambia este 5 de noviembre: qué canales hay que resintonizar y cuándo hacerlo El cantante participará en esta décima edición del festival. Concert Music Festival ha anunciado a Melendi como nueva confirmación de la décima edición, que se celebrará durante los meses de julio y agosto de 2027 en el poblado marinero de Sancti Petri. El artista asturiano estará el próximo 13 de agosto presentando en directo ‘Pop Rock’, su último álbum de estudio, con el que recupera el sonido más rockero y desenfadado que ya forma parte de su ADN. Las guitarras vuelven a cobrar protagonismo en un trabajo que reúne canciones como ‘No Me Des Más La Tabarra’, ‘Mentiras Arriesgadas’ y ‘Veneno y Arena’, manteniendo la energía, las letras directas y la personalidad vocal que han definido su trayectoria. Desde su debut en 2003 con ‘Sin noticias de Holanda’, que alcanzó cuatro discos de platino, Melendi ha construido una carrera que suma más de 3,5 millones de ejemplares vendidos y 24 discos de platino en España. Entre sus hitos destacan su nominación a los Latin GRAMMY en 2017 por ‘Desde que estamos juntos’ y el éxito de ‘20 años sin noticias’, el proyecto con el que celebró sus dos décadas de trayectoria y que superó las 150.000 entradas vendidas, con 14 de sus 16 conciertos agotados. Melendi se suma así al cartel de esta X edición de Concert Music Festival, en el que se han confirmado hasta ahora dos fechas de David Bisbal (24 y 25 de julio), Camilo(17 de julio) y La Oreja de Van Gogh(10 de agosto). Las entradas para el concierto de Melendi estarán disponibles mañana viernes 6 de noviembre a partir de las 10.00 horas en Ticketmaster. Melendi estará el 13 de agosto en Concert Music Festival Chiclana plantea la implantación de una tasa turística en temporada alta El juez Miguel Pasquau presenta el sábado en el Museo de Chiclana ‘El oficio de decidir’ La Cámara de Cuentas revisará el remanente de tesorería del Ayuntamiento de Chiclana El Portu se despide del Poli Moreno reclama al Gobierno que financie el medicamento para tratar la piel de mariposa Adelante vuelve a criticar la política de aparcamientos de Bruno García en Cádiz Así será el homenaje a Jesús de Miguel en el partido Cádiz CF - Oviedo El Cádiz CF se hunde aún más en la clasificación tras una decisión de Competición Una profunda borrasca llega a Cádiz: Aemet avisa de las zonas con más lluvia Así ha hundido la Armada al antiguo patrullero 'Infanta El",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://www.diariodecadiz.es/cadiz/arte-flamenco-juan-medina-llega-fundacion-unicaja-cadiz_0_2008429411.html",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "noticia de prensa (pista)",
+      "hora_inicio": "19:30",
+      "pista_prensa": true,
+      "descripcion_fuente": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz. El guitarrista gaditano ofrece este viernes 6 de noviembre, a las 19:30 horas, un recital de guitarra con entrada libre hasta completar aforo Programación de otoño la Fundación Unicaja de Cádiz",
+      "publicado": "2026-11-05",
+      "pista_capital": false,
+      "fuente_id": 22,
+      "fuente": "Diario de Cádiz – agenda",
+      "provincial": true,
+      "tipo_fuente": "prensa",
+      "detalle_texto": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz Televisión La TDT cambia este 5 de noviembre: qué canales hay que resintonizar y cuándo hacerlo El guitarrista Juan Medina. El guitarrista y compositor gaditano Juan Medina protagonizará un recital de flamenco el próximo viernes 6 de noviembre, a las 19:30 horas con entrada libre hasta completar aforo, en el Centro Fundación Unicaja Cádiz. En esta cita presentará su trabajo discográfico ‘Fugaz’ (2025), una propuesta que explora las posibilidades de la guitarra flamenca a través de composiciones propias y de la fusión con otros estilos como el jazz, el neosoul y las músicas de raíz. Juan Medina, a la guitarra, estará acompañado de su banda de flamenco y jazz, integrada por Alba Molina al cante, Óscar Manzano a la guitarra acompañante y Poti Trujillo a la percusión. Juntos darán forma a un recital que combina la raíz flamenca con nuevas sonoridades y refleja la personalidad musical del guitarrista. El guitarrista Juan Medina, artísticamente conocido durante años como Juanito Makandé , es un destacado guitarrista y compositor español, reconocido por su enfoque innovador dentro del género flamenco. Desde temprana edad, el músico se sumergió en el mundo de la guitarra de forma autodidacta, absorbiendo conocimientos de maestros como Rycardo Moreno y otros guitarristas locales e internacionales. Entre sus proyectos destacados se encuentra el lanzamiento de un EP titulado ‘Septiembre’, en el cual fusiona la guitarra con el piano en cuatro temas, tres de ellos composiciones originales y uno en colaboración con la talentosa Alba Molina. Actualmente, Juan Medina se encuentra inmerso en la preparación de su primer disco como solista, prometiendo una obra que refleje su pasión por la música y su innovador enfoque en la fusión de estilos, con una predilección por el flamenco y el jazz. Esta actuación se enmarca en el ciclo de artes escénicas del Centro Fundación Unicaja Cádiz. Tras el concierto de Juan Medina, la programación continúa el 10 de diciembre a las 19:30 horas con un recital de piano de Chico Pérez. El músico y compositor es uno de los pianistas y compositores más reconocidos en nuestro país. Con un estilo único y versátil, ha pisado los escenarios más importantes del continente y ha llevado su música por los festivales de flamenco y jazz de mayor prestigio en nuestro país. Temas relacionados Últimas noticias Cádiz Vox Cádiz pide aparcamiento libre en la tapia del cementerio en horario labo",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Cinco detenidos en una operación contra la venta de cocaína y hachís en Jimena y El Secadero",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://www.cadizdirecto.com/cadiz/cinco-detenidos-en-una-operacion-contra-la-venta-de-cocaina-y-hachis-en-jimena-y-el-secadero/",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "noticia de prensa (pista)",
+      "hora_inicio": null,
+      "pista_prensa": true,
+      "descripcion_fuente": "rse los resultados completos de las actuaciones policiales. Un amplio despliegue policial desde primera hora de la mañana La operación comenzó durante las primeras horas del miércoles con la participación de efectivos de la Guardia Civil, que actuaron de manera coordinada en distintos puntos de los dos municipios. El despliegue tuvo como objetivo in",
+      "publicado": "2026-11-05",
+      "pista_capital": null,
+      "fuente_id": 24,
+      "fuente": "Cádiz Directo",
+      "provincial": true,
+      "tipo_fuente": "prensa",
+      "detalle_texto": "Cinco detenidos en una operación contra la venta de cocaína y hachís en Jimena y El Secadero Agentes de la Guardia Civil en Jimena y El Secadero. Cádiz Cinco detenidos en una operación contra la venta de cocaína y hachís en Jimena y El Secadero La Guardia Civil despliega unos 70 agentes y registra tres inmuebles en una investigación sobre el tráfico de drogas a pequeña escala entre Cádiz y Málaga Escrito por: José Manuel García Bautista 05/11/2026 Actualizado: 05/11/2026 (09:40 AM) Añadir Cádiz Directo en Síguenos en Google La Guardia Civil ha detenido a cinco personas durante una operación contra la presunta venta de cocaína y hachís desarrollada este miércoles, 4 de noviembre, en Jimena, en la provincia de Cádiz, y El Secadero, núcleo de población perteneciente al municipio malagueño de Casares. El dispositivo ha movilizado a unos 70 agentes y ha permitido realizar tres registros en inmuebles de ambas localidades. La intervención forma parte de una investigación centrada en el tráfico de estupefacientes a pequeña escala, aunque todavía quedan por conocerse los resultados completos de las actuaciones policiales. Un amplio despliegue policial desde primera hora de la mañana La operación comenzó durante las primeras horas del miércoles con la participación de efectivos de la Guardia Civil, que actuaron de manera coordinada en distintos puntos de los dos municipios. Te Puede Interesar Exigen a la Junta más personal especializado para atender al alumnado de las aulas de Educación Especial en Cádiz Shakira elige a Cadiwoman y lleva el Carnaval de Cádiz a dos de sus conciertos en Madrid El despliegue tuvo como objetivo intervenir contra la presunta distribución de sustancias estupefacientes destinadas a la venta directa a consumidores. La investigación se centra concretamente en el suministro de hachís y cocaína, dos drogas cuya comercialización constituye el principal objeto de las actuaciones. La movilización de aproximadamente 70 agentes refleja la dimensión del dispositivo organizado para desarrollar las intervenciones de forma simultánea en ambas localidades. Por el momento, no se han facilitado detalles sobre la identidad de las cinco personas arrestadas, sus edades o el papel que presuntamente desempeñaban en la actividad investigada. Tampoco ha trascendido si todos los detenidos fueron localizados en los inmuebles registrados o si alguna de las detenciones se produjo en otros puntos durante el desarrollo del operativo. Tres registros entre El Secadero y",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Recital de flamenco de Juan Medina",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://www.fundacionunicaja.com/event/recital-de-flamenco-de-juan-medina/",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "acto del Centro Fundación Unicaja",
+      "hora_inicio": "19:30",
+      "horario_texto": "19:30 h",
+      "direccion": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "pista_capital": true,
+      "fuente_id": 33,
+      "fuente": "Fundación Unicaja – agenda cultural",
+      "provincial": false,
+      "tipo_fuente": "oficial",
+      "detalle_texto": "Recital de flamenco de Juan Medina - Fundación Unicaja Ir al contenido AGENDA Recital de flamenco de Juan Medina Recital de flamenco de Juan Medina Conciertos El Centro Fundación Unicaja Cádiz ofrece un recital de flamenco del músico Juan Medina el próximo 6 de noviembre a las 19:30 horas . La entrada es libre hasta completar aforo. Juan Medina , artísticamente conocido durante años como Juanito Makandé , es un destacado músico, compositor y guitarrista español que lideró la renovación del flamenco underground. Tras una exitosa carrera en solitario marcada por la fusión, ha regresado a sus raíces bajo su nombre real para centrarse en la guitarra instrumental, mezclando el flamenco puro con el jazz y el neosoul en su aclamado disco ‘ FUGAZ ‘ . 06.11.2026 06.11.2026 06.11.2026 Lugar Centro Fundación Unicaja Cádiz (C/San Francisco, 26) Precios Entrada libre hasta completar aforo Organizador Fundación Unicaja clararios octubre 30, 2026 8:28 am Compartir Eventos relacionados Ver toda la agenda Conciertos 13.11.26 13.11.26 Concierto de Paula Coronas dentro del ciclo ‘Miradas al Sur’ Centro Fundación Unicaja Cádiz (C/San Francisco, 26) Exposiciones 05.11.26 30.05.27 Exposición ‘Matías Di Carlo. La alquimia del vacío’ Centro Fundación Unicaja Ronda ( C/ Sor Ángela de la Cruz) y Museo Fundación Unicaja Joaquín Peinado (Plaza del Gigante s/n) Conferencias 10.11.26 10.11.26 Encuentro con Alejandro Jiménez Serrano dentro del ciclo ‘Aula de Cultura’ Biblioteca Pública Provincial (C/Santo Reino, 1) Conciertos 12.11.26 12.11.26 Concierto ‘Officium defuctorum’ de la Capilla de Música Maestro Iribarren Catedral de Málaga Conciertos 26.11.26 26.11.26 Recital de flamenco de May Fernández dentro del ciclo ‘Andalucía es flamenca’ Centro Fundación Unicaja Cádiz (C/San Francisco, 26) Conciertos 28.11.26 28.11.26 Concierto ‘Venezuela, Caribe y músicas del mundo’ de ‘Tomasito y sus desensamblados’ Sala Fundación Unicaja María Cristina (C. Marqués de Valdecañas, 2) Ver toda la agenda El Centro Fundación Unicaja Cádiz ofrece un recital de flamenco del músico Juan Medina el próximo 6 de noviembre a las 19:30 horas . La entrada es libre hasta completar aforo. Juan Medina , artísticamente conocido durante años como Juanito Makandé , es un destacado músico, compositor y guitarrista español que lideró la renovación del flamenco underground. Tras una exitosa carrera en solitario marcada por la fusión, ha regresado a sus raíces bajo su nombre real para centrarse en la guitarra instrumental",
+      "imagen_oficial": {
+        "archivo": "img/event-recital-de-flamenco-de-juan-medina.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/DSCF2784.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/recital-de-flamenco-de-juan-medina/",
+        "ancho": 1200,
+        "alto": 1600,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/",
+      "multidia": true,
+      "permanente": false,
+      "categoria_fuente": "exposición larga (relleno)",
+      "hora_inicio": null,
+      "horario_texto": "Todo el día",
+      "direccion": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "pista_capital": true,
+      "fuente_id": 33,
+      "fuente": "Fundación Unicaja – agenda cultural",
+      "provincial": false,
+      "tipo_fuente": "oficial",
+      "detalle_texto": "Exposición 'Guillermo Pérez Villalta'. El Laboratorio infinito' - Fundación Unicaja Ir al contenido AGENDA Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’ Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’ Exposiciones Fundación Unicaja presenta su nueva exposición ‘Guillermo Pérez Villalta. El Laboratorio infinito’ que propone una aproximación singular a la trayectoria de uno de los artistas más relevantes del arte español contemporáneo. La muestra pone el foco en los procesos creativos que han definido la producción del creador tarifeño a lo largo de más de cinco décadas a través de un recorrido por más de cincuenta obras entre pinturas, esculturas, dibujos y mobiliario o joyas. La muestra se plantea como un recorrido por el trabajo de este creador excepcional, figura esencial en la renovación de la figuración española desde los años setenta. Integrante destacado de la denominada nueva figuración madrileña, su obra ha sabido construir un universo propio en el que convergen tradición y modernidad. La exposición ‘Guillermo Pérez Villalta. El laboratorio infinito’ invita a descubrir la coherencia y la inagotable capacidad inventiva de un creador que ha hecho de la curiosidad intelectual una forma de conocimiento. La propuesta se concibe como una inmersión en el taller intelectual del artista; un espacio donde las ideas se transforman en formas, donde el dibujo antecede a la pintura, y donde la geometría dialoga con la intuición. Guillermo Pérez-Villalta Nacido en Tarifa en 1948, Guillermo Pérez-Villalta ha desarrollado una producción que desborda los límites de la pintura para adentrarse en territorios tan diversos como la escultura, el dibujo o los proyectos arquitectónicos. Su relevancia histórica y artística ha sido reconocida con numerosos galardones, entre ellos el Premio Nacional de Artes Plásticas y la Medalla de Oro al Mérito en las Bellas Artes. Sus trabajos forman parte de los fondos del Museo Nacional Centro de Arte Reina Sofía de Madrid, de la colección Banco de España, del Centro Andaluz de Arte Contemporáneo , así como de instituciones de referencia internacional entre las que destaca The Solomon R. Guggenheim Museum de Nueva York. La exposición ‘Guillermo Pérez Villalta. El Laboratorio infinito’ puede visitarse hasta el 21 de febrero de 2027 en el Centro Fundación Unicaja Cádiz (Calle San Francisco, número 26). 08.10.2026 21.02.2027 21.02.2027 Lugar Centro Fundación Unicaja Cádiz (C/San Francisco, 26) Precios Orga",
+      "imagen_oficial": {
+        "archivo": "img/-exposicion-guillermo-perez-villalta-el-laboratorio-infinito.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/",
+        "ancho": 1600,
+        "alto": 1067,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
     },
     {
       "nombre": "BICHITOS",
@@ -2603,7 +2785,14 @@
       "tipo_fuente": "oficial",
       "detalle_texto": "Circuito Andaluz de Peñas 2026. Provincia de Cádiz Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y formación Espectáculos Exposiciones Fiestas y tradiciones Flamenco Libros y literatura Monumentos y Espacios Culturales desde hasta Buscar Mapa Imagen Espectáculos Flamenco Cádiz AAIICC Instituto Andaluz del Flamenco Andalucía·flamenco Peñas flamencas Circuito Andaluz de Peñas 2026. Provincia de Cádiz , . Cádiz 05 de Septiembre del 2026 - 21 de Noviembre del 2026 Precio Entrada gratuita hasta completar el aforo Imagen CIRCUITO ANDALUZ DE PEÑAS 2026 PROVINCIA DE CÁDIZ. Del 5 de septiembre al 21 de noviembre. El Circuito Andaluz de Peñas 2026 arranca en la provincia de Cádiz el 5 de septiembre, prolongándose hasta el 21 de noviembre. La entrada a todos los recitales es gratuita hasta completar el aforo. Esta programación gaditana contará con un total de 33 actuaciones -22 de cante y 11 de baile- en otras tantas peñas flamencas de 22 localidades: Chiclana, Jerez, Chipiona, Cádiz, San Fernando, Guadalcacín, Sanlúcar de Barrameda, Arcos de la Frontera, Conil, El Puerto de Santa María, Ubrique, Barbate, Los Barrios, Vejer, Algeciras, Alcalá del Valle, Espera, La Línea de la Concepción, Jimena de la Frontera, Guadiaro, Puerto Real y Ceuta. El programa es el siguiente (sujeto a cambios): 5 de septiembre , a las 21:30 horas, en la Peña Flamenca Chiclanera, de Chiclana. Actuación del bailaor Nino González. 12 de septiembre , a las 17:30 horas, en la Peña Flamenca Luis de la Pica, de Jerez. Actuación del cantaor Manuel de Cantarote. 18 de septiembre , a las 21:30 horas, en la Peña Flamenca José Mercé, de Chipiona. Actuación de la bailaora Cristina Aldón. 18 de septiembre , a las 21:30 horas, en la Peña Flamenca Juanito Villar, de Cádiz. Actuación de la cantaora Macarena de Jerez. 19 de septiembre , a las 21:00 horas, en la Peña Flamenca Amigos del Chumi, de El Puerto de Santa María. Actuación de la bailaora Elena Arias. 26 de septiembre , a las 20:00 horas, en la Peña Flamenca La Fragua, de San Fernando. Actuación del bailaor Jesuli Carrillo. 26 de septiembre , a las 22:00 horas, en la Peña Flamenca La Perla de Cádiz, de la capital gaditana. Actuación del bailaor Juan Carlos Avecilla. 26 de septiembre , a las 17:00 horas, en la Peña Flamenca E",
       "imagen_oficial": {
-        "error": "sin imagen oficial descargable"
+        "archivo": "img/cia-evento-circuito-andaluz-de-penas-2026-provincia-de-cadiz.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-05/1920x1080px-100.jpg.webp?itok=prsrLVEc",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/circuito-andaluz-de-penas-2026-provincia-de-cadiz",
+        "ancho": 960,
+        "alto": 540,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
       }
     },
     {
@@ -2898,6 +3087,108 @@
       "detalle_texto": "[no se pudo leer: 403 Client Error: Forbidden for url: https://www.cadizguitarfestival.com/]",
       "imagen_oficial": {
         "error": "la fuente es la página de inicio, no la ficha del evento: sus imágenes no son del evento"
+      }
+    },
+    {
+      "nombre": "Cádiz celebrará el 6 de noviembre la III Feria de Promoción de la Salud y el Bienestar con talleres, actividades y recursos para toda la ciudadanía",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://transparencia.cadiz.es/cadiz-celebrara-el-6-de-noviembre-la-iii-feria-de-promocion-de-la-salud-y-el-bienestar-con-talleres-actividades-y-recursos-para-toda-la-ciudadania/",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "noticia de prensa (pista)",
+      "hora_inicio": null,
+      "pista_prensa": true,
+      "descripcion_fuente": "Cádiz celebrará el 6 de noviembre la III Feria de Promoción de la Salud y el Bienestar con talleres, actividades y recursos para toda la ciudadanía. La Delegación de Salud del Ayuntamiento de Cádiz y el Distrito Sanitario Bahía de Cádiz-La Janda, con la colaborac nda, con la colaboración de la Delegación Territorial de Educación de la Junta de Andalucía, celebrarán el próximo viernes 6 de noviembre la tercera edición de la Feria de Promoción de la Salud y el Bienestar, una iniciativa que reunirá",
+      "publicado": "2026-10-30",
+      "pista_capital": true,
+      "fuente_id": 80,
+      "fuente": "Ayuntamiento de Cádiz – Notas de prensa y programaciones especiales (Halloween, Tosantos, Carnaval, fiestas)",
+      "provincial": false,
+      "tipo_fuente": "oficial",
+      "detalle_texto": "Cádiz celebrará el 6 de noviembre la III Feria de Promoción de la Salud y el Bienestar con talleres, actividades y recursos para toda la ciudadanía - Transparencia La Delegación de Salud del Ayuntamiento de Cádiz y el Distrito Sanitario Bahía de Cádiz-La Janda, con la colaboración de la Delegación Territorial de Educación de la Junta de Andalucía, celebrarán el próximo viernes 6 de noviembre la tercera edición de la Feria de Promoción de la Salud y el Bienestar, una iniciativa que reunirá a administraciones públicas, profesionales sanitarios, colegios profesionales, asociaciones y entidades sociales para acercar la salud y el bienestar a la ciudadanía. La concejala de Salud, Gloria Bazán, ha presentado la programación de esta tercera edición, que se desarrollará en el Parque Erytheia, de 10:00 a 14:00 horas, con entrada libre y bajo el lema ‘Unidos por tu salud: Accesibilidad al alcance de cada persona’. La feria forma parte del Plan de Acción Local de Salud y contará con una amplia programación de talleres, juegos, actividades físicas, demostraciones, puntos informativos y propuestas educativas dirigidas a personas de todas las edades. Bazán ha destacado que el objetivo de esta iniciativa es “acercar a la ciudadanía los recursos sanitarios, sociales y comunitarios de nuestra ciudad, ofreciendo un espacio en el que las personas puedan participar, resolver dudas y adquirir conocimientos útiles para cuidar mejor de su salud”. En este sentido, ha señalado que “cuando hablamos de salud no nos referimos únicamente a la atención sanitaria, sino también a la prevención, la alimentación, la actividad física, la salud mental, el bienestar emocional y la autonomía personal”. Asimismo, ha incidido en la importancia de la accesibilidad como eje central de esta edición, subrayando que “queremos que los recursos para cuidar de nuestra salud estén al alcance de todas las personas, independientemente de su edad, sus circunstancias personales o las dificultades que puedan encontrar”. Una amplia programación para fomentar hábitos saludables Durante las cuatro horas de celebración, las personas asistentes podrán participar en numerosas actividades relacionadas con la prevención, el autocuidado y la adquisición de hábitos de vida saludables. Entre las propuestas previstas se encuentran talleres sobre el uso adecuado de los medicamentos, la identificación del azúcar oculto en los alimentos, la alimentación saludable, la higiene del sueño, la protección solar y el cuidado de la",
+      "imagen_oficial": {
+        "archivo": "img/-con-talleres-actividades-y-recursos-para-toda-la-ciudadania.jpg",
+        "url_origen": "https://transparencia.cadiz.es/wp-content/uploads/2026/10/Feria-de-la-Salud-Post.jpg.jpeg",
+        "fuente": "transparencia.cadiz.es",
+        "pagina": "https://transparencia.cadiz.es/cadiz-celebrara-el-6-de-noviembre-la-iii-feria-de-promocion-de-la-salud-y-el-bienestar-con-talleres-actividades-y-recursos-para-toda-la-ciudadania/",
+        "ancho": 1080,
+        "alto": 1440,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "La nueva sede de La Confluencia en Puerto Real abrirá el 6 de noviembre",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://cadiznoticias.es/la-nueva-sede-de-la-confluencia-en-puerto-real-abrira-el-6-de-noviembre/",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "noticia de prensa (pista)",
+      "hora_inicio": "18:00",
+      "pista_prensa": true,
+      "descripcion_fuente": "La nueva sede de La Confluencia en Puerto Real abrirá el 6 de noviembre. La inauguración de la nueva sede de La Confluencia en Puerto Real incluirá la presentación del Frente Amplio, integrado por quince organizaciones para las elecciones generales del 29 de noviembre. La Confluencia de Izquierdas in formación incorpora este balance de su actividad política a la preparación de las municipales, aunque el acto del 6 de noviembre estará centrado en la apertura del local y en la presentación del Fre",
+      "publicado": "2026-11-05",
+      "pista_capital": false,
+      "fuente_id": 84,
+      "fuente": "CádizNoticias – agenda y avisos de actos",
+      "provincial": false,
+      "tipo_fuente": "prensa",
+      "detalle_texto": "La nueva sede de La Confluencia en Puerto Real abrirá el 6 de noviembre · Cadiznoticias - publicidad - Inicio / Bahía de Cádiz y La Janda / La nueva sede de La Confluencia en Puerto Real abrirá el 6 de noviembre Bahía de Cádiz y La Janda La inauguración de la nueva sede de La Confluencia en Puerto Real incluirá la presentación del Frente Amplio, integrado por quince organizaciones para las elecciones generales del 29 de noviembre. La Confluencia de Izquierdas inaugurará el 6 de noviembre, a las 18.00 horas, una nueva sede en el número 176 de la calle de la Plaza de Puerto Real. El acto servirá también para presentar en el municipio el proyecto del Frente Amplio, una alianza de quince organizaciones políticas de izquierda que concurrirá a las elecciones generales previstas para el 29 de noviembre. El coordinador de La Confluencia, José Antonio Montilla, ha explicado que el local pretende funcionar como punto de reunión para la formación, la ciudadanía y las organizaciones sociales de Puerto Real. La convocatoria de apertura se dirige también a las personas interesadas en participar en las actividades que se desarrollen en este espacio. La inauguración de la nueva sede de La Confluencia en Puerto Real se enmarca así en la preparación de las próximas citas electorales. La primera será la convocatoria general del 29 de noviembre, para la que la formación puertorrealeña participará en el Frente Amplio junto con otras organizaciones, según la información difundida por el grupo. La presentación permitirá exponer la composición y los objetivos políticos de esta candidatura conjunta. Montilla ha definido La Confluencia como un proyecto en el que participan personas y organizaciones procedentes de distintas sensibilidades de la izquierda local, surgido hace casi cuatro años con la unidad como planteamiento central. El coordinador ha relacionado esta estrategia con el contexto político previo a las elecciones generales. A su juicio, esos comicios tendrán una especial relevancia por las decisiones que puedan adoptarse sobre el Estado del bienestar, la sanidad, la educación, los servicios públicos y el funcionamiento de la democracia. Estas consideraciones forman parte del posicionamiento político que la organización trasladará durante el acto. La formación también ha incluido entre sus próximas convocatorias la huelga general anunciada para el 11 de noviembre. La Confluencia ya ha expresado su respaldo a esa movilización y ha animado a participar en ella, de acuerdo c",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Las VI Jornadas Asta Regia reúnen en Jerez investigaciones sobre cuatro enclaves arqueológicos gaditanos",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://cadiznoticias.es/las-vi-jornadas-asta-regia-reunen-en-jerez-investigaciones-sobre-cuatro-enclaves-arqueologicos-gaditanos/",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "noticia de prensa (pista)",
+      "hora_inicio": "19:00",
+      "pista_prensa": true,
+      "descripcion_fuente": "investigaciones sobre cuatro enclaves arqueológicos gaditanos. Las VI Jornadas Asta Regia se celebran los días 5 y 6 de noviembre con ponencias sobre Pocito Chico, Baelo Claudia, Carissa Aurelia y la escritura monetaria antigua Las VI Jornadas Asta Regia reúnen los días 5 y 6 de noviembre de 2026 en Jerez a investigadores de varias universidades para presen nte la época romana de esta salsa elaborada a partir de pescado. La segunda sesión comenzará a las 19.00 horas del viernes 6 de noviembre. E",
+      "publicado": "2026-11-05",
+      "pista_capital": false,
+      "fuente_id": 84,
+      "fuente": "CádizNoticias – agenda y avisos de actos",
+      "provincial": false,
+      "tipo_fuente": "prensa",
+      "detalle_texto": "Las VI Jornadas Asta Regia reúnen en Jerez investigaciones sobre cuatro enclaves arqueológicos gaditanos · Cadiznoticias - publicidad - Inicio / Jerez y Costa Noroeste / Las VI Jornadas Asta Regia reúnen en Jerez investigaciones sobre cuatro enclaves arqueológicos gaditanos Jerez y Costa Noroeste Las VI Jornadas Asta Regia se celebran los días 5 y 6 de noviembre con ponencias sobre Pocito Chico, Baelo Claudia, Carissa Aurelia y la escritura monetaria antigua Las VI Jornadas Asta Regia reúnen los días 5 y 6 de noviembre de 2026 en Jerez a investigadores de varias universidades para presentar estudios sobre yacimientos arqueológicos de la provincia de Cádiz. El programa abordará enclaves como Pocito Chico, Baelo Claudia y Carissa Aurelia, además de los alfabetos utilizados en monedas libio-púnicas y neopúnicas. Las sesiones se desarrollarán en el salón de actos del Ateneo de Jerez, situado en el número 8 de la calle San Cristóbal. La primera jornada tendrá lugar este jueves entre las 18.30 y las 21.00 horas, mientras que la segunda se celebrará el viernes de 19.00 a 21.00 horas. La entrada será libre hasta completar el aforo. El encuentro, organizado por la Asociación por Asta Regia, plantea un recorrido por distintas líneas de estudio relacionadas con el patrimonio arqueológico gaditano. Las intervenciones abarcarán desde el mundo tartésico hasta la actividad económica en época romana, junto con la epigrafía monetaria y los resultados de campañas recientes de excavación. La apertura está prevista a las 18.30 horas del jueves 5 de noviembre, con la participación de la alcaldesa de Jerez y de los presidentes del Ateneo y de la Asociación por Asta Regia. La primera conferencia comenzará a las 19.00 horas bajo el título “En el corazón de Tartesos: Pocito Chico revisado”. La ponencia correrá a cargo de José Antonio Ruiz Gil, doctor e investigador de la Universidad de Cádiz (UCA), quien expondrá una revisión de las investigaciones desarrolladas en Pocito Chico. La intervención estará centrada en este enclave y en su relación con el conocimiento del periodo tartésico. A las 20.00 horas será el turno de José J. Díaz y Darío Bernal Casasola, también doctores de la UCA. Ambos presentarán las nuevas investigaciones sobre el garum de Baelo Claudia, con especial atención a la producción y comercialización durante la época romana de esta salsa elaborada a partir de pescado. La segunda sesión comenzará a las 19.00 horas del viernes 6 de noviembre. El investigador Francisc",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Circuito Ornitorrinco 2026: encuentro de mediación en espacios escénicos",
+      "fecha": "2026-11-06",
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-11-06",
+      "url": "https://vivirediciones.es/circuito-ornitorrinco-encuentro-mediacion-zaragoza/",
+      "multidia": false,
+      "permanente": false,
+      "categoria_fuente": "noticia de prensa (pista)",
+      "hora_inicio": null,
+      "pista_prensa": true,
+      "descripcion_fuente": "II Jornadas Profesionales de Almazuela , entidad colaboradora del Proyecto Ornitorrinco, que se celebraban los 5 y 6 de noviembre en Zaragoza . Estas jornadas abordaron la educación y la mediación en cultura, museos y patrimonio como activadoras de los derechos culturales. Apoyo y colaboraciones El Circuito Ornitorrinco cuenta con el apoyo económico de la F",
+      "publicado": "2026-11-05",
+      "pista_capital": null,
+      "fuente_id": 90,
+      "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
+      "provincial": false,
+      "tipo_fuente": "oficial",
+      "detalle_texto": "Profesionales de espacios escénicos se reúnen en Zaragoza – vivirEdiciones Saltar al contenido Circuito Ornitorrinco 2026: encuentro de mediación en espacios escénicos Profesionales y mediadores de espacios escénicos debaten metodologías y retos del proyecto Cultura 5 de noviembre de 2026, 18:43 Profesionales y representantes de espacios escénicos de distintos territorios, junto con mediadores colaboradores, participaron el 4 de noviembre en un encuentro de trabajo del Circuito Ornitorrinco 2026 en Zaragoza , según informó La Red , red de teatros, auditorios, circuitos y festivales de Andalucía que impulsa este proyecto. La jornada se centró en intercambiar metodologías, compartir aprendizajes y poner en común los retos surgidos durante el desarrollo de los proyectos de esta edición 2026 , además de evaluar colectivamente los procesos de mediación artística. Participantes del encuentro El evento reunió a mediadores y representantes de espacios escénicos de diferentes municipios y comunidades autónomas: Miguel Jerez , mediador del Laboratorio de las Artes de Valladolid (LAVA) Laura Mihon , mediadora del Teatre Lliure Marina Pallarés , mediadora del Teatro El Genovés Fran Ros , mediador de los Teatros del Ayuntamiento de Murcia Cristina Ramírez , del Teatro Federico García Lorca de San Fernando de Henares Sonia Cámara , del Barakaldo Antzokia Toni Martí , del Ayuntamiento de Tarragona María Sánchez y Eva Serrano , ambos del Consorcio Cultural Albacete (Ayuntamientos de Caudete y Almansa) Alba Suay , del proyecto RECREA También participaron Daniel Juste , del Teatro José María Rodero de Torrejón de Ardoz, en representación de la Junta Directiva de La Red; María Valls , coordinadora de Ornitorrinco, y Elvira Gutiérrez , directora gerente de La Red. La sesión fue dinamizada por Carmen Oviedo , de Pedagogías Invisibles, entidad colaboradora del proyecto desde sus inicios. Marco de las II Jornadas Profesionales de Almazuela El encuentro tuvo lugar en el contexto de las II Jornadas Profesionales de Almazuela , entidad colaboradora del Proyecto Ornitorrinco, que se celebraban los 5 y 6 de noviembre en Zaragoza . Estas jornadas abordaron la educación y la mediación en cultura, museos y patrimonio como activadoras de los derechos culturales. Apoyo y colaboraciones El Circuito Ornitorrinco cuenta con el apoyo económico de la Fundación Carasso , afiliada a la Fondation de France. Las asesorías de mediación del proyecto las proporcionan Pedagogías Invisibles y Almazuela",
+      "imagen_oficial": {
+        "archivo": "img/circuito-ornitorrinco-encuentro-mediacion-zaragoza.jpg",
+        "url_origen": "https://media.vivirediciones.es/2026/11/circuito-ornitorrinco-encuentro-mediacion-zaragoza-1793900236285.jpg",
+        "fuente": "vivirediciones.es",
+        "pagina": "https://vivirediciones.es/circuito-ornitorrinco-encuentro-mediacion-zaragoza/",
+        "ancho": 1200,
+        "alto": 675,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
       }
     }
   ],
@@ -3767,7 +4058,7 @@
         {
           "url": "https://ondacadiz.es/",
           "http": 200,
-          "texto": "Inicio | Onda Cádiz RTV Pasar al contenido principal 0|2ZipAAu0hTc Cádiz reconoce a las personas y entidades más distinguidas de la ciudad Hoy se celebra la Gala de Honores y Distinciones 0|6stylLRzKDA La Marcha Contra el Cáncer reunirá a más de 6.000 participantes 0|8BDfWa9zxiI Cádiz Film Office presenta a la ciudad como el mejor escenario para los rodajes 0|fZPXD6DlUc8 Los sindicatos elevan la presión ante la huelga general del 11N 0|wMyNw3h6RgU Una tienda que crece al ritmo de un bebé 0|nA-K1xensao DEPORTES La Plaza de España volverá a ser sede de la Milla Popular de San Carlos 0|fcmhVj08il0 El PP gaditano reclama seguridad en las conexiones ferroviarias con la provincia 0|eHW_1CxrEZc El IES Rafael Alberti rescata del olvido a las mujeres del 27 0|kjqPao9s1Os La economía sumergida en Cádiz baja a su nivel más bajo en 40 años, aunque aún mueve 4.600 millones 0|SaWGwyMXe4c El collage y la pintura abstracta se unen para hacer crítica social en la obra de Ben Reyes en la Fundación Cajasol 0|mvmkiPQLIXo CIENCIA De Cádiz a la Antártida 0|3JfynrUfxyo Homenaje a Manuel de Falla a través de la filatelia A continuación 5 Nov 16:00 El Mirador - Tertulia (Entrevistas y debates, APTA) El debate se centra en la crisis ferroviaria tras la tragedia de Adamuz, analizando fallos de mantenimiento e infraestructura, la gestión política de la crisis y las implicaciones electorales. Se discute la necesidad de inversiones sostenidas en conservación y la complejidad de los sistemas de seguridad ferroviaria. #debate 17:00 El Mirador - Info (Información diaria, APTA) 17:30 El Mirador - Social (Magacine, APTA) Hablamos sobre la celebración del tercer Festival de Novela Negra de Cádiz, con la participación de Alberto Puyana, comisario del Festival También abordamos la importancia del duelo tras un accidente ferroviario, con la intervención de Valentín Rodíl, psicólogo experto en duelo y responsable de la Unidad Móvil de Intervención del Centro de Escucha San Camilo. Además, dedicamos un espacio a la seguridad vial, donde discutimos los errores comunes de los conductores, la necesidad de mantener la atención y señalizar correctamente, incluyendo normativas sobre el uso de intermitentes y el manejo en túneles y garajes, con la participación de Sergio Pinzón.´ #magazine 18:30 Haciendo Tipo (Información especializada - Carnaval, APTA) 19:30 Miradas (Información especializada, APTA) 20:00 El Escaparate (Información especializada, APTA) 20:30 Noticias OC 2Ed (Información diaria, --) 21:00 Submarino amarillo (Información especializada - Deportes, APTA) ver más... Agenda (re) descubre cádiz (un tour gaditano para gente gaditana) rutas y visitas 10-05-2021 - 31-05-2031 Vives aquí, te paseas por aquí y saludas a gente de aquí. Eres de tu barrio y visitas otros. Conoces bares locales y tienes tu sitio en la playa. Pero, ¿realmente conoces Cádiz? Este es un tour para ti, Gaditana/o. Una ruta por tu ciudad. ¿Te atreves a mirarla con otros ojos? Redes... ..ver agenda completa Deporte 0|gw19rUR8FDo Deportes DEPORTES La capital calienta motores para la III edición de la Media Maratón ‘Ciudad de Cádiz’ La prueba será este domingo y contará con 3000 participantes. Carnaval Carnaval El COAC 2027 baja a 185 agrupaciones A la baja de la comparsa de Ceuta se suma la de la chirigota juvenil \"Los súper dotados\" Cofrade 0|W0fkcM8-olw Cofrade La Virgen de la Palma recorre las calles de la Viña La salida procesional ha salido de la parroquia de Nuestra Señora de la Palma Televisión Dom, 08/11/2026 Sorteo COAC 2027 Jue, 05/11/2026 El Mirador - Social Hablamos sobre la celebración del tercer Festival de Novela Negra de Cádiz, con la participación de Alberto Puyana, comisario del Festival También abordamos la importancia del duelo tras un accidente ferroviario, con la intervención de Valentín Rodíl, psicólogo experto en duelo y responsable de la Unidad Móvil de Intervención del Centro de Escucha San Camilo. Además, dedicamos un espacio a la seguridad vial, donde discutimos los errores comunes de los conductores, la necesidad de mantener la atención y señalizar correctamente, incluyendo normativas sobre el uso de intermitentes y el manejo e Jue, 05/11/2026 El Mirador - Tertulia El debate se centra en la crisis ferroviaria tras la tragedia de Adamuz, analizando fallos de mantenimiento e infraestructura, la gestión política de la crisis y las implicaciones electorales. Se discute la necesidad de inversiones sostenidas en conservación y la complejidad de los sistemas de seguridad ferroviaria. #debate Jue, 05/11/2026 El Mirador - Info Hoy abordamos varios temas importantes. Primero, hablamos de la celebración de honores y distinciones, la clausura del South International Series Festival, y la concienciación sobre el acoso escolar y ciberacoso, con la participación de Javier González Martí. Además, analizamos la cobertura mediática sobre eventos políticos como las elecciones estadounidenses y las dimisiones en ADIF. En segundo lugar, profundizamos en el retroceso de la marisma de la bahía de Cádiz. Jue, 05/11/2026 Matinal Noticias Cádiz reconoce a las personas y entidades más distinguidas de la ciudad - La Junta de Andalucía invertirá 594 millones de euros en la provincia - El buque oceanográfico *Odón por sus capacidades polares* zarpa hacia la Antártida para la 40ª campaña de investigación- Luis Manuel Real es designado pregonero de las Glorias de 2027.- Artistas Ben Reyer expone en la Fundación Cajasol #informativo Mié, 04/11/2026 Submarino amarillo El estado actual del Cádiz CF en la liga, con un balance de 12 partidos (2 victorias, 4 empates, 6 derrotas) y la necesidad de mejorar la planificación y el rendimiento colectivo. Intervinientes: * Jesús Suero (Sin cargo específico, relacionado con el Cádiz CF) * Juan (Sin cargo específico) * Luis Pablo (Sin cargo específico) COLAS/VTR: Ninguna Traspunte Programa de televisión donde hablamos de Cultura, desde la pasión que nos inspiran: la literatura, el teatro, la música, el arte, la danza y todas "
+          "texto": "Inicio | Onda Cádiz RTV Pasar al contenido principal 0|2ZipAAu0hTc Cádiz reconoce a las personas y entidades más distinguidas de la ciudad Hoy se celebra la Gala de Honores y Distinciones 0|6stylLRzKDA La Marcha Contra el Cáncer reunirá a más de 6.000 participantes 0|8BDfWa9zxiI Cádiz Film Office presenta a la ciudad como el mejor escenario para los rodajes 0|fZPXD6DlUc8 Los sindicatos elevan la presión ante la huelga general del 11N 0|wMyNw3h6RgU Una tienda que crece al ritmo de un bebé 0|nA-K1xensao DEPORTES La Plaza de España volverá a ser sede de la Milla Popular de San Carlos 0|fcmhVj08il0 El PP gaditano reclama seguridad en las conexiones ferroviarias con la provincia 0|eHW_1CxrEZc El IES Rafael Alberti rescata del olvido a las mujeres del 27 0|kjqPao9s1Os La economía sumergida en Cádiz baja a su nivel más bajo en 40 años, aunque aún mueve 4.600 millones 0|SaWGwyMXe4c El collage y la pintura abstracta se unen para hacer crítica social en la obra de Ben Reyes en la Fundación Cajasol 0|mvmkiPQLIXo CIENCIA De Cádiz a la Antártida 0|3JfynrUfxyo Homenaje a Manuel de Falla a través de la filatelia A continuación 5 Nov 17:00 El Mirador - Info (Información diaria, APTA) 17:30 El Mirador - Social (Magacine, APTA) Hablamos sobre la celebración del tercer Festival de Novela Negra de Cádiz, con la participación de Alberto Puyana, comisario del Festival También abordamos la importancia del duelo tras un accidente ferroviario, con la intervención de Valentín Rodíl, psicólogo experto en duelo y responsable de la Unidad Móvil de Intervención del Centro de Escucha San Camilo. Además, dedicamos un espacio a la seguridad vial, donde discutimos los errores comunes de los conductores, la necesidad de mantener la atención y señalizar correctamente, incluyendo normativas sobre el uso de intermitentes y el manejo en túneles y garajes, con la participación de Sergio Pinzón.´ #magazine 18:30 Haciendo Tipo (Información especializada - Carnaval, APTA) 19:30 Miradas (Información especializada, APTA) 20:00 El Escaparate (Información especializada, APTA) 20:30 Noticias OC 2Ed (Información diaria, --) 21:00 Submarino amarillo (Información especializada - Deportes, APTA) 21:30 Saludablemente (Divulgativo, APTA) ver más... Agenda Cádiz atlántica rutas y visitas 10-05-2021 - 31-05-2031 Un tour para tus sentidos. Verás el azul del océano, olerás su sal, tocarás las olas, escucharás su rumor y saborearás la pesca local. Las personas que vivimos en Cádiz tenemos una relación con el Océano Atlántico muy especial y me gustaría que tu sintieras lo mismo. Para ello, Cádiz experiences y... ..ver agenda completa Deporte 0|gw19rUR8FDo Deportes DEPORTES La capital calienta motores para la III edición de la Media Maratón ‘Ciudad de Cádiz’ La prueba será este domingo y contará con 3000 participantes. Carnaval Carnaval El COAC 2027 baja a 185 agrupaciones A la baja de la comparsa de Ceuta se suma la de la chirigota juvenil \"Los súper dotados\" Cofrade 0|W0fkcM8-olw Cofrade La Virgen de la Palma recorre las calles de la Viña La salida procesional ha salido de la parroquia de Nuestra Señora de la Palma Televisión Dom, 08/11/2026 Sorteo COAC 2027 Jue, 05/11/2026 El Mirador - Social Hablamos sobre la celebración del tercer Festival de Novela Negra de Cádiz, con la participación de Alberto Puyana, comisario del Festival También abordamos la importancia del duelo tras un accidente ferroviario, con la intervención de Valentín Rodíl, psicólogo experto en duelo y responsable de la Unidad Móvil de Intervención del Centro de Escucha San Camilo. Además, dedicamos un espacio a la seguridad vial, donde discutimos los errores comunes de los conductores, la necesidad de mantener la atención y señalizar correctamente, incluyendo normativas sobre el uso de intermitentes y el manejo e Jue, 05/11/2026 El Mirador - Tertulia El debate se centra en la crisis ferroviaria tras la tragedia de Adamuz, analizando fallos de mantenimiento e infraestructura, la gestión política de la crisis y las implicaciones electorales. Se discute la necesidad de inversiones sostenidas en conservación y la complejidad de los sistemas de seguridad ferroviaria. #debate Jue, 05/11/2026 El Mirador - Info Hoy abordamos varios temas importantes. Primero, hablamos de la celebración de honores y distinciones, la clausura del South International Series Festival, y la concienciación sobre el acoso escolar y ciberacoso, con la participación de Javier González Martí. Además, analizamos la cobertura mediática sobre eventos políticos como las elecciones estadounidenses y las dimisiones en ADIF. En segundo lugar, profundizamos en el retroceso de la marisma de la bahía de Cádiz. Jue, 05/11/2026 Matinal Noticias Cádiz reconoce a las personas y entidades más distinguidas de la ciudad - La Junta de Andalucía invertirá 594 millones de euros en la provincia - El buque oceanográfico *Odón por sus capacidades polares* zarpa hacia la Antártida para la 40ª campaña de investigación- Luis Manuel Real es designado pregonero de las Glorias de 2027.- Artistas Ben Reyer expone en la Fundación Cajasol #informativo Mié, 04/11/2026 Submarino amarillo El estado actual del Cádiz CF en la liga, con un balance de 12 partidos (2 victorias, 4 empates, 6 derrotas) y la necesidad de mejorar la planificación y el rendimiento colectivo. Intervinientes: * Jesús Suero (Sin cargo específico, relacionado con el Cádiz CF) * Juan (Sin cargo específico) * Luis Pablo (Sin cargo específico) COLAS/VTR: Ninguna El Escaparate En “El Escaparate” descubrimos de cerca los comercios de intramuros y extramuros, su historia y todo lo que aportan a la vida cotidiana como locales de proximidad. Aula Futuro ¿Quién dijo que la educación tenía que ser algo aburrido?. Os vamos a demostrar que no es así. ¿Cómo?. Recorriendo todos los colegios e institutos de Cádiz y enseñándoos lo que hacen allí. BiblioTeConecta Cuatro bibliotecarios, cada uno en una punta del país, quedan por Zoom y charlan sobre todo lo que cabe en una biblioteca... y mucho"
         }
       ],
       "candidatos": []
@@ -3818,6 +4109,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Municipales: red del Ayuntamiento. Provincial: Junta de Andalucía publica un PDF mensual",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
         "urls": [
@@ -4525,6 +4817,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "museosdeandalucia.es no resuelve desde el contenedor: consultar con WebFetch/WebSearch (Plaza de Mina, Cádiz)",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Museo de Cádiz",
         "urls": [
@@ -4651,6 +4944,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "OBLIGATORIO TODOS LOS DÍAS: ¿juega el Cádiz CF en casa hoy, mañana o el finde? La web bloquea al script (403) y a veces no da la hora: consultar con WebFetch/WebSearch y, si falta la hora, contrastarla en 2 medios (prensa local o del rival). El estadio es el Nuevo Mirandilla (la web lo llama JP Financial Estadio). Solo partidos como local en Cádiz capital; fuera de casa no se publican",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Cádiz CF – partidos en casa",
         "urls": [
@@ -4667,6 +4961,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "403 al script",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "VivaCádiz",
         "urls": [
@@ -4684,6 +4979,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Dominio no localizado; buscar con WebSearch",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Hoy Cádiz",
         "urls": [],
@@ -5121,13 +5417,32 @@
       ],
       "candidatos": [
         {
+          "nombre": "Conferencia: 'Neurociencia y Conciencia. El cerebro que nos piensa'",
+          "fecha": "2026-11-06",
+          "hora_inicio": null,
+          "url": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379",
+          "lugar": "Nueva Acrópolis Cádiz",
+          "direccion": "calle san Pedro nº1, 11004, Cádiz",
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197064213%2F221612058906%2F1%2Foriginal.20261102-093606?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=24648774477286f036523491837ee7b0",
+          "descripcion_fuente": "",
+          "pista_capital": true,
+          "multidia": false,
+          "permanente": false,
+          "fuente_id": 20,
+          "fuente": "Eventbrite – Cádiz",
+          "provincial": true,
+          "tipo_fuente": "agregador",
+          "detalle_texto": "Conferencia: 'Neurociencia y Conciencia. El cerebro que nos piensa' Tickets, Friday, November 6 • 8 PM - 9 PM | Eventbrite Share this event Conferencia: 'Neurociencia y Conciencia. El cerebro que nos piensa' By Nueva Acrópolis Cádiz Follow Nueva Acrópolis Cádiz Cádiz Friday, November 6 • 8 PM - 9 PM Overview Conferencia sobre neurociencia y conciencia, impartida por el Dr. Jesús Lorente Campos, bajo el título \"El cerebro que nos piensa\". Desde NUEVA ACRÓPOLIS CÁDIZ, como Escuela de Filosofía que promueve la Cultura y practica el Voluntariado, afrontamos un mes de noviembre en torno a la celebración del DÍA MUNDIAL DE LA FILOSOFÍA , donde ofreceremos una multitud de ACTIVIDADES a realizarse en nuestra sede. El Día Mundial de la Filosofía es una jornada que se celebra cada tercer jueves de noviembre desde 2006, siendo proclamado por la UNESCO en 2005. Este año 2026 corresponde al jueves 19 de noviembre. Una de estas actividades es la conferencia sobre neurociencia y conciencia, impartida por el Dr. Jesús Lorente Campos, bajo el título \"El cerebro que nos piensa\", a la que os animamos a asistir y os agradecemos su difusión. Entrada libre hasta completar aforo. Read more Good to know Highlights 1 hour In person Doors at 6:30 PM Highlights 1 hour In person Doors at 6:30 PM Location Nueva Acrópolis Cádiz calle san Pedro nº1 11004 Cádiz How do you want to get there? Driving Public transport Biking Walking Show map Organized by Nueva Acrópolis Cádiz Contact Follow Report this event More events from Nueva Acrópolis Cádiz Discover more events from Nueva Acrópolis Cádiz, from Science & Tech to other experiences you might love. You might also like... Browse more events with different dates, prices, and formats to find your next great experience. Still looking for the right event? Explore all events in Cádiz and filter by date, category, and more to find the perfect fit. Spain Events Cádiz Events Things to do in Cádiz Cádiz conferences Cádiz Science & Tech conferences Get tickets",
+          "imagen_oficial": null
+        },
+        {
           "nombre": "Afro Friday Nights",
           "fecha": "2026-11-06",
           "hora_inicio": null,
           "url": "https://www.eventbrite.com/e/entradas-afro-friday-nights-2003423050274",
           "lugar": "Mango Copas",
           "direccion": "Calle Jose Demaria 1, 11405, jerez",
-          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195802523%2F3017144245336%2F1%2Foriginal.20261014-180805?crop=focalpoint&fit=crop&w=398&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.44&s=d7880bf154bc0a8abbea82238274a8cd",
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195802523%2F3017144245336%2F1%2Foriginal.20261014-180805?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.44&s=481f85589114a66eaa18ac0df15355c5",
           "descripcion_fuente": "",
           "pista_capital": false,
           "multidia": false,
@@ -5165,7 +5480,7 @@
           "url": "https://www.eventbrite.com/e/entradas-afro-friday-nights-2003423050274",
           "lugar": "Mango Copas",
           "direccion": "Calle Jose Demaria 1, 11405, jerez",
-          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195802523%2F3017144245336%2F1%2Foriginal.20261014-180805?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.44&s=481f85589114a66eaa18ac0df15355c5",
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195802523%2F3017144245336%2F1%2Foriginal.20261014-180805?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.44&s=b1a23746075c491e3edc9ed8e7dd27df",
           "descripcion_fuente": "!!Prepárate para una noche inolvidable!! Afrobeats,Amapiano y Dancehall el 6 de Noviembre !!Siente el ritmo y vive la experiencia!!",
           "pista_capital": false,
           "multidia": false,
@@ -5203,7 +5518,7 @@
           "url": "https://www.eventbrite.com/e/mezkla-en-melia-sevilla-una-cena-dedicada-al-atun-rojo-tickets-2001538353094",
           "lugar": "Quimera",
           "direccion": "1 Calle Doctor Pedro de Castro, 41004, Sevilla",
-          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193827779%2F2917306353141%2F1%2Foriginal.20260918-105802?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.089&fp-y=0.522&s=f5ce25a45400fba23132bb3970cab7e8",
+          "imagen_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193827779%2F2917306353141%2F1%2Foriginal.20260918-105802?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.089&fp-y=0.522&s=cbf9cde4a5327e624f4b43918838ca24",
           "descripcion_fuente": "Una experiencia gastronómica de seis pases donde el atún rojo de almadraba y el producto de Gadira son los grandes protagonistas.",
           "pista_capital": false,
           "multidia": false,
@@ -5294,12 +5609,76 @@
       "estado": "ok",
       "paginas": [
         {
-          "url": "https://www.diariodecadiz.es/",
+          "url": "https://www.diariodecadiz.es/rss/cadiz/",
           "http": 200,
-          "texto": "Diario de Cádiz | Noticias de Cádiz, Andalucía y España, actualidad y última hora Televisión La TDT cambia este 5 de noviembre: qué canales hay que resintonizar y cuándo hacerlo Chiclana plantea la implantación de una tasa turística en temporada alta Redacción/C.M. Cogida mortal de un toro en Arcos: \"Sentimos profundamente que esto haya sucedido\" Elisa Armario Las sueltas de toros en la provincia de Cádiz deja seis muertos en los últimos años Ama Natura denuncia las sueltas de toros en Arcos y el \"aleccionamiento\" de menores La UCO detiene a seis personas en Sevilla, Madrid, Córdoba y Valencia por el caso Koldo M. H. El Pleno aprueba un aval de 13,8 millones para construir 132 viviendas públicas en La Isla Arturo Rivera El proyecto del club náutico de Gallineras tendrá que licitarse por tercera vez El Ayuntamiento prevé la convocatoria de 14 nuevas plazas de Policía Local en San Fernando Rota marca los caminos de España: el Tribunal Supremo obliga a liberar las vías pecuarias Manuel Reina Una profunda borrasca llega a Cádiz: Aemet avisa de las zonas con más lluvia Redacción Diario de Cádiz Herido tras un atropello en la avenida Sanidad Pública en Cádiz Redacción Diario de Cádiz Un padre de familia de Chipiona, de alquiler durante años, gana 150.000 euros con la ONCE Redacción Diario de Cádiz Unidades de operaciones especiales, en un ejercicio clave con apoyo de la Base de Rota Alicia Ruiz Así ha hundido la Armada al antiguo patrullero 'Infanta Elena' Una Medalla de Oro con polémica en El Puerto T.A. El actor Juanjo Macías también será Medalla de Oro de El Puerto La torre-mirador Tamara García Cádiz resintoniza Cuerda desatada Pilar Vera Magia blanca Derechos Humanos acusa al Ayuntamiento de Cádiz de \"hostigar\" a las personas sin hogar Juan Marqués La Cádiz 'más peliculera' se promociona como plató de rodaje en la clausura de South Redacción Diario de Cádiz / T. G. 'Blindspot Berlin', triunfadora del South Series de Cádiz 2026 En peligro la media maratón de Cádiz por una protesta de la Policía Local de Cádiz Pablo-Manuel Durio Celebrado ante notario el sorteo de plazas del aparcamiento Hermanas Mirabal Redacción Diario de Cádiz Melendi estará el 13 de agosto en Concert Music Festival Redacción Chiclana Últimos ensayos para la entrega de la bandera que amadrinará este viernes la Reina Sofía Antonio Zambonino El precio de la vivienda en Cádiz sigue al alza y casi iguala al de Valencia o Bilbao José A. Hidalgo La TDT cambia el 5 de noviembre: canales que debes resintonizar y cuándo Redacción Diario de Cádiz Lucía Galán: \"No hay que esperar a que curen las pupas del mano-pie-boca para ir al cole\" Lucía Camino Martina Anselmi deja la moda por Arcos: \"Aquí puedo dedicarme a la artesanía\" L. C. Zambombas en Cádiz 2026: fechas permitidas y horarios límite para esta fiesta navideña Redacción Diario de Cádiz Las dos situaciones del Cádiz CF con Borja Jiménez que no vivió con Celades J.J.N. Un '9' en el Cádiz CF con piel de Cordero El Cádiz CF se hunde aún más en la clasificación tras una decisión de Competición J.J.N. Multa de 5.000 euros por vomitar sobre una aficionada en el Cádiz CF - Leganés Redacción Deportes Cádiz La torre-mirador Tamara García Cádiz resintoniza Con la venia Fernando Santiago Vivir en el centro Alto y claro José Antonio Carrizosa Nadie echará de menos a Puente Cuerda desatada Pilar Vera Magia blanca La Rayuela Lola Quero La fuerza del voto de castigo Crónicas levantiscas Juan M. Marqués Perales Cuerpo sereno U2 confirma un concierto en Sevilla en 2027: cuándo salen las entradas y precios M. H. Muere un hombre electrocutado con la catenaria de un tren en un pueblo de Jaén Jesús Mudarra Almería, Granada, Málaga y Murcia se retuercen por el choque entre África y Eurasia Rafael Espino Un grupo de encapuchados armados con palos ataca la acampada de Granada Juan José Medina Almería desafía el invierno demográfico de España y vuelve a ser la excepción en Andalucía Rafael Espino Dcoop y Acesur compran Deoleo por 520 millones y blindan el liderazgo mundial del aceite para Andalucía Raquel Montenegro Dcoop y Acesur se repartirán los activos de Deoleo para evitar trabas de competencia Raquel Montenegro Del dron al tractor autónomo: la tecnología andaluza busca su sitio en el campo Claudia T. Ferrero La administración concursal de Atelco ve más idónea la oferta de Comfica María Jesús Pereira Tribuna económica El negocio de la manipulación Joaquín Aurioles Vía libre a la elección de los Reyes Magos a través de la Junta de Gobierno Local Arturo Rivera Récord solidario en Cádiz para participar en la XII Marcha contra el Cáncer J.M. Sánchez Reyes La temperatura del mar ayuda a predecir la migración del atún rojo en Cádiz Redacción Diario de Cádiz Cádiz ejercerá de puerto base con el 'Odón de Buen' tras el \"periodo de pruebas\" del barco Pilar Vera Contenido Patrocinado El CN Adaptada Gades, premiado por mejorar la vida de las personas a través del deporte Registran la empresa Deplan Works en Sevilla por una nueva operación de la trama Koldo R. E. Un millar de profesionales de la sanidad piden a la UE medidas contra el calor extremo Agencias Cáritas pide a los partidos medidas contra la precariedad laboral y por la vivienda Fátima Sigüenza El PSOE busca un sitio en Sevilla para que Pedro Sánchez abra la campaña Stella Benot Quién es Cristian Corvillo, el cordobés detenido en el caso Koldo Lourdes Chaparro TECNOLOGÍA Y CIENCIA Motorola estrena el Signature 27, un móvil de gama alta con soporte para GrapheneOS Susana C. Gómez Motorola presenta un reloj con tecnología de Polar y unos auriculares con sonido Bose Susana C. Gómez Una docena de vuelos sufre de nuevo amenazas de bomba en Europa R. M. El Constitucional estudiará el conflicto de competencias sobre el Plan Estatal de Vivienda Mar Castillo Milei equipara ante Sánchez socialismo y fascismo Agencias José Carlos Díez: \"El puerto de Algeciras es la joya de la corona\" Pilar Vera Moscú califica de \"absurdas\" las acusaciones de 'hackeo' de las n"
+          "fichas_con_error": 0
         }
       ],
-      "candidatos": []
+      "candidatos": [
+        {
+          "nombre": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://www.diariodecadiz.es/cadiz/arte-flamenco-juan-medina-llega-fundacion-unicaja-cadiz_0_2008429411.html",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "noticia de prensa (pista)",
+          "hora_inicio": "19:30",
+          "pista_prensa": true,
+          "descripcion_fuente": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz. El guitarrista gaditano ofrece este viernes 6 de noviembre, a las 19:30 horas, un recital de guitarra con entrada libre hasta completar aforo Programación de otoño la Fundación Unicaja de Cádiz",
+          "publicado": "2026-11-05",
+          "pista_capital": false,
+          "fuente_id": 22,
+          "fuente": "Diario de Cádiz – agenda",
+          "provincial": true,
+          "tipo_fuente": "prensa",
+          "detalle_texto": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz Televisión La TDT cambia este 5 de noviembre: qué canales hay que resintonizar y cuándo hacerlo El guitarrista Juan Medina. El guitarrista y compositor gaditano Juan Medina protagonizará un recital de flamenco el próximo viernes 6 de noviembre, a las 19:30 horas con entrada libre hasta completar aforo, en el Centro Fundación Unicaja Cádiz. En esta cita presentará su trabajo discográfico ‘Fugaz’ (2025), una propuesta que explora las posibilidades de la guitarra flamenca a través de composiciones propias y de la fusión con otros estilos como el jazz, el neosoul y las músicas de raíz. Juan Medina, a la guitarra, estará acompañado de su banda de flamenco y jazz, integrada por Alba Molina al cante, Óscar Manzano a la guitarra acompañante y Poti Trujillo a la percusión. Juntos darán forma a un recital que combina la raíz flamenca con nuevas sonoridades y refleja la personalidad musical del guitarrista. El guitarrista Juan Medina, artísticamente conocido durante años como Juanito Makandé , es un destacado guitarrista y compositor español, reconocido por su enfoque innovador dentro del género flamenco. Desde temprana edad, el músico se sumergió en el mundo de la guitarra de forma autodidacta, absorbiendo conocimientos de maestros como Rycardo Moreno y otros guitarristas locales e internacionales. Entre sus proyectos destacados se encuentra el lanzamiento de un EP titulado ‘Septiembre’, en el cual fusiona la guitarra con el piano en cuatro temas, tres de ellos composiciones originales y uno en colaboración con la talentosa Alba Molina. Actualmente, Juan Medina se encuentra inmerso en la preparación de su primer disco como solista, prometiendo una obra que refleje su pasión por la música y su innovador enfoque en la fusión de estilos, con una predilección por el flamenco y el jazz. Esta actuación se enmarca en el ciclo de artes escénicas del Centro Fundación Unicaja Cádiz. Tras el concierto de Juan Medina, la programación continúa el 10 de diciembre a las 19:30 horas con un recital de piano de Chico Pérez. El músico y compositor es uno de los pianistas y compositores más reconocidos en nuestro país. Con un estilo único y versátil, ha pisado los escenarios más importantes del continente y ha llevado su música por los festivales de flamenco y jazz de mayor prestigio en nuestro país. Temas relacionados Últimas noticias Cádiz Vox Cádiz pide aparcamiento libre en la tapia del cementerio en horario labo",
+          "imagen_oficial": null
+        },
+        {
+          "nombre": "Melendi estará el 13 de agosto en Concert Music Festival",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://www.diariodecadiz.es/chiclana/melendi-estara-13-agosto-concert_0_2008429058.html",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "noticia de prensa (pista)",
+          "hora_inicio": null,
+          "pista_prensa": true,
+          "descripcion_fuente": "Music Festival. El artista asturiano presentará en directo ‘Pop Rock’ Las entradas podrán adquirirse a partir del viernes 6 de noviembre Camilo volverá a Concert Music Festival en Chiclana con su nueva gira de 2027",
+          "publicado": "2026-11-05",
+          "pista_capital": false,
+          "fuente_id": 22,
+          "fuente": "Diario de Cádiz – agenda",
+          "provincial": true,
+          "tipo_fuente": "prensa",
+          "detalle_texto": "Melendi estará el 13 de agosto en Concert Music Festival Televisión La TDT cambia este 5 de noviembre: qué canales hay que resintonizar y cuándo hacerlo El cantante participará en esta décima edición del festival. Concert Music Festival ha anunciado a Melendi como nueva confirmación de la décima edición, que se celebrará durante los meses de julio y agosto de 2027 en el poblado marinero de Sancti Petri. El artista asturiano estará el próximo 13 de agosto presentando en directo ‘Pop Rock’, su último álbum de estudio, con el que recupera el sonido más rockero y desenfadado que ya forma parte de su ADN. Las guitarras vuelven a cobrar protagonismo en un trabajo que reúne canciones como ‘No Me Des Más La Tabarra’, ‘Mentiras Arriesgadas’ y ‘Veneno y Arena’, manteniendo la energía, las letras directas y la personalidad vocal que han definido su trayectoria. Desde su debut en 2003 con ‘Sin noticias de Holanda’, que alcanzó cuatro discos de platino, Melendi ha construido una carrera que suma más de 3,5 millones de ejemplares vendidos y 24 discos de platino en España. Entre sus hitos destacan su nominación a los Latin GRAMMY en 2017 por ‘Desde que estamos juntos’ y el éxito de ‘20 años sin noticias’, el proyecto con el que celebró sus dos décadas de trayectoria y que superó las 150.000 entradas vendidas, con 14 de sus 16 conciertos agotados. Melendi se suma así al cartel de esta X edición de Concert Music Festival, en el que se han confirmado hasta ahora dos fechas de David Bisbal (24 y 25 de julio), Camilo(17 de julio) y La Oreja de Van Gogh(10 de agosto). Las entradas para el concierto de Melendi estarán disponibles mañana viernes 6 de noviembre a partir de las 10.00 horas en Ticketmaster. Melendi estará el 13 de agosto en Concert Music Festival Chiclana plantea la implantación de una tasa turística en temporada alta El juez Miguel Pasquau presenta el sábado en el Museo de Chiclana ‘El oficio de decidir’ La Cámara de Cuentas revisará el remanente de tesorería del Ayuntamiento de Chiclana El Portu se despide del Poli Moreno reclama al Gobierno que financie el medicamento para tratar la piel de mariposa Adelante vuelve a criticar la política de aparcamientos de Bruno García en Cádiz Así será el homenaje a Jesús de Miguel en el partido Cádiz CF - Oviedo El Cádiz CF se hunde aún más en la clasificación tras una decisión de Competición Una profunda borrasca llega a Cádiz: Aemet avisa de las zonas con más lluvia Así ha hundido la Armada al antiguo patrullero 'Infanta El",
+          "imagen_oficial": null
+        },
+        {
+          "nombre": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://www.diariodecadiz.es/cadiz/arte-flamenco-juan-medina-llega-fundacion-unicaja-cadiz_0_2008429411.html",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "noticia de prensa (pista)",
+          "hora_inicio": "19:30",
+          "pista_prensa": true,
+          "descripcion_fuente": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz. El guitarrista gaditano ofrece este viernes 6 de noviembre, a las 19:30 horas, un recital de guitarra con entrada libre hasta completar aforo Programación de otoño la Fundación Unicaja de Cádiz",
+          "publicado": "2026-11-05",
+          "pista_capital": false,
+          "fuente_id": 22,
+          "fuente": "Diario de Cádiz – agenda",
+          "provincial": true,
+          "tipo_fuente": "prensa",
+          "detalle_texto": "El arte flamenco de Juan Medina llega a la Fundación Unicaja de Cádiz Televisión La TDT cambia este 5 de noviembre: qué canales hay que resintonizar y cuándo hacerlo El guitarrista Juan Medina. El guitarrista y compositor gaditano Juan Medina protagonizará un recital de flamenco el próximo viernes 6 de noviembre, a las 19:30 horas con entrada libre hasta completar aforo, en el Centro Fundación Unicaja Cádiz. En esta cita presentará su trabajo discográfico ‘Fugaz’ (2025), una propuesta que explora las posibilidades de la guitarra flamenca a través de composiciones propias y de la fusión con otros estilos como el jazz, el neosoul y las músicas de raíz. Juan Medina, a la guitarra, estará acompañado de su banda de flamenco y jazz, integrada por Alba Molina al cante, Óscar Manzano a la guitarra acompañante y Poti Trujillo a la percusión. Juntos darán forma a un recital que combina la raíz flamenca con nuevas sonoridades y refleja la personalidad musical del guitarrista. El guitarrista Juan Medina, artísticamente conocido durante años como Juanito Makandé , es un destacado guitarrista y compositor español, reconocido por su enfoque innovador dentro del género flamenco. Desde temprana edad, el músico se sumergió en el mundo de la guitarra de forma autodidacta, absorbiendo conocimientos de maestros como Rycardo Moreno y otros guitarristas locales e internacionales. Entre sus proyectos destacados se encuentra el lanzamiento de un EP titulado ‘Septiembre’, en el cual fusiona la guitarra con el piano en cuatro temas, tres de ellos composiciones originales y uno en colaboración con la talentosa Alba Molina. Actualmente, Juan Medina se encuentra inmerso en la preparación de su primer disco como solista, prometiendo una obra que refleje su pasión por la música y su innovador enfoque en la fusión de estilos, con una predilección por el flamenco y el jazz. Esta actuación se enmarca en el ciclo de artes escénicas del Centro Fundación Unicaja Cádiz. Tras el concierto de Juan Medina, la programación continúa el 10 de diciembre a las 19:30 horas con un recital de piano de Chico Pérez. El músico y compositor es uno de los pianistas y compositores más reconocidos en nuestro país. Con un estilo único y versátil, ha pisado los escenarios más importantes del continente y ha llevado su música por los festivales de flamenco y jazz de mayor prestigio en nuestro país. Temas relacionados Últimas noticias Cádiz Vox Cádiz pide aparcamiento libre en la tapia del cementerio en horario labo",
+          "imagen_oficial": null
+        }
+      ]
     },
     {
       "id": 23,
@@ -5309,7 +5688,7 @@
         {
           "url": "https://www.lavozdigital.es/cadiz/",
           "http": 200,
-          "texto": "Cádiz. Noticias y actualidad informativa de Cádiz | Lavozdigital.es Saltar al contenido Cádiz Navidad Estas son las normas para celebrar zambombas en Cádiz: fechas, horarios y permisos para esta Navidad Las celebraciones familiares y las populares tradicionales estarán exentas de autorización Ana Mendoza South Series Festival 'Alguien debería prohibir los domingos por la tarde', de Isabel Coixet, Premio Ciudad de Cádiz del South Series 'Blindspot Berlin' y 'The Oligarch and The Art Dealer' se alzan con los premios a Mejor Serie de Ficción y No Ficción del festival La Voz | 05/11/2026 11:51h. Ver 20 fotos Ver 20 fotos José Luis García Cossío, 'Selu', reconocido como Hijo Predilecto. (Nacho Frade) Fotos Los nuevos Hijos Predilectos y Adoptivos de Cádiz Reconocimiento al talento, la trayectoria y el compromiso con la ciudad en una gala muy emocionante Nacho Frade | 05/11/2026 09:30h. Foto de familia de los galardonados este miércoles en el Palacio de Congresos. (Nacho Frade) Cádiz Cádiz amplía su familia en una ceremonia cargada de emoción y reivindicación El Palacio de Congresos acogió el homenaje a los nuevos Hijos e Hijas Predilectas y Adoptivas, y Medallas de Oro de la ciudad José Manuel Calviño Merino | 04/11/2026 23:20h. Cartelería del South Series en las calles de Cádiz. (L.V.) SOUTH SERIES FESTIVAL El South Series cierra su cuarta edición con un balance «muy positivo» y mira ya a un futuro «muy especial» El director del festival, Carles Montiel, celebra la gran acogida del público gaditano y confirma que el evento ya tiene garantizadas su quinta, sexta y séptima edición Rubén López | 04/11/2026 16:02h. Tandas de karting para adulto o niño Karting Jerez 17,90€ Ver Oferta Conoce Cádiz en autobús panorámico ¡Nuevas fechas! City Sightseeing 3€ Ver Oferta Pulido de faros delanteros Automoción Le Mans | Cádiz 14€ Ver Oferta Ver 30 fotos Ver 30 fotos EN IMÁGENES Fotos: Las nuevas caras de la mítica serie 'Física o Química' se lucen en Cádiz Los personajes del colegio Zurbarán visitan South Series Festival donde se ha estrenado el primer capítulo de la temporada La Voz de Cádiz | 04/11/2026 Zona de la Punta. TRIBUNALES Absuelto tras haber sido condenado a seis años de cárcel de agredir a un portero de una discoteca de la Punta El TSJA lo exculpa al considerar que no está suficientemente probada su autoría debido a los errores de los testigos en las ruedas de reconocimiento que se hicieron María Almagro | 04/11/2026 Cádiz Cádiz ultima el estudio para revisar la Zona de Gran Afluencia Turística y plantear cambios en su aplicación La Universidad de Cádiz prepara informe que servirá de base para solicitar a la Junta cambios en la delimitación y el periodo de aplicación ya que actualmente abarca toda la ciudad Ana Mendoza | 04/11/2026 Ver 73 fotos Ver 73 fotos Álvaro Morte recibe el Premio de Honor este martes 3 de noviembre. (Nacho Frade) Cádiz Alfombra roja de South Series: Álvaro Morte recibe el Premio de Honor en el Falla El Festival encara su recta final con la celebración este miércoles de la Gala de Clausura Nacho Frade | 04/11/2026 Rafael Ricardi, en una imagen captada cuando recibió la indemnización en 2012. (LA VOZ) SOUTH SERIES FESTIVAL CÁDIZ El inocente culpable Ricardi vuelve como serie de televisión: «El engranaje del sistema fue contra él» El caso del portuense que estuvo 13 años en prisión por una violación que no cometió centra ahora un 'true crime' que se presenta y estrena en South Series Festival María Almagro | 03/11/2026 Momento del sorteo celebrado en el salón de plenos del Ayuntamiento de Cádiz. (L.V.) CÁDIZ Cádiz sortea los presidentes y vocales de las mesas electorales del 29N: cómo saber si soy el elegido El Ayuntamiento ha celebrado un pleno extraordinario para elegir a los representantes de las 148 mesas electorales que tendrá la capital gaditana en las próximas Elecciones Generales Rubén López | 03/11/2026 Zona naranja en Cádiz. (L.V.) CÁDIZ Cádiz aprueba su nueva ordenanza de aparcamiento con tasas más bajas para residentes El Ayuntamiento plantea flexibilizar la Zona de Bajas Emisiones de cara a su implantación definitiva en 2027 Rubén López | 03/11/2026 La Policía, en el trastero donde guardaba parte de la droga. (LA VOZ) SUCESOS Desactivado un cuarto 'narcopiso' en Cádiz capital en menos de un mes: el último usaba un trastero como almacén de la droga La Policía Nacional detiene a otro 'camello' en la ciudad y le incauta además de cocaína, 15.000 euros en efectivo María Almagro | 03/11/2026 El Palacio de Congresos recibe este miércoles a los hijos predilectos y adoptivos de 2026. (Nacho Frade) Cádiz Talento, trayectoria y compromiso con Cádiz, las señas de identidad de sus nuevos Hijos Predilectos y Adoptivos El Palacio de Congresos de Cádiz acoge este miércoles el acto de entrega de las distinciones de este 2026 Ana Mendoza | 03/11/2026 Comienza el trabajo arqueológico previo a la construcción del aparcamiento subterráneo del Parque de la Muralla en Cádiz. (LA VOZ) CÁDIZ Comienzan los trabajos del parking del parque de la Muralla que costará 23 millones de euros La obra obliga a hacer un gran trabajo arqueológico preventivo en este espacio protegido La Voz de Cádiz | 03/11/2026 Las zambombas afrontan el reto de crecer sin perder su esencia tradicional. (La Voz) Morir de éxito, ¿están perdiendo las zambombas su esencia? El adelanto de las celebraciones, la proliferación de eventos y la masificación turística alimentan el debate sobre una tradición que amenaza con convertirse en un producto de consumo navideño Luis Miguel Morales | 03/11/2026 Ver más noticias"
+          "texto": "Cádiz. Noticias y actualidad informativa de Cádiz | Lavozdigital.es Saltar al contenido Cádiz Espectáculo de la de la compañía Etcétera. (La Voz) Cultura El flamenco gana peso en el Festival de Cádiz de Música Española La cita, que arrancará el próximo viernes 13 de noviembre, acoge el regreso del Ballet Flamenco de Andalucía al Festival, tras varias ediciones de ausencia La Voz Presentación de la XII Marcha contra el Cáncer en Cádiz. (La Voz) Cádiz Casi 6.000 personas participarán en Cádiz en la Carrera Contra el Cáncer Las inscripciones se podrán llevar a cabo hasta el día de la carrera, el domingo 15 de noviembre La Voz | 05/11/2026 18:00h. Navidad Estas son las normas para celebrar zambombas en Cádiz: fechas, horarios y permisos para esta Navidad Las celebraciones familiares y las populares tradicionales estarán exentas de autorización Ana Mendoza | 05/11/2026 13:39h. South Series Festival 'Alguien debería prohibir los domingos por la tarde', de Isabel Coixet, Premio Ciudad de Cádiz del South Series 'Blindspot Berlin' y 'The Oligarch and The Art Dealer' se alzan con los premios a Mejor Serie de Ficción y No Ficción del festival La Voz | 05/11/2026 11:51h. Ver 20 fotos Ver 20 fotos José Luis García Cossío, 'Selu', reconocido como Hijo Predilecto. (Nacho Frade) Fotos Los nuevos Hijos Predilectos y Adoptivos de Cádiz Reconocimiento al talento, la trayectoria y el compromiso con la ciudad en una gala muy emocionante Nacho Frade | 05/11/2026 09:30h. Tandas de karting para adulto o niño Karting Jerez 17,90€ Ver Oferta Conoce Cádiz en autobús panorámico ¡Nuevas fechas! City Sightseeing 3€ Ver Oferta Pulido de faros delanteros Automoción Le Mans | Cádiz 14€ Ver Oferta Foto de familia de los galardonados este miércoles en el Palacio de Congresos. (Nacho Frade) Cádiz Cádiz amplía su familia en una ceremonia cargada de emoción y reivindicación El Palacio de Congresos acogió el homenaje a los nuevos Hijos e Hijas Predilectas y Adoptivas, y Medallas de Oro de la ciudad José Manuel Calviño Merino | 04/11/2026 Cartelería del South Series en las calles de Cádiz. (L.V.) SOUTH SERIES FESTIVAL El South Series cierra su cuarta edición con un balance «muy positivo» y mira ya a un futuro «muy especial» El director del festival, Carles Montiel, celebra la gran acogida del público gaditano y confirma que el evento ya tiene garantizadas su quinta, sexta y séptima edición Rubén López | 04/11/2026 Ver 30 fotos Ver 30 fotos EN IMÁGENES Fotos: Las nuevas caras de la mítica serie 'Física o Química' se lucen en Cádiz Los personajes del colegio Zurbarán visitan South Series Festival donde se ha estrenado el primer capítulo de la temporada La Voz de Cádiz | 04/11/2026 Zona de la Punta. TRIBUNALES Absuelto tras haber sido condenado a seis años de cárcel de agredir a un portero de una discoteca de la Punta El TSJA lo exculpa al considerar que no está suficientemente probada su autoría debido a los errores de los testigos en las ruedas de reconocimiento que se hicieron María Almagro | 04/11/2026 Cádiz Cádiz ultima el estudio para revisar la Zona de Gran Afluencia Turística y plantear cambios en su aplicación La Universidad de Cádiz prepara informe que servirá de base para solicitar a la Junta cambios en la delimitación y el periodo de aplicación ya que actualmente abarca toda la ciudad Ana Mendoza | 04/11/2026 Ver 73 fotos Ver 73 fotos Álvaro Morte recibe el Premio de Honor este martes 3 de noviembre. (Nacho Frade) Cádiz Alfombra roja de South Series: Álvaro Morte recibe el Premio de Honor en el Falla El Festival encara su recta final con la celebración este miércoles de la Gala de Clausura Nacho Frade | 04/11/2026 Rafael Ricardi, en una imagen captada cuando recibió la indemnización en 2012. (LA VOZ) SOUTH SERIES FESTIVAL CÁDIZ El inocente culpable Ricardi vuelve como serie de televisión: «El engranaje del sistema fue contra él» El caso del portuense que estuvo 13 años en prisión por una violación que no cometió centra ahora un 'true crime' que se presenta y estrena en South Series Festival María Almagro | 03/11/2026 Momento del sorteo celebrado en el salón de plenos del Ayuntamiento de Cádiz. (L.V.) CÁDIZ Cádiz sortea los presidentes y vocales de las mesas electorales del 29N: cómo saber si soy el elegido El Ayuntamiento ha celebrado un pleno extraordinario para elegir a los representantes de las 148 mesas electorales que tendrá la capital gaditana en las próximas Elecciones Generales Rubén López | 03/11/2026 Zona naranja en Cádiz. (L.V.) CÁDIZ Cádiz aprueba su nueva ordenanza de aparcamiento con tasas más bajas para residentes El Ayuntamiento plantea flexibilizar la Zona de Bajas Emisiones de cara a su implantación definitiva en 2027 Rubén López | 03/11/2026 La Policía, en el trastero donde guardaba parte de la droga. (LA VOZ) SUCESOS Desactivado un cuarto 'narcopiso' en Cádiz capital en menos de un mes: el último usaba un trastero como almacén de la droga La Policía Nacional detiene a otro 'camello' en la ciudad y le incauta además de cocaína, 15.000 euros en efectivo María Almagro | 03/11/2026 El Palacio de Congresos recibe este miércoles a los hijos predilectos y adoptivos de 2026. (Nacho Frade) Cádiz Talento, trayectoria y compromiso con Cádiz, las señas de identidad de sus nuevos Hijos Predilectos y Adoptivos El Palacio de Congresos de Cádiz acoge este miércoles el acto de entrega de las distinciones de este 2026 Ana Mendoza | 03/11/2026 Ver más noticias"
         }
       ],
       "candidatos": []
@@ -5320,12 +5699,34 @@
       "estado": "ok",
       "paginas": [
         {
-          "url": "https://www.cadizdirecto.com/",
+          "url": "https://www.cadizdirecto.com/feed",
           "http": 200,
-          "texto": "Cádiz Directo - Noticias de Cádiz y Provincia Noticias Así es el vídeo que vende Cádiz como destino de rodajes a golpe de trolas cinéfilas José Luis Porquicho Prada JP Financial vuelve a rotular el Estadio Nueva Mirandilla, esta vez en la esquina señalada por el Ayuntamiento José Luis Porquicho Prada El Ayuntamiento de Cádiz publica el bando para la celebración de zambombas José Luis Porquicho Prada Así se comportó el paro en octubre en los municipios de la provincia de Cádiz José Luis Porquicho Prada Colectivos sociales denuncian la retirada de bancos junto al albergue municipal de Cádiz: \"Es arquitectura hostil\" José Luis Porquicho Prada Pasado, presente y futuro de IU Chiclana se dan la mano en el 40 aniversario de la formación izquierdista José Manuel García Bautista La Guardia Civil descubre ocho atunes rojos ocultos bajo el agua en el puerto de Tarifa, pesaban 300 kilos José Manuel García Bautista La Policía Nacional rescata a una persona con movilidad reducida de un incendio en una vivienda de El Puerto José Manuel García Bautista Cuarenta años del accidente que dejó tres trabajadores muertos en Astilleros de Cádiz La taberna de Cádiz que abrió en 1955 y ahora recibe un reconocimiento por su valor turístico José Manuel García Bautista El verdadero Sandokán era de Cádiz (y no hablamos de Juan José) José Luis Porquicho Prada Compra un rasca de la ONCE camino del trabajo en Chipiona y gana 150.000 euros La lluvia da una tregua a Cádiz antes de la llegada de una borrasca José Luis Porquicho Prada La Cámara de Cádiz estrena los exámenes oficiales de Oxford para acreditar el nivel de inglés, estas son las fechas y precios José Manuel García Bautista Te Puede Interesar Alertan de subidas de hasta el doble en el precio de las flores por Todos los Santos y piden frenar los abusos José Manuel García Bautista Cuidado si recibes este mensaje por WhatsApp, una falsa votación puede dar acceso a tu cuenta a los estafadores José Manuel García Bautista Ni el pan más caro ni el de panadería tiene por qué ser mejor, cómo elegir uno de calidad José Manuel García Bautista"
+          "fichas_con_error": 0
         }
       ],
-      "candidatos": []
+      "candidatos": [
+        {
+          "nombre": "Cinco detenidos en una operación contra la venta de cocaína y hachís en Jimena y El Secadero",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://www.cadizdirecto.com/cadiz/cinco-detenidos-en-una-operacion-contra-la-venta-de-cocaina-y-hachis-en-jimena-y-el-secadero/",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "noticia de prensa (pista)",
+          "hora_inicio": null,
+          "pista_prensa": true,
+          "descripcion_fuente": "rse los resultados completos de las actuaciones policiales. Un amplio despliegue policial desde primera hora de la mañana La operación comenzó durante las primeras horas del miércoles con la participación de efectivos de la Guardia Civil, que actuaron de manera coordinada en distintos puntos de los dos municipios. El despliegue tuvo como objetivo in",
+          "publicado": "2026-11-05",
+          "pista_capital": null,
+          "fuente_id": 24,
+          "fuente": "Cádiz Directo",
+          "provincial": true,
+          "tipo_fuente": "prensa",
+          "detalle_texto": "Cinco detenidos en una operación contra la venta de cocaína y hachís en Jimena y El Secadero Agentes de la Guardia Civil en Jimena y El Secadero. Cádiz Cinco detenidos en una operación contra la venta de cocaína y hachís en Jimena y El Secadero La Guardia Civil despliega unos 70 agentes y registra tres inmuebles en una investigación sobre el tráfico de drogas a pequeña escala entre Cádiz y Málaga Escrito por: José Manuel García Bautista 05/11/2026 Actualizado: 05/11/2026 (09:40 AM) Añadir Cádiz Directo en Síguenos en Google La Guardia Civil ha detenido a cinco personas durante una operación contra la presunta venta de cocaína y hachís desarrollada este miércoles, 4 de noviembre, en Jimena, en la provincia de Cádiz, y El Secadero, núcleo de población perteneciente al municipio malagueño de Casares. El dispositivo ha movilizado a unos 70 agentes y ha permitido realizar tres registros en inmuebles de ambas localidades. La intervención forma parte de una investigación centrada en el tráfico de estupefacientes a pequeña escala, aunque todavía quedan por conocerse los resultados completos de las actuaciones policiales. Un amplio despliegue policial desde primera hora de la mañana La operación comenzó durante las primeras horas del miércoles con la participación de efectivos de la Guardia Civil, que actuaron de manera coordinada en distintos puntos de los dos municipios. Te Puede Interesar Exigen a la Junta más personal especializado para atender al alumnado de las aulas de Educación Especial en Cádiz Shakira elige a Cadiwoman y lleva el Carnaval de Cádiz a dos de sus conciertos en Madrid El despliegue tuvo como objetivo intervenir contra la presunta distribución de sustancias estupefacientes destinadas a la venta directa a consumidores. La investigación se centra concretamente en el suministro de hachís y cocaína, dos drogas cuya comercialización constituye el principal objeto de las actuaciones. La movilización de aproximadamente 70 agentes refleja la dimensión del dispositivo organizado para desarrollar las intervenciones de forma simultánea en ambas localidades. Por el momento, no se han facilitado detalles sobre la identidad de las cinco personas arrestadas, sus edades o el papel que presuntamente desempeñaban en la actividad investigada. Tampoco ha trascendido si todos los detenidos fueron localizados en los inmuebles registrados o si alguna de las detenciones se produjo en otros puntos durante el desarrollo del operativo. Tres registros entre El Secadero y",
+          "imagen_oficial": null
+        }
+      ]
     },
     {
       "id": 25,
@@ -5442,10 +5843,71 @@
         {
           "url": "https://www.fundacionunicaja.com/",
           "http": 200,
-          "texto": "Inicio - Fundación Unicaja Ir al contenido Pensemos el mañana Un proyecto de Fundación Unicaja y El País para debatir sobre los desafíos de la educación del futuro a través de la mirada de diferentes expertos y divulgadores. Ver más Fundatia: invirtiendo en el futuro de Andalucía​ Conoce Fundatia, el vehículo de inversión 100% propiedad de Fundación Unicaja que impulsa el desarrollo empresarial y la sostenibilidad de su obra social. Ver más Descarga la APP del Club de Voluntarios Conecta y deja tu huella a través de nuestro Club de Voluntarios. Descarga nuestra nueva aplicación, hazte voluntario y descubre todas las actividades en las que puedes involucrarte. Ver más Alójate en el Centro de Emprendimiento Fundación Unicaja-Málaga Tech Park ¿Tienes un proyecto innovador y necesitas un espacio para hacer despegar tu idea? Alójate gratuitamente en nuestro centro de emprendimiento y convive con otras startups. Ver más Luz y Verso: un viaje por la historia del arte a través de los sentidos Fundación Unicaja te acerca el legado de Velázquez, Goya, Murillo o Sorolla en un espectáculo sensorial que combina pintura, poesía y música en directo en un espectacular domo 360º. Ver más Pensemos el mañana Un proyecto de Fundación Unicaja y El País para debatir sobre los desafíos de la educación del futuro a través de la mirada de diferentes expertos y divulgadores. Ver más Fundatia: invirtiendo en el futuro de Andalucía​ Conoce Fundatia, el vehículo de inversión 100% propiedad de Fundación Unicaja que impulsa el desarrollo empresarial y la sostenibilidad de su obra social. Ver más Descarga la APP del Club de Voluntarios Conecta y deja tu huella a través de nuestro Club de Voluntarios. Descarga nuestra nueva aplicación, hazte voluntario y descubre todas las actividades en las que puedes involucrarte. Ver más Alójate en el Centro de Emprendimiento Fundación Unicaja-Málaga Tech Park ¿Tienes un proyecto innovador y necesitas un espacio para hacer despegar tu idea? Alójate gratuitamente en nuestro centro de emprendimiento y convive con otras startups. Ver más Descubre el nuevo Centro Fundación Unicaja Granada Un nuevo espacio para la ciudadanía ubicado en el rehabilitado edificio Rey Soler, que abre sus puertas con las exposiciones «La sombra de Goya» y la experiencia inmersiva «Los sentidos de Andalucía», y que ofrecerá actividades culturales, sociales y educativas. Ver más Luz y Verso: un viaje por la historia del arte a través de los sentidos Fundación Unicaja te acerca el legado de Velázquez, Goya, Murillo o Sorolla en un espectáculo sensorial que combina pintura, poesía y música en directo en un espectacular domo 360º. Ver más Fundatia: invirtiendo en el futuro de Andalucía​ Conoce Fundatia, el vehículo de inversión 100% propiedad de Fundación Unicaja que impulsa el desarrollo empresarial y la sostenibilidad de su obra social. Ver más Alójate en el Centro de Emprendimiento Fundación Unicaja-Málaga Tech Park ¿Tienes un proyecto innovador y necesitas un espacio para hacer despegar tu idea? Alójate gratuitamente en nuestro centro de emprendimiento y convive con otras startups. Ver más Descarga la APP del Club de Voluntarios Conecta y deja tu huella a través de nuestro Club de Voluntarios. Descarga nuestra nueva aplicación, hazte voluntario y descubre todas las actividades en las que puedes involucrarte. Ver más Luz y Verso: un viaje por la historia del arte a través de los sentidos Fundación Unicaja te acerca el legado de Velázquez, Goya, Murillo o Sorolla en un espectáculo sensorial que combina pintura, poesía y música en directo en un espectacular domo 360º. Ver más Fundatia: invirtiendo en el futuro de Andalucía​ Conoce Fundatia, el vehículo de inversión 100% propiedad de Fundación Unicaja que impulsa el desarrollo empresarial y la sostenibilidad de su obra social. Ver más Abiertas las inscripciones para nuestros Campus 2026 Activa tu modo vacaciONes y vive una experiencia inolvidable en nuestros campamentos: Campus Nieve (Granada), Campus Sabinillas, Campus Baloncesto (Málaga), Campus Náutico (El Puerto de Santa María), Campus Ronda, English Camp y Tech&Play Camp (Ronda). Inscríbete Descarga la APP del Club de Voluntarios Conecta y deja tu huella a través de nuestro Club de Voluntarios. Descarga nuestra nueva aplicación, hazte voluntario y descubre todas las actividades en las que puedes involucrarte. Ver más Alójate en el Centro de Emprendimiento Fundación Unicaja-Málaga Tech Park ¿Tienes un proyecto innovador y necesitas un espacio para hacer despegar tu idea? Alójate gratuitamente en nuestro centro de emprendimiento y convive con otras startups. Ver más Pensemos el mañana un proyecto para debatir sobre los desafíos de la educación del futuro Accede Nuevo portal de reservas de Fundación Unicaja Reserva tu plaza en actividades, talleres, visitas y eventos de forma rápida y sencilla. Reservar Exposición inmersiva 'Los sentidos de Andalucía' Conecta con el patrimonio andalusí y descubre qué huellas de aquella sociedad siguen formando parte de nuestra Andalucía actual. Descubre nuestra nueva exposición en el Centro Fundación Unicaja Granada. Reservar Suscríbete a nuestra Newsletter Sé el primero en conocer nuestras novedades, eventos y acceder a contenido personalizado. Acepto los Términos y Condiciones* Enviar 10º Aniversario Fundación Unicaja celebra su 10º Aniversario con un programa especial de actividades por toda Andalucía. Diez años de ilusión al servicio de la sociedad que queremos compartir contigo en nuestra espacio conmemorativo que recorrerá las ocho capitales de provincia y con encuentros y conciertos en nuestros centros culturales. Programación Convocatorias extraordinarias de Acción Social y Medio Ambiente Más información Portadores de Ilusión ver Agenda Ver toda la agenda No se encontraron eventos con los filtros seleccionados. Exposiciones 05.11.26 — 30.05.27 Exposición ‘Matías Di Carlo. La alquimia del vacío’ Conciertos 06.11.26 Recital de flamenco de Juan Medina Literatura 06.11.26 Pre"
+          "fichas_con_error": 0
         }
       ],
-      "candidatos": []
+      "candidatos": [
+        {
+          "nombre": "Recital de flamenco de Juan Medina",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://www.fundacionunicaja.com/event/recital-de-flamenco-de-juan-medina/",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "acto del Centro Fundación Unicaja",
+          "hora_inicio": "19:30",
+          "horario_texto": "19:30 h",
+          "direccion": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+          "lugar": "Centro Fundación Unicaja Cádiz",
+          "pista_capital": true,
+          "fuente_id": 33,
+          "fuente": "Fundación Unicaja – agenda cultural",
+          "provincial": false,
+          "tipo_fuente": "oficial",
+          "detalle_texto": "Recital de flamenco de Juan Medina - Fundación Unicaja Ir al contenido AGENDA Recital de flamenco de Juan Medina Recital de flamenco de Juan Medina Conciertos El Centro Fundación Unicaja Cádiz ofrece un recital de flamenco del músico Juan Medina el próximo 6 de noviembre a las 19:30 horas . La entrada es libre hasta completar aforo. Juan Medina , artísticamente conocido durante años como Juanito Makandé , es un destacado músico, compositor y guitarrista español que lideró la renovación del flamenco underground. Tras una exitosa carrera en solitario marcada por la fusión, ha regresado a sus raíces bajo su nombre real para centrarse en la guitarra instrumental, mezclando el flamenco puro con el jazz y el neosoul en su aclamado disco ‘ FUGAZ ‘ . 06.11.2026 06.11.2026 06.11.2026 Lugar Centro Fundación Unicaja Cádiz (C/San Francisco, 26) Precios Entrada libre hasta completar aforo Organizador Fundación Unicaja clararios octubre 30, 2026 8:28 am Compartir Eventos relacionados Ver toda la agenda Conciertos 13.11.26 13.11.26 Concierto de Paula Coronas dentro del ciclo ‘Miradas al Sur’ Centro Fundación Unicaja Cádiz (C/San Francisco, 26) Exposiciones 05.11.26 30.05.27 Exposición ‘Matías Di Carlo. La alquimia del vacío’ Centro Fundación Unicaja Ronda ( C/ Sor Ángela de la Cruz) y Museo Fundación Unicaja Joaquín Peinado (Plaza del Gigante s/n) Conferencias 10.11.26 10.11.26 Encuentro con Alejandro Jiménez Serrano dentro del ciclo ‘Aula de Cultura’ Biblioteca Pública Provincial (C/Santo Reino, 1) Conciertos 12.11.26 12.11.26 Concierto ‘Officium defuctorum’ de la Capilla de Música Maestro Iribarren Catedral de Málaga Conciertos 26.11.26 26.11.26 Recital de flamenco de May Fernández dentro del ciclo ‘Andalucía es flamenca’ Centro Fundación Unicaja Cádiz (C/San Francisco, 26) Conciertos 28.11.26 28.11.26 Concierto ‘Venezuela, Caribe y músicas del mundo’ de ‘Tomasito y sus desensamblados’ Sala Fundación Unicaja María Cristina (C. Marqués de Valdecañas, 2) Ver toda la agenda El Centro Fundación Unicaja Cádiz ofrece un recital de flamenco del músico Juan Medina el próximo 6 de noviembre a las 19:30 horas . La entrada es libre hasta completar aforo. Juan Medina , artísticamente conocido durante años como Juanito Makandé , es un destacado músico, compositor y guitarrista español que lideró la renovación del flamenco underground. Tras una exitosa carrera en solitario marcada por la fusión, ha regresado a sus raíces bajo su nombre real para centrarse en la guitarra instrumental",
+          "imagen_oficial": {
+            "archivo": "img/event-recital-de-flamenco-de-juan-medina.jpg",
+            "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/DSCF2784.jpg",
+            "fuente": "www.fundacionunicaja.com",
+            "pagina": "https://www.fundacionunicaja.com/event/recital-de-flamenco-de-juan-medina/",
+            "ancho": 1200,
+            "alto": 1600,
+            "alt_text": "",
+            "tipo_imagen": "oficial"
+          }
+        },
+        {
+          "nombre": "Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/",
+          "multidia": true,
+          "permanente": false,
+          "categoria_fuente": "exposición larga (relleno)",
+          "hora_inicio": null,
+          "horario_texto": "Todo el día",
+          "direccion": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+          "lugar": "Centro Fundación Unicaja Cádiz",
+          "pista_capital": true,
+          "fuente_id": 33,
+          "fuente": "Fundación Unicaja – agenda cultural",
+          "provincial": false,
+          "tipo_fuente": "oficial",
+          "detalle_texto": "Exposición 'Guillermo Pérez Villalta'. El Laboratorio infinito' - Fundación Unicaja Ir al contenido AGENDA Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’ Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’ Exposiciones Fundación Unicaja presenta su nueva exposición ‘Guillermo Pérez Villalta. El Laboratorio infinito’ que propone una aproximación singular a la trayectoria de uno de los artistas más relevantes del arte español contemporáneo. La muestra pone el foco en los procesos creativos que han definido la producción del creador tarifeño a lo largo de más de cinco décadas a través de un recorrido por más de cincuenta obras entre pinturas, esculturas, dibujos y mobiliario o joyas. La muestra se plantea como un recorrido por el trabajo de este creador excepcional, figura esencial en la renovación de la figuración española desde los años setenta. Integrante destacado de la denominada nueva figuración madrileña, su obra ha sabido construir un universo propio en el que convergen tradición y modernidad. La exposición ‘Guillermo Pérez Villalta. El laboratorio infinito’ invita a descubrir la coherencia y la inagotable capacidad inventiva de un creador que ha hecho de la curiosidad intelectual una forma de conocimiento. La propuesta se concibe como una inmersión en el taller intelectual del artista; un espacio donde las ideas se transforman en formas, donde el dibujo antecede a la pintura, y donde la geometría dialoga con la intuición. Guillermo Pérez-Villalta Nacido en Tarifa en 1948, Guillermo Pérez-Villalta ha desarrollado una producción que desborda los límites de la pintura para adentrarse en territorios tan diversos como la escultura, el dibujo o los proyectos arquitectónicos. Su relevancia histórica y artística ha sido reconocida con numerosos galardones, entre ellos el Premio Nacional de Artes Plásticas y la Medalla de Oro al Mérito en las Bellas Artes. Sus trabajos forman parte de los fondos del Museo Nacional Centro de Arte Reina Sofía de Madrid, de la colección Banco de España, del Centro Andaluz de Arte Contemporáneo , así como de instituciones de referencia internacional entre las que destaca The Solomon R. Guggenheim Museum de Nueva York. La exposición ‘Guillermo Pérez Villalta. El Laboratorio infinito’ puede visitarse hasta el 21 de febrero de 2027 en el Centro Fundación Unicaja Cádiz (Calle San Francisco, número 26). 08.10.2026 21.02.2027 21.02.2027 Lugar Centro Fundación Unicaja Cádiz (C/San Francisco, 26) Precios Orga",
+          "imagen_oficial": {
+            "archivo": "img/-exposicion-guillermo-perez-villalta-el-laboratorio-infinito.jpg",
+            "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+            "fuente": "www.fundacionunicaja.com",
+            "pagina": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/",
+            "ancho": 1600,
+            "alto": 1067,
+            "alt_text": "",
+            "tipo_imagen": "oficial"
+          }
+        }
+      ]
     },
     {
       "id": 34,
@@ -6625,7 +7087,7 @@
         {
           "url": "https://www.diariobahiadecadiz.com/cadiz",
           "http": 200,
-          "texto": "Noticias de última hora en Cádiz de DIARIO Bahía de Cádiz Número 5.638 – Año XXIII 5 de noviembre de 2026 NEWSLETTER Iniciar sesión Cádiz BahíaCultural | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Una gala en Falla puso el broche al South International Series Festival 2026, el último otoñal, tras seis jornadas de proyecciones y encuentros profesionales, con ‘Blindspot Berlin’ y ‘The oligarch and the art dealer’ como grandes triunfadoras del palmarés, y el reconocimiento a Isabel Coixet con el Premio Ciudad de Cádiz. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Casi tres horas se alargó la entrega de los títulos de Hijos e Hijas Predilectos y Adoptivos y de las Medallas de Oro 2026 de la ciudad de Cádiz, “donde cabemos todos”, a decir del alcalde; quien apeló a “la victoria del encuentro” de este tipo de actos para “pararnos y escuchar a nuestros referentes”. BahíaCultural | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro La tercera edición del festival promovido por Kaizen Editores se celebra entre el jueves 5 y el domingo 8 en la Casa de Iberoamérica, con un programa que incluye más de 30 participantes y una veintena de actividades: encuentros literarios, debates y la entrega de, entre otros premios, uno honorífico a Óscar Lobato. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro La formación municipalista, dentro de Adelante Izquierda Gaditana, celebra las encuestas que vaticinan el crecimiento de la actual coalición en 2027. Así, ante la posibilidad de que Adelante Andalucía concurra con lista propia, vuelve a llamar a la unidad para mantener opciones reales de volver a San Juan de Dios. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Con puerto base en Cádiz, este joven y moderno barco oceanográfico del CSIC ha salido rumbo hacia el polo sur en su primera campaña de investigación antártica, que a su vez es la cuadragésima expedición de España en “un territorio fundamental para comprender el futuro de nuestro planeta”. Cádiz CF | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Un Cádiz rácano que salió al campo a no perder se adelantó con un gol engañoso de Antoñito Cordero. Y por lógica, acabó cayendo 2-1 ante un Mallorca muy superior que generó ocasiones de sobra para firmar una goleada en Son Moix. Primera derrota de la era Borja Jiménez, en su segundo choque liguero. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Si el anterior responsable de Justicia apostaba por la colaboración público-privado, el nuevo de Vox lo descarta. Para el PSOE, este giro repentino constata que Moreno Bonilla “nunca ha tenido la más mínima intención” de construir el complejo judicial, y acusa una vez más al alcalde de callar ante su partido. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Mareas, plataformas, movimientos y colectivos se suman a la convocatoria de los sindicatos con un manifiesto que pone el foco en la crisis de vivienda, la pérdida del poder adquisitivo, el deterioro de los servicios públicos y la defensa de las pensiones. Y animan a votar el 29-N a quienes “defienden lo público”. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Ha arrancado la intervención previa a la proyectada construcción de un aparcamiento privado de hasta mil plazas bajo la zona verde planteada por el Ayuntamiento en el entorno de la estación de trenes de Cádiz. Establecerá medidas cautelares a tomar para la protección de las murallas históricas. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Se trata de una intervención de precisión por parte de Aguas de Cádiz, dada la dificultad de acceso, los trabajos subterráneos y la necesidad de contar con redes alternativas. Los trabajos, sin cortes de tráfico, se prevén iniciar antes de diciembre. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro La Autoridad Portuaria de la Bahía de Cádiz ha aprobado el otorgamiento directo de la concesión por 50 años a Iniciativas Sociales Productivas, que se interesó por el proyecto tras dos concursos públicos desiertos. La obra queda pendiente a que se libere de contenedores el muelle Reina Sofía. BahíaCultural | Dani Rodway 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Más de 30 títulos, 18 estrenos y un buen puñado de rostros conocidos de la ficción española e internacional, además de actividades para profesionales y la industria. Es el menú que oferta hasta el 4 de noviembre el South International Series Festival 2026, sin gala inaugural ni fiesta por respeto a la tragedia de Urda. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro España está otra vez en shock ante un nuevo accidente de trenes. Se han decretado tres días de luto y en la tarde del miércoles se han sucedido concentraciones en memoria de las víctimas. Por respeto se están suspendiendo todo tipo de actividades, como Halloween en San Fernando o la gala del South en Cádiz. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro El Blue Zone Forum Innovazul, en su cuarta edición con récord de inscritos, reúne durante tres jornadas a empresas, investigadores y emprendedores para profundizar en las oportunidades de innovación, empleo y desarrollo vinculadas a la economía azul. La astronauta Sara García Alonso ha ofrecido la lección de apertura. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Inic"
+          "texto": "Noticias de última hora en Cádiz de DIARIO Bahía de Cádiz Número 5.638 – Año XXIII 5 de noviembre de 2026 NEWSLETTER Iniciar sesión Cádiz BahíaCultural | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Más allá de sus goles y de las innumerables anécdotas que han alimentado la leyenda del futbolista salvadoreño y mito del cadismo, la docuserie ‘Mágico’, estrenada en el South International Series Festival, trata de descubrir y entender “por qué su talento y su personalidad siguen despertando admiración”. BahíaCultural | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Una gala en Falla puso el broche al South International Series Festival 2026, el último otoñal, tras seis jornadas de proyecciones y encuentros profesionales, con ‘Blindspot Berlin’ y ‘The oligarch and the art dealer’ como grandes triunfadoras del palmarés, y el reconocimiento a Isabel Coixet con el Premio Ciudad de Cádiz. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Casi tres horas se alargó la entrega de los títulos de Hijos e Hijas Predilectos y Adoptivos y de las Medallas de Oro 2026 de la ciudad de Cádiz, “donde cabemos todos”, a decir del alcalde; quien apeló a “la victoria del encuentro” de este tipo de actos para “pararnos y escuchar a nuestros referentes”. BahíaCultural | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro La tercera edición del festival promovido por Kaizen Editores se celebra entre el jueves 5 y el domingo 8 en la Casa de Iberoamérica, con un programa que incluye más de 30 participantes y una veintena de actividades: encuentros literarios, debates y la entrega de, entre otros premios, uno honorífico a Óscar Lobato. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro La formación municipalista, dentro de Adelante Izquierda Gaditana, celebra las encuestas que vaticinan el crecimiento de la actual coalición en 2027. Así, ante la posibilidad de que Adelante Andalucía concurra con lista propia, vuelve a llamar a la unidad para mantener opciones reales de volver a San Juan de Dios. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Con puerto base en Cádiz, este joven y moderno barco oceanográfico del CSIC ha salido rumbo hacia el polo sur en su primera campaña de investigación antártica, que a su vez es la cuadragésima expedición de España en “un territorio fundamental para comprender el futuro de nuestro planeta”. Cádiz CF | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Un Cádiz rácano que salió al campo a no perder se adelantó con un gol engañoso de Antoñito Cordero. Y por lógica, acabó cayendo 2-1 ante un Mallorca muy superior que generó ocasiones de sobra para firmar una goleada en Son Moix. Primera derrota de la era Borja Jiménez, en su segundo choque liguero. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Si el anterior responsable de Justicia apostaba por la colaboración público-privado, el nuevo de Vox lo descarta. Para el PSOE, este giro repentino constata que Moreno Bonilla “nunca ha tenido la más mínima intención” de construir el complejo judicial, y acusa una vez más al alcalde de callar ante su partido. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Mareas, plataformas, movimientos y colectivos se suman a la convocatoria de los sindicatos con un manifiesto que pone el foco en la crisis de vivienda, la pérdida del poder adquisitivo, el deterioro de los servicios públicos y la defensa de las pensiones. Y animan a votar el 29-N a quienes “defienden lo público”. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Ha arrancado la intervención previa a la proyectada construcción de un aparcamiento privado de hasta mil plazas bajo la zona verde planteada por el Ayuntamiento en el entorno de la estación de trenes de Cádiz. Establecerá medidas cautelares a tomar para la protección de las murallas históricas. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Se trata de una intervención de precisión por parte de Aguas de Cádiz, dada la dificultad de acceso, los trabajos subterráneos y la necesidad de contar con redes alternativas. Los trabajos, sin cortes de tráfico, se prevén iniciar antes de diciembre. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro La Autoridad Portuaria de la Bahía de Cádiz ha aprobado el otorgamiento directo de la concesión por 50 años a Iniciativas Sociales Productivas, que se interesó por el proyecto tras dos concursos públicos desiertos. La obra queda pendiente a que se libere de contenedores el muelle Reina Sofía. BahíaCultural | Dani Rodway 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro Más de 30 títulos, 18 estrenos y un buen puñado de rostros conocidos de la ficción española e internacional, además de actividades para profesionales y la industria. Es el menú que oferta hasta el 4 de noviembre el South International Series Festival 2026, sin gala inaugural ni fiesta por respeto a la tragedia de Urda. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar sesión Regístrate Comentar este foro España está otra vez en shock ante un nuevo accidente de trenes. Se han decretado tres días de luto y en la tarde del miércoles se han sucedido concentraciones en memoria de las víctimas. Por respeto se están suspendiendo todo tipo de actividades, como Halloween en San Fernando o la gala del South en Cádiz. Cádiz | Redacción 0 COMENTARIOS ¿Quieres dejar tu comentario? Iniciar s"
         }
       ],
       "candidatos": []
@@ -6637,6 +7099,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "403 al script: WebFetch",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Planomato – planes en Cádiz",
         "urls": [
@@ -6653,6 +7116,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "403 al script: WebFetch",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "El Corte Inglés Entradas – Cádiz",
         "urls": [
@@ -6669,6 +7133,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "403 al script: WebSearch",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Ticketmaster / Giglon – Cádiz",
         "urls": [
@@ -6685,6 +7150,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Sin web consultable por script",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Teatro Romano de Cádiz, Torre Tavira y Catedral",
         "urls": [],
@@ -6699,6 +7165,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria por categorías",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Salas y locales de conciertos de Cádiz",
         "urls": [],
@@ -6709,15 +7176,19 @@
     {
       "id": 47,
       "nombre": "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
-      "estado": "fallo",
-      "paginas": [
-        {
-          "url": "https://www.andalucia.org/es/cadiz-agenda",
-          "error": "404 Client Error: Not Found for url: https://www.andalucia.org/cadiz-agenda/"
-        }
-      ],
+      "estado": "web",
+      "paginas": [],
       "candidatos": [],
-      "error": "404 Client Error: Not Found for url: https://www.andalucia.org/cadiz-agenda/"
+      "error": "URL antigua (404) sustituida. Provincial: solo grandes eventos; confirmar Cádiz capital.",
+      "fragmentos": {},
+      "consulta_web": {
+        "fuente": "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
+        "urls": [
+          "https://www.andalucia.org/lugares-para-visitar/cadiz/eventos/"
+        ],
+        "busqueda": "",
+        "nota": "URL antigua (404) sustituida. Provincial: solo grandes eventos; confirmar Cádiz capital."
+      }
     },
     {
       "id": 48,
@@ -6778,6 +7249,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Música en directo",
         "urls": [],
@@ -6792,6 +7264,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Flamenco",
         "urls": [],
@@ -6806,6 +7279,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Teatro y cartelera",
         "urls": [],
@@ -6820,6 +7294,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Humor y monólogos",
         "urls": [],
@@ -6834,6 +7309,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Exposiciones",
         "urls": [],
@@ -6848,6 +7324,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Cine",
         "urls": [],
@@ -6862,6 +7339,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Infantil y familia",
         "urls": [],
@@ -6876,6 +7354,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Talleres y cursos",
         "urls": [],
@@ -6890,6 +7369,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Charlas y presentaciones",
         "urls": [],
@@ -6904,6 +7384,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Deporte popular",
         "urls": [],
@@ -6918,6 +7399,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Gastronomía",
         "urls": [],
@@ -6932,6 +7414,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Fiestas y tradiciones",
         "urls": [],
@@ -6946,6 +7429,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Mercadillos y artesanía",
         "urls": [],
@@ -6960,6 +7444,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Visitas guiadas y rutas",
         "urls": [],
@@ -6974,6 +7459,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Religión y cofradías",
         "urls": [],
@@ -6988,6 +7474,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Ocio nocturno",
         "urls": [],
@@ -7002,6 +7489,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Planes gratis",
         "urls": [],
@@ -7016,6 +7504,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Solidarios y voluntariado",
         "urls": [],
@@ -7030,6 +7519,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Agenda de prensa local",
         "urls": [],
@@ -7044,6 +7534,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Academias, ateneos y colegios",
         "urls": [],
@@ -7058,6 +7549,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Oratorio San Felipe Neri y Museo de las Cortes",
         "urls": [],
@@ -7072,6 +7564,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Fundaciones (Unicaja, Cajasol)",
         "urls": [],
@@ -7086,6 +7579,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Diputación (Palacio Provincial, Sala Rivadavia)",
         "urls": [],
@@ -7100,6 +7594,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Salas de conciertos",
         "urls": [],
@@ -7114,6 +7609,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Universidad (agenda cultural PDF)",
         "urls": [],
@@ -7128,6 +7624,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Festivales",
         "urls": [],
@@ -7142,6 +7639,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Deportes de equipo",
         "urls": [],
@@ -7156,6 +7654,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Búsqueda abierta diaria (WebSearch). Verifica cada hallazgo en la fuente oficial o del organizador.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Descubrimiento diario · Turismo y cruceros",
         "urls": [],
@@ -7221,7 +7720,14 @@
           "tipo_fuente": "oficial",
           "detalle_texto": "Circuito Andaluz de Peñas 2026. Provincia de Cádiz Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y formación Espectáculos Exposiciones Fiestas y tradiciones Flamenco Libros y literatura Monumentos y Espacios Culturales desde hasta Buscar Mapa Imagen Espectáculos Flamenco Cádiz AAIICC Instituto Andaluz del Flamenco Andalucía·flamenco Peñas flamencas Circuito Andaluz de Peñas 2026. Provincia de Cádiz , . Cádiz 05 de Septiembre del 2026 - 21 de Noviembre del 2026 Precio Entrada gratuita hasta completar el aforo Imagen CIRCUITO ANDALUZ DE PEÑAS 2026 PROVINCIA DE CÁDIZ. Del 5 de septiembre al 21 de noviembre. El Circuito Andaluz de Peñas 2026 arranca en la provincia de Cádiz el 5 de septiembre, prolongándose hasta el 21 de noviembre. La entrada a todos los recitales es gratuita hasta completar el aforo. Esta programación gaditana contará con un total de 33 actuaciones -22 de cante y 11 de baile- en otras tantas peñas flamencas de 22 localidades: Chiclana, Jerez, Chipiona, Cádiz, San Fernando, Guadalcacín, Sanlúcar de Barrameda, Arcos de la Frontera, Conil, El Puerto de Santa María, Ubrique, Barbate, Los Barrios, Vejer, Algeciras, Alcalá del Valle, Espera, La Línea de la Concepción, Jimena de la Frontera, Guadiaro, Puerto Real y Ceuta. El programa es el siguiente (sujeto a cambios): 5 de septiembre , a las 21:30 horas, en la Peña Flamenca Chiclanera, de Chiclana. Actuación del bailaor Nino González. 12 de septiembre , a las 17:30 horas, en la Peña Flamenca Luis de la Pica, de Jerez. Actuación del cantaor Manuel de Cantarote. 18 de septiembre , a las 21:30 horas, en la Peña Flamenca José Mercé, de Chipiona. Actuación de la bailaora Cristina Aldón. 18 de septiembre , a las 21:30 horas, en la Peña Flamenca Juanito Villar, de Cádiz. Actuación de la cantaora Macarena de Jerez. 19 de septiembre , a las 21:00 horas, en la Peña Flamenca Amigos del Chumi, de El Puerto de Santa María. Actuación de la bailaora Elena Arias. 26 de septiembre , a las 20:00 horas, en la Peña Flamenca La Fragua, de San Fernando. Actuación del bailaor Jesuli Carrillo. 26 de septiembre , a las 22:00 horas, en la Peña Flamenca La Perla de Cádiz, de la capital gaditana. Actuación del bailaor Juan Carlos Avecilla. 26 de septiembre , a las 17:00 horas, en la Peña Flamenca E",
           "imagen_oficial": {
-            "error": "sin imagen oficial descargable"
+            "archivo": "img/cia-evento-circuito-andaluz-de-penas-2026-provincia-de-cadiz.jpg",
+            "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-05/1920x1080px-100.jpg.webp?itok=prsrLVEc",
+            "fuente": "www.juntadeandalucia.es",
+            "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/circuito-andaluz-de-penas-2026-provincia-de-cadiz",
+            "ancho": 960,
+            "alto": 540,
+            "alt_text": "",
+            "tipo_imagen": "oficial"
           }
         },
         {
@@ -7541,6 +8047,18 @@
       "paginas": [],
       "candidatos": [],
       "error": "Venta de entradas: dirección «orientativa»; confirmar con la sala o el promotor",
+      "fragmentos": {
+        "2026-11-06": [
+          {
+            "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003",
+            "fragmento": "o la gran fiesta nocturna del Carnaval de Cádiz . Fotos de Momart Videos destacados Momart Theatre Cargando... Del 06-11-2026 al 12-12-2026 Conciertos Antílopez Desde 22,00€ +INFO Del 28-11-2026 al 15-05-2027 Conciertos Barón Rojo Desde 29,00€ +INFO Cádiz, Málaga Del 07-11-2026 al 26-02-2027 Entradas El Capullo de Jerez Desde 15,00€ +INFO Del 06-11"
+          },
+          {
+            "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003",
+            "fragmento": "Desde 29,00€ +INFO Cádiz, Málaga Del 07-11-2026 al 26-02-2027 Entradas El Capullo de Jerez Desde 15,00€ +INFO Del 06-11-2026 al 29-05-2027 Conciertos Mescalina - Banda Tributo Desde 17,50€ +INFO Cádiz El 27-11-2026 Conciertos Toma Castaña Desde 15,00€ +INFO Del 08-11-2026 al 19-12-2026 Entradas Triana En Concierto Desde 22,05€ +INFO Capullo de Jer"
+          }
+        ]
+      },
       "consulta_web": {
         "fuente": "Taquilla.com – salas de Cádiz (Momart…)",
         "urls": [
@@ -7553,19 +8071,46 @@
     {
       "id": 80,
       "nombre": "Ayuntamiento de Cádiz – Notas de prensa y programaciones especiales (Halloween, Tosantos, Carnaval, fiestas)",
-      "estado": "web",
-      "paginas": [],
-      "candidatos": [],
-      "error": "Las programaciones especiales del Ayuntamiento (p. ej. Halloween 2026: Plazuela del Truco o Trato, Matadero 13, desfile) se anuncian en notas de prensa y NO siempre salen en la agenda por fechas. Consultar cada día. Si dos medios discrepan en un dato (p. ej. punto de salida del desfile), se omite ese dato.",
-      "consulta_web": {
-        "fuente": "Ayuntamiento de Cádiz – Notas de prensa y programaciones especiales (Halloween, Tosantos, Carnaval, fiestas)",
-        "urls": [
-          "https://transparencia.cadiz.es/",
-          "https://ondacadiz.es/noticias/"
-        ],
-        "busqueda": "Ayuntamiento de Cádiz programación noviembre 2026 fiestas Halloween Tosantos Navidad Carnaval actividades Casa de la Juventud Baluarte de la Candelaria",
-        "nota": "Las programaciones especiales del Ayuntamiento (p. ej. Halloween 2026: Plazuela del Truco o Trato, Matadero 13, desfile) se anuncian en notas de prensa y NO siempre salen en la agenda por fechas. Consultar cada día. Si dos medios discrepan en un dato (p. ej. punto de salida del desfile), se omite ese dato."
-      }
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://transparencia.cadiz.es/feed/",
+          "http": 200,
+          "fichas_con_error": 0
+        }
+      ],
+      "candidatos": [
+        {
+          "nombre": "Cádiz celebrará el 6 de noviembre la III Feria de Promoción de la Salud y el Bienestar con talleres, actividades y recursos para toda la ciudadanía",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://transparencia.cadiz.es/cadiz-celebrara-el-6-de-noviembre-la-iii-feria-de-promocion-de-la-salud-y-el-bienestar-con-talleres-actividades-y-recursos-para-toda-la-ciudadania/",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "noticia de prensa (pista)",
+          "hora_inicio": null,
+          "pista_prensa": true,
+          "descripcion_fuente": "Cádiz celebrará el 6 de noviembre la III Feria de Promoción de la Salud y el Bienestar con talleres, actividades y recursos para toda la ciudadanía. La Delegación de Salud del Ayuntamiento de Cádiz y el Distrito Sanitario Bahía de Cádiz-La Janda, con la colaborac nda, con la colaboración de la Delegación Territorial de Educación de la Junta de Andalucía, celebrarán el próximo viernes 6 de noviembre la tercera edición de la Feria de Promoción de la Salud y el Bienestar, una iniciativa que reunirá",
+          "publicado": "2026-10-30",
+          "pista_capital": true,
+          "fuente_id": 80,
+          "fuente": "Ayuntamiento de Cádiz – Notas de prensa y programaciones especiales (Halloween, Tosantos, Carnaval, fiestas)",
+          "provincial": false,
+          "tipo_fuente": "oficial",
+          "detalle_texto": "Cádiz celebrará el 6 de noviembre la III Feria de Promoción de la Salud y el Bienestar con talleres, actividades y recursos para toda la ciudadanía - Transparencia La Delegación de Salud del Ayuntamiento de Cádiz y el Distrito Sanitario Bahía de Cádiz-La Janda, con la colaboración de la Delegación Territorial de Educación de la Junta de Andalucía, celebrarán el próximo viernes 6 de noviembre la tercera edición de la Feria de Promoción de la Salud y el Bienestar, una iniciativa que reunirá a administraciones públicas, profesionales sanitarios, colegios profesionales, asociaciones y entidades sociales para acercar la salud y el bienestar a la ciudadanía. La concejala de Salud, Gloria Bazán, ha presentado la programación de esta tercera edición, que se desarrollará en el Parque Erytheia, de 10:00 a 14:00 horas, con entrada libre y bajo el lema ‘Unidos por tu salud: Accesibilidad al alcance de cada persona’. La feria forma parte del Plan de Acción Local de Salud y contará con una amplia programación de talleres, juegos, actividades físicas, demostraciones, puntos informativos y propuestas educativas dirigidas a personas de todas las edades. Bazán ha destacado que el objetivo de esta iniciativa es “acercar a la ciudadanía los recursos sanitarios, sociales y comunitarios de nuestra ciudad, ofreciendo un espacio en el que las personas puedan participar, resolver dudas y adquirir conocimientos útiles para cuidar mejor de su salud”. En este sentido, ha señalado que “cuando hablamos de salud no nos referimos únicamente a la atención sanitaria, sino también a la prevención, la alimentación, la actividad física, la salud mental, el bienestar emocional y la autonomía personal”. Asimismo, ha incidido en la importancia de la accesibilidad como eje central de esta edición, subrayando que “queremos que los recursos para cuidar de nuestra salud estén al alcance de todas las personas, independientemente de su edad, sus circunstancias personales o las dificultades que puedan encontrar”. Una amplia programación para fomentar hábitos saludables Durante las cuatro horas de celebración, las personas asistentes podrán participar en numerosas actividades relacionadas con la prevención, el autocuidado y la adquisición de hábitos de vida saludables. Entre las propuestas previstas se encuentran talleres sobre el uso adecuado de los medicamentos, la identificación del azúcar oculto en los alimentos, la alimentación saludable, la higiene del sueño, la protección solar y el cuidado de la",
+          "imagen_oficial": {
+            "archivo": "img/-con-talleres-actividades-y-recursos-para-toda-la-ciudadania.jpg",
+            "url_origen": "https://transparencia.cadiz.es/wp-content/uploads/2026/10/Feria-de-la-Salud-Post.jpg.jpeg",
+            "fuente": "transparencia.cadiz.es",
+            "pagina": "https://transparencia.cadiz.es/cadiz-celebrara-el-6-de-noviembre-la-iii-feria-de-promocion-de-la-salud-y-el-bienestar-con-talleres-actividades-y-recursos-para-toda-la-ciudadania/",
+            "ancho": 1080,
+            "alto": 1440,
+            "alt_text": "",
+            "tipo_imagen": "oficial"
+          }
+        }
+      ]
     },
     {
       "id": 81,
@@ -7574,6 +8119,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Reparte invitaciones de actividades municipales (C/ Cánovas del Castillo, 41).",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Casa de la Juventud de Cádiz (Ayuntamiento) – actividades",
         "urls": [
@@ -7586,10 +8132,15 @@
     {
       "id": 82,
       "nombre": "Cádiz CF – partidos en casa (web oficial, automático)",
-      "estado": "fallo",
-      "paginas": [],
-      "candidatos": [],
-      "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.cadizcf.com/\", waiting until \"networkidle\"\n"
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.cadizcf.com/",
+          "http": 200,
+          "fichas_con_error": 0
+        }
+      ],
+      "candidatos": []
     },
     {
       "id": 83,
@@ -7598,6 +8149,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Sección Events de la web del recinto (Cádiz capital). Conciertos, congresos abiertos y espectáculos; confirmar dirección en la ficha.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Palacio de Congresos de Cádiz – eventos (web oficial)",
         "urls": [
@@ -7610,50 +8162,84 @@
     {
       "id": 84,
       "nombre": "CádizNoticias – agenda y avisos de actos",
-      "estado": "web",
-      "paginas": [],
-      "candidatos": [],
-      "error": "Prensa local que publica la programación semanal del Ateneo, proyecciones y talleres municipales (Ateneo 19-28 oct, «Cómo habitar un cuerpo», Martes del Empleo). Busca «agenda/programa» y «se proyectará/se celebrará».",
-      "consulta_web": {
-        "fuente": "CádizNoticias – agenda y avisos de actos",
-        "urls": [
-          "https://cadiznoticias.es/"
-        ],
-        "busqueda": "",
-        "nota": "Prensa local que publica la programación semanal del Ateneo, proyecciones y talleres municipales (Ateneo 19-28 oct, «Cómo habitar un cuerpo», Martes del Empleo). Busca «agenda/programa» y «se proyectará/se celebrará»."
-      }
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://cadiznoticias.es/feed/",
+          "http": 200,
+          "fichas_con_error": 0
+        }
+      ],
+      "candidatos": [
+        {
+          "nombre": "La nueva sede de La Confluencia en Puerto Real abrirá el 6 de noviembre",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://cadiznoticias.es/la-nueva-sede-de-la-confluencia-en-puerto-real-abrira-el-6-de-noviembre/",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "noticia de prensa (pista)",
+          "hora_inicio": "18:00",
+          "pista_prensa": true,
+          "descripcion_fuente": "La nueva sede de La Confluencia en Puerto Real abrirá el 6 de noviembre. La inauguración de la nueva sede de La Confluencia en Puerto Real incluirá la presentación del Frente Amplio, integrado por quince organizaciones para las elecciones generales del 29 de noviembre. La Confluencia de Izquierdas in formación incorpora este balance de su actividad política a la preparación de las municipales, aunque el acto del 6 de noviembre estará centrado en la apertura del local y en la presentación del Fre",
+          "publicado": "2026-11-05",
+          "pista_capital": false,
+          "fuente_id": 84,
+          "fuente": "CádizNoticias – agenda y avisos de actos",
+          "provincial": false,
+          "tipo_fuente": "prensa",
+          "detalle_texto": "La nueva sede de La Confluencia en Puerto Real abrirá el 6 de noviembre · Cadiznoticias - publicidad - Inicio / Bahía de Cádiz y La Janda / La nueva sede de La Confluencia en Puerto Real abrirá el 6 de noviembre Bahía de Cádiz y La Janda La inauguración de la nueva sede de La Confluencia en Puerto Real incluirá la presentación del Frente Amplio, integrado por quince organizaciones para las elecciones generales del 29 de noviembre. La Confluencia de Izquierdas inaugurará el 6 de noviembre, a las 18.00 horas, una nueva sede en el número 176 de la calle de la Plaza de Puerto Real. El acto servirá también para presentar en el municipio el proyecto del Frente Amplio, una alianza de quince organizaciones políticas de izquierda que concurrirá a las elecciones generales previstas para el 29 de noviembre. El coordinador de La Confluencia, José Antonio Montilla, ha explicado que el local pretende funcionar como punto de reunión para la formación, la ciudadanía y las organizaciones sociales de Puerto Real. La convocatoria de apertura se dirige también a las personas interesadas en participar en las actividades que se desarrollen en este espacio. La inauguración de la nueva sede de La Confluencia en Puerto Real se enmarca así en la preparación de las próximas citas electorales. La primera será la convocatoria general del 29 de noviembre, para la que la formación puertorrealeña participará en el Frente Amplio junto con otras organizaciones, según la información difundida por el grupo. La presentación permitirá exponer la composición y los objetivos políticos de esta candidatura conjunta. Montilla ha definido La Confluencia como un proyecto en el que participan personas y organizaciones procedentes de distintas sensibilidades de la izquierda local, surgido hace casi cuatro años con la unidad como planteamiento central. El coordinador ha relacionado esta estrategia con el contexto político previo a las elecciones generales. A su juicio, esos comicios tendrán una especial relevancia por las decisiones que puedan adoptarse sobre el Estado del bienestar, la sanidad, la educación, los servicios públicos y el funcionamiento de la democracia. Estas consideraciones forman parte del posicionamiento político que la organización trasladará durante el acto. La formación también ha incluido entre sus próximas convocatorias la huelga general anunciada para el 11 de noviembre. La Confluencia ya ha expresado su respaldo a esa movilización y ha animado a participar en ella, de acuerdo c",
+          "imagen_oficial": null
+        },
+        {
+          "nombre": "Las VI Jornadas Asta Regia reúnen en Jerez investigaciones sobre cuatro enclaves arqueológicos gaditanos",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://cadiznoticias.es/las-vi-jornadas-asta-regia-reunen-en-jerez-investigaciones-sobre-cuatro-enclaves-arqueologicos-gaditanos/",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "noticia de prensa (pista)",
+          "hora_inicio": "19:00",
+          "pista_prensa": true,
+          "descripcion_fuente": "investigaciones sobre cuatro enclaves arqueológicos gaditanos. Las VI Jornadas Asta Regia se celebran los días 5 y 6 de noviembre con ponencias sobre Pocito Chico, Baelo Claudia, Carissa Aurelia y la escritura monetaria antigua Las VI Jornadas Asta Regia reúnen los días 5 y 6 de noviembre de 2026 en Jerez a investigadores de varias universidades para presen nte la época romana de esta salsa elaborada a partir de pescado. La segunda sesión comenzará a las 19.00 horas del viernes 6 de noviembre. E",
+          "publicado": "2026-11-05",
+          "pista_capital": false,
+          "fuente_id": 84,
+          "fuente": "CádizNoticias – agenda y avisos de actos",
+          "provincial": false,
+          "tipo_fuente": "prensa",
+          "detalle_texto": "Las VI Jornadas Asta Regia reúnen en Jerez investigaciones sobre cuatro enclaves arqueológicos gaditanos · Cadiznoticias - publicidad - Inicio / Jerez y Costa Noroeste / Las VI Jornadas Asta Regia reúnen en Jerez investigaciones sobre cuatro enclaves arqueológicos gaditanos Jerez y Costa Noroeste Las VI Jornadas Asta Regia se celebran los días 5 y 6 de noviembre con ponencias sobre Pocito Chico, Baelo Claudia, Carissa Aurelia y la escritura monetaria antigua Las VI Jornadas Asta Regia reúnen los días 5 y 6 de noviembre de 2026 en Jerez a investigadores de varias universidades para presentar estudios sobre yacimientos arqueológicos de la provincia de Cádiz. El programa abordará enclaves como Pocito Chico, Baelo Claudia y Carissa Aurelia, además de los alfabetos utilizados en monedas libio-púnicas y neopúnicas. Las sesiones se desarrollarán en el salón de actos del Ateneo de Jerez, situado en el número 8 de la calle San Cristóbal. La primera jornada tendrá lugar este jueves entre las 18.30 y las 21.00 horas, mientras que la segunda se celebrará el viernes de 19.00 a 21.00 horas. La entrada será libre hasta completar el aforo. El encuentro, organizado por la Asociación por Asta Regia, plantea un recorrido por distintas líneas de estudio relacionadas con el patrimonio arqueológico gaditano. Las intervenciones abarcarán desde el mundo tartésico hasta la actividad económica en época romana, junto con la epigrafía monetaria y los resultados de campañas recientes de excavación. La apertura está prevista a las 18.30 horas del jueves 5 de noviembre, con la participación de la alcaldesa de Jerez y de los presidentes del Ateneo y de la Asociación por Asta Regia. La primera conferencia comenzará a las 19.00 horas bajo el título “En el corazón de Tartesos: Pocito Chico revisado”. La ponencia correrá a cargo de José Antonio Ruiz Gil, doctor e investigador de la Universidad de Cádiz (UCA), quien expondrá una revisión de las investigaciones desarrolladas en Pocito Chico. La intervención estará centrada en este enclave y en su relación con el conocimiento del periodo tartésico. A las 20.00 horas será el turno de José J. Díaz y Darío Bernal Casasola, también doctores de la UCA. Ambos presentarán las nuevas investigaciones sobre el garum de Baelo Claudia, con especial atención a la producción y comercialización durante la época romana de esta salsa elaborada a partir de pescado. La segunda sesión comenzará a las 19.00 horas del viernes 6 de noviembre. El investigador Francisc",
+          "imagen_oficial": null
+        }
+      ]
     },
     {
       "id": 85,
       "nombre": "Ateneo de Cádiz – programa",
-      "estado": "web",
-      "paginas": [],
-      "candidatos": [],
-      "error": "Programa mensual/semanal con presentaciones, conferencias y conciertos en Calle Ancha 20 (Cádiz capital). Actos a las 19:00 salvo indicación.",
-      "consulta_web": {
-        "fuente": "Ateneo de Cádiz – programa",
-        "urls": [
-          "https://ateneocadiz.es/"
-        ],
-        "busqueda": "",
-        "nota": "Programa mensual/semanal con presentaciones, conferencias y conciertos en Calle Ancha 20 (Cádiz capital). Actos a las 19:00 salvo indicación."
-      }
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://ateneocadiz.es/",
+          "http": 200,
+          "fichas_con_error": 0
+        }
+      ],
+      "candidatos": []
     },
     {
       "id": 86,
       "nombre": "IFEF Cádiz – Los Martes del Empleo y talleres",
-      "estado": "web",
-      "paginas": [],
-      "candidatos": [],
-      "error": "Talleres puntuales en los Depósitos de Tabaco (Av. Marconi 34), martes 11:00; con inscripción previa (criterio 8).",
-      "consulta_web": {
-        "fuente": "IFEF Cádiz – Los Martes del Empleo y talleres",
-        "urls": [
-          "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
-        ],
-        "busqueda": "",
-        "nota": "Talleres puntuales en los Depósitos de Tabaco (Av. Marconi 34), martes 11:00; con inscripción previa (criterio 8)."
-      }
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo",
+          "http": 200,
+          "fichas_con_error": 0
+        }
+      ],
+      "candidatos": []
     },
     {
       "id": 87,
@@ -7662,6 +8248,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Proyecciones y actos solidarios abiertos (p. ej. «Cómo habitar un cuerpo», Edificio Ma'Arifa, Av. Marconi 37).",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Fundación Cádiz CF – actividades",
         "urls": [
@@ -7678,6 +8265,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Asociación que organiza conferencias en el Centro Cultural Ancha 16 con el Ayuntamiento; localizar su web/avisos en prensa.",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Cádiz Ilustrada – conferencias",
         "urls": [
@@ -7694,6 +8282,14 @@
       "paginas": [],
       "candidatos": [],
       "error": "Teatro de pequeño formato y talleres de la Fundación Municipal de Cultura; revisar fichas de cada centro cultural.",
+      "fragmentos": {
+        "2026-11-06": [
+          {
+            "url": "https://institucional.cadiz.es/programacion_cultural",
+            "fragmento": "e el Date E.g., 05/11/2026 Hasta el Hasta el Date E.g., 05/11/2026 Bichitos · Spasmos Teatro - ( Humor ) Hasta el: 06/11/2026 Horario: 18:00 h. Diexo - Presentación Del Disco &Quot;Sin Plan B&Quot; - ( Conciertos ) Hasta el: 07/11/2026 Horario: Apertura puertas - 20:30 / Hora de inicio - 21:00 Vicente Amigo: Andenes Del Tiempo - ( Conciertos ) Hast"
+          }
+        ]
+      },
       "consulta_web": {
         "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
         "urls": [
@@ -7706,20 +8302,46 @@
     {
       "id": 90,
       "nombre": "Antiguos Depósitos de Tabaco – agenda semanal",
-      "estado": "web",
-      "paginas": [],
-      "candidatos": [],
-      "error": "Agenda diaria del espacio municipal (Av. Marconi 34, Cádiz): talleres puntuales (Martes del Empleo, ERACIS+), mesas sectoriales, exposiciones y ludoteca. Publicada cada semana por el Ayuntamiento y recogida en vivirediciones.es.",
-      "consulta_web": {
-        "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
-        "urls": [
-          "https://vivirediciones.es/depositos-cadiz-agenda-semanal-cursos-formacion/",
-          "https://edusi.cadiz.es/",
-          "https://transparencia.cadiz.es/"
-        ],
-        "busqueda": "",
-        "nota": "Agenda diaria del espacio municipal (Av. Marconi 34, Cádiz): talleres puntuales (Martes del Empleo, ERACIS+), mesas sectoriales, exposiciones y ludoteca. Publicada cada semana por el Ayuntamiento y recogida en vivirediciones.es."
-      }
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://vivirediciones.es/feed/",
+          "http": 200,
+          "fichas_con_error": 0
+        }
+      ],
+      "candidatos": [
+        {
+          "nombre": "Circuito Ornitorrinco 2026: encuentro de mediación en espacios escénicos",
+          "fecha": "2026-11-06",
+          "fecha_inicio_evento": "2026-11-06",
+          "fecha_fin_evento": "2026-11-06",
+          "url": "https://vivirediciones.es/circuito-ornitorrinco-encuentro-mediacion-zaragoza/",
+          "multidia": false,
+          "permanente": false,
+          "categoria_fuente": "noticia de prensa (pista)",
+          "hora_inicio": null,
+          "pista_prensa": true,
+          "descripcion_fuente": "II Jornadas Profesionales de Almazuela , entidad colaboradora del Proyecto Ornitorrinco, que se celebraban los 5 y 6 de noviembre en Zaragoza . Estas jornadas abordaron la educación y la mediación en cultura, museos y patrimonio como activadoras de los derechos culturales. Apoyo y colaboraciones El Circuito Ornitorrinco cuenta con el apoyo económico de la F",
+          "publicado": "2026-11-05",
+          "pista_capital": null,
+          "fuente_id": 90,
+          "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
+          "provincial": false,
+          "tipo_fuente": "oficial",
+          "detalle_texto": "Profesionales de espacios escénicos se reúnen en Zaragoza – vivirEdiciones Saltar al contenido Circuito Ornitorrinco 2026: encuentro de mediación en espacios escénicos Profesionales y mediadores de espacios escénicos debaten metodologías y retos del proyecto Cultura 5 de noviembre de 2026, 18:43 Profesionales y representantes de espacios escénicos de distintos territorios, junto con mediadores colaboradores, participaron el 4 de noviembre en un encuentro de trabajo del Circuito Ornitorrinco 2026 en Zaragoza , según informó La Red , red de teatros, auditorios, circuitos y festivales de Andalucía que impulsa este proyecto. La jornada se centró en intercambiar metodologías, compartir aprendizajes y poner en común los retos surgidos durante el desarrollo de los proyectos de esta edición 2026 , además de evaluar colectivamente los procesos de mediación artística. Participantes del encuentro El evento reunió a mediadores y representantes de espacios escénicos de diferentes municipios y comunidades autónomas: Miguel Jerez , mediador del Laboratorio de las Artes de Valladolid (LAVA) Laura Mihon , mediadora del Teatre Lliure Marina Pallarés , mediadora del Teatro El Genovés Fran Ros , mediador de los Teatros del Ayuntamiento de Murcia Cristina Ramírez , del Teatro Federico García Lorca de San Fernando de Henares Sonia Cámara , del Barakaldo Antzokia Toni Martí , del Ayuntamiento de Tarragona María Sánchez y Eva Serrano , ambos del Consorcio Cultural Albacete (Ayuntamientos de Caudete y Almansa) Alba Suay , del proyecto RECREA También participaron Daniel Juste , del Teatro José María Rodero de Torrejón de Ardoz, en representación de la Junta Directiva de La Red; María Valls , coordinadora de Ornitorrinco, y Elvira Gutiérrez , directora gerente de La Red. La sesión fue dinamizada por Carmen Oviedo , de Pedagogías Invisibles, entidad colaboradora del proyecto desde sus inicios. Marco de las II Jornadas Profesionales de Almazuela El encuentro tuvo lugar en el contexto de las II Jornadas Profesionales de Almazuela , entidad colaboradora del Proyecto Ornitorrinco, que se celebraban los 5 y 6 de noviembre en Zaragoza . Estas jornadas abordaron la educación y la mediación en cultura, museos y patrimonio como activadoras de los derechos culturales. Apoyo y colaboraciones El Circuito Ornitorrinco cuenta con el apoyo económico de la Fundación Carasso , afiliada a la Fondation de France. Las asesorías de mediación del proyecto las proporcionan Pedagogías Invisibles y Almazuela",
+          "imagen_oficial": {
+            "archivo": "img/circuito-ornitorrinco-encuentro-mediacion-zaragoza.jpg",
+            "url_origen": "https://media.vivirediciones.es/2026/11/circuito-ornitorrinco-encuentro-mediacion-zaragoza-1793900236285.jpg",
+            "fuente": "vivirediciones.es",
+            "pagina": "https://vivirediciones.es/circuito-ornitorrinco-encuentro-mediacion-zaragoza/",
+            "ancho": 1200,
+            "alto": 675,
+            "alt_text": "",
+            "tipo_imagen": "oficial"
+          }
+        }
+      ]
     },
     {
       "id": 91,
@@ -7728,6 +8350,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Ciclos con Fundación Unicaja (p. ej. Arquitectura, paisaje y territorio). Web propia aún sin URL verificada: localizarla y confirmar dirección en Cádiz capital (regla 1).",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Colegio de Arquitectos de Cádiz – ciclos y conferencias",
         "urls": [
@@ -7744,6 +8367,7 @@
       "paginas": [],
       "candidatos": [],
       "error": "Viernes Flamencos, concursos (Tanguillos, Baile por Alegrías) y Día del Flamenco (16 nov). Web propia (laperladecadiz.es) no responde desde el servidor: contrastar en prensa/Ayuntamiento y confirmar dirección en Cádiz capital (regla 1).",
+      "fragmentos": {},
       "consulta_web": {
         "fuente": "Peña Flamenca La Perla de Cádiz – Viernes Flamencos y ciclos",
         "urls": [
@@ -7752,6 +8376,32 @@
         "busqueda": "",
         "nota": "Viernes Flamencos, concursos (Tanguillos, Baile por Alegrías) y Día del Flamenco (16 nov). Web propia (laperladecadiz.es) no responde desde el servidor: contrastar en prensa/Ayuntamiento y confirmar dirección en Cádiz capital (regla 1)."
       }
+    },
+    {
+      "id": 93,
+      "nombre": "Europa Sur – RSS",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.europasur.es/rss/",
+          "http": 200,
+          "fichas_con_error": 0
+        }
+      ],
+      "candidatos": []
+    },
+    {
+      "id": 94,
+      "nombre": "La Voz del Sur – RSS",
+      "estado": "ok",
+      "paginas": [
+        {
+          "url": "https://www.lavozdelsur.es/feed",
+          "http": 200,
+          "fichas_con_error": 0
+        }
+      ],
+      "candidatos": []
     }
   ],
   "consultas_web": [
@@ -7843,6 +8493,14 @@
       "urls": [],
       "busqueda": "conciertos Cádiz 6 de noviembre de 2026 sala; teatro y monólogos Cádiz 6 de noviembre de 2026; eventos infantiles Cádiz 6 de noviembre de 2026; mercadillos y ferias Cádiz 6 de noviembre de 2026",
       "nota": "Búsqueda abierta diaria por categorías"
+    },
+    {
+      "fuente": "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
+      "urls": [
+        "https://www.andalucia.org/lugares-para-visitar/cadiz/eventos/"
+      ],
+      "busqueda": "",
+      "nota": "URL antigua (404) sustituida. Provincial: solo grandes eventos; confirmar Cádiz capital."
     },
     {
       "fuente": "Descubrimiento diario · Música en directo",
@@ -8021,15 +8679,6 @@
       "nota": "Venta de entradas: dirección «orientativa»; confirmar con la sala o el promotor"
     },
     {
-      "fuente": "Ayuntamiento de Cádiz – Notas de prensa y programaciones especiales (Halloween, Tosantos, Carnaval, fiestas)",
-      "urls": [
-        "https://transparencia.cadiz.es/",
-        "https://ondacadiz.es/noticias/"
-      ],
-      "busqueda": "Ayuntamiento de Cádiz programación noviembre 2026 fiestas Halloween Tosantos Navidad Carnaval actividades Casa de la Juventud Baluarte de la Candelaria",
-      "nota": "Las programaciones especiales del Ayuntamiento (p. ej. Halloween 2026: Plazuela del Truco o Trato, Matadero 13, desfile) se anuncian en notas de prensa y NO siempre salen en la agenda por fechas. Consultar cada día. Si dos medios discrepan en un dato (p. ej. punto de salida del desfile), se omite ese dato."
-    },
-    {
       "fuente": "Casa de la Juventud de Cádiz (Ayuntamiento) – actividades",
       "urls": [
         "https://juventud.cadiz.es/"
@@ -8044,30 +8693,6 @@
       ],
       "busqueda": "",
       "nota": "Sección Events de la web del recinto (Cádiz capital). Conciertos, congresos abiertos y espectáculos; confirmar dirección en la ficha."
-    },
-    {
-      "fuente": "CádizNoticias – agenda y avisos de actos",
-      "urls": [
-        "https://cadiznoticias.es/"
-      ],
-      "busqueda": "",
-      "nota": "Prensa local que publica la programación semanal del Ateneo, proyecciones y talleres municipales (Ateneo 19-28 oct, «Cómo habitar un cuerpo», Martes del Empleo). Busca «agenda/programa» y «se proyectará/se celebrará»."
-    },
-    {
-      "fuente": "Ateneo de Cádiz – programa",
-      "urls": [
-        "https://ateneocadiz.es/"
-      ],
-      "busqueda": "",
-      "nota": "Programa mensual/semanal con presentaciones, conferencias y conciertos en Calle Ancha 20 (Cádiz capital). Actos a las 19:00 salvo indicación."
-    },
-    {
-      "fuente": "IFEF Cádiz – Los Martes del Empleo y talleres",
-      "urls": [
-        "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
-      ],
-      "busqueda": "",
-      "nota": "Talleres puntuales en los Depósitos de Tabaco (Av. Marconi 34), martes 11:00; con inscripción previa (criterio 8)."
     },
     {
       "fuente": "Fundación Cádiz CF – actividades",
@@ -8094,16 +8719,6 @@
       "nota": "Teatro de pequeño formato y talleres de la Fundación Municipal de Cultura; revisar fichas de cada centro cultural."
     },
     {
-      "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
-      "urls": [
-        "https://vivirediciones.es/depositos-cadiz-agenda-semanal-cursos-formacion/",
-        "https://edusi.cadiz.es/",
-        "https://transparencia.cadiz.es/"
-      ],
-      "busqueda": "",
-      "nota": "Agenda diaria del espacio municipal (Av. Marconi 34, Cádiz): talleres puntuales (Martes del Empleo, ERACIS+), mesas sectoriales, exposiciones y ludoteca. Publicada cada semana por el Ayuntamiento y recogida en vivirediciones.es."
-    },
-    {
       "fuente": "Colegio de Arquitectos de Cádiz – ciclos y conferencias",
       "urls": [
         "https://www.google.com/search?q=Colegio+Arquitectos+C%C3%A1diz+ciclo+conferencias"
@@ -8120,5 +8735,5 @@
       "nota": "Viernes Flamencos, concursos (Tanguillos, Baile por Alegrías) y Día del Flamenco (16 nov). Web propia (laperladecadiz.es) no responde desde el servidor: contrastar en prensa/Ayuntamiento y confirmar dirección en Cádiz capital (regla 1)."
     }
   ],
-  "instruccion": "Consulta TODAS las 'consultas_web' con WebFetch/WebSearch cada día (fuentes que bloquean a los bots o no se pueden leer con el script) y revisa el texto de las fuentes sin parser."
+  "instruccion": "1) Revisa `candidatos` (estructurados). 2) Lee `pistas_por_dia`: trozos de texto de las fuentes sin parser que mencionan cada día (no hace falta leer las páginas enteras). 3) Consulta las 'consultas_web' con WebFetch/WebSearch (fuentes que el script no puede leer y búsquedas de descubrimiento)."
 }
