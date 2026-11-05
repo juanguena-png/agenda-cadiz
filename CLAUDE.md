@@ -120,7 +120,7 @@ Horarios **fijos**: 9:00 y 18:30.
 4. **Planes del finde (jueves 9:00)**: SOLO en formato **reel** (viernes a domingo; **no hay carrusel de finde**), 15-45 s, `reel.py`; 4,2 s de lectura por evento, máx. 9 eventos), replicado en Facebook. **Reel = formato propio** (`plantilla/reel.html`, ver marca.md): portada distinta a las demás publicaciones (`reel/portada.png`, se sube como `cover_url`), escenas animadas con estructura única, música normalizada. Se renderiza en ~2 min.
 5. **Agenda mensual (día 1, 9:00)**: SOLO destacados (festivales, fiestas, Carnaval y similares, espectáculos en recintos principales, gran afluencia, eventos únicos). Explica en `estado.json` (`"destacados": {id: motivo}`) por qué cada uno. Portada "Lo más destacado de [mes] en Cádiz"; en el caption recuerda que la agenda completa sale cada día a las 9:00.
 
-**Reel diario «Hoy en Cádiz» (9:00, tras las stories; decisión del titular: más peso en reels):** `python reel.py --fecha F --diario` (≈2 min) genera `posts/F/reel_diario/reel.mp4` y `portada.png` con los planes con hora del día (máx. 9; los rellenos «Siempre abierto» solo si no hay otros). Caption corto en `posts/F/caption_reel.txt` (3 líneas: gancho A/B del día, «Mira el reel y guarda los planes de hoy 🎬», «Comenta PLANES y te mandamos la agenda completa»; luego hashtags). `publicar.py` lo sube a Instagram (con etiquetas, colaboradores y ubicación) y a Facebook; si falta el vídeo o el caption, no se publica y no bloquea nada. Los jueves convive con el reel de «Planes del finde».
+**Reels:** el ÚNICO reel es el de «Planes del finde» de los jueves (decisión del titular: no hay reel diario).
 
 Si el carrusel falla, no se publican sus stories. Si falla una story, se registra y se continúa (`publicar.py`).
 
