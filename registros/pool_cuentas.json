@@ -281,19 +281,19 @@
       "actualizado": "2026-11-05"
     },
     "museodecadiz": {
-      "origen": "directorio",
-      "origen_real": "directorio",
+      "origen": "buscada",
+      "origen_real": "buscada",
       "nombre": "Museo de Cádiz",
       "bio": "Museo de Arqueología y Bellas Artes gestionado por @culturaand. Sarcófagos fenicios y magníficos zurbaranes, entre otras muchas joyas",
-      "seguidores": 16529,
-      "siguiendo": 764,
+      "seguidores": 16531,
+      "siguiendo": 765,
       "publicaciones": 2299,
       "ultima": {
         "permalink": "https://www.instagram.com/p/DfSdIwvIkt7/",
         "timestamp": "2026-11-03T17:48:56+0000",
         "caption": "¡Tesoros bajo el mar! Un taller para descubrir la arqueología subacuática\n\nEl Museo de Cádiz y el Centro de Arqueología Subacuática nos invitan a descubrir los secretos del patrimonio que se esconde bajo el mar.\n\nComenzaremos con una visita a la exposición Nexos. Del lienzo al objeto, donde conoceremos algunas de sus piezas y antiguas rutas comerciales marítimas. También podremos acercarnos al fondo marino con gafas de visualización 3D.\n\nDespués, disfrutaremos de un taller práctico en el que aprenderemos cómo funciona un torno cerámico y realizaremos el vaciado de una pieza de la exposición.\n\n☕ Además, la actividad incluye un desayuno a mitad de la mañana. Es necesario indicar los posibles alérgenos en el formulario de inscripción.\n\n📅 7 de noviembre | 11:00 h\n👥 De 6 a 12 años\n🎟️ Actividad gratuita | 25 plazas\n\n📝 Inscripción previa en:\nmuseosdeandalucia.es/web/museodecadiz\n\n#MuseoDeCádiz #CaféConCiencia #ArqueologíaSubacuática #Tecnología3D",
         "media_type": "IMAGE",
-        "like_count": 133,
+        "like_count": 137,
         "comments_count": 9,
         "id": "17950186797067232"
       },
@@ -1591,6 +1591,100 @@
         "like_count": 103,
         "comments_count": 8,
         "id": "18157321057534644"
+      },
+      "actualizado": "2026-11-05"
+    },
+    "gaditanoir": {
+      "origen": "directorio",
+      "origen_real": "directorio",
+      "nombre": "Gaditanoir",
+      "bio": "Festival literario de novela negra \"de Cadi, Cadi\"",
+      "seguidores": 3765,
+      "siguiendo": 294,
+      "publicaciones": 136,
+      "ultima": {
+        "permalink": "https://www.instagram.com/p/DfXuncXDcg1/",
+        "timestamp": "2026-11-05T18:57:47+0000",
+        "caption": "Apasionante charla de Los Pedros sobre los crímenes del sur.\nEn la prensa_cadiz",
+        "media_type": "CAROUSEL_ALBUM",
+        "like_count": 17,
+        "comments_count": 0,
+        "id": "17888624172689503"
+      },
+      "actualizado": "2026-11-05"
+    },
+    "spasmoteatro": {
+      "origen": "directorio",
+      "origen_real": "directorio",
+      "nombre": "Spasmo Teatro",
+      "bio": "Teatro de humor gestual.\nBichitos, La Mejor Obra de la Historia, Viaje al Centro del Cuerpo Humano, Mundo lirondo.\nspasmo@spasmoteatro.com 627020066 📲",
+      "seguidores": 3268,
+      "siguiendo": 3433,
+      "publicaciones": 962,
+      "ultima": {
+        "permalink": "https://www.instagram.com/p/DfXNXMyu_ZT/",
+        "timestamp": "2026-11-05T14:08:56+0000",
+        "caption": "Domingo 8 de noviembre a las 12:00\n#Bichitos #VillaviciosaDeOdón #Madrid\n🎫 👇 \nhttps://www.giglon.com/todos?idEvent=bichitos-v-odon",
+        "media_type": "IMAGE",
+        "like_count": 11,
+        "comments_count": 0,
+        "id": "17938691283407563"
+      },
+      "actualizado": "2026-11-05"
+    },
+    "_one_medina": {
+      "origen": "directorio",
+      "origen_real": "directorio",
+      "nombre": "Juan Medina",
+      "bio": "📍 Madrid / Mallorca\n@juan_medina_photo \n————————————\n“Se acostumbra el gorrión \nal ruido de los coches \ny no me acostumbro yo”",
+      "seguidores": 170350,
+      "siguiendo": 2184,
+      "publicaciones": 303,
+      "ultima": {
+        "permalink": "https://www.instagram.com/reel/DfFFpNAIz-a/",
+        "timestamp": "2026-10-29T13:21:59+0000",
+        "media_type": "VIDEO",
+        "like_count": 1246,
+        "comments_count": 76,
+        "id": "18137494477731843"
+      },
+      "actualizado": "2026-11-05"
+    },
+    "lolopastrana_oficial": {
+      "origen": "directorio",
+      "origen_real": "directorio",
+      "nombre": "Lolo Pastrana",
+      "bio": "Compositor y músico gaditano😍\n⬇️ PERDERME CONMIGO ⬇️",
+      "seguidores": 5210,
+      "siguiendo": 2344,
+      "publicaciones": 244,
+      "ultima": {
+        "permalink": "https://www.instagram.com/reel/DfAgYmBMEnm/",
+        "timestamp": "2026-10-27T18:30:04+0000",
+        "caption": "Quiero perderme conmigo\nY brillar cuando yo quiera!!! ✨🤪❤️\n\nMás de 50k visitas en todas las plataformas digitales 😍\n\nGracias por tanto cariño!!! Vamosssss🤩❤️\n\n#musica #music #parati",
+        "media_type": "VIDEO",
+        "like_count": 222,
+        "comments_count": 13,
+        "id": "18121879654947757"
+      },
+      "actualizado": "2026-11-05"
+    },
+    "cadizcultura": {
+      "origen": "buscada",
+      "origen_real": "buscada",
+      "nombre": "Cádiz Cultura",
+      "bio": "Somos un sitio que reune todo el acontecer cultural de la provincia de Cádiz, literatura, música, arte, historia, pintura, fotografía, etc. #cadiz",
+      "seguidores": 377,
+      "siguiendo": 541,
+      "publicaciones": 2,
+      "ultima": {
+        "permalink": "https://www.instagram.com/p/C8jdyHyIksK/",
+        "timestamp": "2024-06-23T10:02:47+0000",
+        "caption": "La 39 edición de la Feria del Libro de Cádiz se celebrará en el Baluarte de Candelaria del próximo 28 de junio al 7 de julio de 2024.\n\nEdición dedicada a la conexión entre la música y la literatura. Con el concepto de ‘Letras y músicas’, numerosas personalidades de ambas disciplinas pasarán durante esos días por el hermoso Baluarte de Candelaria.\n\nferialibrocadiz\n\n#feriadellibrodecadiz #cultura #libros #musica #poesia #cadizfornia #arte #poemas #literatura #libro #lecturas #cadiz #cadizcultura  #feriadellibro #cádiz #baluarte #escritores",
+        "media_type": "IMAGE",
+        "like_count": 27,
+        "comments_count": 1,
+        "id": "18339994276190860"
       },
       "actualizado": "2026-11-05"
     }
