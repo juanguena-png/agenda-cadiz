@@ -22,3 +22,4 @@ Una línea por fuente: fecha · nombre · URL · cómo se encontró · qué apor
 - 2026-11-05 · RSS de prensa y organizadores (parser) · CádizNoticias, Cádiz Directo, Diario de Cádiz, Europa Sur, La Voz del Sur, notas del Ayuntamiento (transparencia.cadiz.es), vivirediciones, Cádiz Ilustrada, UCA · artículos recientes que mencionan el día
 - 2026-11-05 · Peña Flamenca La Perla (perladecadiz.com) y Viral Agenda – Cádiz · fragmentos por día
 - 2026-11-05 · arreglos: Cádiz Guitar Festival (reintentos ante 429), Cádiz CF (más tiempo), Andalucía.org (URL nueva, vía web)
+- 2026-11-05 · FUENTES PRINCIPALES (indicadas por el titular, a consultar a diario): laciudad.cadiz.es/agenda-de-cadiz.asp (parser nuevo), VivaCádiz /eventos/cadiz (parser Chromium), Fever, Oazis, cadizturismo.com, andalucia.org (filtro Cádiz), Semana Santa de Cádiz, Museo de Cádiz y Biblioteca Provincial (fichas), Guía de Cádiz /agenda-mas-eventos/cadiz

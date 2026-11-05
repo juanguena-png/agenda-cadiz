@@ -11,6 +11,8 @@ from parsers_extra import MES_RE, MESES, _cand, _get, _pista, _texto
 
 DIAS_ES = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MES_NOMBRE = {v: k for k, v in MESES.items() if k != "setiembre"}
+UA_NAV = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+ABR = {"ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6, "jul": 7, "ago": 8, "sep": 9, "oct": 10, "nov": 11, "dic": 12}
 PALABRAS_EVENTO = re.compile(r"concierto|conferencia|presentaci[oó]n|exposici[oó]n|taller|charla|teatro|festival|jornadas|proyecci[oó]n|inauguraci[oó]n|recital|actuaci[oó]n|"
                              r"visita|ruta|mercadillo|feria|cine|espect[aá]culo|homenaje|curso|ciclo|tertulia|entradas?|gratuit|entrada libre|premios?|gala|desfile|carrera|"
                              r"torneo|partido|cuentacuentos|mesa redonda|coloquio|muestra|musical|danza|flamenco|libro|recogida|campa[ñn]a|solidari", re.I)
@@ -183,3 +185,87 @@ def fragmentos_ventana(texto, ventana, max_por_dia=6):
         if fr:
             out[dia.isoformat()] = fr
     return out
+
+
+# ----------------------------------------------------------------------------- Agenda municipal de laciudad.cadiz.es (todos los recintos y eventos de la ciudad)
+def parser_laciudad_agenda(fuente, ventana):
+    """laciudad.cadiz.es/agenda-de-cadiz.asp: eventos vigentes del Ayuntamiento en varias páginas (teatros, exposiciones, deportes, ferias…)."""
+    out, errores, vistos = [], 0, set()
+    ini, fin = ventana
+    for pag in range(1, 9):
+        try:
+            r = _get(f"https://laciudad.cadiz.es/agenda-de-cadiz.asp?page={pag}&tp=&dia=&mes=&anno=&loc=&cat=&nombre=&idteatro=&todoseventos=")
+            r.encoding = "utf-8"
+        except Exception:
+            errores += 1
+            break
+        s = BeautifulSoup(r.text, "lxml")
+        items = s.select("div#itemeventlis")
+        if not items:
+            break
+        for it in items:
+            a = it.select_one(".services-pdf a[href*=ID_EVENTO], a[href*=ID_EVENTO]")
+            nombre = it.select_one(".services-pdf strong")
+            if not (a and nombre):
+                continue
+            id_ = re.sub(r"\s+", "", a["href"]).split("ID_EVENTO=")[-1]
+            if id_ in vistos:
+                continue
+            vistos.add(id_)
+            t = re.sub(r"\s+", " ", it.select_one(".services-pdf p").get_text(" ", strip=True).replace("\xa0", " ")) if it.select_one(".services-pdf p") else ""
+            fechas = [date(int(y), MESES[m.lower()], int(d)) for d, m, y in re.findall(rf"(\d{{1,2}})\s+de\s+({MES_RE})\s+de\s+(\d{{4}})", t, re.I)]
+            if not fechas:
+                continue
+            f0, f1 = min(fechas), max(fechas)
+            hm = re.search(r"Horario:\s*(\d{1,2})[:.](\d{2})", t)
+            lugar = re.split(r"\s*(?:desde el\s+)?\d{1,2}\s+de\s+", t)[0].strip()
+            img = it.select_one("img")
+            url = "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=" + id_
+            out += _cand(re.sub(r"\s+", " ", nombre.get_text(" ", strip=True)).title() if nombre.get_text().isupper() else nombre.get_text(" ", strip=True), f0, f1, ventana, url,
+                         hora_inicio=f"{int(hm.group(1)):02d}:{hm.group(2)}" if hm else None, horario_texto=(t.split("Horario:")[-1].strip()[:120] if "Horario:" in t else None),
+                         lugar=lugar[:120], direccion=lugar[:160], categoria_fuente="agenda municipal (laciudad.cadiz.es)", descripcion_fuente=t[:300], pista_capital=True,
+                         imagen_url_oficial=img["src"] if img and img.get("src", "").startswith("http") else None)
+    return out, errores
+
+
+# ----------------------------------------------------------------------------- VivaCádiz (se pinta con JavaScript: se lee con Chromium)
+def parser_vivacadiz(fuente, ventana):
+    """vivacadiz.com/eventos/cadiz: tarjetas con fecha, título y recinto («— dirección, Cádiz»). Próximos ~14 días."""
+    import render as rd
+    ini, fin = ventana
+    out, vistos = [], set()
+    with rd.Renderer() as r:
+        ctx = r.browser.new_context(user_agent=UA_NAV, locale="es-ES")
+        pg = ctx.new_page()
+        for intento in range(3):
+            try:
+                pg.goto("https://vivacadiz.com/eventos/cadiz", wait_until="domcontentloaded", timeout=60000)
+                pg.wait_for_selector("a[href^='/evento/']", timeout=30000)
+                break
+            except Exception:
+                if intento == 2:
+                    raise
+        pg.wait_for_timeout(2500)
+        tarjetas = pg.evaluate("Array.from(document.querySelectorAll(\"a[href^='/evento/']\")).map(a=>({href:a.href,txt:a.innerText,img:(a.querySelector('img')||{}).src||null}))")
+    for t in tarjetas:
+        if t["href"] in vistos:
+            continue
+        vistos.add(t["href"])
+        lineas = [l.strip() for l in t["txt"].split("\n") if l.strip()]
+        m = re.match(rf"(\d{{1,2}})\s+({'|'.join(a for a in ABR)})(?:\s*-\s*(\d{{1,2}})\s+({'|'.join(a for a in ABR)}))?", lineas[0], re.I) if lineas else None
+        if not m:
+            continue
+        a0 = ini.year
+        try:
+            f0 = date(a0, ABR[m.group(2).lower()], int(m.group(1)))
+            f1 = date(a0, ABR[m.group(4).lower()], int(m.group(3))) if m.group(3) else f0
+        except (ValueError, KeyError):
+            continue
+        if f0 < ini - timedelta(days=200):
+            f0, f1 = f0.replace(year=f0.year + 1), f1.replace(year=f1.year + 1)
+        nombre = re.sub(r"\s+Cádiz 2026:.*$", "", lineas[1]) if len(lineas) > 1 else None
+        sede = next((l for l in lineas[2:] if "—" in l), "")
+        nombre_largo = lineas[1] if len(lineas) > 1 else ""
+        out += _cand(nombre_largo, f0, f1, ventana, t["href"], lugar=sede.split("—")[0].strip(), direccion=sede.split("—")[-1].strip() if sede else None,
+                     categoria_fuente="agregador VivaCádiz", descripcion_fuente=" | ".join(lineas[:4])[:300], pista_capital=_pista(sede), imagen_url_oficial=t.get("img"))
+    return out, 0

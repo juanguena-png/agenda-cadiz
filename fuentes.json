@@ -71,7 +71,8 @@
    "nombre": "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
    "tipo": "oficial",
    "urls": [
-    "https://www.juntadeandalucia.es/cultura/bibliotecas/bpcadiz"
+    "https://www.bibliotecasdeandalucia.es/web/biblioteca-del-estado-publica-provincial-de-cadiz/servicios/actividades",
+    "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/espacios/biblioteca-publica-del-estado-biblioteca-publica-provincial-de-cadiz"
    ],
    "parser": "texto",
    "provincial": false,
@@ -134,11 +135,11 @@
    "nombre": "Museo de Cádiz",
    "tipo": "recinto",
    "urls": [
-    "https://www.cultura.gob.es/mcadiz/"
+    "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
    ],
    "parser": "texto",
    "provincial": false,
-   "nota": "museosdeandalucia.es no resuelve desde el contenedor: consultar con WebFetch/WebSearch (Plaza de Mina, Cádiz)",
+   "nota": "Programación del Museo de Cádiz en la Agenda Cultural de Andalucía (Junta); leer también la ficha por si hay actividades concretas",
    "via": "web",
    "consulta": "Museo de Cádiz exposiciones temporales y actividades {mes} {año}; Casa Pinillos Cádiz exposición {mes} {año}; Museo y Teatro Romano de Cádiz actividades"
   },
@@ -178,16 +179,14 @@
   },
   {
    "id": 17,
-   "nombre": "VivaCádiz",
+   "nombre": "VivaCádiz – eventos de Cádiz (lectura con Chromium)",
    "tipo": "agregador",
    "urls": [
-    "https://www.vivacadiz.es/",
-    "https://www.andaluciainformacion.es/cadiz/"
+    "https://vivacadiz.com/eventos/cadiz"
    ],
-   "parser": "texto",
+   "parser": "vivacadiz",
    "provincial": false,
    "nota": "403 al script",
-   "via": "web",
    "consulta": "VivaCádiz agenda eventos Cádiz {fecha}"
   },
   {
@@ -206,26 +205,9 @@
    "nombre": "Guía de Cádiz – Agenda",
    "tipo": "agregador",
    "urls": [
+    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/",
     "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/conciertos",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/exposiciones",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/teatro",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/danza",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/flamenco",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/deportes",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/con%20niños",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/eventos%20culturales",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/eventos%20solidarios",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/fiestas%20típicas",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/feria%20de%20muestras",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/festivales",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/gastronomía",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Halloween%20y%20Tosantos",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Magia",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/Navidad",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/proyecciones",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/rutas%20y%20visitas",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/semana%20santa",
-    "https://www.guiadecadiz.com/es/agenda-mas-eventos/cadiz/carnaval"
+    "https://www.guiadecadiz.com/es/agenda-mas-eventos"
    ],
    "parser": "guia",
    "provincial": true,
@@ -304,7 +286,7 @@
    "nombre": "Teatro Pemán (Teatros de Cádiz)",
    "tipo": "recinto",
    "urls": [
-    "http://laciudad.cadiz.es/programacion-teatro-peman.asp"
+    "https://laciudad.cadiz.es/programacion-teatro-peman.asp"
    ],
    "parser": "laciudad",
    "provincial": false,
@@ -536,11 +518,11 @@
    "nombre": "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
    "tipo": "oficial",
    "urls": [
-    "https://www.andalucia.org/lugares-para-visitar/cadiz/eventos/"
+    "https://www.andalucia.org/eventos/?bounds=false&view=grid&sort=date&filter_place_level_2%5B0%5D=18161"
    ],
    "parser": "texto",
    "provincial": true,
-   "nota": "URL antigua (404) sustituida. Provincial: solo grandes eventos; confirmar Cádiz capital.",
+   "nota": "Fuente principal (filtro Cádiz). Se pinta con JavaScript: consultar con WebFetch cada día.",
    "via": "web"
   },
   {
@@ -1099,6 +1081,77 @@
    "parser": "rss",
    "provincial": false,
    "nota": "RSS sección Cádiz"
+  },
+  {
+   "nombre": "Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp)",
+   "tipo": "oficial",
+   "urls": [
+    "https://laciudad.cadiz.es/agenda-de-cadiz.asp"
+   ],
+   "parser": "laciudad_agenda",
+   "provincial": false,
+   "nota": "FUENTE PRINCIPAL: todos los eventos vigentes del Ayuntamiento (varias páginas)",
+   "id": 98
+  },
+  {
+   "nombre": "Semana Santa de Cádiz – calendario",
+   "tipo": "organizador",
+   "urls": [
+    "https://semanasantacadiz.com/calendario/lista/"
+   ],
+   "via": "web",
+   "parser": "texto",
+   "provincial": false,
+   "nota": "Calendario de cofradías y actos de Semana Santa: escueto; hay que buscar horario, info y foto en internet. Solo actos grandes o públicos (criterio 7).",
+   "id": 99
+  },
+  {
+   "nombre": "Fever – planes en Cádiz",
+   "tipo": "entradas",
+   "urls": [
+    "https://feverup.com/es/cadiz"
+   ],
+   "via": "web",
+   "parser": "texto",
+   "provincial": true,
+   "nota": "FUENTE PRINCIPAL diaria; confirmar en la ficha que el lugar es Cádiz capital",
+   "id": 100
+  },
+  {
+   "nombre": "Oazis – planes en Cádiz",
+   "tipo": "agregador",
+   "urls": [
+    "https://oazis.app/es/planes/cadiz"
+   ],
+   "via": "web",
+   "parser": "texto",
+   "provincial": true,
+   "nota": "FUENTE PRINCIPAL diaria (la web pide JavaScript/cookies: usar WebFetch/WebSearch)",
+   "id": 101
+  },
+  {
+   "nombre": "Turismo de la provincia de Cádiz – todos los eventos",
+   "tipo": "oficial",
+   "urls": [
+    "https://www.cadizturismo.com/es/todos-los-eventos"
+   ],
+   "via": "web",
+   "parser": "texto",
+   "provincial": true,
+   "nota": "FUENTE PRINCIPAL diaria (bloquea scripts con Cloudflare: WebFetch); solo Cádiz capital",
+   "id": 102
+  },
+  {
+   "nombre": "VivaCádiz – eventos de la provincia (finde y próximos)",
+   "tipo": "agregador",
+   "urls": [
+    "https://vivacadiz.com/eventos"
+   ],
+   "via": "web",
+   "parser": "texto",
+   "provincial": true,
+   "nota": "Complementa a vivacadiz.com/eventos/cadiz",
+   "id": 103
   }
  ]
 }
