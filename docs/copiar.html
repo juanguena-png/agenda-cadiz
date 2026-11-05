@@ -29,6 +29,6 @@ small{color:#666;display:block;margin-top:14px}
   function ir(){copiar().then(function(ok){document.getElementById("ok").textContent=ok?"✅ Comentario copiado. Abriendo la publicación…":"No se pudo copiar solo: mantén pulsado el texto de arriba y copia. Abriendo…";setTimeout(function(){location.href=post},ok?700:2500)})}
   document.getElementById("b").addEventListener("click",ir);
   // intento automático (algunos navegadores lo permiten sin toque); si falla, queda el botón
-  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){document.getElementById("ok").textContent="✅ Comentario ya copiado. Pulsa el botón para abrir la publicación."}).catch(function(){})}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){document.getElementById("ok").textContent="✅ Comentario copiado. Abriendo la publicación…";setTimeout(function(){location.href=post},1200)}).catch(function(){})}
 })();
 </script></body></html>
