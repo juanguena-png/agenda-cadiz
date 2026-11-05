@@ -1,10 +1,32 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "reel": {
+      "instagram": {
+        "ts": "2026-11-05T09:02:11+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18358715317168026",
+          "https://www.instagram.com/reel/DfWjhHsh5LC/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-05T09:02:15+01:00",
+        "estado": "publicado",
+        "resultado": "28888307794153019"
+      }
+    }
+  },
   "registro": [
     "2026-11-05T07:58:42+01:00 finde: render OK (7 eventos, variante B)"
   ],
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-05T08:01:58+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 5,
+    "total": 100,
+    "ts": "2026-11-05T09:01:27+01:00"
+  },
+  "ultima_ejecucion": "2026-11-05T09:02:15+01:00"
 }
