@@ -391,6 +391,13 @@ def construir_plan(carpeta, tipo, man, eventos, fecha):
         for d in man.get("stories", []):
             plan.append({"clave": f"stories/{d['archivo']}", "archivos": [carpeta / "stories" / d["archivo"]],
                          "ig": lambda urls: ig_story(urls[0]), "fb": lambda urls: fb_story(urls[0])})
+    if tipo == "diario" and (carpeta / "reel_diario" / "reel.mp4").exists() and (carpeta / "caption_reel.txt").exists():
+        import etiquetas as et
+        cap_r = (carpeta / "caption_reel.txt").read_text(encoding="utf-8")
+        tags_r = et.para_diapositiva(eventos)
+        cols_r = __import__("crecimiento").colaboradores(eventos)
+        plan.append({"clave": "reel_diario", "archivos": [carpeta / "reel_diario" / "reel.mp4", carpeta / "reel_diario" / "portada.png"],
+                     "ig": lambda urls, t=tags_r, c=cols_r, cap=cap_r: ig_reel(urls[0], cap, urls[1], t, c), "fb": lambda urls, cap=cap_r: fb_reel(urls[0], cap)})
     if tipo == "noche":
         for d in man.get("noche", []):
             plan.append({"clave": f"noche/{d['archivo']}", "archivos": [carpeta / "noche" / d["archivo"]],

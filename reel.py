@@ -70,14 +70,14 @@ def fotos_portada(eventos):
     return out[:3]
 
 
-def datos_reel(eventos, titulo, sub, fecha):
+def datos_reel(eventos, titulo, sub, fecha, diario=False):
     eventos = ag.ordenar(eventos, por_fecha=True)
     n, por, total = planificar(len(eventos))
     marca = ag.cargar_json(ag.RAIZ / "marca.json", {}) or {}
     return {"tema": marca.get("tema", "d1"), "prefijo": marca.get("prefijo", "Planes en"), "ciudad": marca.get("ciudad", "Cádiz"), "usuario": marca.get("usuario", "@planesencadiz"),
             "paleta": rd.paleta(fecha), "layout": (ag.a_fecha(fecha).toordinal() % 3) + 1, "fondo": ["noche", "sol", "mar"][(ag.a_fecha(fecha).toordinal() // 3) % 3],
-            "fotos": fotos_portada(eventos), "titulo": titulo, "subtitulo": sub, "etiqueta": "Viernes a domingo", "sufijo": "para el finde", "total": len(eventos),
-            "eventos": eventos[:n], "intro": INTRO, "por_evento": por, "outro": OUTRO, "total_s": total, "dias": dias_finde(fecha)}, n, total
+            "fotos": fotos_portada(eventos), "titulo": titulo, "subtitulo": sub, "etiqueta": "Hoy" if diario else "Viernes a domingo", "sufijo": "en Cádiz" if diario else "para el finde", "total": len(eventos),
+            "eventos": eventos[:n], "intro": INTRO, "por_evento": por, "outro": OUTRO, "total_s": total, "dias": [{"abr": "HOY", "num": ag.a_fecha(fecha).day, "iso": ag.a_fecha(fecha).isoformat()}] if diario else dias_finde(fecha)}, n, total
 
 
 # ---------------------------------------------------------------- render
@@ -121,8 +121,8 @@ def capturar_portada(datos, destino):
         pg.close()
 
 
-def hacer_reel(eventos, titulo, sub, fecha, salida, log=print):
-    datos, n, total = datos_reel(eventos, titulo, sub, fecha)
+def hacer_reel(eventos, titulo, sub, fecha, salida, log=print, diario=False):
+    datos, n, total = datos_reel(eventos, titulo, sub, fecha, diario)
     pista = elegir_pista(fecha)
     capturar(datos, salida, pista, log)
     portada = Path(salida).parent / "portada.png"
@@ -134,6 +134,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--fecha")
     ap.add_argument("--demo", action="store_true")
+    ap.add_argument("--diario", action="store_true", help="reel «Hoy en Cádiz» con los planes del día (posts/F/eventos.json) -> posts/F/reel_diario/")
     a = ap.parse_args()
     if a.demo:
         base = ag.RAIZ / "ejemplos"
@@ -142,6 +143,18 @@ if __name__ == "__main__":
         for i, e in enumerate(evs):
             e["fecha"] = ["2026-10-30", "2026-10-31", "2026-11-01"][i % 3]
         print(hacer_reel(evs, "Planes del finde", "30 oct – 1 nov", "2026-10-29", base / "reel-demo.mp4"))
+    elif a.diario:
+        carpeta = ag.dir_dia(a.fecha)
+        todos = ag.eventos_validos(ag.cargar_eventos(carpeta)["eventos"])
+        evs = [e for e in todos if e.get("hora_inicio") and not e.get("etiqueta")] or todos  # planes con hora; los rellenos «Siempre abierto» solo si no hay otros
+        if len(evs) < ag.MIN_EVENTOS:
+            ag.salir("0 eventos verificados: no se genera el reel diario.", 0)
+        rd.resolver_imagenes(evs, carpeta)
+        out = carpeta / "reel_diario"
+        out.mkdir(exist_ok=True)
+        info = hacer_reel(evs, "Hoy en Cádiz", ag.fecha_larga(a.fecha), a.fecha, out / "reel.mp4", diario=True)
+        ag.guardar_json(out / "reel.json", info)
+        print(info)
     else:
         carpeta = ag.dir_dia(a.fecha, "finde")
         evs = ag.eventos_validos(ag.cargar_eventos(carpeta)["eventos"])
