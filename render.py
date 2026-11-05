@@ -158,11 +158,11 @@ def render_carrusel(r, eventos, tipo, fecha, salida, var):
     r.png("portada.html", {"titulo": titulo, "subtitulo": sub, "total": len(eventos), "etiqueta": etiqueta, "sufijo": sufijo, "paleta": paleta(fecha)}, salida / "01.png", VIEW_FEED)
     import etiquetas
     manifiesto = [{"archivo": "01.png", "tipo": "portada", "etiquetas": etiquetas.para_diapositiva(eventos),
-                   "alt_text": f"Portada de Planes en {ciudad}: {titulo}, {sub}. {len(eventos)} planes."}]
+                   "alt_text": f"Qué hacer en {ciudad} hoy: portada de la agenda de Planes en {ciudad}. {titulo}, {sub}. {len(eventos)} planes y eventos."}]
     for i, g in enumerate(grupos, start=2):
         r.png("eventos.html", {"eventos": g, "cabecera": f"{i - 1}/{len(grupos)}", "mostrar_fecha": tipo != "diario"}, salida / f"{i:02d}.png", VIEW_FEED)
         manifiesto.append({"archivo": f"{i:02d}.png", "tipo": "eventos", "ids": [e.get("id") for e in g], "etiquetas": etiquetas.para_diapositiva(g),
-                           "alt_text": "Eventos: " + "; ".join(f"{e['nombre']} ({e.get('hora_inicio') or 'todo el día'}, {e['lugar']})" for e in g)})
+                           "alt_text": "Agenda de eventos en Cádiz, planes de hoy: " + "; ".join(f"{e['nombre']} ({e.get('hora_inicio') or 'todo el día'}, {e['lugar']})" for e in g)})
     return manifiesto
 
 
@@ -259,7 +259,8 @@ def render_dia(fecha, tipo="diario", var=None):
     ag.guardar_json(carpeta / "eventos.json", guardar)
     var = var or variante(fecha)
     with Renderer() as r:
-        man = {"variante": var, "paleta": paleta(fecha), "carrusel": render_carrusel(r, validos, tipo, fecha, carpeta / "carrusel", var)}
+        import crecimiento
+        man = {"variante": var, "paleta": paleta(fecha), "experimentos": crecimiento.experimentos(fecha), "carrusel": render_carrusel(r, validos, tipo, fecha, carpeta / "carrusel", var)}
         if tipo == "diario":
             man["stories"] = render_stories(r, validos, fecha, carpeta / "stories")
             manana = ag.eventos_validos(datos.get("noche_manana") or [], log=lambda m: ag.log_estado(estado, m))

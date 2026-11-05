@@ -137,6 +137,16 @@ Si el carrusel falla, no se publican sus stories. Si falla una story, se registr
 
 `interaccion.py --recoger` responde solo a las palabras clave (**PLANES** y **FINDE**; no hay MES ni EVENTO) y deja el resto en `registros/pendientes.json`. Para cada pendiente: responde (`--responder ID "texto"`) **solo si la respuesta está en las fuentes consultadas para la programación**; si no la encuentras, **no respondas** y ejecuta `--sin-respuesta ID` (email con enlace y texto). Respuestas breves, cordiales, tono de `marca.md`. Nunca información inventada. Ignora spam e insultos (sin responder ni avisar).
 
+## Crecimiento orgánico diario (acciones elegidas por el titular; todas con la API oficial, nada contra las normas de Meta)
+
+Script: `crecimiento.py`. Cada día, en la tarea de las 22:30: `metricas.py --recoger`, `crecimiento.py --aliados` (quién nos etiqueta o comparte; ranking en `registros/aliados.json`), `crecimiento.py --benchmark` (instantánea de cuentas de referencia en `registros/competidores.json`; solo datos públicos de cuentas profesionales) y `crecimiento.py --informe` (qué publicación trajo más seguidores, alcance medio por formato y qué cambiar mañana; `registros/informes/`). Los lunes: `crecimiento.py --hashtags` (rendimiento de hashtags, máx. 30 distintos/7 días) y `crecimiento.py --ab`. Los domingos: `crecimiento.py --semanal` (revisión: mejores y peores publicaciones, aliados, referencia, A/B; qué dejar de hacer; llega por email).
+- **Colaboradores:** `publicar.py` invita como colaboradores (`collaborators`, máx. 3) a los organizadores, artistas y lugares verificados de `entidades`, dando más peso a quienes ya nos han compartido. Si Meta lo rechaza, se publica sin ellos.
+- **Primer comentario** de la cuenta en el carrusel diario, con pregunta y lista rápida (la API no permite fijarlo).
+- **Palabras clave** («qué hacer en Cádiz hoy», «agenda») en caption y texto alternativo (lo genera `render.py`).
+- **Ubicación:** si existe la variable `IG_LOCATION_ID` (id del lugar «Cádiz»), `publicar.py` la pone en carruseles y reels.
+- **Experimentos A/B** (`manifiesto.json` → `experimentos`): `frase` (A pregunta / B dato), `cta` (A guardar / B compartir) y `hashtags` (5 u 8). El agente redacta el caption siguiendo esas tres variables y usa `crecimiento.py --recomendar-hashtags N` para elegir los hashtags (siempre #CádizCapital y #PlanesCádiz). Una variante se fija sola con ≥10 muestras por lado y >15 % de mejora (seguidores nuevos pesan más que el alcance).
+- No se envían mensajes a nuevos seguidores (la API no avisa de ellos); sí se responde a quien escribe (PLANES/FINDE y pendientes).
+
 ## Métricas y mejora continua
 
 Cada día: `metricas.py --recoger` y `--resumen`. Orienta el trabajo a visibilidad, seguidores e interacciones (portadas, primera frase, hashtags, orden de lo destacado en captions, días con más guardados/compartidos). Cada mejora aplicada se registra con `metricas.py --mejora "título" "por qué"` (registra en `registros/mejoras.md` y envía email). Una mejora **nunca** puede saltarse estas reglas, la regla 1 ni cambiar 9:00/18:30.

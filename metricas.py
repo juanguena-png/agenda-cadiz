@@ -18,7 +18,7 @@ from publicar import ErrorAPI, api
 
 SALIDA = ag.RAIZ / "registros" / "metricas.jsonl"
 IG_CUENTA = ["reach", "views", "accounts_engaged", "total_interactions", "likes", "comments", "saves", "shares", "follows_and_unfollows", "profile_views"]
-IG_MEDIA = ["reach", "saved", "shares", "likes", "comments", "total_interactions", "views"]
+IG_MEDIA = ["reach", "saved", "shares", "likes", "comments", "total_interactions", "views", "follows", "profile_visits"]
 FB_PAGINA = ["page_media_view", "page_post_engagements", "page_follows", "page_daily_follows_unique"]
 
 
@@ -163,6 +163,11 @@ def resumen(dias):
 
 
 def ab():
+    import crecimiento
+    return crecimiento.ab()
+
+
+def _ab_antiguo():
     """Compara alcance medio de carruseles por variante de portada (A/B). Fija la ganadora con >=10 muestras por variante y >15 % de diferencia."""
     pubs = {}
     for f in leer(60):

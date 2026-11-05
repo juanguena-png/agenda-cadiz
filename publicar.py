@@ -144,7 +144,26 @@ def ig_publicar(cid):
     return r["id"], perma
 
 
-def ig_carrusel(urls, alts, caption, etiquetas_por_slide=None):
+def ig_comentar(media_id, texto):
+    """Primer comentario de la cuenta en su propia publicación (pregunta + lista rápida). La API no permite fijarlo; un fallo no impide nada."""
+    try:
+        return api("POST", f"{media_id}/comments", message=texto)["id"]
+    except ErrorAPI as e:
+        print(f"AVISO: no se pudo publicar el primer comentario ({e})")
+
+
+def _extras_contenedor(colaboradores):
+    """Parámetros opcionales del contenedor: colaboradores invitados (máx. 3) y ubicación (IG_LOCATION_ID = id de la página de lugar de Cádiz)."""
+    extra = {}
+    if colaboradores:
+        extra["collaborators"] = colaboradores[:3]
+    loc = ag.secreto("IG_LOCATION_ID")
+    if loc:
+        extra["location_id"] = loc
+    return extra
+
+
+def ig_carrusel(urls, alts, caption, etiquetas_por_slide=None, colaboradores=None, comentario=None):
     """Carrusel de Instagram. etiquetas_por_slide: lista (una por diapositiva) de usuarios a etiquetar con user_tags (perfiles verificados)."""
     import etiquetas as et
     ig = ag.secreto("IG_USER_ID")
@@ -160,9 +179,19 @@ def ig_carrusel(urls, alts, caption, etiquetas_por_slide=None):
             c = api("POST", f"{ig}/media", image_url=u, is_carousel_item="true", alt_text=alt[:1000])["id"]
         ig_esperar(c)
         hijos.append(c)
-    padre = api("POST", f"{ig}/media", media_type="CAROUSEL", children=",".join(hijos), caption=caption)["id"]
+    extra = _extras_contenedor(colaboradores)
+    try:
+        padre = api("POST", f"{ig}/media", media_type="CAROUSEL", children=",".join(hijos), caption=caption, **extra)["id"]
+    except ErrorAPI as e:
+        if not extra:
+            raise
+        print(f"AVISO: carrusel sin colaboradores/ubicación ({e})")
+        padre = api("POST", f"{ig}/media", media_type="CAROUSEL", children=",".join(hijos), caption=caption)["id"]
     ig_esperar(padre)
-    return ig_publicar(padre)
+    res = ig_publicar(padre)
+    if comentario:
+        ig_comentar(res[0], comentario)
+    return res
 
 
 def ig_story(url):
@@ -172,17 +201,18 @@ def ig_story(url):
     return ig_publicar(c)
 
 
-def ig_reel(url, caption, cover=None, etiquetas=None):
+def ig_reel(url, caption, cover=None, etiquetas=None, colaboradores=None):
     """cover = URL pública de la portada del reel (reel/portada.png): formato propio, distinto del resto de publicaciones.
     etiquetas = usuarios verificados a etiquetar (user_tags de reels: solo usernames, sin coordenadas; máx. 20)."""
     ig = ag.secreto("IG_USER_ID")
     tags = [{"username": u} for u in (etiquetas or [])[:20]] or None
+    extra = _extras_contenedor(colaboradores)
     try:
-        c = api("POST", f"{ig}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true", cover_url=cover, user_tags=tags)["id"]
+        c = api("POST", f"{ig}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true", cover_url=cover, user_tags=tags, **extra)["id"]
     except ErrorAPI as e:
-        if not tags:
+        if not (tags or extra):
             raise
-        print(f"AVISO: reel sin etiquetas ({e})")  # una etiqueta rechazada no debe impedir publicar
+        print(f"AVISO: reel sin etiquetas/colaboradores/ubicación ({e})")  # un parámetro opcional rechazado no debe impedir publicar
         c = api("POST", f"{ig}/media", media_type="REELS", video_url=url, caption=caption, share_to_feed="true", cover_url=cover)["id"]
     ig_esperar(c, intentos=120, pausa=5)
     return ig_publicar(c)
@@ -349,8 +379,11 @@ def construir_plan(carpeta, tipo, man, eventos, fecha):
         imgs = [carpeta / "carrusel" / d["archivo"] for d in man["carrusel"]]
         alts = [d["alt_text"] for d in man["carrusel"]]
         tags = [d.get("etiquetas") or [] for d in man["carrusel"]]
+        import crecimiento
+        cols = crecimiento.colaboradores(eventos)          # hasta 3 invitados como colaboradores (organizadores/artistas/lugares verificados)
+        com = crecimiento.comentario_post(eventos, fecha) if tipo == "diario" else None  # primer comentario con pregunta y lista rápida
         plan.append({"clave": "carrusel", "archivos": imgs,
-                     "ig": lambda urls, alts=alts, tags=tags: ig_carrusel(urls, alts, caption, tags), "fb": lambda urls: fb_carrusel(urls, caption)})
+                     "ig": lambda urls, alts=alts, tags=tags, cols=cols, com=com: ig_carrusel(urls, alts, caption, tags, cols, com), "fb": lambda urls: fb_carrusel(urls, caption)})
     if tipo == "diario":
         for d in man.get("stories", []):
             plan.append({"clave": f"stories/{d['archivo']}", "archivos": [carpeta / "stories" / d["archivo"]],
@@ -363,8 +396,10 @@ def construir_plan(carpeta, tipo, man, eventos, fecha):
         v = carpeta / "reel" / "reel.mp4"
         import etiquetas as et
         tags = et.para_diapositiva(eventos)  # todos los perfiles de los eventos del reel (máx. 20)
+        import crecimiento
+        cols = crecimiento.colaboradores(eventos)
         cap = (carpeta / "caption.txt").read_text(encoding="utf-8") if (carpeta / "caption.txt").exists() else ag.salir("Falta caption.txt")
-        plan.append({"clave": "reel", "archivos": [v, carpeta / "reel" / "portada.png"], "ig": lambda urls, tags=tags: ig_reel(urls[0], cap, urls[1], tags), "fb": lambda urls: fb_reel(urls[0], cap)})
+        plan.append({"clave": "reel", "archivos": [v, carpeta / "reel" / "portada.png"], "ig": lambda urls, tags=tags, cols=cols: ig_reel(urls[0], cap, urls[1], tags, cols), "fb": lambda urls: fb_reel(urls[0], cap)})
     return plan
 
 
