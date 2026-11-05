@@ -109,10 +109,47 @@ def para_evento(ev):
     for u in [limpiar(x) for x in (ev.get("etiquetas_ig") or [])]:
         if u in dir_ and u not in out:
             out.append(u)
+    for ent in ev.get("entidades") or []:
+        u = limpiar(ent.get("instagram"))
+        if u in dir_ and u not in out:
+            out.append(u)
     for u, d in dir_.items():
         if u not in out and any(re.search(c, texto) for c in d.get("claves", [])):
             out.append(u)
     return out
+
+
+MIN_ETIQUETAS_EVENTO = 3  # umbral de aviso: lugar + organizador + al menos una entidad o artista
+
+
+def auditar(eventos, fecha=None):
+    """Controla que cada evento lleve TODAS sus etiquetas. El agente declara en `entidades` quién está relacionado con el evento
+    ([{"rol": "artista|organizador|lugar|institucion|patrocinador", "nombre": "…", "instagram": "usuario" | null}]).
+    Devuelve [(evento, usuarios, problemas)]; los nombres sin perfil verificado se anotan en registros/etiquetas-pendientes.json."""
+    dir_ = directorio()
+    pend_ruta = ag.RAIZ / "registros" / "etiquetas-pendientes.json"
+    pend = ag.cargar_json(pend_ruta, {}) or {}
+    informe = []
+    for ev in eventos:
+        tags = para_evento(ev)
+        problemas = []
+        ents = ev.get("entidades") or []
+        if not ents:
+            problemas.append("sin `entidades` declaradas (artistas, organizador, lugar, instituciones)")
+        roles = {str(e.get("rol", "")).lower() for e in ents}
+        for rol in ("lugar", "organizador"):
+            if ents and rol not in roles:
+                problemas.append(f"falta la entidad con rol «{rol}»")
+        for e in ents:
+            u = limpiar(e.get("instagram"))
+            if not u or u not in dir_:
+                problemas.append(f"sin perfil verificado: {e.get('nombre')} ({e.get('rol')})")
+                pend[e.get("nombre") or "?"] = {"rol": e.get("rol"), "evento": ev.get("nombre"), "fecha": fecha or ev.get("fecha"), "instagram_probado": u or None}
+        if len(tags) < MIN_ETIQUETAS_EVENTO:
+            problemas.append(f"solo {len(tags)} etiqueta(s) (mínimo {MIN_ETIQUETAS_EVENTO})")
+        informe.append((ev, tags, problemas))
+    ag.guardar_json(pend_ruta, pend)
+    return informe
 
 
 def para_diapositiva(eventos):
@@ -136,6 +173,7 @@ if __name__ == "__main__":
     ap.add_argument("--verificar", nargs="+")
     ap.add_argument("--anadir", nargs="+", metavar=("USUARIO", "NOMBRE"))
     ap.add_argument("--evento")
+    ap.add_argument("--auditar", metavar="eventos.json", help="informe de etiquetas por evento (entidades sin perfil, mínimos)")
     ap.add_argument("--web", nargs="+", metavar="URL", help="busca los enlaces de Instagram en webs oficiales de organizadores/recintos")
     ap.add_argument("--buscar", nargs="+", metavar="NOMBRE", help="prueba variantes de cada nombre y muestra los perfiles que existen (hay que comprobar que son los correctos)")
     a = ap.parse_args()
@@ -162,6 +200,13 @@ if __name__ == "__main__":
             print(f"## {n}")
             for u, nom, sg in buscar(n):
                 print(f"   @{u} | {nom} | {sg} seguidores")
+    elif a.auditar:
+        import pathlib
+        ruta = pathlib.Path(a.auditar)
+        for ev, tags, probs in auditar(ag.cargar_eventos(ruta.parent)["eventos"], fecha=ruta.parent.name):
+            print(("✅ " if not probs else "⚠️ ") + ev["nombre"][:60], "->", [f"@{u}" for u in tags])
+            for p in probs:
+                print("     -", p)
     elif a.evento:
         for ev in ag.cargar_eventos(__import__("pathlib").Path(a.evento).parent)["eventos"]:
             print(ev["nombre"][:60], "->", [f"@{u}" for u in para_evento(ev)])

@@ -261,6 +261,12 @@ def publicar(fecha, tipo, esperar=None):
         ag.log_estado(estado, f"{tipo}: 0 eventos verificados, no hay nada que publicar (revisar: regla 9 exige publicar todos los días)")
         ag.guardar_estado(carpeta, estado)
         notificar.enviar(f"Sin eventos verificados para publicar ({tipo} {fecha})", "Regla 9: hay que publicar todos los días. Completa eventos.json (eventos o relleno «Siempre abierto») y vuelve a lanzar render y publicar."); return print("0 eventos verificados: no hay nada que publicar (aviso enviado).")
+    if tipo in ("diario", "mensual") and not PRUEBA:
+        import etiquetas as et
+        flojos = [(ev, tags, pr) for ev, tags, pr in et.auditar(validos, fecha) if pr]
+        if flojos:  # no bloquea la publicación (regla 9), pero avisa: hay que completar etiquetas
+            notificar.enviar(f"Etiquetas incompletas en {len(flojos)} evento(s) ({tipo} {fecha})",
+                             "\n".join(f"- {ev['nombre']}: {'; '.join(pr)}" for ev, _, pr in flojos) + "\n\nCompleta `entidades` en eventos.json y ejecuta etiquetas.py --auditar.")
     if not PRUEBA and not (estado.get("revision_final") or {}).get("hecha"):
         ag.salir("Falta la revisión final de fuentes (cancelaciones/cambios de hora). Ejecuta --marcar-revision tras comprobarlas.")
 
