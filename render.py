@@ -206,6 +206,36 @@ def render_noche(r, eventos, fecha, salida, titulo="Esta noche en", filtrar=True
     return man
 
 
+def _importantes(manana, k):
+    """Los k eventos más importantes de mañana: respeta `importancia` (mayor = más) y, si no la hay, el orden en que el agente los puso en
+    noche_manana; los rellenos «Siempre abierto» y los eventos sin hora solo entran si no hay otros."""
+    cand = list(enumerate(manana))
+    cand.sort(key=lambda t: (bool(t[1].get("etiqueta")), not t[1].get("hora_inicio"), -(t[1].get("importancia") or 0), t[0]))
+    return ag.ordenar([e for _, e in cand[:k]])
+
+
+def render_noche_mixta(r, hoy, manana, fecha, salida):
+    """Story de las 18:30 (reglas del titular):
+    - 4 o más planes de tarde/noche: «Esta noche en Cádiz» (4 por story).
+    - 1-3: UNA story dividida: sección «Esta noche» + sección «Mañana» con los eventos más importantes del día siguiente hasta completarla.
+    - 0: la story entera es un adelanto de mañana («Mañana en Cádiz»)."""
+    import datetime
+    f2 = (ag.a_fecha(fecha) + datetime.timedelta(days=1)).isoformat()
+    noche = ag.ordenar([e for e in hoy if ag.es_nocturno(e)])
+    if len(noche) >= NOCHE_POR_STORY or not manana:
+        return render_noche(r, hoy, fecha, salida)
+    if not noche:
+        return render_noche(r, manana, f2, salida, titulo="Mañana en", filtrar=False)
+    salida.mkdir(parents=True, exist_ok=True)
+    for viejo in salida.glob("*.png"):
+        viejo.unlink()
+    resto = _importantes(manana, NOCHE_POR_STORY - len(noche))
+    secciones = [{"titulo": "Esta noche", "eventos": noche}, {"titulo": "Mañana · " + ag.fecha_larga(f2), "eventos": resto}]
+    r.png("story-noche.html", {"secciones": secciones, "titulo": "Hoy y mañana en", "fecha_larga": ag.fecha_larga(fecha), "pagina": 1, "total_paginas": 1}, salida / "01.png", VIEW_STORY)
+    return [{"archivo": "01.png", "ids": [e.get("id") for e in noche + resto],
+             "alt_text": "Esta noche: " + "; ".join(e["nombre"] for e in noche) + ". Mañana en Cádiz: " + "; ".join(e["nombre"] for e in resto)}]
+
+
 def render_dia(fecha, tipo="diario", var=None):
     carpeta = ag.dir_dia(fecha, tipo)
     datos = ag.cargar_eventos(carpeta)
@@ -232,14 +262,10 @@ def render_dia(fecha, tipo="diario", var=None):
         man = {"variante": var, "paleta": paleta(fecha), "carrusel": render_carrusel(r, validos, tipo, fecha, carpeta / "carrusel", var)}
         if tipo == "diario":
             man["stories"] = render_stories(r, validos, fecha, carpeta / "stories")
-            man["noche"] = render_noche(r, validos, fecha, carpeta / "noche")
-            if not man["noche"] and datos.get("noche_manana"):
-                # Sin planes nocturnos hoy, la story de las 18:30 sale igualmente como «Mañana en Cádiz» (eventos de mañana, verificados)
-                manana = ag.eventos_validos(datos["noche_manana"], log=lambda m: ag.log_estado(estado, m))
-                if manana:
-                    resolver_imagenes(manana, carpeta)
-                    f2 = (ag.a_fecha(fecha) + __import__("datetime").timedelta(days=1)).isoformat()
-                    man["noche"] = render_noche(r, manana, f2, carpeta / "noche", titulo="Mañana en", filtrar=False)
+            manana = ag.eventos_validos(datos.get("noche_manana") or [], log=lambda m: ag.log_estado(estado, m))
+            if manana:
+                resolver_imagenes(manana, carpeta)
+            man["noche"] = render_noche_mixta(r, validos, manana, fecha, carpeta / "noche")
     ag.guardar_json(carpeta / "manifiesto.json", man)
     ag.log_estado(estado, f"{tipo}: render OK ({len(validos)} eventos, variante {var})")
     ag.guardar_estado(carpeta, estado)

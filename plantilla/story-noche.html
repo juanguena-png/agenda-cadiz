@@ -10,6 +10,8 @@ h1{font-size:86px;line-height:1;margin-bottom:4px}
 .ev h2{font-size:37px;line-height:1.08;overflow-wrap:anywhere}
 .ev .hora{font-size:38px;font-weight:900;color:var(--c-dato)}
 .ev .meta{font-size:30px;color:var(--c-suave-tarjeta);font-weight:600}
+.sec{font-size:34px;font-weight:900;letter-spacing:.5px;color:var(--c-dato);text-transform:uppercase;margin-top:6px}
+.bloque{display:flex;flex-direction:column;gap:14px;min-height:0}.bloque .ev{flex:none;height:230px}
 </style></head><body>
 <div class="lienzo story noche" id="l"></div>
 <script>
@@ -18,8 +20,8 @@ async function render(d){
   document.getElementById("l").innerHTML=`<div class="deco"></div><div class="zona">
     ${logo(d,"mini",38)}<h1 class="titulo">${esc(d.titulo||"Esta noche en")} ${esc(d.ciudad||"Cádiz")}</h1>
     <div class="sub">${esc(d.fecha_larga)}${d.total_paginas>1?` · ${d.pagina}/${d.total_paginas}`:""}</div>
-    <div class="lista">${d.eventos.map(ev=>`<div class="ev"><div class="foto" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
-      <div class="txt"><div class="hora">${esc(horaTxt(ev))}</div><h2 class="clamp3">${esc(ev.nombre)}</h2><div class="meta clamp2">${esc(ev.lugar)} · ${esc(precioTxt(ev))}</div></div></div>`).join("")}</div>
+    <div class="lista">${(d.secciones||[{eventos:d.eventos}]).map(sec=>`${sec.titulo?`<div class="sec">${esc(sec.titulo)}</div>`:""}${sec.eventos.map(ev=>`<div class="ev"><div class="foto" ${fotoAttrs(ev)} role="img" aria-label="${esc(ev.imagen&&ev.imagen.alt_text)}"></div>
+      <div class="txt"><div class="hora">${esc(horaTxt(ev))}</div><h2 class="clamp3">${esc(ev.nombre)}</h2><div class="meta clamp2">${esc(ev.lugar)} · ${esc(precioTxt(ev))}</div></div></div>`).join("")}`).join("")}</div>
   </div>`;
   await listo();
 }
