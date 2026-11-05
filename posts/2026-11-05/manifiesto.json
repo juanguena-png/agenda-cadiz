@@ -1,0 +1,75 @@
+{
+  "variante": "B",
+  "paleta": 6,
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "ateneocadiz",
+        "fundacioncajasol"
+      ],
+      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, jueves 5 de noviembre. 3 planes."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "noche-psicologia"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz"
+      ],
+      "alt_text": "Eventos: La Noche de la Psicología (todo el día, Palacio de Congresos de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-sabana-santa"
+      ],
+      "etiquetas": [
+        "ateneocadiz"
+      ],
+      "alt_text": "Eventos: Conferencia «Los secretos de la Sábana Santa» y novela «La Huella Sagrada» (19:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "cadiz-canta-beltran"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Eventos: Cádiz Canta · Lucía Beltrán (20:00, Fundación Cajasol (Casa Pemán))"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "noche-psicologia",
+      "alt_text": "Imagen de La Noche de la Psicología"
+    },
+    {
+      "archivo": "02.png",
+      "id": "ateneo-sabana-santa",
+      "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial"
+    },
+    {
+      "archivo": "03.png",
+      "id": "cadiz-canta-beltran",
+      "alt_text": "Cartel oficial del ciclo Cádiz Canta en la Fundación Cajasol"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "cadiz-canta-beltran"
+      ],
+      "alt_text": "Esta noche en Cádiz: Cádiz Canta · Lucía Beltrán"
+    }
+  ]
+}
