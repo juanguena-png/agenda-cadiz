@@ -166,31 +166,31 @@
       "todo_el_dia": false,
       "lugar": "Fundación Cajasol (Casa Pemán)",
       "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "Consultar",
+      "precio": "Gratis",
       "publico": "Todos los públicos",
       "descripcion": "Concierto de Lolo Pastrana dentro del ciclo «Noches en Cajasol», en la sede gaditana de la fundación.",
-      "info": "Entradas online en la web de Cajasol y en la taquilla de Cádiz",
+      "info": "Entrada libre hasta completar aforo",
       "imagen": {
         "archivo": "img/lolo-pastrana.jpg",
-        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/16-OCT-LOLO-PASTRATNA-1080x1080-2.jpg",
-        "fuente": "Fundación Cajasol",
-        "pagina": "https://fundacioncajasol.com/evento/lolo-pastrana/",
-        "alt_text": "Cartel oficial del concierto de Lolo Pastrana en Cajasol",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-NOCHES-EN-CAJASOL-CADIZ_1920x1080.jpg",
+        "fuente": "fundacioncajasol.com",
+        "pagina": "https://fundacioncajasol.com/evento/lolo-pastrana-2/",
+        "ancho": 1600,
+        "alto": 900,
+        "alt_text": "Cartel oficial del ciclo Noches en Cajasol de octubre y noviembre en la Fundación Cajasol de Cádiz",
         "tipo_imagen": "oficial",
-        "ancho": 1081,
-        "alto": 1081,
-        "ajuste": "cover"
+        "ajuste": "contain"
       },
       "fuentes": [
         {
           "nombre": "Fundación Cajasol",
-          "url": "https://fundacioncajasol.com/evento/lolo-pastrana/"
+          "url": "https://fundacioncajasol.com/evento/lolo-pastrana-2/"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
         "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
-        "url": "https://fundacioncajasol.com/evento/lolo-pastrana/"
+        "url": "https://fundacioncajasol.com/evento/lolo-pastrana-2/"
       },
       "etiquetas_ig": [
         "@fundacioncajasol"
