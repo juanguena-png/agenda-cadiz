@@ -11,11 +11,9 @@
       "archivo": "01.png",
       "tipo": "portada",
       "etiquetas": [
+        "ayuntamientocadiz",
         "casadeiberoamerica",
         "gaditanoir",
-        "ayuntamientocadiz",
-        "univcadiz",
-        "imdcadiz",
         "spasmoteatro",
         "fundunicaja",
         "_one_medina",
@@ -29,26 +27,24 @@
       "archivo": "02.png",
       "tipo": "eventos",
       "ids": [
-        "gaditanoir-2026-agatha"
+        "feria-salud"
       ],
       "etiquetas": [
-        "casadeiberoamerica",
-        "gaditanoir"
+        "ayuntamientocadiz"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Gaditanoir · Jornada Agatha Christie (consultar horario, Casa de Iberoamérica)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: III Feria de Promoción de la Salud y el Bienestar (10:00, Parque Erytheia)"
     },
     {
       "archivo": "03.png",
       "tipo": "eventos",
       "ids": [
-        "feria-salud-2026"
+        "gaditanoir"
       ],
       "etiquetas": [
-        "ayuntamientocadiz",
-        "univcadiz",
-        "imdcadiz"
+        "casadeiberoamerica",
+        "gaditanoir"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: III Feria de Promoción de la Salud y el Bienestar (10:00, Parque Erytheia)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Gaditanoir, Festival de Novela Negra (17:00, Casa de Iberoamérica · Patio Central)"
     },
     {
       "archivo": "04.png",
@@ -57,7 +53,6 @@
         "bichitos"
       ],
       "etiquetas": [
-        "ayuntamientocadiz",
         "spasmoteatro"
       ],
       "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Bichitos · Spasmos Teatro (18:00, Teatro del Títere La Tía Norica)"
@@ -66,7 +61,7 @@
       "archivo": "05.png",
       "tipo": "eventos",
       "ids": [
-        "juan-medina-flamenco"
+        "juan-medina"
       ],
       "etiquetas": [
         "fundunicaja",
@@ -101,23 +96,23 @@
   "stories": [
     {
       "archivo": "01.png",
-      "id": "gaditanoir-2026-agatha",
-      "alt_text": "Imagen de Gaditanoir · Jornada Agatha Christie"
+      "id": "feria-salud",
+      "alt_text": "Cartel de la III Feria de Promoción de la Salud y el Bienestar de Cádiz"
     },
     {
       "archivo": "02.png",
-      "id": "feria-salud-2026",
-      "alt_text": "Cartel de la III Feria de Promoción de la Salud y el Bienestar de Cádiz"
+      "id": "gaditanoir",
+      "alt_text": "Cartel del Festival de Novela Negra Gaditanoir"
     },
     {
       "archivo": "03.png",
       "id": "bichitos",
-      "alt_text": "Cartel de Bichitos, de Spasmos Teatro"
+      "alt_text": "Imagen de Bichitos · Spasmos Teatro"
     },
     {
       "archivo": "04.png",
-      "id": "juan-medina-flamenco",
-      "alt_text": "Juan Medina, guitarrista flamenco, en un retrato oficial de Fundación Unicaja"
+      "id": "juan-medina",
+      "alt_text": "Fotografía del guitarrista Juan Medina"
     },
     {
       "archivo": "05.png",
@@ -127,14 +122,14 @@
     {
       "archivo": "06.png",
       "id": "lolo-pastrana",
-      "alt_text": "Cartel del ciclo Noches en Cajasol Cádiz, octubre y noviembre de 2026"
+      "alt_text": "Cartel oficial del concierto de Lolo Pastrana en Cajasol"
     }
   ],
   "noche": [
     {
       "archivo": "01.png",
       "ids": [
-        "juan-medina-flamenco",
+        "juan-medina",
         "neurociencia-acropolis",
         "lolo-pastrana"
       ],

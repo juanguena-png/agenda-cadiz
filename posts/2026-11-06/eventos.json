@@ -3,19 +3,11 @@
   "tipo": "diario",
   "eventos": [
     {
-      "id": "feria-salud-2026",
-      "nombre": "III Feria de Promoción de la Salud y el Bienestar",
       "categoria": "otros",
       "fecha": "2026-11-06",
-      "hora_inicio": "10:00",
       "hora_fin": "14:00",
       "todo_el_dia": false,
-      "lugar": "Parque Erytheia",
-      "direccion": "Parque Erytheia, Cádiz",
-      "precio": "Gratis",
       "publico": "Todos los públicos",
-      "descripcion": "Talleres, juegos, ejercicio físico y puntos informativos sobre alimentación, sueño, salud mental y autocuidado, con más de 800 escolares y escenario con actividades cada 30 minutos.",
-      "info": "Entrada libre",
       "imagen": {
         "archivo": "img/feria-salud.jpg",
         "url_origen": "https://transparencia.cadiz.es/wp-content/uploads/2026/10/Feria-de-la-Salud-Post.jpg.jpeg",
@@ -24,123 +16,66 @@
         "tipo_imagen": "cualquiera",
         "ajuste": "contain"
       },
+      "etiquetas_ig": [
+        "@ayuntamientocadiz"
+      ],
+      "id": "feria-salud",
+      "nombre": "III Feria de Promoción de la Salud y el Bienestar",
+      "hora_inicio": "10:00",
+      "lugar": "Parque Erytheia",
+      "direccion": "Parque Erytheia, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Talleres, charlas, circuito de accesibilidad, ejercicio físico y cuentacuentos para familias, con stands de asociaciones de salud. Organiza el Ayuntamiento con el Distrito Sanitario Bahía de Cádiz-La Janda.",
+      "info": "Entrada libre",
       "fuentes": [
         {
-          "nombre": "Ayuntamiento de Cádiz (nota de prensa)",
+          "nombre": "Ayuntamiento de Cádiz",
           "url": "https://transparencia.cadiz.es/cadiz-celebrara-el-6-de-noviembre-la-iii-feria-de-promocion-de-la-salud-y-el-bienestar-con-talleres-actividades-y-recursos-para-toda-la-ciudadania/"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "«Cádiz celebrará el 6 de noviembre la III Feria de Promoción de la Salud…» · Parque Erytheia",
+        "evidencia": "Parque Erytheia, Cádiz (nota de prensa del Ayuntamiento de Cádiz)",
         "url": "https://transparencia.cadiz.es/cadiz-celebrara-el-6-de-noviembre-la-iii-feria-de-promocion-de-la-salud-y-el-bienestar-con-talleres-actividades-y-recursos-para-toda-la-ciudadania/"
-      },
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Parque Erytheia",
-          "instagram": null,
-          "buscado": "2026-11-05"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Delegación de Salud del Ayuntamiento de Cádiz",
-          "instagram": "ayuntamientocadiz"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Distrito Sanitario Bahía de Cádiz-La Janda",
-          "instagram": null,
-          "buscado": "2026-11-05"
-        },
-        {
-          "rol": "institucion",
-          "nombre": "Junta de Andalucía · Delegación de Educación",
-          "instagram": null,
-          "buscado": "2026-11-05"
-        },
-        {
-          "rol": "institucion",
-          "nombre": "Universidad de Cádiz ('Envejecer 5 minutos')",
-          "instagram": "univcadiz"
-        },
-        {
-          "rol": "institucion",
-          "nombre": "IMD Cádiz (Club de la Salud)",
-          "instagram": "imdcadiz"
-        }
-      ],
-      "etiquetas_ig": [],
-      "importancia": 9
+      }
     },
     {
-      "id": "gaditanoir-2026-agatha",
-      "nombre": "Gaditanoir · Jornada Agatha Christie",
       "categoria": "otros",
       "fecha": "2026-11-06",
-      "hora_inicio": null,
       "hora_fin": null,
       "todo_el_dia": false,
-      "lugar": "Casa de Iberoamérica",
-      "direccion": "Casa de Iberoamérica, Cádiz",
-      "precio": "Consultar",
       "publico": "Todos los públicos",
-      "descripcion": "Jornada del festival de novela negra dedicada a Agatha Christie en el 50 aniversario de su muerte, con charla de Óscar Lobato, presentación de «¿Quién ha matado a Agatha Christie?» y encuentros con autores.",
-      "info": "Consultar horario del programa",
       "imagen": {
-        "archivo": "img/gaditanoir-2026-agatha.jpg",
-        "url_origen": "https://ondacadiz.es/sites/default/files/noticias/2026-11/imagenes/gaduitan_4.1.1.jpg",
-        "fuente": "ondacadiz.es",
-        "pagina": "https://ondacadiz.es/noticias/2026-11/gaditanoir-reune-en-cadiz-escritores-y-expertos-en-novela-negra-del-5-al-8-de",
-        "ancho": 1600,
-        "alto": 900,
-        "alt_text": "Imagen de Gaditanoir · Jornada Agatha Christie",
+        "archivo": "img/gaditanoir.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/11/cartel 2026.jpeg",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Cartel del Festival de Novela Negra Gaditanoir",
         "tipo_imagen": "oficial",
         "ajuste": "contain"
       },
+      "etiquetas_ig": [
+        "@casadeiberoamerica"
+      ],
+      "id": "gaditanoir",
+      "nombre": "Gaditanoir, Festival de Novela Negra",
+      "hora_inicio": "17:00",
+      "lugar": "Casa de Iberoamérica · Patio Central",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "fecha_txt": "6 al 8 nov",
+      "descripcion": "Hoy, de 17:00 a 21:00, charlas y presentaciones con Óscar Lobato, Laura Manzera, Rafael Marín, Jesús Relinque y Arantza Portabales, y la mesa de finalistas del Premio José Rasero Balón.",
+      "info": "Festival hasta el domingo 8 · programa en la web de la Casa de Iberoamérica",
       "fuentes": [
         {
-          "nombre": "Onda Cádiz",
-          "url": "https://ondacadiz.es/noticias/2026-11/gaditanoir-reune-en-cadiz-escritores-y-expertos-en-novela-negra-del-5-al-8-de"
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/324/festival-de-novela-negra-gaditanoir"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "Viernes 6 de noviembre, Casa de Iberoamérica (Cádiz), jornada Agatha Christie",
-        "url": "https://ondacadiz.es/noticias/2026-11/gaditanoir-reune-en-cadiz-escritores-y-expertos-en-novela-negra-del-5-al-8-de"
-      },
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Casa de Iberoamérica",
-          "instagram": "casadeiberoamerica"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Gaditanoir",
-          "instagram": "gaditanoir"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Óscar Lobato (periodista y escritor)",
-          "instagram": null,
-          "buscado": "2026-11-05"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Laura Manzanera (autora)",
-          "instagram": null,
-          "buscado": "2026-11-05"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Rafael Marín, Jesús Relinque y Juan Bolea (autores)",
-          "instagram": null,
-          "buscado": "2026-11-05"
-        }
-      ],
-      "etiquetas_ig": [],
-      "importancia": 10
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/324/festival-de-novela-negra-gaditanoir"
+      }
     },
     {
       "id": "bichitos",
@@ -159,8 +94,11 @@
       "imagen": {
         "archivo": "img/evento-bichitos-c2-b7-spasmos-teatro.jpg",
         "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-09/ChatGPT_Image_23_sept_2026%2C_10_30_37.png",
-        "fuente": "Ayuntamiento de Cádiz",
-        "alt_text": "Cartel de Bichitos, de Spasmos Teatro",
+        "fuente": "institucional.cadiz.es",
+        "pagina": "https://institucional.cadiz.es/evento/bichitos-%C2%B7-spasmos-teatro",
+        "ancho": 1600,
+        "alto": 900,
+        "alt_text": "Imagen de Bichitos · Spasmos Teatro",
         "tipo_imagen": "oficial",
         "ajuste": "contain"
       },
@@ -179,49 +117,33 @@
         "evidencia": "Teatro del Títere de la Tía Norica (Calle San Miguel, número 5, Cádiz)",
         "url": "https://institucional.cadiz.es/evento/bichitos-%C2%B7-spasmos-teatro"
       },
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Teatro del Títere La Tía Norica",
-          "instagram": null,
-          "buscado": "2026-11-05"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Ayuntamiento de Cádiz",
-          "instagram": "ayuntamientocadiz"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Spasmos Teatro",
-          "instagram": "spasmoteatro"
-        }
-      ],
-      "etiquetas_ig": [],
-      "importancia": 6
+      "etiquetas_ig": [
+        "@tianorica"
+      ]
     },
     {
-      "id": "juan-medina-flamenco",
-      "nombre": "Recital de flamenco de Juan Medina",
       "categoria": "música",
       "fecha": "2026-11-06",
-      "hora_inicio": "19:30",
       "hora_fin": "21:30",
       "todo_el_dia": false,
-      "lugar": "Centro Fundación Unicaja Cádiz",
-      "direccion": "Calle San Francisco, 26, Cádiz",
-      "precio": "Gratis",
       "publico": "Todos los públicos",
-      "descripcion": "Concierto de guitarra de Juan Medina, el antiguo Juanito Makandé, con su flamenco mezclado con jazz y neo-soul y temas de su disco «Fugaz».",
-      "info": "Entrada libre hasta completar aforo",
       "imagen": {
         "archivo": "img/juan-medina.jpg",
         "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/DSCF2784.jpg",
         "fuente": "Fundación Unicaja",
-        "alt_text": "Juan Medina, guitarrista flamenco, en un retrato oficial de Fundación Unicaja",
+        "alt_text": "Fotografía del guitarrista Juan Medina",
         "tipo_imagen": "oficial",
-        "ajuste": "cover"
+        "ajuste": "contain"
       },
+      "etiquetas_ig": [],
+      "id": "juan-medina",
+      "nombre": "Recital de flamenco de Juan Medina",
+      "hora_inicio": "19:30",
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, 11004 Cádiz",
+      "precio": "Gratis",
+      "descripcion": "El guitarrista gaditano, conocido durante años como Juanito Makandé, presenta su guitarra instrumental que mezcla flamenco, jazz y neosoul.",
+      "info": "Entrada libre hasta completar aforo",
       "fuentes": [
         {
           "nombre": "Fundación Unicaja",
@@ -230,28 +152,9 @@
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "C/San Francisco, 26 · Centro Fundación Unicaja Cádiz",
+        "evidencia": "Centro Fundación Unicaja Cádiz, C/ San Francisco, 26, Cádiz",
         "url": "https://www.fundacionunicaja.com/event/recital-de-flamenco-de-juan-medina/"
-      },
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Centro Fundación Unicaja Cádiz",
-          "instagram": "fundunicaja"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Fundación Unicaja",
-          "instagram": "fundunicaja"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Juan Medina (Juanito Makandé)",
-          "instagram": "_one_medina"
-        }
-      ],
-      "etiquetas_ig": [],
-      "importancia": 7
+      }
     },
     {
       "id": "lolo-pastrana",
@@ -263,53 +166,35 @@
       "todo_el_dia": false,
       "lugar": "Fundación Cajasol (Casa Pemán)",
       "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "Gratis",
+      "precio": "Consultar",
       "publico": "Todos los públicos",
       "descripcion": "Concierto de Lolo Pastrana dentro del ciclo «Noches en Cajasol», en la sede gaditana de la fundación.",
-      "info": "Entrada libre hasta completar aforo",
+      "info": "Entradas online en la web de Cajasol y en la taquilla de Cádiz",
       "imagen": {
-        "archivo": "img/noches-cajasol-2026.jpg",
-        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-NOCHES-EN-CAJASOL-CADIZ_1920x1080-1.jpg",
+        "archivo": "img/lolo-pastrana.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/16-OCT-LOLO-PASTRATNA-1080x1080-2.jpg",
         "fuente": "Fundación Cajasol",
-        "pagina": "https://fundacioncajasol.com/noches-en-cajasol-cadiz/",
-        "alt_text": "Cartel del ciclo Noches en Cajasol Cádiz, octubre y noviembre de 2026",
+        "pagina": "https://fundacioncajasol.com/evento/lolo-pastrana/",
+        "alt_text": "Cartel oficial del concierto de Lolo Pastrana en Cajasol",
         "tipo_imagen": "oficial",
-        "ajuste": "contain"
+        "ancho": 1081,
+        "alto": 1081,
+        "ajuste": "cover"
       },
       "fuentes": [
         {
           "nombre": "Fundación Cajasol",
-          "url": "https://fundacioncajasol.com/noches-en-cajasol-cadiz/"
-        },
-        {
-          "nombre": "CádizNoticias",
-          "url": "https://cadiznoticias.es/noches-en-cajasol-en-cadiz-programa-cinco-conciertos-gratuitos-hasta-el-13-de-noviembre/"
+          "url": "https://fundacioncajasol.com/evento/lolo-pastrana/"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
         "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
-        "url": "https://fundacioncajasol.com/noches-en-cajasol-cadiz/"
+        "url": "https://fundacioncajasol.com/evento/lolo-pastrana/"
       },
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Fundación Cajasol (Casa Pemán)",
-          "instagram": "fundacioncajasol"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Fundación Cajasol",
-          "instagram": "fundacioncajasol"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Lolo Pastrana",
-          "instagram": "lolopastrana_oficial"
-        }
-      ],
-      "etiquetas_ig": [],
-      "importancia": 8
+      "etiquetas_ig": [
+        "@fundacioncajasol"
+      ]
     },
     {
       "id": "neurociencia-acropolis",
@@ -344,27 +229,9 @@
         "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004 Cádiz",
         "url": "https://www.eventbrite.es/e/conferencia-neurociencia-y-conciencia-el-cerebro-que-nos-piensa-tickets-2004213449379"
       },
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Nueva Acrópolis Cádiz",
-          "instagram": "nuevaacropolis.cadiz"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Nueva Acrópolis Cádiz",
-          "instagram": "nuevaacropolis.cadiz"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Dr. Jesús Lorente Campos (ponente)",
-          "instagram": null,
-          "buscado": "2026-11-05"
-        }
-      ],
-      "etiquetas_ig": [],
-      "importancia": 5
+      "etiquetas_ig": [
+        "@nuevaacropolis.cadiz"
+      ]
     }
-  ],
-  "noche_manana": []
+  ]
 }
