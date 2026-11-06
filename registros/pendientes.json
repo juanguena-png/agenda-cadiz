@@ -1,15 +1,5 @@
 [
   {
-    "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDM5NzE5NTI5MzA3OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTMxNjU4Mjc4OTI1MTA3ODozMzA3NTQ3NjUxNDU5NzY3NTUxMTA3MDE0MTg4MjMwMjQ2NAZDZD",
-    "plataforma": "instagram",
-    "tipo": "mensaje",
-    "texto": "Espero poder llegar a ver esta exposición!!!!",
-    "autor": null,
-    "autor_id": "29165961669686817",
-    "enlace": null,
-    "ts": "2026-10-26T14:32:54+0000"
-  },
-  {
     "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDM5NzE5NTI5MzA3OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTgyMzkwNTIwMzc2NzA1NDozMzA3NTU2OTU5NDEyMDM1MjIxODUyNzQ1Mjg2MTgyNTAyNAZDZD",
     "plataforma": "instagram",
     "tipo": "mensaje",
@@ -18,25 +8,5 @@
     "autor_id": "29230427506562486",
     "enlace": null,
     "ts": "2026-10-26T15:57:00+0000"
-  },
-  {
-    "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDM5NzE5NTI5MzA3OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTMxNjU4Mjc4OTI1MTA3ODozMzA3NTQ3NTc1NjI4MjIwNTUxNDE3NTA2Mzc3NDk4NjI0MAZDZD",
-    "plataforma": "instagram",
-    "tipo": "mensaje",
-    "texto": "😍",
-    "autor": null,
-    "autor_id": "29165961669686817",
-    "enlace": null,
-    "ts": "2026-10-26T14:32:13+0000"
-  },
-  {
-    "id": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDM5NzE5NTI5MzA3OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTMxNjU4Mjc4OTI1MTA3ODozMzA3NTQ3NTczNzMxNjE4NTU5NDc5MDU4ODI4MDk5NTg0MAZDZD",
-    "plataforma": "instagram",
-    "tipo": "mensaje",
-    "texto": "⛵",
-    "autor": null,
-    "autor_id": "29165961669686817",
-    "enlace": null,
-    "ts": "2026-10-26T14:32:12+0000"
   }
 ]
