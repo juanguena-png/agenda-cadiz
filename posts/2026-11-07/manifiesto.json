@@ -11,15 +11,17 @@
       "archivo": "01.png",
       "tipo": "portada",
       "etiquetas": [
+        "casadeiberoamerica",
+        "gaditanoir",
+        "carlos.salem",
+        "ayuntamientocadiz",
         "fundunicaja",
         "cadizclubdefutbol",
-        "laliga",
         "realoviedo",
+        "laliga",
         "teatrofalla",
-        "ayuntamientocadiz",
         "vicenteamigo_oficial",
         "sohoalternative",
-        "momartsalaclub",
         "cadizguitarfestival",
         "alejandrohurtadogarcia",
         "hanaquartett"
@@ -30,118 +32,120 @@
       "archivo": "02.png",
       "tipo": "eventos",
       "ids": [
-        "taller-ceramica-unicaja"
+        "gaditanoir-sabado"
       ],
       "etiquetas": [
-        "fundunicaja"
+        "casadeiberoamerica",
+        "gaditanoir",
+        "carlos.salem",
+        "ayuntamientocadiz"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Taller de cerámica «Del barro a la pieza» (11:00, Centro Fundación Unicaja Cádiz)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Gaditanoir, Festival de Novela Negra (11:00, Casa de Iberoamérica · Patio Central)"
     },
     {
       "archivo": "03.png",
       "tipo": "eventos",
       "ids": [
-        "cadizcf-oviedo"
+        "taller-ceramica-unicaja"
       ],
       "etiquetas": [
-        "cadizclubdefutbol",
-        "laliga",
-        "realoviedo"
+        "fundunicaja"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cádiz CF – Real Oviedo · LALIGA HYPERMOTION J13 (16:15, Estadio Nuevo Mirandilla (JP Financial Estadio))"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Taller «Cerámica. Del barro a la pieza» (Aula Abierta) (11:00, Centro Fundación Unicaja Cádiz)"
     },
     {
       "archivo": "04.png",
       "tipo": "eventos",
       "ids": [
-        "vicente-amigo"
+        "cadiz-oviedo-0711"
       ],
       "etiquetas": [
-        "teatrofalla",
-        "ayuntamientocadiz",
-        "vicenteamigo_oficial"
+        "cadizclubdefutbol",
+        "realoviedo",
+        "laliga"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Vicente Amigo · Andenes del tiempo (20:00, Gran Teatro Falla)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13) (16:15, Estadio Nuevo Mirandilla)"
     },
     {
       "archivo": "05.png",
       "tipo": "eventos",
       "ids": [
-        "diexo-sin-plan-b"
+        "vicente-amigo-0711"
       ],
       "etiquetas": [
-        "sohoalternative",
+        "teatrofalla",
+        "vicenteamigo_oficial",
         "ayuntamientocadiz"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Diexo · Presentación de «Sin plan B» (21:00, Sala Soho Alternative)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Vicente Amigo · «Andenes del tiempo» (20:00, Gran Teatro Falla)"
     },
     {
       "archivo": "06.png",
       "tipo": "eventos",
       "ids": [
-        "capullo-momart"
+        "diexo-soho"
       ],
       "etiquetas": [
-        "momartsalaclub"
+        "sohoalternative",
+        "ayuntamientocadiz"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: El Capullo de Jerez en concierto (21:00, Momart Theatre)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Diexo · Presentación del disco «Sin plan B» (21:00, Sala Soho Alternative)"
     },
     {
       "archivo": "07.png",
       "tipo": "eventos",
       "ids": [
-        "cgf-hurtado"
+        "guitar-hurtado-0711"
       ],
       "etiquetas": [
         "cadizguitarfestival",
         "alejandrohurtadogarcia",
         "hanaquartett"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival (22:30, Casino Gaditano (patio interior))"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA (22:30, Casino Gaditano (patio interior))"
     }
   ],
   "stories": [
     {
       "archivo": "01.png",
-      "id": "taller-ceramica-unicaja",
-      "alt_text": "Imagen de los talleres Aula Abierta del Centro Fundación Unicaja Cádiz"
+      "id": "gaditanoir-sabado",
+      "alt_text": "Cartel del Festival de Novela Negra Gaditanoir"
     },
     {
       "archivo": "02.png",
-      "id": "cadizcf-oviedo",
-      "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: LALIGA HYPERMOTION J13, Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla (JP Financial Estadio)"
+      "id": "taller-ceramica-unicaja",
+      "alt_text": "Imagen de Taller «Cerámica. Del barro a la pieza» (Aula Abierta)"
     },
     {
       "archivo": "03.png",
-      "id": "vicente-amigo",
-      "alt_text": "Cartel oficial del concierto de Vicente Amigo, Andenes del tiempo, en el Gran Teatro Falla"
+      "id": "cadiz-oviedo-0711",
+      "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13), Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla"
     },
     {
       "archivo": "04.png",
-      "id": "diexo-sin-plan-b",
-      "alt_text": "Cartel oficial de la presentación del disco Sin plan B de Diexo en la Sala Soho Alternative"
+      "id": "vicente-amigo-0711",
+      "alt_text": "Cartel oficial del concierto de Vicente Amigo en el Gran Teatro Falla"
     },
     {
       "archivo": "05.png",
-      "id": "capullo-momart",
-      "alt_text": "Ilustración de «El Capullo de Jerez en concierto»: composición con flamenco, micrófono en azul mar, blanco y amarillo"
+      "id": "diexo-soho",
+      "alt_text": "Cartel del concierto de Diexo en la Sala Soho Alternative"
     },
     {
       "archivo": "06.png",
-      "id": "cgf-hurtado",
-      "alt_text": "Ilustración de «Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival»: composición con violín, flamenco en azul mar, blanco y amarillo"
+      "id": "guitar-hurtado-0711",
+      "alt_text": "Imagen de Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA"
     }
   ],
   "noche": [
     {
       "archivo": "01.png",
       "ids": [
-        "vicente-amigo",
-        "diexo-sin-plan-b",
-        "capullo-momart",
-        "cgf-hurtado"
+        "vicente-amigo-0711",
+        "diexo-soho",
+        "guitar-hurtado-0711"
       ],
-      "alt_text": "Esta noche en Cádiz: Vicente Amigo · Andenes del tiempo; Diexo · Presentación de «Sin plan B»; El Capullo de Jerez en concierto; Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival"
+      "alt_text": "Esta noche en Cádiz: Vicente Amigo · «Andenes del tiempo»; Diexo · Presentación del disco «Sin plan B»; Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA"
     }
   ]
 }

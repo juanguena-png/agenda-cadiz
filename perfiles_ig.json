@@ -353,9 +353,10 @@
       ]
     },
     "gaditanoir": {
-      "nombre": "Gaditanoir (festival de novela negra)",
+      "nombre": "Gaditanoir",
       "claves": [
-        "gaditanoir"
+        "gaditanoir",
+        "festival de novela negra"
       ]
     },
     "spasmoteatro": {
@@ -402,9 +403,10 @@
       ]
     },
     "sohoalternative": {
-      "nombre": "Soho Alternative (Cádiz)",
+      "nombre": "Soho Alternative",
       "claves": [
-        "soho alternative"
+        "soho alternative",
+        "sala soho"
       ]
     },
     "realoviedo": {
@@ -417,6 +419,12 @@
       "nombre": "LALIGA",
       "claves": [
         "laliga hypermotion"
+      ]
+    },
+    "carlos.salem": {
+      "nombre": "Carlos Salem",
+      "claves": [
+        "carlos salem"
       ]
     }
   },

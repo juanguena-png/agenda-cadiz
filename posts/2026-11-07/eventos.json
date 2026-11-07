@@ -3,332 +3,42 @@
   "tipo": "diario",
   "eventos": [
     {
-      "id": "vicente-amigo",
-      "nombre": "Vicente Amigo · Andenes del tiempo",
-      "categoria": "música",
-      "fecha": "2026-11-07",
-      "hora_inicio": "20:00",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Gran Teatro Falla",
-      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
-      "precio": "30–55 €",
-      "publico": null,
-      "descripcion": "El guitarrista flamenco presenta «Andenes del tiempo»: del toque por bulerías y soleá a los tanguillos de Cádiz, el pasodoble, la rumba y el bolero.",
-      "info": "Carné Joven: 6 € en paraíso · Entradas en bacantix.com/aytocadiz",
-      "imagen": {
-        "archivo": "img/evento-vicente-amigo-andenes-del-tiempo.jpg",
-        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-08/Vicente_Amigo.jpg",
-        "fuente": "Ayuntamiento de Cádiz (institucional.cadiz.es)",
-        "alt_text": "Cartel oficial del concierto de Vicente Amigo, Andenes del tiempo, en el Gran Teatro Falla",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Ayuntamiento de Cádiz – Agenda",
-          "url": "https://institucional.cadiz.es/evento/vicente-amigo-andenes-del-tiempo"
-        },
-        {
-          "nombre": "Teatros de Cádiz – Gran Teatro Falla",
-          "url": "http://laciudad.cadiz.es/programacion-gran-teatro-falla.asp"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Gran Teatro Falla, «Plaza del Falla s/n · 11003 Cádiz» (Teatros de Cádiz, Ayuntamiento)",
-        "url": "http://laciudad.cadiz.es/programacion-gran-teatro-falla.asp"
-      },
-      "etiquetas_ig": [],
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Gran Teatro Falla",
-          "instagram": "teatrofalla"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Ayuntamiento de Cádiz (Delegación de Cultura)",
-          "instagram": "ayuntamientocadiz"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Vicente Amigo",
-          "instagram": "vicenteamigo_oficial"
-        }
-      ]
-    },
-    {
-      "id": "diexo-sin-plan-b",
-      "nombre": "Diexo · Presentación de «Sin plan B»",
-      "categoria": "música",
-      "fecha": "2026-11-07",
-      "hora_inicio": "21:00",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Sala Soho Alternative",
-      "direccion": "Paseo Almte. Pascual Pery, 18, 11004 Cádiz",
-      "precio": "10 €",
-      "publico": null,
-      "descripcion": "La banda gaditana estrena su primer disco con un directo de rock de guitarras y letras en español, con alguna sorpresa. Dura unos 90 minutos.",
-      "info": "Apertura de puertas: 20:30",
-      "imagen": {
-        "archivo": "img/evento-diexo-presentaci-c3-b3n-del-disco-sin-plan-b.jpg",
-        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-09/cartel_soho.jpeg",
-        "fuente": "Ayuntamiento de Cádiz (institucional.cadiz.es)",
-        "alt_text": "Cartel oficial de la presentación del disco Sin plan B de Diexo en la Sala Soho Alternative",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Ayuntamiento de Cádiz – Agenda",
-          "url": "https://institucional.cadiz.es/evento/diexo-presentaci%C3%B3n-del-disco-sin-plan-b"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "«Sala Soho Alternative (Paseo Almte. Pascual Pery, 18, 11004 Cádiz)» en la ficha oficial del Ayuntamiento de Cádiz",
-        "url": "https://institucional.cadiz.es/evento/diexo-presentaci%C3%B3n-del-disco-sin-plan-b"
-      },
-      "etiquetas_ig": [],
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Sala Soho Alternative",
-          "instagram": "sohoalternative"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Ayuntamiento de Cádiz (agenda cultural)",
-          "instagram": "ayuntamientocadiz"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Diexo (Diego Calvo)",
-          "instagram": null,
-          "buscado": "2026-11-07"
-        }
-      ]
-    },
-    {
-      "id": "capullo-momart",
-      "nombre": "El Capullo de Jerez en concierto",
-      "categoria": "música",
-      "fecha": "2026-11-07",
-      "hora_inicio": "21:00",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Momart Theatre",
-      "direccion": "Paseo Almte. Pascual Pery, 25, 11004 Cádiz",
-      "precio": "Desde 15 €",
-      "publico": null,
-      "descripcion": "Concierto de El Capullo de Jerez en la sala Momart Theatre. Quedan pocas entradas.",
-      "info": "Entradas en taquilla.com",
-      "imagen": {
-        "archivo": "img/capullo-momart.jpg",
-        "url_origen": "https://cd1.taquilla.com/data/images/t/77/momart.webp",
-        "fuente": "www.taquilla.com",
-        "pagina": "https://www.taquilla.com/cadiz/momart-cadiz-11003",
-        "ancho": 1100,
-        "alto": 734,
-        "alt_text": "Ilustración de «El Capullo de Jerez en concierto»: composición con flamenco, micrófono en azul mar, blanco y amarillo",
-        "ajuste": "contain"
-      },
-      "ilustracion": {
-        "motivos": [
-          "flamenco",
-          "micrófono"
-        ],
-        "fondo": "noche"
-      },
-      "fuentes": [
-        {
-          "nombre": "Taquilla.com – Momart (Cádiz)",
-          "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Taquilla.com: «Momart, Paseo Almte. Pascual Pery, 25, 11004 Cádiz» (dirección orientativa); la Junta de Andalucía lista Momart Theatre como espacio de Cádiz",
-        "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003"
-      },
-      "etiquetas_ig": [],
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Momart Theatre",
-          "instagram": "momartsalaclub"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Momart Theatre",
-          "instagram": "momartsalaclub"
-        },
-        {
-          "rol": "artista",
-          "nombre": "El Capullo de Jerez",
-          "instagram": null,
-          "buscado": "2026-11-07"
-        }
-      ]
-    },
-    {
-      "id": "cgf-hurtado",
-      "nombre": "Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival",
-      "categoria": "música",
-      "fecha": "2026-11-07",
-      "hora_inicio": "22:30",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Casino Gaditano (patio interior)",
-      "direccion": "Casino Gaditano, Cádiz",
-      "precio": "Gratis hasta completar aforo",
-      "publico": null,
-      "descripcion": "Concierto del Cádiz Guitar Festival: el guitarrista Alejandro Hurtado junto al cuarteto Quartett HANA. Entrada libre hasta completar aforo.",
-      "info": "Programa: cadizguitarfestival.com",
-      "imagen": {
-        "archivo": "img/cgf-hurtado.jpg",
-        "url_origen": "https://static.wixstatic.com/media/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png",
-        "fuente": "www.cadizguitarfestival.com",
-        "pagina": "https://www.cadizguitarfestival.com/",
-        "ancho": 1217,
-        "alto": 807,
-        "alt_text": "Ilustración de «Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival»: composición con violín, flamenco en azul mar, blanco y amarillo",
-        "tipo_imagen": "logo",
-        "ajuste": "contain"
-      },
-      "ilustracion": {
-        "motivos": [
-          "violín",
-          "flamenco"
-        ],
-        "fondo": "mar"
-      },
-      "fuentes": [
-        {
-          "nombre": "Cádiz Guitar Festival – web oficial",
-          "url": "https://www.cadizguitarfestival.com/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Web oficial del festival: «Location Casino Gaditano · Patio interior Cádiz»",
-        "url": "https://www.cadizguitarfestival.com/"
-      },
-      "etiquetas_ig": [],
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Casino Gaditano",
-          "instagram": null,
-          "buscado": "2026-11-07"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Cádiz Guitar Festival Ángel G. Piñero",
-          "instagram": "cadizguitarfestival"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Alejandro Hurtado",
-          "instagram": "alejandrohurtadogarcia"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Quartett HANA",
-          "instagram": "hanaquartett"
-        }
-      ]
-    },
-    {
-      "id": "cadizcf-oviedo",
-      "nombre": "Cádiz CF – Real Oviedo · LALIGA HYPERMOTION J13",
-      "categoria": "deporte",
-      "fecha": "2026-11-07",
-      "hora_inicio": "16:15",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Estadio Nuevo Mirandilla (JP Financial Estadio)",
-      "direccion": "Cádiz",
-      "precio": "Consultar",
-      "publico": "Todos los públicos",
-      "descripcion": "Jornada 13 de LaLiga Hypermotion en casa: el Cádiz recibe al Real Oviedo en el Nuevo Mirandilla.",
-      "info": "Entradas en entradas.cadizcf.com",
-      "imagen": {
-        "archivo": "img/cadizcf-oviedo-cartel.png",
-        "fuente": "Cartel propio de Planes en Cádiz con los escudos oficiales de la web del Cádiz CF",
-        "generada": true,
-        "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: LALIGA HYPERMOTION J13, Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla (JP Financial Estadio)",
-        "ajuste": "cover"
-      },
-      "fuentes": [
-        {
-          "nombre": "Cádiz CF (web oficial)",
-          "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Cádiz CF vs Real Oviedo, JP Financial Estadio (Estadio Nuevo Mirandilla, Cádiz), ficha oficial del club",
-        "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
-      },
-      "etiquetas_ig": [],
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Estadio Nuevo Mirandilla",
-          "instagram": null,
-          "buscado": "2026-11-07"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Cádiz Club de Fútbol",
-          "instagram": "cadizclubdefutbol"
-        },
-        {
-          "rol": "institucion",
-          "nombre": "LALIGA Hypermotion",
-          "instagram": "laliga"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Real Oviedo (rival)",
-          "instagram": "realoviedo"
-        }
-      ]
-    },
-    {
       "id": "taller-ceramica-unicaja",
-      "nombre": "Taller de cerámica «Del barro a la pieza»",
+      "nombre": "Taller «Cerámica. Del barro a la pieza» (Aula Abierta)",
       "categoria": "otros",
       "fecha": "2026-11-07",
       "hora_inicio": "11:00",
-      "hora_fin": "12:00",
+      "hora_fin": null,
       "todo_el_dia": false,
       "lugar": "Centro Fundación Unicaja Cádiz",
       "direccion": "Calle San Francisco, 26, 11004 Cádiz",
-      "precio": "Gratis, con inscripción previa",
+      "precio": "Gratis (inscripción previa)",
       "publico": "Todos los públicos",
-      "descripcion": "Sesión práctica con la ceramista Susanna Souvalkama en la que cada participante modela una cajita de arcilla blanca y la decora con engobe oscuro. Hay que reservar plaza antes.",
-      "info": "Reserva en fundacionunicaja.com/reservas",
+      "descripcion": "Taller creativo de cerámica con la artista Susanna Souvalkama dentro del ciclo «Aula Abierta» de la Fundación Unicaja.",
+      "info": "Gratuito con inscripción previa en fundacionunicaja.com/reservas",
       "imagen": {
-        "archivo": "img/taller-ceramica.jpg",
+        "archivo": "img/taller-ceramica-unicaja.jpg",
         "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/collage-cadiz.png",
-        "fuente": "Fundación Unicaja",
-        "alt_text": "Imagen de los talleres Aula Abierta del Centro Fundación Unicaja Cádiz",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/talleres-aula-abierta-en-cadiz/",
+        "ancho": 683,
+        "alto": 212,
+        "alt_text": "Imagen de Taller «Cerámica. Del barro a la pieza» (Aula Abierta)",
         "tipo_imagen": "oficial",
         "ajuste": "contain"
       },
       "fuentes": [
         {
-          "nombre": "Fundación Unicaja",
+          "nombre": "Fundación Unicaja – agenda cultural",
           "url": "https://www.fundacionunicaja.com/event/talleres-aula-abierta-en-cadiz/"
         }
       ],
       "verificacion_cadiz_capital": {
         "confirmado": true,
-        "evidencia": "Centro Fundación Unicaja Cádiz, C/San Francisco, 26, Cádiz",
+        "evidencia": "Centro Fundación Unicaja Cádiz, C/ San Francisco 26, Cádiz",
         "url": "https://www.fundacionunicaja.com/event/talleres-aula-abierta-en-cadiz/"
       },
+      "etiquetas_ig": [],
       "entidades": [
         {
           "rol": "lugar",
@@ -342,13 +52,320 @@
         },
         {
           "rol": "artista",
-          "nombre": "Susanna Souvalkama (ceramista)",
+          "nombre": "Susanna Souvalkama",
           "instagram": null,
           "buscado": "2026-11-07"
         }
+      ]
+    },
+    {
+      "id": "gaditanoir-sabado",
+      "nombre": "Gaditanoir, Festival de Novela Negra",
+      "categoria": "otros",
+      "fecha": "2026-11-07",
+      "hora_inicio": "11:00",
+      "hora_fin": "20:30",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Patio Central",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Hoy: masterclass de Carlos Salem, charlas y presentaciones de novelas por la mañana y por la tarde, y a las 20:30 la entrega de los premios José Rasero Balón, The Riverside y el honorífico a Óscar Lobato.",
+      "info": "Festival hasta mañana domingo · programa en la web de la Casa de Iberoamérica",
+      "imagen": {
+        "archivo": "img/gaditanoir.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/11/cartel 2026.jpeg",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Cartel del Festival de Novela Negra Gaditanoir",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/324/festival-de-novela-negra-gaditanoir"
+        }
       ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/324/festival-de-novela-negra-gaditanoir"
+      },
       "etiquetas_ig": [],
-      "importancia": 3
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Gaditanoir",
+          "instagram": "gaditanoir"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Sociedad Municipal Cádiz 2012",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Carlos Salem",
+          "instagram": "carlos.salem"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Óscar Lobato",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        }
+      ],
+      "fecha_txt": "6 al 8 nov"
+    },
+    {
+      "id": "cadiz-oviedo-0711",
+      "nombre": "Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13)",
+      "categoria": "deporte",
+      "fecha": "2026-11-07",
+      "hora_inicio": "16:15",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Estadio Nuevo Mirandilla",
+      "direccion": "Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Partido de la jornada 13 de LaLiga Hypermotion en casa. Entradas en entradas.cadizcf.com.",
+      "info": "Entradas en entradas.cadizcf.com",
+      "imagen": {
+        "archivo": "img/cadiz-oviedo-0711-cartel.png",
+        "fuente": "Cartel propio de Planes en Cádiz con los escudos oficiales de la web del Cádiz CF",
+        "generada": true,
+        "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13), Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz CF (web oficial)",
+          "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Estadio Nuevo Mirandilla (ficha oficial del Cádiz CF)",
+        "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Estadio Nuevo Mirandilla",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Cádiz CF",
+          "instagram": "cadizclubdefutbol"
+        }
+      ]
+    },
+    {
+      "id": "vicente-amigo-0711",
+      "nombre": "Vicente Amigo · «Andenes del tiempo»",
+      "categoria": "música",
+      "fecha": "2026-11-07",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "30–55 €",
+      "publico": "Todos los públicos",
+      "descripcion": "El guitarrista y compositor flamenco presenta su espectáculo en el Gran Teatro Falla.",
+      "info": "Entradas en bacantix.com y taquilla del Falla",
+      "imagen": {
+        "archivo": "img/evento-vicente-amigo-andenes-del-tiempo.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-08/Vicente_Amigo.jpg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "pagina": "https://institucional.cadiz.es/evento/vicente-amigo-andenes-del-tiempo",
+        "ancho": 1080,
+        "alto": 1440,
+        "alt_text": "Cartel oficial del concierto de Vicente Amigo en el Gran Teatro Falla",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/vicente-amigo-andenes-del-tiempo"
+        },
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/vicente-amigo-presenta-andenes-del-tiempo"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla (agenda oficial del Ayuntamiento de Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/vicente-amigo-andenes-del-tiempo"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Vicente Amigo",
+          "instagram": "vicenteamigo_oficial"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        }
+      ]
+    },
+    {
+      "id": "diexo-soho",
+      "nombre": "Diexo · Presentación del disco «Sin plan B»",
+      "categoria": "música",
+      "fecha": "2026-11-07",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Sala Soho Alternative",
+      "direccion": "Paseo Almte. Pascual Pery, 18, 11004 Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "La banda gaditana Diexo estrena su primer disco con un rock de guitarras eléctricas producido por Nando Perfumo (Electric Alley), en un directo con sorpresas. Puertas a las 20:30.",
+      "info": "Apertura de puertas a las 20:30",
+      "imagen": {
+        "archivo": "img/evento-diexo-presentaci-c3-b3n-del-disco-sin-plan-b.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-09/cartel_soho.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "pagina": "https://institucional.cadiz.es/evento/diexo-presentaci%C3%B3n-del-disco-sin-plan-b",
+        "ancho": 1131,
+        "alto": 1600,
+        "alt_text": "Cartel del concierto de Diexo en la Sala Soho Alternative",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/diexo-presentaci%C3%B3n-del-disco-sin-plan-b"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sala Soho Alternative (Paseo Almte. Pascual Pery, 18, 11004 Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/diexo-presentaci%C3%B3n-del-disco-sin-plan-b"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Sala Soho Alternative",
+          "instagram": "sohoalternative"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Diexo",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Nando Perfumo",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Sala Soho Alternative",
+          "instagram": "sohoalternative"
+        }
+      ]
+    },
+    {
+      "id": "guitar-hurtado-0711",
+      "nombre": "Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA",
+      "categoria": "música",
+      "fecha": "2026-11-07",
+      "hora_inicio": "22:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casino Gaditano (patio interior)",
+      "direccion": "Plaza de San Antonio, 15, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de guitarra clásica con Alejandro Hurtado y el cuarteto HANA en el patio del Casino Gaditano.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/guitar-hurtado-0711.jpg",
+        "url_origen": "https://static.wixstatic.com/media/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png",
+        "fuente": "www.cadizguitarfestival.com",
+        "pagina": "https://www.cadizguitarfestival.com/",
+        "ancho": 1217,
+        "alto": 807,
+        "alt_text": "Imagen de Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA",
+        "tipo_imagen": "logo",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz Guitar Festival",
+          "url": "https://www.cadizguitarfestival.com/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casino Gaditano, patio interior, Plaza San Antonio, 15, 11003 Cádiz",
+        "url": "https://www.cadizguitarfestival.com/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casino Gaditano",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Cádiz Guitar Festival",
+          "instagram": "cadizguitarfestival"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Alejandro Hurtado",
+          "instagram": "alejandrohurtadogarcia"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Quartett HANA",
+          "instagram": "hanaquartett"
+        }
+      ]
     }
   ]
 }
