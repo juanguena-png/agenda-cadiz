@@ -167,30 +167,49 @@ def _extras_contenedor(colaboradores):
 
 
 def ig_carrusel(urls, alts, caption, etiquetas_por_slide=None, colaboradores=None, comentario=None):
-    """Carrusel de Instagram. etiquetas_por_slide: lista (una por diapositiva) de usuarios a etiquetar con user_tags (perfiles verificados)."""
+    """Carrusel de Instagram. etiquetas_por_slide: lista (una por diapositiva) de usuarios a etiquetar con user_tags (perfiles verificados).
+    Si Meta rechaza o invalida el contenedor con colaboradores/ubicación (a veces devuelve id «0» y deja inservibles las diapositivas),
+    se vuelven a crear las diapositivas y se prueba solo con ubicación y, por último, sin extras."""
     import etiquetas as et
     ig = ag.secreto("IG_USER_ID")
-    hijos = []
-    for i, (u, alt) in enumerate(zip(urls, alts)):
-        tags = et.posiciones((etiquetas_por_slide or [[]] * len(urls))[i]) if etiquetas_por_slide and etiquetas_por_slide[i] else None
-        try:
-            c = api("POST", f"{ig}/media", image_url=u, is_carousel_item="true", alt_text=alt[:1000], user_tags=tags)["id"]
-        except ErrorAPI as e:
-            if not tags:
-                raise
-            print(f"AVISO: diapositiva {i + 1} sin etiquetas ({e})")  # una etiqueta rechazada no debe impedir publicar
-            c = api("POST", f"{ig}/media", image_url=u, is_carousel_item="true", alt_text=alt[:1000])["id"]
-        ig_esperar(c)
-        hijos.append(c)
+
+    # Instagram invalida el carrusel (id «0») si suma demasiadas etiquetas entre todas las diapositivas: tope total 25, recortando la portada primero
+    etiquetas_por_slide = [list(t or []) for t in (etiquetas_por_slide or [[]] * len(urls))]
+    exceso = sum(len(t) for t in etiquetas_por_slide) - 25
+    if exceso > 0 and etiquetas_por_slide:
+        etiquetas_por_slide[0] = etiquetas_por_slide[0][:max(0, len(etiquetas_por_slide[0]) - exceso)]
+
+    def crear_hijos():
+        hijos = []
+        for i, (u, alt) in enumerate(zip(urls, alts)):
+            tags = et.posiciones((etiquetas_por_slide or [[]] * len(urls))[i]) if etiquetas_por_slide and etiquetas_por_slide[i] else None
+            try:
+                c = api("POST", f"{ig}/media", image_url=u, is_carousel_item="true", alt_text=alt[:1000], user_tags=tags)["id"]
+            except ErrorAPI as e:
+                if not tags:
+                    raise
+                print(f"AVISO: diapositiva {i + 1} sin etiquetas ({e})")  # una etiqueta rechazada no debe impedir publicar
+                c = api("POST", f"{ig}/media", image_url=u, is_carousel_item="true", alt_text=alt[:1000])["id"]
+            ig_esperar(c)
+            hijos.append(c)
+        return hijos
+
     extra = _extras_contenedor(colaboradores)
-    try:
-        padre = api("POST", f"{ig}/media", media_type="CAROUSEL", children=",".join(hijos), caption=caption, **extra)["id"]
-    except ErrorAPI as e:
-        if not extra:
-            raise
-        print(f"AVISO: carrusel sin colaboradores/ubicación ({e})")
-        padre = api("POST", f"{ig}/media", media_type="CAROUSEL", children=",".join(hijos), caption=caption)["id"]
-    ig_esperar(padre)
+    intentos = [extra] + ([{k: v for k, v in extra.items() if k != "collaborators"}] if "collaborators" in extra else []) + ([{}] if extra else [])
+    padre = None
+    for k, ex in enumerate(intentos):
+        try:
+            hijos = crear_hijos()
+            cand = api("POST", f"{ig}/media", media_type="CAROUSEL", children=",".join(hijos), caption=caption, **ex)["id"]
+            if str(cand) in ("", "0", "None"):
+                raise ErrorAPI(f"id de contenedor inválido ({cand})")
+            ig_esperar(cand)
+            padre = cand
+            break
+        except ErrorAPI as e:
+            if k == len(intentos) - 1:
+                raise
+            print(f"AVISO: carrusel sin {'colaboradores' if 'collaborators' in ex else 'colaboradores/ubicación'} ({e})")
     res = ig_publicar(padre)
     if comentario:
         ig_comentar(res[0], comentario)
