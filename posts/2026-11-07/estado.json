@@ -2,7 +2,7 @@
   "publicaciones": {
     "carrusel": {
       "instagram": {
-        "ts": "2026-11-07T09:01:08+01:00",
+        "ts": "2026-11-07T09:02:50+01:00",
         "estado": "error",
         "error": "Unsupported get request. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (code 100/33)",
         "temporal": false
@@ -31,16 +31,23 @@
     "2026-11-07T09:01:23+01:00 stories/03.png omitida: falló el carrusel",
     "2026-11-07T09:01:23+01:00 stories/04.png omitida: falló el carrusel",
     "2026-11-07T09:01:23+01:00 stories/05.png omitida: falló el carrusel",
-    "2026-11-07T09:01:23+01:00 stories/06.png omitida: falló el carrusel"
+    "2026-11-07T09:01:23+01:00 stories/06.png omitida: falló el carrusel",
+    "2026-11-07T09:02:50+01:00 ERROR carrusel/instagram: Unsupported get request. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (code 100/33)",
+    "2026-11-07T09:02:50+01:00 stories/01.png omitida: falló el carrusel",
+    "2026-11-07T09:02:50+01:00 stories/02.png omitida: falló el carrusel",
+    "2026-11-07T09:02:50+01:00 stories/03.png omitida: falló el carrusel",
+    "2026-11-07T09:02:50+01:00 stories/04.png omitida: falló el carrusel",
+    "2026-11-07T09:02:50+01:00 stories/05.png omitida: falló el carrusel",
+    "2026-11-07T09:02:50+01:00 stories/06.png omitida: falló el carrusel"
   ],
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-07T08:01:21+01:00"
   },
   "limite_publicaciones": {
-    "uso": 8,
+    "uso": 6,
     "total": 100,
-    "ts": "2026-11-07T08:01:29+01:00"
+    "ts": "2026-11-07T09:02:07+01:00"
   },
-  "ultima_ejecucion": "2026-11-07T09:01:23+01:00"
+  "ultima_ejecucion": "2026-11-07T09:02:50+01:00"
 }
