@@ -376,6 +376,48 @@
       "claves": [
         "lolo pastrana"
       ]
+    },
+    "vicenteamigo_oficial": {
+      "nombre": "Vicente Amigo",
+      "claves": [
+        "vicente amigo"
+      ]
+    },
+    "momartsalaclub": {
+      "nombre": "Momart Sala: Club y Theatre",
+      "claves": [
+        "momart"
+      ]
+    },
+    "alejandrohurtadogarcia": {
+      "nombre": "Alejandro Hurtado",
+      "claves": [
+        "alejandro hurtado"
+      ]
+    },
+    "hanaquartett": {
+      "nombre": "Quartett HANA",
+      "claves": [
+        "quartett hana"
+      ]
+    },
+    "sohoalternative": {
+      "nombre": "Soho Alternative (Cádiz)",
+      "claves": [
+        "soho alternative"
+      ]
+    },
+    "realoviedo": {
+      "nombre": "Real Oviedo",
+      "claves": [
+        "real oviedo"
+      ]
+    },
+    "laliga": {
+      "nombre": "LALIGA",
+      "claves": [
+        "laliga hypermotion"
+      ]
     }
   },
   "descartados": {

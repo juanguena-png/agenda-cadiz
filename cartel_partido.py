@@ -24,7 +24,15 @@ def datos_ficha(url):
     with rd.Renderer() as r:
         ctx = r.browser.new_context(user_agent=UA, locale="es-ES")
         pg = ctx.new_page()
-        pg.goto(url, wait_until="networkidle", timeout=45000)
+        for intento in range(3):  # la web del club tarda: carga tolerante, más tiempo y reintentos
+            try:
+                pg.goto(url, wait_until="domcontentloaded", timeout=90000)
+                pg.wait_for_selector("img[alt]", timeout=45000)
+                pg.wait_for_timeout(2500)
+                break
+            except Exception:
+                if intento == 2:
+                    raise
         titulo = (re.findall(r'property="og:title"[^>]*content="([^"]+)"', pg.content()) or [""])[0]
         m = re.match(r"(.+?) vs (.+?) - ", titulo)
         if not m:

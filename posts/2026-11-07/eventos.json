@@ -3,43 +3,6 @@
   "tipo": "diario",
   "eventos": [
     {
-      "id": "cdi-manton",
-      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
-      "categoria": "exposición",
-      "fecha": "2026-11-07",
-      "hora_inicio": "09:00",
-      "hora_fin": "14:00",
-      "todo_el_dia": false,
-      "lugar": "Casa de Iberoamérica · Sala Zitman",
-      "direccion": "Calle Concepción Arenal, s/n, 11006 Cádiz",
-      "precio": "Consultar",
-      "publico": null,
-      "descripcion": "Ruta del galeón contada con 27 mantones de colección, una maqueta de galeón y obras del Museo Cruz Herrera. Los sábados abre hasta las 14:00.",
-      "info": "Hasta el 9 de enero · casadeiberoamerica.es",
-      "imagen": {
-        "archivo": "img/cdi-manton.jpg",
-        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/10/mantonmanila-post-instagram-vertical.jpg",
-        "fuente": "www.casadeiberoamerica.es",
-        "pagina": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
-        "ancho": 262,
-        "alto": 350,
-        "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Casa de Iberoamérica – Agenda",
-          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Casa de Iberoamérica (Antigua Cárcel Real), Calle Concepción Arenal, s/n, 11006 Cádiz",
-        "url": "https://www.casadeiberoamerica.es/contacto"
-      },
-      "etiquetas_ig": []
-    },
-    {
       "id": "vicente-amigo",
       "nombre": "Vicente Amigo · Andenes del tiempo",
       "categoria": "música",
@@ -75,7 +38,24 @@
         "evidencia": "Gran Teatro Falla, «Plaza del Falla s/n · 11003 Cádiz» (Teatros de Cádiz, Ayuntamiento)",
         "url": "http://laciudad.cadiz.es/programacion-gran-teatro-falla.asp"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz (Delegación de Cultura)",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Vicente Amigo",
+          "instagram": "vicenteamigo_oficial"
+        }
+      ]
     },
     {
       "id": "diexo-sin-plan-b",
@@ -109,7 +89,25 @@
         "evidencia": "«Sala Soho Alternative (Paseo Almte. Pascual Pery, 18, 11004 Cádiz)» en la ficha oficial del Ayuntamiento de Cádiz",
         "url": "https://institucional.cadiz.es/evento/diexo-presentaci%C3%B3n-del-disco-sin-plan-b"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Sala Soho Alternative",
+          "instagram": "sohoalternative"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz (agenda cultural)",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Diexo (Diego Calvo)",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        }
+      ]
     },
     {
       "id": "capullo-momart",
@@ -153,7 +151,25 @@
         "evidencia": "Taquilla.com: «Momart, Paseo Almte. Pascual Pery, 25, 11004 Cádiz» (dirección orientativa); la Junta de Andalucía lista Momart Theatre como espacio de Cádiz",
         "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Momart Theatre",
+          "instagram": "momartsalaclub"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Momart Theatre",
+          "instagram": "momartsalaclub"
+        },
+        {
+          "rol": "artista",
+          "nombre": "El Capullo de Jerez",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        }
+      ]
     },
     {
       "id": "cgf-hurtado",
@@ -170,14 +186,15 @@
       "descripcion": "Concierto del Cádiz Guitar Festival: el guitarrista Alejandro Hurtado junto al cuarteto Quartett HANA. Entrada libre hasta completar aforo.",
       "info": "Programa: cadizguitarfestival.com",
       "imagen": {
-        "archivo": "posts/2026-11-07/img/cgf-hurtado-ilustracion.svg",
-        "generada": true,
-        "motivos": [
-          "violín",
-          "flamenco"
-        ],
-        "fuente": "Ilustración propia de Planes en Cádiz",
-        "alt_text": "Ilustración de «Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival»: composición con violín, flamenco en azul mar, blanco y amarillo"
+        "archivo": "img/cgf-hurtado.jpg",
+        "url_origen": "https://static.wixstatic.com/media/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png",
+        "fuente": "www.cadizguitarfestival.com",
+        "pagina": "https://www.cadizguitarfestival.com/",
+        "ancho": 1217,
+        "alto": 807,
+        "alt_text": "Ilustración de «Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival»: composición con violín, flamenco en azul mar, blanco y amarillo",
+        "tipo_imagen": "logo",
+        "ajuste": "contain"
       },
       "ilustracion": {
         "motivos": [
@@ -197,7 +214,30 @@
         "evidencia": "Web oficial del festival: «Location Casino Gaditano · Patio interior Cádiz»",
         "url": "https://www.cadizguitarfestival.com/"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casino Gaditano",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Cádiz Guitar Festival Ángel G. Piñero",
+          "instagram": "cadizguitarfestival"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Alejandro Hurtado",
+          "instagram": "alejandrohurtadogarcia"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Quartett HANA",
+          "instagram": "hanaquartett"
+        }
+      ]
     },
     {
       "id": "cadizcf-oviedo",
@@ -222,7 +262,7 @@
       },
       "fuentes": [
         {
-          "nombre": "Cádiz CF (web oficial, ficha del partido)",
+          "nombre": "Cádiz CF (web oficial)",
           "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
         }
       ],
@@ -231,7 +271,84 @@
         "evidencia": "Cádiz CF vs Real Oviedo, JP Financial Estadio (Estadio Nuevo Mirandilla, Cádiz), ficha oficial del club",
         "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-13-cadiz-cf-vs-real-oviedo-3435"
       },
-      "etiquetas_ig": []
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Estadio Nuevo Mirandilla",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Cádiz Club de Fútbol",
+          "instagram": "cadizclubdefutbol"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "LALIGA Hypermotion",
+          "instagram": "laliga"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Real Oviedo (rival)",
+          "instagram": "realoviedo"
+        }
+      ]
+    },
+    {
+      "id": "taller-ceramica-unicaja",
+      "nombre": "Taller de cerámica «Del barro a la pieza»",
+      "categoria": "otros",
+      "fecha": "2026-11-07",
+      "hora_inicio": "11:00",
+      "hora_fin": "12:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, 11004 Cádiz",
+      "precio": "Gratis, con inscripción previa",
+      "publico": "Todos los públicos",
+      "descripcion": "Sesión práctica con la ceramista Susanna Souvalkama en la que cada participante modela una cajita de arcilla blanca y la decora con engobe oscuro. Hay que reservar plaza antes.",
+      "info": "Reserva en fundacionunicaja.com/reservas",
+      "imagen": {
+        "archivo": "img/taller-ceramica.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/collage-cadiz.png",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Imagen de los talleres Aula Abierta del Centro Fundación Unicaja Cádiz",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/talleres-aula-abierta-en-cadiz/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, C/San Francisco, 26, Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/talleres-aula-abierta-en-cadiz/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Susanna Souvalkama (ceramista)",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        }
+      ],
+      "etiquetas_ig": [],
+      "importancia": 3
     }
   ]
 }

@@ -1,28 +1,41 @@
 {
   "variante": "B",
   "paleta": 2,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "8"
+  },
   "carrusel": [
     {
       "archivo": "01.png",
       "tipo": "portada",
       "etiquetas": [
-        "casadeiberoamerica",
+        "fundunicaja",
         "cadizclubdefutbol",
+        "laliga",
+        "realoviedo",
         "teatrofalla",
-        "cadizguitarfestival"
+        "ayuntamientocadiz",
+        "vicenteamigo_oficial",
+        "sohoalternative",
+        "momartsalaclub",
+        "cadizguitarfestival",
+        "alejandrohurtadogarcia",
+        "hanaquartett"
       ],
-      "alt_text": "Portada de Planes en Cádiz: Qué hacer hoy, sábado 7 de noviembre. 6 planes."
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, sábado 7 de noviembre. 6 planes y eventos."
     },
     {
       "archivo": "02.png",
       "tipo": "eventos",
       "ids": [
-        "cdi-manton"
+        "taller-ceramica-unicaja"
       ],
       "etiquetas": [
-        "casadeiberoamerica"
+        "fundunicaja"
       ],
-      "alt_text": "Eventos: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Taller de cerámica «Del barro a la pieza» (11:00, Centro Fundación Unicaja Cádiz)"
     },
     {
       "archivo": "03.png",
@@ -31,9 +44,11 @@
         "cadizcf-oviedo"
       ],
       "etiquetas": [
-        "cadizclubdefutbol"
+        "cadizclubdefutbol",
+        "laliga",
+        "realoviedo"
       ],
-      "alt_text": "Eventos: Cádiz CF – Real Oviedo · LALIGA HYPERMOTION J13 (16:15, Estadio Nuevo Mirandilla (JP Financial Estadio))"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cádiz CF – Real Oviedo · LALIGA HYPERMOTION J13 (16:15, Estadio Nuevo Mirandilla (JP Financial Estadio))"
     },
     {
       "archivo": "04.png",
@@ -42,9 +57,11 @@
         "vicente-amigo"
       ],
       "etiquetas": [
-        "teatrofalla"
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "vicenteamigo_oficial"
       ],
-      "alt_text": "Eventos: Vicente Amigo · Andenes del tiempo (20:00, Gran Teatro Falla)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Vicente Amigo · Andenes del tiempo (20:00, Gran Teatro Falla)"
     },
     {
       "archivo": "05.png",
@@ -52,8 +69,11 @@
       "ids": [
         "diexo-sin-plan-b"
       ],
-      "etiquetas": [],
-      "alt_text": "Eventos: Diexo · Presentación de «Sin plan B» (21:00, Sala Soho Alternative)"
+      "etiquetas": [
+        "sohoalternative",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Diexo · Presentación de «Sin plan B» (21:00, Sala Soho Alternative)"
     },
     {
       "archivo": "06.png",
@@ -61,8 +81,10 @@
       "ids": [
         "capullo-momart"
       ],
-      "etiquetas": [],
-      "alt_text": "Eventos: El Capullo de Jerez en concierto (21:00, Momart Theatre)"
+      "etiquetas": [
+        "momartsalaclub"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: El Capullo de Jerez en concierto (21:00, Momart Theatre)"
     },
     {
       "archivo": "07.png",
@@ -71,16 +93,18 @@
         "cgf-hurtado"
       ],
       "etiquetas": [
-        "cadizguitarfestival"
+        "cadizguitarfestival",
+        "alejandrohurtadogarcia",
+        "hanaquartett"
       ],
-      "alt_text": "Eventos: Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival (22:30, Casino Gaditano (patio interior))"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Alejandro Hurtado y Quartett HANA · Cádiz Guitar Festival (22:30, Casino Gaditano (patio interior))"
     }
   ],
   "stories": [
     {
       "archivo": "01.png",
-      "id": "cdi-manton",
-      "alt_text": "Ilustración de «Exposición «¿Dónde vas con mantón de Manila?»»: composición con mantón, marco, barco en azul mar, blanco y amarillo"
+      "id": "taller-ceramica-unicaja",
+      "alt_text": "Imagen de los talleres Aula Abierta del Centro Fundación Unicaja Cádiz"
     },
     {
       "archivo": "02.png",
