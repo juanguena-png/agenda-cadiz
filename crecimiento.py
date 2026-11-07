@@ -73,13 +73,33 @@ def colaboradores(eventos, maximo=3):
     return [u for u, _ in sorted(puntos.items(), key=lambda kv: -kv[1])][:maximo]
 
 
+FRASES_COMENTARIO = [
+    "¿Cuál de estos planes te apuntas hoy? 👇",
+    "Cuéntanos: ¿a cuál vas tú? 🙌",
+    "¿Con quién irías a alguno de estos planes? Etiquétale 👇",
+    "Si tuvieras que elegir solo uno, ¿cuál sería? 🤔",
+    "¿Ya tienes plan o te unes a alguno de estos? 👀",
+    "¿Qué plan te apetece más hoy? Te leemos 👇",
+    "¿Te animas con alguno? Dinos cuál 😉",
+    "¿Cuál te ha llamado más la atención? 🎯",
+    "Hoy hay para todos los gustos: ¿cuál es el tuyo? ✨",
+    "¿A qué hora te apuntas? Cuéntanos tu plan 🕘",
+    "¿Alguien se viene? Deja aquí tu plan de hoy 👇",
+    "¿Cuál recomendarías tú a un amigo? 💬",
+    "¿Has estado ya en alguno de estos sitios? Cuéntanos 👇",
+    "¿Qué plan te falta por probar? 🌟",
+    "Elige uno y dinos por qué 👇",
+    "¿Dónde nos vemos hoy? 😄",
+    "¿Cuál es tu favorito de la lista? ❤️",
+    "Responde con un emoji del plan que más te gusta 👇",
+]
+
+
 def comentario_post(eventos, fecha):
-    """Primer comentario de la cuenta en el carrusel: pregunta + lista rápida (la API no permite fijarlo; se publica justo después del post)."""
-    cta = experimentos(fecha)["cta"]
-    gancho = "¿A cuál vas? 👇 Cuéntanoslo y guarda este post para no perdértelo." if cta == "A" else "¿Con quién irías? Etiqueta a tu plan de hoy 👇 y compártelo en tus stories."
-    lineas = [f"• {e.get('hora_inicio') or 'Consultar horario'} · {e['nombre']}" for e in ag.ordenar(eventos)[:14]]
-    t = gancho + "\n\nLista rápida:\n" + "\n".join(lineas) + "\n\nComenta PLANES y te mandamos la agenda completa por mensaje."
-    return t[:2000]
+    """Primer comentario de la cuenta en el carrusel: UNA frase corta y cambiante que invite a comentar (sin repetir la lista del día; la API no permite fijarlo).
+    La frase rota cada día sin repetirse hasta agotar el banco."""
+    o = ag.a_fecha(fecha).toordinal()
+    return FRASES_COMENTARIO[o % len(FRASES_COMENTARIO)]
 
 
 # ----------------------------------------------------------------------------- C. experimentos A/B
