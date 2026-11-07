@@ -2,9 +2,9 @@
   "publicaciones": {
     "carrusel": {
       "instagram": {
-        "ts": "2026-11-07T09:06:03+01:00",
+        "ts": "2026-11-07T09:09:13+01:00",
         "estado": "error",
-        "error": "contenedor 18119703446323985: ERROR Error: Media upload has failed with error code 2207032",
+        "error": "id de contenedor inválido (0)",
         "temporal": false
       },
       "facebook": {
@@ -59,7 +59,14 @@
     "2026-11-07T09:06:03+01:00 stories/03.png omitida: falló el carrusel",
     "2026-11-07T09:06:03+01:00 stories/04.png omitida: falló el carrusel",
     "2026-11-07T09:06:03+01:00 stories/05.png omitida: falló el carrusel",
-    "2026-11-07T09:06:03+01:00 stories/06.png omitida: falló el carrusel"
+    "2026-11-07T09:06:03+01:00 stories/06.png omitida: falló el carrusel",
+    "2026-11-07T09:09:13+01:00 ERROR carrusel/instagram: id de contenedor inválido (0)",
+    "2026-11-07T09:09:13+01:00 stories/01.png omitida: falló el carrusel",
+    "2026-11-07T09:09:13+01:00 stories/02.png omitida: falló el carrusel",
+    "2026-11-07T09:09:13+01:00 stories/03.png omitida: falló el carrusel",
+    "2026-11-07T09:09:13+01:00 stories/04.png omitida: falló el carrusel",
+    "2026-11-07T09:09:13+01:00 stories/05.png omitida: falló el carrusel",
+    "2026-11-07T09:09:13+01:00 stories/06.png omitida: falló el carrusel"
   ],
   "revision_final": {
     "hecha": true,
@@ -68,7 +75,7 @@
   "limite_publicaciones": {
     "uso": 1,
     "total": 100,
-    "ts": "2026-11-07T09:04:58+01:00"
+    "ts": "2026-11-07T09:06:15+01:00"
   },
-  "ultima_ejecucion": "2026-11-07T09:06:03+01:00"
+  "ultima_ejecucion": "2026-11-07T09:09:13+01:00"
 }
