@@ -130,7 +130,7 @@
     },
     {
       "id": "cadiz-oviedo-0711",
-      "nombre": "Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13)",
+      "nombre": "Cádiz CF – Real Oviedo",
       "categoria": "deporte",
       "fecha": "2026-11-07",
       "hora_inicio": "16:15",
@@ -146,7 +146,7 @@
         "archivo": "img/cadiz-oviedo-0711-cartel.png",
         "fuente": "Cartel propio de Planes en Cádiz con los escudos oficiales de la web del Cádiz CF",
         "generada": true,
-        "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: Cádiz CF – Real Oviedo (LaLiga Hypermotion, J13), Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla",
+        "alt_text": "Cartel del partido Cádiz CF contra Real Oviedo: Cádiz CF – Real Oviedo, Sábado 7 de noviembre · 16:15, Estadio Nuevo Mirandilla",
         "ajuste": "cover"
       },
       "fuentes": [
