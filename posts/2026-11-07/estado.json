@@ -158,11 +158,12 @@
     "2026-11-07T09:09:13+01:00 stories/03.png omitida: falló el carrusel",
     "2026-11-07T09:09:13+01:00 stories/04.png omitida: falló el carrusel",
     "2026-11-07T09:09:13+01:00 stories/05.png omitida: falló el carrusel",
-    "2026-11-07T09:09:13+01:00 stories/06.png omitida: falló el carrusel"
+    "2026-11-07T09:09:13+01:00 stories/06.png omitida: falló el carrusel",
+    "2026-11-07T17:24:35+01:00 diario: render OK (6 eventos, variante B)"
   ],
   "revision_final": {
     "hecha": true,
-    "ts": "2026-11-07T08:01:21+01:00"
+    "ts": "2026-11-07T17:24:41+01:00"
   },
   "limite_publicaciones": {
     "uso": 1,
