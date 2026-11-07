@@ -320,13 +320,10 @@ def publicar(fecha, tipo, esperar=None):
     if len(validos) < ag.MIN_EVENTOS:
         ag.log_estado(estado, f"{tipo}: 0 eventos verificados, no hay nada que publicar (revisar: regla 9 exige publicar todos los días)")
         ag.guardar_estado(carpeta, estado)
-        notificar.enviar(f"Sin eventos verificados para publicar ({tipo} {fecha})", "Regla 9: hay que publicar todos los días. Completa eventos.json (eventos o relleno «Siempre abierto») y vuelve a lanzar render y publicar."); return print("0 eventos verificados: no hay nada que publicar (aviso enviado).")
+        notificar.enviar(f"Sin eventos verificados para publicar ({tipo} {fecha})", "Regla 9: hay que publicar todos los días. Completa eventos.json (eventos o relleno «Siempre abierto») y vuelve a lanzar render y publicar.", clave=f"sin-eventos-{tipo}-{fecha}"); return print("0 eventos verificados: no hay nada que publicar (aviso enviado).")
     if tipo in ("diario", "mensual", "reel") and not PRUEBA:
         import etiquetas as et
-        flojos = [(ev, tags, pr) for ev, tags, pr in et.auditar(validos, fecha) if pr]
-        if flojos:  # no bloquea la publicación (regla 9), pero avisa: hay que completar etiquetas
-            notificar.enviar(f"Etiquetas incompletas en {len(flojos)} evento(s) ({tipo} {fecha})",
-                             "\n".join(f"- {ev['nombre']}: {'; '.join(pr)}" for ev, _, pr in flojos) + "\n\nCompleta `entidades` en eventos.json y ejecuta etiquetas.py --auditar.")
+        et.auditar(validos, fecha)  # las entidades sin perfil se anotan en registros/etiquetas-pendientes.json (sin correo: es un aviso interno)
     if not PRUEBA and not (estado.get("revision_final") or {}).get("hecha"):
         ag.salir("Falta la revisión final de fuentes (cancelaciones/cambios de hora). Ejecuta --marcar-revision tras comprobarlas.")
 
@@ -335,7 +332,7 @@ def publicar(fecha, tipo, esperar=None):
     if publicando:
         ok, msg, _ = comprobar_token()
         if not ok:
-            notificar.enviar("Token de Meta no válido: no se ha publicado nada", f"{msg}\n\n{notificar.INSTRUCCIONES_TOKEN}")
+            notificar.enviar("Token de Meta no válido: no se ha publicado nada", f"{msg}\n\n{notificar.INSTRUCCIONES_TOKEN}", clave="token-invalido")
             ag.log_estado(estado, f"token inválido: {msg}")
             ag.guardar_estado(carpeta, estado)
             ag.salir(f"Token no válido: {msg}")
@@ -343,11 +340,11 @@ def publicar(fecha, tipo, esperar=None):
         estado["limite_publicaciones"] = {"uso": uso, "total": total, "ts": ag.ahora().isoformat(timespec="seconds")}
         necesarias = len((man or {}).get("stories", [])) + len((man or {}).get("noche", [])) + 2
         if uso + necesarias > total:
-            notificar.enviar("Límite de publicaciones de 24 h cerca/superado", f"Uso {uso}/{total}, se necesitan ~{necesarias}. Nada publicado.")
+            notificar.enviar("Límite de publicaciones de 24 h cerca/superado", f"Uso {uso}/{total}, se necesitan ~{necesarias}. Nada publicado.", clave="limite-24h")
             ag.guardar_estado(carpeta, estado)
             ag.salir("Límite de publicaciones insuficiente")
         if uso >= 0.8 * total:
-            notificar.enviar("Se acerca el límite de publicaciones de 24 h", f"Uso {uso}/{total}")
+            notificar.enviar("Se acerca el límite de publicaciones de 24 h", f"Uso {uso}/{total}", clave="limite-24h-cerca")
 
     plan = construir_plan(carpeta, tipo, man, validos, fecha)
     if not publicando:
@@ -388,7 +385,7 @@ def publicar(fecha, tipo, esperar=None):
     estado["ultima_ejecucion"] = ag.ahora().isoformat(timespec="seconds")
     ag.guardar_estado(carpeta, estado)
     if fallos:
-        notificar.enviar(f"Fallo al publicar ({tipo} {fecha})", "Fallos: " + ", ".join(fallos) + "\nDetalle en " + str(carpeta / "estado.json"))
+        notificar.enviar(f"Fallo al publicar ({tipo} {fecha})", "Fallos: " + ", ".join(fallos) + "\nDetalle en " + str(carpeta / "estado.json"), clave=f"fallo-{tipo}-{fecha}")
 
 
 def construir_plan(carpeta, tipo, man, eventos, fecha):

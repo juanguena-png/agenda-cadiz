@@ -193,7 +193,6 @@ def _ab_antiguo():
 def mejora(titulo, motivo):
     with open(ag.RAIZ / "registros" / "mejoras.md", "a", encoding="utf-8") as fh:
         fh.write(f"\n## {ag.hoy().isoformat()} · {titulo}\n\n{motivo}\n")
-    notificar.enviar(f"Mejora aplicada: {titulo}", f"{motivo}\n\n(Registrada en registros/mejoras.md. No altera las reglas del agente, la condición de Cádiz capital ni los horarios 9:00 y 19:00.)")
 
 
 if __name__ == "__main__":

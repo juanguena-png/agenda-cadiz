@@ -214,15 +214,18 @@ def es_reciente(ts):
 
 
 def avisar(it, estado):
-    """Email por CADA comentario o mensaje nuevo (asunto con el texto, enlace y qué se ha hecho). Una sola vez por comentario."""
+    """Ya NO se envía un correo por cada comentario o mensaje (decisión del titular): se responden o se dejan pendientes en registros/pendientes.json.
+    Solo se avisa por correo (una vez por elemento) si falla la respuesta automática a una palabra clave."""
     ya = set(ag.cargar_json(AVISADOS, []))
     if it["id"] in ya:
         return
     ya.add(it["id"]); ag.guardar_json(AVISADOS, sorted(ya))
+    if not str(estado).startswith("FALLO"):
+        return
     quien = it.get("autor") or "alguien"
     cuerpo = (f"{it['plataforma'].capitalize()} · {it['tipo']} de {quien}\n\n«{it['texto']}»\n\nEnlace: {it.get('enlace') or 'bandeja de mensajes'}\n"
               f"Fecha: {it.get('ts')}\n\nEstado: {estado}")
-    notificar.enviar(f"Nuevo {it['tipo']} en {it['plataforma']}: «{it['texto'][:50]}»", cuerpo)
+    notificar.enviar(f"Fallo al responder en {it['plataforma']}: «{it['texto'][:50]}»", cuerpo, clave=f"fallo-respuesta-{it['id']}")
 
 
 def recoger():

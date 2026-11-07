@@ -6,7 +6,7 @@ Cada ejecución consume uso de tu plan. Configuración **mínima**: **4 tareas**
 |---|---|---|---|
 | 1 | Flujo de las 9:00 | `CRON_TZ=Europe/Madrid 50 7 * * *` | Diario + (jueves) reel de planes del finde + (día 1) mensual + comentarios |
 | 2 | Story de las 18:30 | `CRON_TZ=Europe/Madrid 20 17 * * *` | Recomprueba, genera y publica «Esta noche en Cádiz» + comentarios |
-| 3 | Comentarios y mensajes | `CRON_TZ=Europe/Madrid 0 * * * *` (cada hora) | Responde palabras clave (PLANES/FINDE), avisa por email de cada comentario nuevo y atiende pendientes. Tarea ligera |
+| 3 | Comentarios y mensajes | `CRON_TZ=Europe/Madrid 0 * * * *` (cada hora) | Responde palabras clave (PLANES/FINDE), atiende pendientes (sin correo por cada comentario). Tarea ligera |
 | 4 | Métricas y mejora | `CRON_TZ=Europe/Madrid 30 22 * * *` | Métricas, mejoras, avisos y comentarios |
 
 Las tareas son **lanzadores**: abren una sesión nueva en el entorno `agenda-cadiz`, preparan el repo (`juanguena-png/agenda-cadiz`, rama `main`) y ejecutan el prompt de este archivo (así se pueden afinar los prompts con un simple commit, sin recrear las tareas).
@@ -53,11 +53,11 @@ Tarea LIGERA: no ejecutes setup.sh (solo `pip install -q requests`) ni leas fuen
 
 ```
 Eres el agente de Planes en Cádiz. Trabaja en juanguena-png/agenda-cadiz (main): `git pull origin main`, `pip install -q requests`. Lee solo la sección «Comentarios y mensajes» de CLAUDE.md.
-1. `python interaccion.py --recoger`. Esto ya responde solo a las palabras clave (PLANES y FINDE) con un mensaje privado y una respuesta pública breve, y te manda UN email por cada comentario o mensaje nuevo (una sola vez por comentario; lo viejo de más de 3 días se ignora). NO repitas ni dupliques esos avisos.
+1. `python interaccion.py --recoger`. Esto ya responde solo a las palabras clave (PLANES y FINDE) con un mensaje privado y una respuesta pública breve, y NO envía correo por cada comentario o mensaje (lo viejo de más de 3 días se ignora).
 2. IMPORTANTE (el estado vive en el repo, cada sesión empieza de cero): al terminar haz SIEMPRE `git add registros && git commit -m "interaccion" && git pull --rebase origin main && git push origin HEAD:main` si hay cambios.
 3. Si registros/pendientes.json solo contiene lo que ya estaba (nada nuevo que requiera juicio), termina con un resumen de 1 línea.
 4. Para cada pendiente nuevo que no sea palabra clave: busca la respuesta SOLO en las fuentes consultadas para la programación (posts/*/eventos.json recientes y, si hace falta, las de fuentes.md). Si la encuentras: `python interaccion.py --responder ID "respuesta breve, cordial y con el tono de marca.md"`. Si no la encuentras, responde igualmente con un agradecimiento breve y personalizado que diga que lo confirmamos (se responde a TODOS los usuarios reales; ver CLAUDE.md «Comentarios y mensajes») y ejecuta `python interaccion.py --sin-respuesta ID` solo cuando haga falta que lo mire el titular (pregunta que no sabes contestar). Ignora spam e insultos. Repite el commit/push del punto 2.
-5. Nunca sigas, des like ni comentes en perfiles ajenos. En MODO=borrador no se responde nada (solo se listan y se avisa por email).
+5. Nunca sigas, des like ni comentes en perfiles ajenos. En MODO=borrador no se responde nada (solo se listan).
 Resumen de 1-2 líneas.
 ```
 
@@ -67,7 +67,7 @@ Resumen de 1-2 líneas.
 Eres el agente de Planes en Cádiz. Lee CLAUDE.md (sección «Métricas y mejora continua»).
 1. `python metricas.py --recoger` y `python metricas.py --resumen --dias 14`. CRECIMIENTO (ver CLAUDE.md «Crecimiento orgánico diario»): `python crecimiento.py --aliados --benchmark --informe`; si hoy es lunes además `python crecimiento.py --hashtags --ab`; si es domingo `python crecimiento.py --semanal`. Aplica lo que diga el informe (formato con más alcance, estructura de la publicación con más seguidores nuevos) y registra cada cambio con `metricas.py --mejora`.
 2. Analiza alcance, impresiones/vistas, seguidores, guardados, compartidos, interacciones, horas de mayor actividad y procedencia de la audiencia en Instagram y Facebook. Decide, como máximo, UNA mejora concreta y segura por día (hashtags, primera frase del caption A/B, CTA, orden de los eventos…). Las mejoras nunca pueden saltarse las reglas del agente, la regla 1 (solo Cádiz capital) ni cambiar los horarios 9:00 y 18:30.
-3. Si aplicas una mejora: edítala en el repo y ejecuta `python metricas.py --mejora "título" "qué es y por qué la aplicas"` (registra en registros/mejoras.md y me envía email). Haz commit y push a main.
+3. Si aplicas una mejora: edítala en el repo y ejecuta `python metricas.py --mejora "título" "qué es y por qué la aplicas"` (registra en registros/mejoras.md, sin correo). Haz commit y push a main.
 4. MEJORA DE FUENTES (obligatoria, ver CLAUDE.md «Mejora continua de la base de fuentes»): `python fuentes_auditar.py`, arregla o sustituye lo que falle, añade al menos 1 fuente nueva a fuentes.json y regístrala en registros/fuentes-nuevas.md; commit y push. Después `python patrocinios.py --avisos` (no hace nada si PATROCINIOS=off). Revisa registros/fuentes.log y registros/cobertura.jsonl: si una fuente lleva 3+ días seguidos sin responder, `python notificar.py` con el aviso; si una búsqueda de descubrimiento no da nunca eventos, propón en mejoras.md sustituirla.
 5. ETIQUETAS PENDIENTES: lee registros/etiquetas-pendientes.json; para cada entidad sin perfil busca su Instagram (`etiquetas.py --web` en su web oficial, `--buscar`), verifica con la API y añádela con `--anadir` (con claves). Quita del fichero las resueltas. Registra cuántos perfiles nuevos has añadido en el resumen; commit y push.
 6. `python interaccion.py --recoger` y gestiona pendientes según CLAUDE.md.

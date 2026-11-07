@@ -9,12 +9,22 @@ import agenda as ag
 RESEND = "https://api.resend.com/emails"
 
 
-def enviar(asunto, cuerpo, html=None):
+def enviar(asunto, cuerpo, html=None, clave=None):
     asunto = " ".join(str(asunto).split())[:150]  # Resend no admite saltos de línea en el asunto
     """Registra siempre el aviso en registros/avisos.log y lo envía por email.
     Con 'Secretos de red' la clave la inyecta el proxy: si RESEND_API_KEY no es visible, se envía igualmente sin cabecera."""
     with open(ag.RAIZ / "registros" / "avisos.log", "a", encoding="utf-8") as fh:
         fh.write(f"{ag.ahora().isoformat(timespec='seconds')}\t{asunto}\n{cuerpo if not html else '(correo HTML)'}\n---\n")
+    if clave:  # avisos repetibles: como máximo uno al día por clave (p. ej. «fallo-diario-2026-11-07»)
+        ruta = ag.RAIZ / "registros" / "avisos_enviados.json"
+        hist = ag.cargar_json(ruta, {}) or {}
+        hoy = ag.hoy().isoformat()
+        if hist.get(clave) == hoy:
+            print(f"[aviso omitido: ya enviado hoy] {asunto}", file=sys.stderr)
+            return False
+        hist = {k: v for k, v in hist.items() if v == hoy}
+        hist[clave] = hoy
+        ag.guardar_json(ruta, hist)
     destino = ag.secreto("EMAIL_DESTINO")
     if not destino:
         print(f"[aviso sin enviar: falta EMAIL_DESTINO] {asunto}", file=sys.stderr)
