@@ -92,14 +92,32 @@ FRASES_COMENTARIO = [
     "¿Dónde nos vemos hoy? 😄",
     "¿Cuál es tu favorito de la lista? ❤️",
     "Responde con un emoji del plan que más te gusta 👇",
+    # con la palabra clave PLANES (se envía la agenda del día por mensaje)
+    "Comenta PLANES y te mandamos la agenda completa de hoy por mensaje 📩",
+    "¿Quieres la lista de hoy en tu móvil? Escribe PLANES aquí abajo 👇",
+    "Escribe PLANES y te enviamos todos los planes de hoy por mensaje privado ✉️",
+    "¿Te lo guardas para luego? Comenta PLANES y te lo mandamos 📲",
+    "Dinos qué plan eliges y comenta PLANES si quieres la agenda por mensaje 😉",
+    "Un comentario con la palabra PLANES y la agenda de hoy llega a tu bandeja 📥",
+]
+
+# con la palabra clave FINDE (lista de viernes a domingo); solo de miércoles a domingo
+FRASES_FINDE = [
+    "¿Y el finde? Comenta FINDE y te mandamos los planes de viernes a domingo 📩",
+    "Escribe FINDE y te enviamos por mensaje todos los planes del fin de semana ✉️",
+    "¿Ya tienes plan para el finde? Comenta FINDE y te lo mandamos 👇",
+    "Si quieres los planes del finde en tu móvil, comenta FINDE 📲",
 ]
 
 
 def comentario_post(eventos, fecha):
     """Primer comentario de la cuenta en el carrusel: UNA frase corta y cambiante que invite a comentar (sin repetir la lista del día; la API no permite fijarlo).
     La frase rota cada día sin repetirse hasta agotar el banco."""
-    o = ag.a_fecha(fecha).toordinal()
-    return FRASES_COMENTARIO[o % len(FRASES_COMENTARIO)]
+    d = ag.a_fecha(fecha)
+    banco = list(FRASES_COMENTARIO)
+    if d.weekday() >= 2:  # miércoles a domingo: también las de la palabra clave FINDE
+        banco += FRASES_FINDE
+    return banco[d.toordinal() % len(banco)]
 
 
 # ----------------------------------------------------------------------------- C. experimentos A/B
