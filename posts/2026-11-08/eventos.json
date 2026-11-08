@@ -1,0 +1,200 @@
+{
+  "fecha": "2026-11-08",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "gaditanoir-clausura",
+      "nombre": "Gaditanoir: jornada de clausura",
+      "categoria": "otros",
+      "fecha": "2026-11-08",
+      "hora_inicio": "11:00",
+      "hora_fin": "13:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Patio Central",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Último día del festival de novela negra: encuentro sobre redes sociales y misterio a las 11:00, presentación de «Dalia, una niña de nadie» a las 12:00 y clausura hacia las 13:00.",
+      "info": "Programa completo en la web de la Casa de Iberoamérica",
+      "imagen": {
+        "archivo": "img/gaditanoir.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/11/cartel 2026.jpeg",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Cartel del Festival de Novela Negra Gaditanoir",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/324/festival-de-novela-negra-gaditanoir"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/324/festival-de-novela-negra-gaditanoir"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Gaditanoir",
+          "instagram": "gaditanoir"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Sociedad Municipal Cádiz 2012",
+          "instagram": null,
+          "buscado": "2026-11-07"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Íñigo Bordiú",
+          "instagram": "inigobordiu"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Leo Jiménez",
+          "instagram": null,
+          "buscado": "2026-11-08"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Manuel García Requejo",
+          "instagram": null,
+          "buscado": "2026-11-08"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        }
+      ],
+      "fecha_txt": "Último día"
+    },
+    {
+      "id": "sorteo-coac-0811",
+      "nombre": "Sorteo del COAC 2027",
+      "categoria": "fiesta",
+      "fecha": "2026-11-08",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Palacio de Congresos y Exposiciones de Cádiz",
+      "direccion": "Plaza Sevilla s/n, 11006 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Primer paso del Carnaval 2027: el sorteo fija el orden de actuación de 181 agrupaciones (adultos, juveniles e infantiles) en el Concurso del Falla. El público puede asistir y Onda Cádiz lo emite en directo.",
+      "info": "Entrada libre hasta completar aforo · en directo en Onda Cádiz",
+      "imagen": {
+        "archivo": "plantilla/sin-foto/fiesta.png",
+        "generica": true,
+        "alt_text": "Imagen genérica de la categoría fiesta"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz Directo",
+          "url": "https://www.cadizdirecto.com/cadiz/el-sorteo-del-coac-2027-llega-este-domingo-8-con-181-agrupaciones-ausencias-y-hasta-diez-grupos-por-funcion/"
+        },
+        {
+          "nombre": "Palacio de Congresos de Cádiz",
+          "url": "https://palaciocongresos-cadiz.com/eventos/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Palacio de Congresos y Exposiciones de Cádiz, Plaza Sevilla s/n, 11006 Cádiz",
+        "url": "https://www.cadizdirecto.com/cadiz/el-sorteo-del-coac-2027-llega-este-domingo-8-con-181-agrupaciones-ausencias-y-hasta-diez-grupos-por-funcion/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Palacio de Congresos de Cádiz",
+          "instagram": "palaciocongresoscadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Onda Cádiz",
+          "instagram": "ondacadiz"
+        }
+      ],
+      "ilustracion": {
+        "motivos": [
+          "mascaras",
+          "micro"
+        ],
+        "fondo": "noche"
+      },
+      "sin_imagen_oficial": true
+    },
+    {
+      "id": "guitar-guzman-0811",
+      "nombre": "Cádiz Guitar Festival · María Esther Guzmán",
+      "categoria": "música",
+      "fecha": "2026-11-08",
+      "hora_inicio": "13:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "La Caleta · Espacio Fernando Quiñones",
+      "direccion": "La Caleta, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de la guitarrista María Esther Guzmán, de carrera internacional, en La Caleta dentro del Cádiz Guitar Festival.",
+      "info": "Entrada libre hasta completar aforo · cadizguitarfestival.com",
+      "imagen": {
+        "archivo": "img/guitar-guzman-0811.jpg",
+        "url_origen": "https://static.wixstatic.com/media/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3d64a7_194868e1b3cd4fa68a47475426c5303f%7Emv2.png",
+        "fuente": "www.cadizguitarfestival.com",
+        "pagina": "https://www.cadizguitarfestival.com/",
+        "ancho": 1217,
+        "alto": 807,
+        "alt_text": "Imagen de Cádiz Guitar Festival · María Esther Guzmán",
+        "tipo_imagen": "logo",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Cádiz Guitar Festival",
+          "url": "https://www.cadizguitarfestival.com/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "La Caleta, Espacio Fernando Quiñones, Cádiz (programa del festival)",
+        "url": "https://www.cadizguitarfestival.com/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Espacio Fernando Quiñones (La Caleta)",
+          "instagram": null,
+          "buscado": "2026-11-08"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Cádiz Guitar Festival",
+          "instagram": "cadizguitarfestival"
+        },
+        {
+          "rol": "artista",
+          "nombre": "María Esther Guzmán",
+          "instagram": null,
+          "buscado": "2026-11-08"
+        }
+      ]
+    }
+  ]
+}

@@ -7,8 +7,8 @@
   },
   "Sociedad Municipal Cádiz 2012": {
     "rol": "organizador",
-    "evento": "Gaditanoir, Festival de Novela Negra",
-    "fecha": "2026-11-07",
+    "evento": "Gaditanoir: jornada de clausura",
+    "fecha": "2026-11-08",
     "instagram_probado": null
   },
   "Óscar Lobato": {
@@ -51,6 +51,30 @@
     "rol": "artista",
     "evento": "Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA",
     "fecha": "2026-11-07",
+    "instagram_probado": null
+  },
+  "Leo Jiménez": {
+    "rol": "artista",
+    "evento": "Gaditanoir: jornada de clausura",
+    "fecha": "2026-11-08",
+    "instagram_probado": null
+  },
+  "Manuel García Requejo": {
+    "rol": "artista",
+    "evento": "Gaditanoir: jornada de clausura",
+    "fecha": "2026-11-08",
+    "instagram_probado": null
+  },
+  "Espacio Fernando Quiñones (La Caleta)": {
+    "rol": "lugar",
+    "evento": "Cádiz Guitar Festival · María Esther Guzmán",
+    "fecha": "2026-11-08",
+    "instagram_probado": null
+  },
+  "María Esther Guzmán": {
+    "rol": "artista",
+    "evento": "Cádiz Guitar Festival · María Esther Guzmán",
+    "fecha": "2026-11-08",
     "instagram_probado": null
   }
 }

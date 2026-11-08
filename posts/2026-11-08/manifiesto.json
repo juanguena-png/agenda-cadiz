@@ -1,0 +1,81 @@
+{
+  "variante": "A",
+  "paleta": 1,
+  "experimentos": {
+    "frase": "A",
+    "cta": "A",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "casadeiberoamerica",
+        "gaditanoir",
+        "inigobordiu",
+        "ayuntamientocadiz",
+        "palaciocongresoscadiz",
+        "ondacadiz",
+        "cadizguitarfestival"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, domingo 8 de noviembre. 3 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "gaditanoir-clausura"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "gaditanoir",
+        "inigobordiu",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Gaditanoir: jornada de clausura (11:00, Casa de Iberoamérica · Patio Central)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "sorteo-coac-0811"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "ayuntamientocadiz",
+        "ondacadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Sorteo del COAC 2027 (12:00, Palacio de Congresos y Exposiciones de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "guitar-guzman-0811"
+      ],
+      "etiquetas": [
+        "cadizguitarfestival"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cádiz Guitar Festival · María Esther Guzmán (13:00, La Caleta · Espacio Fernando Quiñones)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "gaditanoir-clausura",
+      "alt_text": "Cartel del Festival de Novela Negra Gaditanoir"
+    },
+    {
+      "archivo": "02.png",
+      "id": "sorteo-coac-0811",
+      "alt_text": "Imagen genérica de la categoría fiesta"
+    },
+    {
+      "archivo": "03.png",
+      "id": "guitar-guzman-0811",
+      "alt_text": "Imagen de Cádiz Guitar Festival · María Esther Guzmán"
+    }
+  ],
+  "noche": []
+}
