@@ -1,5 +1,66 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-08T09:00:40+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18118696643518459",
+          "https://www.instagram.com/p/DfeRxSqjzg7/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-08T09:00:50+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122108973345519566"
+      }
+    },
+    "stories/01.png": {
+      "instagram": {
+        "ts": "2026-11-08T09:00:58+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18121706549088864",
+          "https://www.instagram.com/stories/planesencadiz/4025733492334697488"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-08T09:01:02+01:00",
+        "estado": "publicado",
+        "resultado": "1055470577544567"
+      }
+    },
+    "stories/02.png": {
+      "instagram": {
+        "ts": "2026-11-08T09:01:09+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18200987527378061",
+          "https://www.instagram.com/stories/planesencadiz/4025733598392779167"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-08T09:01:14+01:00",
+        "estado": "publicado",
+        "resultado": "1100516256308738"
+      }
+    },
+    "stories/03.png": {
+      "instagram": {
+        "ts": "2026-11-08T09:01:21+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17879616777633194",
+          "https://www.instagram.com/stories/planesencadiz/4025733698830096677"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-08T09:01:26+01:00",
+        "estado": "publicado",
+        "resultado": "1128072176474484"
+      }
+    }
+  },
   "registro": [
     "2026-11-08T07:55:04+01:00 diario: render OK (3 eventos, variante A)",
     "2026-11-08T07:55:17+01:00 diario: render OK (3 eventos, variante A)",
@@ -8,5 +69,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-08T07:55:42+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 8,
+    "total": 100,
+    "ts": "2026-11-08T07:55:47+01:00"
+  },
+  "ultima_ejecucion": "2026-11-08T09:01:26+01:00"
 }
