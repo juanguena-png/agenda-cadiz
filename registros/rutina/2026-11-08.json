@@ -1,0 +1,33 @@
+{
+  "fecha": "2026-11-08",
+  "yo": {
+    "seguidores": 187,
+    "seguidos": 526
+  },
+  "A": [
+    {
+      "usuario": "carnavalycoac",
+      "nombre": "CarnavalyCOAC",
+      "seguidores": 2993,
+      "bio": "Todo lo que necesitas saber sobre carnaval callejero y el COAC 🎭\nEn Facebook  CARNAVAL https://www.facebook.com/CarnavalyCOAC",
+      "origen": "buscada",
+      "publicacion": "https://www.instagram.com/p/Dffjsk4oaWF/",
+      "texto_publicacion": "Las cosas del X carnavalero. No se puede tener más arte. 🤣😉😂 juanmitabocu \nchirigotabocu \n#carnavaldecadiz \nX Carnavalero",
+      "tipo": "IMAGE",
+      "fecha_publicacion": "2026-11-08"
+    },
+    {
+      "usuario": "diariodecadiz",
+      "nombre": "Diario de Cádiz",
+      "seguidores": 56838,
+      "bio": "Diario de Cádiz. Decano de la prensa andaluza. Fundado en 1867. Informamos del Carnaval en @diario_del_carnaval",
+      "origen": "buscada",
+      "publicacion": "https://www.instagram.com/p/Dffnp7CCqGv/",
+      "texto_publicacion": "La subida del Salario Mínimo Interprofesional (SMI) en 2027 será del 5,3%, hasta situarse en 1.286 euros brutos al mes en 14 pagas. Esto supone 64,70 euros más cada mes respecto a la cuantía anterior y un incremento de 905,80 euros brutos al año. La mejora llegará acompañada de un ajuste fiscal: Hacienda elevará la deducción aplicable a los perceptores del salario mínimo para evitar que tengan que pagar IRPF.\n\nLa medida afecta a miles de trabajadores que cobran el sueldo mínimo en España y vuelve a poner sobre la mesa una cuestión que suele generar dudas cada vez que se actualiza esta cantidad",
+      "tipo": "IMAGE",
+      "fecha_publicacion": "2026-11-08"
+    }
+  ],
+  "B": [],
+  "C": []
+}
