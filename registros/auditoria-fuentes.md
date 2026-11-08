@@ -1,22 +1,16 @@
 # Auditoría de fuentes (últimos 14 días)
 
-Fuentes registradas: 106
+Fuentes registradas: 104
 
 ## Caídas (nunca responden): sustituir o buscar la URL nueva
 - Andalucía.org – agenda de Cádiz (Junta de Andalucía)
-- Bibliotecas municipales / Biblioteca Provincial
 - En buena edad – agenda del Ayuntamiento
-- Hoy Cádiz
-- Museo de Cádiz
-- VivaCádiz
+- Universidad de Cádiz – eventos
 
 ## Responden pero no aportan candidatos: revisar parser o enlace
 - Agenda Cádiz (agendacadiz.com)
-- Ateneo de Cádiz – programa
-- Ayuntamiento de Cádiz – Programación cultural (Teatros de Cádiz)
 - Baluarte de la Candelaria
 - Castillo de Santa Catalina
-- Cádiz CF – partidos en casa
 - Cádiz Cultura
 - Cádiz Ilustrada – conferencias
 - Cádiz en Danza
@@ -37,20 +31,19 @@ Fuentes registradas: 106
 - Teatro del Títere La Tía Norica
 - UCA – feed de noticias y eventos
 - Universidad de Cádiz – Extensión universitaria
-- Universidad de Cádiz – eventos
 - Viral Agenda – Cádiz
 
 ## Las que más aportan
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 3039 candidatos
-- Onda Cádiz – Agenda de eventos: 2139 candidatos
-- Guía de Cádiz – Agenda: 1516 candidatos
-- Sala Central Lechera: 1200 candidatos
-- Gran Teatro Falla: 1104 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 407 candidatos
-- Eventbrite – Cádiz: 329 candidatos
-- Casa de Iberoamérica: 193 candidatos
-- Meetup – grupos de Cádiz: 114 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 91 candidatos
+- Onda Cádiz – Agenda de eventos: 1955 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 1704 candidatos
+- Guía de Cádiz – Agenda: 1066 candidatos
+- Sala Central Lechera: 775 candidatos
+- Gran Teatro Falla: 713 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 237 candidatos
+- Casa de Iberoamérica: 170 candidatos
+- Eventbrite – Cádiz: 161 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 135 candidatos
+- Meetup – grupos de Cádiz: 87 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
 - (aún sin datos: el agente debe rellenar descubiertos_web cada día)
