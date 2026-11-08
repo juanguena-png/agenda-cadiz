@@ -196,5 +196,94 @@
         }
       ]
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "falla-escritores-0911",
+      "nombre": "«Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa",
+      "categoria": "otros",
+      "fecha": "2026-11-09",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Biblioteca Provincial de Cádiz",
+      "direccion": "Avenida Cuatro de Diciembre de 1977, 16, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Encuentro del Centro Andaluz de las Letras por el 150 aniversario del nacimiento de Manuel de Falla, sobre su relación con la literatura y los escritores de su generación.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {},
+      "importancia": 3,
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-ambito-literario-de-manuel-de-falla-con-jose-ramon-ripoll-y-dacil-gonzalez-mesa"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Biblioteca Pública Provincial de Cádiz, Avda. Cuatro de Diciembre de 1977, 16, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-ambito-literario-de-manuel-de-falla-con-jose-ramon-ripoll-y-dacil-gonzalez-mesa"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "ateneo-atlantis-0911",
+      "nombre": "Conferencia «Atlantis y Cádiz: más que un mito»",
+      "categoria": "otros",
+      "fecha": "2026-11-09",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha, 20, 11001 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Conferencia del doctor Fernando Ruiz Ortega con motivo de su ingreso como nuevo ateneísta, sobre la Atlántida y su vínculo con Cádiz.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {},
+      "importancia": 2,
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Ateneo de Cádiz, Calle Ancha 20, 1.º, 11001 Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "club-lectura-tato-0911",
+      "nombre": "Club de lectura de teatro: «Todos hieren y una mata»",
+      "categoria": "otros",
+      "fecha": "2026-11-09",
+      "hora_inicio": "18:30",
+      "hora_fin": "20:00",
+      "todo_el_dia": false,
+      "lugar": "Biblioteca Provincial de Cádiz",
+      "direccion": "Avenida Cuatro de Diciembre de 1977, 16, Cádiz",
+      "precio": "Solo miembros del club",
+      "publico": "Adultos",
+      "descripcion": "Sesión del club de lectura de textos dramáticos dedicada a la comedia en verso de Álvaro Tato, con viajes en el tiempo y enredos de honor. Aforo reservado a los miembros del club.",
+      "info": "Acceso restringido: aforo reservado a miembros del club",
+      "imagen": {},
+      "importancia": 1,
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/todos-hieren-y-una-mata-de-alvaro-tato-0"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Biblioteca Pública Provincial de Cádiz, Avenida Cuatro de Diciembre de 1977, nº 16, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/todos-hieren-y-una-mata-de-alvaro-tato-0"
+      },
+      "etiquetas_ig": []
+    }
   ]
 }

@@ -77,5 +77,15 @@
       "alt_text": "Imagen de Cádiz Guitar Festival · María Esther Guzmán"
     }
   ],
-  "noche": []
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "club-lectura-tato-0911",
+        "ateneo-atlantis-0911",
+        "falla-escritores-0911"
+      ],
+      "alt_text": "Mañana en Cádiz: Club de lectura de teatro: «Todos hieren y una mata»; Conferencia «Atlantis y Cádiz: más que un mito»; «Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa"
+    }
+  ]
 }
