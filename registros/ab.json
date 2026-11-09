@@ -2,20 +2,46 @@
   "experimentos": {
     "frase": {
       "A": {
-        "n": 6,
-        "alcance": 39.3,
-        "seguidores": 0,
+        "n": 8,
+        "alcance": 57,
+        "seguidores": 0.38,
         "guardados": 0
       },
       "B": {
-        "n": 7,
-        "alcance": 74.7,
-        "seguidores": 1.57,
-        "guardados": 0.14
+        "n": 9,
+        "alcance": 77.2,
+        "seguidores": 1.44,
+        "guardados": 0.11
       }
     },
-    "cta": {},
-    "hashtags": {}
+    "cta": {
+      "B": {
+        "n": 2,
+        "alcance": 64,
+        "seguidores": 0,
+        "guardados": 0
+      },
+      "A": {
+        "n": 2,
+        "alcance": 104.5,
+        "seguidores": 1.5,
+        "guardados": 0
+      }
+    },
+    "hashtags": {
+      "8": {
+        "n": 2,
+        "alcance": 64,
+        "seguidores": 0,
+        "guardados": 0
+      },
+      "5": {
+        "n": 2,
+        "alcance": 104.5,
+        "seguidores": 1.5,
+        "guardados": 0
+      }
+    }
   },
   "fijados": {}
 }

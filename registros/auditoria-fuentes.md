@@ -20,7 +20,6 @@ Fuentes registradas: 104
 - Entradium (Cádiz)
 - Festival Internacional del Títere de Cádiz
 - Festival Patrimonio Flamenco
-- IFEF Cádiz – Los Martes del Empleo y talleres
 - La Ganzúa – conciertos en Cádiz
 - La Voz de Cádiz
 - La Voz del Sur – RSS
@@ -34,15 +33,15 @@ Fuentes registradas: 104
 - Viral Agenda – Cádiz
 
 ## Las que más aportan
-- Onda Cádiz – Agenda de eventos: 1955 candidatos
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 1704 candidatos
-- Guía de Cádiz – Agenda: 1066 candidatos
+- Onda Cádiz – Agenda de eventos: 1956 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 1705 candidatos
+- Guía de Cádiz – Agenda: 1034 candidatos
 - Sala Central Lechera: 775 candidatos
 - Gran Teatro Falla: 713 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 237 candidatos
-- Casa de Iberoamérica: 170 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 222 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 180 candidatos
+- Casa de Iberoamérica: 168 candidatos
 - Eventbrite – Cádiz: 161 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 135 candidatos
 - Meetup – grupos de Cádiz: 87 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
