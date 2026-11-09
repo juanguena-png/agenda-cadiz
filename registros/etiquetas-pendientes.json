@@ -1,68 +1,110 @@
 {
- "Susanna Souvalkama": {
-  "rol": "artista",
-  "evento": "Taller «Cerámica. Del barro a la pieza» (Aula Abierta)",
-  "fecha": "2026-11-07",
-  "instagram_probado": null
- },
- "Sociedad Municipal Cádiz 2012": {
-  "rol": "organizador",
-  "evento": "Gaditanoir: jornada de clausura",
-  "fecha": "2026-11-08",
-  "instagram_probado": null
- },
- "Óscar Lobato": {
-  "rol": "artista",
-  "evento": "Gaditanoir, Festival de Novela Negra",
-  "fecha": "2026-11-07",
-  "instagram_probado": null
- },
- "Estadio Nuevo Mirandilla": {
-  "rol": "lugar",
-  "evento": "Cádiz CF – Real Oviedo",
-  "fecha": "2026-11-07",
-  "instagram_probado": null
- },
- "Diexo": {
-  "rol": "artista",
-  "evento": "Diexo · Presentación del disco «Sin plan B»",
-  "fecha": "2026-11-07",
-  "instagram_probado": null
- },
- "Nando Perfumo": {
-  "rol": "artista",
-  "evento": "Diexo · Presentación del disco «Sin plan B»",
-  "fecha": "2026-11-07",
-  "instagram_probado": null
- },
- "Casino Gaditano": {
-  "rol": "lugar",
-  "evento": "Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA",
-  "fecha": "2026-11-07",
-  "instagram_probado": null
- },
- "Leo Jiménez": {
-  "rol": "artista",
-  "evento": "Gaditanoir: jornada de clausura",
-  "fecha": "2026-11-08",
-  "instagram_probado": null
- },
- "Manuel García Requejo": {
-  "rol": "artista",
-  "evento": "Gaditanoir: jornada de clausura",
-  "fecha": "2026-11-08",
-  "instagram_probado": null
- },
- "Espacio Fernando Quiñones (La Caleta)": {
-  "rol": "lugar",
-  "evento": "Cádiz Guitar Festival · María Esther Guzmán",
-  "fecha": "2026-11-08",
-  "instagram_probado": null
- },
- "María Esther Guzmán": {
-  "rol": "artista",
-  "evento": "Cádiz Guitar Festival · María Esther Guzmán",
-  "fecha": "2026-11-08",
-  "instagram_probado": null
- }
+  "Susanna Souvalkama": {
+    "rol": "artista",
+    "evento": "Taller «Cerámica. Del barro a la pieza» (Aula Abierta)",
+    "fecha": "2026-11-07",
+    "instagram_probado": null
+  },
+  "Sociedad Municipal Cádiz 2012": {
+    "rol": "organizador",
+    "evento": "Gaditanoir: jornada de clausura",
+    "fecha": "2026-11-08",
+    "instagram_probado": null
+  },
+  "Óscar Lobato": {
+    "rol": "artista",
+    "evento": "Gaditanoir, Festival de Novela Negra",
+    "fecha": "2026-11-07",
+    "instagram_probado": null
+  },
+  "Estadio Nuevo Mirandilla": {
+    "rol": "lugar",
+    "evento": "Cádiz CF – Real Oviedo",
+    "fecha": "2026-11-07",
+    "instagram_probado": null
+  },
+  "Diexo": {
+    "rol": "artista",
+    "evento": "Diexo · Presentación del disco «Sin plan B»",
+    "fecha": "2026-11-07",
+    "instagram_probado": null
+  },
+  "Nando Perfumo": {
+    "rol": "artista",
+    "evento": "Diexo · Presentación del disco «Sin plan B»",
+    "fecha": "2026-11-07",
+    "instagram_probado": null
+  },
+  "Casino Gaditano": {
+    "rol": "lugar",
+    "evento": "Cádiz Guitar Festival · Alejandro Hurtado & Quartett HANA",
+    "fecha": "2026-11-07",
+    "instagram_probado": null
+  },
+  "Leo Jiménez": {
+    "rol": "artista",
+    "evento": "Gaditanoir: jornada de clausura",
+    "fecha": "2026-11-08",
+    "instagram_probado": null
+  },
+  "Manuel García Requejo": {
+    "rol": "artista",
+    "evento": "Gaditanoir: jornada de clausura",
+    "fecha": "2026-11-08",
+    "instagram_probado": null
+  },
+  "Espacio Fernando Quiñones (La Caleta)": {
+    "rol": "lugar",
+    "evento": "Cádiz Guitar Festival · María Esther Guzmán",
+    "fecha": "2026-11-08",
+    "instagram_probado": null
+  },
+  "María Esther Guzmán": {
+    "rol": "artista",
+    "evento": "Cádiz Guitar Festival · María Esther Guzmán",
+    "fecha": "2026-11-08",
+    "instagram_probado": null
+  },
+  "Biblioteca Provincial de Cádiz": {
+    "rol": "lugar",
+    "evento": "«Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa",
+    "fecha": "2026-11-09",
+    "instagram_probado": null
+  },
+  "José Ramón Ripoll": {
+    "rol": "artista",
+    "evento": "«Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa",
+    "fecha": "2026-11-09",
+    "instagram_probado": null
+  },
+  "Dácil González Mesa": {
+    "rol": "artista",
+    "evento": "«Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa",
+    "fecha": "2026-11-09",
+    "instagram_probado": null
+  },
+  "Junta de Andalucía": {
+    "rol": "institucion",
+    "evento": "«Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa",
+    "fecha": "2026-11-09",
+    "instagram_probado": null
+  },
+  "Fernando Ruiz Ortega": {
+    "rol": "artista",
+    "evento": "Conferencia «Atlantis y Cádiz: más que un mito»",
+    "fecha": "2026-11-09",
+    "instagram_probado": null
+  },
+  "Francisco José Súnico Varela": {
+    "rol": "artista",
+    "evento": "Conferencia «Atlantis y Cádiz: más que un mito»",
+    "fecha": "2026-11-09",
+    "instagram_probado": null
+  },
+  "Guillermo Pérez Villalta": {
+    "rol": "artista",
+    "evento": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+    "fecha": "2026-11-09",
+    "instagram_probado": null
+  }
 }

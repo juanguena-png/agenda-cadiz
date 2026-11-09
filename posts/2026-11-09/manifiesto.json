@@ -1,0 +1,72 @@
+{
+  "variante": "B",
+  "paleta": 3,
+  "experimentos": {
+    "frase": "B",
+    "cta": "A",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundunicaja",
+        "ateneocadiz",
+        "centroandaluzdelasletras"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, lunes 9 de noviembre. 3 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "perez-villalta-expo"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-atlantis-0911"
+      ],
+      "etiquetas": [
+        "ateneocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Conferencia «Atlantis y Cádiz: más que un mito» (19:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "falla-escritores-0911"
+      ],
+      "etiquetas": [
+        "centroandaluzdelasletras"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: «Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa (19:00, Biblioteca Provincial de Cádiz)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "perez-villalta-expo",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "02.png",
+      "id": "ateneo-atlantis-0911",
+      "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial"
+    },
+    {
+      "archivo": "03.png",
+      "id": "falla-escritores-0911",
+      "alt_text": "Fotografía de Manuel de Falla"
+    }
+  ],
+  "noche": []
+}

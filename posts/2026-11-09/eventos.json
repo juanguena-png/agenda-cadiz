@@ -1,0 +1,186 @@
+{
+  "fecha": "2026-11-09",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "falla-escritores-0911",
+      "nombre": "«Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa",
+      "categoria": "otros",
+      "fecha": "2026-11-09",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Biblioteca Provincial de Cádiz",
+      "direccion": "Avenida Cuatro de Diciembre de 1977, 16, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Encuentro por el 150 aniversario del nacimiento de Manuel de Falla sobre su relación con la literatura, sus amistades con María Lejárraga y Lorca y su biblioteca personal.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/falla-escritores.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-11/Manuel_de_Falla.jpg.webp",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Fotografía de Manuel de Falla",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-ambito-literario-de-manuel-de-falla-con-jose-ramon-ripoll-y-dacil-gonzalez-mesa"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Biblioteca Pública Provincial de Cádiz, Av. Cuatro de Diciembre de 1977, 16, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-ambito-literario-de-manuel-de-falla-con-jose-ramon-ripoll-y-dacil-gonzalez-mesa"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Biblioteca Provincial de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-09"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Centro Andaluz de las Letras",
+          "instagram": "centroandaluzdelasletras"
+        },
+        {
+          "rol": "artista",
+          "nombre": "José Ramón Ripoll",
+          "instagram": null,
+          "buscado": "2026-11-09"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Dácil González Mesa",
+          "instagram": null,
+          "buscado": "2026-11-09"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Junta de Andalucía",
+          "instagram": null,
+          "buscado": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "ateneo-atlantis-0911",
+      "nombre": "Conferencia «Atlantis y Cádiz: más que un mito»",
+      "categoria": "otros",
+      "fecha": "2026-11-09",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha 20, 1.º, 11001 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "El doctor Fernando Ruiz Ortega ingresa como nuevo ateneísta con una conferencia sobre la Atlántida y su vínculo con Cádiz, presentada por Francisco José Súnico Varela.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/ateneo-tertulia-infancia.jpg",
+        "url_origen": "https://ateneocadiz.es/wp-content/uploads/2024/10/P1010164-1024x768-1.jpg",
+        "fuente": "Ateneo de Cádiz",
+        "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "La sede del Ateneo, calle Ancha 20, 1.º, Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Fernando Ruiz Ortega",
+          "instagram": null,
+          "buscado": "2026-11-09"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Francisco José Súnico Varela",
+          "instagram": null,
+          "buscado": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "perez-villalta-expo",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-09",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Más de cincuenta obras (pinturas, esculturas, dibujos, mobiliario y joyas) del artista tarifeño que renovó la figuración española desde los años setenta. Hasta el 21 de febrero.",
+      "info": "Horario de lunes: 10:00–14:00 y 16:00–19:00",
+      "imagen": {
+        "archivo": "img/perez-villalta.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Guillermo Pérez Villalta",
+          "instagram": null,
+          "buscado": "2026-11-09"
+        }
+      ],
+      "etiqueta": "Siempre abierto",
+      "fecha_txt": "Hasta el 21 feb"
+    }
+  ]
+}
