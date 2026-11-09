@@ -68,5 +68,15 @@
       "alt_text": "Fotografía de Manuel de Falla"
     }
   ],
-  "noche": []
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "martes-empleo-1110",
+        "ateneo-valle-olvido-1110",
+        "la-lupi-1110"
+      ],
+      "alt_text": "Mañana en Cádiz: Los Martes del Empleo: qué encontrarás en la feria Espacio Empleo Cádiz; Presentación del libro de poesía «El valle del olvido»; La Lupi · «Lo inédito»"
+    }
+  ]
 }

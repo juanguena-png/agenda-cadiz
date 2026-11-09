@@ -182,5 +182,102 @@
       "etiqueta": "Siempre abierto",
       "fecha_txt": "Hasta el 21 feb"
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "la-lupi-1110",
+      "nombre": "La Lupi · «Lo inédito»",
+      "categoria": "música",
+      "fecha": "2026-11-10",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "6–18 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Espectáculo de flamenco de La Lupi en el Gran Teatro Falla, con el título «Lo inédito».",
+      "info": "Entradas en taquilla y en Bacantix",
+      "imagen": {},
+      "importancia": 3,
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/la-lupi-lo-in%C3%A9dito"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla (agenda oficial del Ayuntamiento de Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/la-lupi-lo-in%C3%A9dito"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "ateneo-valle-olvido-1110",
+      "nombre": "Presentación del libro de poesía «El valle del olvido»",
+      "categoria": "otros",
+      "fecha": "2026-11-10",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha, 20, 11001 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Regla Hidalgo presenta su libro de poesía, con una intervención musical de flauta travesera a cargo de Miguel Ángel Rosique.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {},
+      "importancia": 2,
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Ateneo de Cádiz, Calle Ancha 20, 1.ª planta, Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "martes-empleo-1110",
+      "nombre": "Los Martes del Empleo: qué encontrarás en la feria Espacio Empleo Cádiz",
+      "categoria": "otros",
+      "fecha": "2026-11-10",
+      "hora_inicio": "11:00",
+      "hora_fin": "12:30",
+      "todo_el_dia": false,
+      "lugar": "Depósitos de Tabaco",
+      "direccion": "Avenida Marconi, 34, Cádiz",
+      "precio": "Consultar",
+      "publico": "Adultos",
+      "descripcion": "Taller del IFEF que presenta la feria Espacio Empleo Cádiz, que se celebra los días 17 y 18 de noviembre.",
+      "info": "Inscripción previa en el formulario del IFEF",
+      "imagen": {},
+      "importancia": 1,
+      "fuentes": [
+        {
+          "nombre": "IFEF – Los Martes del Empleo",
+          "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Depósitos de Tabaco de Cádiz, Avenida Marconi, 34, Cádiz",
+        "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+      },
+      "etiquetas_ig": [],
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "mar"
+      }
+    }
   ]
 }
