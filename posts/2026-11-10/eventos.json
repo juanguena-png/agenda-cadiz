@@ -17,15 +17,14 @@
       "descripcion": "Presentación del taller del IFEF sobre qué encontrarás en la feria Espacio Empleo Cádiz, que se celebra el 17 y 18 de noviembre en los mismos Depósitos de Tabaco.",
       "info": "Inscripción previa en el formulario del IFEF",
       "imagen": {
-        "archivo": "img/ifef-martes-empleo.jpg",
-        "url_origen": "https://www.ifef.es/es/images/emprendimiento/minibanner_premio_emprendimiento_2025.jpg",
-        "fuente": "www.ifef.es",
-        "pagina": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo",
-        "ancho": 300,
-        "alto": 114,
-        "alt_text": "Imagen de Los Martes del Empleo: la feria Espacio Empleo Cádiz",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
+        "archivo": "posts/2026-11-10/img/ifef-martes-empleo-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Los Martes del Empleo: la feria Espacio Empleo Cádiz»: composición con libro, marco en azul mar, blanco y amarillo"
       },
       "fuentes": [
         {
@@ -62,7 +61,15 @@
           "instagram": null,
           "buscado": "2026-11-10"
         }
-      ]
+      ],
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "sol"
+      }
     },
     {
       "id": "ateneo-valle-olvido-1110",
