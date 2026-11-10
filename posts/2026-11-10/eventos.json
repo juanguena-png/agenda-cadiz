@@ -1,0 +1,199 @@
+{
+  "fecha": "2026-11-10",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "ifef-martes-empleo",
+      "nombre": "Los Martes del Empleo: la feria Espacio Empleo Cádiz",
+      "categoria": "otros",
+      "fecha": "2026-11-10",
+      "hora_inicio": "11:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Antiguos Depósitos de Tabaco",
+      "direccion": "Avenida Marconi 34, Cádiz",
+      "precio": "Gratis (inscripción previa)",
+      "publico": "Profesional",
+      "descripcion": "Presentación del taller del IFEF sobre qué encontrarás en la feria Espacio Empleo Cádiz, que se celebra el 17 y 18 de noviembre en los mismos Depósitos de Tabaco.",
+      "info": "Inscripción previa en el formulario del IFEF",
+      "imagen": {
+        "archivo": "img/ifef-martes-empleo.jpg",
+        "url_origen": "https://www.ifef.es/es/images/emprendimiento/minibanner_premio_emprendimiento_2025.jpg",
+        "fuente": "www.ifef.es",
+        "pagina": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo",
+        "ancho": 300,
+        "alto": 114,
+        "alt_text": "Imagen de Los Martes del Empleo: la feria Espacio Empleo Cádiz",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "IFEF Cádiz",
+          "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Antiguos Depósitos de Tabaco, Avenida Marconi 34, Cádiz",
+        "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Antiguos Depósitos de Tabaco",
+          "instagram": null,
+          "buscado": "2026-11-10"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "IFEF Cádiz",
+          "instagram": "ifef_cadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Juan Manuel Alcedo Fernández",
+          "instagram": null,
+          "buscado": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ateneo-valle-olvido-1110",
+      "nombre": "Presentación del libro de poesía «El valle del olvido»",
+      "categoria": "otros",
+      "fecha": "2026-11-10",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha 20, 1.º, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "La poeta y gestora cultural Regla Hidalgo presenta su poemario, presentado por Ramón Luque Sánchez y con una intervención de flauta travesera de Miguel Ángel Rosique.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/ateneo-tertulia-infancia.jpg",
+        "url_origen": "https://ateneocadiz.es/wp-content/uploads/2024/10/P1010164-1024x768-1.jpg",
+        "fuente": "Ateneo de Cádiz",
+        "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "La sede del Ateneo, calle Ancha 20, 1.º, Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Regla Hidalgo",
+          "instagram": null,
+          "buscado": "2026-11-10"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Miguel Ángel Rosique",
+          "instagram": null,
+          "buscado": "2026-11-10"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ramón Luque Sánchez",
+          "instagram": null,
+          "buscado": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "la-lupi-1110",
+      "nombre": "La Lupi · «Lo inédito»",
+      "categoria": "teatro",
+      "fecha": "2026-11-10",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "6–18 €",
+      "publico": "Todos los públicos",
+      "descripcion": "La bailaora La Lupi propone un ritual de baile y emoción, casi una catarsis colectiva, con dirección escénica de Alberto Velasco.",
+      "info": "Entradas en bacantix.com y taquilla del Falla",
+      "imagen": {
+        "archivo": "img/evento-la-lupi-lo-in-c3-a9dito.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-08/la-lupi-paco-lobato.png",
+        "fuente": "Ayuntamiento de Cádiz",
+        "pagina": "https://institucional.cadiz.es/evento/la-lupi-lo-in%C3%A9dito",
+        "ancho": 800,
+        "alto": 1200,
+        "alt_text": "Cartel oficial del espectáculo La Lupi: Lo inédito",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/la-lupi-lo-in%C3%A9dito"
+        },
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/la-lupi-presenta-lo-inedito"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla (agenda oficial del Ayuntamiento de Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/la-lupi-lo-in%C3%A9dito"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "La Lupi",
+          "instagram": null,
+          "buscado": "2026-11-10"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Alberto Velasco",
+          "instagram": null,
+          "buscado": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

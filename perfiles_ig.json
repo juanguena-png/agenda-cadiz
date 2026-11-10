@@ -250,13 +250,10 @@
       ]
     },
     "ifef_cadiz": {
-      "nombre": "Instituto de Fomento, Empleo y Formación (IFEF)",
+      "nombre": "IFEF Cádiz",
       "claves": [
-        "\\bifef\\b",
-        "instituto de fomento",
-        "martes del empleo",
-        "depositos de tabaco",
-        "antiguos depositos"
+        "ifef",
+        "instituto de fomento"
       ]
     },
     "camaracadiz": {

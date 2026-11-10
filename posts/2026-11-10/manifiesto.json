@@ -1,0 +1,83 @@
+{
+  "variante": "A",
+  "paleta": 5,
+  "experimentos": {
+    "frase": "A",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ifef_cadiz",
+        "ayuntamientocadiz",
+        "ateneocadiz",
+        "teatrofalla"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, martes 10 de noviembre. 3 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "ifef-martes-empleo"
+      ],
+      "etiquetas": [
+        "ifef_cadiz",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Los Martes del Empleo: la feria Espacio Empleo Cádiz (11:00, Antiguos Depósitos de Tabaco)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-valle-olvido-1110"
+      ],
+      "etiquetas": [
+        "ateneocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación del libro de poesía «El valle del olvido» (19:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "la-lupi-1110"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: La Lupi · «Lo inédito» (20:00, Gran Teatro Falla)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "ifef-martes-empleo",
+      "alt_text": "Imagen de Los Martes del Empleo: la feria Espacio Empleo Cádiz"
+    },
+    {
+      "archivo": "02.png",
+      "id": "ateneo-valle-olvido-1110",
+      "alt_text": "Salón de actos del Ateneo de Cádiz con las sillas dispuestas frente a la mesa presidencial"
+    },
+    {
+      "archivo": "03.png",
+      "id": "la-lupi-1110",
+      "alt_text": "Cartel oficial del espectáculo La Lupi: Lo inédito"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "la-lupi-1110"
+      ],
+      "alt_text": "Esta noche en Cádiz: La Lupi · «Lo inédito»"
+    }
+  ]
+}

@@ -106,5 +106,47 @@
     "evento": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
     "fecha": "2026-11-09",
     "instagram_probado": null
+  },
+  "Antiguos Depósitos de Tabaco": {
+    "rol": "lugar",
+    "evento": "Los Martes del Empleo: la feria Espacio Empleo Cádiz",
+    "fecha": "2026-11-10",
+    "instagram_probado": null
+  },
+  "Juan Manuel Alcedo Fernández": {
+    "rol": "artista",
+    "evento": "Los Martes del Empleo: la feria Espacio Empleo Cádiz",
+    "fecha": "2026-11-10",
+    "instagram_probado": null
+  },
+  "Regla Hidalgo": {
+    "rol": "artista",
+    "evento": "Presentación del libro de poesía «El valle del olvido»",
+    "fecha": "2026-11-10",
+    "instagram_probado": null
+  },
+  "Miguel Ángel Rosique": {
+    "rol": "artista",
+    "evento": "Presentación del libro de poesía «El valle del olvido»",
+    "fecha": "2026-11-10",
+    "instagram_probado": null
+  },
+  "Ramón Luque Sánchez": {
+    "rol": "artista",
+    "evento": "Presentación del libro de poesía «El valle del olvido»",
+    "fecha": "2026-11-10",
+    "instagram_probado": null
+  },
+  "La Lupi": {
+    "rol": "artista",
+    "evento": "La Lupi · «Lo inédito»",
+    "fecha": "2026-11-10",
+    "instagram_probado": null
+  },
+  "Alberto Velasco": {
+    "rol": "artista",
+    "evento": "La Lupi · «Lo inédito»",
+    "fecha": "2026-11-10",
+    "instagram_probado": null
   }
 }
