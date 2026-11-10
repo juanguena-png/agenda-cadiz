@@ -202,5 +202,96 @@
         }
       ]
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "locos-azotea-1111",
+      "nombre": "Pódcast «Locos de la azotea» con Manolo Morera",
+      "categoria": "otros",
+      "fecha": "2026-11-11",
+      "hora_inicio": "19:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "publico": "Adultos",
+      "descripcion": "Manolo Morera repasa la actualidad con humor y colaboradores invitados, en directo desde la Casa Pemán. La recaudación de las entradas va a dos entidades benéficas gaditanas.",
+      "info": "Apertura de puertas a las 19:00 · entradas en la taquilla de Cádiz y online (fundacioncajasol.com)",
+      "imagen": {},
+      "importancia": 3,
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-10/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-10/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "mil-caras-1111",
+      "nombre": "Exposición «Mil caras», de Ben Reyer",
+      "categoria": "exposición",
+      "fecha": "2026-11-11",
+      "hora_inicio": "09:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Muestra de Ben Reyer en la sede gaditana de la Fundación Cajasol, abierta hasta el 14 de noviembre.",
+      "info": "Abierta de lunes a sábado, de 9:00 a 14:00 y de 16:00 a 20:00",
+      "imagen": {},
+      "importancia": 1,
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/mil-caras-de-ben-reyer"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol, Plaza San Antonio, 14, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/mil-caras-de-ben-reyer"
+      },
+      "etiquetas_ig": [],
+      "etiqueta": "Siempre abierto"
+    },
+    {
+      "id": "manton-1111",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-11-11",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Sala Zitman",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "La ruta del galeón contada con mantones de colección y obras del Museo Cruz Herrera. Hasta el 9 de enero.",
+      "info": "Abierta de lunes a viernes, de 9:00 a 21:00",
+      "imagen": {},
+      "importancia": 0,
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [],
+      "etiqueta": "Siempre abierto"
+    }
   ]
 }
