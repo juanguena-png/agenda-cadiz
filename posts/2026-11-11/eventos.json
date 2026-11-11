@@ -118,5 +118,131 @@
       "etiqueta": "Siempre abierto",
       "fecha_txt": "Hasta el 21 feb"
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "tomasa-1112",
+      "nombre": "Cádiz Canta · Manuel de la Tomasa",
+      "categoria": "música",
+      "fecha": "2026-11-12",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Tercer y último recital del ciclo «Cádiz Canta», con Manuel de la Tomasa en la Casa Pemán.",
+      "info": "Entradas en la taquilla de Cajasol Cádiz y online (fundacioncajasol.com)",
+      "imagen": {},
+      "importancia": 3,
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/manuel-de-la-tomasa/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/manuel-de-la-tomasa/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "merche-1112",
+      "nombre": "Merche · Encuentro exclusivo con Canal Fiesta Radio",
+      "categoria": "música",
+      "fecha": "2026-11-12",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Encuentro de la cantante Merche con el público en la sede gaditana de la Fundación Cajasol, organizado con Canal Fiesta Radio.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {},
+      "importancia": 3,
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/merche-2/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/merche-2/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "memoria-democratica-1112",
+      "nombre": "III Encuentro de Memoria Democrática",
+      "categoria": "otros",
+      "fecha": "2026-11-12",
+      "hora_inicio": "09:45",
+      "hora_fin": "14:30",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica · Patio Central",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "descripcion": "Jornada con tres mesas de debate sobre memoria democrática y cierre musical a cargo de Lucía Sócam.",
+      "info": "Inscripción gratuita, limitada al aforo",
+      "imagen": {},
+      "importancia": 2,
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/328/iii-encuentro-de-memoria-democratica"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, Patio Central, Calle Concepción Arenal s/n, 11006 Cádiz (la ubicación la dice la propia ficha del recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/328/iii-encuentro-de-memoria-democratica"
+      },
+      "etiquetas_ig": [],
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "cal"
+      }
+    },
+    {
+      "id": "ateneo-mineralogia-1112",
+      "nombre": "Tertulia de Farmacia: «La mineralogía en las topografías médicas del siglo XIX»",
+      "categoria": "otros",
+      "fecha": "2026-11-12",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha, 20, 11001 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Tertulia de la sección de Farmacia del Ateneo sobre la mineralogía en las topografías médicas del siglo XIX.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {},
+      "importancia": 1,
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Ateneo de Cádiz, Calle Ancha 20, 1.ª planta, 11001 Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "etiquetas_ig": []
+    }
   ]
 }

@@ -51,5 +51,16 @@
       "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
     }
   ],
-  "noche": []
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "memoria-democratica-1112",
+        "merche-1112",
+        "ateneo-mineralogia-1112",
+        "tomasa-1112"
+      ],
+      "alt_text": "Mañana en Cádiz: III Encuentro de Memoria Democrática; Merche · Encuentro exclusivo con Canal Fiesta Radio; Tertulia de Farmacia: «La mineralogía en las topografías médicas del siglo XIX»; Cádiz Canta · Manuel de la Tomasa"
+    }
+  ]
 }
