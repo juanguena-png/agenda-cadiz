@@ -1,0 +1,33 @@
+{
+  "fecha": "2026-11-11",
+  "yo": {
+    "seguidores": 188,
+    "seguidos": 525
+  },
+  "A": [
+    {
+      "usuario": "manolomorera",
+      "nombre": "Manolo Morera",
+      "seguidores": 100815,
+      "bio": "Cádiz",
+      "origen": "directorio",
+      "publicacion": "https://www.instagram.com/reel/Dfjwpc_qyCs/",
+      "texto_publicacion": "🚿 LA BOMBONA 🧖\n\n📲 www.manolomorera.com\n\n#comedia #humor #entretenimiento #reel",
+      "tipo": "VIDEO",
+      "fecha_publicacion": "2026-11-10"
+    },
+    {
+      "usuario": "vicenteamigo_oficial",
+      "nombre": "Vicente Amigo",
+      "seguidores": 60840,
+      "bio": "Instagram oficial del músico Vicente Amigo",
+      "origen": "directorio",
+      "publicacion": "https://www.instagram.com/p/DfhWySOqO0i/",
+      "texto_publicacion": "Nos vemos este próximo 20 de Noviembre en el Palau de la Música Catalana, en la bella ciudad de Barcelona!\n\n🗓️ 20/11\n\n📍Palau de la Música Catalana, Barcelona \n\n🎫 ENTRADAS a la venta en el siguiente enlace, también disponible en el enlace de mi perfil. \n\nhttps://tickets.oneboxtds.com/jazzbarcelona/select/2911054?viewCode=Vista_Principal\n\nbcnjazzfest theprojectbcn",
+      "tipo": "IMAGE",
+      "fecha_publicacion": "2026-11-09"
+    }
+  ],
+  "B": [],
+  "C": []
+}
