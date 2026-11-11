@@ -1,0 +1,81 @@
+{
+  "variante": "B",
+  "paleta": 6,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundacioncajasol",
+        "fundunicaja",
+        "manolomorera"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, miércoles 11 de noviembre. 3 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "mil-caras-1111"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Mil caras», de Ben Reyer (09:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "perez-villalta-1111"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "locos-azotea-1111"
+      ],
+      "etiquetas": [
+        "fundacioncajasol",
+        "manolomorera"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Pódcast «Locos de la azotea» con Manolo Morera (19:30, Fundación Cajasol (Casa Pemán))"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "mil-caras-1111",
+      "alt_text": "Imagen de la exposición Mil caras, de Ben Reyer, en la Fundación Cajasol"
+    },
+    {
+      "archivo": "02.png",
+      "id": "perez-villalta-1111",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "03.png",
+      "id": "locos-azotea-1111",
+      "alt_text": "Cartel oficial del pódcast Locos de la azotea de la Fundación Cajasol"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "locos-azotea-1111"
+      ],
+      "alt_text": "Esta noche en Cádiz: Pódcast «Locos de la azotea» con Manolo Morera"
+    }
+  ]
+}

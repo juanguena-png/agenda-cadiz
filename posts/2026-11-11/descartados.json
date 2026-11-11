@@ -1,0 +1,22 @@
+[
+ {
+  "id": "ateneo-tertulia-falla",
+  "motivo": "Pospuesta por el Ateneo"
+ },
+ {
+  "id": "cadiz-ilustrada-saint-malo",
+  "motivo": "Espacio Cultural Ancha 16 (centro cultural municipal): programación suspendida desde las 14:00 por la alerta naranja"
+ },
+ {
+  "id": "manton-casa-iberoamerica",
+  "motivo": "Centro cultural municipal: suspende programación desde las 14:00 y horario discrepante"
+ },
+ {
+  "id": "uca",
+  "motivo": "Campus de la UCA cerrados todo el día"
+ },
+ {
+  "id": "varios",
+  "motivo": "Huelga general, concentración, noticias de temporal; Eventbrite online; sin partido en casa"
+ }
+]

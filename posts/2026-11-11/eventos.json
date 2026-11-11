@@ -1,0 +1,174 @@
+{
+  "fecha": "2026-11-11",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "mil-caras-1111",
+      "nombre": "Exposición «Mil caras», de Ben Reyer",
+      "categoria": "exposición",
+      "fecha": "2026-11-11",
+      "hora_inicio": "09:00",
+      "hora_fin": "20:00",
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Muestra del artista Ben Reyer, comisariada por Cecilio Chaves, sobre cómo las imágenes moldean la identidad contemporánea y las creencias colectivas. Hasta el 14 de noviembre.",
+      "info": "Horario: 9:00–14:00 y 16:00–20:00 · con la alerta naranja, confirma antes de ir",
+      "imagen": {
+        "archivo": "img/mil-caras.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-11/images_1.jpg.webp",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Imagen de la exposición Mil caras, de Ben Reyer, en la Fundación Cajasol",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/mil-caras-de-ben-reyer"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol, Plaza San Antonio 14, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/mil-caras-de-ben-reyer"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol (Casa Pemán)",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ben Reyer",
+          "instagram": null,
+          "buscado": "2026-11-11"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Cecilio Chaves",
+          "instagram": null,
+          "buscado": "2026-11-11"
+        }
+      ],
+      "etiqueta": "Siempre abierto",
+      "fecha_txt": "Hasta el 14 nov"
+    },
+    {
+      "id": "perez-villalta-1111",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-11",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Más de cincuenta obras del artista tarifeño que renovó la figuración española desde los años setenta. Hasta el 21 de febrero.",
+      "info": "Horario: 10:00–14:00 y 16:00–19:00 · con la alerta naranja, confirma antes de ir",
+      "imagen": {
+        "archivo": "img/perez-villalta.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Guillermo Pérez Villalta",
+          "instagram": null,
+          "buscado": "2026-11-11"
+        }
+      ],
+      "etiqueta": "Siempre abierto",
+      "fecha_txt": "Hasta el 21 feb"
+    },
+    {
+      "id": "locos-azotea-1111",
+      "nombre": "Pódcast «Locos de la azotea» con Manolo Morera",
+      "categoria": "otros",
+      "fecha": "2026-11-11",
+      "hora_inicio": "19:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "publico": "Adultos",
+      "descripcion": "Manolo Morera y sus colaboradores repasan la actualidad con humor en directo desde la Casa Pemán. La recaudación va a entidades benéficas gaditanas.",
+      "info": "Puertas a las 19:00 · con la alerta naranja, confirma con la sede de Cádiz (956 060 511)",
+      "imagen": {
+        "archivo": "img/locos-azotea-1028.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-DIC-LOCOS-EN-LA-AZOTEA_1080x1080.jpg",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cartel oficial del pódcast Locos de la azotea de la Fundación Cajasol",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/eventos/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/eventos/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol (Casa Pemán)",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Manolo Morera",
+          "instagram": "manolomorera"
+        }
+      ]
+    }
+  ]
+}

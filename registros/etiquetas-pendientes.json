@@ -104,7 +104,7 @@
   "Guillermo Pérez Villalta": {
     "rol": "artista",
     "evento": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
-    "fecha": "2026-11-09",
+    "fecha": "2026-11-11",
     "instagram_probado": null
   },
   "Antiguos Depósitos de Tabaco": {
@@ -147,6 +147,18 @@
     "rol": "artista",
     "evento": "La Lupi · «Lo inédito»",
     "fecha": "2026-11-10",
+    "instagram_probado": null
+  },
+  "Ben Reyer": {
+    "rol": "artista",
+    "evento": "Exposición «Mil caras», de Ben Reyer",
+    "fecha": "2026-11-11",
+    "instagram_probado": null
+  },
+  "Cecilio Chaves": {
+    "rol": "artista",
+    "evento": "Exposición «Mil caras», de Ben Reyer",
+    "fecha": "2026-11-11",
     "instagram_probado": null
   }
 }
