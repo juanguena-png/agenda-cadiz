@@ -117,58 +117,6 @@
       ],
       "etiqueta": "Siempre abierto",
       "fecha_txt": "Hasta el 21 feb"
-    },
-    {
-      "id": "locos-azotea-1111",
-      "nombre": "Pódcast «Locos de la azotea» con Manolo Morera",
-      "categoria": "otros",
-      "fecha": "2026-11-11",
-      "hora_inicio": "19:30",
-      "hora_fin": null,
-      "todo_el_dia": false,
-      "lugar": "Fundación Cajasol (Casa Pemán)",
-      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "Consultar",
-      "publico": "Adultos",
-      "descripcion": "Manolo Morera y sus colaboradores repasan la actualidad con humor en directo desde la Casa Pemán. La recaudación va a entidades benéficas gaditanas.",
-      "info": "Puertas a las 19:00 · con la alerta naranja, confirma con la sede de Cádiz (956 060 511)",
-      "imagen": {
-        "archivo": "img/locos-azotea-1028.jpg",
-        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-DIC-LOCOS-EN-LA-AZOTEA_1080x1080.jpg",
-        "fuente": "Fundación Cajasol",
-        "alt_text": "Cartel oficial del pódcast Locos de la azotea de la Fundación Cajasol",
-        "tipo_imagen": "oficial",
-        "ajuste": "contain"
-      },
-      "fuentes": [
-        {
-          "nombre": "Fundación Cajasol",
-          "url": "https://fundacioncajasol.com/eventos/"
-        }
-      ],
-      "verificacion_cadiz_capital": {
-        "confirmado": true,
-        "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
-        "url": "https://fundacioncajasol.com/eventos/"
-      },
-      "etiquetas_ig": [],
-      "entidades": [
-        {
-          "rol": "lugar",
-          "nombre": "Fundación Cajasol (Casa Pemán)",
-          "instagram": "fundacioncajasol"
-        },
-        {
-          "rol": "organizador",
-          "nombre": "Fundación Cajasol",
-          "instagram": "fundacioncajasol"
-        },
-        {
-          "rol": "artista",
-          "nombre": "Manolo Morera",
-          "instagram": "manolomorera"
-        }
-      ]
     }
   ]
 }

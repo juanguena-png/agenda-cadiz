@@ -62,7 +62,8 @@
     }
   },
   "registro": [
-    "2026-11-11T07:55:37+01:00 diario: render OK (3 eventos, variante B)"
+    "2026-11-11T07:55:37+01:00 diario: render OK (3 eventos, variante B)",
+    "2026-11-11T09:14:11+01:00 diario: render OK (2 eventos, variante B)"
   ],
   "revision_final": {
     "hecha": true,

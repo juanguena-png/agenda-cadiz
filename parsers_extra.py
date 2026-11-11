@@ -216,7 +216,8 @@ def parser_cajasol(fuente, ventana):
         pg.goto("https://fundacioncajasol.com/eventos/", wait_until="networkidle", timeout=45000)
         texto = re.sub(r"\s+", " ", pg.inner_text("body"))
         enlaces = []
-        for h in pg.evaluate("Array.from(document.querySelectorAll(\"a[href*='/evento/']\")).map(a=>a.href)"):
+        pares = pg.evaluate("Array.from(document.querySelectorAll(\"a[href*='/evento/']\")).map(a=>[a.innerText.replace(/\\s+/g,' ').trim(),a.href])")
+        for _, h in pares:
             if h not in enlaces:
                 enlaces.append(h)
     texto = texto.split("FECHA LUGAR TITULO", 1)[-1]
@@ -238,7 +239,8 @@ def parser_cajasol(fuente, ventana):
             f0 = f0.replace(year=anio + 1)
         if f1 < f0:
             f1 = f1.replace(year=f0.year + 1)
-        url = enlaces[i] if len(enlaces) == len(filas) else "https://fundacioncajasol.com/eventos/"
+        # ficha propia de la fila: el texto del enlace coincide con el de la fila (si no, por posición; en último caso, el listado)
+        url = next((h for t, h in pares if t.upper().startswith(f[:45].upper())), None) or (enlaces[i] if len(enlaces) == len(filas) else "https://fundacioncajasol.com/eventos/")
         out += _cand(m["titulo"].strip().capitalize(), f0, f1, (ini, fin), url, hora_inicio=m["h"], categoria_fuente=m["tipo"].lower(), lugar="Fundación Cajasol (Casa Pemán)",
                      direccion="Fundación Cajasol, Plaza de San Antonio, 14, 11003 Cádiz", pista_capital=True,
                      descripcion_fuente=f"{m['tipo'].capitalize()} en la sede de Cádiz de la Fundación Cajasol.")
