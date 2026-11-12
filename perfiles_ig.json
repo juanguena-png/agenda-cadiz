@@ -437,6 +437,19 @@
       "claves": [
         "manolo morera"
       ]
+    },
+    "mercheoficial": {
+      "nombre": "Merche",
+      "claves": [
+        "merche"
+      ]
+    },
+    "canalfiesta": {
+      "nombre": "Canal Fiesta Radio",
+      "claves": [
+        "canal fiesta radio",
+        "canal fiesta"
+      ]
     }
   },
   "descartados": {

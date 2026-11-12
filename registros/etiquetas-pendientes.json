@@ -6,9 +6,9 @@
     "instagram_probado": null
   },
   "Sociedad Municipal Cádiz 2012": {
-    "rol": "organizador",
-    "evento": "Gaditanoir: jornada de clausura",
-    "fecha": "2026-11-08",
+    "rol": "institucion",
+    "evento": "III Encuentro de Memoria Democrática",
+    "fecha": "2026-11-12",
     "instagram_probado": null
   },
   "Óscar Lobato": {
@@ -159,6 +159,12 @@
     "rol": "artista",
     "evento": "Exposición «Mil caras», de Ben Reyer",
     "fecha": "2026-11-11",
+    "instagram_probado": null
+  },
+  "Paloma Ruiz Vega": {
+    "rol": "artista",
+    "evento": "Tertulia de Farmacia: la mineralogía en las topografías médicas del siglo XIX",
+    "fecha": "2026-11-12",
     "instagram_probado": null
   }
 }

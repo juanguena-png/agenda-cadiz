@@ -1,0 +1,244 @@
+{
+  "fecha": "2026-11-12",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "fecha": "2026-11-12",
+      "hora_fin": "14:30",
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "memoria-democratica-1112",
+      "nombre": "III Encuentro de Memoria Democrática",
+      "categoria": "otros",
+      "hora_inicio": "09:45",
+      "lugar": "Casa de Iberoamérica (Patio Central)",
+      "direccion": "Casa de Iberoamérica, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Jornada con tres mesas de debate sobre memoria desde la base, la Casa de todos y las mujeres 'descarriadas', y cierre musical. Inscripción gratuita hasta completar aforo.",
+      "info": "Inscripción gratuita, limitada al aforo",
+      "sin_imagen_oficial": true,
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/328/iii-encuentro-de-memoria-democratica"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Patio Central, Casa de Iberoamérica (Cádiz)",
+        "url": "https://www.casadeiberoamerica.es/agenda/328/iii-encuentro-de-memoria-democratica"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Sociedad Municipal Cádiz 2012",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "cal"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-12/img/memoria-democratica-1112-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «III Encuentro de Memoria Democrática»: composición con libro, marco en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "merche-1112",
+      "nombre": "Merche: encuentro con Canal Fiesta Radio",
+      "categoria": "música",
+      "hora_inicio": "18:00",
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "descripcion": "La artista gaditana repasa su trayectoria, sus próximos proyectos y su visión de la música, y responde a las preguntas del público.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/evento-merche-2.jpg",
+        "url_origen": "https://fundacioncajasol.com/evento/merche-2/",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cartel del encuentro con Merche en la Fundación Cajasol de Cádiz",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/merche-2/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio, 14, 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/merche-2/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Merche",
+          "instagram": "mercheoficial"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Canal Fiesta Radio",
+          "instagram": "canalfiesta"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "ateneo-mineralogia-1112",
+      "nombre": "Tertulia de Farmacia: la mineralogía en las topografías médicas del siglo XIX",
+      "categoria": "otros",
+      "hora_inicio": "19:00",
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha, 20, 11001 Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Tertulia de la Sección de Farmacia del Ateneo, coordinada por Paloma Ruiz Vega, sobre el papel de la mineralogía en los estudios médicos del XIX.",
+      "info": "Entrada libre hasta completar aforo",
+      "sin_imagen_oficial": true,
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede del Ateneo, calle Ancha 20, 1.º, 11001 Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Paloma Ruiz Vega",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "cal"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-12/img/ateneo-mineralogia-1112-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Tertulia de Farmacia: la mineralogía en las topografías médicas del siglo XIX»: composición con libro, marco en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "tomasa-1112",
+      "nombre": "Manuel de la Tomasa · II Cádiz Canta",
+      "categoria": "música",
+      "hora_inicio": "20:00",
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "descripcion": "El joven cantaor, de una familia histórica del flamenco, cierra el ciclo Cádiz Canta con su estilo personal y reposado.",
+      "info": "Entradas en la taquilla de Cajasol Cádiz y online (fundacioncajasol.com)",
+      "imagen": {
+        "archivo": "img/evento-manuel-de-la-tomasa.jpg",
+        "url_origen": "https://fundacioncajasol.com/evento/manuel-de-la-tomasa/",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Imagen del concierto de Manuel de la Tomasa en el ciclo Cádiz Canta",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/manuel-de-la-tomasa/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio, 14, 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/manuel-de-la-tomasa/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Manuel de la Tomasa",
+          "instagram": "manueldelatomasa"
+        }
+      ]
+    }
+  ]
+}

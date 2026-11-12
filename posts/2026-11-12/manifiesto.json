@@ -1,0 +1,104 @@
+{
+  "variante": "A",
+  "paleta": 0,
+  "experimentos": {
+    "frase": "A",
+    "cta": "A",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz",
+        "fundacioncajasol",
+        "mercheoficial",
+        "canalfiesta",
+        "ateneocadiz",
+        "manueldelatomasa"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, jueves 12 de noviembre. 4 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "memoria-democratica-1112"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: III Encuentro de Memoria Democrática (09:45, Casa de Iberoamérica (Patio Central))"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "merche-1112"
+      ],
+      "etiquetas": [
+        "fundacioncajasol",
+        "mercheoficial",
+        "canalfiesta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Merche: encuentro con Canal Fiesta Radio (18:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-mineralogia-1112"
+      ],
+      "etiquetas": [
+        "ateneocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tertulia de Farmacia: la mineralogía en las topografías médicas del siglo XIX (19:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "tomasa-1112"
+      ],
+      "etiquetas": [
+        "fundacioncajasol",
+        "manueldelatomasa"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Manuel de la Tomasa · II Cádiz Canta (20:00, Fundación Cajasol (Casa Pemán))"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "memoria-democratica-1112",
+      "alt_text": "Ilustración de «III Encuentro de Memoria Democrática»: composición con libro, marco en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "merche-1112",
+      "alt_text": "Cartel del encuentro con Merche en la Fundación Cajasol de Cádiz"
+    },
+    {
+      "archivo": "03.png",
+      "id": "ateneo-mineralogia-1112",
+      "alt_text": "Ilustración de «Tertulia de Farmacia: la mineralogía en las topografías médicas del siglo XIX»: composición con libro, marco en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "04.png",
+      "id": "tomasa-1112",
+      "alt_text": "Imagen del concierto de Manuel de la Tomasa en el ciclo Cádiz Canta"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "tomasa-1112"
+      ],
+      "alt_text": "Esta noche en Cádiz: Manuel de la Tomasa · II Cádiz Canta"
+    }
+  ]
+}
