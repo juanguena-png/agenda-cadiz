@@ -1,5 +1,21 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "reel": {
+      "instagram": {
+        "ts": "2026-11-12T09:03:26+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18011098937783304",
+          "https://www.instagram.com/reel/DfolMzONxFY/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-12T09:03:31+01:00",
+        "estado": "publicado",
+        "resultado": "1461138105982327"
+      }
+    }
+  },
   "registro": [
     "2026-11-12T08:00:12+01:00 DESCARTADO 'Flamenco Expuesto: María Moreno': categoría no válida: flamenco",
     "2026-11-12T08:00:44+01:00 finde: render OK (8 eventos, variante A)",
@@ -12,5 +28,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-12T08:09:16+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 9,
+    "total": 100,
+    "ts": "2026-11-12T09:02:30+01:00"
+  },
+  "ultima_ejecucion": "2026-11-12T09:03:31+01:00"
 }
