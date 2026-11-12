@@ -96,9 +96,12 @@
     {
       "archivo": "01.png",
       "ids": [
-        "tomasa-1112"
+        "tomasa-1112",
+        "morera-1113",
+        "osister-1113",
+        "tito-1113"
       ],
-      "alt_text": "Esta noche en Cádiz: Manuel de la Tomasa · II Cádiz Canta"
+      "alt_text": "Esta noche: Manuel de la Tomasa · II Cádiz Canta. Mañana en Cádiz: Manolo Morera · «No me enfado pero me da coraje»; O Sister! · «A otra galaxia»; Tito Ramírez y Los Verdaderos Reales"
     }
   ]
 }

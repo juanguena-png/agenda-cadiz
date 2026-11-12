@@ -240,5 +240,152 @@
         }
       ]
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "morera-1113",
+      "nombre": "Manolo Morera · «No me enfado pero me da coraje»",
+      "categoria": "teatro",
+      "fecha": "2026-11-13",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Palacio de Congresos de Cádiz",
+      "direccion": "Palacio de Congresos y Exposiciones, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "El humorista Manolo Morera llega al Palacio de Congresos con su espectáculo «No me enfado pero me da coraje».",
+      "info": "Consultar horario y entradas en palaciocongresos-cadiz.com",
+      "imagen": {},
+      "importancia": 3,
+      "fuentes": [
+        {
+          "nombre": "Palacio de Congresos de Cádiz",
+          "url": "https://palaciocongresos-cadiz.com/eventos/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Palacio de Congresos y Exposiciones de Cádiz (agenda del propio recinto)",
+        "url": "https://palaciocongresos-cadiz.com/eventos/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "osister-1113",
+      "nombre": "O Sister! · «A otra galaxia»",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "Calle San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "El grupo sevillano O Sister! mezcla swing vocal y jazz con folclore, cine y electrónica en directo, con temas inéditos de su próximo álbum.",
+      "info": "Festival de Cádiz Música Española · entradas en Bacantix",
+      "imagen": {},
+      "importancia": 3,
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/o-sister-otra-galaxia"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/o-sister-otra-galaxia"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "tito-1113",
+      "nombre": "Tito Ramírez y Los Verdaderos Reales",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "22:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Edificio Constitución 1812 (UCA)",
+      "direccion": "Paseo de Carlos III, 3, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de Tito Ramírez y Los Verdaderos Reales dentro del Festival de Cádiz de Música Española.",
+      "info": "Festival de Cádiz Música Española · descuentos en la web del festival",
+      "imagen": {},
+      "importancia": 3,
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta de Andalucía)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/tito-ramirez-y-los-verdaderos-reales-sonido-conquistador"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Edificio Constitución 1812 (Antiguo Aulario La Bomba), Paseo de Carlos III, 3, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/tito-ramirez-y-los-verdaderos-reales-sonido-conquistador"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "juls-1113",
+      "nombre": "Juls Band · Noches en Cajasol",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de Juls Band dentro del ciclo «Noches en Cajasol», en la Casa Pemán.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {},
+      "importancia": 2,
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/juls-band/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/juls-band/"
+      },
+      "etiquetas_ig": []
+    },
+    {
+      "id": "coronas-1113",
+      "nombre": "Paula Coronas · ciclo «Miradas al Sur»",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "19:30",
+      "hora_fin": "21:30",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de Paula Coronas dentro del ciclo «Miradas al Sur».",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {},
+      "importancia": 1,
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/concierto-de-paula-coronas-dentro-del-ciclo-miradas-al-sur/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, C/ San Francisco, 26, Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/concierto-de-paula-coronas-dentro-del-ciclo-miradas-al-sur/"
+      },
+      "etiquetas_ig": []
+    }
   ]
 }

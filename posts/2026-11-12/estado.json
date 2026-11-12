@@ -77,11 +77,13 @@
     }
   },
   "registro": [
-    "2026-11-12T07:56:42+01:00 diario: render OK (4 eventos, variante A)"
+    "2026-11-12T07:56:42+01:00 diario: render OK (4 eventos, variante A)",
+    "2026-11-12T17:25:23+01:00 diario: render OK (4 eventos, variante A)",
+    "2026-11-12T17:26:00+01:00 diario: render OK (4 eventos, variante A)"
   ],
   "revision_final": {
     "hecha": true,
-    "ts": "2026-11-12T07:57:19+01:00"
+    "ts": "2026-11-12T17:26:00+01:00"
   },
   "limite_publicaciones": {
     "uso": 8,
