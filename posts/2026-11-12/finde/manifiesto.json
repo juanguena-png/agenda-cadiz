@@ -1,0 +1,138 @@
+{
+  "variante": "A",
+  "paleta": 0,
+  "experimentos": {
+    "frase": "A",
+    "cta": "A",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundunicaja",
+        "fundacioncajasol",
+        "culturacuenta",
+        "casadeiberoamerica",
+        "jacarasdelzefiro",
+        "ayuntamientocadiz",
+        "teatrofalla",
+        "david.palomar",
+        "univcadiz",
+        "museodecadiz",
+        "kambrassquintet",
+        "cuarteto_fuerte"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Planes del finde, 13 – 15 de noviembre. 9 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "coronas-1113"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Paula Coronas: homenaje a Eduardo Ocón (19:30, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "juls-1113"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Juls Band · Noches en Cajasol (20:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "osister-1113"
+      ],
+      "etiquetas": [
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: O Sister! · A otra galaxia (20:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "jacaras-1114"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "culturacuenta",
+        "jacarasdelzefiro"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Jácaras del Zéfiro · Avecillas (12:00, Casa de Iberoamérica (Patio Central))"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "microclima-1114"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Microclima · música experimental (18:00, Baluarte de la Candelaria)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "requiem-1114"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "david.palomar",
+        "univcadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Réquiem a Manuel de Falla · David Palomar (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "moreno-1115"
+      ],
+      "etiquetas": [
+        "museodecadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Flamenco Expuesto: María Moreno (12:00, Museo de Cádiz)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "kambrass-1115"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "culturacuenta",
+        "kambrassquintet"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: KamBrass Quintet · Transfoliación (12:00, Casa de Iberoamérica (Patio Central))"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "eventos",
+      "ids": [
+        "fuerte-1115"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "cuarteto_fuerte"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cuarteto Fuerte · De lo recreativo y lo fúnebre (19:00, Teatro del Títere La Tía Norica)"
+    }
+  ]
+}

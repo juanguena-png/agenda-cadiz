@@ -1,0 +1,577 @@
+{
+  "fecha": "2026-11-12",
+  "tipo": "finde",
+  "eventos": [
+    {
+      "id": "coronas-1113",
+      "nombre": "Paula Coronas: homenaje a Eduardo Ocón",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "19:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, 11004 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "La pianista malagueña rinde homenaje al compositor Eduardo Ocón en el 125 aniversario de su muerte, con obras suyas y de Falla, Halffter y otros, dentro del ciclo «Miradas al Sur».",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/concierto-de-paula-coronas-dentro-del-ciclo-miradas-al-sur/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, C/ San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/concierto-de-paula-coronas-dentro-del-ciclo-miradas-al-sur/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Paula Coronas",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/coronas-1113.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/11/IMG-20260916-WA0030.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/concierto-de-paula-coronas-dentro-del-ciclo-miradas-al-sur/",
+        "ancho": 1280,
+        "alto": 1280,
+        "alt_text": "Imagen de Paula Coronas: homenaje a Eduardo Ocón",
+        "tipo_imagen": "oficial",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "id": "juls-1113",
+      "nombre": "Juls Band · Noches en Cajasol",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Ciclo de conciertos que da protagonismo al talento joven de la región; esta noche, Juls Band en directo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/juls-band/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol (Plaza San Antonio 14, Cádiz)",
+        "url": "https://fundacioncajasol.com/evento/juls-band/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Juls Band",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/juls-1113.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-NOCHES-EN-CAJASOL-CADIZ_1920x1080.jpg",
+        "fuente": "fundacioncajasol.com",
+        "pagina": "https://fundacioncajasol.com/evento/juls-band/",
+        "ancho": 1600,
+        "alto": 900,
+        "alt_text": "Imagen de Juls Band · Noches en Cajasol",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "osister-1113",
+      "nombre": "O Sister! · A otra galaxia",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Las hermanas de O Sister! llevan su swing vocal «a otra galaxia» en un concierto del Festival de Cádiz Música Española, tras 8 discos y 18 años de trayectoria.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/o-sister-otra-galaxia"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/o-sister-otra-galaxia"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "O Sister!",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/osister-1113.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/aotragalaxia-h-grupo_ok.jpg.webp?itok=OSQEhyg0",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/o-sister-otra-galaxia",
+        "ancho": 960,
+        "alto": 639,
+        "alt_text": "Imagen de O Sister! · A otra galaxia",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "jacaras-1114",
+      "nombre": "Jácaras del Zéfiro · Avecillas",
+      "categoria": "música",
+      "fecha": "2026-11-14",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica (Patio Central)",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Música historicista entre la investigación y el instinto, con el barítono Víctor Cruz al frente, en el Festival de Cádiz.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/325/concierto-de-jacaras-del-zefiro-festival-de-cadiz"
+        },
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/jacaras-del-zefiro-avecillas"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/jacaras-del-zefiro-avecillas"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Jácaras del Zéfiro",
+          "instagram": "jacarasdelzefiro"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Víctor Cruz",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/jacaras-1114.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/11/Jácaras del Zéfiro_Tutti.jpg",
+        "fuente": "www.casadeiberoamerica.es",
+        "pagina": "https://www.casadeiberoamerica.es/agenda/325/concierto-de-jacaras-del-zefiro-festival-de-cadiz",
+        "ancho": 262,
+        "alto": 117,
+        "alt_text": "Imagen de Jácaras del Zéfiro · Avecillas",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "microclima-1114",
+      "nombre": "Microclima · música experimental",
+      "categoria": "música",
+      "fecha": "2026-11-14",
+      "hora_inicio": "18:00",
+      "hora_fin": "22:00",
+      "todo_el_dia": false,
+      "lugar": "Baluarte de la Candelaria",
+      "direccion": "Baluarte de la Candelaria, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Cuarta edición de esta cita de artes sonoras y experimentales con pioneros como Suso Saiz y Juan Manuel Cidrón junto a Dalila, Ëgg y M/V.",
+      "info": "Entrada libre hasta completar aforo · 18:00 a 22:00",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/microclima-juan-manuel-cidron-suso-saiz-dalila-pedro-rojas-egg-mv-maria-vergara-y-javier"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Baluarte de la Candelaria · Cádiz (Junta, municipio Cádiz)",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/microclima-juan-manuel-cidron-suso-saiz-dalila-pedro-rojas-egg-mv-maria-vergara-y-javier"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Baluarte de la Candelaria",
+          "instagram": "baluartede"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Suso Saiz",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Juan Manuel Cidrón",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/microclima-1114.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/dalila-26_alejandra_amere-analog_036.jpg.webp?itok=AWAHBvxX",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/microclima-juan-manuel-cidron-suso-saiz-dalila-pedro-rojas-egg-mv-maria-vergara-y-javier",
+        "ancho": 960,
+        "alto": 1394,
+        "alt_text": "Imagen de Microclima · música experimental",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "requiem-1114",
+      "nombre": "Réquiem a Manuel de Falla · David Palomar",
+      "categoria": "música",
+      "fecha": "2026-11-14",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela, s/n, 11003 Cádiz",
+      "precio": "12–35 €",
+      "publico": "Mayores de 14",
+      "descripcion": "Homenaje a Falla el día del aniversario de su muerte, con el cante de David Palomar, la Orquesta y Coral de la UCA y diseño audiovisual.",
+      "info": "Entradas en la web del Gran Teatro Falla",
+      "fuentes": [
+        {
+          "nombre": "Gran Teatro Falla",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72082"
+        },
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-palomar-requiem-d-manuel-de-falla"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-palomar-requiem-d-manuel-de-falla"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "David Palomar",
+          "instagram": "david.palomar"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Universidad de Cádiz",
+          "instagram": "univcadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/requiem-1114.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/palomar-falla.png.webp?itok=puLIobrS",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-palomar-requiem-d-manuel-de-falla",
+        "ancho": 800,
+        "alto": 800,
+        "alt_text": "Imagen de Réquiem a Manuel de Falla · David Palomar",
+        "tipo_imagen": "oficial",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "id": "moreno-1115",
+      "nombre": "Flamenco Expuesto: María Moreno",
+      "categoria": "música",
+      "fecha": "2026-11-15",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "La bailaora María Moreno ofrece «Cháchara», una conversación en movimiento con cante y palmas, dentro del Día del Flamenco en Andalucía.",
+      "info": "Entrada gratuita hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/dia-del-flamenco-en-andalucia-2026-maria-moreno-en-cadiz"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/dia-del-flamenco-en-andalucia-2026-maria-moreno-en-cadiz"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Museo de Cádiz",
+          "instagram": "museodecadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Instituto Andaluz del Flamenco",
+          "instagram": "institutoandaluzdelflamenco"
+        },
+        {
+          "rol": "artista",
+          "nombre": "María Moreno",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "guitarra",
+          "marco"
+        ],
+        "fondo": "sol"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-12/finde/img/moreno-1115-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Flamenco Expuesto: María Moreno»: composición con marco en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "kambrass-1115",
+      "nombre": "KamBrass Quintet · Transfoliación",
+      "categoria": "música",
+      "fecha": "2026-11-15",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica (Patio Central)",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Un viaje por la Folía, una de las estructuras musicales más antiguas de la música ibérica, convertida en metamorfosis para quinteto de metales.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/326/concierto-de-kambrass-quintet-festival-de-cadiz"
+        },
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/kambrass-quintet-transfoliacion-metamorfosis-de-la-folia"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/kambrass-quintet-transfoliacion-metamorfosis-de-la-folia"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "KamBrass Quintet",
+          "instagram": "kambrassquintet"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/kambrass-1115.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/11/KamBrass7-©MayZircus.jpeg",
+        "fuente": "www.casadeiberoamerica.es",
+        "pagina": "https://www.casadeiberoamerica.es/agenda/326/concierto-de-kambrass-quintet-festival-de-cadiz",
+        "ancho": 262,
+        "alto": 175,
+        "alt_text": "Imagen de KamBrass Quintet · Transfoliación",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "fuerte-1115",
+      "nombre": "Cuarteto Fuerte · De lo recreativo y lo fúnebre",
+      "categoria": "música",
+      "fecha": "2026-11-15",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Cuarteto de enfoque libre y experimental que usa la improvisación para construir una narrativa emocional sin palabras, en el Festival de Cádiz.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cuarteto-fuerte-de-lo-recreativo-y-lo-funebre"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cuarteto-fuerte-de-lo-recreativo-y-lo-funebre"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Cuarteto Fuerte",
+          "instagram": "cuarteto_fuerte"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/fuerte-1115.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/cuarteto_fuerte_20261.jpg.webp?itok=aQZphcOG",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cuarteto-fuerte-de-lo-recreativo-y-lo-funebre",
+        "ancho": 960,
+        "alto": 652,
+        "alt_text": "Imagen de Cuarteto Fuerte · De lo recreativo y lo fúnebre",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    }
+  ]
+}

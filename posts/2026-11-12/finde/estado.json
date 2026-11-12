@@ -1,0 +1,16 @@
+{
+  "publicaciones": {},
+  "registro": [
+    "2026-11-12T08:00:12+01:00 DESCARTADO 'Flamenco Expuesto: María Moreno': categoría no válida: flamenco",
+    "2026-11-12T08:00:44+01:00 finde: render OK (8 eventos, variante A)",
+    "2026-11-12T08:03:32+01:00 DESCARTADO 'Flamenco Expuesto: María Moreno': categoría no válida: flamenco",
+    "2026-11-12T08:03:39+01:00 finde: render OK (8 eventos, variante A)",
+    "2026-11-12T08:06:11+01:00 DESCARTADO 'Flamenco Expuesto: María Moreno': categoría no válida: flamenco",
+    "2026-11-12T08:06:17+01:00 finde: render OK (8 eventos, variante A)",
+    "2026-11-12T08:06:33+01:00 finde: render OK (9 eventos, variante A)"
+  ],
+  "revision_final": {
+    "hecha": true,
+    "ts": "2026-11-12T08:09:16+01:00"
+  }
+}

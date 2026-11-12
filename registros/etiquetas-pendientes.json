@@ -166,5 +166,71 @@
     "evento": "Tertulia de Farmacia: la mineralogía en las topografías médicas del siglo XIX",
     "fecha": "2026-11-12",
     "instagram_probado": null
+  },
+  "Paula Coronas": {
+    "rol": "artista",
+    "evento": "Paula Coronas: homenaje a Eduardo Ocón",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Juls Band": {
+    "rol": "artista",
+    "evento": "Juls Band · Noches en Cajasol",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Teatro del Títere La Tía Norica": {
+    "rol": "lugar",
+    "evento": "Cuarteto Fuerte · De lo recreativo y lo fúnebre",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "O Sister!": {
+    "rol": "artista",
+    "evento": "O Sister! · A otra galaxia",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Festival de Cádiz Música Española": {
+    "rol": "institucion",
+    "evento": "Cuarteto Fuerte · De lo recreativo y lo fúnebre",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Víctor Cruz": {
+    "rol": "artista",
+    "evento": "Jácaras del Zéfiro · Avecillas",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Baluarte de la Candelaria": {
+    "rol": "lugar",
+    "evento": "Microclima · música experimental",
+    "fecha": "finde",
+    "instagram_probado": "baluartede"
+  },
+  "Suso Saiz": {
+    "rol": "artista",
+    "evento": "Microclima · música experimental",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Juan Manuel Cidrón": {
+    "rol": "artista",
+    "evento": "Microclima · música experimental",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Instituto Andaluz del Flamenco": {
+    "rol": "organizador",
+    "evento": "Flamenco Expuesto: María Moreno",
+    "fecha": "finde",
+    "instagram_probado": "institutoandaluzdelflamenco"
+  },
+  "María Moreno": {
+    "rol": "artista",
+    "evento": "Flamenco Expuesto: María Moreno",
+    "fecha": "finde",
+    "instagram_probado": null
   }
 }
