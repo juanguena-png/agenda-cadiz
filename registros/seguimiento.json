@@ -76,22 +76,28 @@
       ]
     },
     "institutocadiz": {
-      "seguir": "2026-11-05"
+      "seguir": "2026-11-05",
+      "revisada": "2026-11-12"
     },
     "federacionpenaflamencacadiz": {
-      "seguir": "2026-11-05"
+      "seguir": "2026-11-05",
+      "revisada": "2026-11-12"
     },
     "academiaclasballet": {
-      "seguir": "2026-11-05"
+      "seguir": "2026-11-05",
+      "revisada": "2026-11-12"
     },
     "adf.ciudad.de.cadiz": {
-      "seguir": "2026-11-05"
+      "seguir": "2026-11-05",
+      "revisada": "2026-11-12"
     },
     "libreriamanueldefalla": {
-      "seguir": "2026-11-05"
+      "seguir": "2026-11-05",
+      "revisada": "2026-11-12"
     },
     "enriquemellizocadiz": {
-      "seguir": "2026-11-05"
+      "seguir": "2026-11-05",
+      "revisada": "2026-11-12"
     },
     "gaditanoir": {
       "interacciones": [
@@ -286,6 +292,26 @@
     "vicenteamigo_oficial": {
       "interacciones": [
         "2026-11-11"
+      ]
+    },
+    "kambrassquintet": {
+      "interacciones": [
+        "2026-11-12"
+      ]
+    },
+    "mercheoficial": {
+      "interacciones": [
+        "2026-11-12"
+      ]
+    },
+    "canalfiesta": {
+      "interacciones": [
+        "2026-11-12"
+      ]
+    },
+    "david.palomar": {
+      "interacciones": [
+        "2026-11-12"
       ]
     }
   }
