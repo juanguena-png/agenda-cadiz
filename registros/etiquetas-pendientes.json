@@ -170,31 +170,31 @@
   "Paula Coronas": {
     "rol": "artista",
     "evento": "Paula Coronas: homenaje a Eduardo Ocón",
-    "fecha": "2026-11-12",
+    "fecha": "2026-11-13",
     "instagram_probado": null
   },
   "Juls Band": {
     "rol": "artista",
     "evento": "Juls Band · Noches en Cajasol",
-    "fecha": "2026-11-12",
+    "fecha": "2026-11-13",
     "instagram_probado": null
   },
   "Teatro del Títere La Tía Norica": {
     "rol": "lugar",
-    "evento": "Cuarteto Fuerte · De lo recreativo y lo fúnebre",
-    "fecha": "2026-11-12",
+    "evento": "O Sister! · A otra galaxia",
+    "fecha": "2026-11-13",
     "instagram_probado": null
   },
   "O Sister!": {
     "rol": "artista",
     "evento": "O Sister! · A otra galaxia",
-    "fecha": "2026-11-12",
+    "fecha": "2026-11-13",
     "instagram_probado": null
   },
   "Festival de Cádiz Música Española": {
     "rol": "institucion",
-    "evento": "Cuarteto Fuerte · De lo recreativo y lo fúnebre",
-    "fecha": "2026-11-12",
+    "evento": "Tito Ramírez y Los Verdaderos Reales · Sonido Conquistador",
+    "fecha": "2026-11-13",
     "instagram_probado": null
   },
   "Víctor Cruz": {
@@ -231,6 +231,30 @@
     "rol": "artista",
     "evento": "Flamenco Expuesto: María Moreno",
     "fecha": "2026-11-12",
+    "instagram_probado": null
+  },
+  "Edificio Constitución 1812": {
+    "rol": "lugar",
+    "evento": "Tito Ramírez y Los Verdaderos Reales · Sonido Conquistador",
+    "fecha": "2026-11-13",
+    "instagram_probado": null
+  },
+  "Tito Ramírez": {
+    "rol": "artista",
+    "evento": "Tito Ramírez y Los Verdaderos Reales · Sonido Conquistador",
+    "fecha": "2026-11-13",
+    "instagram_probado": null
+  },
+  "Nueva Acrópolis Cádiz": {
+    "rol": "organizador",
+    "evento": "Conferencia «Filosofía y Ecología. Por un mundo nuevo y mejor»",
+    "fecha": "2026-11-13",
+    "instagram_probado": null
+  },
+  "David Moreno Massa": {
+    "rol": "artista",
+    "evento": "Conferencia «Filosofía y Ecología. Por un mundo nuevo y mejor»",
+    "fecha": "2026-11-13",
     "instagram_probado": null
   }
 }

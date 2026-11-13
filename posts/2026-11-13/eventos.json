@@ -1,0 +1,432 @@
+{
+  "fecha": "2026-11-13",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "coronas-1113",
+      "nombre": "Paula Coronas: homenaje a Eduardo Ocón",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "19:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, 11004 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "La pianista malagueña rinde homenaje al compositor Eduardo Ocón en el 125 aniversario de su muerte, con obras suyas y de Falla, Halffter y otros, dentro del ciclo «Miradas al Sur».",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/concierto-de-paula-coronas-dentro-del-ciclo-miradas-al-sur/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, C/ San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/concierto-de-paula-coronas-dentro-del-ciclo-miradas-al-sur/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Paula Coronas",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/coronas-1113.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/11/IMG-20260916-WA0030.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/concierto-de-paula-coronas-dentro-del-ciclo-miradas-al-sur/",
+        "ancho": 1280,
+        "alto": 1280,
+        "alt_text": "Imagen de Paula Coronas: homenaje a Eduardo Ocón",
+        "tipo_imagen": "oficial",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "id": "juls-1113",
+      "nombre": "Juls Band · Noches en Cajasol",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Ciclo de conciertos que da protagonismo al talento joven de la región; esta noche, Juls Band en directo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/juls-band/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol (Plaza San Antonio 14, Cádiz)",
+        "url": "https://fundacioncajasol.com/evento/juls-band/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Juls Band",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/juls-1113.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/OCT-NOV-NOCHES-EN-CAJASOL-CADIZ_1920x1080.jpg",
+        "fuente": "fundacioncajasol.com",
+        "pagina": "https://fundacioncajasol.com/evento/juls-band/",
+        "ancho": 1600,
+        "alto": 900,
+        "alt_text": "Imagen de Juls Band · Noches en Cajasol",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "osister-1113",
+      "nombre": "O Sister! · A otra galaxia",
+      "categoria": "música",
+      "fecha": "2026-11-13",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Las hermanas de O Sister! llevan su swing vocal «a otra galaxia» en un concierto del Festival de Cádiz Música Española, tras 8 discos y 18 años de trayectoria.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/o-sister-otra-galaxia"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/o-sister-otra-galaxia"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "O Sister!",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/osister-1113.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/aotragalaxia-h-grupo_ok.jpg.webp?itok=OSQEhyg0",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/o-sister-otra-galaxia",
+        "ancho": 960,
+        "alto": 639,
+        "alt_text": "Imagen de O Sister! · A otra galaxia",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "tito-1113",
+      "nombre": "Tito Ramírez y Los Verdaderos Reales · Sonido Conquistador",
+      "categoria": "música",
+      "hora_inicio": "22:00",
+      "lugar": "Edificio Constitución 1812 (Antiguo Aulario La Bomba)",
+      "direccion": "Paseo de Carlos III, 3, Cádiz",
+      "precio": "10 €",
+      "descripcion": "Mambo, cha cha chá, boogaloo y swing en un directo tropical y bailable, dentro del Festival de Cádiz Música Española.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "imagen": {
+        "archivo": "img/tito-1113.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/tito-ramirez-y-los-verdaderos-reales-sonido-conquistador",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Tito Ramírez y Los Verdaderos Reales, banda de mambo y ritmos tropicales",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/tito-ramirez-y-los-verdaderos-reales-sonido-conquistador"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Edificio Constitución 1812 (Antiguo Aulario La Bomba), Paseo de Carlos III, 3, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/tito-ramirez-y-los-verdaderos-reales-sonido-conquistador"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Edificio Constitución 1812",
+          "instagram": null,
+          "buscado": "2026-11-13"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Universidad de Cádiz",
+          "instagram": "univcadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Tito Ramírez",
+          "instagram": null,
+          "buscado": "2026-11-13"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "acropolis-1113",
+      "nombre": "Conferencia «Filosofía y Ecología. Por un mundo nuevo y mejor»",
+      "categoria": "otros",
+      "hora_inicio": "20:00",
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Gratis",
+      "descripcion": "El ambientólogo David Moreno Massa reflexiona sobre filosofía y ecología en una charla de la escuela dentro de su programa por el Día Mundial de la Filosofía.",
+      "info": "Entrada libre hasta completar aforo",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "bombilla"
+        ],
+        "fondo": "bruma"
+      },
+      "fuentes": [
+        {
+          "nombre": "Nueva Acrópolis Cádiz (Eventbrite)",
+          "url": "https://www.eventbrite.es/e/conferencia-filosofia-y-ecologia-por-un-mundo-nuevo-y-mejor-tickets-2004547380175"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004, Cádiz",
+        "url": "https://www.eventbrite.es/e/conferencia-filosofia-y-ecologia-por-un-mundo-nuevo-y-mejor-tickets-2004547380175"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-13"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-13"
+        },
+        {
+          "rol": "artista",
+          "nombre": "David Moreno Massa",
+          "instagram": null,
+          "buscado": "2026-11-13"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-13/img/acropolis-1113-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "bombilla"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Conferencia «Filosofía y Ecología. Por un mundo nuevo y mejor»»: composición con libro, bombilla en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "morera-1113",
+      "nombre": "Manolo Morera · «No me enfado pero me da coraje»",
+      "categoria": "teatro",
+      "hora_inicio": null,
+      "lugar": "Palacio de Congresos de Cádiz",
+      "direccion": "Palacio de Congresos y Exposiciones de Cádiz",
+      "precio": "Consultar",
+      "descripcion": "El humorista gaditano trae su monólogo «No me enfado pero me da coraje» al Palacio de Congresos.",
+      "info": "Consultar horario · entradas en Giglon",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "micrófono",
+          "máscaras"
+        ],
+        "fondo": "noche"
+      },
+      "fuentes": [
+        {
+          "nombre": "Palacio de Congresos de Cádiz",
+          "url": "https://palaciocongresos-cadiz.com/eventos/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Palacio de Congresos y Exposiciones de Cádiz (agenda del propio recinto)",
+        "url": "https://palaciocongresos-cadiz.com/eventos/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Palacio de Congresos de Cádiz",
+          "instagram": "palaciocongresoscadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Palacio de Congresos de Cádiz",
+          "instagram": "palaciocongresoscadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Manolo Morera",
+          "instagram": "manolomorera"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-13/img/morera-1113-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "micrófono",
+          "máscaras"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Manolo Morera · «No me enfado pero me da coraje»»: composición con micrófono, máscaras en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Profesionales",
+      "etiquetas_ig": [],
+      "id": "abogados-1113",
+      "nombre": "II Jornadas Tecnológicas del Colegio de Abogados de Cádiz",
+      "categoria": "otros",
+      "hora_inicio": null,
+      "lugar": "Palacio de Congresos de Cádiz",
+      "direccion": "Palacio de Congresos y Exposiciones de Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Jornadas del Ilustre Colegio de Abogados de Cádiz sobre tecnología aplicada a la abogacía.",
+      "info": "Inscripción previa · consultar horario en icadiz.org",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "bombilla",
+          "libro"
+        ],
+        "fondo": "mar"
+      },
+      "fuentes": [
+        {
+          "nombre": "Palacio de Congresos de Cádiz",
+          "url": "https://palaciocongresos-cadiz.com/eventos/"
+        },
+        {
+          "nombre": "Colegio de Abogados de Cádiz",
+          "url": "https://icadiz.org/inscripcion-cursos/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Palacio de Congresos y Exposiciones de Cádiz (agenda del propio recinto)",
+        "url": "https://palaciocongresos-cadiz.com/eventos/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Palacio de Congresos de Cádiz",
+          "instagram": "palaciocongresoscadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ilustre Colegio de Abogados de Cádiz",
+          "instagram": "colegioabogadoscadiz"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-13/img/abogados-1113-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "bombilla",
+          "libro"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «II Jornadas Tecnológicas del Colegio de Abogados de Cádiz»: composición con bombilla, libro en azul mar, blanco y amarillo"
+      }
+    }
+  ]
+}

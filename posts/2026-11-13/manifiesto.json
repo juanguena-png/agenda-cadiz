@@ -1,0 +1,162 @@
+{
+  "variante": "B",
+  "paleta": 2,
+  "experimentos": {
+    "frase": "B",
+    "cta": "A",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "colegioabogadoscadiz",
+        "manolomorera",
+        "fundunicaja",
+        "nuevaacropolis.cadiz",
+        "fundacioncajasol",
+        "culturacuenta",
+        "univcadiz"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, viernes 13 de noviembre. 7 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "abogados-1113"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "colegioabogadoscadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: II Jornadas Tecnológicas del Colegio de Abogados de Cádiz (consultar horario, Palacio de Congresos de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "morera-1113"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "manolomorera"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Manolo Morera · «No me enfado pero me da coraje» (consultar horario, Palacio de Congresos de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "coronas-1113"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Paula Coronas: homenaje a Eduardo Ocón (19:30, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "acropolis-1113"
+      ],
+      "etiquetas": [
+        "nuevaacropolis.cadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Conferencia «Filosofía y Ecología. Por un mundo nuevo y mejor» (20:00, Nueva Acrópolis Cádiz)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "juls-1113"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Juls Band · Noches en Cajasol (20:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "osister-1113"
+      ],
+      "etiquetas": [
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: O Sister! · A otra galaxia (20:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "tito-1113"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "univcadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tito Ramírez y Los Verdaderos Reales · Sonido Conquistador (22:00, Edificio Constitución 1812 (Antiguo Aulario La Bomba))"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "abogados-1113",
+      "alt_text": "Ilustración de «II Jornadas Tecnológicas del Colegio de Abogados de Cádiz»: composición con bombilla, libro en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "morera-1113",
+      "alt_text": "Ilustración de «Manolo Morera · «No me enfado pero me da coraje»»: composición con micrófono, máscaras en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "03.png",
+      "id": "coronas-1113",
+      "alt_text": "Imagen de Paula Coronas: homenaje a Eduardo Ocón"
+    },
+    {
+      "archivo": "04.png",
+      "id": "acropolis-1113",
+      "alt_text": "Ilustración de «Conferencia «Filosofía y Ecología. Por un mundo nuevo y mejor»»: composición con libro, bombilla en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "05.png",
+      "id": "juls-1113",
+      "alt_text": "Imagen de Juls Band · Noches en Cajasol"
+    },
+    {
+      "archivo": "06.png",
+      "id": "osister-1113",
+      "alt_text": "Imagen de O Sister! · A otra galaxia"
+    },
+    {
+      "archivo": "07.png",
+      "id": "tito-1113",
+      "alt_text": "Tito Ramírez y Los Verdaderos Reales, banda de mambo y ritmos tropicales"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "coronas-1113",
+        "acropolis-1113",
+        "juls-1113",
+        "osister-1113"
+      ],
+      "alt_text": "Esta noche en Cádiz: Paula Coronas: homenaje a Eduardo Ocón; Conferencia «Filosofía y Ecología. Por un mundo nuevo y mejor»; Juls Band · Noches en Cajasol; O Sister! · A otra galaxia"
+    },
+    {
+      "archivo": "02.png",
+      "ids": [
+        "tito-1113"
+      ],
+      "alt_text": "Esta noche en Cádiz: Tito Ramírez y Los Verdaderos Reales · Sonido Conquistador"
+    }
+  ]
+}
