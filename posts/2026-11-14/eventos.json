@@ -444,5 +444,158 @@
         "alt_text": "Ilustración de «Coloquio «El viaje al autoconocimiento» · «De guerreras y diosas»»: composición con libro, estrella en azul mar, blanco y amarillo"
       }
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "cuartetofuerte-1115",
+      "nombre": "Cuarteto Fuerte · De lo recreativo y lo fúnebre",
+      "categoria": "música",
+      "fecha": "2026-11-15",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Jazz experimental sin palabras en el que la improvisación va construyendo una historia emocional, dentro del Festival de Cádiz Música Española.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cuarteto-fuerte-de-lo-recreativo-y-lo-funebre"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cuarteto-fuerte-de-lo-recreativo-y-lo-funebre"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Cuarteto Fuerte",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "kambrass-1115",
+      "nombre": "KamBrass Quintet · Transfoliación",
+      "categoria": "música",
+      "fecha": "2026-11-15",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica (Patio Central)",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Quinteto de metales que recorre la historia de la folía, de sus orígenes ibéricos a la creación actual, con obras de Falla entre otras. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/kambrass-quintet-transfoliacion-metamorfosis-de-la-folia"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/kambrass-quintet-transfoliacion-metamorfosis-de-la-folia"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "KamBrass Quintet",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "mariamoreno-1115",
+      "nombre": "María Moreno · Cháchara, una conversación en movimiento",
+      "categoria": "flamenco",
+      "fecha": "2026-11-15",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Baile flamenco en diálogo con el arte contemporáneo del museo, dentro de «Flamenco Expuesto» por el Día del Flamenco en Andalucía. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/dia-del-flamenco-en-andalucia-2026-maria-moreno-en-cadiz"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/dia-del-flamenco-en-andalucia-2026-maria-moreno-en-cadiz"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Museo de Cádiz",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Instituto Andaluz del Flamenco",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        },
+        {
+          "rol": "artista",
+          "nombre": "María Moreno",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        }
+      ]
+    }
   ]
 }
