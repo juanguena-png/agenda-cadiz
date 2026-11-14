@@ -1,0 +1,448 @@
+{
+  "fecha": "2026-11-14",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "jacaras-1114",
+      "nombre": "Jácaras del Zéfiro · Avecillas",
+      "categoria": "música",
+      "fecha": "2026-11-14",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica (Patio Central)",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Música historicista entre la investigación y el instinto, con el barítono Víctor Cruz al frente, en el Festival de Cádiz.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/325/concierto-de-jacaras-del-zefiro-festival-de-cadiz"
+        },
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/jacaras-del-zefiro-avecillas"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/jacaras-del-zefiro-avecillas"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Jácaras del Zéfiro",
+          "instagram": "jacarasdelzefiro"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Víctor Cruz",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/jacaras-1114.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/11/Jácaras del Zéfiro_Tutti.jpg",
+        "fuente": "www.casadeiberoamerica.es",
+        "pagina": "https://www.casadeiberoamerica.es/agenda/325/concierto-de-jacaras-del-zefiro-festival-de-cadiz",
+        "ancho": 262,
+        "alto": 117,
+        "alt_text": "Imagen de Jácaras del Zéfiro · Avecillas",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "microclima-1114",
+      "nombre": "Microclima · música experimental",
+      "categoria": "música",
+      "fecha": "2026-11-14",
+      "hora_inicio": "18:00",
+      "hora_fin": "22:00",
+      "todo_el_dia": false,
+      "lugar": "Baluarte de la Candelaria",
+      "direccion": "Baluarte de la Candelaria, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Cuarta edición de esta cita de artes sonoras y experimentales con pioneros como Suso Saiz y Juan Manuel Cidrón junto a Dalila, Ëgg y M/V.",
+      "info": "Entrada libre hasta completar aforo · 18:00 a 22:00",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/microclima-juan-manuel-cidron-suso-saiz-dalila-pedro-rojas-egg-mv-maria-vergara-y-javier"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Baluarte de la Candelaria · Cádiz (Junta, municipio Cádiz)",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/microclima-juan-manuel-cidron-suso-saiz-dalila-pedro-rojas-egg-mv-maria-vergara-y-javier"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Baluarte de la Candelaria",
+          "instagram": "baluartede"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Suso Saiz",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Juan Manuel Cidrón",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/microclima-1114.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/dalila-26_alejandra_amere-analog_036.jpg.webp?itok=AWAHBvxX",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/microclima-juan-manuel-cidron-suso-saiz-dalila-pedro-rojas-egg-mv-maria-vergara-y-javier",
+        "ancho": 960,
+        "alto": 1394,
+        "alt_text": "Imagen de Microclima · música experimental",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "requiem-1114",
+      "nombre": "Réquiem a Manuel de Falla · David Palomar",
+      "categoria": "música",
+      "fecha": "2026-11-14",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela, s/n, 11003 Cádiz",
+      "precio": "12–35 €",
+      "publico": "Mayores de 14",
+      "descripcion": "Homenaje a Falla el día del aniversario de su muerte, con el cante de David Palomar, la Orquesta y Coral de la UCA y diseño audiovisual.",
+      "info": "Entradas en la web del Gran Teatro Falla",
+      "fuentes": [
+        {
+          "nombre": "Gran Teatro Falla",
+          "url": "https://laciudad.cadiz.es/tdc_detalles_evento.asp?ID_EVENTO=72082"
+        },
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-palomar-requiem-d-manuel-de-falla"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-palomar-requiem-d-manuel-de-falla"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "David Palomar",
+          "instagram": "david.palomar"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Universidad de Cádiz",
+          "instagram": "univcadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-12"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/requiem-1114.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/palomar-falla.png.webp?itok=puLIobrS",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-palomar-requiem-d-manuel-de-falla",
+        "ancho": 800,
+        "alto": 800,
+        "alt_text": "Imagen de Réquiem a Manuel de Falla · David Palomar",
+        "tipo_imagen": "oficial",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "around-1114",
+      "nombre": "Around the Sound · Taller de compositoras: homenaje a Falla",
+      "categoria": "música",
+      "hora_inicio": "18:00",
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Concierto del Taller de Compositoras con repertorio reciente y un homenaje a Manuel de Falla y a las creadoras de su época, recordando también a la compositora Marisa Manchado.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/around-1114.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/around-sound-taller-de-compositoras",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Around the Sound, concierto del Taller de Compositoras en el Festival de Cádiz",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/around-sound-taller-de-compositoras"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/around-sound-taller-de-compositoras"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Around the Sound",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "escuela-1114",
+      "nombre": "Escuela del Sur · Bafle, bordillo, platondo y llavero",
+      "categoria": "otros",
+      "hora_inicio": "18:00",
+      "lugar": "Baluarte de la Candelaria",
+      "direccion": "Baluarte de la Candelaria, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Un paseo compartido por la ciudad que nace de un bafle del Microclima: cuerpos, objetos cotidianos y lo que ocurre alrededor se convierten en materia de creación.",
+      "info": "Entrada libre",
+      "imagen": {
+        "archivo": "img/escuela-1114.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/escuela-del-sur-bafle-bordillo-platondo-y-llavero",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Escuela del Sur, paseo creativo del Festival de Cádiz",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/escuela-del-sur-bafle-bordillo-platondo-y-llavero"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Baluarte de la Candelaria · municipio Cádiz (Junta)",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/escuela-del-sur-bafle-bordillo-platondo-y-llavero"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Baluarte de la Candelaria",
+          "instagram": "baluartede"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "pinocho-1114",
+      "nombre": "Pinocho Detective · La desilusión intacta",
+      "categoria": "música",
+      "hora_inicio": "22:00",
+      "lugar": "Edificio Constitución 1812 (Antiguo Aulario La Bomba)",
+      "direccion": "Paseo de Carlos III, 3, Cádiz",
+      "precio": "10 €",
+      "descripcion": "Pop elegante con letras en castellano del grupo sevillano liderado por Fran Pedrosa, en la segunda jornada del Festival de Cádiz.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "imagen": {
+        "archivo": "img/pinocho-1114.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/pinocho-detective-la-desilusion-intacta",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Pinocho Detective, grupo de pop",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/pinocho-detective-la-desilusion-intacta"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Edificio Constitución 1812 (Antiguo Aulario La Bomba), Paseo de Carlos III, 3, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/pinocho-detective-la-desilusion-intacta"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Edificio Constitución 1812",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Universidad de Cádiz",
+          "instagram": "univcadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Pinocho Detective",
+          "instagram": "pinocho_detective"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora_fin": "13:30",
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "lectora-1114",
+      "nombre": "Coloquio «El viaje al autoconocimiento» · «De guerreras y diosas»",
+      "categoria": "otros",
+      "hora_inicio": "12:00",
+      "lugar": "La Lectora Cafetería-Librería",
+      "direccion": "Calle Ancha, 32, 11001 Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Coloquio presencial para explorar el autoconocimiento, con la presentación de «De guerreras y diosas».",
+      "info": "Entradas en Eventbrite",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "estrella"
+        ],
+        "fondo": "cal"
+      },
+      "fuentes": [
+        {
+          "nombre": "La Lectora (Eventbrite)",
+          "url": "https://www.eventbrite.com/e/entradas-coloquio-el-viaje-al-autoconocimiento-presentacion-de-guerreras-y-diosas-2004705448963"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "La Lectora CAFETERÍA - LIBRERÍA, 32 Calle Ancha, 11001 Cádiz",
+        "url": "https://www.eventbrite.com/e/entradas-coloquio-el-viaje-al-autoconocimiento-presentacion-de-guerreras-y-diosas-2004705448963"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "La Lectora",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "La Lectora",
+          "instagram": null,
+          "buscado": "2026-11-14"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-14/img/lectora-1114-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "estrella"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Coloquio «El viaje al autoconocimiento» · «De guerreras y diosas»»: composición con libro, estrella en azul mar, blanco y amarillo"
+      }
+    }
+  ]
+}

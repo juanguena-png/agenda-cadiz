@@ -475,6 +475,12 @@
       "claves": [
         "cuarteto fuerte"
       ]
+    },
+    "pinocho_detective": {
+      "nombre": "Pinocho Detective",
+      "claves": [
+        "pinocho detective"
+      ]
     }
   },
   "descartados": {

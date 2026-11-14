@@ -1,0 +1,157 @@
+{
+  "variante": "A",
+  "paleta": 1,
+  "experimentos": {
+    "frase": "A",
+    "cta": "B",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "casadeiberoamerica",
+        "culturacuenta",
+        "jacarasdelzefiro",
+        "ayuntamientocadiz",
+        "teatrofalla",
+        "david.palomar",
+        "univcadiz",
+        "pinocho_detective"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, sábado 14 de noviembre. 7 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "lectora-1114"
+      ],
+      "etiquetas": [],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Coloquio «El viaje al autoconocimiento» · «De guerreras y diosas» (12:00, La Lectora Cafetería-Librería)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "jacaras-1114"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "culturacuenta",
+        "jacarasdelzefiro"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Jácaras del Zéfiro · Avecillas (12:00, Casa de Iberoamérica (Patio Central))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "around-1114"
+      ],
+      "etiquetas": [
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Around the Sound · Taller de compositoras: homenaje a Falla (18:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "escuela-1114"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Escuela del Sur · Bafle, bordillo, platondo y llavero (18:00, Baluarte de la Candelaria)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "microclima-1114"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Microclima · música experimental (18:00, Baluarte de la Candelaria)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "requiem-1114"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "david.palomar",
+        "univcadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Réquiem a Manuel de Falla · David Palomar (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "pinocho-1114"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "univcadiz",
+        "pinocho_detective"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Pinocho Detective · La desilusión intacta (22:00, Edificio Constitución 1812 (Antiguo Aulario La Bomba))"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "lectora-1114",
+      "alt_text": "Ilustración de «Coloquio «El viaje al autoconocimiento» · «De guerreras y diosas»»: composición con libro, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "jacaras-1114",
+      "alt_text": "Imagen de Jácaras del Zéfiro · Avecillas"
+    },
+    {
+      "archivo": "03.png",
+      "id": "around-1114",
+      "alt_text": "Around the Sound, concierto del Taller de Compositoras en el Festival de Cádiz"
+    },
+    {
+      "archivo": "04.png",
+      "id": "escuela-1114",
+      "alt_text": "Escuela del Sur, paseo creativo del Festival de Cádiz"
+    },
+    {
+      "archivo": "05.png",
+      "id": "microclima-1114",
+      "alt_text": "Imagen de Microclima · música experimental"
+    },
+    {
+      "archivo": "06.png",
+      "id": "requiem-1114",
+      "alt_text": "Imagen de Réquiem a Manuel de Falla · David Palomar"
+    },
+    {
+      "archivo": "07.png",
+      "id": "pinocho-1114",
+      "alt_text": "Pinocho Detective, grupo de pop"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "requiem-1114",
+        "pinocho-1114"
+      ],
+      "alt_text": "Esta noche en Cádiz: Réquiem a Manuel de Falla · David Palomar; Pinocho Detective · La desilusión intacta"
+    }
+  ]
+}
