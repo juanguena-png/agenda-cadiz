@@ -32,15 +32,15 @@ Fuentes registradas: 104
 - Viral Agenda – Cádiz
 
 ## Las que más aportan
-- Onda Cádiz – Agenda de eventos: 1951 candidatos
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 1700 candidatos
-- Guía de Cádiz – Agenda: 903 candidatos
+- Onda Cádiz – Agenda de eventos: 1949 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 1699 candidatos
+- Guía de Cádiz – Agenda: 870 candidatos
 - Sala Central Lechera: 775 candidatos
 - Gran Teatro Falla: 713 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 403 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 251 candidatos
-- Casa de Iberoamérica: 166 candidatos
-- Eventbrite – Cádiz: 149 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 449 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 268 candidatos
+- Casa de Iberoamérica: 171 candidatos
+- Eventbrite – Cádiz: 153 candidatos
 - Meetup – grupos de Cádiz: 87 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
