@@ -107,7 +107,10 @@
     },
     "libreriamanueldefalla": {
       "seguir": "2026-11-05",
-      "revisada": "2026-11-12"
+      "revisada": "2026-11-12",
+      "interacciones": [
+        "2026-11-15"
+      ]
     },
     "enriquemellizocadiz": {
       "seguir": "2026-11-05",
@@ -204,7 +207,8 @@
     },
     "lacasainquieta": {
       "interacciones": [
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-15"
       ]
     },
     "cadizmusicstadium": {
@@ -214,7 +218,8 @@
     },
     "ninasdecadiz": {
       "interacciones": [
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-15"
       ]
     },
     "easd_cadiz": {
@@ -245,17 +250,20 @@
     },
     "sohoalternative": {
       "interacciones": [
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-15"
       ]
     },
     "momartsalaclub": {
       "interacciones": [
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-15"
       ]
     },
     "hanaquartett": {
       "interacciones": [
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-15"
       ]
     },
     "realoviedo": {
@@ -265,7 +273,8 @@
     },
     "laliga": {
       "interacciones": [
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-15"
       ]
     },
     "carnavalycoac": {
@@ -346,6 +355,11 @@
     "pinocho_detective": {
       "interacciones": [
         "2026-11-14"
+      ]
+    },
+    "institutoandaluzdelflamenco": {
+      "interacciones": [
+        "2026-11-15"
       ]
     }
   }
