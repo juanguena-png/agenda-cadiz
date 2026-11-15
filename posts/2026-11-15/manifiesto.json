@@ -1,0 +1,77 @@
+{
+  "variante": "B",
+  "paleta": 3,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "museodecadiz",
+        "casadeiberoamerica",
+        "culturacuenta",
+        "kambrassquintet",
+        "cuarteto_fuerte"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, domingo 15 de noviembre. 3 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "moreno-1115"
+      ],
+      "etiquetas": [
+        "museodecadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Flamenco Expuesto: María Moreno (12:00, Museo de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "kambrass-1115"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "culturacuenta",
+        "kambrassquintet"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: KamBrass Quintet · Transfoliación (12:00, Casa de Iberoamérica (Patio Central))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "fuerte-1115"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "cuarteto_fuerte"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cuarteto Fuerte · De lo recreativo y lo fúnebre (19:00, Teatro del Títere La Tía Norica)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "moreno-1115",
+      "alt_text": "Ilustración de «Flamenco Expuesto: María Moreno»: composición con flamenco, marco en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "kambrass-1115",
+      "alt_text": "Imagen de KamBrass Quintet · Transfoliación"
+    },
+    {
+      "archivo": "03.png",
+      "id": "fuerte-1115",
+      "alt_text": "Imagen de Cuarteto Fuerte · De lo recreativo y lo fúnebre"
+    }
+  ],
+  "noche": []
+}
