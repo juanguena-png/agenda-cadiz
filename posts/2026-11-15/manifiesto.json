@@ -73,5 +73,14 @@
       "alt_text": "Imagen de Cuarteto Fuerte · De lo recreativo y lo fúnebre"
     }
   ],
-  "noche": []
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "rosique-1116",
+        "tallersonoro-1116"
+      ],
+      "alt_text": "Mañana en Cádiz: Ruth Rosique y Juan Carlos Garvayo; Taller Sonoro · Estrenos de Falla"
+    }
+  ]
 }
