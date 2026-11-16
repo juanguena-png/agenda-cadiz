@@ -1,10 +1,77 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-16T10:16:51+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17889956109491155",
+          "https://www.instagram.com/p/DfzA2eiF90G/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-16T10:17:00+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122111270367519566"
+      }
+    },
+    "stories/01.png": {
+      "instagram": {
+        "ts": "2026-11-16T10:17:14+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18098214383674316",
+          "https://www.instagram.com/stories/planesencadiz/4031570048225616267"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-16T10:17:21+01:00",
+        "estado": "publicado",
+        "resultado": "1139343572322790"
+      }
+    },
+    "stories/02.png": {
+      "instagram": {
+        "ts": "2026-11-16T10:17:35+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18049968884821107",
+          "https://www.instagram.com/stories/planesencadiz/4031570215939077357"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-16T10:17:41+01:00",
+        "estado": "publicado",
+        "resultado": "1845448529812677"
+      }
+    },
+    "stories/03.png": {
+      "instagram": {
+        "ts": "2026-11-16T10:17:54+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18050314496828298",
+          "https://www.instagram.com/stories/planesencadiz/4031570381119140983"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-16T10:18:00+01:00",
+        "estado": "publicado",
+        "resultado": "2443704979370634"
+      }
+    }
+  },
   "registro": [
     "2026-11-16T07:55:16+01:00 diario: render OK (3 eventos, variante A)"
   ],
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-16T07:55:23+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 1,
+    "total": 100,
+    "ts": "2026-11-16T10:15:53+01:00"
+  },
+  "ultima_ejecucion": "2026-11-16T10:18:00+01:00"
 }
