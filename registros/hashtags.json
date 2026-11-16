@@ -1,77 +1,77 @@
 {
   "consultas": {
-    "cadizcapital": "2026-11-09T22:47:02+01:00",
-    "quehacerencadiz": "2026-11-09T22:47:07+01:00",
-    "planescadiz": "2026-11-09T22:47:12+01:00",
-    "cadiz": "2026-11-09T22:47:19+01:00",
-    "agendacadiz": "2026-11-09T22:47:27+01:00",
-    "cadizturismo": "2026-11-09T22:47:40+01:00",
-    "cadizfeelings": "2026-11-09T22:47:42+01:00",
-    "cadizbonito": "2026-11-09T22:47:47+01:00",
-    "andalucia": "2026-11-09T22:47:55+01:00",
-    "flamencocadiz": "2026-11-09T22:48:01+01:00",
-    "carnavaldecadiz": "2026-11-09T22:48:11+01:00",
-    "teatrofalla": "2026-11-09T22:48:18+01:00"
+    "cadizcapital": "2026-11-16T22:46:33+01:00",
+    "quehacerencadiz": "2026-11-16T22:46:39+01:00",
+    "planescadiz": "2026-11-16T22:46:43+01:00",
+    "cadiz": "2026-11-16T22:46:50+01:00",
+    "agendacadiz": "2026-11-16T22:47:01+01:00",
+    "cadizturismo": "2026-11-16T22:47:14+01:00",
+    "cadizfeelings": "2026-11-16T22:47:17+01:00",
+    "cadizbonito": "2026-11-16T22:47:24+01:00",
+    "andalucia": "2026-11-16T22:47:31+01:00",
+    "flamencocadiz": "2026-11-16T22:47:39+01:00",
+    "carnavaldecadiz": "2026-11-16T22:47:53+01:00",
+    "teatrofalla": "2026-11-16T22:48:00+01:00"
   },
   "datos": {
     "cadizcapital": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 842.1,
-      "muestras": 9
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 875.4,
+      "muestras": 8
     },
     "quehacerencadiz": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 61.8,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 61.7,
       "muestras": 9
     },
     "planescadiz": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 198,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 198.9,
       "muestras": 9
     },
     "cadiz": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 1698.7,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 1436.7,
       "muestras": 9
     },
     "agendacadiz": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 197.3,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 140,
       "muestras": 9
     },
     "cadizturismo": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 2209.1,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 2302.7,
       "muestras": 9
     },
     "cadizfeelings": {
-      "actualizado": "2026-11-09",
+      "actualizado": "2026-11-16",
       "interacciones_top_media": 15,
       "muestras": 1
     },
     "cadizbonito": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 326.2,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 319.6,
       "muestras": 9
     },
     "andalucia": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 9436.6,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 10179.1,
       "muestras": 9
     },
     "flamencocadiz": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 142.6,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 166,
       "muestras": 9
     },
     "carnavaldecadiz": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 4102.1,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 3992.6,
       "muestras": 9
     },
     "teatrofalla": {
-      "actualizado": "2026-11-09",
-      "interacciones_top_media": 484,
+      "actualizado": "2026-11-16",
+      "interacciones_top_media": 380.3,
       "muestras": 9
     }
   }
