@@ -1,0 +1,179 @@
+{
+  "fecha": "2026-11-16",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "rosique-1116",
+      "nombre": "Ruth Rosique y Juan Carlos Garvayo",
+      "categoria": "música",
+      "fecha": "2026-11-16",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja",
+      "direccion": "C/ San Francisco, 26, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto-conferencia de soprano y piano sobre cómo Falla convirtió melodías populares en arte, con sus Siete canciones populares españolas.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ruth-rosique-soprano-y-juan-carlos-garvayo-piano-manuel-de-falla-entre-el-cante-y-el-canto"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Cultural Fundación Unicaja Cádiz, Calle San Francisco, 26, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ruth-rosique-soprano-y-juan-carlos-garvayo-piano-manuel-de-falla-entre-el-cante-y-el-canto"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ruth Rosique",
+          "instagram": null,
+          "buscado": "2026-11-15"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Juan Carlos Garvayo",
+          "instagram": "juan_carlos_garvayo"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-15"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/rosique-1116.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ruth-rosique-soprano-y-juan-carlos-garvayo-piano-manuel-de-falla-entre-el-cante-y-el-canto",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Ruth Rosique y Juan Carlos Garvayo, concierto sobre Manuel de Falla",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "id": "tallersonoro-1116",
+      "nombre": "Taller Sonoro · Estrenos de Falla",
+      "categoria": "música",
+      "fecha": "2026-11-16",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Conservatorio Manuel de Falla",
+      "direccion": "Avda. de las Cortes de Cádiz, 3, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto con siete obras de estreno de la Cátedra Manuel de Falla, escritas por alumnos del curso de composición de Achim Bornhöft.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/taller-sonoro-obras-de-estreno-de-la-catedra-manuel-de-falla-prof-achim-bornhoft"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Real Conservatorio Profesional de Música Manuel de Falla de Cádiz, Avenida las Cortes de Cádiz, 3, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/taller-sonoro-obras-de-estreno-de-la-catedra-manuel-de-falla-prof-achim-bornhoft"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Real Conservatorio Profesional de Música Manuel de Falla",
+          "instagram": null,
+          "buscado": "2026-11-15"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-15"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/tallersonoro-1116.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/taller-sonoro-obras-de-estreno-de-la-catedra-manuel-de-falla-prof-achim-bornhoft",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Taller Sonoro de la Cátedra Manuel de Falla",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "id": "perez-villalta-1116",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-16",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Más de cincuenta obras del artista tarifeño que renovó la figuración española desde los años setenta. Hasta el 21 de febrero.",
+      "info": "Horario: 10:00–14:00 y 16:00–19:00 (lunes incluido)",
+      "imagen": {
+        "archivo": "img/perez-villalta.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Guillermo Pérez Villalta",
+          "instagram": null,
+          "buscado": "2026-11-11"
+        }
+      ],
+      "etiqueta": "Siempre abierto",
+      "fecha_txt": "Hasta el 21 feb"
+    }
+  ]
+}

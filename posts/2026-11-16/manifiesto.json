@@ -1,0 +1,74 @@
+{
+  "variante": "A",
+  "paleta": 5,
+  "experimentos": {
+    "frase": "A",
+    "cta": "A",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundunicaja",
+        "culturacuenta",
+        "juan_carlos_garvayo"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, lunes 16 de noviembre. 3 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "perez-villalta-1116"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "rosique-1116"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "culturacuenta",
+        "juan_carlos_garvayo"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Ruth Rosique y Juan Carlos Garvayo (18:00, Centro Fundación Unicaja)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "tallersonoro-1116"
+      ],
+      "etiquetas": [
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Taller Sonoro · Estrenos de Falla (19:00, Conservatorio Manuel de Falla)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "perez-villalta-1116",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "02.png",
+      "id": "rosique-1116",
+      "alt_text": "Ruth Rosique y Juan Carlos Garvayo, concierto sobre Manuel de Falla"
+    },
+    {
+      "archivo": "03.png",
+      "id": "tallersonoro-1116",
+      "alt_text": "Taller Sonoro de la Cátedra Manuel de Falla"
+    }
+  ],
+  "noche": []
+}

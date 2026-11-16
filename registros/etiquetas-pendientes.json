@@ -104,7 +104,7 @@
   "Guillermo Pérez Villalta": {
     "rol": "artista",
     "evento": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
-    "fecha": "2026-11-11",
+    "fecha": "2026-11-16",
     "instagram_probado": null
   },
   "Antiguos Depósitos de Tabaco": {
@@ -193,8 +193,8 @@
   },
   "Festival de Cádiz Música Española": {
     "rol": "institucion",
-    "evento": "Cuarteto Fuerte · De lo recreativo y lo fúnebre",
-    "fecha": "2026-11-15",
+    "evento": "Taller Sonoro · Estrenos de Falla",
+    "fecha": "2026-11-16",
     "instagram_probado": null
   },
   "Víctor Cruz": {
@@ -267,6 +267,18 @@
     "rol": "organizador",
     "evento": "Coloquio «El viaje al autoconocimiento» · «De guerreras y diosas»",
     "fecha": "2026-11-14",
+    "instagram_probado": null
+  },
+  "Ruth Rosique": {
+    "rol": "artista",
+    "evento": "Ruth Rosique y Juan Carlos Garvayo",
+    "fecha": "2026-11-16",
+    "instagram_probado": null
+  },
+  "Real Conservatorio Profesional de Música Manuel de Falla": {
+    "rol": "lugar",
+    "evento": "Taller Sonoro · Estrenos de Falla",
+    "fecha": "2026-11-16",
     "instagram_probado": null
   }
 }
