@@ -21,3 +21,7 @@ Instagram invalida el carrusel si suma más de ~28 etiquetas entre diapositivas 
 ## 2026-11-12 · Auditoría semanal (jueves)
 
 Semana 6-12 nov: 27 planes (6, 6, 3, 3, 3, 2, 4 por día). Categorías: otros 12, música 8, exposición 3, teatro 1, infantil 1, deporte 1, fiesta 1; sin humor, cine ni gastronomía. Recintos: Fundación Unicaja y Cajasol (4 cada uno), Casa de Iberoamérica y Ateneo (3). Los carruseles de entre semana (2-4 planes) alcanzan 15-30 frente a 100-180 los fines de semana. Propuesta: reforzar fuentes de teatro/humor, infantil y gastronomía, y buscar planes de entre semana (talleres puntuales, presentaciones, charlas) para subir la media de planes diarios.
+
+## 2026-11-16 · Vigilante de publicación
+
+El proceso de espera de las 9:00 murió sin avisar el 16-nov y la publicación salió a las 10:15; vigilar_publicacion.py relanza publicar.py si muere o no completa
