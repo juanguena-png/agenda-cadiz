@@ -175,5 +175,211 @@
       "etiqueta": "Siempre abierto",
       "fecha_txt": "Hasta el 21 feb"
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "origen-1117",
+      "nombre": "Origen · Ballet Flamenco de Andalucía",
+      "categoria": "música",
+      "fecha": "2026-11-17",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "20 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Baile flamenco y orquesta barroca dialogan en un espectáculo con Patricia Guerrero y Fahmi Alqhai, dentro del Festival de Cádiz Música Española.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ballet-flamenco-de-andalucia-accademia-del-piacere-origen-la-semilla-de-los-tiempos"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ballet-flamenco-de-andalucia-accademia-del-piacere-origen-la-semilla-de-los-tiempos"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ballet Flamenco de Andalucía",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Patricia Guerrero",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "seikilos-1117",
+      "nombre": "Cuarteto Seikilos · Sotelo, Molleda y Schubert",
+      "categoria": "música",
+      "fecha": "2026-11-17",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Palacio Provincial (Diputación)",
+      "direccion": "Plaza de España s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de cámara con obras de Sotelo, Muñoz Molleda y el cuarteto «La muerte y la doncella» de Schubert. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cuarteto-seikilos-obras-de-sotelo-molleda-y-schubert"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Palacio Provincial, Diputación de Cádiz, Plaza de España s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cuarteto-seikilos-obras-de-sotelo-molleda-y-schubert"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Palacio Provincial de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Diputación de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Cuarteto Seikilos",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "cineforum-1117",
+      "nombre": "Cinefórum · Lo dejamos acá",
+      "categoria": "otros",
+      "fecha": "2026-11-17",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Pase del cinefórum de Cajasol con «Lo dejamos acá», película sobre la relación entre terapeutas y pacientes. Entrada libre.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/lo-dejamos-aca-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio, 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/lo-dejamos-aca-2026/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 1,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        }
+      ]
+    },
+    {
+      "id": "penyas-1117",
+      "nombre": "Masterclass con Ana Penyas · Gráficas!",
+      "categoria": "otros",
+      "fecha": "2026-11-17",
+      "hora_inicio": "13:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja",
+      "direccion": "C/ San Francisco, 26, Cádiz",
+      "precio": "Gratis · acceso restringido",
+      "publico": "Todos los públicos",
+      "descripcion": "Masterclass de la Premio Nacional del Cómic Ana Penyas sobre su proceso creativo, dentro de Gráficas! Solo público concertado.",
+      "info": "Acceso restringido: público concertado",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-graficas-masterclass-generaciones-graficas-con-ana-penyas"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Cultural Fundación Unicaja Cádiz, Calle San Francisco, 26, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-graficas-masterclass-generaciones-graficas-con-ana-penyas"
+      },
+      "etiquetas_ig": [],
+      "importancia": 0.5,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Centro Andaluz de las Letras",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ana Penyas",
+          "instagram": null,
+          "buscado": "2026-11-16"
+        }
+      ]
+    }
   ]
 }

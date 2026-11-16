@@ -62,11 +62,17 @@
     }
   },
   "registro": [
-    "2026-11-16T07:55:16+01:00 diario: render OK (3 eventos, variante A)"
+    "2026-11-16T07:55:16+01:00 diario: render OK (3 eventos, variante A)",
+    "2026-11-16T17:25:03+01:00 DESCARTADO 'Origen · Ballet Flamenco de Andalucía': categoría no válida: flamenco",
+    "2026-11-16T17:25:03+01:00 DESCARTADO 'Cinefórum · Lo dejamos acá': categoría no válida: cine",
+    "2026-11-16T17:25:03+01:00 DESCARTADO 'Masterclass con Ana Penyas · Gráficas!': categoría no válida: charla",
+    "2026-11-16T17:25:10+01:00 diario: render OK (3 eventos, variante A)",
+    "2026-11-16T17:25:35+01:00 diario: render OK (3 eventos, variante A)",
+    "2026-11-16T17:26:02+01:00 diario: render OK (3 eventos, variante A)"
   ],
   "revision_final": {
     "hecha": true,
-    "ts": "2026-11-16T07:55:23+01:00"
+    "ts": "2026-11-16T17:26:03+01:00"
   },
   "limite_publicaciones": {
     "uso": 1,
