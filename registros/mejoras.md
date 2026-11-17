@@ -29,3 +29,7 @@ El proceso de espera de las 9:00 murió sin avisar el 16-nov y la publicación s
 ## 2026-11-16 · Primera frase fijada en la variante B (dato directo)
 
 Tras 12 muestras por lado, B logra 74,3 de alcance medio y 1,08 seguidores nuevos por post frente a 47,2 y 0,33 de A. crecimiento.py fija la variante al superar 10 muestras y un 15 % de mejora.
+
+## 2026-11-17 · Control de cuota de la API de Meta
+
+Evita el error #4 (17/11): publicar con prioridad, lecturas de organizadores con caché 4 h y parada al 50 % de X-App-Usage

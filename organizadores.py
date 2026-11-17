@@ -17,11 +17,13 @@ Lista de cuentas: registros/organizadores_ig.json
 import argparse
 import json
 import re
+import time
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta
 
 import agenda as ag
+import cuota
 
 LISTA = ag.RAIZ / "registros" / "organizadores_ig.json"
 COMPARATIVA = ag.RAIZ / "registros" / "cobertura_referencia.jsonl"
@@ -47,8 +49,14 @@ def cargar_lista():
     return ag.cargar_json(LISTA, {"cuentas": [], "por_verificar": [], "referencia": [], "fallidas": {}})
 
 
+CACHE = ag.RAIZ / "registros" / "cache_organizadores.json"
+CACHE_HORAS = 4  # una lectura sirve a todas las ejecuciones de las siguientes 4 h (flujo, tarde, simulaciones)
+
+
 def publicaciones(usuario, n=15):
     """Últimas publicaciones públicas de una cuenta profesional, o None si no es consultable por la API."""
+    if not cuota.hay_margen(cuota.UMBRAL_LECTURAS):
+        return {"error": "pausada: cuota de la API de Meta alta (se retoma en la próxima ejecución)", "pausada": True}
     try:
         b = api(fields=CAMPOS.format(u=usuario.lstrip("@"), n=n))["business_discovery"]
     except Exception as e:  # cuenta personal, inexistente o renombrada
@@ -100,8 +108,38 @@ def recopilar(ini, fin, carpeta, n=15):
     cuentas = sorted(set(lista.get("cuentas", [])))
     limite = ag.hoy() - timedelta(days=DIAS_ANTIGUEDAD)
     dias = [ini + timedelta(days=i) for i in range((fin - ini).days + 1)]
-    with ThreadPoolExecutor(4) as ex:
-        res = dict(zip(cuentas, ex.map(lambda u: publicaciones(u, n), cuentas)))
+    # Caché de 4 h: no se vuelve a pedir a Meta lo ya leído (la cuota de la app es compartida con la publicación)
+    cache = ag.cargar_json(CACHE, {})
+    ahora = datetime.now().timestamp()
+    res, pendientes = {}, []
+    for u in cuentas:
+        c = cache.get(u)
+        if c and ahora - c.get("epoch", 0) < CACHE_HORAS * 3600 and c.get("n", 0) >= n:
+            res[u] = {"nombre": c.get("nombre"), "media": c.get("media", [])}
+        else:
+            pendientes.append(u)
+    # Lectura con 2 hilos y pausa; se para sola al llegar al 50 % de la cuota y el resto queda para la próxima ejecución
+    def leer(u):
+        r = publicaciones(u, n)
+        time.sleep(0.4)
+        return r
+    pausadas = []
+    for i in range(0, len(pendientes), 10):
+        if not cuota.hay_margen(cuota.UMBRAL_LECTURAS):
+            pausadas += pendientes[i:]
+            break
+        lote = pendientes[i:i + 10]
+        with ThreadPoolExecutor(2) as ex:
+            for u, r in zip(lote, ex.map(leer, lote)):
+                if r.get("pausada"):
+                    pausadas.append(u)
+                    continue
+                res[u] = r
+                if "error" not in r:
+                    cache[u] = {"epoch": ahora, "n": n, "nombre": r.get("nombre"), "media": r.get("media", [])}
+    ag.guardar_json(CACHE, cache)
+    if pausadas:
+        print(f"Organizadores: cuota de Meta alta ({cuota.uso_estimado()}): {len(pausadas)} cuentas pendientes para la próxima ejecución")
     pistas, fallidas = [], {}
     for u, r in res.items():
         if "error" in r:
@@ -122,7 +160,7 @@ def recopilar(ini, fin, carpeta, n=15):
                                    "texto": (p.get("caption") or "")[:900],
                                    "imagenes": [x.get("media_url") for x in ((p.get("children") or {}).get("data") or [])][:10] or [p.get("media_url")]})
     salida = {"generado": ag.ahora().isoformat(timespec="seconds"), "ventana": [ini.isoformat(), fin.isoformat()],
-              "cuentas_consultadas": len(cuentas) - len(fallidas), "cuentas_fallidas": fallidas, "pistas": pistas,
+              "cuentas_consultadas": len(res) - len(fallidas), "cuentas_pausadas_por_cuota": len(pausadas), "cuentas_fallidas": fallidas, "pistas": pistas,
               "instruccion": ("Pistas de organizadores (API oficial). Cada una: confirma fecha, hora y REGLA 1 (dirección o recinto de "
                               "Cádiz capital en el texto del organizador o en su web), comprueba que no es online ni cancelado y "
                               "redacta con palabras propias. 'semanal' = actividad recurrente: entra si el texto confirma día y hora. "

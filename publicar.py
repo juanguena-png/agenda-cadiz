@@ -20,6 +20,7 @@ import time
 import requests
 
 import agenda as ag
+import cuota
 import notificar
 
 HOST = "https://graph.facebook.com"
@@ -61,6 +62,7 @@ def api(metodo, ruta, reintentos=4, **params):
         try:
             r = requests.request(metodo, url, headers=cab, **({"params": params} if metodo == "GET" else {"data": params}), timeout=90)
             datos = r.json() if r.content else {}
+            cuota.registrar(r.headers.get("X-App-Usage"))
         except (requests.RequestException, ValueError) as e:
             if i < reintentos:
                 time.sleep(2 ** (i + 1)); continue
@@ -68,6 +70,9 @@ def api(metodo, ruta, reintentos=4, **params):
         if "error" not in datos:
             return datos
         err = datos["error"]
+        if err.get("code") == 4:  # límite de la app: reintentar a martillazos lo empeora. Se anota el bloqueo y se sale
+            cuota.registrar_bloqueo()
+            raise ErrorAPI(f"{err.get('message')} (code 4/{err.get('error_subcode')})", 4, True)
         temporal = err.get("is_transient") or err.get("code") in CODIGOS_TEMPORALES or r.status_code >= 500
         if temporal and i < reintentos:
             time.sleep(2 ** (i + 1)); continue
@@ -297,7 +302,14 @@ def intentar(estado, clave, plataforma, fn, *a):
         print(f"  {clave}/{plataforma}: ya publicado, se omite")
         return True
     try:
-        res = fn(*a)
+        try:
+            res = fn(*a)
+        except ErrorAPI as e:
+            if e.codigo != 4:
+                raise
+            print(f"  {clave}/{plataforma}: límite de la app de Meta (#4); espero a que baje la cuota y reintento una vez")
+            cuota.esperar_para_publicar(20, log=print)
+            res = fn(*a)
         ag.anotar(estado, clave, plataforma, estado="publicado", resultado=res)
         print(f"  {clave}/{plataforma}: publicado")
         return True
@@ -350,6 +362,7 @@ def publicar(fecha, tipo, esperar=None):
             ag.log_estado(estado, f"token inválido: {msg}")
             ag.guardar_estado(carpeta, estado)
             ag.salir(f"Token no válido: {msg}")
+        cuota.esperar_para_publicar(30, log=print)  # cuota de la app de Meta (X-App-Usage): publicar tiene prioridad, espera si está >80 %
         uso, total = limite_publicaciones()
         estado["limite_publicaciones"] = {"uso": uso, "total": total, "ts": ag.ahora().isoformat(timespec="seconds")}
         necesarias = len((man or {}).get("stories", [])) + len((man or {}).get("noche", [])) + 2
