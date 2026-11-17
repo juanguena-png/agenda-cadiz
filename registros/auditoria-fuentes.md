@@ -1,6 +1,6 @@
 # Auditoría de fuentes (últimos 14 días)
 
-Fuentes registradas: 104
+Fuentes registradas: 115
 
 ## Caídas (nunca responden): sustituir o buscar la URL nueva
 - Andalucía.org – agenda de Cádiz (Junta de Andalucía)
@@ -32,16 +32,16 @@ Fuentes registradas: 104
 - Viral Agenda – Cádiz
 
 ## Las que más aportan
-- Onda Cádiz – Agenda de eventos: 1031 candidatos
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 901 candidatos
+- Onda Cádiz – Agenda de eventos: 1029 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 899 candidatos
 - Sala Central Lechera: 750 candidatos
 - Gran Teatro Falla: 690 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 537 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 284 candidatos
-- Guía de Cádiz – Agenda: 276 candidatos
-- Eventbrite – Cádiz: 109 candidatos
-- Casa de Iberoamérica: 95 candidatos
-- Meetup – grupos de Cádiz: 74 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 581 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 283 candidatos
+- Guía de Cádiz – Agenda: 242 candidatos
+- Eventbrite – Cádiz: 111 candidatos
+- Casa de Iberoamérica: 97 candidatos
+- Cádiz Directo: 76 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
 - (aún sin datos: el agente debe rellenar descubiertos_web cada día)
