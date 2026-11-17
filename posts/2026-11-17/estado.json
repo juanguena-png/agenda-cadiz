@@ -92,16 +92,17 @@
     },
     "noche/01.png": {
       "instagram": {
-        "ts": "2026-11-17T19:23:45+01:00",
-        "estado": "error",
-        "error": "(#4) Application request limit reached (code 4/None)",
-        "temporal": true
+        "ts": "2026-11-17T20:46:57+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18417318751092057",
+          "https://www.instagram.com/stories/planesencadiz/4032611813111942251"
+        ]
       },
       "facebook": {
-        "ts": "2026-11-17T19:24:19+01:00",
-        "estado": "error",
-        "error": "(#4) Application request limit reached (code 4/None)",
-        "temporal": true
+        "ts": "2026-11-17T20:47:03+01:00",
+        "estado": "publicado",
+        "resultado": "2755708654824094"
       }
     }
   },
@@ -118,7 +119,7 @@
   "limite_publicaciones": {
     "uso": 7,
     "total": 100,
-    "ts": "2026-11-17T19:23:05+01:00"
+    "ts": "2026-11-17T20:46:48+01:00"
   },
-  "ultima_ejecucion": "2026-11-17T19:24:19+01:00"
+  "ultima_ejecucion": "2026-11-17T20:47:03+01:00"
 }

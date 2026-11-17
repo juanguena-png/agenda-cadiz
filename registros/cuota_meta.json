@@ -1,11 +1,10 @@
 {
-  "uso": 100.0,
-  "ts": "2026-11-17T20:04:59+01:00",
-  "epoch": 1794942299.2033293,
-  "bloqueo_hasta": 1794943499.2033188,
+  "uso": 4.0,
+  "ts": "2026-11-17T20:46:59+01:00",
+  "epoch": 1794944819.2805426,
   "detalle": {
-    "call_count": 73,
+    "call_count": 4,
     "total_cputime": 0,
-    "total_time": 157
+    "total_time": 4
   }
 }
