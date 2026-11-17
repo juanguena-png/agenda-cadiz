@@ -153,7 +153,7 @@ def render_carrusel(r, eventos, tipo, fecha, salida, var):
     salida.mkdir(parents=True, exist_ok=True)
     for viejo in salida.glob("*.png"):
         viejo.unlink()
-    eventos = ag.ordenar(eventos, por_fecha=tipo != "diario")
+    eventos = ag.ordenar(eventos, por_fecha=tipo != "diario", por_bloques=tipo == "diario")
     grupos = ag.trocear(eventos, ag.reparto(len(eventos), DIAPOS_EVENTOS))
     titulo, sub = titulos(tipo, fecha, eventos)
     etiqueta, sufijo = PORTADA_EXTRA[tipo]

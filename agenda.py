@@ -80,9 +80,28 @@ def clave_orden(ev):
     return (1, ev["hora_inicio"], ev.get("nombre", ""))
 
 
-def ordenar(eventos, por_fecha=False):
+def bloque(ev):
+    """Bloque del carrusel diario (decisión del titular, 17/11/2026):
+    0 = eventos de ese día concreto (conciertos, charlas, jornadas, ferias, sesiones de un ciclo…), primero;
+    1 = exposiciones y planes continuos abiertos ese día (categoría «exposición», `continuo: true`), después;
+    2 = permanentes y relleno «Siempre abierto», al final.
+    `bloque` en eventos.json (0/1/2) fuerza el valor si un caso no encaja."""
+    if ev.get("bloque") in (0, 1, 2):
+        return ev["bloque"]
+    if ev.get("permanente") or str(ev.get("etiqueta") or "").lower().startswith("siempre abierto"):
+        return 2
+    if ev.get("continuo") or ev.get("categoria") == "exposición":
+        return 1
+    return 0
+
+
+def ordenar(eventos, por_fecha=False, por_bloques=False):
+    """por_bloques (carrusel diario): primero los eventos del día, luego exposiciones/continuos y al final los permanentes;
+    dentro de cada bloque, orden cronológico («todo el día» primero)."""
     if por_fecha:
         return sorted(eventos, key=lambda e: (e.get("fecha", ""),) + clave_orden(e))
+    if por_bloques:
+        return sorted(eventos, key=lambda e: (bloque(e),) + clave_orden(e))
     return sorted(eventos, key=clave_orden)
 
 

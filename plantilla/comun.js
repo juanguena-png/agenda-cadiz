@@ -2,6 +2,7 @@
 function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
 function foto(ev) { return (ev.imagen && ev.imagen.ruta_abs) ? `url('${ev.imagen.ruta_abs}')` : "none"; }
 function horaTxt(ev) {
+  if (ev.horario_dia) return ev.horario_dia;  // horario de ese día tal cual (p. ej. «10:00–14:00 y 16:00–19:00»)
   if (ev.todo_el_dia || (!ev.hora_inicio && ev.etiqueta)) return "Todo el día";
   if (!ev.hora_inicio) return "Consultar horario";
   return ev.hora_fin ? `${ev.hora_inicio}–${ev.hora_fin}` : ev.hora_inicio;
