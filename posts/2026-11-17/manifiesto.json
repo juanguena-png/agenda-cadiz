@@ -1,0 +1,119 @@
+{
+  "variante": "B",
+  "paleta": 6,
+  "experimentos": {
+    "frase": "B",
+    "cta": "A",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundunicaja",
+        "centroandaluzdelasletras",
+        "fundacioncajasol",
+        "culturacuenta",
+        "diputaciondecadiz",
+        "ateneocadiz",
+        "teatrofalla"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, martes 17 de noviembre. 5 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "penyas-1117"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "centroandaluzdelasletras"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Masterclass con Ana Penyas · Gráficas! (13:00, Centro Fundación Unicaja)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "cineforum-1117"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cinefórum · Lo dejamos acá (18:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "seikilos-1117"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "diputaciondecadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cuarteto Seikilos · Sotelo, Molleda y Schubert (18:00, Palacio Provincial (Diputación))"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-cielo-1117"
+      ],
+      "etiquetas": [
+        "ateneocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tertulia Literaria: «El cielo de mi vida» (19:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "origen-1117"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Origen · Ballet Flamenco de Andalucía (21:00, Gran Teatro Falla)"
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "penyas-1117",
+      "alt_text": "Masterclass de Ana Penyas, ciclo Gráficas!"
+    },
+    {
+      "archivo": "02.png",
+      "id": "cineforum-1117",
+      "alt_text": "Cartel de Lo dejamos acá, cinefórum de Fundación Cajasol"
+    },
+    {
+      "archivo": "03.png",
+      "id": "seikilos-1117",
+      "alt_text": "Cuarteto Seikilos"
+    },
+    {
+      "archivo": "04.png",
+      "id": "ateneo-cielo-1117",
+      "alt_text": "Ilustración de «Tertulia Literaria: «El cielo de mi vida»»: composición con libro, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "05.png",
+      "id": "origen-1117",
+      "alt_text": "Origen, espectáculo del Ballet Flamenco de Andalucía"
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "origen-1117"
+      ],
+      "alt_text": "Esta noche en Cádiz: Origen · Ballet Flamenco de Andalucía"
+    }
+  ]
+}

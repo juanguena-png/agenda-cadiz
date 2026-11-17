@@ -133,8 +133,8 @@
   },
   "Ramón Luque Sánchez": {
     "rol": "artista",
-    "evento": "Presentación del libro de poesía «El valle del olvido»",
-    "fecha": "2026-11-10",
+    "evento": "Tertulia Literaria: «El cielo de mi vida»",
+    "fecha": "2026-11-17",
     "instagram_probado": null
   },
   "La Lupi": {
@@ -193,8 +193,8 @@
   },
   "Festival de Cádiz Música Española": {
     "rol": "institucion",
-    "evento": "Taller Sonoro · Estrenos de Falla",
-    "fecha": "2026-11-16",
+    "evento": "Origen · Ballet Flamenco de Andalucía",
+    "fecha": "2026-11-17",
     "instagram_probado": null
   },
   "Víctor Cruz": {
@@ -279,6 +279,36 @@
     "rol": "lugar",
     "evento": "Taller Sonoro · Estrenos de Falla",
     "fecha": "2026-11-16",
+    "instagram_probado": null
+  },
+  "Ana Penyas": {
+    "rol": "artista",
+    "evento": "Masterclass con Ana Penyas · Gráficas!",
+    "fecha": "2026-11-17",
+    "instagram_probado": null
+  },
+  "Palacio Provincial de Cádiz": {
+    "rol": "lugar",
+    "evento": "Cuarteto Seikilos · Sotelo, Molleda y Schubert",
+    "fecha": "2026-11-17",
+    "instagram_probado": null
+  },
+  "Cuarteto Seikilos": {
+    "rol": "artista",
+    "evento": "Cuarteto Seikilos · Sotelo, Molleda y Schubert",
+    "fecha": "2026-11-17",
+    "instagram_probado": null
+  },
+  "Ballet Flamenco de Andalucía": {
+    "rol": "artista",
+    "evento": "Origen · Ballet Flamenco de Andalucía",
+    "fecha": "2026-11-17",
+    "instagram_probado": null
+  },
+  "Patricia Guerrero": {
+    "rol": "artista",
+    "evento": "Origen · Ballet Flamenco de Andalucía",
+    "fecha": "2026-11-17",
     "instagram_probado": null
   }
 }
