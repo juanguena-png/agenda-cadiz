@@ -295,5 +295,203 @@
         "alt_text": "Ilustración de «Tertulia Literaria: «El cielo de mi vida»»: composición con libro, estrella en azul mar, blanco y amarillo"
       }
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "empleo-1118",
+      "nombre": "Espacio Empleo Cádiz · Último día",
+      "categoria": "otros",
+      "fecha": "2026-11-18",
+      "hora_inicio": "09:00",
+      "hora_fin": "14:00",
+      "todo_el_dia": false,
+      "lugar": "Depósitos de Tabaco",
+      "direccion": "Los Depósitos de Tabaco de Cádiz",
+      "precio": "Gratis · asistencia libre hasta completar aforo",
+      "publico": "Todos los públicos",
+      "descripcion": "Feria de empleo con unas 80 empresas y entidades y más de cien ofertas de trabajo, organizada por la Mesa Municipal por el Empleo.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz",
+          "url": "https://transparencia.cadiz.es/espacio-empleo-cadiz-reunira-a-80-empresas-y-entidades-con-mas-de-un-centenar-de-ofertas-de-trabajo-en-los-depositos-los-dias-17-y-18-de-noviembre/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Los Depósitos de Tabaco de Cádiz",
+        "url": "https://transparencia.cadiz.es/espacio-empleo-cadiz-reunira-a-80-empresas-y-entidades-con-mas-de-un-centenar-de-ofertas-de-trabajo-en-los-depositos-los-dias-17-y-18-de-noviembre/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Depósitos de Tabaco",
+          "instagram": null,
+          "buscado": "2026-11-17"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        }
+      ],
+      "importancia": 4,
+      "etiqueta": "Último día",
+      "imagen": {
+        "archivo": "img/as-de-trabajo-en-los-depositos-los-dias-17-y-18-de-noviembre.jpg",
+        "url_origen": "https://transparencia.cadiz.es/wp-content/uploads/2026/11/FERIA-EMPLEO-3.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Cartel de la feria Espacio Empleo Cádiz"
+      }
+    },
+    {
+      "id": "ateneo-revista-1118",
+      "nombre": "Presentación de la Revista del Ateneo dedicada a Manuel de Falla",
+      "categoria": "otros",
+      "fecha": "2026-11-18",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Salón de Plenos del Ayuntamiento",
+      "direccion": "Salón de Plenos del Ayuntamiento de Cádiz",
+      "precio": "Entrada libre hasta completar aforo",
+      "publico": "Todos los públicos",
+      "descripcion": "El Ateneo presenta su revista monográfica dedicada a Manuel de Falla, con intervención de Antonio Ares Camerino.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Salón de Plenos del Ayuntamiento de Cádiz (programa del Ateneo de Cádiz, calle Ancha 20, Cádiz)",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        }
+      ],
+      "importancia": 2,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "cal"
+      }
+    },
+    {
+      "id": "cajasol-puerto-1118",
+      "nombre": "Tertulia Lallemand: «Puerto de Cádiz. El futuro ya está en marcha»",
+      "categoria": "otros",
+      "fecha": "2026-11-18",
+      "hora_inicio": "19:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Entrada libre hasta completar aforo",
+      "publico": "Todos los públicos",
+      "descripcion": "Teófila Martínez, presidenta de la Autoridad Portuaria, analiza el futuro del puerto gaditano; presenta el periodista Ignacio Moreno Bustamante.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/puerto-de-cadiz-el-futuro-ya-esta-en-marcha/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio, 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/puerto-de-cadiz-el-futuro-ya-esta-en-marcha/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol Cádiz",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Teófila Martínez",
+          "instagram": null,
+          "buscado": "2026-11-17"
+        }
+      ],
+      "importancia": 3,
+      "imagen": {
+        "archivo": "img/evento-puerto-de-cadiz-el-futuro-ya-esta-en-marcha.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/18-NOV-LALLEMAND_1080x1080.jpg",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cartel de la tertulia Puerto de Cádiz"
+      }
+    },
+    {
+      "id": "villalta-1118",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-18",
+      "hora_inicio": "10:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "C/ San Francisco, 26, 11004 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Gran muestra del pintor Pérez Villalta con obra de distintas etapas.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "importancia": 1,
+      "horario_dia": "10:00–14:00 y 16:00–19:00",
+      "continuo": true,
+      "bloque": 1,
+      "imagen": {
+        "archivo": "img/-exposicion-guillermo-perez-villalta-el-laboratorio-infinito.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Exposición de Pérez Villalta"
+      }
+    }
   ]
 }
