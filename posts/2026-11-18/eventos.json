@@ -1,0 +1,695 @@
+{
+  "fecha": "2026-11-18",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "empleo-1118",
+      "nombre": "Espacio Empleo Cádiz · Feria de empleo",
+      "categoria": "otros",
+      "hora_inicio": "09:00",
+      "hora_fin": "14:00",
+      "lugar": "Antiguos Depósitos de Tabaco",
+      "direccion": "Avda. Marconi, 34, 11011 Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "etiqueta": "Último día",
+      "importancia": 3,
+      "descripcion": "Segunda y última jornada de la feria de empleo de la Mesa Municipal por el Empleo: unas 80 empresas y entidades con ofertas de trabajo, orientación y talleres sobre currículum, oposiciones y emprendimiento.",
+      "info": "Información y programa en empleo.cadiz.es",
+      "fuentes": [
+        {
+          "nombre": "Espacio Empleo Cádiz (Ayuntamiento)",
+          "url": "https://empleo.cadiz.es/"
+        },
+        {
+          "nombre": "Ayuntamiento de Cádiz – nota de prensa",
+          "url": "https://transparencia.cadiz.es/espacio-empleo-cadiz-reunira-a-80-empresas-y-entidades-con-mas-de-un-centenar-de-ofertas-de-trabajo-en-los-depositos-los-dias-17-y-18-de-noviembre/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "En los depósitos de Tabaco de Cádiz Avda. Marconi, 34 · 11011 Cádiz",
+        "url": "https://empleo.cadiz.es/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Antiguos Depósitos de Tabaco",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz (Mesa Municipal por el Empleo)",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "IFEF Cádiz",
+          "instagram": "ifef_cadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "UCAEmprende (Universidad de Cádiz)",
+          "instagram": "univcadiz"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/as-de-trabajo-en-los-depositos-los-dias-17-y-18-de-noviembre.jpg",
+        "url_origen": "https://transparencia.cadiz.es/espacio-empleo-cadiz-reunira-a-80-empresas-y-entidades-con-mas-de-un-centenar-de-ofertas-de-trabajo-en-los-depositos-los-dias-17-y-18-de-noviembre/",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Presentación de la feria Espacio Empleo Cádiz en los Depósitos de Tabaco",
+        "ajuste": "contain"
+      },
+      "fecha": "2026-11-18",
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "nexos-1118",
+      "nombre": "Exposición «Nexos. Del lienzo al objeto»",
+      "categoria": "exposición",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "etiqueta": "Hasta el 10 de enero",
+      "importancia": 2,
+      "descripcion": "Muestra temporal en la primera planta de Bellas Artes del Museo de Cádiz que tiende puentes entre la pintura y los objetos. Se visita en el horario del museo.",
+      "info": "Martes a sábado de 9:00 a 21:00",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+        },
+        {
+          "nombre": "Museo de Cádiz – ficha de espacio (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/espacios/museo-de-cadiz"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Museo de Cádiz",
+          "instagram": "museodecadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Junta de Andalucía – Consejería de Cultura",
+          "instagram": "culturacuenta"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/nexos-1118.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Fachada del Museo de Cádiz en la plaza de Mina",
+        "ajuste": "contain"
+      },
+      "fecha": "2026-11-18",
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "perezvillalta-1118",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El Laboratorio infinito»",
+      "categoria": "exposición",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "C/ San Francisco, 26, 11004 Cádiz",
+      "precio": null,
+      "publico": "Todos los públicos",
+      "etiqueta": "Hasta el 21 de febrero",
+      "importancia": 2,
+      "descripcion": "Más de cincuenta obras del artista tarifeño (pintura, escultura, dibujo, mobiliario y joyas) para asomarse a cinco décadas de procesos creativos. Abre de 10:00 a 14:00 y de 16:00 a 19:00.",
+      "info": "Lunes a sábado 10:00–14:00 y 16:00–19:00",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz (C/San Francisco, 26)",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Guillermo Pérez Villalta",
+          "instagram": null
+        }
+      ],
+      "imagen": {
+        "archivo": "img/-exposicion-guillermo-perez-villalta-el-laboratorio-infinito.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Obra de Guillermo Pérez Villalta en la exposición El Laboratorio infinito",
+        "ajuste": "contain"
+      },
+      "fecha": "2026-11-18",
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "divergencia-1118",
+      "nombre": "Exposición «Divergencia cognitiva» · Santiago Pina",
+      "categoria": "exposición",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "lugar": "Casa de Iberoamérica · Sala Blas de Lezo",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "etiqueta": "Hasta el 15 de enero",
+      "importancia": 1,
+      "descripcion": "Selección de trabajos del artista zaragozano Santiago Pina, comisariada por The Guide Artists. Recién inaugurada en la Sala Blas de Lezo.",
+      "info": "Lunes a viernes de 9:00 a 21:00",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica · Sala Blas de Lezo",
+        "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Pina",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "The Guide Artists",
+          "instagram": null
+        }
+      ],
+      "ilustracion": {
+        "motivos": [
+          "marco",
+          "bombilla",
+          "escultura"
+        ],
+        "fondo": "bruma"
+      },
+      "fecha": "2026-11-18",
+      "todo_el_dia": false,
+      "etiquetas_ig": [],
+      "imagen": {
+        "archivo": "posts/2026-11-18/img/divergencia-1118-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "marco",
+          "bombilla",
+          "escultura"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «Divergencia cognitiva» · Santiago Pina»: composición con marco, bombilla, escultura en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "manton-1118",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "lugar": "Casa de Iberoamérica · Sala Zitman",
+      "direccion": "Calle Concepción Arenal s/n, 11006 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "etiqueta": "Hasta el 9 de enero",
+      "importancia": 1,
+      "descripcion": "Un recorrido por la Ruta del Galeón y cómo el mantón de Manila llegó a vestir a las españolas, organizado con la asociación Hespérides.",
+      "info": "Lunes a viernes de 9:00 a 21:00",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica · Sala Zitman",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Asociación Hespérides",
+          "instagram": null
+        }
+      ],
+      "imagen": {
+        "archivo": "img/agenda-321-exposicion-donde-vas-con-manton-de-manila.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Cartel de la exposición sobre el mantón de Manila",
+        "ajuste": "contain"
+      },
+      "fecha": "2026-11-18",
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "cooperativas-1118",
+      "nombre": "Jornada: aspectos jurídicos de la economía social y las cooperativas",
+      "categoria": "otros",
+      "hora_inicio": "11:00",
+      "hora_fin": "15:00",
+      "lugar": "Facultad de Ciencias del Trabajo (UCA) · Salón de Grados",
+      "direccion": "Calle Enrique Villegas Vélez, 1, 11002 Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "importancia": 1,
+      "descripcion": "Jornada académica sobre el régimen jurídico de las sociedades cooperativas, dentro de la Semana Global del Emprendimiento. Acceso restringido: abierta a la comunidad universitaria hasta completar aforo.",
+      "info": "Acceso restringido (comunidad universitaria)",
+      "fuentes": [
+        {
+          "nombre": "Facultad de Ciencias del Trabajo (UCA)",
+          "url": "https://cctrabajo.uca.es/noticia/jornada-sobre-aspectos-juridicos-de-la-economia-social-las-sociedades-cooperativas/"
+        },
+        {
+          "nombre": "UCAEmprende – Semana Global del Emprendimiento",
+          "url": "https://emprende.uca.es/actividades/semana-global-del-emprendimiento-uca-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Facultad de Ciencias del Trabajo · Calle Enrique Villegas Vélez, 1, 11002 Cádiz",
+        "url": "https://cctrabajo.uca.es/noticia/jornada-sobre-aspectos-juridicos-de-la-economia-social-las-sociedades-cooperativas/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Facultad de Ciencias del Trabajo UCA",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Cátedra de Economía Social UCA",
+          "instagram": null
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Universidad de Cádiz",
+          "instagram": "univcadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "FAECTA",
+          "instagram": null
+        }
+      ],
+      "imagen": {
+        "archivo": "img/cooperativas-1118.jpg",
+        "url_origen": "https://cctrabajo.uca.es/wp-content/uploads/2026/11/Jornada-sobre-cooperativas-y-economia-social-470x300.png",
+        "fuente": "Universidad de Cádiz",
+        "alt_text": "Cartel de la jornada sobre cooperativas y economía social",
+        "ajuste": "contain"
+      },
+      "fecha": "2026-11-18",
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "rijnhout-1118",
+      "nombre": "Patricia Rijnhout y Julio Alexis Muñoz · «Ojillos negros»",
+      "categoria": "música",
+      "hora_inicio": "18:00",
+      "lugar": "Centro Cultural Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "importancia": 3,
+      "descripcion": "Recital de soprano y piano con canción española de amor y desamor, de las tonadillas de Granados en adelante. Dentro del Festival de Cádiz · Música Española.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/patricia-rijnhout-soprano-julio-alexis-munoz-piano-ojillos-negros"
+        },
+        {
+          "nombre": "Festival de Cádiz – programa 2026 (AAIICC)",
+          "url": "https://www.juntadeandalucia.es/aaiicc/aaiicc/festival-musica-cadiz/listado_por_programa?p=Conciertos"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Calle San Francisco, 26, Cádiz. Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/patricia-rijnhout-soprano-julio-alexis-munoz-piano-ojillos-negros"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Cultural Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Patricia Rijnhout",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "Julio Alexis Muñoz",
+          "instagram": null
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Diputación de Cádiz",
+          "instagram": "diputaciondecadiz"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/cia-rijnhout-soprano-julio-alexis-munoz-piano-ojillos-negros.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/patricia-rijnhout-soprano-julio-alexis-munoz-piano-ojillos-negros",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Patricia Rijnhout y Julio Alexis Muñoz",
+        "ajuste": "contain"
+      },
+      "fecha": "2026-11-18",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "ipse-1118",
+      "nombre": "Trío Ipse · Mozart, Turina y Shostakovich",
+      "categoria": "música",
+      "hora_inicio": "19:00",
+      "lugar": "Conservatorio Profesional de Música Manuel de Falla",
+      "direccion": "Avenida las Cortes de Cádiz, 3, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "importancia": 3,
+      "descripcion": "Piano, violín y violonchelo en un viaje de la claridad de Mozart al color de Turina y la intensidad de Shostakovich. Concierto del Festival de Cádiz · Música Española.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/trio-ipse-mozart-turina-y-shostakovich"
+        },
+        {
+          "nombre": "Festival de Cádiz – programa 2026 (AAIICC)",
+          "url": "https://www.juntadeandalucia.es/aaiicc/aaiicc/festival-musica-cadiz/listado_por_programa?p=Conciertos"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Avenida las Cortes de Cádiz, 3, Cádiz. Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/trio-ipse-mozart-turina-y-shostakovich"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Real Conservatorio Profesional de Música Manuel de Falla",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Trío Ipse",
+          "instagram": null
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Diputación de Cádiz",
+          "instagram": "diputaciondecadiz"
+        },
+        {
+          "rol": "patrocinador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/raldeandalucia-evento-trio-ipse-mozart-turina-y-shostakovich.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/trio-ipse-mozart-turina-y-shostakovich",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Trío Ipse con piano, violín y violonchelo",
+        "ajuste": "cover"
+      },
+      "fecha": "2026-11-18",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "ateneo-falla-1118",
+      "nombre": "Presentación de la Revista del Ateneo dedicada a Manuel de Falla",
+      "categoria": "otros",
+      "hora_inicio": "19:00",
+      "lugar": "Salón de Plenos del Ayuntamiento de Cádiz",
+      "direccion": "Plaza de San Juan de Dios, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "importancia": 2,
+      "descripcion": "El Ateneo presenta su número monográfico sobre Falla, a los 150 años de su nacimiento, con la intervención de Antonio Ares Camerino. Preside José Almenara.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz – programa de noviembre",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "MIÉRCOLES 18, 19:00h [Salón de Plenos del Ayuntamiento de Cádiz]",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Ayuntamiento de Cádiz (Salón de Plenos)",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Antonio Ares Camerino",
+          "instagram": null
+        }
+      ],
+      "imagen": {
+        "archivo": "img/noviembre-de-2026.jpg",
+        "url_origen": "https://ateneocadiz.es/noviembre-de-2026/",
+        "fuente": "Ateneo de Cádiz",
+        "alt_text": "Cartel de la programación del Ateneo de Cádiz en noviembre",
+        "ajuste": "contain"
+      },
+      "fecha": "2026-11-18",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "puerto-1118",
+      "nombre": "Tertulia Fernando Delgado Lallemand · «Puerto de Cádiz. El futuro ya está en marcha»",
+      "categoria": "otros",
+      "hora_inicio": "19:30",
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "importancia": 2,
+      "descripcion": "Teófila Martínez, presidenta de la Autoridad Portuaria, repasa los proyectos que marcarán el puerto gaditano en los próximos años. Presenta el periodista Ignacio Moreno Bustamante.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/puerto-de-cadiz-el-futuro-ya-esta-en-marcha/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Lugar: Fundación Cajasol Cádiz (Plaza de San Antonio, 14)",
+        "url": "https://fundacioncajasol.com/evento/puerto-de-cadiz-el-futuro-ya-esta-en-marcha/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Puerto de la Bahía de Cádiz",
+          "instagram": "puertodecadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Teófila Martínez",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ignacio Moreno Bustamante",
+          "instagram": null
+        }
+      ],
+      "imagen": {
+        "archivo": "img/evento-puerto-de-cadiz-el-futuro-ya-esta-en-marcha.jpg",
+        "url_origen": "https://fundacioncajasol.com/evento/puerto-de-cadiz-el-futuro-ya-esta-en-marcha/",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cartel de la tertulia sobre el futuro del Puerto de Cádiz",
+        "ajuste": "cover"
+      },
+      "fecha": "2026-11-18",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "fracaso-1118",
+      "nombre": "«El Éxito del Fracaso» · Semana Global del Emprendimiento UCA",
+      "categoria": "otros",
+      "hora_inicio": "19:30",
+      "hora_fin": "20:30",
+      "lugar": "Café Teatro Pay-Pay",
+      "direccion": "Calle Silencio, 1 (El Pópulo), Cádiz",
+      "precio": "Gratis",
+      "publico": "Adultos",
+      "importancia": 2,
+      "descripcion": "Charla-coloquio en la que tres emprendedores cuentan sus tropiezos y cambios de rumbo: Anna Frandsen, Ana Prieto Cabello y Antonio Romera «Chipi» (La Canalla). Modera Ramón Barrera.",
+      "info": "Inscripción previa, aforo limitado (formulario en emprende.uca.es)",
+      "fuentes": [
+        {
+          "nombre": "UCAEmprende (Universidad de Cádiz)",
+          "url": "https://emprende.uca.es/actividades/el-exito-del-fracaso-%c2%b7-gew-uca-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Café Teatro PayPay, en la calle Silencio, 1, en el barrio del Pópulo",
+        "url": "https://emprende.uca.es/actividades/el-exito-del-fracaso-%c2%b7-gew-uca-2026/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Café Teatro Pay-Pay",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "UCAEmprende",
+          "instagram": null
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Universidad de Cádiz",
+          "instagram": "univcadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Antonio Romera «Chipi» (La Canalla)",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "Anna Frandsen",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ana Prieto Cabello",
+          "instagram": null
+        },
+        {
+          "rol": "patrocinador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/fracaso-1118.jpg",
+        "url_origen": "https://emprende.uca.es/wp-content/uploads/2026/10/GEW-2026-Exito-Fracaso-Cabecera-v3-1024x341.png",
+        "fuente": "Universidad de Cádiz",
+        "alt_text": "Cabecera de El Éxito del Fracaso, Semana Global del Emprendimiento UCA",
+        "ajuste": "contain"
+      },
+      "fecha": "2026-11-18",
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    }
+  ]
+}

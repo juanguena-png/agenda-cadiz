@@ -1,0 +1,214 @@
+{
+  "variante": "A",
+  "paleta": 0,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "ifef_cadiz",
+        "univcadiz",
+        "casadeiberoamerica",
+        "museodecadiz",
+        "culturacuenta",
+        "fundunicaja",
+        "diputaciondecadiz",
+        "ateneocadiz",
+        "fundacioncajasol",
+        "puertodecadiz"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, miércoles 18 de noviembre. 11 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "empleo-1118",
+        "divergencia-1118"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "ifef_cadiz",
+        "univcadiz",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Espacio Empleo Cádiz · Feria de empleo (09:00, Antiguos Depósitos de Tabaco); Exposición «Divergencia cognitiva» · Santiago Pina (09:00, Casa de Iberoamérica · Sala Blas de Lezo)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "nexos-1118",
+        "manton-1118"
+      ],
+      "etiquetas": [
+        "museodecadiz",
+        "culturacuenta",
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Nexos. Del lienzo al objeto» (09:00, Museo de Cádiz); Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "perezvillalta-1118",
+        "cooperativas-1118"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "univcadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El Laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz); Jornada: aspectos jurídicos de la economía social y las cooperativas (11:00, Facultad de Ciencias del Trabajo (UCA) · Salón de Grados)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "rijnhout-1118"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "culturacuenta",
+        "ayuntamientocadiz",
+        "diputaciondecadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Patricia Rijnhout y Julio Alexis Muñoz · «Ojillos negros» (18:00, Centro Cultural Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-falla-1118"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "ateneocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación de la Revista del Ateneo dedicada a Manuel de Falla (19:00, Salón de Plenos del Ayuntamiento de Cádiz)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "ipse-1118"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "ayuntamientocadiz",
+        "diputaciondecadiz",
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Trío Ipse · Mozart, Turina y Shostakovich (19:00, Conservatorio Profesional de Música Manuel de Falla)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "puerto-1118"
+      ],
+      "etiquetas": [
+        "fundacioncajasol",
+        "puertodecadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tertulia Fernando Delgado Lallemand · «Puerto de Cádiz. El futuro ya está en marcha» (19:30, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "fracaso-1118"
+      ],
+      "etiquetas": [
+        "univcadiz",
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: «El Éxito del Fracaso» · Semana Global del Emprendimiento UCA (19:30, Café Teatro Pay-Pay)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "empleo-1118",
+      "alt_text": "Presentación de la feria Espacio Empleo Cádiz en los Depósitos de Tabaco"
+    },
+    {
+      "archivo": "02.png",
+      "id": "divergencia-1118",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva» · Santiago Pina»: composición con marco, bombilla, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "03.png",
+      "id": "nexos-1118",
+      "alt_text": "Fachada del Museo de Cádiz en la plaza de Mina"
+    },
+    {
+      "archivo": "04.png",
+      "id": "manton-1118",
+      "alt_text": "Cartel de la exposición sobre el mantón de Manila"
+    },
+    {
+      "archivo": "05.png",
+      "id": "perezvillalta-1118",
+      "alt_text": "Obra de Guillermo Pérez Villalta en la exposición El Laboratorio infinito"
+    },
+    {
+      "archivo": "06.png",
+      "id": "cooperativas-1118",
+      "alt_text": "Cartel de la jornada sobre cooperativas y economía social"
+    },
+    {
+      "archivo": "07.png",
+      "id": "rijnhout-1118",
+      "alt_text": "Patricia Rijnhout y Julio Alexis Muñoz"
+    },
+    {
+      "archivo": "08.png",
+      "id": "ateneo-falla-1118",
+      "alt_text": "Cartel de la programación del Ateneo de Cádiz en noviembre"
+    },
+    {
+      "archivo": "09.png",
+      "id": "ipse-1118",
+      "alt_text": "Trío Ipse con piano, violín y violonchelo"
+    },
+    {
+      "archivo": "10.png",
+      "id": "puerto-1118",
+      "alt_text": "Cartel de la tertulia sobre el futuro del Puerto de Cádiz"
+    },
+    {
+      "archivo": "11.png",
+      "id": "fracaso-1118",
+      "alt_text": "Cabecera de El Éxito del Fracaso, Semana Global del Emprendimiento UCA"
+    },
+    {
+      "archivo": "12.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "puerto-1118",
+        "fracaso-1118"
+      ],
+      "alt_text": "Esta noche en Cádiz: Tertulia Fernando Delgado Lallemand · «Puerto de Cádiz. El futuro ya está en marcha»; «El Éxito del Fracaso» · Semana Global del Emprendimiento UCA"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+ "fecha": "2026-11-18",
+ "descartados": [
+  {
+   "nombre": "Programación Teatro del Títere de la Tía Norica (oct–dic)",
+   "motivo": "No hay función el 18/11 (la más cercana, 27/11)",
+   "url": "https://institucional.cadiz.es/evento/programaci%C3%B3n-teatro-del-t%C3%ADtere-de-la-t%C3%ADa-norica-octubre-diciembre-2026"
+  },
+  {
+   "nombre": "Festival Música Española (ficha genérica VivaCádiz/Bacantix)",
+   "motivo": "Ficha genérica del festival; sus dos conciertos del 18 se publican por separado (Rijnhout y Trío Ipse)",
+   "url": "https://vivacadiz.com/evento/festival-musica-espanola-cadiz-2026"
+  },
+  {
+   "nombre": "Saurom",
+   "motivo": "Teatro Villamarta, Jerez de la Frontera (regla 1)",
+   "url": "https://www.guiadecadiz.com/es/agenda/noviembre/2026/saurom"
+  },
+  {
+   "nombre": "XXXIII Exaltación de La Bulería",
+   "motivo": "Peña La Bulería, Jerez; sin sesión el 18",
+   "url": "https://www.guiadecadiz.com/es/agenda/octubre/2026/xxxiii-exaltacion-buleria"
+  },
+  {
+   "nombre": "Día del Flamenco en San Fernando 2026",
+   "motivo": "San Fernando (regla 1)",
+   "url": "https://www.guiadecadiz.com/es/agenda/noviembre/2026/dia-del-flamenco-en-san-fernando-2026"
+  },
+  {
+   "nombre": "Singing & Emotional Regulation",
+   "motivo": "Online (criterio 4)",
+   "url": "https://www.eventbrite.com/e/singing-emotional-regulation-tickets-2001158778777"
+  },
+  {
+   "nombre": "Make Authentic Espadrilles in Seville!",
+   "motivo": "Sevilla (regla 1)",
+   "url": "https://www.eventbrite.es/e/make-authentic-espadrilles-in-seville-tickets-1980621227408"
+  },
+  {
+   "nombre": "Noticias de prensa sin evento (bola de fuego, accidente A-4, hidrógeno en Algeciras, Roma en Ubrique, Ferran Adrià en Jerez)",
+   "motivo": "No son eventos o son de otros municipios",
+   "url": "https://www.cadizdirecto.com/"
+  },
+  {
+   "nombre": "Circuito Andaluz de Peñas 2026 (provincia)",
+   "motivo": "Criterio 3: programa abierto; sin actuaciones el 17-19/11",
+   "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/circuito-andaluz-de-penas-2026-provincia-de-cadiz"
+  },
+  {
+   "nombre": "Jornadas Europeas de Patrimonio (provincia)",
+   "motivo": "Criterio 3: ficha y PDF sin actividades el 18/11 en Cádiz capital",
+   "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/jornadas-europeas-de-patrimonio-en-cadiz"
+  },
+  {
+   "nombre": "Día del Flamenco en Andalucía 2026 (provincia)",
+   "motivo": "Criterio 3: sin actividades el 18/11 (en la capital, 15 y 17/11)",
+   "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/dia-del-flamenco-en-andalucia-2026-provincia-de-cadiz"
+  },
+  {
+   "nombre": "IV Congreso Iberoamericano de Política Criminal",
+   "motivo": "Facultad de Derecho, Campus de Jerez (regla 1)",
+   "url": "https://www.uca.es/evento/iv-congreso-iberoamericano-de-politica-criminal-diversidad-social-y-prevencion-del-delito-nuevas-fuentes-de-la-peligrosidad-social/"
+  },
+  {
+   "nombre": "II Congreso RH2Enovables",
+   "motivo": "Algeciras (regla 1)",
+   "url": "https://rh2edincongreso.com/"
+  },
+  {
+   "nombre": "Taller marketing digital con IA (UCA Emprende)",
+   "motivo": "Campus de Jerez (regla 1)",
+   "url": "https://emprende.uca.es/actividades/taller-plan-de-marketing-y-estrategia-digital-para-empresas-con-ia/"
+  },
+  {
+   "nombre": "IA para Emprendedores (SECOT) / webinario Canva",
+   "motivo": "Online (criterio 4)",
+   "url": "https://agendaemprende.andaluciaemprende.es/evento/18112026_secot/"
+  },
+  {
+   "nombre": "Storytelling: cómo contar tu proyecto (UCA)",
+   "motivo": "No hay sesión el 18 (es el 19/11)",
+   "url": "https://emprende.uca.es/actividades/storytelling-como-contar-tu-proyecto/"
+  },
+  {
+   "nombre": "SilverSneakers Stretch & Balance (Oazis)",
+   "motivo": "Cadiz de EE. UU., no Cádiz capital",
+   "url": "https://oazis.app/es/evento/silversneakers-stretch-balance-cadiz-2026-11-18"
+  },
+  {
+   "nombre": "Realidad Virtual entre el mar y las estrellas (Puerto América)",
+   "motivo": "Fever y Oazis discrepan en la fecha de inicio; actividad privada sin confirmar en el organizador",
+   "url": "https://feverup.com/m/533501"
+  },
+  {
+   "nombre": "Juegos de detectives, free tours y visitas privadas (Fever, Guruwalk, Civitatis)",
+   "motivo": "Turísticas privadas sin horario del 18 confirmado (criterio 19); no hace falta relleno (11 temporales)",
+   "url": "https://feverup.com/es/cadiz"
+  },
+  {
+   "nombre": "FAIA Cádiz (18-21/11)",
+   "motivo": "Solo resumen de buscador de cadizturismo.com (403), sin recinto ni municipio: no verificable",
+   "url": "https://www.cadizturismo.com/es/todos-los-eventos"
+  },
+  {
+   "nombre": "Visitas teatralizadas «La esencia del músico» (Falla)",
+   "motivo": "Solo 25 y 26/11",
+   "url": "https://institucional.cadiz.es/evento/visitas-teatralizadas-la-esencia-del-m%C3%BAsico"
+  },
+  {
+   "nombre": "Sala Rivadavia (Diputación)",
+   "motivo": "Sin exposición el 18 (la siguiente abre el 19/11)",
+   "url": "https://dipucadiz.es/"
+  },
+  {
+   "nombre": "Cádiz CF",
+   "motivo": "No juega en casa el 18/11",
+   "url": "https://www.cadizcf.com/partidos"
+  },
+  {
+   "nombre": "Artículos de 18 de noviembre de otros años (María Dueñas 2015, peñas 2016, flashmob 2017, Semana Ecofeminista 2019)",
+   "motivo": "No son de 2026",
+   "url": "https://www.diariobahiadecadiz.com/"
+  },
+  {
+   "nombre": "Eventos permanentes (rutas, tours, exposiciones permanentes)",
+   "motivo": "Solo relleno «Siempre abierto»; hay 11 planes temporales",
+   "url": "posts/2026-11-18/candidatos_compacto.json"
+  }
+ ]
+}
