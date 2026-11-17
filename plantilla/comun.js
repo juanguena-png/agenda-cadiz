@@ -19,7 +19,10 @@ async function listo() {
 }
 
 // ---- Identidad modular ----
-function aplicarTema(d) { document.body.dataset.tema = d.tema || "base"; }
+function aplicarTema(d) {
+  document.body.dataset.tema = d.tema || "base";
+  if (d.tinte !== undefined && d.tinte !== null) document.body.dataset.tinte = d.tinte;  // color del día en diapositivas, cierre y stories
+}
 function logo(d, cls = "", tam = 100) {
   const pre = d.prefijo || "Planes en", ciudad = d.ciudad || "Cádiz";
   return `<div class="logo ${cls}" style="font-size:${tam}px"><span class="pre">${esc(pre)}</span><span class="ciudad">${esc(ciudad)}</span></div>`;
