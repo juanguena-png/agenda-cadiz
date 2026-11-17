@@ -1,0 +1,43 @@
+{
+  "fecha": "2026-11-17",
+  "tipo": "extra",
+  "nota": "Story extra autorizada por el titular (aportación de un usuario por mensaje, verificada en Diario de Cádiz). No altera el carrusel ya publicado.",
+  "eventos": [
+    {
+      "id": "palabra-encendida-17nov",
+      "nombre": "La Palabra Encendida: recital poético sobre San Juan de la Cruz",
+      "categoria": "otros",
+      "fecha": "2026-11-17",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Convento de San Francisco (sacristía)",
+      "direccion": null,
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Encuentro cultural y recital de poesía dentro del Año Jubilar dedicado a San Juan de la Cruz, con el escritor Antonio Bocanegra y Margarita Morales. Entrada libre.",
+      "info": "Entrada gratuita y libre",
+      "imagen": {
+        "archivo": "img/palabra-encendida-17nov.jpg",
+        "url_origen": "https://static.grupojoly.com/clip/9e2e7bcb-7bbf-4374-9bf7-6069545f2626_facebook-aspect-ratio_default_0.jpg",
+        "fuente": "Diario de Cádiz",
+        "alt_text": "Cartel del recital poético: retrato de San Juan de la Cruz junto al claustro del convento de San Francisco de Cádiz"
+      },
+      "fuentes": [
+        {
+          "nombre": "Diario de Cádiz",
+          "url": "https://www.diariodecadiz.es/cadiz/encuentro-poetico-san-juan-cruz_0_2008521913.html"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "sacristía del convento de San Francisco en Cádiz",
+        "url": "https://www.diariodecadiz.es/cadiz/encuentro-poetico-san-juan-cruz_0_2008521913.html"
+      },
+      "entidades": [
+        {"rol": "lugar", "nombre": "Convento de San Francisco (Cádiz)", "instagram": null, "buscado": "2026-11-17"},
+        {"rol": "artista", "nombre": "Antonio Bocanegra", "instagram": null, "buscado": "2026-11-17"}
+      ]
+    }
+  ]
+}
