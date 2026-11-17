@@ -1,0 +1,26 @@
+{
+  "publicaciones": {
+    "extra/stories/01.png": {
+      "instagram": {
+        "ts": "2026-11-17T10:22:55+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17955907374335959",
+          "https://www.instagram.com/stories/planesencadiz/4032297723344766112"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-17T10:23:01+01:00",
+        "estado": "publicado",
+        "resultado": "1760487775669516"
+      }
+    }
+  },
+  "registro": [],
+  "revision_final": {
+    "hecha": true,
+    "ts": "2026-11-17T10:22:43+01:00",
+    "nota": "contrastado con Diario de Cádiz el 17/11; autorizado por el titular"
+  },
+  "ultima_ejecucion": "2026-11-17T10:23:01+01:00"
+}
