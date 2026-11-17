@@ -554,6 +554,37 @@ def detalle(url):
         return f"[no se pudo leer: {e}]"
 
 
+def compactar(carpeta, cands, pistas, consultas):
+    """candidatos_compacto.json: lo que el agente necesita leer, sin texto en bruto ni duplicados (ahorra ~95 % de tokens).
+    candidatos.json sigue completo para consultar un caso concreto (buscar por `url`)."""
+    import unicodedata
+    def clave(c):
+        t = unicodedata.normalize("NFD", (c.get("nombre") or "").lower())
+        t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
+        return (c.get("fecha"), re.sub(r"[^a-z0-9]+", " ", t).strip()[:45])
+    grupos = {}
+    for c in cands:
+        g = grupos.setdefault(clave(c), {"nombre": c.get("nombre"), "fecha": c.get("fecha"), "fuentes": []})
+        for k in ("fecha_inicio_evento", "fecha_fin_evento", "hora_inicio", "lugar", "direccion", "permanente", "multidia", "provincial", "pista_capital"):
+            if g.get(k) in (None, "") and c.get(k) not in (None, ""):
+                g[k] = c.get(k)
+        for k, n in (("horario_texto", 120), ("precio_texto", 60), ("detalle_texto", 350), ("descripcion_fuente", 200)):
+            if not g.get(k) and c.get(k):
+                g[k] = re.sub(r"\s+", " ", str(c[k]))[:n]
+        g["fuentes"].append({"fuente": c.get("fuente"), "tipo": c.get("tipo_fuente"), "url": c.get("url")})
+        g["imagen_oficial"] = g.get("imagen_oficial") or c.get("imagen_oficial")
+    temporales = [g for g in grupos.values() if not g.get("permanente")]
+    permanentes = sorted({g["nombre"] for g in grupos.values() if g.get("permanente")})
+    ag.guardar_json(carpeta / "candidatos_compacto.json", {
+        "generado": ag.ahora().isoformat(timespec="seconds"),
+        "instruccion": ("Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). "
+                        "Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url."),
+        "temporales": sorted(temporales, key=lambda g: (g.get("fecha") or "", g.get("hora_inicio") or "")),
+        "permanentes_solo_relleno": permanentes, "pistas_por_dia": pistas,
+        "consultas_web": [{"fuente": q["fuente"], "busqueda": q.get("busqueda"), "urls": q.get("urls")} for q in consultas]})
+    print(f"candidatos_compacto.json: {len(temporales)} eventos temporales únicos (de {len(cands)} candidatos), {len(permanentes)} permanentes")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fecha", default=ag.hoy().isoformat())
@@ -612,6 +643,7 @@ def main():
     with open(ag.RAIZ / "registros" / "cobertura.jsonl", "a", encoding="utf-8") as fh:
         fh.write(json.dumps({"ts": ag.ahora().isoformat(timespec="seconds"), "ventana": [ini.isoformat(), fin.isoformat()], "candidatos_automaticos_por_dia": {d_: len(v) for d_, v in sorted(cob.items())},
                              "fuentes_ok": sum(f["estado"] == "ok" for f in fuentes_log), "fuentes_web": len(consultas)}, ensure_ascii=False) + "\n")
+    compactar(carpeta, cands, pistas, consultas)
     # Pistas de los organizadores (Instagram, API oficial business_discovery) -> candidatos_ig.json. Si falla, no frena la recopilación.
     try:
         import organizadores

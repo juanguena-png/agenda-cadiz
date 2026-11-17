@@ -88,7 +88,7 @@ El agente debe dejar la base de fuentes **más rica cada día que pasa**. En la 
 ## Flujo del agente (comandos)
 
 ```
-python recopilar.py --fecha F [--hasta G]   # candidatos en bruto -> posts/F/candidatos.json (+ registros/fuentes.log)
+python recopilar.py --fecha F [--hasta G]   # -> posts/F/candidatos_compacto.json (LÉELO A ÉL: ~50 KB, sin duplicados) + candidatos.json (bruto, ~1 MB: solo para buscar un caso por url) + candidatos_ig.json + registros/fuentes.log
 # TÚ: verificar Cádiz capital, contrastar, redactar, descargar imágenes, escribir posts/F/eventos.json y caption.txt
 python render.py --fecha F [--tipo diario|finde|mensual]   # carrusel, stories (diario), noche (diario); con finde solo prepara imágenes/ilustraciones para el reel (no se publica carrusel)
 python reel.py --fecha F                    # solo jueves (usa posts/F/finde/)
