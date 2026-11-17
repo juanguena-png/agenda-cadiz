@@ -593,7 +593,7 @@ def main():
     carpeta = ag.dir_dia(*(a.destino.split("/") if a.destino else [ini]))
     consultas = [r["consulta_web"] for r in resultados if r.get("consulta_web")]
     for c in consultas:  # búsquedas listas para el agente, con el mes/año de la ventana
-        c["busqueda"] = c["busqueda"].replace("{mes}", ag.MESES[ini.month - 1]).replace("{año}", str(ini.year)).replace("{fecha}", f"{ini.day} de {ag.MESES[ini.month - 1]} de {ini.year}")
+        c["busqueda"] = c["busqueda"].replace("{mes}", ag.MESES[ini.month - 1]).replace("{año}", str(ini.year)).replace("{fecha}", f"{ini.day} de {ag.MESES[ini.month - 1]} de {ini.year}").replace("{diasemana}", ["lunes", "martes", "miércoles", "jueves", "viernes", "sábados", "domingos"][ini.weekday()])
     pistas = {}
     for r_ in resultados:
         for dia, frs in (r_.get("fragmentos") or {}).items():
@@ -612,6 +612,12 @@ def main():
     with open(ag.RAIZ / "registros" / "cobertura.jsonl", "a", encoding="utf-8") as fh:
         fh.write(json.dumps({"ts": ag.ahora().isoformat(timespec="seconds"), "ventana": [ini.isoformat(), fin.isoformat()], "candidatos_automaticos_por_dia": {d_: len(v) for d_, v in sorted(cob.items())},
                              "fuentes_ok": sum(f["estado"] == "ok" for f in fuentes_log), "fuentes_web": len(consultas)}, ensure_ascii=False) + "\n")
+    # Pistas de los organizadores (Instagram, API oficial business_discovery) -> candidatos_ig.json. Si falla, no frena la recopilación.
+    try:
+        import organizadores
+        organizadores.recopilar(ini, fin, carpeta)
+    except Exception as e:
+        print(f"Aviso: no se pudieron leer los organizadores de Instagram ({e}). Ejecuta `python organizadores.py --fecha {ini}`.")
     print(f"{len(consultas)} fuentes para consultar con WebFetch/WebSearch (ver consultas_web en candidatos.json)")
     print(f"{len(cands)} candidatos en la ventana; fuentes ok: {sum(f['estado'] == 'ok' for f in fuentes_log)}/{len(fuentes_log)}")
     fallos = [f["nombre"] for f in fuentes_log if f["estado"] not in ("ok", "web", "inactiva")]

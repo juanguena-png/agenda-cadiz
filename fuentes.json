@@ -1152,6 +1152,131 @@
    "provincial": true,
    "nota": "Complementa a vivacadiz.com/eventos/cadiz",
    "id": 103
+  },
+  {
+   "id": 104,
+   "nombre": "Archivo Histórico Provincial de Cádiz – ciclos y charlas",
+   "tipo": "oficial",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "Archivo Histórico Provincial de Cádiz actividades {mes} {año} charlas conferencias ciclo (Junta de Andalucía, Agenda Cultural de Andalucía)",
+   "nota": "Ciclos de charlas-debate y exposiciones (p. ej. «Cádiz y Estados Unidos», 16-21/11/2026). Junta de Andalucía. Confirmar sede en Cádiz capital en la ficha. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 105,
+   "nombre": "Biblioteca Pública Provincial de Cádiz – sesiones y talleres semanales",
+   "tipo": "oficial",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "Biblioteca Provincial de Cádiz {fecha} sesión de escritura club de lectura taller presentación",
+   "nota": "Actividades semanales (sesiones de escritura, clubes de lectura) además de las puntuales. Criterio 6. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 106,
+   "nombre": "Hospital Universitario Puerta del Mar – jornadas abiertas",
+   "tipo": "oficial",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "Hospital Puerta del Mar Cádiz jornada abierta {fecha} salón de actos asociación pacientes",
+   "nota": "Jornadas de asociaciones de pacientes con entrada libre (p. ej. ALCER). Solo las abiertas al público. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 107,
+   "nombre": "CEPer Viento de Levante (Cádiz) – actividades abiertas",
+   "tipo": "oficial",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "CEPer Viento de Levante Cádiz {mes} {año} actividades ponencia taller",
+   "nota": "Centro de educación permanente: días internacionales, talleres y ponencias abiertas. Verificar dirección en Cádiz capital. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 108,
+   "nombre": "UCA Emprende – actividades (Semana Global del Emprendimiento y otras)",
+   "tipo": "oficial",
+   "urls": [
+    "https://emprende.uca.es/actividades/"
+   ],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "UCA Emprende actividades {fecha} Cádiz",
+   "nota": "¡Ojo! La UCA tiene campus en Puerto Real, Jerez y Algeciras: solo actividades con sede confirmada en Cádiz capital. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 109,
+   "nombre": "Empleo Cádiz – Mesa Municipal por el Empleo (Depósitos de Tabaco)",
+   "tipo": "oficial",
+   "urls": [
+    "https://empleo.cadiz.es/"
+   ],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "empleo.cadiz.es Espacio Empleo Cádiz {mes} {año} jornadas Antiguos Depósitos de Tabaco",
+   "nota": "Jornadas y ferias de empleo y emprendimiento en los Antiguos Depósitos de Tabaco (Av. Marconi 34). (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 110,
+   "nombre": "Centros culturales municipales – actividades semanales (El Bidón, Ancha 16, Fernando Quiñones)",
+   "tipo": "oficial",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "Centro Cultural El Bidón Cádiz talleres semanales {mes} {año}; Ancha 16 Cádiz conferencia {fecha}",
+   "nota": "Talleres semanales abiertos (dibujo, ilustración…) y conferencias (p. ej. Cádiz Ilustrada en Ancha 16). Criterio 6. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 111,
+   "nombre": "Asociaciones de vecinos de Cádiz – actividades abiertas",
+   "tipo": "asociacion",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "asociación de vecinos Cádiz actividad {fecha} OR \"todos los {diasemana}\" taller grupo abierto Cádiz",
+   "nota": "Biodanza, talleres, charlas y fiestas de barrio abiertas a todo el público (p. ej. A.VV. Entre Dos Puentes Gaditanos, C/ Brigadier Tofiño). (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 112,
+   "nombre": "Ciclos de cine en salas (cine club y clásicos)",
+   "tipo": "recinto",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "ciclo cine clásicos Cádiz {fecha} V.O.S.E. cinefórum",
+   "nota": "Solo ciclos con pase propio (criterio 10). Comprobar SIEMPRE que la sala está en Cádiz capital (regla 1): algunos multicines «de la Bahía de Cádiz» están en otros municipios. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 113,
+   "nombre": "Radio y medios: programas en directo con público en Cádiz",
+   "tipo": "prensa",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "programa en directo con público Cádiz {fecha} SER Radio Cádiz Onda Cero Canal Sur",
+   "nota": "Programas grabados con público (p. ej. Hoy por Hoy Cádiz en el Centro Cultural Fundación Unicaja). Confirmar acceso libre. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
+  },
+  {
+   "id": 114,
+   "nombre": "Fundación Unicaja Cádiz – citas literarias y actos",
+   "tipo": "recinto",
+   "urls": [],
+   "parser": "texto",
+   "provincial": false,
+   "via": "web",
+   "consulta": "Centro Cultural Fundación Unicaja Cádiz {fecha} presentación charla",
+   "nota": "Calle San Francisco 26, Cádiz. (añadida el 17/11/2026 tras comparar con @gaditanisimamente)"
   }
  ]
 }

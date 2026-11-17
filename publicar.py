@@ -34,6 +34,20 @@ class ErrorAPI(Exception):
 
 
 # ---------------------------------------------------------------- capa HTTP
+MIN_COBERTURA_WEB = 0.9  # parte de las fuentes «via: web» + búsquedas de descubrimiento que hay que haber leído antes de publicar
+
+
+def cobertura_web(carpeta, estado):
+    """(ok, faltan, total): compara consultas_web de candidatos.json con estado.json → fuentes_leidas."""
+    cand = ag.cargar_json(carpeta / "candidatos.json", {}) or {}
+    requeridas = [q.get("fuente") for q in cand.get("consultas_web", []) if q.get("fuente")]
+    if not requeridas:
+        return True, [], 0
+    leidas = {str(x).strip().lower() for x in (estado.get("fuentes_leidas") or [])}
+    faltan = [n for n in requeridas if n.strip().lower() not in leidas]
+    return (len(requeridas) - len(faltan)) / len(requeridas) >= MIN_COBERTURA_WEB, faltan, len(requeridas)
+
+
 def api(metodo, ruta, reintentos=4, **params):
     """Llamada a la Graph API con reintentos y espera exponencial ante errores temporales.
     El token (META_TOKEN) se envía como cabecera Bearer solo si es visible; si no, lo añade el proxy del entorno."""
@@ -295,13 +309,13 @@ def intentar(estado, clave, plataforma, fn, *a):
 
 
 def esperar_hora(hhmm):
-    """Bloquea hasta HH:MM (Europe/Madrid) para publicar en punto; si ya pasó, sigue (máx. 100 min de espera)."""
+    """Bloquea hasta HH:MM (Europe/Madrid) para publicar en punto; si ya pasó, sigue (máx. 150 min de espera)."""
     if not hhmm:
         return
     h, m = map(int, hhmm.split(":"))
     objetivo = ag.ahora().replace(hour=h, minute=m, second=0, microsecond=0)
     falta = (objetivo - ag.ahora()).total_seconds()
-    if 0 < falta <= 100 * 60:
+    if 0 < falta <= 150 * 60:
         print(f"Esperando {int(falta)} s hasta las {hhmm}")
         time.sleep(falta)
 
@@ -457,6 +471,16 @@ if __name__ == "__main__":
     elif a.marcar_revision:
         c = carpetas(a.fecha, a.tipo)
         e = ag.cargar_estado(c)
+        if a.tipo in ("diario", "reel", "mensual"):
+            ok, faltan, total = cobertura_web(c, e)
+            if not ok:
+                notificar.enviar(f"Fuentes web sin leer ({a.tipo} {a.fecha})",
+                                 f"El agente intentó publicar sin consultar {len(faltan)} de {total} fuentes web y búsquedas de descubrimiento:\n- "
+                                 + "\n- ".join(faltan[:60]), clave=f"fuentes-sin-leer-{a.tipo}-{a.fecha}")
+                ag.salir(f"No se puede marcar la revisión: faltan {len(faltan)} de {total} fuentes web por consultar (mínimo {int(MIN_COBERTURA_WEB*100)} %). "
+                         "Consúltalas con WebFetch/WebSearch y anota CADA nombre en estado.json → fuentes_leidas (y en descubiertos_web las que dieron eventos):\n- "
+                         + "\n- ".join(faltan))
+            print(f"Fuentes web consultadas: {total - len(faltan)}/{total}")
         e["revision_final"] = {"hecha": True, "ts": ag.ahora().isoformat(timespec="seconds")}
         ag.guardar_estado(c, e)
         print("Revisión final registrada.")
