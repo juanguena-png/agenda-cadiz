@@ -68,7 +68,8 @@
     },
     "arteliseando": {
       "interacciones": [
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-17"
       ]
     },
     "cadizclubdefutbol": {
@@ -291,12 +292,14 @@
     },
     "catedraldecadiz": {
       "interacciones": [
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-17"
       ]
     },
     "cadizturismo": {
       "interacciones": [
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-17"
       ]
     },
     "agendadecadiz": {
@@ -362,6 +365,16 @@
     "institutoandaluzdelflamenco": {
       "interacciones": [
         "2026-11-15"
+      ]
+    },
+    "fundacionory": {
+      "interacciones": [
+        "2026-11-17"
+      ]
+    },
+    "librerialeolo": {
+      "interacciones": [
+        "2026-11-17"
       ]
     }
   }
