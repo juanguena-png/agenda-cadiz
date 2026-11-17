@@ -14,14 +14,14 @@
         "ayuntamientocadiz",
         "ifef_cadiz",
         "univcadiz",
-        "casadeiberoamerica",
-        "museodecadiz",
-        "culturacuenta",
         "fundunicaja",
+        "culturacuenta",
         "diputaciondecadiz",
         "ateneocadiz",
         "fundacioncajasol",
-        "puertodecadiz"
+        "puertodecadiz",
+        "casadeiberoamerica",
+        "museodecadiz"
       ],
       "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, miércoles 18 de noviembre. 11 planes y eventos."
     },
@@ -30,98 +30,50 @@
       "tipo": "eventos",
       "ids": [
         "empleo-1118",
-        "divergencia-1118"
+        "cooperativas-1118"
       ],
       "etiquetas": [
         "ayuntamientocadiz",
         "ifef_cadiz",
-        "univcadiz",
-        "casadeiberoamerica"
+        "univcadiz"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Espacio Empleo Cádiz · Feria de empleo (09:00, Antiguos Depósitos de Tabaco); Exposición «Divergencia cognitiva» · Santiago Pina (09:00, Casa de Iberoamérica · Sala Blas de Lezo)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Espacio Empleo Cádiz · Feria de empleo (09:00, Antiguos Depósitos de Tabaco); Jornada: aspectos jurídicos de la economía social y las cooperativas (11:00, Facultad de Ciencias del Trabajo (UCA) · Salón de Grados)"
     },
     {
       "archivo": "03.png",
       "tipo": "eventos",
       "ids": [
-        "nexos-1118",
-        "manton-1118"
+        "rijnhout-1118",
+        "ateneo-falla-1118"
       ],
       "etiquetas": [
-        "museodecadiz",
+        "fundunicaja",
         "culturacuenta",
-        "casadeiberoamerica",
-        "ayuntamientocadiz"
+        "ayuntamientocadiz",
+        "diputaciondecadiz",
+        "ateneocadiz"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Nexos. Del lienzo al objeto» (09:00, Museo de Cádiz); Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Patricia Rijnhout y Julio Alexis Muñoz · «Ojillos negros» (18:00, Centro Cultural Fundación Unicaja Cádiz); Presentación de la Revista del Ateneo dedicada a Manuel de Falla (19:00, Salón de Plenos del Ayuntamiento de Cádiz)"
     },
     {
       "archivo": "04.png",
       "tipo": "eventos",
       "ids": [
-        "perezvillalta-1118",
-        "cooperativas-1118"
-      ],
-      "etiquetas": [
-        "fundunicaja",
-        "univcadiz"
-      ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El Laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz); Jornada: aspectos jurídicos de la economía social y las cooperativas (11:00, Facultad de Ciencias del Trabajo (UCA) · Salón de Grados)"
-    },
-    {
-      "archivo": "05.png",
-      "tipo": "eventos",
-      "ids": [
-        "rijnhout-1118"
-      ],
-      "etiquetas": [
-        "fundunicaja",
-        "culturacuenta",
-        "ayuntamientocadiz",
-        "diputaciondecadiz"
-      ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Patricia Rijnhout y Julio Alexis Muñoz · «Ojillos negros» (18:00, Centro Cultural Fundación Unicaja Cádiz)"
-    },
-    {
-      "archivo": "06.png",
-      "tipo": "eventos",
-      "ids": [
-        "ateneo-falla-1118"
-      ],
-      "etiquetas": [
-        "ayuntamientocadiz",
-        "ateneocadiz"
-      ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación de la Revista del Ateneo dedicada a Manuel de Falla (19:00, Salón de Plenos del Ayuntamiento de Cádiz)"
-    },
-    {
-      "archivo": "07.png",
-      "tipo": "eventos",
-      "ids": [
-        "ipse-1118"
+        "ipse-1118",
+        "puerto-1118"
       ],
       "etiquetas": [
         "culturacuenta",
         "ayuntamientocadiz",
         "diputaciondecadiz",
-        "fundunicaja"
-      ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Trío Ipse · Mozart, Turina y Shostakovich (19:00, Conservatorio Profesional de Música Manuel de Falla)"
-    },
-    {
-      "archivo": "08.png",
-      "tipo": "eventos",
-      "ids": [
-        "puerto-1118"
-      ],
-      "etiquetas": [
+        "fundunicaja",
         "fundacioncajasol",
         "puertodecadiz"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tertulia Fernando Delgado Lallemand · «Puerto de Cádiz. El futuro ya está en marcha» (19:30, Fundación Cajasol (Casa Pemán))"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Trío Ipse · Mozart, Turina y Shostakovich (19:00, Conservatorio Profesional de Música Manuel de Falla); Tertulia Fernando Delgado Lallemand · «Puerto de Cádiz. El futuro ya está en marcha» (19:30, Fundación Cajasol (Casa Pemán))"
     },
     {
-      "archivo": "09.png",
+      "archivo": "05.png",
       "tipo": "eventos",
       "ids": [
         "fracaso-1118"
@@ -131,6 +83,53 @@
         "fundunicaja"
       ],
       "alt_text": "Agenda de eventos en Cádiz, planes de hoy: «El Éxito del Fracaso» · Semana Global del Emprendimiento UCA (19:30, Café Teatro Pay-Pay)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1118"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva» · Santiago Pina (09:00, Casa de Iberoamérica · Sala Blas de Lezo)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "nexos-1118"
+      ],
+      "etiquetas": [
+        "museodecadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Nexos. Del lienzo al objeto» (09:00, Museo de Cádiz)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1118"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica · Sala Zitman)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "perezvillalta-1118"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El Laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
     },
     {
       "archivo": "10.png",

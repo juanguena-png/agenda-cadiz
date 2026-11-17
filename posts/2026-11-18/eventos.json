@@ -167,7 +167,8 @@
       },
       "fecha": "2026-11-18",
       "todo_el_dia": false,
-      "etiquetas_ig": []
+      "etiquetas_ig": [],
+      "horario_dia": "10:00–14:00 y 16:00–19:00"
     },
     {
       "id": "divergencia-1118",
