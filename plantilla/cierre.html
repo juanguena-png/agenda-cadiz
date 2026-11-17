@@ -1,0 +1,43 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilos.css"><script src="comun.js"></script>
+<style>
+.lienzo{padding:84px 80px 76px;display:flex;flex-direction:column;justify-content:space-between}
+.lienzo.story{padding:250px 80px 250px}
+.deco .sol{position:absolute;right:-170px;top:-160px;width:420px;height:420px;border-radius:50%;background:var(--c-sol,#FFC62B)}
+.deco .olas{position:absolute;left:0;width:1080px;height:110px;bottom:0;opacity:.7}
+.lienzo.story .deco .sol{display:none}
+.tag{font-weight:800;font-size:30px;letter-spacing:.06em;text-transform:uppercase;color:var(--c-suave);margin-bottom:18px}
+h1{font-size:84px;line-height:1.02;letter-spacing:-.02em;color:var(--c-texto)}
+.lista{display:flex;flex-direction:column;gap:26px;margin-top:8px}
+.item{display:flex;align-items:center;gap:28px;font-size:40px;font-weight:700;line-height:1.15;color:var(--c-texto)}
+.item i{flex:0 0 92px;height:92px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:46px;background:var(--c-chip,#E8F1F8)}
+.item small{display:block;font-size:30px;font-weight:500;color:var(--c-suave);margin-top:4px}
+.cta{border-radius:var(--radio,28px);padding:34px 40px;background:#0B3A5E;color:#fff;font-size:42px;font-weight:800;line-height:1.2;text-align:center}
+.cta b{display:inline-block;margin:0 .15em;padding:2px 18px;border-radius:14px;background:var(--c-sol,#FFC62B);color:#0B2A44;letter-spacing:.04em}
+.cta small{display:block;margin-top:10px;font-size:30px;font-weight:600;opacity:.9}
+.lienzo.story .lista{gap:34px}
+</style></head><body>
+<div class="lienzo feed" id="l"></div>
+<script>
+async function render(d){
+  aplicarTema(d);
+  const L=document.getElementById("l"); if(d.vertical){L.classList.remove("feed");L.classList.add("story");}
+  const pal=(d.palabra||"PLANES").toUpperCase();
+  const story=!!d.vertical;
+  const items=story?[
+    ["↗️","Comparte esta story","con quien te acompañaría"],
+    ["➕","Síguenos","planes en Cádiz cada día a las 9:00"],
+    ["💬","¿Organizas algo en Cádiz?","cuéntanoslo por mensaje"]]:[
+    ["🔖","Guarda esta publicación","para tenerla a mano hoy"],
+    ["↗️","Compártela con tus amigos","y quedad para algún plan"],
+    ["👥","Etiqueta a quien te llevarías","aquí en los comentarios"],
+    ["➕","Síguenos","planes en Cádiz cada día a las 9:00"]];
+  const cta=story?`¿Quieres todos estos planes por mensaje?<br>Escríbenos <b>${esc(pal)}</b><small>y te los mandamos al momento</small>`
+                 :`¿Quieres todos estos planes por mensaje directo?<br>Comenta <b>${esc(pal)}</b> aquí abajo 👇<small>y te los enviamos al momento</small>`;
+  L.innerHTML=`<div class="deco"><i class="sol"></i><svg class="olas" viewBox="0 0 1080 110" preserveAspectRatio="none"><g fill="none" stroke="var(--c-ola)" stroke-width="5" stroke-linecap="round"><path d="M-20 22q90-38 180 0t180 0 180 0 180 0 180 0 180 0"/><path d="M-20 58q90-38 180 0t180 0 180 0 180 0 180 0 180 0"/></g></svg></div>
+  <div>${logo(d,"",story?150:130)}</div>
+  <div><div class="tag">${esc(d.etiqueta||"¿Te ha gustado?")}</div><h1 class="titulo">${esc(d.titulo||"Que no se te escape ningún plan")}</h1></div>
+  <div class="lista">${items.map(([ic,t,s])=>`<div class="item"><i>${ic}</i><div>${esc(t)}<small>${esc(s)}</small></div></div>`).join("")}</div>
+  <div class="cta">${cta}</div>`;
+  const lg=document.querySelector(".logo"); if(lg){lg.dataset.max=600; ajustar(600);} await listo();
+}
+</script></body></html>

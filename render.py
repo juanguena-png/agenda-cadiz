@@ -145,13 +145,16 @@ def titulos(tipo, fecha, eventos):
 PORTADA_EXTRA = {"diario": ("Agenda diaria", "en la ciudad"), "finde": ("Viernes a domingo", "para el finde"), "mensual": ("Agenda mensual", "imprescindibles")}
 
 
+DIAPOS_EVENTOS = 8  # 10 imágenes máx. por carrusel (API): portada + 8 de eventos + cierre
+
+
 def render_carrusel(r, eventos, tipo, fecha, salida, var):
-    """Portada + hasta 9 diapositivas de eventos. Devuelve el manifiesto de diapositivas."""
+    """Portada + hasta 8 diapositivas de eventos + diapositiva final de cierre (CTA). Devuelve el manifiesto de diapositivas."""
     salida.mkdir(parents=True, exist_ok=True)
     for viejo in salida.glob("*.png"):
         viejo.unlink()
     eventos = ag.ordenar(eventos, por_fecha=tipo != "diario")
-    grupos = ag.trocear(eventos, ag.reparto(len(eventos)))
+    grupos = ag.trocear(eventos, ag.reparto(len(eventos), DIAPOS_EVENTOS))
     titulo, sub = titulos(tipo, fecha, eventos)
     etiqueta, sufijo = PORTADA_EXTRA[tipo]
     ciudad = (ag.cargar_json(ag.RAIZ / "marca.json", {}) or {}).get("ciudad", "Cádiz")
@@ -163,6 +166,10 @@ def render_carrusel(r, eventos, tipo, fecha, salida, var):
         r.png("eventos.html", {"eventos": g, "cabecera": f"{i - 1}/{len(grupos)}", "mostrar_fecha": tipo != "diario"}, salida / f"{i:02d}.png", VIEW_FEED)
         manifiesto.append({"archivo": f"{i:02d}.png", "tipo": "eventos", "ids": [e.get("id") for e in g], "etiquetas": etiquetas.para_diapositiva(g),
                            "alt_text": "Agenda de eventos en Cádiz, planes de hoy: " + "; ".join(f"{e['nombre']} ({e.get('hora_inicio') or ('todo el día' if e.get('todo_el_dia') else 'consultar horario')}, {e['lugar']})" for e in g)})
+    n = len(grupos) + 2  # cierre: guardar, compartir, etiquetar, seguir y «comenta PLANES»
+    r.png("cierre.html", {"palabra": "PLANES", "paleta": paleta(fecha)}, salida / f"{n:02d}.png", VIEW_FEED)
+    manifiesto.append({"archivo": f"{n:02d}.png", "tipo": "cierre", "etiquetas": [],
+                       "alt_text": f"Si te ha gustado, guarda y comparte esta agenda de planes en {ciudad}. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."})
     return manifiesto
 
 
@@ -179,10 +186,14 @@ def render_stories(r, eventos, fecha, salida):
     for i, ev in enumerate(evs, start=1):
         secuencia.append(("evento", ev))
         secuencia += [("patro", pat[k]) for k, p in pos.items() if p == i]
+    secuencia.append(("cierre", None))  # última story: compartir, seguir y «escríbenos PLANES»
     man = []
     for n, (tipo, x) in enumerate(secuencia, start=1):
         archivo = f"{n:02d}.png"
-        if tipo == "evento":
+        if tipo == "cierre":
+            r.png("cierre.html", {"palabra": "PLANES", "vertical": True, "paleta": paleta(fecha)}, salida / archivo, VIEW_STORY)
+            man.append({"archivo": archivo, "tipo": "cierre", "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."})
+        elif tipo == "evento":
             r.png("story.html", {"evento": x, "fecha_larga": ag.fecha_larga(x.get("fecha", fecha))}, salida / archivo, VIEW_STORY)
             man.append({"archivo": archivo, "id": x.get("id"), "alt_text": (x.get("imagen") or {}).get("alt_text", x["nombre"])})
         else:
@@ -327,7 +338,7 @@ def demo(ns):
             carpeta.mkdir(parents=True)
             evs = resolver_imagenes(demo_eventos(n, True), base)
             m = render_carrusel(r, evs, "diario", "2026-10-25", carpeta / "carrusel", "A")
-            print(f"demo {n}: reparto {ag.reparto(n)} -> {len(m)} imágenes")
+            print(f"demo {n}: reparto {ag.reparto(n, DIAPOS_EVENTOS)} -> {len(m)} imágenes")
             if n == 5:
                 render_stories(r, evs[:2], "2026-10-25", carpeta / "stories")
                 render_noche(r, [dict(e, hora_inicio="21:00", todo_el_dia=False) for e in evs], "2026-10-25", carpeta / "noche")
