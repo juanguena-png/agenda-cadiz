@@ -125,7 +125,7 @@ ORDEN_PALETAS = [0, 2, 1, 3, 5, 6]  # 6 variantes (la celeste «bruma» está de
 
 
 def paleta(fecha):
-    """Índice de paleta de la portada (marca.md): rota cada día. Se puede fijar con registros/ab.json -> "paleta"."""
+    """Índice de paleta del día (marca.md): rota cada día y tiñe portada, diapositivas de eventos, cierre y stories del día (decisión del titular, 17/11/2026). Se puede fijar con registros/ab.json -> "paleta"."""
     return ORDEN_PALETAS[ag.a_fecha(fecha).toordinal() % len(ORDEN_PALETAS)]
 
 
@@ -163,11 +163,11 @@ def render_carrusel(r, eventos, tipo, fecha, salida, var):
     manifiesto = [{"archivo": "01.png", "tipo": "portada", "etiquetas": etiquetas.para_diapositiva(eventos),
                    "alt_text": f"Qué hacer en {ciudad} hoy: portada de la agenda de Planes en {ciudad}. {titulo}, {sub}. {len(eventos)} planes y eventos."}]
     for i, g in enumerate(grupos, start=2):
-        r.png("eventos.html", {"eventos": g, "cabecera": f"{i - 1}/{len(grupos)}", "mostrar_fecha": tipo != "diario"}, salida / f"{i:02d}.png", VIEW_FEED)
+        r.png("eventos.html", {"eventos": g, "cabecera": f"{i - 1}/{len(grupos)}", "mostrar_fecha": tipo != "diario", "tinte": paleta(fecha)}, salida / f"{i:02d}.png", VIEW_FEED)
         manifiesto.append({"archivo": f"{i:02d}.png", "tipo": "eventos", "ids": [e.get("id") for e in g], "etiquetas": etiquetas.para_diapositiva(g),
                            "alt_text": "Agenda de eventos en Cádiz, planes de hoy: " + "; ".join(f"{e['nombre']} ({e.get('hora_inicio') or ('todo el día' if e.get('todo_el_dia') else 'consultar horario')}, {e['lugar']})" for e in g)})
     n = len(grupos) + 2  # cierre: guardar, compartir, etiquetar, seguir y «comenta PLANES»
-    r.png("cierre.html", {"palabra": "PLANES", "paleta": paleta(fecha)}, salida / f"{n:02d}.png", VIEW_FEED)
+    r.png("cierre.html", {"palabra": "PLANES", "paleta": paleta(fecha), "tinte": paleta(fecha)}, salida / f"{n:02d}.png", VIEW_FEED)
     manifiesto.append({"archivo": f"{n:02d}.png", "tipo": "cierre", "etiquetas": [],
                        "alt_text": f"Si te ha gustado, guarda y comparte esta agenda de planes en {ciudad}. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."})
     return manifiesto
@@ -191,10 +191,10 @@ def render_stories(r, eventos, fecha, salida):
     for n, (tipo, x) in enumerate(secuencia, start=1):
         archivo = f"{n:02d}.png"
         if tipo == "cierre":
-            r.png("cierre.html", {"palabra": "PLANES", "vertical": True, "paleta": paleta(fecha)}, salida / archivo, VIEW_STORY)
+            r.png("cierre.html", {"palabra": "PLANES", "vertical": True, "paleta": paleta(fecha), "tinte": paleta(fecha)}, salida / archivo, VIEW_STORY)
             man.append({"archivo": archivo, "tipo": "cierre", "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."})
         elif tipo == "evento":
-            r.png("story.html", {"evento": x, "fecha_larga": ag.fecha_larga(x.get("fecha", fecha))}, salida / archivo, VIEW_STORY)
+            r.png("story.html", {"evento": x, "fecha_larga": ag.fecha_larga(x.get("fecha", fecha)), "tinte": paleta(fecha)}, salida / archivo, VIEW_STORY)
             man.append({"archivo": archivo, "id": x.get("id"), "alt_text": (x.get("imagen") or {}).get("alt_text", x["nombre"])})
         else:
             img = dict(x.get("imagen") or {})
