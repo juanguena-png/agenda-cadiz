@@ -232,7 +232,7 @@
     },
     {
       "id": "cajasol-puerto-1118",
-      "nombre": "Tertulia Lallemand: «Puerto de Cádiz. El futuro ya está en marcha»",
+      "nombre": "Tertulia Lallemand · Puerto de Cádiz",
       "categoria": "otros",
       "fecha": "2026-11-18",
       "hora_inicio": "19:30",
@@ -240,7 +240,7 @@
       "todo_el_dia": false,
       "lugar": "Fundación Cajasol (Casa Pemán)",
       "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
-      "precio": "Entrada libre hasta completar aforo",
+      "precio": "Gratis",
       "publico": "Todos los públicos",
       "descripcion": "Teófila Martínez, presidenta de la Autoridad Portuaria, analiza el futuro del puerto gaditano; presenta el periodista Ignacio Moreno Bustamante.",
       "info": "Entrada libre hasta completar aforo",
@@ -462,6 +462,164 @@
         }
       ],
       "continuo": true
+    }
+  ],
+  "noche_manana": [
+    {
+      "id": "barroca-1119",
+      "nombre": "Orquesta Barroca de Sevilla · Las Cuatro Estaciones",
+      "categoria": "música",
+      "fecha": "2026-11-19",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "La Orquesta Barroca de Sevilla, con Stefano Barneschi al violín, interpreta Las cuatro estaciones de Vivaldi en el Festival de Cádiz Música Española.",
+      "info": "Entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-barroca-de-sevilla-las-cuatro-estaciones-de-antonio-vivaldi"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-barroca-de-sevilla-las-cuatro-estaciones-de-antonio-vivaldi"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Orquesta Barroca de Sevilla",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "ruiz-1119",
+      "nombre": "Manuel Ruiz e Íliber Ensemble · Héroe desvelado",
+      "categoria": "música",
+      "fecha": "2026-11-19",
+      "hora_inicio": "20:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Baluarte de la Candelaria",
+      "direccion": "Alameda Hermanas Carvia Bernal, 6, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Espectáculo lírico de repertorio barroco con el contratenor Manuel Ruiz y el Íliber Ensemble. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/manuel-ruiz-contratenor-iliber-ensemble-heroe-desvelado"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Baluarte de la Candelaria, Alameda Hermanas Carvia Bernal, 6, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/manuel-ruiz-contratenor-iliber-ensemble-heroe-desvelado"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Baluarte de la Candelaria",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Manuel Ruiz",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Íliber Ensemble",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "soto-1119",
+      "nombre": "Vicente Soto «Sordera» · II Cádiz Canta",
+      "categoria": "música",
+      "fecha": "2026-11-19",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "El cantaor Vicente Soto «Sordera», Premio Nacional de Cante, actúa en el ciclo II Cádiz Canta de Fundación Cajasol.",
+      "info": "Entradas en la web de Fundación Cajasol",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/vicente-soto-sordera/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/vicente-soto-sordera/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "Vicente Soto «Sordera»",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ]
     }
   ]
 }

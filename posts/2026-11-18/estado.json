@@ -152,7 +152,9 @@
   "registro": [
     "2026-11-18T06:55:52+01:00 diario: render OK (5 eventos, variante A)",
     "2026-11-18T06:58:20+01:00 diario: render OK (8 eventos, variante A)",
-    "2026-11-18T09:03:34+01:00 ERROR stories/06.png/instagram: Media ID is not available (code 9007/2207027)"
+    "2026-11-18T09:03:34+01:00 ERROR stories/06.png/instagram: Media ID is not available (code 9007/2207027)",
+    "2026-11-18T16:56:00+01:00 diario: render OK (8 eventos, variante A)",
+    "2026-11-18T16:56:29+01:00 diario: render OK (8 eventos, variante A)"
   ],
   "fuentes_leidas": [
     "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
@@ -269,7 +271,7 @@
   },
   "revision_final": {
     "hecha": true,
-    "ts": "2026-11-18T06:59:25+01:00"
+    "ts": "2026-11-18T16:56:29+01:00"
   },
   "limite_publicaciones": {
     "uso": 8,

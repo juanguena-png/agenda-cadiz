@@ -79,7 +79,7 @@
         "fundacioncajasol",
         "puertodecadiz"
       ],
-      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tertulia Lallemand: «Puerto de Cádiz. El futuro ya está en marcha» (19:30, Fundación Cajasol (Casa Pemán))"
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tertulia Lallemand · Puerto de Cádiz (19:30, Fundación Cajasol (Casa Pemán))"
     },
     {
       "archivo": "07.png",
@@ -174,9 +174,12 @@
     {
       "archivo": "01.png",
       "ids": [
-        "cajasol-puerto-1118"
+        "cajasol-puerto-1118",
+        "barroca-1119",
+        "soto-1119",
+        "ruiz-1119"
       ],
-      "alt_text": "Esta noche en Cádiz: Tertulia Lallemand: «Puerto de Cádiz. El futuro ya está en marcha»"
+      "alt_text": "Esta noche: Tertulia Lallemand · Puerto de Cádiz. Mañana en Cádiz: Orquesta Barroca de Sevilla · Las Cuatro Estaciones; Vicente Soto «Sordera» · II Cádiz Canta; Manuel Ruiz e Íliber Ensemble · Héroe desvelado"
     }
   ]
 }
