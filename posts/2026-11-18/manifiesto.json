@@ -1,0 +1,182 @@
+{
+  "variante": "A",
+  "paleta": 0,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "fundunicaja",
+        "culturacuenta",
+        "ateneocadiz",
+        "conservatoriomanueldefalla",
+        "fundacioncajasol",
+        "puertodecadiz",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, miércoles 18 de noviembre. 8 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "empleo-1118"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Espacio Empleo Cádiz · Último día (09:00, Depósitos de Tabaco)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "rijnhout-1118"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Patricia Rijnhout y Julio Alexis Muñoz · Ojillos negros (18:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-revista-1118"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "ateneocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación de la Revista del Ateneo dedicada a Manuel de Falla (19:00, Salón de Plenos del Ayuntamiento)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "ipse-1118"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "conservatoriomanueldefalla"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Trío Ipse · Mozart, Turina y Shostakóvich (19:00, Real Conservatorio Profesional de Música Manuel de Falla)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "cajasol-puerto-1118"
+      ],
+      "etiquetas": [
+        "fundacioncajasol",
+        "puertodecadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tertulia Lallemand: «Puerto de Cádiz. El futuro ya está en marcha» (19:30, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1118"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1118"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1118"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "empleo-1118",
+      "alt_text": "Cartel de la feria Espacio Empleo Cádiz"
+    },
+    {
+      "archivo": "02.png",
+      "id": "divergencia-1118",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "03.png",
+      "id": "manton-1118",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "04.png",
+      "id": "villalta-1118",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "05.png",
+      "id": "rijnhout-1118",
+      "alt_text": "Patricia Rijnhout y Julio Alexis Muñoz, concierto Ojillos negros"
+    },
+    {
+      "archivo": "06.png",
+      "id": "ateneo-revista-1118",
+      "alt_text": "Imagen de Presentación de la Revista del Ateneo dedicada a Manuel de Falla"
+    },
+    {
+      "archivo": "07.png",
+      "id": "ipse-1118",
+      "alt_text": "Trío Ipse, trío con piano"
+    },
+    {
+      "archivo": "08.png",
+      "id": "cajasol-puerto-1118",
+      "alt_text": "Cartel de la tertulia Puerto de Cádiz"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "cajasol-puerto-1118"
+      ],
+      "alt_text": "Esta noche en Cádiz: Tertulia Lallemand: «Puerto de Cádiz. El futuro ya está en marcha»"
+    }
+  ]
+}

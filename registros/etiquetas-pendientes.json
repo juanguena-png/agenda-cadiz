@@ -193,8 +193,8 @@
   },
   "Festival de Cádiz Música Española": {
     "rol": "institucion",
-    "evento": "Origen · Ballet Flamenco de Andalucía",
-    "fecha": "2026-11-17",
+    "evento": "Trío Ipse · Mozart, Turina y Shostakóvich",
+    "fecha": "2026-11-18",
     "instagram_probado": null
   },
   "Víctor Cruz": {
@@ -309,6 +309,54 @@
     "rol": "artista",
     "evento": "Origen · Ballet Flamenco de Andalucía",
     "fecha": "2026-11-17",
+    "instagram_probado": null
+  },
+  "Depósitos de Tabaco": {
+    "rol": "lugar",
+    "evento": "Espacio Empleo Cádiz · Último día",
+    "fecha": "2026-11-18",
+    "instagram_probado": null
+  },
+  "Patricia Rijnhout": {
+    "rol": "artista",
+    "evento": "Patricia Rijnhout y Julio Alexis Muñoz · Ojillos negros",
+    "fecha": "2026-11-18",
+    "instagram_probado": null
+  },
+  "Julio Alexis Muñoz": {
+    "rol": "artista",
+    "evento": "Patricia Rijnhout y Julio Alexis Muñoz · Ojillos negros",
+    "fecha": "2026-11-18",
+    "instagram_probado": null
+  },
+  "Conservatorio Manuel de Falla": {
+    "rol": "lugar",
+    "evento": "Trío Ipse · Mozart, Turina y Shostakóvich",
+    "fecha": "2026-11-18",
+    "instagram_probado": null
+  },
+  "Trío Ipse": {
+    "rol": "artista",
+    "evento": "Trío Ipse · Mozart, Turina y Shostakóvich",
+    "fecha": "2026-11-18",
+    "instagram_probado": null
+  },
+  "Teófila Martínez": {
+    "rol": "artista",
+    "evento": "Tertulia Lallemand: «Puerto de Cádiz. El futuro ya está en marcha»",
+    "fecha": "2026-11-18",
+    "instagram_probado": null
+  },
+  "Santiago Pina": {
+    "rol": "artista",
+    "evento": "Exposición «Divergencia cognitiva», de Santiago Pina",
+    "fecha": "2026-11-18",
+    "instagram_probado": null
+  },
+  "Asociación Hespérides": {
+    "rol": "organizador",
+    "evento": "Exposición «¿Dónde vas con mantón de Manila?»",
+    "fecha": "2026-11-18",
     "instagram_probado": null
   }
 }
