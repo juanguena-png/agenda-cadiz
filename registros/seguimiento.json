@@ -304,27 +304,32 @@
     },
     "agendadecadiz": {
       "interacciones": [
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-18"
       ]
     },
     "bibcadiz": {
       "interacciones": [
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-18"
       ]
     },
     "laganzuarevista": {
       "interacciones": [
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-18"
       ]
     },
     "diariobahiadecadiz": {
       "interacciones": [
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-18"
       ]
     },
     "lavozdecadiz": {
       "interacciones": [
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-18"
       ]
     },
     "manolomorera": {
@@ -375,6 +380,21 @@
     "librerialeolo": {
       "interacciones": [
         "2026-11-17"
+      ]
+    },
+    "conservatoriomanueldefalla": {
+      "interacciones": [
+        "2026-11-18"
+      ]
+    },
+    "eoicadiz": {
+      "interacciones": [
+        "2026-11-18"
+      ]
+    },
+    "cadizdirecto": {
+      "interacciones": [
+        "2026-11-18"
       ]
     }
   }
