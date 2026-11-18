@@ -33,3 +33,7 @@ Tras 12 muestras por lado, B logra 74,3 de alcance medio y 1,08 seguidores nuevo
 ## 2026-11-17 · Control de cuota de la API de Meta
 
 Evita el error #4 (17/11): publicar con prioridad, lecturas de organizadores con caché 4 h y parada al 50 % de X-App-Usage
+
+## 2026-11-18 · Comparativa de cobertura
+
+`organizadores.py --comparar 2026-11-18`: nosotros 8 eventos frente a las 20 diapositivas de @gaditanisimamente (5 líneas suyas sin cubrir, entre ellas un plan «con aforo muy limitado» sin detallar en el texto). @agendadecadiz publicó una crónica del IV Foro Mujeres Líderes en Economía Azul (evento ya celebrado, sin plan futuro). @agendacadiz da «Invalid user id» (cuenta sin acceso por API). Pista: con el criterio 22 (≥ 12 planes temporales) y la inclusión de exposiciones temporales y eventos de varios días, la brecha de cobertura debería cerrarse en los próximos días.

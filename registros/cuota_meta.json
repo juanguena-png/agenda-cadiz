@@ -1,10 +1,10 @@
 {
-  "uso": 1.0,
-  "ts": "2026-11-18T18:30:10+01:00",
-  "epoch": 1795023010.7789993,
+  "uso": 6.0,
+  "ts": "2026-11-18T22:47:04+01:00",
+  "epoch": 1795038424.6221964,
   "detalle": {
-    "call_count": 1,
+    "call_count": 4,
     "total_cputime": 0,
-    "total_time": 1
+    "total_time": 6
   }
 }

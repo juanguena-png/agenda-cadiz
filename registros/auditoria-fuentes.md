@@ -33,18 +33,20 @@ Fuentes registradas: 115
 
 ## Las que más aportan
 - Onda Cádiz – Agenda de eventos: 1029 candidatos
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 899 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 898 candidatos
 - Sala Central Lechera: 750 candidatos
 - Gran Teatro Falla: 690 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 581 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 283 candidatos
-- Guía de Cádiz – Agenda: 242 candidatos
-- Eventbrite – Cádiz: 111 candidatos
-- Casa de Iberoamérica: 97 candidatos
-- Cádiz Directo: 76 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 625 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 291 candidatos
+- Guía de Cádiz – Agenda: 209 candidatos
+- Eventbrite – Cádiz: 115 candidatos
+- Casa de Iberoamérica: 101 candidatos
+- Cádiz Directo: 80 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
-- (aún sin datos: el agente debe rellenar descubiertos_web cada día)
+- rinde (1 días): dieron_eventos
+- rinde (1 días): sin_resultados
+- rinde (1 días): pistas_descartadas
 
 ## Control de lectura de fuentes web (estado.json → fuentes_leidas)
-- ⚠️ Ningún día registra `fuentes_leidas`: el agente no está dejando constancia de qué fuentes web lee.
+- Todas las fuentes web se han leído.
