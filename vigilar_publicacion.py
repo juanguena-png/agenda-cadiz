@@ -9,11 +9,21 @@ from zoneinfo import ZoneInfo
 import agenda as ag
 
 def hecho(fecha, tipo):
+    """True si TODAS las publicaciones registradas (carrusel, stories, reel…) están en estado «publicado»
+    y existe al menos la principal (carrusel / noche / reel)."""
     carpeta = ag.dir_dia(fecha, "finde" if tipo == "reel" else "mensual" if tipo == "mensual" else "diario")
     est = ag.cargar_estado(carpeta)
     pub = est.get("publicaciones", {})
     clave = {"diario": "carrusel", "noche": "noche", "reel": "reel", "mensual": "carrusel"}[tipo]
-    return any(str(k).startswith(clave) and all(v.get("estado") == "publicado" for v in d.values() if isinstance(v, dict)) and d for k, d in pub.items())
+    if not any(str(k).startswith(clave) for k in pub):
+        return False
+    for k, d in pub.items():
+        if not isinstance(d, dict):
+            continue
+        for red, v in d.items():
+            if isinstance(v, dict) and v.get("estado") != "publicado":
+                return False
+    return True
 
 def main():
     ap = argparse.ArgumentParser()
