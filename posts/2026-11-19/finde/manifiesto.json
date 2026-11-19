@@ -1,0 +1,127 @@
+{
+  "variante": "B",
+  "paleta": 2,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundunicaja",
+        "culturacuenta",
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "museodecadiz"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Planes del finde, 20 – 22 de noviembre. 9 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "martinez-1120",
+        "rodes-1120"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: David Martínez González, recital de violín (18:00, Centro Fundación Unicaja Cádiz); María Rodés · Lo que me pasa (19:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "etcetera-1120"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Compañía Etcétera · Soñando el carnaval de los animales (21:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "concerto-1121"
+      ],
+      "etiquetas": [
+        "museodecadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Concerto 1700 y Laura Marchal · Falla / Lorca (13:00, Museo de Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "arbos-1121"
+      ],
+      "etiquetas": [
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Trío Arbós y solistas · estreno por el 150.º aniversario de Falla (18:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "cuevas-1121"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Rodrigo Cuevas · Al pie del llar (21:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "ariel-1122"
+      ],
+      "etiquetas": [
+        "museodecadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Ariel Abramovich y Jonathan Alvarado · Huehuetenango (13:00, Museo de Cádiz)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "rey-1122"
+      ],
+      "etiquetas": [
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Lucía Rey Quartet · Nómadas (18:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "oja-1122"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Orquesta Joven de Andalucía · Constelación Falla (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ]
+}

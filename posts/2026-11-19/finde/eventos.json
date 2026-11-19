@@ -1,0 +1,558 @@
+{
+  "fecha": "2026-11-19",
+  "tipo": "finde",
+  "eventos": [
+    {
+      "id": "martinez-1120",
+      "nombre": "David Martínez González, recital de violín",
+      "categoria": "música",
+      "fecha": "2026-11-20",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Recital de violín con obras de Schumann y Ysaÿe, entre otros, en el Festival de Cádiz.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/martinez-1120.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-martinez-gonzalez-violin",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "David Martínez González, violinista",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-martinez-gonzalez-violin"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Calle San Francisco, 26, Cádiz (Centro Fundación Unicaja)",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-martinez-gonzalez-violin"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "David Martínez González",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "rodes-1120",
+      "nombre": "María Rodés · Lo que me pasa",
+      "categoria": "música",
+      "fecha": "2026-11-20",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "La cantautora presenta un trabajo que mezcla fuerzas opuestas en un directo muy personal, dentro del Festival de Cádiz.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "imagen": {
+        "archivo": "img/rodes-1120.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/maria-rodes-lo-que-me-pasa",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "María Rodés, cantautora",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/maria-rodes-lo-que-me-pasa"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/maria-rodes-lo-que-me-pasa"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "María Rodés",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "etcetera-1120",
+      "nombre": "Compañía Etcétera · Soñando el carnaval de los animales",
+      "categoria": "teatro",
+      "fecha": "2026-11-20",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela, s/n, 11003 Cádiz",
+      "precio": "20 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Marionetas y música para soñar el Carnaval de los animales de Saint-Saëns, un espectáculo para todos los públicos.",
+      "info": "Entradas en la web del Gran Teatro Falla",
+      "imagen": {
+        "archivo": "img/etcetera-1120.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/compania-etcetera-sonando-el-carnaval-de-los-animales",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Compañía Etcétera, Soñando el carnaval de los animales",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/compania-etcetera-sonando-el-carnaval-de-los-animales"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/compania-etcetera-sonando-el-carnaval-de-los-animales"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Compañía Etcétera",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "concerto-1121",
+      "nombre": "Concerto 1700 y Laura Marchal · Falla / Lorca",
+      "categoria": "música",
+      "fecha": "2026-11-21",
+      "hora_inicio": "13:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Mestizajes barrocos con el violinista Daniel Pinteño y la cantante Laura Marchal, entre Falla y Lorca.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/concerto-1121.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/concerto-1700-y-laura-marchal-falla-lorca-mestizajes-barrocos",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Concerto 1700 y Laura Marchal",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/concerto-1700-y-laura-marchal-falla-lorca-mestizajes-barrocos"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/concerto-1700-y-laura-marchal-falla-lorca-mestizajes-barrocos"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Museo de Cádiz",
+          "instagram": "museodecadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Concerto 1700",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Laura Marchal",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "arbos-1121",
+      "nombre": "Trío Arbós y solistas · estreno por el 150.º aniversario de Falla",
+      "categoria": "música",
+      "fecha": "2026-11-21",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Estreno absoluto, encargo del Festival de Cádiz y el CNDM, a cargo de un trío que cumple más de treinta años de trayectoria.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "imagen": {
+        "archivo": "img/arbos-1121.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/trio-arbos-y-solistas-encargo-del-festival-de-cadiz-y-el-cndm-por-el-150-aniversario-del",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Trío Arbós y solistas",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/trio-arbos-y-solistas-encargo-del-festival-de-cadiz-y-el-cndm-por-el-150-aniversario-del"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/trio-arbos-y-solistas-encargo-del-festival-de-cadiz-y-el-cndm-por-el-150-aniversario-del"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Trío Arbós",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "cuevas-1121",
+      "nombre": "Rodrigo Cuevas · Al pie del llar",
+      "categoria": "música",
+      "fecha": "2026-11-21",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela, s/n, 11003 Cádiz",
+      "precio": "20 €",
+      "publico": "Todos los públicos",
+      "descripcion": "El Premio Nacional de las Músicas Actuales propone un concierto hecho a medida para el Festival de Cádiz.",
+      "info": "Entradas en la web del Gran Teatro Falla",
+      "imagen": {
+        "archivo": "img/cuevas-1121.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/rodrigo-cuevas-al-pie-del-llar",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Rodrigo Cuevas, Al pie del llar",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/rodrigo-cuevas-al-pie-del-llar"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/rodrigo-cuevas-al-pie-del-llar"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Rodrigo Cuevas",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "ariel-1122",
+      "nombre": "Ariel Abramovich y Jonathan Alvarado · Huehuetenango",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "13:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Músicas de un cancionero interrumpido, rescatadas de una colección de la Universidad de Indiana.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/ariel-1122.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ariel-abramovich-y-jonathan-alvarado-huehuetenango-musicas-de-un-cancionero-interrumpido",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Ariel Abramovich y Jonathan Alvarado",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ariel-abramovich-y-jonathan-alvarado-huehuetenango-musicas-de-un-cancionero-interrumpido"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ariel-abramovich-y-jonathan-alvarado-huehuetenango-musicas-de-un-cancionero-interrumpido"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Museo de Cádiz",
+          "instagram": "museodecadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ariel Abramovich",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Jonathan Alvarado",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "rey-1122",
+      "nombre": "Lucía Rey Quartet · Nómadas",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Jazz que viaja entre la tradición clásica española, el flamenco y las influencias mediterráneas y atlánticas.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "imagen": {
+        "archivo": "img/rey-1122.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/lucia-rey-quartet-nomadas",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Lucía Rey Quartet",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/lucia-rey-quartet-nomadas"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/lucia-rey-quartet-nomadas"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Lucía Rey",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "oja-1122",
+      "nombre": "Orquesta Joven de Andalucía · Constelación Falla",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela, s/n, 11003 Cádiz",
+      "precio": "12 €",
+      "publico": "Todos los públicos",
+      "descripcion": "El Encuentro de Invierno de la Orquesta Joven de Andalucía, dirigido por Juan Pablo Valencia, con un programa en torno a Falla.",
+      "info": "Entradas en la web del Gran Teatro Falla",
+      "imagen": {
+        "archivo": "img/oja-1122.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-joven-de-andalucia-constelacion-falla-direccion-juan-pablo-valencia",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Orquesta Joven de Andalucía",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-joven-de-andalucia-constelacion-falla-direccion-juan-pablo-valencia"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-joven-de-andalucia-constelacion-falla-direccion-juan-pablo-valencia"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Orquesta Joven de Andalucía",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    }
+  ]
+}
