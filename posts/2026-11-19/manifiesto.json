@@ -1,0 +1,188 @@
+{
+  "variante": "B",
+  "paleta": 2,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundunicaja",
+        "culturacuenta",
+        "orquestabarrocasevilla",
+        "fundacioncajasol",
+        "nuevaacropolis.cadiz",
+        "ayuntamientocadiz",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, jueves 19 de noviembre. 9 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "ciclo360-1119",
+        "barroca-1119"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "culturacuenta",
+        "orquestabarrocasevilla"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Ciclo 360º · «Flamenco. Arqueología de lo Jondo» (19:00, Centro Fundación Unicaja Cádiz); Orquesta Barroca de Sevilla · Las Cuatro Estaciones (19:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "verdades-1119"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación de «Verdades con chanclas», de Antonio Fagundo (19:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "acropolis-1119"
+      ],
+      "etiquetas": [
+        "nuevaacropolis.cadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación del libro «Ética de la Inteligencia Artificial» (20:00, Nueva Acrópolis Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "soto-1119"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Vicente Soto «Sordera» · II Cádiz Canta (20:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "ruiz-1119"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Manuel Ruiz e Íliber Ensemble · Héroe desvelado (20:30, Baluarte de la Candelaria)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1119"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1119"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1119"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "divergencia-1119",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "manton-1119",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "03.png",
+      "id": "villalta-1119",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "04.png",
+      "id": "ciclo360-1119",
+      "alt_text": "Imagen del Ciclo 360º de Fundación Unicaja en Cádiz"
+    },
+    {
+      "archivo": "05.png",
+      "id": "barroca-1119",
+      "alt_text": "Orquesta Barroca de Sevilla"
+    },
+    {
+      "archivo": "06.png",
+      "id": "verdades-1119",
+      "alt_text": "Cartel de la presentación de Verdades con chanclas"
+    },
+    {
+      "archivo": "07.png",
+      "id": "acropolis-1119",
+      "alt_text": "Ilustración de «Presentación del libro «Ética de la Inteligencia Artificial»»: composición con libro, bombilla en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "08.png",
+      "id": "soto-1119",
+      "alt_text": "Vicente Soto Sordera, ciclo II Cádiz Canta"
+    },
+    {
+      "archivo": "09.png",
+      "id": "ruiz-1119",
+      "alt_text": "Manuel Ruiz e Íliber Ensemble, Héroe desvelado"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "acropolis-1119",
+        "soto-1119",
+        "ruiz-1119"
+      ],
+      "alt_text": "Esta noche en Cádiz: Presentación del libro «Ética de la Inteligencia Artificial»; Vicente Soto «Sordera» · II Cádiz Canta; Manuel Ruiz e Íliber Ensemble · Héroe desvelado"
+    }
+  ]
+}

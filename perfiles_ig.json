@@ -494,6 +494,12 @@
         "conservatorio manuel de falla",
         "real conservatorio"
       ]
+    },
+    "orquestabarrocasevilla": {
+      "nombre": "Orquesta Barroca de Sevilla",
+      "claves": [
+        "orquesta barroca de sevilla"
+      ]
     }
   },
   "descartados": {

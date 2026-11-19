@@ -1,0 +1,555 @@
+{
+  "fecha": "2026-11-19",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "barroca-1119",
+      "nombre": "Orquesta Barroca de Sevilla · Las Cuatro Estaciones",
+      "categoria": "música",
+      "fecha": "2026-11-19",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "La Orquesta Barroca de Sevilla, con Stefano Barneschi al violín, interpreta Las cuatro estaciones de Vivaldi en el Festival de Cádiz Música Española.",
+      "info": "Entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-barroca-de-sevilla-las-cuatro-estaciones-de-antonio-vivaldi"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-barroca-de-sevilla-las-cuatro-estaciones-de-antonio-vivaldi"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Orquesta Barroca de Sevilla",
+          "instagram": "orquestabarrocasevilla"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Stefano Barneschi",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/barroca-1119.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-barroca-de-sevilla-las-cuatro-estaciones-de-antonio-vivaldi",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Orquesta Barroca de Sevilla",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora_fin": "20:00",
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "ciclo360-1119",
+      "nombre": "Ciclo 360º · «Flamenco. Arqueología de lo Jondo»",
+      "categoria": "otros",
+      "hora_inicio": "19:00",
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, 11004 Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Conferencia-diálogo con Antonio Manuel, José María Cala y Carlos Llave sobre las raíces del flamenco, dentro del ciclo de pensamiento de Fundación Unicaja.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/ciclo360-1119.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/event/ciclo-360o-en-cadiz/",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Imagen del Ciclo 360º de Fundación Unicaja en Cádiz",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/ciclo-360o-en-cadiz/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, calle San Francisco 26, Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/ciclo-360o-en-cadiz/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Antonio Manuel",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "artista",
+          "nombre": "José María Cala",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Carlos Llave",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "verdades-1119",
+      "nombre": "Presentación de «Verdades con chanclas», de Antonio Fagundo",
+      "categoria": "otros",
+      "hora_inicio": "19:00",
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Antonio Fagundo presenta su libro de 35 curiosidades para leer sin prisas, acompañado por Juan José Téllez y José Luis García Cossio «El Selu».",
+      "info": "Encuentro abierto al público",
+      "imagen": {
+        "archivo": "img/verdades-1119.jpg",
+        "url_origen": "https://fundacioncajasol.com/evento/verdades-con-chanclas-3/",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cartel de la presentación de Verdades con chanclas",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/verdades-con-chanclas-3/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz (Plaza de San Antonio, 14, 11003 Cádiz)",
+        "url": "https://fundacioncajasol.com/evento/verdades-con-chanclas-3/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Antonio Fagundo",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Juan José Téllez",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "artista",
+          "nombre": "José Luis García Cossio «El Selu»",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "soto-1119",
+      "nombre": "Vicente Soto «Sordera» · II Cádiz Canta",
+      "categoria": "música",
+      "fecha": "2026-11-19",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "El cantaor Vicente Soto «Sordera», Premio Nacional de Cante, actúa en el ciclo II Cádiz Canta de Fundación Cajasol.",
+      "info": "Entradas en la web de Fundación Cajasol",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/vicente-soto-sordera/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol, Plaza San Antonio 14, Cádiz",
+        "url": "https://fundacioncajasol.com/evento/vicente-soto-sordera/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Vicente Soto «Sordera»",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/soto-1119.jpg",
+        "url_origen": "https://fundacioncajasol.com/evento/vicente-soto-sordera/",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Vicente Soto Sordera, ciclo II Cádiz Canta",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "acropolis-1119",
+      "nombre": "Presentación del libro «Ética de la Inteligencia Artificial»",
+      "categoria": "otros",
+      "hora_inicio": "20:00",
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Su autor plantea si una máquina puede tomar decisiones éticas y qué papel tiene la filosofía ante los retos de la IA, en un acto presencial para el público general.",
+      "info": "Entradas en Eventbrite",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "bombilla"
+        ],
+        "fondo": "bruma"
+      },
+      "fuentes": [
+        {
+          "nombre": "Nueva Acrópolis Cádiz (Eventbrite)",
+          "url": "https://www.eventbrite.es/e/entradas-presentacion-del-libro-por-su-autor-etica-de-la-inteligencia-artificial-2004646157621"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004, Cádiz",
+        "url": "https://www.eventbrite.es/e/entradas-presentacion-del-libro-por-su-autor-etica-de-la-inteligencia-artificial-2004646157621"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": "nuevaacropolis.cadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": "nuevaacropolis.cadiz"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-19/img/acropolis-1119-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "bombilla"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Presentación del libro «Ética de la Inteligencia Artificial»»: composición con libro, bombilla en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "ruiz-1119",
+      "nombre": "Manuel Ruiz e Íliber Ensemble · Héroe desvelado",
+      "categoria": "música",
+      "fecha": "2026-11-19",
+      "hora_inicio": "20:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Baluarte de la Candelaria",
+      "direccion": "Alameda Hermanas Carvia Bernal, 6, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Espectáculo lírico de repertorio barroco con el contratenor Manuel Ruiz y el Íliber Ensemble. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/manuel-ruiz-contratenor-iliber-ensemble-heroe-desvelado"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Baluarte de la Candelaria, Alameda Hermanas Carvia Bernal, 6, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/manuel-ruiz-contratenor-iliber-ensemble-heroe-desvelado"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Baluarte de la Candelaria",
+          "instagram": "baluartede"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Manuel Ruiz",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Íliber Ensemble",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/ruiz-1119.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/manuel-ruiz-contratenor-iliber-ensemble-heroe-desvelado",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Manuel Ruiz e Íliber Ensemble, Héroe desvelado",
+        "ajuste": "cover"
+      }
+    },
+    {
+      "id": "divergencia-1119",
+      "nombre": "Exposición «Divergencia cognitiva», de Santiago Pina",
+      "categoria": "exposición",
+      "fecha": "2026-11-19",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Pintura de Santiago Pina que trata el cuerpo como algo inestable y reflexiona sobre la percepción actual y la imposibilidad de una identidad fija.",
+      "info": "",
+      "etiqueta": "Hasta el 15 ene",
+      "horario_dia": "9:00–21:00",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Pina",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true,
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fondo": "noche"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-19/img/divergencia-1119-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "manton-1119",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-11-19",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Veintisiete mantones de la colección de Encarnita Perraut, una maqueta de galeón y obras del Museo Cruz Herrera cuentan cómo el galeón llevó el mantón a las mujeres españolas.",
+      "info": "",
+      "etiqueta": "Hasta el 9 ene",
+      "horario_dia": "9:00–21:00",
+      "imagen": {
+        "archivo": "img/manton-1119.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Asociación Hespérides",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true
+    },
+    {
+      "id": "villalta-1119",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-19",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "C/ San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Gran muestra del pintor Pérez Villalta con obra de distintas etapas.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "horario_dia": "10:00–14:00 y 16:00–19:00",
+      "continuo": true,
+      "bloque": 1,
+      "imagen": {
+        "archivo": "img/perez-villalta.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "ajuste": "contain"
+      },
+      "etiqueta": "Hasta el 21 feb"
+    }
+  ]
+}

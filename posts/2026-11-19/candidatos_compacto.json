@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-18T16:54:18+01:00",
+  "generado": "2026-11-19T06:54:06+01:00",
   "instruccion": "Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url.",
   "temporales": [
     {
@@ -62,7 +62,7 @@
       "provincial": false,
       "pista_capital": true,
       "horario_texto": "De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado..",
-      "detalle_texto": "[no se pudo leer: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))]",
+      "detalle_texto": "Exposición 'Divergencia cognitiva' Inicio / Agenda / Exposición 'Divergencia cognitiva' Exposición 'Divergencia cognitiva' 13 noviembre 2026 - 15 enero 2027 // De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado.. Lugar: Sala Blas de Lezo. La exposición 'Divergencia cognitiva' reúne un buen número de Trabajos",
       "descripcion_fuente": "La exposición 'Divergencia cognitiva' reúne un buen número de Trabajos del artista zaragozano Santiago Pina . Comisariada por Ramón A. Olivares y Jennifer Gómez (The Guide Artists), estará abierta has",
       "imagen_oficial": {
         "error": "sin imagen oficial descargable"
@@ -168,11 +168,6 @@
           "fuente": "Eventbrite – Cádiz",
           "tipo": "agregador",
           "url": "https://www.eventbrite.es/e/entradas-presentacion-del-libro-por-su-autor-etica-de-la-inteligencia-artificial-2004646157621"
-        },
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/entradas-presentacion-del-libro-por-su-autor-etica-de-la-inteligencia-artificial-2004646157621"
         }
       ],
       "lugar": "Nueva Acrópolis Cádiz",
@@ -182,47 +177,6 @@
       "provincial": true,
       "pista_capital": true,
       "detalle_texto": "Presentación del libro por su autor: Ética de la Inteligencia Artificial Entradas, jueves, 19 de noviembre • 20:00 - 21:00 | Eventbrite Comparte este evento Presentación del libro por su autor: Ética de la Inteligencia Artificial Por Nueva Acrópolis Cádiz Seguir Nueva Acrópolis Cádiz Cádiz jueves, 19 de noviembre • 20:00 - 21:00 Resumen Ética de la",
-      "descripcion_fuente": "Ética de la Inteligencia Artificial: los grandes desafíos de nuestro tiempo ¿Puede una máquina tomar decisiones éticas?",
-      "imagen_oficial": null
-    },
-    {
-      "nombre": "Property Deal Network Sevilla - PDN - Property Networking Event",
-      "fecha": "2026-11-19",
-      "fuentes": [
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.co.uk/e/property-deal-network-sevilla-pdn-property-networking-event-tickets-2000959995210"
-        }
-      ],
-      "lugar": "Bar Terraza Chile",
-      "direccion": "Paseo de las Delicias, 41013, Sevilla",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "Property Deal Network Sevilla - PDN - Property Networking Event Tickets, Multiple dates | Eventbrite Share this event Property Deal Network Sevilla - PDN - Property Networking Event Top organiser By Property Deal Network - PDN - Investor Networking Follow Bar Terraza Chile Sevilla, AN Multiple dates Overview Free monthly real estate investor networ",
-      "descripcion_fuente": "Free monthly real estate investor networking meetup in Sevilla. Bring a deal, find capital, JV partners, agents, lenders, developers.",
-      "imagen_oficial": null
-    },
-    {
-      "nombre": "Visita Guiada Archivo de Indias",
-      "fecha": "2026-11-19",
-      "fuentes": [
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/entradas-visita-guiada-archivo-de-indias-2002424184640"
-        }
-      ],
-      "lugar": "Archivo de Indias",
-      "direccion": "s/n Avenida de la Constitución, 41004, Sevilla",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "Visita Guiada Archivo de Indias Entradas, Varias fechas | Eventbrite Comparte este evento Visita Guiada Archivo de Indias Por GuiArte Sevilla Seguir Archivo de Indias Sevilla, AL Varias fechas Resumen Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad. Descubre con nuestra Visita Guiada al Arc",
-      "descripcion_fuente": "Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad.",
       "imagen_oficial": null
     },
     {
@@ -462,6 +416,34 @@
       }
     },
     {
+      "nombre": "II Muestra de Empresarias en Acción: talleres y proyectos en La Milagrosa",
+      "fecha": "2026-11-19",
+      "fuentes": [
+        {
+          "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
+          "tipo": "oficial",
+          "url": "https://vivirediciones.es/ii-muestra-empresarias-accion-talavera/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-19",
+      "fecha_fin_evento": "2026-11-19",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "detalle_texto": "Talavera acoge la II Muestra de Empresarias en Acción – vivirEdiciones Saltar al contenido II Muestra de Empresarias en Acción: talleres y proyectos en La Milagrosa Doce expertas presentan sus proyectos con talleres y actividades en el Centro Cultural La Milagrosa Talavera de la Reina 18 de noviembre de 2026, 21:44 El Centro Cultural La Milagrosa d",
+      "descripcion_fuente": "s en Acción: talleres y proyectos en La Milagrosa. El Centro Cultural La Milagrosa de Talavera de la Reina acogerá mañana, jueves 19 , la II Muestra de Empresarias en Acción , una jornada dedicada a d",
+      "imagen_oficial": {
+        "archivo": "img/ii-muestra-empresarias-accion-talavera.jpg",
+        "url_origen": "https://media.vivirediciones.es/2026/11/ii-muestra-empresarias-accion-talavera-1795034530733.jpg",
+        "fuente": "vivirediciones.es",
+        "pagina": "https://vivirediciones.es/ii-muestra-empresarias-accion-talavera/",
+        "ancho": 1200,
+        "alto": 675,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
       "nombre": "Cádiz celebrará el 22 de noviembre la IV Carrera por la Eliminación de la Violencia contra las Mujeres",
       "fecha": "2026-11-19",
       "fuentes": [
@@ -525,7 +507,7 @@
       "provincial": true,
       "pista_capital": false,
       "detalle_texto": "Teach Yourself Hypnosis: Your Mind Has a Steering Wheel, Learn to Use It, Thu, Nov 19, 2026, 6:00 PM | Meetup Skip to content Teach Yourself Hypnosis: Your Mind Has a Steering Wheel, Learn to Use It Hosted by Heather DiscoverU - London Online event Link visible for attendees Event chat Attend to join the conversation and connect with other attendee",
-      "descripcion_fuente": "**Free:** Self-Hypnosis Foundation Event **Where:** Online. [Register to get the Zoom link.](https://tidycal.com/heathermichellehypnotherapy/clinical-hypnotherapy-session-197n58x-36xzvpj-3z4p5ke-19qwp",
+      "descripcion_fuente": "Register here to get the zoom link! https://tidycal.com/heathermichellehypnotherapy/clinical-hypnotherapy-session-197n58x-36xzvpj-3z4p5ke-19qwpyd **Free:** Self-Hypnosis Foundation Event **Where:** On",
       "imagen_oficial": null
     },
     {
@@ -813,7 +795,15 @@
     "UN CÁDIZ DE CUENTO",
     "Visitas al paseo superior de las puertas de tierra y al torreón"
   ],
-  "pistas_por_dia": {},
+  "pistas_por_dia": {
+    "2026-11-19": [
+      {
+        "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
+        "url": "https://institucional.cadiz.es/programacion_cultural",
+        "fragmento": "ral Inicio / Programación cultural Programación cultural Agenda de eventos culturales Desde el Desde el Date E.g., 19/11/2026 Hasta el Hasta el Date E.g., 19/11/2026 Javier Perianes - ( Conciertos ) Hasta el: 23/11/2026 Horario: 20:00 h. Visitas Teatralizadas: La Esencia Del Músico - ( Rutas Y Visitas ) Hasta el: 26/11/2026 Horario: 25 y 26 de novi"
+      }
+    ]
+  },
   "consultas_web": [
     {
       "fuente": "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
