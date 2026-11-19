@@ -1,9 +1,8 @@
 # Auditoría de fuentes (últimos 14 días)
 
-Fuentes registradas: 115
+Fuentes registradas: 114
 
 ## Caídas (nunca responden): sustituir o buscar la URL nueva
-- Andalucía.org – agenda de Cádiz (Junta de Andalucía)
 - En buena edad – agenda del Ayuntamiento
 - Universidad de Cádiz – eventos
 
@@ -32,21 +31,21 @@ Fuentes registradas: 115
 - Viral Agenda – Cádiz
 
 ## Las que más aportan
-- Onda Cádiz – Agenda de eventos: 1029 candidatos
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 898 candidatos
-- Sala Central Lechera: 750 candidatos
-- Gran Teatro Falla: 690 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 625 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 291 candidatos
-- Guía de Cádiz – Agenda: 209 candidatos
-- Eventbrite – Cádiz: 115 candidatos
-- Casa de Iberoamérica: 101 candidatos
-- Cádiz Directo: 80 candidatos
+- Onda Cádiz – Agenda de eventos: 994 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 867 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 735 candidatos
+- Sala Central Lechera: 725 candidatos
+- Gran Teatro Falla: 667 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 279 candidatos
+- Casa de Iberoamérica: 107 candidatos
+- Guía de Cádiz – Agenda: 101 candidatos
+- Cádiz Directo – feed Cádiz: 93 candidatos
+- Cádiz Directo: 92 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
-- rinde (1 días): dieron_eventos
-- rinde (1 días): sin_resultados
-- rinde (1 días): pistas_descartadas
+- rinde (2 días): dieron_eventos
+- rinde (2 días): sin_resultados
+- rinde (2 días): pistas_descartadas
 
 ## Control de lectura de fuentes web (estado.json → fuentes_leidas)
 - Todas las fuentes web se han leído.

@@ -41,3 +41,7 @@ Evita el error #4 (17/11): publicar con prioridad, lecturas de organizadores con
 ## 2026-11-19 · Vigilante: comprobar stories
 
 El vigilante daba por completa la publicación mirando solo el carrusel: el 19-nov dos stories de IG fallaron (9007) y se reintentaron a mano; ahora exige que todas las publicaciones estén en estado publicado
+
+## 2026-11-19 · Auditoría semanal (jueves)
+
+Semana 13-19 nov: 42 planes (7, 7, 3, 3, 5, 8, 9 por día; mejora desde que entran exposiciones temporales y eventos de varios días). Categorías: música 21, otros 13, exposición 7, teatro 1; sin humor, cine, infantil ni gastronomía en toda la semana. Recintos más repetidos: Fundación Unicaja y Cajasol, Casa de Iberoamérica, Ateneo. Cobertura: @gaditanisimamente 14 diapositivas frente a nuestros 9 eventos. Propuesta: reforzar fuentes de teatro/humor, infantil (bibliotecas, Valle de Cuentos, Tía Norica) y gastronomía; revisar los candidatos de organizadores (candidatos_ig.json) cada día para cerrar la brecha. El reel del finde de hoy marca 13 de alcance a las 22:00, por debajo de los anteriores (80-160): reabrir mañana la cifra del día completo antes de sacar conclusiones.
