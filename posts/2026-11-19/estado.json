@@ -17,10 +17,12 @@
     },
     "stories/01.png": {
       "instagram": {
-        "ts": "2026-11-19T09:01:52+01:00",
-        "estado": "error",
-        "error": "Media ID is not available (code 9007/2207027)",
-        "temporal": false
+        "ts": "2026-11-19T09:04:45+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18153649177480034",
+          "https://www.instagram.com/stories/planesencadiz/4033707872383090270"
+        ]
       },
       "facebook": {
         "ts": "2026-11-19T09:01:56+01:00",
@@ -45,10 +47,12 @@
     },
     "stories/03.png": {
       "instagram": {
-        "ts": "2026-11-19T09:02:16+01:00",
-        "estado": "error",
-        "error": "Media ID is not available (code 9007/2207027)",
-        "temporal": false
+        "ts": "2026-11-19T09:04:58+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18349369753180256",
+          "https://www.instagram.com/stories/planesencadiz/4033708001106282985"
+        ]
       },
       "facebook": {
         "ts": "2026-11-19T09:02:20+01:00",
@@ -280,7 +284,7 @@
   "limite_publicaciones": {
     "uso": 10,
     "total": 100,
-    "ts": "2026-11-19T07:29:06+01:00"
+    "ts": "2026-11-19T09:04:20+01:00"
   },
-  "ultima_ejecucion": "2026-11-19T09:04:11+01:00"
+  "ultima_ejecucion": "2026-11-19T09:04:58+01:00"
 }
