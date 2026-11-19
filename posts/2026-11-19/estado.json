@@ -1,9 +1,173 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-19T09:01:36+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17978858994140300",
+          "https://www.instagram.com/p/Df6mnnDF8P8/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:01:48+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122112056061519566"
+      }
+    },
+    "stories/01.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:01:52+01:00",
+        "estado": "error",
+        "error": "Media ID is not available (code 9007/2207027)",
+        "temporal": false
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:01:56+01:00",
+        "estado": "publicado",
+        "resultado": "1176672991702611"
+      }
+    },
+    "stories/02.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:02:09+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17891617713475473",
+          "https://www.instagram.com/stories/planesencadiz/4033706579908325787"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:02:12+01:00",
+        "estado": "publicado",
+        "resultado": "1796048932081343"
+      }
+    },
+    "stories/03.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:02:16+01:00",
+        "estado": "error",
+        "error": "Media ID is not available (code 9007/2207027)",
+        "temporal": false
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:02:20+01:00",
+        "estado": "publicado",
+        "resultado": "2254543438823930"
+      }
+    },
+    "stories/04.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:02:35+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18128644456934139",
+          "https://www.instagram.com/stories/planesencadiz/4033706789933875687"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:02:39+01:00",
+        "estado": "publicado",
+        "resultado": "1812100646580335"
+      }
+    },
+    "stories/05.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:02:53+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18143157472527610",
+          "https://www.instagram.com/stories/planesencadiz/4033706942069721982"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:02:57+01:00",
+        "estado": "publicado",
+        "resultado": "1426174803013453"
+      }
+    },
+    "stories/06.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:03:09+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18648723259063462",
+          "https://www.instagram.com/stories/planesencadiz/4033707095623202829"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:03:14+01:00",
+        "estado": "publicado",
+        "resultado": "1879924149704797"
+      }
+    },
+    "stories/07.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:03:23+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18101422841427012",
+          "https://www.instagram.com/stories/planesencadiz/4033707243413100062"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:03:28+01:00",
+        "estado": "publicado",
+        "resultado": "1882527843105307"
+      }
+    },
+    "stories/08.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:03:37+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18103861886645779",
+          "https://www.instagram.com/stories/planesencadiz/4033707357456065791"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:03:43+01:00",
+        "estado": "publicado",
+        "resultado": "1836298434178589"
+      }
+    },
+    "stories/09.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:03:52+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18250831141311336",
+          "https://www.instagram.com/stories/planesencadiz/4033707479401349529"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:03:57+01:00",
+        "estado": "publicado",
+        "resultado": "2267411384121037"
+      }
+    },
+    "stories/10.png": {
+      "instagram": {
+        "ts": "2026-11-19T09:04:06+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18098599286664329",
+          "https://www.instagram.com/stories/planesencadiz/4033707605096236145"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-19T09:04:11+01:00",
+        "estado": "publicado",
+        "resultado": "2121484738563738"
+      }
+    }
+  },
   "registro": [
     "2026-11-19T06:56:53+01:00 diario: render OK (9 eventos, variante B)",
     "2026-11-19T06:57:17+01:00 diario: render OK (9 eventos, variante B)",
-    "2026-11-19T06:57:33+01:00 diario: render OK (9 eventos, variante B)"
+    "2026-11-19T06:57:33+01:00 diario: render OK (9 eventos, variante B)",
+    "2026-11-19T09:01:52+01:00 ERROR stories/01.png/instagram: Media ID is not available (code 9007/2207027)",
+    "2026-11-19T09:02:16+01:00 ERROR stories/03.png/instagram: Media ID is not available (code 9007/2207027)"
   ],
   "fuentes_leidas": [
     "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
@@ -112,5 +276,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-19T06:58:36+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 10,
+    "total": 100,
+    "ts": "2026-11-19T07:29:06+01:00"
+  },
+  "ultima_ejecucion": "2026-11-19T09:04:11+01:00"
 }
