@@ -551,5 +551,59 @@
       },
       "etiqueta": "Hasta el 21 feb"
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "etcetera-1120",
+      "nombre": "Compañía Etcétera · Soñando el carnaval de los animales",
+      "categoria": "teatro",
+      "fecha": "2026-11-20",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "20 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto con títeres que mezcla música de Debussy y Saint-Saëns, humor y fantasía: once músicos y animales de títere cobran vida con la música.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/compania-etcetera-sonando-el-carnaval-de-los-animales"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/compania-etcetera-sonando-el-carnaval-de-los-animales"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Compañía Etcétera",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    }
   ]
 }
