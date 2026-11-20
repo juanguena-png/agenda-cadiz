@@ -104,7 +104,10 @@
     },
     "adf.ciudad.de.cadiz": {
       "seguir": "2026-11-05",
-      "revisada": "2026-11-12"
+      "revisada": "2026-11-12",
+      "interacciones": [
+        "2026-11-20"
+      ]
     },
     "libreriamanueldefalla": {
       "seguir": "2026-11-05",
@@ -115,7 +118,10 @@
     },
     "enriquemellizocadiz": {
       "seguir": "2026-11-05",
-      "revisada": "2026-11-12"
+      "revisada": "2026-11-12",
+      "interacciones": [
+        "2026-11-20"
+      ]
     },
     "gaditanoir": {
       "interacciones": [
@@ -269,7 +275,8 @@
     },
     "realoviedo": {
       "interacciones": [
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-20"
       ]
     },
     "laliga": {
@@ -334,7 +341,8 @@
     },
     "manolomorera": {
       "interacciones": [
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-20"
       ]
     },
     "vicenteamigo_oficial": {
@@ -344,7 +352,8 @@
     },
     "kambrassquintet": {
       "interacciones": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-20"
       ]
     },
     "mercheoficial": {
@@ -354,12 +363,14 @@
     },
     "canalfiesta": {
       "interacciones": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-20"
       ]
     },
     "david.palomar": {
       "interacciones": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-20"
       ]
     },
     "pinocho_detective": {
@@ -401,6 +412,55 @@
       "interacciones": [
         "2026-11-19"
       ]
+    },
+    "jacarasdelzefiro": {
+      "interacciones": [
+        "2026-11-20"
+      ]
+    },
+    "cuarteto_fuerte": {
+      "interacciones": [
+        "2026-11-20"
+      ]
+    },
+    "juan_carlos_garvayo": {
+      "interacciones": [
+        "2026-11-20"
+      ]
+    },
+    "orquestabarrocasevilla": {
+      "interacciones": [
+        "2026-11-20"
+      ]
+    },
+    "enavantacademia": {
+      "interacciones": [
+        "2026-11-20"
+      ]
+    },
+    "hdadcigarreras": {
+      "interacciones": [
+        "2026-11-20"
+      ]
+    },
+    "sagradacenacadiz": {
+      "interacciones": [
+        "2026-11-20"
+      ]
+    },
+    "caidocadiz": {
+      "interacciones": [
+        "2026-11-20"
+      ]
+    },
+    "chirigotadelpopete": {
+      "seguir": "2026-11-20"
+    },
+    "cadizfutsal": {
+      "seguir": "2026-11-20"
+    },
+    "lalectoracadiz": {
+      "seguir": "2026-11-20"
     }
   }
 }
