@@ -182,7 +182,8 @@
     }
   },
   "registro": [
-    "2026-11-20T06:57:27+01:00 diario: render OK (10 eventos, variante A)"
+    "2026-11-20T06:57:27+01:00 diario: render OK (10 eventos, variante A)",
+    "2026-11-20T16:51:58+01:00 diario: render OK (10 eventos, variante A)"
   ],
   "fuentes_leidas": [
     "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
@@ -285,7 +286,7 @@
   },
   "revision_final": {
     "hecha": true,
-    "ts": "2026-11-20T06:58:42+01:00"
+    "ts": "2026-11-20T16:51:58+01:00"
   },
   "limite_publicaciones": {
     "uso": 13,
