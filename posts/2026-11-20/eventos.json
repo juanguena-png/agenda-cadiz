@@ -1,0 +1,590 @@
+{
+  "fecha": "2026-11-20",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "martinez-1120",
+      "nombre": "David Martínez González, recital de violín",
+      "categoria": "música",
+      "fecha": "2026-11-20",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Calle San Francisco, 26, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Recital de violín con obras de Schumann y Ysaÿe, entre otros, en el Festival de Cádiz.",
+      "info": "Entrada libre hasta completar aforo",
+      "imagen": {
+        "archivo": "img/martinez-1120.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-martinez-gonzalez-violin",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "David Martínez González, violinista",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-martinez-gonzalez-violin"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Calle San Francisco, 26, Cádiz (Centro Fundación Unicaja)",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/david-martinez-gonzalez-violin"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "David Martínez González",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "rodes-1120",
+      "nombre": "María Rodés · Lo que me pasa",
+      "categoria": "música",
+      "fecha": "2026-11-20",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "La cantautora presenta un trabajo que mezcla fuerzas opuestas en un directo muy personal, dentro del Festival de Cádiz.",
+      "info": "Entradas en la web del Festival de Cádiz",
+      "imagen": {
+        "archivo": "img/rodes-1120.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/maria-rodes-lo-que-me-pasa",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "María Rodés, cantautora",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/maria-rodes-lo-que-me-pasa"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/maria-rodes-lo-que-me-pasa"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "María Rodés",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "etcetera-1120",
+      "nombre": "Compañía Etcétera · Soñando el carnaval de los animales",
+      "categoria": "teatro",
+      "fecha": "2026-11-20",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela, s/n, 11003 Cádiz",
+      "precio": "20 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Marionetas y música para soñar el Carnaval de los animales de Saint-Saëns, un espectáculo para todos los públicos.",
+      "info": "Entradas en la web del Gran Teatro Falla",
+      "imagen": {
+        "archivo": "img/etcetera-1120.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/compania-etcetera-sonando-el-carnaval-de-los-animales",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Compañía Etcétera, Soñando el carnaval de los animales",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/compania-etcetera-sonando-el-carnaval-de-los-animales"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/compania-etcetera-sonando-el-carnaval-de-los-animales"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Compañía Etcétera",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "ateneo-fallen-1120",
+      "nombre": "Cinefórum del Ateneo: «Fallen Leaves», de Kaurismäki",
+      "categoria": "otros",
+      "hora_inicio": "17:30",
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "Calle Ancha, 20, 1.º, 11001 Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Proyección de la película de Aki Kaurismäki (2023) seguida de debate, presentada por miembros de la Sección de Arte y Cinematografía del Ateneo.",
+      "info": "Entrada libre hasta completar aforo",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "cine",
+          "marco"
+        ],
+        "fondo": "noche"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede del Ateneo, calle Ancha 20, 1.º, 11001 Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Valeria Roccella Salamone",
+          "instagram": null,
+          "buscado": "2026-11-20"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-20/img/ateneo-fallen-1120-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "cine",
+          "marco"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Cinefórum del Ateneo: «Fallen Leaves», de Kaurismäki»: composición con cine, marco en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "cata-1120",
+      "nombre": "Cata de vinos de Jerez maridados con chocolate de autor",
+      "categoria": "gastronomía",
+      "hora_inicio": "20:00",
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Cata guiada de cinco vinos de Jerez (fino, amontillado, oloroso, cream y Pedro Ximénez) con chocolates de autor.",
+      "info": "Entradas en la web de la Fundación y en la taquilla de Cádiz",
+      "imagen": {
+        "archivo": "img/cata-1120.jpg",
+        "url_origen": "https://fundacioncajasol.com/evento/cata-de-vinos-de-jerez/",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cata de vinos de Jerez con chocolate en Fundación Cajasol",
+        "ajuste": "cover"
+      },
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/cata-de-vinos-de-jerez/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio, 14",
+        "url": "https://fundacioncajasol.com/evento/cata-de-vinos-de-jerez/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "acropolis-gita-1120",
+      "nombre": "Charla «La sabiduría del Bhagavad Gita»",
+      "categoria": "otros",
+      "hora_inicio": "20:00",
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Encuentro presencial con Yadunandana Swami, de ISKCON Cádiz, para acercarse a la sabiduría del Bhagavad Gita.",
+      "info": "Entradas en Eventbrite",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "estrella"
+        ],
+        "fondo": "bruma"
+      },
+      "fuentes": [
+        {
+          "nombre": "Nueva Acrópolis Cádiz (Eventbrite)",
+          "url": "https://www.eventbrite.es/e/entradas-la-sabiduria-del-bhagavad-gita-2004646264942"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004, Cádiz",
+        "url": "https://www.eventbrite.es/e/entradas-la-sabiduria-del-bhagavad-gita-2004646264942"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": "nuevaacropolis.cadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": "nuevaacropolis.cadiz"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-20/img/acropolis-gita-1120-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "estrella"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Charla «La sabiduría del Bhagavad Gita»»: composición con libro, estrella en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "acropolis-epi-1120",
+      "nombre": "Charla «Epigenética y transformación»",
+      "categoria": "otros",
+      "hora_inicio": "20:00",
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Cómo el estilo de vida, el ambiente y los hábitos influyen en la expresión de nuestros genes, en un encuentro para el público general.",
+      "info": "Entradas en Eventbrite",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "bombilla",
+          "libro"
+        ],
+        "fondo": "bruma"
+      },
+      "fuentes": [
+        {
+          "nombre": "Nueva Acrópolis Cádiz (Eventbrite)",
+          "url": "https://www.eventbrite.es/e/entradas-epigenetica-y-transformacion-2004646302053"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Nueva Acrópolis Cádiz, calle San Pedro nº1, 11004, Cádiz",
+        "url": "https://www.eventbrite.es/e/entradas-epigenetica-y-transformacion-2004646302053"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": "nuevaacropolis.cadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": "nuevaacropolis.cadiz"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-20/img/acropolis-epi-1120-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "bombilla",
+          "libro"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Charla «Epigenética y transformación»»: composición con bombilla, libro en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "divergencia-1120",
+      "nombre": "Exposición «Divergencia cognitiva», de Santiago Pina",
+      "categoria": "exposición",
+      "fecha": "2026-11-20",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Pintura de Santiago Pina que trata el cuerpo como algo inestable y reflexiona sobre la percepción actual y la imposibilidad de una identidad fija.",
+      "info": "",
+      "etiqueta": "Hasta el 15 ene",
+      "horario_dia": "9:00–21:00",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Pina",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true,
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fondo": "noche"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-19/img/divergencia-1119-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "manton-1120",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-11-20",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Veintisiete mantones de la colección de Encarnita Perraut, una maqueta de galeón y obras del Museo Cruz Herrera cuentan cómo el galeón llevó el mantón a las mujeres españolas.",
+      "info": "",
+      "etiqueta": "Hasta el 9 ene",
+      "horario_dia": "9:00–21:00",
+      "imagen": {
+        "archivo": "img/manton-1120.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Asociación Hespérides",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true
+    },
+    {
+      "id": "villalta-1120",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-20",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "C/ San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Gran muestra del pintor Pérez Villalta con obra de distintas etapas.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "horario_dia": "10:00–14:00 y 16:00–19:00",
+      "continuo": true,
+      "bloque": 1,
+      "imagen": {
+        "archivo": "img/perez-villalta.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "ajuste": "contain"
+      },
+      "etiqueta": "Hasta el 21 feb"
+    }
+  ]
+}

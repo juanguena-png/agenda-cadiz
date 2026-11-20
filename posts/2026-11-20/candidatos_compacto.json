@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-19T16:54:10+01:00",
+  "generado": "2026-11-20T06:55:45+01:00",
   "instruccion": "Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url.",
   "temporales": [
     {
@@ -211,6 +211,31 @@
       "imagen_oficial": null
     },
     {
+      "nombre": "Epigenética y transformación",
+      "fecha": "2026-11-20",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-epigenetica-y-transformacion-2004646302053"
+        },
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-epigenetica-y-transformacion-2004646302053"
+        }
+      ],
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "calle san Pedro nº1, 11004, Cádiz",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Epigenética y transformación Entradas, viernes, 20 de noviembre • 20:00 - 21:00 | Eventbrite Comparte este evento Epigenética y transformación Por Nueva Acrópolis Cádiz Seguir Nueva Acrópolis Cádiz Cádiz viernes, 20 de noviembre • 20:00 - 21:00 Resumen Descubre cómo el estilo de vida, el ambiente y los hábitos influyen en la expresión de nuestros g",
+      "imagen_oficial": null,
+      "descripcion_fuente": "Descubre cómo el estilo de vida, el ambiente y los hábitos influyen en la expresión de nuestros genes."
+    },
+    {
       "nombre": "Don Juan Tenorio (Ruta teatralizada)",
       "fecha": "2026-11-20",
       "fuentes": [
@@ -228,26 +253,6 @@
       "pista_capital": false,
       "detalle_texto": "Don Juan Tenorio (Ruta teatralizada) Entradas, Varias fechas | Eventbrite Comparte este evento Don Juan Tenorio (Ruta teatralizada) Por MolArte Seguir Plaza Virgen de los Reyes Sevilla, AL Varias fechas Resumen MolArte te trae una nueva forma de conocer la Sevilla del siglo XVI, con esta visita teatralizada. Esta adaptación peculiar de la obra, con",
       "descripcion_fuente": "MolArte te trae una nueva forma de conocer la Sevilla del siglo XVI, con esta visita teatralizada.",
-      "imagen_oficial": null
-    },
-    {
-      "nombre": "Epigenética y transformación",
-      "fecha": "2026-11-20",
-      "fuentes": [
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/entradas-epigenetica-y-transformacion-2004646302053"
-        }
-      ],
-      "lugar": "Nueva Acrópolis Cádiz",
-      "direccion": "calle san Pedro nº1, 11004, Cádiz",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": true,
-      "detalle_texto": "Epigenética y transformación Entradas, viernes, 20 de noviembre • 20:00 - 21:00 | Eventbrite Comparte este evento Epigenética y transformación Por Nueva Acrópolis Cádiz Seguir Nueva Acrópolis Cádiz Cádiz viernes, 20 de noviembre • 20:00 - 21:00 Resumen Descubre cómo el estilo de vida, el ambiente y los hábitos influyen en la expresión de nuestros g",
-      "descripcion_fuente": "Descubre cómo el estilo de vida, el ambiente y los hábitos influyen en la expresión de nuestros genes.",
       "imagen_oficial": null
     },
     {
@@ -290,33 +295,28 @@
       "imagen_oficial": null
     },
     {
-      "nombre": "UNICAS",
+      "nombre": "Private VIP Karaoke Experience",
       "fecha": "2026-11-20",
       "fuentes": [
         {
           "fuente": "Eventbrite – Cádiz",
           "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/entradas-unicas-2004280967327"
+          "url": "https://www.eventbrite.com/e/private-vip-karaoke-experience-tickets-1989033561927"
         }
       ],
-      "lugar": "Villaverde del Río",
-      "direccion": "Avenida Ntra. Sra. de Aguas Santas, 9, 41318, Villaverde del Río",
+      "lugar": "Helsinki Karaoke Bar Fuengirola",
+      "direccion": "3 Calle Lamo de Espinosa, 29640, Fuengirola",
       "permanente": false,
       "multidia": false,
       "provincial": true,
-      "detalle_texto": "UNICAS Entradas, viernes, 20 de noviembre • Empieza a las 20:00 | Eventbrite Comparte este evento UNICAS D Por Delegación de Cultura del Ayto. Villaverde del Río Seguir Villaverde del Río Villaverde del Río, AN viernes, 20 de noviembre • Empieza a las 20:00 Resumen Miguel Esteve & Ivo Blanek presentan este musical sobre mujeres que se convirtieron ",
-      "descripcion_fuente": "Miguel Esteve & Ivo Blanek presentan este musical sobre mujeres que se convirtieron en un símbolo. No te lo pierdas.",
+      "detalle_texto": "Private VIP Karaoke Experience Tickets, Multiple dates | Eventbrite Sales ended Share this event Private VIP Karaoke Experience H By Helsinki Karaoke Bar Follow Helsinki Karaoke Bar Fuengirola Fuengirola, AN Multiple dates Overview Sing your heart out with friends in a cool, private VIP room—your ultimate karaoke night awaits! Private VIP Karaoke E",
+      "descripcion_fuente": "Sing your heart out with friends in a cool, private VIP room—your ultimate karaoke night awaits!",
       "imagen_oficial": null
     },
     {
       "nombre": "Dos rutas gratuitas para descubrir la historia LGTBI de Cádiz",
       "fecha": "2026-11-20",
       "fuentes": [
-        {
-          "fuente": "Diario de Cádiz – agenda",
-          "tipo": "prensa",
-          "url": "https://www.diariodecadiz.es/cadiz/rutas-gratuitas-historia-lgtbi-cadiz_0_2008536359.html"
-        },
         {
           "fuente": "Diario de Cádiz – agenda",
           "tipo": "prensa",
@@ -434,31 +434,6 @@
       "imagen_oficial": null
     },
     {
-      "nombre": "Riki Rivera protagonizará el espectáculo que encenderá la Navidad de Cádiz el 27 de noviembre",
-      "fecha": "2026-11-20",
-      "fuentes": [
-        {
-          "fuente": "Cádiz Directo",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/riki-rivera-protagonizara-el-espectaculo-que-encendera-la-navidad-de-cadiz-el-27-de-noviembre/"
-        },
-        {
-          "fuente": "Cádiz Directo – feed Cádiz",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/riki-rivera-protagonizara-el-espectaculo-que-encendera-la-navidad-de-cadiz-el-27-de-noviembre/"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-20",
-      "fecha_fin_evento": "2026-11-20",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "Riki Rivera protagonizará el espectáculo que encenderá la Navidad de Cádiz el 27 de noviembre Riki Rivera interviene en la presentación de la Navidad de Cádiz 2026 junto al alcalde, Bruno García, y la concejala de Fiestas, Beatriz Gandullo. Cádiz Riki Rivera protagonizará el espectáculo que encenderá la Navidad de Cádiz el 27 de noviembre El músico",
-      "descripcion_fuente": "tral de Abastos. La plaza de San Antonio contará nuevamente con su parque navideño y pista de hielo, que abrirá el 20 de noviembre y permanecerá hasta el 8 de enero. También regresará la Feria Profesi",
-      "imagen_oficial": null
-    },
-    {
       "nombre": "Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’",
       "fecha": "2026-11-20",
       "fuentes": [
@@ -504,7 +479,7 @@
           "url": "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz#1"
         }
       ],
-      "fecha_inicio_evento": "2026-11-19",
+      "fecha_inicio_evento": "2026-11-20",
       "fecha_fin_evento": "2026-11-23",
       "lugar": "Ayuntamiento de Cádiz",
       "permanente": false,
@@ -620,14 +595,7 @@
       "pista_capital": false,
       "detalle_texto": "Día del Flamenco en Andalucía 2026: provincia de Cádiz Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y formación Espect",
       "imagen_oficial": {
-        "archivo": "img/evento-dia-del-flamenco-en-andalucia-2026-provincia-de-cadiz.jpg",
-        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-10/16N26-RRSS-1920-1080px.png.webp?itok=Csn_QdLv",
-        "fuente": "www.juntadeandalucia.es",
-        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/dia-del-flamenco-en-andalucia-2026-provincia-de-cadiz",
-        "ancho": 960,
-        "alto": 540,
-        "alt_text": "",
-        "tipo_imagen": "oficial"
+        "error": "sin imagen oficial descargable"
       }
     },
     {
@@ -660,13 +628,13 @@
       }
     },
     {
-      "nombre": "Algeciras Fantástika rechazó en su certamen un corto de Carlos y Víctor Clavijo participante en 50 festivales",
+      "nombre": "McDonald’s celebra este 20 de noviembre el McHappy Day a beneficio de la Casa Ronald McDonald",
       "fecha": "2026-11-20",
       "fuentes": [
         {
           "fuente": "Europa Sur – RSS",
           "tipo": "prensa",
-          "url": "https://www.europasur.es/algeciras/algeciras-fantastika-rechazo-concurso-corto-carlos-victor-clavijo-premios_0_2008534255.html"
+          "url": "https://www.europasur.es/campo-de-gibraltar/mcdonald-s-celebra-20-noviembre-mchappyday_0_2008543667.html"
         }
       ],
       "fecha_inicio_evento": "2026-11-20",
@@ -674,9 +642,8 @@
       "permanente": false,
       "multidia": false,
       "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "Algeciras Fantástika rechazó en su certamen un corto de Carlos y Víctor Clavijo participante en 50 festivales Ocio Descubre la Necrópolis de Los Algarbes Víctor Clavijo y Carolina Bona, protagonistas del cortometraje \"La Cámara\", dirigido por Carlos Clavijo / P.F. La organización del festival de cine Algeciras Fantástika , que clausuró el pasado sá",
-      "descripcion_fuente": "só el corte del comité de selección al que se presentaron otros 1.200 cortometrajes 'La cámara' se proyectará este viernes 20 en la 6ª Muestra de Cine y Audiovisual Antonio Moreno de Los Barrios",
+      "detalle_texto": "McDonald’s celebra este 20 de noviembre el McHappy Day a beneficio de la Casa Ronald McDonald Ocio Descubre la Necrópolis de Los Algarbes El cartel del evento. Como cada año, McDonald's celebra su jornada más especial y solidaria: este 20 de noviembre , la compañía movilizará a todos sus restaurantes en España con motivo del McHappy Day . Durante t",
+      "descripcion_fuente": "McDonald’s celebra este 20 de noviembre el McHappy Day a beneficio de la Casa Ronald McDonald. Toda la recaudación obtenida por la venta del Big Mac y por una colección limitada de peluches solidarios",
       "imagen_oficial": null
     },
     {
@@ -698,6 +665,35 @@
       "detalle_texto": "Macarena Ramírez lleva al Teatro Alameda de Tarifa un espectáculo que recorre su pasado, presente y futuro en el flamenco Ocio Descubre la Necrópolis de Los Algarbes Macarena Ramírez presenta Fuimos, somos y seremos en Tarifa El flamenco tiene una cita especial esta semana en Tarifa. La bailaora Macarena Ramírez llegará este viernes, 20 de noviembr",
       "descripcion_fuente": "lameda de Tarifa un espectáculo que recorre su pasado, presente y futuro en el flamenco. La bailaora presenta este viernes 20 de noviembre «Fuimos, somos y seremos», una propuesta que contará con Jesú",
       "imagen_oficial": null
+    },
+    {
+      "nombre": "Feminismo: más de 300 años de historia llega a San Martín del Tesorillo",
+      "fecha": "2026-11-20",
+      "fuentes": [
+        {
+          "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
+          "tipo": "oficial",
+          "url": "https://vivirediciones.es/feminismo-300-anos-historia-san-martin-tesorillo/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-20",
+      "fecha_fin_evento": "2026-11-20",
+      "hora_inicio": "09:00",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "detalle_texto": "San Martín del Tesorillo acoge exposición sobre feminismo – vivirEdiciones Saltar al contenido Feminismo: más de 300 años de historia llega a San Martín del Tesorillo El Servicio de Igualdad de la Diputación de Cádiz exhibe la muestra hasta el 26 de noviembre Diputación de Cádiz 19 de noviembre de 2026, 21:48 La exposición ‘Feminismo: más de 300 añ",
+      "descripcion_fuente": "del Tesorillo en horario de 9:00 a 14:00 horas , lo que facilita el acceso a vecinos y visitantes durante toda la mañana. Un recorrido visual por la historia del feminismo La muestra busca presentar m",
+      "imagen_oficial": {
+        "archivo": "img/feminismo-300-anos-historia-san-martin-tesorillo.jpg",
+        "url_origen": "https://media.vivirediciones.es/2026/11/feminismo-300-anos-historia-san-martin-tesorillo-1795120929903.jpg",
+        "fuente": "vivirediciones.es",
+        "pagina": "https://vivirediciones.es/feminismo-300-anos-historia-san-martin-tesorillo/",
+        "ancho": 1200,
+        "alto": 675,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
     },
     {
       "nombre": "Agentic Leadership - Are You Ready to Lead in the Age of AI?",
@@ -965,7 +961,14 @@
       "pista_capital": false,
       "detalle_texto": "Teatro: \"La Miel\" Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y formación Espectáculos Exposiciones Fiestas y tradici",
       "imagen_oficial": {
-        "error": "sin imagen oficial descargable"
+        "archivo": "img/cultura-agendaculturaldeandalucia-evento-teatro-la-miel.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-11/Cartel%20La%20Miel%2020%20nov%202026.png.webp?itok=X0tRX-JA",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/teatro-la-miel",
+        "ancho": 960,
+        "alto": 1357,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
       }
     },
     {
@@ -997,32 +1000,6 @@
         "alt_text": "",
         "tipo_imagen": "oficial"
       }
-    },
-    {
-      "nombre": "Monkey Week 2026 en El Puerto con tres días de conciertos, artistas destacados y escenarios históricos",
-      "fecha": "2026-11-20",
-      "fuentes": [
-        {
-          "fuente": "Cádiz Directo",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/monkey-week-2026-en-el-puerto-con-tres-dias-de-conciertos-artistas-destacados-y-escenarios-historicos/"
-        },
-        {
-          "fuente": "Cádiz Directo – feed Cádiz",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/monkey-week-2026-en-el-puerto-con-tres-dias-de-conciertos-artistas-destacados-y-escenarios-historicos/"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-20",
-      "fecha_fin_evento": "2026-11-20",
-      "hora_inicio": "21:15",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "Monkey Week 2026 en El Puerto con tres días de conciertos, artistas destacados y escenarios históricos Monkey Weekend. Cádiz Monkey Week 2026 en El Puerto con tres días de conciertos, artistas destacados y escenarios históricos El festival celebra su 18ª edición del 19 al 21 de noviembre con Nacho Vegas, María Terremoto, Parquesvr y decenas de prop",
-      "descripcion_fuente": "recerá un concierto acompañado por una escolanía en el Teatro Pedro Muñoz Seca. Su actuación está prevista para el viernes 20 de noviembre, entre las 20:15 y las 21:15 horas. Ese mismo escenario recib",
-      "imagen_oficial": null
     }
   ],
   "permanentes_solo_relleno": [
@@ -1069,6 +1046,11 @@
         "fuente": "Universidad de Cádiz – Extensión universitaria",
         "url": "https://extension.uca.es/",
         "fragmento": "á cinco propuestas musicales el sábado 21 de noviembre Cuatro grupos actuarán en el escenario ‘Campus Rock’ el dia 20 de noviembre en la edición 2026 del festival Monkey Week SON Estrella Galicia La película ‘La voz quebrada’ protagoniza segunda cita de Campus Cinema Bahía de Algeciras Campus Cinema Alcances proyecta la cinta ‘Narciso’ en el Campus de Cádiz."
+      },
+      {
+        "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
+        "url": "https://institucional.cadiz.es/programacion_cultural",
+        "fragmento": "ral Inicio / Programación cultural Programación cultural Agenda de eventos culturales Desde el Desde el Date E.g., 20/11/2026 Hasta el Hasta el Date E.g., 20/11/2026 Javier Perianes - ( Conciertos ) Hasta el: 23/11/2026 Horario: 20:00 h. Visitas Teatralizadas: La Esencia Del Músico - ( Rutas Y Visitas ) Hasta el: 26/11/2026 Horario: 25 y 26 de novi"
       },
       {
         "fuente": "Peña Flamenca La Perla de Cádiz – Viernes Flamencos y ciclos",

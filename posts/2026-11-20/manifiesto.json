@@ -1,0 +1,198 @@
+{
+  "variante": "A",
+  "paleta": 1,
+  "experimentos": {
+    "frase": "B",
+    "cta": "A",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ateneocadiz",
+        "fundunicaja",
+        "culturacuenta",
+        "fundacioncajasol",
+        "nuevaacropolis.cadiz",
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, viernes 20 de noviembre. 10 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-fallen-1120",
+        "martinez-1120"
+      ],
+      "etiquetas": [
+        "ateneocadiz",
+        "fundunicaja",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cinefórum del Ateneo: «Fallen Leaves», de Kaurismäki (17:30, Ateneo de Cádiz); David Martínez González, recital de violín (18:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "rodes-1120",
+        "cata-1120"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: María Rodés · Lo que me pasa (19:00, Teatro del Títere La Tía Norica); Cata de vinos de Jerez maridados con chocolate de autor (20:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "acropolis-epi-1120"
+      ],
+      "etiquetas": [
+        "nuevaacropolis.cadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Charla «Epigenética y transformación» (20:00, Nueva Acrópolis Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "acropolis-gita-1120"
+      ],
+      "etiquetas": [
+        "nuevaacropolis.cadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Charla «La sabiduría del Bhagavad Gita» (20:00, Nueva Acrópolis Cádiz)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "etcetera-1120"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Compañía Etcétera · Soñando el carnaval de los animales (21:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1120"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1120"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1120"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "divergencia-1120",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "manton-1120",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "03.png",
+      "id": "villalta-1120",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "04.png",
+      "id": "ateneo-fallen-1120",
+      "alt_text": "Ilustración de «Cinefórum del Ateneo: «Fallen Leaves», de Kaurismäki»: composición con cine, marco en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "05.png",
+      "id": "martinez-1120",
+      "alt_text": "David Martínez González, violinista"
+    },
+    {
+      "archivo": "06.png",
+      "id": "rodes-1120",
+      "alt_text": "María Rodés, cantautora"
+    },
+    {
+      "archivo": "07.png",
+      "id": "cata-1120",
+      "alt_text": "Cata de vinos de Jerez con chocolate en Fundación Cajasol"
+    },
+    {
+      "archivo": "08.png",
+      "id": "acropolis-epi-1120",
+      "alt_text": "Ilustración de «Charla «Epigenética y transformación»»: composición con bombilla, libro en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "09.png",
+      "id": "acropolis-gita-1120",
+      "alt_text": "Ilustración de «Charla «La sabiduría del Bhagavad Gita»»: composición con libro, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "10.png",
+      "id": "etcetera-1120",
+      "alt_text": "Compañía Etcétera, Soñando el carnaval de los animales"
+    },
+    {
+      "archivo": "11.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "cata-1120",
+        "acropolis-epi-1120",
+        "acropolis-gita-1120",
+        "etcetera-1120"
+      ],
+      "alt_text": "Esta noche en Cádiz: Cata de vinos de Jerez maridados con chocolate de autor; Charla «Epigenética y transformación»; Charla «La sabiduría del Bhagavad Gita»; Compañía Etcétera · Soñando el carnaval de los animales"
+    }
+  ]
+}
