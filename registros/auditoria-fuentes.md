@@ -10,6 +10,7 @@ Fuentes registradas: 114
 - Agenda Cádiz (agendacadiz.com)
 - Baluarte de la Candelaria
 - Castillo de Santa Catalina
+- Cádiz CF – partidos en casa (web oficial, automático)
 - Cádiz Cultura
 - Cádiz en Danza
 - Deportes del Ayuntamiento de Cádiz
@@ -32,20 +33,20 @@ Fuentes registradas: 114
 
 ## Las que más aportan
 - Onda Cádiz – Agenda de eventos: 962 candidatos
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 838 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 711 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 836 candidatos
 - Sala Central Lechera: 700 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 666 candidatos
 - Gran Teatro Falla: 644 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 269 candidatos
-- Casa de Iberoamérica: 105 candidatos
-- Cádiz Directo – feed Cádiz: 94 candidatos
-- Cádiz Directo: 93 candidatos
-- Guía de Cádiz – Agenda: 92 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 277 candidatos
+- Casa de Iberoamérica: 107 candidatos
+- Cádiz Directo – feed Cádiz: 91 candidatos
+- Eventbrite – Cádiz: 90 candidatos
+- Cádiz Directo: 90 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
-- rinde (3 días): dieron_eventos
-- rinde (3 días): sin_resultados
-- rinde (3 días): pistas_descartadas
+- rinde (4 días): dieron_eventos
+- rinde (4 días): sin_resultados
+- rinde (4 días): pistas_descartadas
 
 ## Control de lectura de fuentes web (estado.json → fuentes_leidas)
 - Todas las fuentes web se han leído.
