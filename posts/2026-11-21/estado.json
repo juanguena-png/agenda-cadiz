@@ -1,5 +1,186 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-21T09:01:33+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17983279656137407",
+          "https://www.instagram.com/p/Df_wM5VnMvg/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:01:55+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122112563769519566"
+      }
+    },
+    "stories/01.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:02:07+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18150060853601279",
+          "https://www.instagram.com/stories/planesencadiz/4035156144817551865"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:02:14+01:00",
+        "estado": "publicado",
+        "resultado": "1723658319340495"
+      }
+    },
+    "stories/02.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:02:25+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18112686197183825",
+          "https://www.instagram.com/stories/planesencadiz/4035156301365460296"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:02:31+01:00",
+        "estado": "publicado",
+        "resultado": "1186570217114683"
+      }
+    },
+    "stories/03.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:02:45+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17937297609145482",
+          "https://www.instagram.com/stories/planesencadiz/4035156438954308559"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:02:49+01:00",
+        "estado": "publicado",
+        "resultado": "2555260328300188"
+      }
+    },
+    "stories/04.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:02:59+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18115979810163817",
+          "https://www.instagram.com/stories/planesencadiz/4035156587802569025"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:03:06+01:00",
+        "estado": "publicado",
+        "resultado": "29279356588370735"
+      }
+    },
+    "stories/05.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:03:17+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18076296953492613",
+          "https://www.instagram.com/stories/planesencadiz/4035156730653122821"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:03:23+01:00",
+        "estado": "publicado",
+        "resultado": "29073042245652155"
+      }
+    },
+    "stories/06.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:03:33+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18104834036663993",
+          "https://www.instagram.com/stories/planesencadiz/4035156876179383091"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:03:40+01:00",
+        "estado": "publicado",
+        "resultado": "1624106125401542"
+      }
+    },
+    "stories/07.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:03:52+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18123540437057098",
+          "https://www.instagram.com/stories/planesencadiz/4035157015672531310"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:03:59+01:00",
+        "estado": "publicado",
+        "resultado": "2318647038915563"
+      }
+    },
+    "stories/08.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:04:10+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18122492423515817",
+          "https://www.instagram.com/stories/planesencadiz/4035157174989347315"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:04:18+01:00",
+        "estado": "publicado",
+        "resultado": "1503951198330654"
+      }
+    },
+    "stories/09.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:04:31+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18112247210264273",
+          "https://www.instagram.com/stories/planesencadiz/4035157341721013792"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:04:36+01:00",
+        "estado": "publicado",
+        "resultado": "1291781466469494"
+      }
+    },
+    "stories/10.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:04:48+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17913955848570050",
+          "https://www.instagram.com/stories/planesencadiz/4035157485442309608"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:04:55+01:00",
+        "estado": "publicado",
+        "resultado": "1667883138376922"
+      }
+    },
+    "stories/11.png": {
+      "instagram": {
+        "ts": "2026-11-21T09:05:06+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17876146554602310",
+          "https://www.instagram.com/stories/planesencadiz/4035157646034870518"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-21T09:05:12+01:00",
+        "estado": "publicado",
+        "resultado": "1170213892138775"
+      }
+    }
+  },
   "registro": [
     "2026-11-21T06:55:48+01:00 diario: render OK (10 eventos, variante B)",
     "2026-11-21T06:56:06+01:00 diario: render OK (10 eventos, variante B)"
@@ -100,5 +281,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-21T06:57:27+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 13,
+    "total": 100,
+    "ts": "2026-11-21T06:57:38+01:00"
+  },
+  "ultima_ejecucion": "2026-11-21T09:05:12+01:00"
 }
