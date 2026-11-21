@@ -1,0 +1,196 @@
+{
+  "variante": "B",
+  "paleta": 3,
+  "experimentos": {
+    "frase": "B",
+    "cta": "A",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz",
+        "fundunicaja",
+        "museodecadiz",
+        "culturacuenta",
+        "teatrofalla",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, sábado 21 de noviembre. 10 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "mueveficha-1121",
+        "visita-part-1121"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz",
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: XIV Jornadas de Juegos de Mesa «Mueve Ficha» (consultar horario, Casa de la Juventud de Cádiz); Visita participativa a la exposición de Pérez Villalta (11:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "visita-guiada-1121",
+        "concerto-1121"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "museodecadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Visita guiada a «Pérez Villalta. El laboratorio infinito» (12:00, Centro Fundación Unicaja Cádiz); Concerto 1700 y Laura Marchal · Falla / Lorca (13:00, Museo de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "arbos-1121"
+      ],
+      "etiquetas": [
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Trío Arbós y solistas · estreno por el 150.º aniversario de Falla (18:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "cuevas-1121"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Rodrigo Cuevas · Al pie del llar (21:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "faia-1121"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: FAIA · Feria de Arte Contemporáneo de Andalucía (consultar horario, Casa de Iberoamérica (patio))"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1121"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1121"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1121"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "faia-1121",
+      "alt_text": "Ilustración de «FAIA · Feria de Arte Contemporáneo de Andalucía»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "mueveficha-1121",
+      "alt_text": "Ilustración de «XIV Jornadas de Juegos de Mesa «Mueve Ficha»»: composición con ajedrez, confeti en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "03.png",
+      "id": "divergencia-1121",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "04.png",
+      "id": "manton-1121",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "05.png",
+      "id": "villalta-1121",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "06.png",
+      "id": "visita-part-1121",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "07.png",
+      "id": "visita-guiada-1121",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "08.png",
+      "id": "concerto-1121",
+      "alt_text": "Concerto 1700 y Laura Marchal"
+    },
+    {
+      "archivo": "09.png",
+      "id": "arbos-1121",
+      "alt_text": "Trío Arbós y solistas"
+    },
+    {
+      "archivo": "10.png",
+      "id": "cuevas-1121",
+      "alt_text": "Rodrigo Cuevas, Al pie del llar"
+    },
+    {
+      "archivo": "11.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "cuevas-1121"
+      ],
+      "alt_text": "Esta noche en Cádiz: Rodrigo Cuevas · Al pie del llar"
+    }
+  ]
+}

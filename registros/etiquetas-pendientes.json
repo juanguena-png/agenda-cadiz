@@ -181,8 +181,8 @@
   },
   "Teatro del Títere La Tía Norica": {
     "rol": "lugar",
-    "evento": "María Rodés · Lo que me pasa",
-    "fecha": "2026-11-20",
+    "evento": "Trío Arbós y solistas · estreno por el 150.º aniversario de Falla",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   },
   "O Sister!": {
@@ -193,8 +193,8 @@
   },
   "Festival de Cádiz Música Española": {
     "rol": "institucion",
-    "evento": "Compañía Etcétera · Soñando el carnaval de los animales",
-    "fecha": "2026-11-20",
+    "evento": "Rodrigo Cuevas · Al pie del llar",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   },
   "Víctor Cruz": {
@@ -350,13 +350,13 @@
   "Santiago Pina": {
     "rol": "artista",
     "evento": "Exposición «Divergencia cognitiva», de Santiago Pina",
-    "fecha": "2026-11-20",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   },
   "Asociación Hespérides": {
     "rol": "organizador",
     "evento": "Exposición «¿Dónde vas con mantón de Manila?»",
-    "fecha": "2026-11-20",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   },
   "Stefano Barneschi": {
@@ -440,25 +440,25 @@
   "Concerto 1700": {
     "rol": "artista",
     "evento": "Concerto 1700 y Laura Marchal · Falla / Lorca",
-    "fecha": "2026-11-19",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   },
   "Laura Marchal": {
     "rol": "artista",
     "evento": "Concerto 1700 y Laura Marchal · Falla / Lorca",
-    "fecha": "2026-11-19",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   },
   "Trío Arbós": {
     "rol": "artista",
     "evento": "Trío Arbós y solistas · estreno por el 150.º aniversario de Falla",
-    "fecha": "2026-11-19",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   },
   "Rodrigo Cuevas": {
     "rol": "artista",
     "evento": "Rodrigo Cuevas · Al pie del llar",
-    "fecha": "2026-11-19",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   },
   "Ariel Abramovich": {
@@ -489,6 +489,24 @@
     "rol": "artista",
     "evento": "Cinefórum del Ateneo: «Fallen Leaves», de Kaurismäki",
     "fecha": "2026-11-20",
+    "instagram_probado": null
+  },
+  "Casa de la Juventud de Cádiz": {
+    "rol": "lugar",
+    "evento": "XIV Jornadas de Juegos de Mesa «Mueve Ficha»",
+    "fecha": "2026-11-21",
+    "instagram_probado": null
+  },
+  "Asociación Cultural de Juegos de Mesa Mueve Ficha": {
+    "rol": "organizador",
+    "evento": "XIV Jornadas de Juegos de Mesa «Mueve Ficha»",
+    "fecha": "2026-11-21",
+    "instagram_probado": null
+  },
+  "Arternativas": {
+    "rol": "organizador",
+    "evento": "FAIA · Feria de Arte Contemporáneo de Andalucía",
+    "fecha": "2026-11-21",
     "instagram_probado": null
   }
 }
