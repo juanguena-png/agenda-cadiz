@@ -594,5 +594,163 @@
       },
       "etiqueta": "Hasta el 21 feb"
     }
+  ],
+  "noche_manana": [
+    {
+      "id": "ojalfalla-1122",
+      "nombre": "Orquesta Joven de Andalucía · Constelación Falla",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "12 €",
+      "publico": "Todos los públicos",
+      "descripcion": "La Orquesta Joven de Andalucía celebra el 150.º aniversario de Falla con obras suyas y de Laura Vega, Berio y Stravinsky.",
+      "info": "Entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-joven-de-andalucia-constelacion-falla-direccion-juan-pablo-valencia"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-joven-de-andalucia-constelacion-falla-direccion-juan-pablo-valencia"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Orquesta Joven de Andalucía",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "luciarey-1122",
+      "nombre": "Lucía Rey Quartet · Nómadas",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Cuarteto de jazz contemporáneo que mezcla la tradición clásica española, el flamenco y las influencias mediterráneas.",
+      "info": "Entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/lucia-rey-quartet-nomadas"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/lucia-rey-quartet-nomadas"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Lucía Rey Quartet",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "abramovich-1122",
+      "nombre": "Ariel Abramovich y Jonatan Alvarado · Huehuetenango",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "13:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de música antigua con laúd y vihuela sobre manuscritos del siglo XVI de Huehuetenango (Guatemala). Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ariel-abramovich-y-jonathan-alvarado-huehuetenango-musicas-de-un-cancionero-interrumpido"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ariel-abramovich-y-jonathan-alvarado-huehuetenango-musicas-de-un-cancionero-interrumpido"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Museo de Cádiz",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ariel Abramovich",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Jonatan Alvarado",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        }
+      ]
+    }
   ]
 }
