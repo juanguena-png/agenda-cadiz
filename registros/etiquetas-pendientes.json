@@ -181,8 +181,8 @@
   },
   "Teatro del Títere La Tía Norica": {
     "rol": "lugar",
-    "evento": "Trío Arbós y solistas · estreno por el 150.º aniversario de Falla",
-    "fecha": "2026-11-21",
+    "evento": "Lucía Rey Quartet · Nómadas",
+    "fecha": "2026-11-22",
     "instagram_probado": null
   },
   "O Sister!": {
@@ -193,8 +193,8 @@
   },
   "Festival de Cádiz Música Española": {
     "rol": "institucion",
-    "evento": "Rodrigo Cuevas · Al pie del llar",
-    "fecha": "2026-11-21",
+    "evento": "Orquesta Joven de Andalucía · Constelación Falla",
+    "fecha": "2026-11-22",
     "instagram_probado": null
   },
   "Víctor Cruz": {
@@ -463,8 +463,8 @@
   },
   "Ariel Abramovich": {
     "rol": "artista",
-    "evento": "Ariel Abramovich y Jonathan Alvarado · Huehuetenango",
-    "fecha": "2026-11-19",
+    "evento": "Ariel Abramovich y Jonatan Alvarado · Huehuetenango",
+    "fecha": "2026-11-22",
     "instagram_probado": null
   },
   "Jonathan Alvarado": {
@@ -482,7 +482,7 @@
   "Orquesta Joven de Andalucía": {
     "rol": "artista",
     "evento": "Orquesta Joven de Andalucía · Constelación Falla",
-    "fecha": "2026-11-19",
+    "fecha": "2026-11-22",
     "instagram_probado": null
   },
   "Valeria Roccella Salamone": {
@@ -494,19 +494,79 @@
   "Casa de la Juventud de Cádiz": {
     "rol": "lugar",
     "evento": "XIV Jornadas de Juegos de Mesa «Mueve Ficha»",
-    "fecha": "2026-11-21",
+    "fecha": "2026-11-22",
     "instagram_probado": null
   },
   "Asociación Cultural de Juegos de Mesa Mueve Ficha": {
     "rol": "organizador",
     "evento": "XIV Jornadas de Juegos de Mesa «Mueve Ficha»",
-    "fecha": "2026-11-21",
+    "fecha": "2026-11-22",
     "instagram_probado": null
   },
   "Arternativas": {
     "rol": "organizador",
     "evento": "FAIA · Feria de Arte Contemporáneo de Andalucía",
     "fecha": "2026-11-21",
+    "instagram_probado": null
+  },
+  "ECCO Espacio de Cultura Contemporánea": {
+    "rol": "lugar",
+    "evento": "Viaje de Cuerdas · Carlos Cortés Bustamante",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Carlos Cortés Bustamante": {
+    "rol": "artista",
+    "evento": "Viaje de Cuerdas · Carlos Cortés Bustamante",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Pablo Guzmán": {
+    "rol": "artista",
+    "evento": "Viaje de Cuerdas · Carlos Cortés Bustamante",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Sergio Gómez": {
+    "rol": "artista",
+    "evento": "Viaje de Cuerdas · Carlos Cortés Bustamante",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Museo de Cádiz": {
+    "rol": "lugar",
+    "evento": "Ariel Abramovich y Jonatan Alvarado · Huehuetenango",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Jonatan Alvarado": {
+    "rol": "artista",
+    "evento": "Ariel Abramovich y Jonatan Alvarado · Huehuetenango",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Lucía Rey Quartet": {
+    "rol": "artista",
+    "evento": "Lucía Rey Quartet · Nómadas",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Parque Celestino Mutis": {
+    "rol": "lugar",
+    "evento": "IV Carrera por la Eliminación de la Violencia contra las Mujeres",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Fundación Municipal de la Mujer": {
+    "rol": "organizador",
+    "evento": "IV Carrera por la Eliminación de la Violencia contra las Mujeres",
+    "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Instituto Municipal del Deporte": {
+    "rol": "institucion",
+    "evento": "IV Carrera por la Eliminación de la Violencia contra las Mujeres",
+    "fecha": "2026-11-22",
     "instagram_probado": null
   }
 }

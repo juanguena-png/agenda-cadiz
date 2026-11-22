@@ -66,3 +66,4 @@
 {"ts": "2026-11-20T06:55:45+01:00", "ventana": ["2026-11-20", "2026-11-20"], "candidatos_automaticos_por_dia": {"2026-11-20": 25}, "fuentes_ok": 51, "fuentes_web": 62}
 {"ts": "2026-11-21T06:53:33+01:00", "ventana": ["2026-11-21", "2026-11-21"], "candidatos_automaticos_por_dia": {"2026-11-21": 29}, "fuentes_ok": 51, "fuentes_web": 62}
 {"ts": "2026-11-21T16:53:56+01:00", "ventana": ["2026-11-22", "2026-11-22"], "candidatos_automaticos_por_dia": {"2026-11-22": 22}, "fuentes_ok": 51, "fuentes_web": 62}
+{"ts": "2026-11-22T06:54:10+01:00", "ventana": ["2026-11-22", "2026-11-22"], "candidatos_automaticos_por_dia": {"2026-11-22": 22}, "fuentes_ok": 51, "fuentes_web": 62}

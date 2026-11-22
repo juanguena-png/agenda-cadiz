@@ -1,0 +1,437 @@
+{
+  "fecha": "2026-11-22",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "fecha": "2026-11-22",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "id": "mueveficha-1122",
+      "nombre": "XIV Jornadas de Juegos de Mesa «Mueve Ficha»",
+      "categoria": "otros",
+      "hora_inicio": null,
+      "lugar": "Casa de la Juventud de Cádiz",
+      "direccion": "Casa de la Juventud, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Más de 300 títulos con torneos, talleres, concursos, juegos de miniaturas y novedades editoriales, esta vez en dos jornadas (sábado y domingo).",
+      "info": "Consultar horario · entrada libre para todos los públicos",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "ajedrez",
+          "confeti"
+        ],
+        "fondo": "sol"
+      },
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz (publicación oficial, API de Instagram)",
+          "url": "https://www.instagram.com/p/Df9rIrEDEj3/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«La Casa de la Juventud de #Cádiz acoge este fin de semana las XIV Jornadas de Juegos de Mesa ‘Mueve Ficha’… los días 21 y 22 de noviembre»",
+        "url": "https://www.instagram.com/p/Df9rIrEDEj3/"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de la Juventud de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Asociación Cultural de Juegos de Mesa Mueve Ficha",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        }
+      ],
+      "etiqueta": "Último día",
+      "imagen": {
+        "archivo": "posts/2026-11-21/img/mueveficha-1121-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "ajedrez",
+          "confeti"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «XIV Jornadas de Juegos de Mesa «Mueve Ficha»»: composición con ajedrez, confeti en azul mar, blanco y amarillo"
+      },
+      "bloque": 0
+    },
+    {
+      "id": "ecco-cuerdas-1122",
+      "nombre": "Viaje de Cuerdas · Carlos Cortés Bustamante",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "ECCO · Espacio de Cultura Contemporánea",
+      "direccion": "Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto del guitarrista gaditano Carlos Cortés Bustamante con Pablo Guzmán y Sergio Gómez: obras de Falla, música sefardí, Satie y composiciones propias, dentro del programa municipal del 150 aniversario de Falla.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz (publicación oficial, API de Instagram)",
+          "url": "https://www.instagram.com/p/Df9zqWLjJ4u/"
+        },
+        {
+          "nombre": "Diario de Cádiz",
+          "url": "https://www.diariodecadiz.es/cadiz/doble-cita-musical-ecco-cadiz-manuel-falla_0_2008551925.html"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«el domingo, 22 noviembre, a las 12 horas en el ECCO de #Cádiz… Programa municipal por el 150 aniversario del nacimiento del compositor gaditano Manuel de Falla»; Diario: «ECCO de Cádiz»",
+        "url": "https://www.instagram.com/p/Df9zqWLjJ4u/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "imagen": {
+        "archivo": "img/ecco-viaje-cuerdas-1122.jpg",
+        "url_origen": "https://www.instagram.com/p/Df9zqWLjJ4u/",
+        "fuente": "@ayuntamientocadiz",
+        "alt_text": "Cartel del concierto Viaje de Cuerdas en el ECCO de Cádiz",
+        "ajuste": "contain"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "ECCO Espacio de Cultura Contemporánea",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Carlos Cortés Bustamante",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Pablo Guzmán",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Sergio Gómez",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "abramovich-1122",
+      "nombre": "Ariel Abramovich y Jonatan Alvarado · Huehuetenango",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "13:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Museo de Cádiz",
+      "direccion": "Plaza de Mina, s/n, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Concierto de música antigua con laúd y vihuela sobre manuscritos del siglo XVI de Huehuetenango (Guatemala). Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ariel-abramovich-y-jonathan-alvarado-huehuetenango-musicas-de-un-cancionero-interrumpido"
+        },
+        {
+          "nombre": "Museo de Cádiz",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Museo de Cádiz, Plaza de Mina, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ariel-abramovich-y-jonathan-alvarado-huehuetenango-musicas-de-un-cancionero-interrumpido"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Museo de Cádiz",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Ariel Abramovich",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Jonatan Alvarado",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/abramovich-1122.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/ariel-abramovich-y-jonathan-alvarado-huehuetenango-musicas-de-un-cancionero-interrumpido",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Ariel Abramovich y Jonatan Alvarado · Huehuetenango",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "luciarey-1122",
+      "nombre": "Lucía Rey Quartet · Nómadas",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 15, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Cuarteto de jazz contemporáneo que mezcla la tradición clásica española, el flamenco y las influencias mediterráneas.",
+      "info": "Entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/lucia-rey-quartet-nomadas"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere La Tía Norica, C/ San Miguel 15, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/lucia-rey-quartet-nomadas"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Lucía Rey Quartet",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/luciarey-1122.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/lucia-rey-quartet-nomadas",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Lucía Rey Quartet · Nómadas",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "ojalfalla-1122",
+      "nombre": "Orquesta Joven de Andalucía · Constelación Falla",
+      "categoria": "música",
+      "fecha": "2026-11-22",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "12 €",
+      "publico": "Todos los públicos",
+      "descripcion": "La Orquesta Joven de Andalucía celebra el 150.º aniversario de Falla con obras suyas y de Laura Vega, Berio y Stravinsky.",
+      "info": "Entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-joven-de-andalucia-constelacion-falla-direccion-juan-pablo-valencia"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-joven-de-andalucia-constelacion-falla-direccion-juan-pablo-valencia"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Agencia Andaluza de Instituciones Culturales",
+          "instagram": "culturacuenta"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Orquesta Joven de Andalucía",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Festival de Cádiz Música Española",
+          "instagram": null,
+          "buscado": "2026-11-21"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/ojalfalla-1122.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/orquesta-joven-de-andalucia-constelacion-falla-direccion-juan-pablo-valencia",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Orquesta Joven de Andalucía · Constelación Falla",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "carrera25n-1122",
+      "nombre": "IV Carrera por la Eliminación de la Violencia contra las Mujeres",
+      "categoria": "deporte",
+      "fecha": "2026-11-22",
+      "hora_inicio": "11:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Auditorio Costa Rica · Parque Celestino Mutis",
+      "direccion": "Parque Celestino Mutis, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Carrera de 5 km competitiva y de 2,5 km popular, ambas gratuitas, con salida desde el Auditorio Costa Rica y meta en el Parque Celestino Mutis (Extramuros), dentro de las actividades municipales del 25N.",
+      "info": "Inscripción en Cronofinisher (el plazo cerró el 20 nov)",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz",
+          "url": "https://transparencia.cadiz.es/cadiz-celebrara-el-22-de-noviembre-la-iv-carrera-por-la-eliminacion-de-la-violencia-contra-las-mujeres/"
+        },
+        {
+          "nombre": "Vivir Ediciones (12 nov 2026)",
+          "url": "https://vivirediciones.es/?p=1152051"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«La Fundación Municipal de la Mujer del Ayuntamiento de Cádiz… salida y meta el Parque Celestino Mutis… la carrera se traslada a Extramuros»",
+        "url": "https://transparencia.cadiz.es/cadiz-celebrara-el-22-de-noviembre-la-iv-carrera-por-la-eliminacion-de-la-violencia-contra-las-mujeres/"
+      },
+      "etiquetas_ig": [],
+      "imagen": {
+        "archivo": "img/arrera-por-la-eliminacion-de-la-violencia-contra-las-mujeres.jpg",
+        "url_origen": "https://transparencia.cadiz.es/wp-content/uploads/2026/11/25N_Carrera-Post_v3.jpg.jpeg",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Cartel de la IV Carrera por la Eliminación de la Violencia contra las Mujeres",
+        "ajuste": "contain"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Parque Celestino Mutis",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Municipal de la Mujer",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Instituto Municipal del Deporte",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "villalta-1122",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-22",
+      "hora_inicio": "10:00",
+      "hora_fin": "14:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "C/ San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Gran muestra del pintor Pérez Villalta con obra de distintas etapas.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "horario_dia": "10:00–14:00",
+      "continuo": true,
+      "bloque": 1,
+      "imagen": {
+        "archivo": "img/perez-villalta.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "Fundación Unicaja",
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "ajuste": "contain"
+      },
+      "etiqueta": "Hasta el 21 feb"
+    }
+  ],
+  "noche_manana": []
+}

@@ -1,0 +1,163 @@
+{
+  "variante": "A",
+  "paleta": 5,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz",
+        "ecco_cadiz",
+        "culturacuenta",
+        "museodecadiz",
+        "teatrofalla",
+        "fundunicaja"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, domingo 22 de noviembre. 7 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "mueveficha-1122"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "juventudcadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: XIV Jornadas de Juegos de Mesa «Mueve Ficha» (consultar horario, Casa de la Juventud de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "carrera25n-1122"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: IV Carrera por la Eliminación de la Violencia contra las Mujeres (11:00, Auditorio Costa Rica · Parque Celestino Mutis)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "ecco-cuerdas-1122"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "ecco_cadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Viaje de Cuerdas · Carlos Cortés Bustamante (12:00, ECCO · Espacio de Cultura Contemporánea)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "abramovich-1122"
+      ],
+      "etiquetas": [
+        "culturacuenta",
+        "museodecadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Ariel Abramovich y Jonatan Alvarado · Huehuetenango (13:00, Museo de Cádiz)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "luciarey-1122"
+      ],
+      "etiquetas": [
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Lucía Rey Quartet · Nómadas (18:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "ojalfalla-1122"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Orquesta Joven de Andalucía · Constelación Falla (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1122"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "mueveficha-1122",
+      "alt_text": "Ilustración de «XIV Jornadas de Juegos de Mesa «Mueve Ficha»»: composición con ajedrez, confeti en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "villalta-1122",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "03.png",
+      "id": "carrera25n-1122",
+      "alt_text": "Cartel de la IV Carrera por la Eliminación de la Violencia contra las Mujeres"
+    },
+    {
+      "archivo": "04.png",
+      "id": "ecco-cuerdas-1122",
+      "alt_text": "Cartel del concierto Viaje de Cuerdas en el ECCO de Cádiz"
+    },
+    {
+      "archivo": "05.png",
+      "id": "abramovich-1122",
+      "alt_text": "Ariel Abramovich y Jonatan Alvarado · Huehuetenango"
+    },
+    {
+      "archivo": "06.png",
+      "id": "luciarey-1122",
+      "alt_text": "Lucía Rey Quartet · Nómadas"
+    },
+    {
+      "archivo": "07.png",
+      "id": "ojalfalla-1122",
+      "alt_text": "Orquesta Joven de Andalucía · Constelación Falla"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "ojalfalla-1122"
+      ],
+      "alt_text": "Esta noche en Cádiz: Orquesta Joven de Andalucía · Constelación Falla"
+    }
+  ]
+}

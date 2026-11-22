@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21T16:53:56+01:00",
+  "generado": "2026-11-22T06:54:10+01:00",
   "instruccion": "Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url.",
   "temporales": [
     {
@@ -35,7 +35,8 @@
         "alto": 742,
         "alt_text": "",
         "tipo_imagen": "oficial"
-      }
+      },
+      "pista_capital": true
     },
     {
       "nombre": "Exposición 'Divergencia cognitiva'",
@@ -174,26 +175,6 @@
       "imagen_oficial": null
     },
     {
-      "nombre": "Visita Guiada Archivo de Indias",
-      "fecha": "2026-11-22",
-      "fuentes": [
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/entradas-visita-guiada-archivo-de-indias-2002424160568"
-        }
-      ],
-      "lugar": "Archivo de Indias",
-      "direccion": "s/n Avenida de la Constitución, 41004, Sevilla",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "Visita Guiada Archivo de Indias Entradas, Varias fechas | Eventbrite Comparte este evento Visita Guiada Archivo de Indias Por GuiArte Sevilla Seguir Archivo de Indias Sevilla, AL Varias fechas Resumen Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad. Descubre con nuestra Visita Guiada al Arc",
-      "descripcion_fuente": "Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad.",
-      "imagen_oficial": null
-    },
-    {
       "nombre": "Foodies + New Friends: Seville | Dinner with Strangers",
       "fecha": "2026-11-22",
       "fuentes": [
@@ -216,6 +197,26 @@
       "pista_capital": false,
       "detalle_texto": "Foodies + New Friends: Seville | Dinner with Strangers Tickets, Multiple dates | Eventbrite Previous slide Next slide Go to slide 1 Go to slide 2 Share this event Foodies + New Friends: Seville | Dinner with Strangers By Ermantourage Sports Follow Restaurant of the Week Sevilla, AN Multiple dates Overview Are you in search of new connections? Meet ",
       "descripcion_fuente": "Are you in search of new connections? Meet others in the city over fun food and a relaxed atmosphere through our dinner series!",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Visita Guiada Archivo de Indias",
+      "fecha": "2026-11-22",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-visita-guiada-archivo-de-indias-2002424160568"
+        }
+      ],
+      "lugar": "Archivo de Indias",
+      "direccion": "s/n Avenida de la Constitución, 41004, Sevilla",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Visita Guiada Archivo de Indias Entradas, Varias fechas | Eventbrite Comparte este evento Visita Guiada Archivo de Indias Por GuiArte Sevilla Seguir Archivo de Indias Sevilla, AL Varias fechas Resumen Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad. Descubre con nuestra Visita Guiada al Arc",
+      "descripcion_fuente": "Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad.",
       "imagen_oficial": null
     },
     {
@@ -301,6 +302,26 @@
       "imagen_oficial": null
     },
     {
+      "nombre": "Frente Amplio plantea limitar por ley los precios de la cesta de la compra",
+      "fecha": "2026-11-22",
+      "fuentes": [
+        {
+          "fuente": "Diario de Cádiz – agenda",
+          "tipo": "prensa",
+          "url": "https://www.diariodecadiz.es/noticias-provincia-cadiz/frente-amplio-limitar-ley-precios-cesta-compra_0_2008557334.html"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-22",
+      "fecha_fin_evento": "2026-11-22",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Frente Amplio plantea limitar por ley los precios de la cesta de la compra Delcaraciones de las candidatas de Frente Amplio en el Mercado de Chiclana. / D.C. Las candidatas de Frente Amplio Andaluz E sther Gil de Reboleño, Violeta Márquez y Pedro Pablo Santamaría han realizado un reparto de material de campaña en e l Mercado de Abastos de Chiclana ",
+      "descripcion_fuente": "Amplio plantea limitar por ley los precios de la cesta de la compra. Las candidatas de la coalición visitaron esta mañana el Mercado de Abastos de Chiclana Frente Amplio reclama un ferrocarril público",
+      "imagen_oficial": null
+    },
+    {
       "nombre": "Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’",
       "fecha": "2026-11-22",
       "fuentes": [
@@ -346,7 +367,7 @@
           "url": "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz#1"
         }
       ],
-      "fecha_inicio_evento": "2026-11-21",
+      "fecha_inicio_evento": "2026-11-22",
       "fecha_fin_evento": "2026-11-23",
       "lugar": "Ayuntamiento de Cádiz",
       "permanente": false,
@@ -589,34 +610,6 @@
       }
     },
     {
-      "nombre": "Patrimonio de El Andévalo: XII Jornadas en Villanueva de los Castillejos",
-      "fecha": "2026-11-22",
-      "fuentes": [
-        {
-          "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
-          "tipo": "oficial",
-          "url": "https://vivirediciones.es/jornadas-patrimonio-andevalo-villanueva-castillejos-2/"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-22",
-      "fecha_fin_evento": "2026-11-22",
-      "permanente": false,
-      "multidia": false,
-      "provincial": false,
-      "detalle_texto": "XII Jornadas de Patrimonio en Villanueva de los Castillejos – vivirEdiciones Saltar al contenido Patrimonio de El Andévalo: XII Jornadas en Villanueva de los Castillejos Fotografías antiguas, tradiciones y conferencias hasta el domingo 22 de noviembre Diputación de Huelva 21 de noviembre de 2026, 15:47 Las XII Jornadas de Patrimonio de El Andévalo ",
-      "descripcion_fuente": "institución provincial, Manolo Cayuela . Programa de actividades hasta el domingo El programa se prolonga hasta el domingo 22 de noviembre e incluye: Conferencias sobre historia y patrimonio Exposicio",
-      "imagen_oficial": {
-        "archivo": "img/jornadas-patrimonio-andevalo-villanueva-castillejos-2.jpg",
-        "url_origen": "https://media.vivirediciones.es/2026/11/jornadas-patrimonio-andevalo-villanueva-castillejos-1795272118545.jpg",
-        "fuente": "vivirediciones.es",
-        "pagina": "https://vivirediciones.es/jornadas-patrimonio-andevalo-villanueva-castillejos-2/",
-        "ancho": 1200,
-        "alto": 675,
-        "alt_text": "",
-        "tipo_imagen": "oficial"
-      }
-    },
-    {
       "nombre": "Tres cruceros en Cádiz este fin de semana sumarán cerca de 4.700 pasajeros",
       "fecha": "2026-11-22",
       "fuentes": [
@@ -716,6 +709,24 @@
       }
     },
     {
+      "nombre": "20s, 30s, 40s & 50s Online Speed Dating - Meetakk",
+      "fecha": "2026-11-22",
+      "fuentes": [
+        {
+          "fuente": "Meetup – grupos de Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.meetup.com/20s-online-speed-dating/events/317442522/"
+        }
+      ],
+      "hora_inicio": "19:05",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "detalle_texto": "20s, 30s, 40s & 50s Online Speed Dating - Meetakk, Sun, Nov 22, 2026, 7:05 PM | Meetup Skip to content 20s, 30s, 40s & 50s Online Speed Dating - Meetakk Hosted by Meetakk A. +20s Online Speed Dating - Meetakk Online event Link visible for attendees Event chat Attend to join the conversation and connect with other attendees before the event starts A",
+      "descripcion_fuente": "**Meetakk matching form**: https://app.meetakk.com/registration/ff149199-9dae-4e57-a351-79f4c3788ce5/ If you’re anything like me and miss actually talking with someone to see if they could be your per",
+      "imagen_oficial": null
+    },
+    {
       "nombre": "Online Single Black Speed Dating (Ages 27-45)",
       "fecha": "2026-11-22",
       "fuentes": [
@@ -786,7 +797,7 @@
       "multidia": false,
       "provincial": true,
       "pista_capital": true,
-      "detalle_texto": "Clarent concierto en Cádiz el 22 de noviembre de 2026 - Entradas Clarent La Ganzua Revista de Música Independiente 21-11-2026 laganzua.net > conciertos en Cádiz > Clarent en Cádiz Clarent en Cádiz el domingo 22 de noviembre de 2026 Clarent actuará en Cádiz el domingo 22 de noviembre de 2026 en Montera Forum, Los Barrios a las 21:00. Clarent | Urban",
+      "detalle_texto": "Clarent concierto en Cádiz el 22 de noviembre de 2026 - Entradas Clarent La Ganzua Revista de Música Independiente 22-11-2026 laganzua.net > conciertos en Cádiz > Clarent en Cádiz Clarent en Cádiz el domingo 22 de noviembre de 2026 Clarent actuará en Cádiz el domingo 22 de noviembre de 2026 en Montera Forum, Los Barrios a las 21:00. Clarent | Urban",
       "descripcion_fuente": "Clarent dará un concierto en Montera Forum, Los Barrios de Cádiz el domingo 22 de noviembre de 2026. Entradas disponibles para este concierto de Urbana, Trap, Latina.",
       "imagen_oficial": null
     }
@@ -829,7 +840,7 @@
       {
         "fuente": "Onda Cádiz – Agenda",
         "url": "https://ondacadiz.es/",
-        "fragmento": "rimera jornada del Campeonato de Andalucía de Natación para Personas con Discapacidad, que se celebra los días 21 y 22 de noviembre en el Complejo Deportivo Ciudad de Cádiz. La cita reúne a unos 110 nadadores y nadadoras de 15 comunidades autónomas y acoge tres grandes competiciones: 🏆 XXXI Campeonato de Andalucía de Natación para Personas con Discapacidad F"
+        "fragmento": "– Open Internacional. 🏊 Open de Natación Inclusiva. 🥇 V Jornada de la Liga Nacional AXA de Natación Paralímpica. 📅 Domingo 22 de noviembre de 2026 🕙 Inicio de la competición: 10:00 horas 📍 Complejo Deportivo Ciudad de Cádiz 12:00 El Mirador - Social (Magacine, APTA) Hemos abordado la obra \"La forja del fundador\" de Juan Jesús Portillo, donde analizamos"
       },
       {
         "fuente": "Onda Cádiz – Agenda",
@@ -844,7 +855,7 @@
       {
         "fuente": "Onda Cádiz – Agenda",
         "url": "https://ondacadiz.es/",
-        "fragmento": "a primera jornada del Campeonato de Andalucía de Natación para Personas con Discapacidad, que se celebra los días 21 y 22 de noviembre en el Complejo Deportivo Ciudad de Cádiz. La cita reúne a unos 110 nadadores y nadadoras de 15 comunidades autónomas y acoge tres grandes competiciones: 🏆 XXXI Campeonato de Andalucía de Natación para Personas con Discapacida"
+        "fragmento": "ica – Open Internacional. 🏊 Open de Natación Inclusiva. 🥇 V Jornada de la Liga Nacional AXA de Natación Paralímpica. 📅 Domingo 22 de noviembre de 2026 🕙 Inicio de la competición: 10:00 horas 📍 Complejo Deportivo Ciudad de Cádiz 12:00 El Mirador - Social (Magacine, APTA) Hemos abordado la obra \"La forja del fundador\" de Juan Jesús Portillo, donde analiza"
       },
       {
         "fuente": "Museo de Cádiz",
@@ -860,6 +871,11 @@
         "fuente": "Museo de Cádiz",
         "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz",
         "fragmento": "Noviembre de 2026 18 de Noviembre de 2026 19 de Noviembre de 2026 20 de Noviembre de 2026 21 de Noviembre de 2026 22 de Noviembre de 2026 23 de Noviembre de 2026 24 de Noviembre de 2026 25 de Noviembre de 2026 26 de Noviembre de 2026 27 de Noviembre de 2026 28 de Noviembre de 2026 29 de Noviembre de 2026 30 de Noviembre de 2026 Compartir en: Museo de Cádiz"
+      },
+      {
+        "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
+        "url": "https://institucional.cadiz.es/programacion_cultural",
+        "fragmento": "ral Inicio / Programación cultural Programación cultural Agenda de eventos culturales Desde el Desde el Date E.g., 22/11/2026 Hasta el Hasta el Date E.g., 22/11/2026 Javier Perianes - ( Conciertos ) Hasta el: 23/11/2026 Horario: 20:00 h. Visitas Teatralizadas: La Esencia Del Músico - ( Rutas Y Visitas ) Hasta el: 26/11/2026 Horario: 25 y 26 de novi"
       }
     ]
   },
