@@ -1,9 +1,144 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-22T09:01:29+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18102054263691228",
+          "https://www.instagram.com/p/DgCU_irlGv9/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:01:48+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122112839991519566"
+      }
+    },
+    "stories/01.png": {
+      "instagram": {
+        "ts": "2026-11-22T09:02:00+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17998737276031668",
+          "https://www.instagram.com/stories/planesencadiz/4035880841125336932"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:02:05+01:00",
+        "estado": "publicado",
+        "resultado": "1486081093496322"
+      }
+    },
+    "stories/02.png": {
+      "instagram": {
+        "ts": "2026-11-22T09:02:18+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18136338364668330",
+          "https://www.instagram.com/stories/planesencadiz/4035880987582050615"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:02:23+01:00",
+        "estado": "publicado",
+        "resultado": "1959724801424384"
+      }
+    },
+    "stories/03.png": {
+      "instagram": {
+        "ts": "2026-11-22T09:02:29+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18210209170328328",
+          "https://www.instagram.com/stories/planesencadiz/4035881139558468173"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:02:34+01:00",
+        "estado": "publicado",
+        "resultado": "981501457974821"
+      }
+    },
+    "stories/04.png": {
+      "instagram": {
+        "ts": "2026-11-22T09:02:45+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17975240499194144",
+          "https://www.instagram.com/stories/planesencadiz/4035881229719223415"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:02:50+01:00",
+        "estado": "publicado",
+        "resultado": "1455043566059163"
+      }
+    },
+    "stories/05.png": {
+      "instagram": {
+        "ts": "2026-11-22T09:02:54+01:00",
+        "estado": "error",
+        "error": "Media ID is not available (code 9007/2207027)",
+        "temporal": false
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:02:59+01:00",
+        "estado": "publicado",
+        "resultado": "1693459942486379"
+      }
+    },
+    "stories/06.png": {
+      "instagram": {
+        "ts": "2026-11-22T09:03:11+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18577444747077431",
+          "https://www.instagram.com/stories/planesencadiz/4035881441875494458"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:03:16+01:00",
+        "estado": "publicado",
+        "resultado": "2141419320076578"
+      }
+    },
+    "stories/07.png": {
+      "instagram": {
+        "ts": "2026-11-22T09:03:28+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17925979935453208",
+          "https://www.instagram.com/stories/planesencadiz/4035881579842939092"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:03:34+01:00",
+        "estado": "publicado",
+        "resultado": "1645155213754400"
+      }
+    },
+    "stories/08.png": {
+      "instagram": {
+        "ts": "2026-11-22T09:03:45+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18140491675681441",
+          "https://www.instagram.com/stories/planesencadiz/4035881730091277019"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-22T09:03:50+01:00",
+        "estado": "publicado",
+        "resultado": "972465502287700"
+      }
+    }
+  },
   "registro": [
     "2026-11-22T06:56:57+01:00 diario: render OK (7 eventos, variante A)",
     "2026-11-22T06:58:50+01:00 diario: render OK (7 eventos, variante A)",
-    "2026-11-22T06:59:03+01:00 diario: render OK (7 eventos, variante A)"
+    "2026-11-22T06:59:03+01:00 diario: render OK (7 eventos, variante A)",
+    "2026-11-22T09:02:54+01:00 ERROR stories/05.png/instagram: Media ID is not available (code 9007/2207027)"
   ],
   "fuentes_leidas": [
     "Archivo Histórico Provincial de Cádiz – ciclos y charlas",
@@ -82,5 +217,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-22T06:59:57+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 13,
+    "total": 100,
+    "ts": "2026-11-22T08:41:21+01:00"
+  },
+  "ultima_ejecucion": "2026-11-22T09:03:50+01:00"
 }
