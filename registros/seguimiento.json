@@ -150,7 +150,8 @@
     "southseriesfest": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "ondacadiz": {
@@ -162,19 +163,22 @@
     "gaditanisimamente": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "eventoscadiz": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "valledecuentos": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "manueldelatomasa": {
@@ -186,43 +190,50 @@
     "centroandaluzdelasletras": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "quorumlibros": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "spasmoteatro": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "fundacioncajasol": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "digitalism": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "fundunicaja": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "culturacuenta": {
       "interacciones": [
         "2026-11-05",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-22"
       ]
     },
     "lacasainquieta": {
@@ -475,6 +486,29 @@
     },
     "lalectoracadiz": {
       "seguir": "2026-11-20"
+    },
+    "santorini_playa": {
+      "interacciones": [
+        "2026-11-22"
+      ]
+    },
+    "omorfia_art": {
+      "interacciones": [
+        "2026-11-22"
+      ]
+    },
+    "aip_cadiz": {
+      "interacciones": [
+        "2026-11-22"
+      ]
+    },
+    "waterpolocadiz": {
+      "interacciones": [
+        "2026-11-22"
+      ]
+    },
+    "academia_lasbayaderas": {
+      "seguir": "2026-11-22"
     }
   }
 }
