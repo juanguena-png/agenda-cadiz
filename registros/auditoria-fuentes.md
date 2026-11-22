@@ -12,6 +12,7 @@ Fuentes registradas: 114
 - Castillo de Santa Catalina
 - Cádiz CF – partidos en casa (web oficial, automático)
 - Cádiz Cultura
+- Cádiz Guitar Festival (web del organizador)
 - Cádiz en Danza
 - Deportes del Ayuntamiento de Cádiz
 - Diario Bahía de Cádiz – Cádiz
@@ -32,21 +33,34 @@ Fuentes registradas: 114
 - Viral Agenda – Cádiz
 
 ## Las que más aportan
-- Onda Cádiz – Agenda de eventos: 962 candidatos
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 836 candidatos
+- Onda Cádiz – Agenda de eventos: 963 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 837 candidatos
 - Sala Central Lechera: 700 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 666 candidatos
 - Gran Teatro Falla: 644 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 277 candidatos
-- Casa de Iberoamérica: 107 candidatos
-- Cádiz Directo – feed Cádiz: 91 candidatos
-- Eventbrite – Cádiz: 90 candidatos
-- Cádiz Directo: 90 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 622 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 285 candidatos
+- Casa de Iberoamérica: 113 candidatos
+- Eventbrite – Cádiz: 95 candidatos
+- Guía de Cádiz – Agenda: 88 candidatos
+- Cádiz Directo – feed Cádiz: 83 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
 - rinde (4 días): dieron_eventos
 - rinde (4 días): sin_resultados
 - rinde (4 días): pistas_descartadas
+- rinde (1 días): Descubrimiento diario · Deporte popular
+- rinde (1 días): Museo de Cádiz
+- rinde (1 días): Descubrimiento diario · Música en directo
+- rinde (1 días): Descubrimiento diario · Flamenco
+- rinde (1 días): Descubrimiento diario · Teatro y cartelera
+- rinde (1 días): Descubrimiento diario · Humor y monólogos
+- rinde (1 días): Descubrimiento diario · Exposiciones
+- rinde (1 días): Descubrimiento diario · Cine
+- rinde (1 días): Descubrimiento diario · Infantil y familia
+- rinde (1 días): Descubrimiento diario · Talleres y cursos
+- rinde (1 días): Descubrimiento diario · Charlas y presentaciones
+- rinde (1 días): Descubrimiento diario · Festivales
+- rinde (1 días): Descubrimiento diario · Fiestas y tradiciones
 
 ## Control de lectura de fuentes web (estado.json → fuentes_leidas)
 - Todas las fuentes web se han leído.
