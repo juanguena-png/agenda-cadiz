@@ -433,5 +433,100 @@
       "etiqueta": "Hasta el 21 feb"
     }
   ],
-  "noche_manana": []
+  "noche_manana": [
+    {
+      "id": "perianes-1123",
+      "nombre": "Javier Perianes · 150.º aniversario de Falla",
+      "categoria": "música",
+      "fecha": "2026-11-23",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "6–12 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Recital de piano de Javier Perianes con obras de Falla, como El amor brujo y la Fantasía bética, en el día del 150.º aniversario de su nacimiento.",
+      "info": "Entradas en Bacantix y taquilla",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/javier-perianes"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela, s/n, Cádiz (agenda de la Junta del recinto)",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/javier-perianes-150o-aniversario-manuel-de-falla"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Javier Perianes",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "jovenfalla-1123",
+      "nombre": "El joven Falla · Raíces gaditanas de un compositor universal",
+      "categoria": "otros",
+      "fecha": "2026-11-23",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Archivo Histórico Provincial",
+      "direccion": "C/ Cristóbal Colón, 12, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Charla sobre cómo la Cádiz de la infancia y juventud de Falla marcó su obra, con documentos originales del archivo. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-joven-falla-raices-gaditanas-de-un-compositor-universal-en-el-archivo-historico"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Archivo Histórico Provincial de Cádiz, calle Cristóbal Colón, 12, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-joven-falla-raices-gaditanas-de-un-compositor-universal-en-el-archivo-historico"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Archivo Histórico Provincial de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Junta de Andalucía",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Saborido Piñero",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        }
+      ]
+    }
+  ]
 }

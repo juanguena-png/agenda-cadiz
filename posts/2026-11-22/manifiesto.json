@@ -155,9 +155,11 @@
     {
       "archivo": "01.png",
       "ids": [
-        "ojalfalla-1122"
+        "ojalfalla-1122",
+        "jovenfalla-1123",
+        "perianes-1123"
       ],
-      "alt_text": "Esta noche en Cádiz: Orquesta Joven de Andalucía · Constelación Falla"
+      "alt_text": "Esta noche: Orquesta Joven de Andalucía · Constelación Falla. Mañana en Cádiz: El joven Falla · Raíces gaditanas de un compositor universal; Javier Perianes · 150.º aniversario de Falla"
     }
   ]
 }
