@@ -77,10 +77,12 @@
     },
     "stories/05.png": {
       "instagram": {
-        "ts": "2026-11-22T09:02:54+01:00",
-        "estado": "error",
-        "error": "Media ID is not available (code 9007/2207027)",
-        "temporal": false
+        "ts": "2026-11-22T09:04:38+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18080455721766777",
+          "https://www.instagram.com/stories/planesencadiz/4035882155704091120"
+        ]
       },
       "facebook": {
         "ts": "2026-11-22T09:02:59+01:00",
@@ -219,9 +221,9 @@
     "ts": "2026-11-22T06:59:57+01:00"
   },
   "limite_publicaciones": {
-    "uso": 13,
+    "uso": 12,
     "total": 100,
-    "ts": "2026-11-22T08:41:21+01:00"
+    "ts": "2026-11-22T09:04:13+01:00"
   },
-  "ultima_ejecucion": "2026-11-22T09:03:50+01:00"
+  "ultima_ejecucion": "2026-11-22T09:04:38+01:00"
 }
