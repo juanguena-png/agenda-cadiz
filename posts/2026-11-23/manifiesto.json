@@ -1,0 +1,181 @@
+{
+  "variante": "B",
+  "paleta": 6,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "ateneocadiz",
+        "conservatoriomanueldefalla",
+        "museodecadiz",
+        "fundacioncajasol",
+        "teatrofalla",
+        "casadeiberoamerica",
+        "fundunicaja"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, lunes 23 de noviembre. 8 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "homenaje-falla-1123"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "ateneocadiz",
+        "conservatoriomanueldefalla",
+        "museodecadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Homenaje a Manuel de Falla en su casa natal (12:00, Casa natal de Manuel de Falla · Plaza de Mina)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "cunafalla-1123"
+      ],
+      "etiquetas": [
+        "fundacioncajasol",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Estreno del pódcast «La Cuna de Falla» (17:00, Fundación Cajasol Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "saludmental-1123"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes (17:00, Depósitos de Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "jovenfalla-1123"
+      ],
+      "etiquetas": [],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: El joven Falla · Raíces gaditanas de un compositor universal (18:00, Archivo Histórico Provincial)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "perianes-1123"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Javier Perianes · 150.º aniversario de Falla (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1123"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1123"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1123"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "divergencia-1123",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "manton-1123",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "03.png",
+      "id": "villalta-1123",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "04.png",
+      "id": "homenaje-falla-1123",
+      "alt_text": "Ilustración de «Homenaje a Manuel de Falla en su casa natal»: composición con piano, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "05.png",
+      "id": "cunafalla-1123",
+      "alt_text": "Ilustración de «Estreno del pódcast «La Cuna de Falla»»: composición con micrófono, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "06.png",
+      "id": "saludmental-1123",
+      "alt_text": "Ilustración de «IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes»: composición con bombilla, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "07.png",
+      "id": "jovenfalla-1123",
+      "alt_text": "Cartel de la charla El joven Falla en el Archivo Histórico Provincial"
+    },
+    {
+      "archivo": "08.png",
+      "id": "perianes-1123",
+      "alt_text": "Javier Perianes, recital por el 150 aniversario de Falla"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "perianes-1123"
+      ],
+      "alt_text": "Esta noche en Cádiz: Javier Perianes · 150.º aniversario de Falla"
+    }
+  ]
+}

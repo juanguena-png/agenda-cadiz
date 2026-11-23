@@ -84,9 +84,9 @@
     "instagram_probado": null
   },
   "Junta de Andalucía": {
-    "rol": "institucion",
-    "evento": "«Falla, los escritores y los libros»: charla con José Ramón Ripoll y Dácil González Mesa",
-    "fecha": "2026-11-09",
+    "rol": "organizador",
+    "evento": "El joven Falla · Raíces gaditanas de un compositor universal",
+    "fecha": "2026-11-23",
     "instagram_probado": null
   },
   "Fernando Ruiz Ortega": {
@@ -350,13 +350,13 @@
   "Santiago Pina": {
     "rol": "artista",
     "evento": "Exposición «Divergencia cognitiva», de Santiago Pina",
-    "fecha": "2026-11-21",
+    "fecha": "2026-11-23",
     "instagram_probado": null
   },
   "Asociación Hespérides": {
     "rol": "organizador",
     "evento": "Exposición «¿Dónde vas con mantón de Manila?»",
-    "fecha": "2026-11-21",
+    "fecha": "2026-11-23",
     "instagram_probado": null
   },
   "Stefano Barneschi": {
@@ -567,6 +567,72 @@
     "rol": "institucion",
     "evento": "IV Carrera por la Eliminación de la Violencia contra las Mujeres",
     "fecha": "2026-11-22",
+    "instagram_probado": null
+  },
+  "Casa natal de Falla": {
+    "rol": "lugar",
+    "evento": "Homenaje a Manuel de Falla en su casa natal",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Fundación Archivo Manuel de Falla": {
+    "rol": "institucion",
+    "evento": "Homenaje a Manuel de Falla en su casa natal",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Fundación Municipal de Cultura": {
+    "rol": "organizador",
+    "evento": "Estreno del pódcast «La Cuna de Falla»",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Radio Cádiz": {
+    "rol": "institucion",
+    "evento": "Estreno del pódcast «La Cuna de Falla»",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Pedro Espinosa": {
+    "rol": "artista",
+    "evento": "Estreno del pódcast «La Cuna de Falla»",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Depósitos de Cádiz": {
+    "rol": "lugar",
+    "evento": "IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "AFEMEN": {
+    "rol": "institucion",
+    "evento": "IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Asociación Ubuntu": {
+    "rol": "institucion",
+    "evento": "IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Archivo Histórico Provincial de Cádiz": {
+    "rol": "lugar",
+    "evento": "El joven Falla · Raíces gaditanas de un compositor universal",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Santiago Saborido Piñero": {
+    "rol": "artista",
+    "evento": "El joven Falla · Raíces gaditanas de un compositor universal",
+    "fecha": "2026-11-23",
+    "instagram_probado": null
+  },
+  "Javier Perianes": {
+    "rol": "artista",
+    "evento": "Javier Perianes · 150.º aniversario de Falla",
+    "fecha": "2026-11-23",
     "instagram_probado": null
   }
 }

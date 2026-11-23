@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-22T16:54:06+01:00",
+  "generado": "2026-11-23T06:53:37+01:00",
   "instruccion": "Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url.",
   "temporales": [
     {
@@ -322,11 +322,11 @@
           "url": "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz#1"
         }
       ],
-      "fecha_inicio_evento": "2026-11-22",
+      "fecha_inicio_evento": "2026-11-23",
       "fecha_fin_evento": "2026-11-23",
       "lugar": "Ayuntamiento de Cádiz",
       "permanente": false,
-      "multidia": true,
+      "multidia": false,
       "provincial": false,
       "detalle_texto": "Venta de entradas | Bacantix Buscar por evento, artista o lugar Buscar Cualquier tipo de evento Cualquier fecha Hoy Este fin de semana Este mes Rango de fechas a Todo Destacado Novedades Abonos Ciclos Próximamente a la venta",
       "descripcion_fuente": "24ª ED. Festival de Cádiz Música Española Venta anticipada hasta el 12 de Noviembre de 2024",
@@ -507,6 +507,26 @@
       }
     },
     {
+      "nombre": "El parque Celestino Mutis acoge una carrera contra la violencia hacia las mujeres en Cádiz",
+      "fecha": "2026-11-23",
+      "fuentes": [
+        {
+          "fuente": "CádizNoticias – agenda y avisos de actos",
+          "tipo": "prensa",
+          "url": "https://cadiznoticias.es/el-parque-celestino-mutis-acoge-una-carrera-contra-la-violencia-hacia-las-mujeres-en-cadiz/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-23",
+      "fecha_fin_evento": "2026-11-23",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "pista_capital": true,
+      "detalle_texto": "El parque Celestino Mutis acoge una carrera contra la violencia hacia las mujeres en Cádiz · Cadiznoticias - publicidad - Inicio / Deportes / El parque Celestino Mutis acoge una carrera contra la violencia hacia las mujeres en Cádiz Deportes La carrera contra la violencia hacia las mujeres en Cádiz, organizada por la Fundación Municipal de la Mujer",
+      "descripcion_fuente": "s, organizada por la Fundación Municipal de la Mujer del Ayuntamiento de Cádiz. La prueba se desarrolló durante la mañana con un recorrido que tuvo como punto de salida y meta el propio parque gaditan",
+      "imagen_oficial": null
+    },
+    {
       "nombre": "[Plaza de Mina nº3] Homenaje a Manuel de Falla en su casa natal de la Plaza de Mina",
       "fecha": "2026-11-23",
       "fuentes": [
@@ -607,11 +627,6 @@
           "url": "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz#1"
         },
         {
-          "fuente": "Onda Cádiz – Agenda de eventos",
-          "tipo": "oficial",
-          "url": "https://ondacadiz.es/agenda/2026-11/javier-perianes"
-        },
-        {
           "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
           "tipo": "oficial",
           "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/javier-perianes-2"
@@ -665,7 +680,7 @@
       "descripcion_fuente": "CONCIERTO PIANO JAVIER PERIANES 150º Aniversario Manuel de Falla Obras de Manuel de Falla Nocturno, El Amor Brujo, Cuatro Piezas Españolas, Fantasía Bética El pianista Javier Perianes se ha convertido",
       "imagen_oficial": {
         "archivo": "img/es-evento-javier-perianes.jpg",
-        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/Javier-Perianes_618457.png",
+        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/Javier-Perianes_326011.png",
         "fuente": "turismo.cadiz.es",
         "pagina": "https://turismo.cadiz.es/es/evento/javier-perianes",
         "ancho": 800,
@@ -774,7 +789,7 @@
       {
         "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
         "url": "https://institucional.cadiz.es/programacion_cultural",
-        "fragmento": "Desde el Date E.g., 22/11/2026 Hasta el Hasta el Date E.g., 22/11/2026 Javier Perianes - ( Conciertos ) Hasta el: 23/11/2026 Horario: 20:00 h. Visitas Teatralizadas: La Esencia Del Músico - ( Rutas Y Visitas ) Hasta el: 26/11/2026 Horario: 25 y 26 de noviembre a las 17:00 / 18:00 / 19:00 y 20:00h. (aforo 40 personas por pase) El Gran Traje · Lasal"
+        "fragmento": "ral Inicio / Programación cultural Programación cultural Agenda de eventos culturales Desde el Desde el Date E.g., 23/11/2026 Hasta el Hasta el Date E.g., 23/11/2026 Javier Perianes - ( Conciertos ) Hasta el: 23/11/2026 Horario: 20:00 h. Visitas Teatralizadas: La Esencia Del Músico - ( Rutas Y Visitas ) Hasta el: 26/11/2026 Horario: 25 y 26 de novi"
       },
       {
         "fuente": "Peña Flamenca La Perla de Cádiz – Viernes Flamencos y ciclos",

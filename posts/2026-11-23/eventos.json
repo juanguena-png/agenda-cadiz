@@ -1,0 +1,529 @@
+{
+  "fecha": "2026-11-23",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "homenaje-falla-1123",
+      "nombre": "Homenaje a Manuel de Falla en su casa natal",
+      "categoria": "música",
+      "fecha": "2026-11-23",
+      "hora_inicio": "12:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casa natal de Manuel de Falla · Plaza de Mina",
+      "direccion": "Plaza de Mina nº 3, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Acto central del 150.º aniversario del nacimiento de Falla: ofrenda floral, descubrimiento de una placa conmemorativa y música del Conservatorio, con el alcalde y el Ateneo.",
+      "info": "Acto al aire libre",
+      "fuentes": [
+        {
+          "nombre": "Cádiz Directo (22 nov 2026)",
+          "url": "https://www.cadizdirecto.com/cadiz/cadiz-celebra-los-150-anos-del-nacimiento-de-manuel-de-falla-con-homenajes-y-musica-este-lunes/"
+        },
+        {
+          "nombre": "Ateneo de Cádiz – programación noviembre",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«tradicional homenaje ante la casa natal de Manuel de Falla, en la plaza de Mina» (Cádiz Directo); programa del Ateneo: «[Plaza de Mina nº3] Homenaje a Manuel de Falla en su casa natal»",
+        "url": "https://www.cadizdirecto.com/cadiz/cadiz-celebra-los-150-anos-del-nacimiento-de-manuel-de-falla-con-homenajes-y-musica-este-lunes/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "piano",
+          "estrella"
+        ],
+        "fondo": "sol"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa natal de Falla",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Fundación Archivo Manuel de Falla",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Conservatorio Manuel de Falla de Cádiz",
+          "instagram": "conservatoriomanueldefalla"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-23/img/homenaje-falla-1123-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "piano",
+          "estrella"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Homenaje a Manuel de Falla en su casa natal»: composición con piano, estrella en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "cunafalla-1123",
+      "nombre": "Estreno del pódcast «La Cuna de Falla»",
+      "categoria": "música",
+      "fecha": "2026-11-23",
+      "hora_inicio": "17:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol Cádiz",
+      "direccion": "Plaza de San Antonio, 14, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Presentación del pódcast de Radio Cádiz y la Fundación Municipal de Cultura sobre la relación de Falla con su ciudad, con música en directo y escucha de fragmentos. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Cádiz Directo (22 nov 2026)",
+          "url": "https://www.cadizdirecto.com/cadiz/cadiz-celebra-los-150-anos-del-nacimiento-de-manuel-de-falla-con-homenajes-y-musica-este-lunes/"
+        },
+        {
+          "nombre": "Diario de Cádiz (22 nov 2026)",
+          "url": "https://www.diariodecadiz.com"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«la sede de la Fundación Cajasol en Cádiz acogerá el estreno de La Cuna de Falla» (Cádiz Directo); Diario: «continuará en la Fundación Cajasol con la presentación de La Cuna de Falla»",
+        "url": "https://www.cadizdirecto.com/cadiz/cadiz-celebra-los-150-anos-del-nacimiento-de-manuel-de-falla-con-homenajes-y-musica-este-lunes/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "micrófono",
+          "estrella"
+        ],
+        "fondo": "noche"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol Cádiz",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Municipal de Cultura",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Radio Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Pedro Espinosa",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-23/img/cunafalla-1123-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "micrófono",
+          "estrella"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Estreno del pódcast «La Cuna de Falla»»: composición con micrófono, estrella en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "saludmental-1123",
+      "nombre": "IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes",
+      "categoria": "otros",
+      "fecha": "2026-11-23",
+      "hora_inicio": "17:00",
+      "hora_fin": "20:00",
+      "todo_el_dia": false,
+      "lugar": "Depósitos de Cádiz",
+      "direccion": "Avenida Marconi 34, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Mesa-coloquio sobre la depresión en la juventud, presentación del proyecto «El Banco Amarillo» de prevención del suicidio y taller participativo. Hay certificado de asistencia y se emite por streaming. Segunda jornada el 24.",
+      "info": "Formulario de inscripción en el programa oficial",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz (programa oficial y API de Instagram)",
+          "url": "https://institucional.cadiz.es/jornadas-de-salud-mental_v0.pdf"
+        },
+        {
+          "nombre": "Ayuntamiento de Cádiz (Instagram)",
+          "url": "https://www.instagram.com/p/Df9nZirjNaU/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Programa: «CÁDIZ, 23 Y 24 DE NOVIEMBRE · Avenida Marconi 34»; Ayuntamiento: «los días 23 y 24 de noviembre en los Depósitos de Cádiz»",
+        "url": "https://institucional.cadiz.es/jornadas-de-salud-mental_v0.pdf"
+      },
+      "etiquetas_ig": [],
+      "etiqueta": "Dos jornadas: 23 y 24 nov",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "bombilla",
+          "estrella"
+        ],
+        "fondo": "cal"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Depósitos de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz (Delegación de Salud)",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "AFEMEN",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Asociación Ubuntu",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-23/img/saludmental-1123-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "bombilla",
+          "estrella"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes»: composición con bombilla, estrella en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "jovenfalla-1123",
+      "nombre": "El joven Falla · Raíces gaditanas de un compositor universal",
+      "categoria": "otros",
+      "fecha": "2026-11-23",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Archivo Histórico Provincial",
+      "direccion": "C/ Cristóbal Colón, 12, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Charla sobre cómo la Cádiz de la infancia y juventud de Falla marcó su obra, con documentos originales del archivo. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-joven-falla-raices-gaditanas-de-un-compositor-universal-en-el-archivo-historico"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Archivo Histórico Provincial de Cádiz, calle Cristóbal Colón, 12, Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-joven-falla-raices-gaditanas-de-un-compositor-universal-en-el-archivo-historico"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Archivo Histórico Provincial de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Junta de Andalucía",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Saborido Piñero",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/jovenfalla-1123.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/cadiz-el-joven-falla-raices-gaditanas-de-un-compositor-universal-en-el-archivo-historico",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Cartel de la charla El joven Falla en el Archivo Histórico Provincial",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "perianes-1123",
+      "nombre": "Javier Perianes · 150.º aniversario de Falla",
+      "categoria": "música",
+      "fecha": "2026-11-23",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "6–12 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Recital de piano de Javier Perianes con obras de Falla, como El amor brujo y la Fantasía bética, en el día del 150.º aniversario de su nacimiento.",
+      "info": "Entradas en Bacantix y taquilla",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/javier-perianes"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela, s/n, Cádiz (agenda de la Junta del recinto)",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/javier-perianes-150o-aniversario-manuel-de-falla"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Javier Perianes",
+          "instagram": null,
+          "buscado": "2026-11-22"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/perianes-1123.jpg",
+        "url_origen": "https://institucional.cadiz.es/evento/javier-perianes",
+        "fuente": "Gran Teatro Falla",
+        "alt_text": "Javier Perianes, recital por el 150 aniversario de Falla",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "divergencia-1123",
+      "nombre": "Exposición «Divergencia cognitiva», de Santiago Pina",
+      "categoria": "exposición",
+      "fecha": "2026-11-23",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Pintura de Santiago Pina que trata el cuerpo como algo inestable y reflexiona sobre la percepción actual y la imposibilidad de una identidad fija.",
+      "info": "",
+      "etiqueta": "Hasta el 15 ene",
+      "horario_dia": "9:00–21:00",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Pina",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true,
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fondo": "noche"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-19/img/divergencia-1119-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "manton-1123",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-11-23",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Veintisiete mantones de la colección de Encarnita Perraut, una maqueta de galeón y obras del Museo Cruz Herrera cuentan cómo el galeón llevó el mantón a las mujeres españolas.",
+      "info": "",
+      "etiqueta": "Hasta el 9 ene",
+      "horario_dia": "9:00–21:00",
+      "imagen": {
+        "archivo": "img/manton-1121.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Asociación Hespérides",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true
+    },
+    {
+      "id": "villalta-1123",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-23",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "C/ San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Gran muestra del pintor Pérez Villalta con obra de distintas etapas.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "horario_dia": "10:00–14:00 y 16:00–19:00",
+      "continuo": true,
+      "bloque": 1,
+      "imagen": {
+        "archivo": "img/villalta-1123.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/",
+        "ancho": 1600,
+        "alto": 1067,
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "etiqueta": "Hasta el 21 feb"
+    }
+  ],
+  "noche_manana": []
+}
