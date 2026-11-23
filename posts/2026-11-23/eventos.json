@@ -525,5 +525,142 @@
       "etiqueta": "Hasta el 21 feb"
     }
   ],
-  "noche_manana": []
+  "noche_manana": [
+    {
+      "id": "ateneo-matheu-1124",
+      "nombre": "Conferencia · Falla y Matheu: música y arquitectura",
+      "categoria": "otros",
+      "fecha": "2026-11-24",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "C/ Ancha, 20, 1.ª planta, 11001 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "El arquitecto José María Esteban González relaciona la obra de Falla con la arquitectura en el 150.º aniversario de su nacimiento. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede del Ateneo, calle Ancha 20, 1.ª planta, 11001 Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "José María Esteban González",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "vidascontadas-1124",
+      "nombre": "Cinefórum · Vidas contadas",
+      "categoria": "otros",
+      "fecha": "2026-11-24",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Pase del cinefórum de Cajasol con «Vidas contadas», drama coral de Jill Sprecher sobre cómo pequeñas decisiones cambian destinos. Entrada libre.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/vidas-contadas-2002/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio, 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/vidas-contadas-2002/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        }
+      ]
+    },
+    {
+      "id": "martesempleo-1124",
+      "nombre": "Martes del Empleo · Fórmate con la FP",
+      "categoria": "otros",
+      "fecha": "2026-11-24",
+      "hora_inicio": "11:00",
+      "hora_fin": "12:30",
+      "todo_el_dia": false,
+      "lugar": "Antiguos Depósitos de Tabaco",
+      "direccion": "Avda. Marconi, 34, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Taller práctico sobre cómo mejorar la empleabilidad con la FP y acreditar la experiencia. Inscripción previa.",
+      "info": "Inscripción previa",
+      "fuentes": [
+        {
+          "nombre": "IFEF",
+          "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Depósitos de Tabaco de Cádiz, Avenida Marconi, 34, Cádiz",
+        "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+      },
+      "etiquetas_ig": [],
+      "importancia": 1,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Antiguos Depósitos de Tabaco",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "IFEF Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        }
+      ],
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "marco"
+        ],
+        "fondo": "mar"
+      }
+    }
+  ]
 }

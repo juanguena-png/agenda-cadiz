@@ -173,9 +173,12 @@
     {
       "archivo": "01.png",
       "ids": [
-        "perianes-1123"
+        "perianes-1123",
+        "martesempleo-1124",
+        "vidascontadas-1124",
+        "ateneo-matheu-1124"
       ],
-      "alt_text": "Esta noche en Cádiz: Javier Perianes · 150.º aniversario de Falla"
+      "alt_text": "Esta noche: Javier Perianes · 150.º aniversario de Falla. Mañana en Cádiz: Martes del Empleo · Fórmate con la FP; Cinefórum · Vidas contadas; Conferencia · Falla y Matheu: música y arquitectura"
     }
   ]
 }
