@@ -3,42 +3,42 @@
     "frase": {
       "A": {
         "n": 12,
-        "alcance": 47.2,
+        "alcance": 49.2,
         "seguidores": 0.33,
         "guardados": 0
       },
       "B": {
-        "n": 12,
-        "alcance": 74.3,
-        "seguidores": 1.08,
-        "guardados": 0.08
+        "n": 19,
+        "alcance": 64.1,
+        "seguidores": 0.89,
+        "guardados": 0.05
       }
     },
     "cta": {
       "B": {
-        "n": 6,
-        "alcance": 38.5,
-        "seguidores": 0,
+        "n": 10,
+        "alcance": 39.1,
+        "seguidores": 0.2,
         "guardados": 0
       },
       "A": {
-        "n": 5,
-        "alcance": 81.6,
-        "seguidores": 0.8,
+        "n": 8,
+        "alcance": 74.6,
+        "seguidores": 0.75,
         "guardados": 0
       }
     },
     "hashtags": {
       "8": {
-        "n": 6,
-        "alcance": 57.8,
-        "seguidores": 0,
+        "n": 10,
+        "alcance": 55.9,
+        "seguidores": 0.2,
         "guardados": 0
       },
       "5": {
-        "n": 5,
-        "alcance": 58.4,
-        "seguidores": 0.8,
+        "n": 8,
+        "alcance": 53.6,
+        "seguidores": 0.75,
         "guardados": 0
       }
     }
