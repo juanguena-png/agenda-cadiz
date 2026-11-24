@@ -1,0 +1,186 @@
+{
+  "variante": "A",
+  "paleta": 0,
+  "experimentos": {
+    "frase": "B",
+    "cta": "A",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "fundacioncajasol",
+        "ateneocadiz",
+        "univcadiz",
+        "estereoparque",
+        "ucaculturacadiz",
+        "casadeiberoamerica",
+        "fundunicaja"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, martes 24 de noviembre. 9 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "martesempleo-1124",
+        "saludmental-1124"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Martes del Empleo · Fórmate con la FP (11:00, Antiguos Depósitos de Tabaco); IV Jornadas de Salud Mental · Depresión a lo largo de la vida (17:00, Depósitos de Cádiz)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "vidascontadas-1124"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cinefórum · Vidas contadas (18:00, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "cajasoltecuida-1124"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cajasol Te Cuida · Charla «Prepara tu piel para Navidad» (19:00, Fundación Cajasol Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "ateneo-matheu-1124"
+      ],
+      "etiquetas": [
+        "ateneocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Conferencia · Falla y Matheu: música y arquitectura (19:00, Ateneo de Cádiz)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "maika-1124"
+      ],
+      "etiquetas": [
+        "univcadiz",
+        "estereoparque",
+        "ucaculturacadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Maika Makovski · XX aniversario (Estéreo Parque) (21:00, Edificio Constitución 1812)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1124"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1124"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1124"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "divergencia-1124",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "manton-1124",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "03.png",
+      "id": "villalta-1124",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "04.png",
+      "id": "martesempleo-1124",
+      "alt_text": "Ilustración de «Martes del Empleo · Fórmate con la FP»: composición con bombilla, mapa en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "05.png",
+      "id": "saludmental-1124",
+      "alt_text": "Ilustración de «IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes»: composición con bombilla, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "06.png",
+      "id": "vidascontadas-1124",
+      "alt_text": "Cartel del cinefórum de Cajasol en Cádiz"
+    },
+    {
+      "archivo": "07.png",
+      "id": "cajasoltecuida-1124",
+      "alt_text": "Cartel del ciclo Cajasol Te Cuida en Cádiz"
+    },
+    {
+      "archivo": "08.png",
+      "id": "ateneo-matheu-1124",
+      "alt_text": "Ilustración de «Conferencia · Falla y Matheu: música y arquitectura»: composición con libro, cúpula en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "09.png",
+      "id": "maika-1124",
+      "alt_text": "Ilustración de «Maika Makovski · XX aniversario (Estéreo Parque)»: composición con micrófono, rock en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "maika-1124"
+      ],
+      "alt_text": "Esta noche en Cádiz: Maika Makovski · XX aniversario (Estéreo Parque)"
+    }
+  ]
+}

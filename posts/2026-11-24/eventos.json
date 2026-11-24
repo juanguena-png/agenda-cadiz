@@ -1,0 +1,561 @@
+{
+  "fecha": "2026-11-24",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "martesempleo-1124",
+      "nombre": "Martes del Empleo · Fórmate con la FP",
+      "categoria": "otros",
+      "fecha": "2026-11-24",
+      "hora_inicio": "11:00",
+      "hora_fin": "12:30",
+      "todo_el_dia": false,
+      "lugar": "Antiguos Depósitos de Tabaco",
+      "direccion": "Avda. Marconi, 34, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Taller práctico sobre cómo mejorar la empleabilidad con la FP y acreditar la experiencia. Inscripción previa.",
+      "info": "Inscripción previa",
+      "fuentes": [
+        {
+          "nombre": "IFEF",
+          "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Depósitos de Tabaco de Cádiz, Avenida Marconi, 34, Cádiz",
+        "url": "https://www.ifef.es/es/empleo/talleres-los-martes-del-empleo"
+      },
+      "etiquetas_ig": [],
+      "importancia": 1,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Antiguos Depósitos de Tabaco",
+          "instagram": null,
+          "buscado": "2026-11-24"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "IFEF Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-24"
+        }
+      ],
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "bombilla",
+          "mapa"
+        ],
+        "fondo": "cal"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-24/img/martesempleo-1124-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "bombilla",
+          "mapa"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Martes del Empleo · Fórmate con la FP»: composición con bombilla, mapa en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "vidascontadas-1124",
+      "nombre": "Cinefórum · Vidas contadas",
+      "categoria": "otros",
+      "fecha": "2026-11-24",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Pase del cinefórum de Cajasol con «Vidas contadas», drama coral de Jill Sprecher sobre cómo pequeñas decisiones cambian destinos. Entrada libre.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/vidas-contadas-2002/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio, 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/vidas-contadas-2002/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol Cádiz",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        }
+      ],
+      "imagen": {
+        "archivo": "img/evento-vidas-contadas-2002.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/17-24-NOV-CINEFORUM-CADIZ_1080x1080.jpg",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cartel del cinefórum de Cajasol en Cádiz",
+        "ajuste": "contain"
+      }
+    },
+    {
+      "id": "cajasoltecuida-1124",
+      "nombre": "Cajasol Te Cuida · Charla «Prepara tu piel para Navidad»",
+      "categoria": "otros",
+      "fecha": "2026-11-24",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol Cádiz",
+      "direccion": "Plaza de San Antonio, 14, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Charla de dermoestética sobre cómo cuidar la piel antes de las fiestas, primera cita del ciclo de salud y bienestar de Cajasol. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«actividades se desarrollarán en la sede de la Fundación Cajasol en Plaza de San Antonio, 14 (Cádiz)»",
+        "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+      },
+      "etiquetas_ig": [],
+      "imagen": {
+        "archivo": "img/evento-cajasol-te-cuida.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/NOV-CAJASOL-TE-CUIDA_1920x1080-1.jpg",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cartel del ciclo Cajasol Te Cuida en Cádiz",
+        "ajuste": "contain"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol Cádiz",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        }
+      ]
+    },
+    {
+      "id": "ateneo-matheu-1124",
+      "nombre": "Conferencia · Falla y Matheu: música y arquitectura",
+      "categoria": "otros",
+      "fecha": "2026-11-24",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Ateneo de Cádiz",
+      "direccion": "C/ Ancha, 20, 1.ª planta, 11001 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "El arquitecto José María Esteban González relaciona la obra de Falla con la arquitectura en el 150.º aniversario de su nacimiento. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Ateneo de Cádiz",
+          "url": "https://ateneocadiz.es/noviembre-de-2026/"
+        },
+        {
+          "nombre": "Ateneo de Cádiz (Instagram, API oficial)",
+          "url": "https://www.instagram.com/p/DgFAhxVitzX/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede del Ateneo, calle Ancha 20, 1.ª planta, 11001 Cádiz",
+        "url": "https://ateneocadiz.es/noviembre-de-2026/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ateneo de Cádiz",
+          "instagram": "ateneocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "José María Esteban González",
+          "instagram": null,
+          "buscado": "2026-11-24"
+        }
+      ],
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "libro",
+          "cúpula"
+        ],
+        "fondo": "sol"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-24/img/ateneo-matheu-1124-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "libro",
+          "cúpula"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Conferencia · Falla y Matheu: música y arquitectura»: composición con libro, cúpula en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "maika-1124",
+      "nombre": "Maika Makovski · XX aniversario (Estéreo Parque)",
+      "categoria": "música",
+      "fecha": "2026-11-24",
+      "hora_inicio": "21:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Edificio Constitución 1812",
+      "direccion": "Paseo de Carlos III, 3, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "La cantautora Maika Makovski celebra veinte años de carrera en la edición especial de otoño de Estéreo Parque, en sustitución de Beth Orton. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Estéreo Parque (Instagram, API oficial)",
+          "url": "https://www.instagram.com/reel/DgFZNWgRBud/"
+        },
+        {
+          "nombre": "Vivir Ediciones",
+          "url": "https://vivirediciones.es/?p=1149461"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«📍 Edificio Constitución 1812, Cádiz» (Estéreo Parque); «Edificio Constitución 1812, ubicado en el Paseo de Carlos III, 3, de Cádiz» (Vivir Ediciones)",
+        "url": "https://vivirediciones.es/?p=1149461"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "micrófono",
+          "rock"
+        ],
+        "fondo": "noche"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Edificio Constitución 1812 (UCA)",
+          "instagram": "univcadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Estéreo Parque",
+          "instagram": "estereoparque"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Maika Makovski",
+          "instagram": null,
+          "buscado": "2026-11-24"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-24/img/maika-1124-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "micrófono",
+          "rock"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Maika Makovski · XX aniversario (Estéreo Parque)»: composición con micrófono, rock en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "saludmental-1124",
+      "nombre": "IV Jornadas de Salud Mental · Depresión a lo largo de la vida",
+      "categoria": "otros",
+      "fecha": "2026-11-24",
+      "hora_inicio": "17:00",
+      "hora_fin": "20:00",
+      "todo_el_dia": false,
+      "lugar": "Depósitos de Cádiz",
+      "direccion": "Avenida Marconi 34, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Segunda jornada: mesa-coloquio sobre la depresión en las distintas etapas de la vida y taller «El refugio del cuerpo» de reconexión cuerpo y mente. Hay certificado de asistencia y emisión por streaming.",
+      "info": "Formulario de inscripción en el programa oficial",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz (programa oficial y API de Instagram)",
+          "url": "https://institucional.cadiz.es/jornadas-de-salud-mental_v0.pdf"
+        },
+        {
+          "nombre": "Ayuntamiento de Cádiz (Instagram)",
+          "url": "https://www.instagram.com/p/Df9nZirjNaU/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Programa: «CÁDIZ, 23 Y 24 DE NOVIEMBRE · Avenida Marconi 34»; Ayuntamiento: «los días 23 y 24 de noviembre en los Depósitos de Cádiz»",
+        "url": "https://institucional.cadiz.es/jornadas-de-salud-mental_v0.pdf"
+      },
+      "etiquetas_ig": [],
+      "etiqueta": "Último día",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "bombilla",
+          "estrella"
+        ],
+        "fondo": "cal"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Depósitos de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz (Delegación de Salud)",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "AFEMEN",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Asociación Ubuntu",
+          "instagram": null,
+          "buscado": "2026-11-23"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-23/img/saludmental-1123-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "bombilla",
+          "estrella"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «IV Jornadas de Salud Mental · Depresión en adolescentes y jóvenes»: composición con bombilla, estrella en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "divergencia-1124",
+      "nombre": "Exposición «Divergencia cognitiva», de Santiago Pina",
+      "categoria": "exposición",
+      "fecha": "2026-11-24",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Pintura de Santiago Pina que trata el cuerpo como algo inestable y reflexiona sobre la percepción actual y la imposibilidad de una identidad fija.",
+      "info": "",
+      "etiqueta": "Hasta el 15 ene",
+      "horario_dia": "9:00–21:00",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Pina",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true,
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fondo": "noche"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-19/img/divergencia-1119-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "manton-1124",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-11-24",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Veintisiete mantones de la colección de Encarnita Perraut, una maqueta de galeón y obras del Museo Cruz Herrera cuentan cómo el galeón llevó el mantón a las mujeres españolas.",
+      "info": "",
+      "etiqueta": "Hasta el 9 ene",
+      "horario_dia": "9:00–21:00",
+      "imagen": {
+        "archivo": "img/manton-1121.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Asociación Hespérides",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true
+    },
+    {
+      "id": "villalta-1124",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-24",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "C/ San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Gran muestra del pintor Pérez Villalta con obra de distintas etapas.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "horario_dia": "10:00–14:00 y 16:00–19:00",
+      "continuo": true,
+      "bloque": 1,
+      "imagen": {
+        "archivo": "img/villalta-1124.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/",
+        "ancho": 1600,
+        "alto": 1067,
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "etiqueta": "Hasta el 21 feb"
+    }
+  ],
+  "noche_manana": []
+}
