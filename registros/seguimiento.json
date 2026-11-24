@@ -105,7 +105,10 @@
     },
     "institutocadiz": {
       "seguir": "2026-11-05",
-      "revisada": "2026-11-12"
+      "revisada": "2026-11-12",
+      "interacciones": [
+        "2026-11-24"
+      ]
     },
     "federacionpenaflamencacadiz": {
       "seguir": "2026-11-05",
@@ -324,7 +327,8 @@
     "diariodecadiz": {
       "interacciones": [
         "2026-11-08",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-24"
       ]
     },
     "catedraldecadiz": {
@@ -524,6 +528,46 @@
     "culturaprovinciacadiz": {
       "interacciones": [
         "2026-11-23"
+      ]
+    },
+    "cadis.escuela.ballet": {
+      "interacciones": [
+        "2026-11-24"
+      ]
+    },
+    "92adoquines": {
+      "interacciones": [
+        "2026-11-24"
+      ]
+    },
+    "bahiaclasica": {
+      "interacciones": [
+        "2026-11-24"
+      ]
+    },
+    "eccehomocadiz": {
+      "interacciones": [
+        "2026-11-24"
+      ]
+    },
+    "humildadypacienciacadiz": {
+      "interacciones": [
+        "2026-11-24"
+      ]
+    },
+    "cvamigoscadiz": {
+      "interacciones": [
+        "2026-11-24"
+      ]
+    },
+    "asociacion.musilide": {
+      "interacciones": [
+        "2026-11-24"
+      ]
+    },
+    "latiendade_lavecina": {
+      "interacciones": [
+        "2026-11-24"
       ]
     }
   }
