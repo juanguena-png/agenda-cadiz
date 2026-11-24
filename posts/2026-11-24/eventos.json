@@ -557,5 +557,92 @@
       "etiqueta": "Hasta el 21 feb"
     }
   ],
-  "noche_manana": []
+  "noche_manana": [
+    {
+      "id": "esencia-1125",
+      "nombre": "La esencia del músico · 4 pases (17–20 h)",
+      "categoria": "teatro",
+      "fecha": "2026-11-25",
+      "hora_inicio": "17:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "15 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Espectáculo de teatro y música sobre la vida y el legado de Manuel de Falla, con motivo del 150.º aniversario de su nacimiento.",
+      "info": "Entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/la-esencia-del-musico"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla, Plaza Fragela, s/n, Cádiz",
+        "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/la-esencia-del-musico"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        }
+      ]
+    },
+    {
+      "id": "locos-1125",
+      "nombre": "Locos de la azotea · Pódcast solidario",
+      "categoria": "otros",
+      "fecha": "2026-11-25",
+      "hora_inicio": "19:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Pódcast de humor solidario dirigido por Manolo Morera que parodia la actualidad; parte de la recaudación va a entidades benéficas.",
+      "info": "Entradas en Fundación Cajasol",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-11/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Sede de la Fundación Cajasol, Plaza de San Antonio 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/podcast-locos-de-la-azotea-11/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "Manolo Morera",
+          "instagram": null,
+          "buscado": "2026-11-24"
+        }
+      ]
+    }
+  ]
 }

@@ -178,9 +178,11 @@
     {
       "archivo": "01.png",
       "ids": [
-        "maika-1124"
+        "maika-1124",
+        "esencia-1125",
+        "locos-1125"
       ],
-      "alt_text": "Esta noche en Cádiz: Maika Makovski · XX aniversario (Estéreo Parque)"
+      "alt_text": "Esta noche: Maika Makovski · XX aniversario (Estéreo Parque). Mañana en Cádiz: La esencia del músico · 4 pases (17–20 h); Locos de la azotea · Pódcast solidario"
     }
   ]
 }

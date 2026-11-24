@@ -167,7 +167,9 @@
     }
   },
   "registro": [
-    "2026-11-24T06:56:56+01:00 diario: render OK (9 eventos, variante A)"
+    "2026-11-24T06:56:56+01:00 diario: render OK (9 eventos, variante A)",
+    "2026-11-24T16:56:58+01:00 diario: render OK (9 eventos, variante A)",
+    "2026-11-24T16:57:28+01:00 diario: render OK (9 eventos, variante A)"
   ],
   "fuentes_leidas": [
     "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
@@ -240,7 +242,7 @@
   },
   "revision_final": {
     "hecha": true,
-    "ts": "2026-11-24T06:58:30+01:00"
+    "ts": "2026-11-24T16:57:28+01:00"
   },
   "limite_publicaciones": {
     "uso": 11,
