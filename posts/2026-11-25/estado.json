@@ -1,7 +1,157 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-25T09:01:38+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18008818169793235",
+          "https://www.instagram.com/p/DgKDZzTF9pN/"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:01:51+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122113506675519566"
+      }
+    },
+    "stories/01.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:02:04+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18125388562948255",
+          "https://www.instagram.com/stories/planesencadiz/4038055194323780129"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:02:08+01:00",
+        "estado": "publicado",
+        "resultado": "999067736091408"
+      }
+    },
+    "stories/02.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:02:21+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18138103216673095",
+          "https://www.instagram.com/stories/planesencadiz/4038055337374742418"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:02:25+01:00",
+        "estado": "publicado",
+        "resultado": "1879974009867261"
+      }
+    },
+    "stories/03.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:02:37+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18095077979217505",
+          "https://www.instagram.com/stories/planesencadiz/4038055476357210394"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:02:41+01:00",
+        "estado": "publicado",
+        "resultado": "1846760713211801"
+      }
+    },
+    "stories/04.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:02:45+01:00",
+        "estado": "error",
+        "error": "The requested resource does not exist (code 24/2207006)",
+        "temporal": false
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:02:49+01:00",
+        "estado": "publicado",
+        "resultado": "1194208369714313"
+      }
+    },
+    "stories/05.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:03:01+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18125714918314858",
+          "https://www.instagram.com/stories/planesencadiz/4038055681190208937"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:03:05+01:00",
+        "estado": "publicado",
+        "resultado": "1444044830731141"
+      }
+    },
+    "stories/06.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:03:16+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18207589636373294",
+          "https://www.instagram.com/stories/planesencadiz/4038055814535562999"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:03:21+01:00",
+        "estado": "publicado",
+        "resultado": "1668670177966985"
+      }
+    },
+    "stories/07.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:03:32+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18130832873510957",
+          "https://www.instagram.com/stories/planesencadiz/4038055947193007837"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:03:36+01:00",
+        "estado": "publicado",
+        "resultado": "2989055981477681"
+      }
+    },
+    "stories/08.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:03:47+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17892170751476541",
+          "https://www.instagram.com/stories/planesencadiz/4038056073542215044"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:03:52+01:00",
+        "estado": "publicado",
+        "resultado": "1051830784609656"
+      }
+    },
+    "stories/09.png": {
+      "instagram": {
+        "ts": "2026-11-25T09:04:03+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "17967446712231141",
+          "https://www.instagram.com/stories/planesencadiz/4038056208070293108"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-25T09:04:07+01:00",
+        "estado": "publicado",
+        "resultado": "1129241593244642"
+      }
+    }
+  },
   "registro": [
-    "2026-11-25T06:56:20+01:00 diario: render OK (8 eventos, variante B)"
+    "2026-11-25T06:56:20+01:00 diario: render OK (8 eventos, variante B)",
+    "2026-11-25T09:02:45+01:00 ERROR stories/04.png/instagram: The requested resource does not exist (code 24/2207006)"
   ],
   "fuentes_leidas": [
     "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
@@ -76,5 +226,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-25T06:57:38+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 12,
+    "total": 100,
+    "ts": "2026-11-25T06:57:45+01:00"
+  },
+  "ultima_ejecucion": "2026-11-25T09:04:07+01:00"
 }
