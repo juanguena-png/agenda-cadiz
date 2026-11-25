@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-24T16:54:56+01:00",
+  "generado": "2026-11-25T06:53:56+01:00",
   "instruccion": "Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url.",
   "temporales": [
     {
@@ -180,28 +180,23 @@
       "imagen_oficial": null
     },
     {
-      "nombre": "Eduardo Strauch |  \"EXIT: Sobrevivir en los Andes\" | Attendis Talks",
+      "nombre": "Visita Guiada Archivo de Indias",
       "fecha": "2026-11-25",
       "fuentes": [
         {
           "fuente": "Eventbrite – Cádiz",
           "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/entradas-eduardo-strauch-exit-sobrevivir-en-los-andes-attendis-talks-2003915578439"
-        },
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/entradas-eduardo-strauch-exit-sobrevivir-en-los-andes-attendis-talks-2003915578439"
+          "url": "https://www.eventbrite.es/e/entradas-visita-guiada-archivo-de-indias-2002424188652"
         }
       ],
-      "lugar": "Teatro Florida",
-      "direccion": "0 Avenida Agustín Bálsamo, 11203, Algeciras",
+      "lugar": "Archivo de Indias",
+      "direccion": "s/n Avenida de la Constitución, 41004, Sevilla",
       "permanente": false,
       "multidia": false,
       "provincial": true,
       "pista_capital": false,
-      "detalle_texto": "Eduardo Strauch | \"EXIT: Sobrevivir en los Andes\" | Attendis Talks Entradas, miércoles, 25 de noviembre • 19:00 - 20:30 | Eventbrite Previous slide Next slide Go to slide 1 Go to slide 2 Go to slide 3 Comparte este evento Eduardo Strauch | \"EXIT: Sobrevivir en los Andes\" | Attendis Talks Por Colegio Puertoblanco- Montecalpe Seguir Teatro Florida Al",
-      "descripcion_fuente": "Encuentro presencial de Attendis Talks con Eduardo Strauch sobre «EXIT: Sobrevivir en los Andes».",
+      "detalle_texto": "Visita Guiada Archivo de Indias Entradas, Varias fechas | Eventbrite Comparte este evento Visita Guiada Archivo de Indias Por GuiArte Sevilla Seguir Archivo de Indias Sevilla, AL Varias fechas Resumen Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad. Descubre con nuestra Visita Guiada al Arc",
+      "descripcion_fuente": "Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad.",
       "imagen_oficial": null
     },
     {
@@ -251,56 +246,6 @@
       "pista_capital": true,
       "detalle_texto": "Fegadi organiza en Cádiz unas jornadas gratuitas sobre liderazgo de las mujeres con discapacidad Interior de los Antiguos Depósitos de Tabaco de Cádiz, donde se celebrarán las jornadas de Fegadi los días 26 y 27 de noviembre. Foto: Eulogio García. Cádiz Fegadi organiza en Cádiz unas jornadas gratuitas sobre liderazgo de las mujeres con discapacidad",
       "descripcion_fuente": "periencia en procesos de empoderamiento personal, impartirá el taller Cuando dejamos de pedir permiso . La primera mañana incluirá también Habitarme: el poder de ocupar mi espacio , un taller de movim",
-      "imagen_oficial": null
-    },
-    {
-      "nombre": "El Teatro de Las Cortes de San Fernando alza la voz contra la violencia machista a través del flamenco con el espectáculo 'Palo'",
-      "fecha": "2026-11-25",
-      "fuentes": [
-        {
-          "fuente": "Cádiz Directo",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/el-teatro-de-las-cortes-de-san-fernando-alza-la-voz-contra-la-violencia-machista-a-traves-del-flamenco-con-el-espectaculo-palo/"
-        },
-        {
-          "fuente": "Cádiz Directo – feed Cádiz",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/el-teatro-de-las-cortes-de-san-fernando-alza-la-voz-contra-la-violencia-machista-a-traves-del-flamenco-con-el-espectaculo-palo/"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-25",
-      "fecha_fin_evento": "2026-11-25",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "El Teatro de Las Cortes de San Fernando alza la voz contra la violencia machista a través del flamenco con el espectáculo 'Palo' \"Palo\" en el Teatro Las Cortes de San Fernando. Cádiz El Teatro de Las Cortes de San Fernando alza la voz contra la violencia machista a través del flamenco con el espectáculo 'Palo' La obra de María Poquet, con la partic",
-      "descripcion_fuente": "pal. San Fernando amplía las actividades del 25N hasta diciembre Antes de la cita flamenca, la ciudad celebrará el miércoles 25 de noviembre el acto central del Día Internacional de la Eliminación de ",
-      "imagen_oficial": null
-    },
-    {
-      "nombre": "Granada celebra los 25 años del Hocus Pocus con tres noches de magia andaluza y espectáculos internacionales dedicado a Cádiz y Málaga",
-      "fecha": "2026-11-25",
-      "fuentes": [
-        {
-          "fuente": "Cádiz Directo",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/granada-celebra-los-25-anos-del-hocus-pocus-con-tres-noches-de-magia-andaluza-y-espectaculos-internacionales-dedicado-a-cadiz-y-malaga/"
-        },
-        {
-          "fuente": "Cádiz Directo – feed Cádiz",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/granada-celebra-los-25-anos-del-hocus-pocus-con-tres-noches-de-magia-andaluza-y-espectaculos-internacionales-dedicado-a-cadiz-y-malaga/"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-25",
-      "fecha_fin_evento": "2026-11-25",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "Granada celebra los 25 años del Hocus Pocus con tres noches de magia andaluza y espectáculos internacionales dedicado a Cádiz y Málaga Antonio \"er mago\". Cádiz Granada celebra los 25 años del Hocus Pocus con tres noches de magia andaluza y espectáculos internacionales dedicado a Cádiz y Málaga El festival reúne del 24 al 26 de noviembre a seis ilus",
-      "descripcion_fuente": "siva incluye un Pase de Oro unánime en Got Talent España y su participación como finalista en Got Talent Chile. El miércoles 25 de noviembre será el turno de los malagueños Dani Quesada y Juanka Alarc",
       "imagen_oficial": null
     },
     {
@@ -574,13 +519,13 @@
       }
     },
     {
-      "nombre": "El flamenco lleva al Teatro de las Cortes una historia sobre la escalada de la violencia machista",
+      "nombre": "Adelante propone ayudas de hasta el 100% del alquiler y recursos judiciales comarcales para víctimas de violencia machista",
       "fecha": "2026-11-25",
       "fuentes": [
         {
           "fuente": "CádizNoticias – agenda y avisos de actos",
           "tipo": "prensa",
-          "url": "https://cadiznoticias.es/el-flamenco-lleva-al-teatro-de-las-cortes-una-historia-sobre-la-escalada-de-la-violencia-machista/"
+          "url": "https://cadiznoticias.es/adelante-propone-ayudas-de-hasta-el-100-del-alquiler-y-recursos-judiciales-comarcales-para-victimas-de-violencia-machista/"
         }
       ],
       "fecha_inicio_evento": "2026-11-25",
@@ -588,8 +533,9 @@
       "permanente": false,
       "multidia": false,
       "provincial": false,
-      "detalle_texto": "El flamenco lleva al Teatro de las Cortes una historia sobre la escalada de la violencia machista · Cadiznoticias - publicidad - Inicio / Cultura / El flamenco lleva al Teatro de las Cortes una historia sobre la escalada de la violencia machista Cultura ‘Palo a Palo’, creada y dirigida por María Poquet, se representará el 2 de diciembre a las 20.00",
-      "descripcion_fuente": "ompleta con la presentación de una agenda feminista elaborada por la isleña Ángeles Taro y con el acto central del 25 de noviembre en la plaza de la Iglesia. Para el 26 de noviembre están previstas la",
+      "pista_capital": true,
+      "detalle_texto": "Adelante propone ayudas de hasta el 100% del alquiler y recursos judiciales comarcales para víctimas de violencia machista · Cadiznoticias - publicidad - Inicio / Cádiz / Adelante propone ayudas de hasta el 100% del alquiler y recursos judiciales comarcales para víctimas de violencia machista Cádiz Portada El programa para las elecciones generales ",
+      "descripcion_fuente": "desarrollo de Cádiz. Adelante enmarcó tanto la ruta como la presentación de sus propuestas en los actos previos al 25 de noviembre. Sánchez llamó a participar en las movilizaciones del Día Internacion",
       "imagen_oficial": null
     },
     {
@@ -651,6 +597,24 @@
         "alt_text": "",
         "tipo_imagen": "oficial"
       }
+    },
+    {
+      "nombre": "From Self-Doubt to Authority",
+      "fecha": "2026-11-25",
+      "fuentes": [
+        {
+          "fuente": "Meetup – grupos de Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.meetup.com/sgi-superwomen-in-tech/events/317268835/"
+        }
+      ],
+      "hora_inicio": "12:00",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "detalle_texto": "From Self-Doubt to Authority, Wed, Nov 25, 2026, 12:00 PM | Meetup Skip to content From Self-Doubt to Authority Hosted by SGI Super Organizer SuperWomen in Tech Online event Link visible for attendees From Self-Doubt to Authority Hosted by SGI Super Organizer SuperWomen in Tech Details Welcome to our final SuperWomen in Tech session in 2026! As we ",
+      "descripcion_fuente": "*Welcome to our final SuperWomen in Tech session in 2026! As we close off the year, we're joined by* ***[Yesim G](https://www.linkedin.com/in/yesim-gozen/)*[ö](https://www.linkedin.com/in/yesim-gozen/",
+      "imagen_oficial": null
     },
     {
       "nombre": "LA ESENCIA DEL MÚSICO 150º Aniversario Manuel de Falla",
@@ -911,7 +875,7 @@
       "descripcion_fuente": "Idea original, creación y dirección Ida y Vuelta, Gestión Cultural S.C. Dirección artística Sergio Torrecilla Pérez Intérpretes Sergio Torrecilla, Ana del Corral, Paula del Corral, Ángel Martín, Monch",
       "imagen_oficial": {
         "archivo": "img/es-evento-visitas-teatralizadas-la-esencia-del-m-c3-basico.jpg",
-        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/de-ida-y-vuelta-falla_489894.png",
+        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/de-ida-y-vuelta-falla_302271.png",
         "fuente": "turismo.cadiz.es",
         "pagina": "https://turismo.cadiz.es/es/evento/visitas-teatralizadas-la-esencia-del-m%C3%BAsico",
         "ancho": 584,
@@ -991,6 +955,11 @@
         "fuente": "Museo de Cádiz",
         "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz",
         "fragmento": "Noviembre de 2026 21 de Noviembre de 2026 22 de Noviembre de 2026 23 de Noviembre de 2026 24 de Noviembre de 2026 25 de Noviembre de 2026 26 de Noviembre de 2026 27 de Noviembre de 2026 28 de Noviembre de 2026 29 de Noviembre de 2026 30 de Noviembre de 2026 Compartir en: Museo de Cádiz 36.535378, -6.2965293 Añadir a Google Calendar"
+      },
+      {
+        "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
+        "url": "https://institucional.cadiz.es/programacion_cultural",
+        "fragmento": "ral Inicio / Programación cultural Programación cultural Agenda de eventos culturales Desde el Desde el Date E.g., 25/11/2026 Hasta el Hasta el Date E.g., 25/11/2026 Visitas Teatralizadas: La Esencia Del Músico - ( Rutas Y Visitas ) Hasta el: 26/11/2026 Horario: 25 y 26 de noviembre a las 17:00 / 18:00 / 19:00 y 20:00h. (aforo 40 personas por pase)"
       }
     ]
   },

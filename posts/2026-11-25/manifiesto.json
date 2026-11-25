@@ -1,0 +1,185 @@
+{
+  "variante": "B",
+  "paleta": 2,
+  "experimentos": {
+    "frase": "B",
+    "cta": "A",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "cadizcf_fundacion",
+        "cadizclubdefutbol",
+        "palaciocongresoscadiz",
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "fundacioncajasol",
+        "manolomorera",
+        "centroandaluzdelasletras",
+        "culturacuenta",
+        "casadeiberoamerica",
+        "fundunicaja"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, miércoles 25 de noviembre. 8 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "innova-1125"
+      ],
+      "etiquetas": [
+        "cadizcf_fundacion",
+        "cadizclubdefutbol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: INNOVA Cádiz 2026 · Innovación social y tercer sector (consultar horario, Antiguos Depósitos de Tabaco)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "seedo-1125"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO) (consultar horario, Palacio de Congresos de Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "esencia-1125"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: La esencia del músico · 4 pases (17–20 h) (17:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "locos-1125"
+      ],
+      "etiquetas": [
+        "fundacioncajasol",
+        "manolomorera"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Locos de la azotea · Pódcast solidario (19:30, Fundación Cajasol (Casa Pemán))"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "jovenfalla-expo-1125"
+      ],
+      "etiquetas": [
+        "centroandaluzdelasletras",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «El joven Falla. Raíces gaditanas de un compositor universal» (08:30, Archivo Histórico Provincial de Cádiz)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1125"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1125"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1125"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "innova-1125",
+      "alt_text": "Cartel de INNOVA Cádiz 2026"
+    },
+    {
+      "archivo": "02.png",
+      "id": "seedo-1125",
+      "alt_text": "Ilustración de «XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO)»: composición con bombilla, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "03.png",
+      "id": "jovenfalla-expo-1125",
+      "alt_text": "Exposición El joven Falla en el Archivo Histórico Provincial"
+    },
+    {
+      "archivo": "04.png",
+      "id": "divergencia-1125",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "05.png",
+      "id": "manton-1125",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "06.png",
+      "id": "villalta-1125",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "07.png",
+      "id": "esencia-1125",
+      "alt_text": "Cartel de La esencia del músico en el Gran Teatro Falla"
+    },
+    {
+      "archivo": "08.png",
+      "id": "locos-1125",
+      "alt_text": "Cartel del pódcast Locos de la azotea"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "locos-1125"
+      ],
+      "alt_text": "Esta noche en Cádiz: Locos de la azotea · Pódcast solidario"
+    }
+  ]
+}
