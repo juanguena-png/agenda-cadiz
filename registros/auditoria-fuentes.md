@@ -33,16 +33,16 @@ Fuentes registradas: 114
 - Viral Agenda – Cádiz
 
 ## Las que más aportan
-- Onda Cádiz – Agenda de eventos: 963 candidatos
-- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 837 candidatos
+- Onda Cádiz – Agenda de eventos: 965 candidatos
+- Ayuntamiento de Cádiz – Programación cultural (agenda oficial): 839 candidatos
 - Sala Central Lechera: 700 candidatos
 - Gran Teatro Falla: 644 candidatos
-- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 532 candidatos
-- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 308 candidatos
-- Casa de Iberoamérica: 121 candidatos
-- Eventbrite – Cádiz: 98 candidatos
-- Guía de Cádiz – Agenda: 92 candidatos
-- Cádiz Directo – feed Cádiz: 73 candidatos
+- Agenda de Eventos del Ayuntamiento (laciudad.cadiz.es/agenda-de-cadiz.asp): 488 candidatos
+- Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz): 312 candidatos
+- Casa de Iberoamérica: 126 candidatos
+- Eventbrite – Cádiz: 99 candidatos
+- Guía de Cádiz – Agenda: 96 candidatos
+- Cádiz Directo – feed Cádiz: 71 candidatos
 
 ## Descubrimiento (estado.json → descubiertos_web)
 - rinde (4 días): dieron_eventos
@@ -65,6 +65,9 @@ Fuentes registradas: 114
 - rinde (1 días): Estéreo Parque (IG organizador)
 - rinde (1 días): Fundación Cajasol
 - rinde (1 días): Descartado
+- rinde (1 días): Fundación Cádiz CF (IG organizador)
+- rinde (1 días): Palacio de Congresos
+- rinde (1 días): Junta agenda
 
 ## Control de lectura de fuentes web (estado.json → fuentes_leidas)
 - Todas las fuentes web se han leído.
