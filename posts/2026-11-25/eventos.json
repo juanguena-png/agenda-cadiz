@@ -466,5 +466,145 @@
       "etiqueta": "Hasta el 21 feb"
     }
   ],
-  "noche_manana": []
+  "noche_manana": [
+    {
+      "id": "ustedes-1126",
+      "nombre": "Teatro · Ustedes brillan en lo oscuro",
+      "categoria": "teatro",
+      "fecha": "2026-11-26",
+      "hora_inicio": "20:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica (Patio Central)",
+      "direccion": "C/ Concepción Arenal, s/n, 11006 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "La compañía La Soledad lleva a escena un texto de Liliana Colanzi sobre un accidente radiológico y un grupo de ciudadanos que resiste. Reserva de entrada previa.",
+      "info": "Reserva de entrada previa (Eventbrite)",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/330/teatro-ustedes-brillan-en-lo-oscuro"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Patio Central, Casa de Iberoamérica, C/ Concepción Arenal, s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/330/teatro-ustedes-brillan-en-lo-oscuro"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "La Soledad",
+          "instagram": null,
+          "buscado": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "mayfernandez-1126",
+      "nombre": "Recital de flamenco · May Fernández",
+      "categoria": "música",
+      "fecha": "2026-11-26",
+      "hora_inicio": "19:00",
+      "hora_fin": "20:30",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja",
+      "direccion": "C/ San Francisco, 26, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "La cantaora gaditana May Fernández ofrece un recital en el ciclo «Andalucía es flamenca». Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/recital-de-flamenco-de-may-fernandez-dentro-del-ciclo-andalucia-es-flamenca-2/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, C/ San Francisco, 26, Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/recital-de-flamenco-de-may-fernandez-dentro-del-ciclo-andalucia-es-flamenca-2/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "May Fernández",
+          "instagram": null,
+          "buscado": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "albarico-1126",
+      "nombre": "Conversación · Alba Rico y David Eloy Rodríguez",
+      "categoria": "otros",
+      "fecha": "2026-11-26",
+      "hora_inicio": "18:30",
+      "hora_fin": "19:30",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica (Patio Central)",
+      "direccion": "C/ Concepción Arenal, s/n, 11006 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "El filósofo Santiago Alba Rico y el poeta David Eloy Rodríguez dialogan sobre lo inquietante en las Jornadas de la Fundación Carlos Edmundo de Ory. Reserva de plaza previa.",
+      "info": "Reserva de plaza previa (Eventbrite)",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/329/conversacion-entre-alba-rico-y-david-eloy-rodriguez"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Patio Central, Casa de Iberoamérica, C/ Concepción Arenal, s/n, 11006 Cádiz",
+        "url": "https://www.casadeiberoamerica.es/agenda/329/conversacion-entre-alba-rico-y-david-eloy-rodriguez"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Carlos Edmundo de Ory",
+          "instagram": null,
+          "buscado": "2026-11-25"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Alba Rico",
+          "instagram": null,
+          "buscado": "2026-11-25"
+        }
+      ]
+    }
+  ]
 }

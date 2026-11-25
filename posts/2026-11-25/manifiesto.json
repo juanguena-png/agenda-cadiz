@@ -177,9 +177,12 @@
     {
       "archivo": "01.png",
       "ids": [
-        "locos-1125"
+        "locos-1125",
+        "albarico-1126",
+        "mayfernandez-1126",
+        "ustedes-1126"
       ],
-      "alt_text": "Esta noche en Cádiz: Locos de la azotea · Pódcast solidario"
+      "alt_text": "Esta noche: Locos de la azotea · Pódcast solidario. Mañana en Cádiz: Conversación · Alba Rico y David Eloy Rodríguez; Recital de flamenco · May Fernández; Teatro · Ustedes brillan en lo oscuro"
     }
   ]
 }
