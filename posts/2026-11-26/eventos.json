@@ -728,5 +728,145 @@
       "etiqueta": "Hasta el 21 feb"
     }
   ],
-  "noche_manana": []
+  "noche_manana": [
+    {
+      "id": "alumbrado-1127",
+      "nombre": "Encendido del alumbrado de Navidad · Cuando Cádiz enciende las estrellas",
+      "categoria": "fiesta",
+      "fecha": "2026-11-27",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Plaza de San Juan de Dios",
+      "direccion": "Plaza de San Juan de Dios, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Espectáculo de Riki Rivera con músicos y artistas gaditanos que abre la Navidad de Cádiz con el encendido del alumbrado. La hora exacta del acto no consta en la noticia del Ayuntamiento.",
+      "info": "Consultar horario",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz",
+          "url": "https://transparencia.cadiz.es/el-espectaculo-cuando-cadiz-enciende-las-estrellas-de-riki-rivera-abrira-la-navidad-gaditana-el-proximo-27-de-noviembre/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Plaza de San Juan de Dios, Cádiz (noticia del Ayuntamiento de Cádiz)",
+        "url": "https://transparencia.cadiz.es/el-espectaculo-cuando-cadiz-enciende-las-estrellas-de-riki-rivera-abrira-la-navidad-gaditana-el-proximo-27-de-noviembre/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Plaza de San Juan de Dios",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Riki Rivera",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "grantraje-1127",
+      "nombre": "El gran traje · Lasal Teatro",
+      "categoria": "infantil",
+      "fecha": "2026-11-27",
+      "hora_inicio": "18:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "C/ San Miguel, 5, Cádiz",
+      "precio": "Consultar",
+      "publico": "Familiar (+4 años)",
+      "descripcion": "Espectáculo de títeres, actriz y objetos para niños sobre una niña que crece en un enorme traje-casa con su familia de animales. A partir de 4 años.",
+      "info": "Entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/el-gran-traje-%C2%B7-lasal-teatro"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere de la Tía Norica, calle San Miguel, 5, Cádiz",
+        "url": "https://institucional.cadiz.es/evento/el-gran-traje-%C2%B7-lasal-teatro"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Lasal Teatro",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "boticaria-1127",
+      "nombre": "Presentación del libro «Mujeres de Hierro» · Boticaria García",
+      "categoria": "otros",
+      "fecha": "2026-11-27",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Plaza de San Antonio, 14, 11003 Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Presentación del libro «Mujeres de Hierro», de Boticaria García, dentro del ciclo Cajasol Te Cuida. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Fundación Cajasol Cádiz, Plaza de San Antonio, 14 (Casa Pemán), 11003 Cádiz",
+        "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": null
+        },
+        {
+          "rol": "artista",
+          "nombre": "Boticaria García",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        }
+      ]
+    }
+  ]
 }

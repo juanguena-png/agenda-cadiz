@@ -206,9 +206,12 @@
     {
       "archivo": "01.png",
       "ids": [
-        "ustedes-1126"
+        "ustedes-1126",
+        "alumbrado-1127",
+        "grantraje-1127",
+        "boticaria-1127"
       ],
-      "alt_text": "Esta noche en Cádiz: Teatro · Ustedes brillan en lo oscuro"
+      "alt_text": "Esta noche: Teatro · Ustedes brillan en lo oscuro. Mañana en Cádiz: Encendido del alumbrado de Navidad · Cuando Cádiz enciende las estrellas; El gran traje · Lasal Teatro; Presentación del libro «Mujeres de Hierro» · Boticaria García"
     }
   ]
 }

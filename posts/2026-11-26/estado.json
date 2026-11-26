@@ -226,7 +226,9 @@
     "2026-11-26T09:04:19+01:00 stories/10.png omitida: falló el carrusel",
     "2026-11-26T09:04:19+01:00 stories/11.png omitida: falló el carrusel",
     "2026-11-26T09:04:19+01:00 stories/12.png omitida: falló el carrusel",
-    "2026-11-26T09:04:19+01:00 stories/13.png omitida: falló el carrusel"
+    "2026-11-26T09:04:19+01:00 stories/13.png omitida: falló el carrusel",
+    "2026-11-26T16:55:40+01:00 diario: render OK (12 eventos, variante A)",
+    "2026-11-26T16:56:06+01:00 diario: render OK (12 eventos, variante A)"
   ],
   "fuentes_leidas": [
     "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
@@ -299,7 +301,7 @@
   "descartados_nota": "Fegadi (26-27 nov, Depósitos): solo Cádiz Directo; Exposición Caballeros Hospitalarios (Claustro Palacio Provincial): sin horario; concierto didáctico plaza de España 12:00: para escolares",
   "revision_final": {
     "hecha": true,
-    "ts": "2026-11-26T07:00:54+01:00"
+    "ts": "2026-11-26T16:56:06+01:00"
   },
   "limite_publicaciones": {
     "uso": 2,
