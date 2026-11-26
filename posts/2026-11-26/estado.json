@@ -1,7 +1,35 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "carrusel": {
+      "instagram": {
+        "ts": "2026-11-26T09:04:07+01:00",
+        "estado": "error",
+        "error": "The caption was too long. (code 36004/2207010)",
+        "temporal": false
+      },
+      "facebook": {
+        "ts": "2026-11-26T09:04:19+01:00",
+        "estado": "publicado",
+        "resultado": "1408128839047692_122113706265519566"
+      }
+    }
+  },
   "registro": [
-    "2026-11-26T06:55:46+01:00 diario: render OK (12 eventos, variante A)"
+    "2026-11-26T06:55:46+01:00 diario: render OK (12 eventos, variante A)",
+    "2026-11-26T09:04:07+01:00 ERROR carrusel/instagram: The caption was too long. (code 36004/2207010)",
+    "2026-11-26T09:04:19+01:00 stories/01.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/02.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/03.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/04.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/05.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/06.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/07.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/08.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/09.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/10.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/11.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/12.png omitida: falló el carrusel",
+    "2026-11-26T09:04:19+01:00 stories/13.png omitida: falló el carrusel"
   ],
   "fuentes_leidas": [
     "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
@@ -75,5 +103,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-26T07:00:54+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 11,
+    "total": 100,
+    "ts": "2026-11-26T07:01:01+01:00"
+  },
+  "ultima_ejecucion": "2026-11-26T09:04:19+01:00"
 }
