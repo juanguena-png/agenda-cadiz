@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-25T16:54:10+01:00",
+  "generado": "2026-11-26T06:53:45+01:00",
   "instruccion": "Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url.",
   "temporales": [
     {
@@ -39,67 +39,28 @@
       "pista_capital": true
     },
     {
-      "nombre": "Teatro: \"Ustedes brillan en lo oscuro\"",
+      "nombre": "Exposición 'Divergencia cognitiva'",
       "fecha": "2026-11-26",
       "fuentes": [
         {
           "fuente": "Casa de Iberoamérica",
           "tipo": "recinto",
-          "url": "https://www.casadeiberoamerica.es/agenda/330/teatro-ustedes-brillan-en-lo-oscuro"
+          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
         }
       ],
-      "fecha_inicio_evento": "2026-11-26",
-      "fecha_fin_evento": "2026-11-26",
-      "lugar": "Casa de Iberoamérica · Patio Central",
+      "fecha_inicio_evento": "2026-11-13",
+      "fecha_fin_evento": "2027-01-15",
+      "lugar": "Casa de Iberoamérica · Sala Blas de Lezo.",
       "direccion": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
       "permanente": false,
-      "multidia": false,
+      "multidia": true,
       "provincial": false,
       "pista_capital": true,
-      "horario_texto": "De 20:00 a 21:00 horas.",
-      "detalle_texto": "Teatro: \"Ustedes brillan en lo oscuro\" Inicio / Agenda / Teatro: \"Ustedes brillan en lo oscuro\" Teatro: \"Ustedes brillan en lo oscuro\" 26 noviembre 2026 // De 20:00 a 21:00 horas. Lugar: Patio Central Representación de la obra teatral Ustedes brillan en lo oscuro , una creación escénica de la compañía La Soledad , a partir de un texto original de L",
-      "descripcion_fuente": "Representación de la obra teatral Ustedes brillan en lo oscuro , una creación escénica de la compañía La Soledad , a partir de un texto original de Liliana Colanzi . La trama gira en torno a un accide",
+      "horario_texto": "De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado..",
+      "detalle_texto": "Exposición 'Divergencia cognitiva' Inicio / Agenda / Exposición 'Divergencia cognitiva' Exposición 'Divergencia cognitiva' 13 noviembre 2026 - 15 enero 2027 // De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado.. Lugar: Sala Blas de Lezo. La exposición 'Divergencia cognitiva' reúne un buen número de Trabajos",
+      "descripcion_fuente": "La exposición 'Divergencia cognitiva' reúne un buen número de Trabajos del artista zaragozano Santiago Pina . Comisariada por Ramón A. Olivares y Jennifer Gómez (The Guide Artists), estará abierta has",
       "imagen_oficial": {
-        "archivo": "img/agenda-330-teatro-ustedes-brillan-en-lo-oscuro.jpg",
-        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/11/obra teatro ory 2.jpg",
-        "fuente": "www.casadeiberoamerica.es",
-        "pagina": "https://www.casadeiberoamerica.es/agenda/330/teatro-ustedes-brillan-en-lo-oscuro",
-        "ancho": 262,
-        "alto": 168,
-        "alt_text": "",
-        "tipo_imagen": "oficial"
-      }
-    },
-    {
-      "nombre": "Conversación entre Alba Rico y David Eloy Rodríguez",
-      "fecha": "2026-11-26",
-      "fuentes": [
-        {
-          "fuente": "Casa de Iberoamérica",
-          "tipo": "recinto",
-          "url": "https://www.casadeiberoamerica.es/agenda/329/conversacion-entre-alba-rico-y-david-eloy-rodriguez"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-26",
-      "fecha_fin_evento": "2026-11-26",
-      "lugar": "Casa de Iberoamérica · Patio Central",
-      "direccion": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
-      "permanente": false,
-      "multidia": false,
-      "provincial": false,
-      "pista_capital": true,
-      "horario_texto": "De 18:30 a 19:30 horas.",
-      "detalle_texto": "Conversación entre Alba Rico y David Eloy Rodríguez Inicio / Agenda / Conversación entre Alba Rico y David Eloy Rodríguez Conversación entre Alba Rico y David Eloy Rodríguez 26 noviembre 2026 // De 18:30 a 19:30 horas. Lugar: Patio Central Conversación entre el filósofo Santiago Alba Rico y el poeta David Eloy Rodríguez . Un diálogo entre pensamien",
-      "descripcion_fuente": "Conversación entre el filósofo Santiago Alba Rico y el poeta David Eloy Rodríguez . Un diálogo entre pensamiento crítico y poesía sobre las dimensiones políticas de lo inquietante: la violencia, el au",
-      "imagen_oficial": {
-        "archivo": "img/enda-329-conversacion-entre-alba-rico-y-david-eloy-rodriguez.jpg",
-        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/11/alba rico.jpg",
-        "fuente": "www.casadeiberoamerica.es",
-        "pagina": "https://www.casadeiberoamerica.es/agenda/329/conversacion-entre-alba-rico-y-david-eloy-rodriguez",
-        "ancho": 262,
-        "alto": 220,
-        "alt_text": "",
-        "tipo_imagen": "oficial"
+        "error": "sin imagen oficial descargable"
       }
     },
     {
@@ -132,31 +93,6 @@
         "alto": 350,
         "alt_text": "",
         "tipo_imagen": "oficial"
-      }
-    },
-    {
-      "nombre": "Exposición 'Divergencia cognitiva'",
-      "fecha": "2026-11-26",
-      "fuentes": [
-        {
-          "fuente": "Casa de Iberoamérica",
-          "tipo": "recinto",
-          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-13",
-      "fecha_fin_evento": "2027-01-15",
-      "lugar": "Casa de Iberoamérica · Sala Blas de Lezo.",
-      "direccion": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
-      "permanente": false,
-      "multidia": true,
-      "provincial": false,
-      "pista_capital": true,
-      "horario_texto": "De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado..",
-      "detalle_texto": "Exposición 'Divergencia cognitiva' Inicio / Agenda / Exposición 'Divergencia cognitiva' Exposición 'Divergencia cognitiva' 13 noviembre 2026 - 15 enero 2027 // De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado.. Lugar: Sala Blas de Lezo. La exposición 'Divergencia cognitiva' reúne un buen número de Trabajos",
-      "descripcion_fuente": "La exposición 'Divergencia cognitiva' reúne un buen número de Trabajos del artista zaragozano Santiago Pina . Comisariada por Ramón A. Olivares y Jennifer Gómez (The Guide Artists), estará abierta has",
-      "imagen_oficial": {
-        "error": "sin imagen oficial descargable"
       }
     },
     {
@@ -364,6 +300,31 @@
       "provincial": true,
       "detalle_texto": "Las Jornadas de la Fundación Ory llegan a la Casa de Iberoamérica Cultura El Ayuntamiento de Pinto, en Madrid, también cancela a Las Niñas de Cádiz Ilustración del cartel de las Jornadas de la Fundación Ory. Filosofía, poesía y teatro. Ese cóctel de arte y pensamiento es la propuesta de la Fundación Ory para celebrar una de las sesiones de sus jorn",
       "descripcion_fuente": "a Casa de Iberoamérica. Una conversación sobre poesía y una obra de teatro, las propuestas de la entidad para este jueves 26 La generosidad de Miguel Poveda enriquece el legado de Carlos Edmundo de Or",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Del Palillero a la plaza de la Catedral, Cádiz reivindica el derecho de las mujeres a vivir sin miedo",
+      "fecha": "2026-11-26",
+      "fuentes": [
+        {
+          "fuente": "Cádiz Directo",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/del-palillero-a-la-plaza-de-la-catedral-cadiz-reivindica-el-derecho-de-las-mujeres-a-vivir-sin-miedo/"
+        },
+        {
+          "fuente": "Cádiz Directo – feed Cádiz",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/del-palillero-a-la-plaza-de-la-catedral-cadiz-reivindica-el-derecho-de-las-mujeres-a-vivir-sin-miedo/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-26",
+      "fecha_fin_evento": "2026-11-26",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Del Palillero a la plaza de la Catedral, Cádiz reivindica el derecho de las mujeres a vivir sin miedo La plaza de la Catedral de Cádiz ha acogido este miércoles, pese a la lluvia, la concentración feminista convocada por la Comisión del 8M con motivo del 25N. Foto: Eulogio García. Cádiz Del Palillero a la plaza de la Catedral, Cádiz reivindica el d",
+      "descripcion_fuente": "rcía. Los sindicatos reclaman más recursos y protección La jornada reivindicativa había comenzado a las diez de la mañana con la concentración de CCOO y UGT ante la sede sindical de Cádiz, bajo el lem",
       "imagen_oficial": null
     },
     {
@@ -591,7 +552,7 @@
       "multidia": true,
       "provincial": true,
       "pista_capital": false,
-      "detalle_texto": "[no se pudo leer: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))]",
+      "detalle_texto": "Programación de actividades en el Conjunto Arqueológico de Baelo Claudia Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos ",
       "imagen_oficial": {
         "archivo": "img/-de-actividades-en-el-conjunto-arqueologico-de-baelo-claudia.jpg",
         "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/image/2023/03/baelo_claudia.jpg.webp?itok=HYjUIZQr",
@@ -662,6 +623,26 @@
       }
     },
     {
+      "nombre": "La muestra ‘Astutas’ retrata en San Fernando los oficios y paisajes de las salinas gaditanas",
+      "fecha": "2026-11-26",
+      "fuentes": [
+        {
+          "fuente": "CádizNoticias – agenda y avisos de actos",
+          "tipo": "prensa",
+          "url": "https://cadiznoticias.es/la-muestra-astutas-retrata-en-san-fernando-los-oficios-y-paisajes-de-las-salinas-gaditanas/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-26",
+      "fecha_fin_evento": "2026-11-26",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "pista_capital": false,
+      "detalle_texto": "La muestra ‘Astutas’ retrata en San Fernando los oficios y paisajes de las salinas gaditanas · Cadiznoticias - publicidad - Inicio / Cultura / La muestra ‘Astutas’ retrata en San Fernando los oficios y paisajes de las salinas gaditanas Cultura La exposición reúne en El Patio de Real63 unas 36 fotografías y una instalación sonora, dentro de una prog",
+      "descripcion_fuente": "iental, memoria de los trabajadores salineros y gastronomía vinculada a los esteros. La programación continuará el jueves 26 de noviembre con los encuentros científicos y las charlas-coloquio ‘Flor de",
+      "imagen_oficial": null
+    },
+    {
       "nombre": "Cádiz. Exposición \"El joven Falla. Raíces gaditanas de un compositor universal\"",
       "fecha": "2026-11-26",
       "fuentes": [
@@ -690,6 +671,44 @@
         "alt_text": "",
         "tipo_imagen": "oficial"
       }
+    },
+    {
+      "nombre": "El Parlamento andaluz aprueba la Cuenta General de 2024 tras rechazar las enmiendas del PSOE",
+      "fecha": "2026-11-26",
+      "fuentes": [
+        {
+          "fuente": "CádizNoticias – agenda y avisos de actos",
+          "tipo": "prensa",
+          "url": "https://cadiznoticias.es/el-parlamento-andaluz-aprueba-la-cuenta-general-de-2024-tras-rechazar-las-enmiendas-del-psoe/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-26",
+      "fecha_fin_evento": "2026-11-26",
+      "hora_inicio": "09:00",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "detalle_texto": "El Parlamento andaluz aprueba la Cuenta General de 2024 tras rechazar las enmiendas del PSOE · Cadiznoticias - publicidad - Inicio / Andalucía y más allá / El Parlamento andaluz aprueba la Cuenta General de 2024 tras rechazar las enmiendas del PSOE Andalucía y más allá El Pleno también designa a José María Macías y Yolanda Valdeolivas como candidat",
+      "descripcion_fuente": "tas comparecencias, la presidenta del Parlamento andaluz, Ana Mestre, suspendió la sesión hasta las 9.00 horas del 26 de noviembre. La entrada El Parlamento andaluz aprueba la Cuenta General de 2024 t",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "🌐 English Practice | Meet Friends (Professional Host)",
+      "fecha": "2026-11-26",
+      "fuentes": [
+        {
+          "fuente": "Meetup – grupos de Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.meetup.com/lisbon-english/events/317311253/"
+        }
+      ],
+      "hora_inicio": "10:00",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "detalle_texto": "🌐 English Practice | Meet Friends (Professional Host), Thu, Nov 26, 2026, 10:00 AM | Meetup Skip to content 🌐 English Practice | Meet Friends (Professional Host) Hosted by Eslam M. I. and 4 others John and 2 others are Super Organizers 🌍 Lisbon Conversation Exchange | Daily! Every week on Tuesday, Wednesday, Thursday, Friday, Sunday until February ",
+      "descripcion_fuente": "Welcome to our English conversation club! * **NB! Don't see the EVENT LINK?** Go to **[speakduo.com](speakduo.com)** to see the full schedule and you can also join the event via a link there - Yes, it",
+      "imagen_oficial": null
     },
     {
       "nombre": "LA ESENCIA DEL MÚSICO 150º Aniversario Manuel de Falla",
@@ -722,11 +741,11 @@
           "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/la-esencia-del-musico"
         }
       ],
-      "fecha_inicio_evento": "2026-11-25",
+      "fecha_inicio_evento": "2026-11-26",
       "fecha_fin_evento": "2026-11-26",
       "lugar": "Gran Teatro Falla",
       "permanente": false,
-      "multidia": true,
+      "multidia": false,
       "provincial": false,
       "detalle_texto": "Venta de entradas | Bacantix Buscar por evento, artista o lugar Buscar Cualquier tipo de evento Cualquier fecha Hoy Este fin de semana Este mes Rango de fechas a Todo Destacado Novedades Abonos Ciclos Próximamente a la venta",
       "descripcion_fuente": "TEATRO - VISITAS TEATRALIZADAS 150º Aniversario D. Manuel de Falla LA ESENCIA DEL MÚSICO Idea original, creación y dirección Ida y Vuelta, Gestión Cultural S.C. Dirección artística Sergio Torrecilla P",
@@ -780,24 +799,21 @@
       "imagen_oficial": null
     },
     {
-      "nombre": "El Cádiz CF reúne a cuatro mujeres del deporte para abordar la violencia machista",
+      "nombre": "🪐 Tu Luna y Patrones de Conducta",
       "fecha": "2026-11-26",
       "fuentes": [
         {
-          "fuente": "CádizNoticias – agenda y avisos de actos",
-          "tipo": "prensa",
-          "url": "https://cadiznoticias.es/el-cadiz-cf-reune-a-cuatro-mujeres-del-deporte-para-abordar-la-violencia-machista/"
+          "fuente": "Meetup – grupos de Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.meetup.com/astroenergia/events/317218343/"
         }
       ],
-      "fecha_inicio_evento": "2026-11-26",
-      "fecha_fin_evento": "2026-11-26",
-      "hora_inicio": "18:00",
+      "hora_inicio": "18:30",
       "permanente": false,
       "multidia": false,
-      "provincial": false,
-      "pista_capital": true,
-      "detalle_texto": "El Cádiz CF reúne a cuatro mujeres del deporte para abordar la violencia machista · Cadiznoticias - publicidad - Inicio / Cádiz / El Cádiz CF reúne a cuatro mujeres del deporte para abordar la violencia machista Cádiz La cuarta mesa redonda sobre violencia contra las mujeres en el ámbito deportivo se celebrará el 26 de noviembre, a las 18.00 horas,",
-      "descripcion_fuente": "olencia machista. La cuarta mesa redonda sobre violencia contra las mujeres en el ámbito deportivo se celebrará el 26 de noviembre, a las 18.00 horas, en el estadio, con entrada gratuita previa inscri",
+      "provincial": true,
+      "detalle_texto": "🪐 Tu Luna y Patrones de Conducta, Thu, Nov 26, 2026, 7:30 PM | Meetup Skip to content 🪐 Tu Luna y Patrones de Conducta Hosted by Carol 🪐ASTROENERGÍA™ Registrations close Thu, Nov 26 · 6:00 PM Every week on Thursday until November 26, 2026 Online event Link visible for attendees 🪐 Tu Luna y Patrones de Conducta Hosted by Carol 🪐ASTROENERGÍA™ Details",
+      "descripcion_fuente": "**¿Sientes que siempre tropiezas con la misma piedra en tus relaciones, en el trabajo, en el dinero o en cualquier otro escenario de tu vida?** *¿Sientes que has dedicado tiempo y dinero a formaciones",
       "imagen_oficial": null
     },
     {
@@ -895,11 +911,6 @@
           "fuente": "Guía de Cádiz – Agenda",
           "tipo": "agregador",
           "url": "https://www.guiadecadiz.com/es/agenda/noviembre/2026/visitas-teatralizadas-esencia-del-musico"
-        },
-        {
-          "fuente": "Onda Cádiz – Agenda de eventos",
-          "tipo": "oficial",
-          "url": "https://ondacadiz.es/agenda/2026-11/visitas-teatralizadas-la-esencia-del-musico"
         }
       ],
       "fecha_inicio_evento": "2026-11-25",
@@ -950,7 +961,7 @@
       "descripcion_fuente": "Idea original, creación y dirección Ida y Vuelta, Gestión Cultural S.C. Dirección artística Sergio Torrecilla Pérez Intérpretes Sergio Torrecilla, Ana del Corral, Paula del Corral, Ángel Martín, Monch",
       "imagen_oficial": {
         "archivo": "img/es-evento-visitas-teatralizadas-la-esencia-del-m-c3-basico.jpg",
-        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/de-ida-y-vuelta-falla_107362.png",
+        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/de-ida-y-vuelta-falla_532416.png",
         "fuente": "turismo.cadiz.es",
         "pagina": "https://turismo.cadiz.es/es/evento/visitas-teatralizadas-la-esencia-del-m%C3%BAsico",
         "ancho": 584,
@@ -1089,7 +1100,7 @@
       {
         "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
         "url": "https://institucional.cadiz.es/programacion_cultural",
-        "fragmento": "sta el Hasta el Date E.g., 25/11/2026 Visitas Teatralizadas: La Esencia Del Músico - ( Rutas Y Visitas ) Hasta el: 26/11/2026 Horario: 25 y 26 de noviembre a las 17:00 / 18:00 / 19:00 y 20:00h. (aforo 40 personas por pase) El Gran Traje · Lasal Teatro - ( Títeres ) Hasta el: 27/11/2026 Horario: 18:00 h. Teatro - Por Favor Bailemos - ( Teatro ) Hast"
+        "fragmento": "ral Inicio / Programación cultural Programación cultural Agenda de eventos culturales Desde el Desde el Date E.g., 26/11/2026 Hasta el Hasta el Date E.g., 26/11/2026 Visitas Teatralizadas: La Esencia Del Músico - ( Rutas Y Visitas ) Hasta el: 26/11/2026 Horario: 25 y 26 de noviembre a las 17:00 / 18:00 / 19:00 y 20:00h. (aforo 40 personas por pase)"
       }
     ]
   },

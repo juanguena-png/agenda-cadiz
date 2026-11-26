@@ -1,0 +1,214 @@
+{
+  "variante": "A",
+  "paleta": 1,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "fundacioncajasol",
+        "casadeiberoamerica",
+        "centroandaluzdelasletras",
+        "fundacionory",
+        "fundunicaja",
+        "ateneocadiz",
+        "culturacuenta"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, jueves 26 de noviembre. 12 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "seedo-1126",
+        "esencia-1126"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "teatrofalla",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO) (consultar horario, Palacio de Congresos de Cádiz); La esencia del músico · 4 pases (17–20 h) (17:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "delamano-1126",
+        "cajasolyoga-1126"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "teatrofalla",
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: «De la mano de Falla» · Homenaje musical y exposición de Teo Vázquez (18:00, Plaza de Fragela); Cajasol Te Cuida · Yoga «Una pausa para volver a ti» (18:30, Fundación Cajasol Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "albarico-1126",
+        "mayfernandez-1126"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "centroandaluzdelasletras",
+        "fundacionory",
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Conversación · Alba Rico y David Eloy Rodríguez (18:30, Casa de Iberoamérica (Patio Central)); Recital de flamenco · May Fernández (19:00, Centro Fundación Unicaja)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "tertulia-1126",
+        "ustedes-1126"
+      ],
+      "etiquetas": [
+        "ateneocadiz",
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Tertulia de Política Internacional · «Repaso a la actualidad» (19:00, Ateneo de Cádiz); Teatro · Ustedes brillan en lo oscuro (20:00, Casa de Iberoamérica (Patio Central))"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "jovenfalla-expo-1126"
+      ],
+      "etiquetas": [
+        "centroandaluzdelasletras",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «El joven Falla. Raíces gaditanas de un compositor universal» (08:30, Archivo Histórico Provincial de Cádiz)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1126"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1126"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1126"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "seedo-1126",
+      "alt_text": "Ilustración de «XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO)»: composición con bombilla, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "jovenfalla-expo-1126",
+      "alt_text": "Exposición El joven Falla en el Archivo Histórico Provincial"
+    },
+    {
+      "archivo": "03.png",
+      "id": "divergencia-1126",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "04.png",
+      "id": "manton-1126",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "05.png",
+      "id": "villalta-1126",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "06.png",
+      "id": "esencia-1126",
+      "alt_text": "Cartel de La esencia del músico en el Gran Teatro Falla"
+    },
+    {
+      "archivo": "07.png",
+      "id": "delamano-1126",
+      "alt_text": "Ilustración de ««De la mano de Falla» · Homenaje musical y exposición de Teo Vázquez»: composición con piano, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "08.png",
+      "id": "cajasolyoga-1126",
+      "alt_text": "Cartel del ciclo Cajasol Te Cuida"
+    },
+    {
+      "archivo": "09.png",
+      "id": "albarico-1126",
+      "alt_text": "Cartel de la conversación Alba Rico y David Eloy Rodríguez"
+    },
+    {
+      "archivo": "10.png",
+      "id": "mayfernandez-1126",
+      "alt_text": "Cartel del recital de May Fernández"
+    },
+    {
+      "archivo": "11.png",
+      "id": "tertulia-1126",
+      "alt_text": "Ilustración de «Tertulia de Política Internacional · «Repaso a la actualidad»»: composición con libro, mapa en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "12.png",
+      "id": "ustedes-1126",
+      "alt_text": "Cartel de Ustedes brillan en lo oscuro"
+    },
+    {
+      "archivo": "13.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "ustedes-1126"
+      ],
+      "alt_text": "Esta noche en Cádiz: Teatro · Ustedes brillan en lo oscuro"
+    }
+  ]
+}
