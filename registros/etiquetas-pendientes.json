@@ -20,7 +20,7 @@
   "Estadio Nuevo Mirandilla": {
     "rol": "lugar",
     "evento": "Cádiz CF – Córdoba CF · LaLiga Hypermotion J16",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Diexo": {
@@ -182,7 +182,7 @@
   "Teatro del Títere La Tía Norica": {
     "rol": "lugar",
     "evento": "El gran traje · Lasal Teatro",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "O Sister!": {
@@ -728,61 +728,61 @@
   "Lasal Teatro": {
     "rol": "artista",
     "evento": "El gran traje · Lasal Teatro",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Plaza de San Juan de Dios": {
     "rol": "lugar",
     "evento": "Alumbrado de Navidad y espectáculo «Cuando Cádiz enciende las estrellas»",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Riki Rivera": {
     "rol": "artista",
     "evento": "Alumbrado de Navidad y espectáculo «Cuando Cádiz enciende las estrellas»",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Boticaria García": {
     "rol": "artista",
     "evento": "Presentación de «Mujeres de Hierro», de Boticaria García",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Casa de Extremadura en Cádiz": {
     "rol": "organizador",
     "evento": "VI Degustación de Patatera y Zambomba Popular",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "IES Columela": {
     "rol": "lugar",
     "evento": "Teatro · Por favor, bailemos",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Javier Cámara": {
     "rol": "artista",
     "evento": "Verborrea · Javier Cámara e Israel Elejalde",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Pablo Remón": {
     "rol": "artista",
     "evento": "Verborrea · Javier Cámara e Israel Elejalde",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Momart Theatre": {
     "rol": "lugar",
     "evento": "Mescalina · #80SenEspañol",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Mescalina": {
     "rol": "artista",
     "evento": "Mescalina · #80SenEspañol",
-    "fecha": "finde",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   }
 }
