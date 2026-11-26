@@ -38,6 +38,26 @@ class ErrorAPI(Exception):
 MIN_COBERTURA_WEB = 0.9  # parte de las fuentes «via: web» + búsquedas de descubrimiento que hay que haber leído antes de publicar
 
 
+LIMITES_CAPTION_IG = {"caracteres": 2200, "hashtags": 30, "menciones": 20}  # límites de Instagram (error 36004/2207010 si se superan)
+
+
+def problemas_caption(texto):
+    """Comprueba el caption contra los límites de Instagram. Cuenta en UTF-16 (los emojis valen 2), que es lo prudente."""
+    import re
+    n = len(texto.encode("utf-16-le")) // 2
+    tags = len(re.findall(r"#\w", texto))
+    ments = len(set(re.findall(r"@([\w.]+)", texto)))
+    L = LIMITES_CAPTION_IG
+    out = []
+    if n > L["caracteres"]:
+        out.append(f"{n} caracteres (máximo {L['caracteres']}; sobran {n - L['caracteres']})")
+    if tags > L["hashtags"]:
+        out.append(f"{tags} hashtags (máximo {L['hashtags']})")
+    if ments > L["menciones"]:
+        out.append(f"{ments} menciones @ distintas (máximo {L['menciones']})")
+    return out
+
+
 def cobertura_web(carpeta, estado):
     """(ok, faltan, total): compara consultas_web de candidatos.json con estado.json → fuentes_leidas."""
     cand = ag.cargar_json(carpeta / "candidatos.json", {}) or {}
@@ -494,6 +514,13 @@ if __name__ == "__main__":
                          "Consúltalas con WebFetch/WebSearch y anota CADA nombre en estado.json → fuentes_leidas (y en descubiertos_web las que dieron eventos):\n- "
                          + "\n- ".join(faltan))
             print(f"Fuentes web consultadas: {total - len(faltan)}/{total}")
+        cap = c / "caption.txt"
+        if cap.exists():
+            mal = problemas_caption(cap.read_text(encoding="utf-8"))
+            if mal:
+                ag.salir("No se puede marcar la revisión: el caption supera los límites de Instagram: " + "; ".join(mal)
+                         + ". Acórtalo (descripciones de cada línea más breves, menos @ por línea; nunca quites eventos) y vuelve a marcar la revisión.")
+            print("Caption dentro de los límites de Instagram.")
         e["revision_final"] = {"hecha": True, "ts": ag.ahora().isoformat(timespec="seconds")}
         ag.guardar_estado(c, e)
         print("Revisión final registrada.")
