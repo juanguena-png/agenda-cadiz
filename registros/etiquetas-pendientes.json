@@ -19,8 +19,8 @@
   },
   "Estadio Nuevo Mirandilla": {
     "rol": "lugar",
-    "evento": "Cádiz CF – Real Oviedo",
-    "fecha": "2026-11-07",
+    "evento": "Cádiz CF – Córdoba CF · LaLiga Hypermotion J16",
+    "fecha": "finde",
     "instagram_probado": null
   },
   "Diexo": {
@@ -86,7 +86,7 @@
   "Junta de Andalucía": {
     "rol": "institucion",
     "evento": "Exposición «El joven Falla. Raíces gaditanas de un compositor universal»",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Fernando Ruiz Ortega": {
@@ -181,8 +181,8 @@
   },
   "Teatro del Títere La Tía Norica": {
     "rol": "lugar",
-    "evento": "Lucía Rey Quartet · Nómadas",
-    "fecha": "2026-11-22",
+    "evento": "El gran traje · Lasal Teatro",
+    "fecha": "finde",
     "instagram_probado": null
   },
   "O Sister!": {
@@ -350,13 +350,13 @@
   "Santiago Pina": {
     "rol": "artista",
     "evento": "Exposición «Divergencia cognitiva», de Santiago Pina",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Asociación Hespérides": {
     "rol": "organizador",
     "evento": "Exposición «¿Dónde vas con mantón de Manila?»",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Stefano Barneschi": {
@@ -584,7 +584,7 @@
   "Fundación Municipal de Cultura": {
     "rol": "institucion",
     "evento": "La esencia del músico · 4 pases (17–20 h)",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Radio Cádiz": {
@@ -620,7 +620,7 @@
   "Archivo Histórico Provincial de Cádiz": {
     "rol": "lugar",
     "evento": "Exposición «El joven Falla. Raíces gaditanas de un compositor universal»",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Santiago Saborido Piñero": {
@@ -656,13 +656,133 @@
   "Sociedad Española de Obesidad (SEEDO)": {
     "rol": "organizador",
     "evento": "XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO)",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-26",
     "instagram_probado": null
   },
   "Fundación Joly": {
     "rol": "organizador",
     "evento": "Exposición «El joven Falla. Raíces gaditanas de un compositor universal»",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Plaza de Fragela": {
+    "rol": "lugar",
+    "evento": "«De la mano de Falla» · Homenaje musical y exposición de Teo Vázquez",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Leo Power": {
+    "rol": "artista",
+    "evento": "«De la mano de Falla» · Homenaje musical y exposición de Teo Vázquez",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Teo Vázquez": {
+    "rol": "artista",
+    "evento": "«De la mano de Falla» · Homenaje musical y exposición de Teo Vázquez",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Selu Bastos": {
+    "rol": "artista",
+    "evento": "«De la mano de Falla» · Homenaje musical y exposición de Teo Vázquez",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Fundación Carlos Edmundo de Ory": {
+    "rol": "organizador",
+    "evento": "Conversación · Alba Rico y David Eloy Rodríguez",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Santiago Alba Rico": {
+    "rol": "artista",
+    "evento": "Conversación · Alba Rico y David Eloy Rodríguez",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "David Eloy Rodríguez": {
+    "rol": "artista",
+    "evento": "Conversación · Alba Rico y David Eloy Rodríguez",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "May Fernández": {
+    "rol": "artista",
+    "evento": "Recital de flamenco · May Fernández",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Compañía La Soledad": {
+    "rol": "artista",
+    "evento": "Teatro · Ustedes brillan en lo oscuro",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Liliana Colanzi": {
+    "rol": "artista",
+    "evento": "Teatro · Ustedes brillan en lo oscuro",
+    "fecha": "2026-11-26",
+    "instagram_probado": null
+  },
+  "Lasal Teatro": {
+    "rol": "artista",
+    "evento": "El gran traje · Lasal Teatro",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Plaza de San Juan de Dios": {
+    "rol": "lugar",
+    "evento": "Alumbrado de Navidad y espectáculo «Cuando Cádiz enciende las estrellas»",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Riki Rivera": {
+    "rol": "artista",
+    "evento": "Alumbrado de Navidad y espectáculo «Cuando Cádiz enciende las estrellas»",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Boticaria García": {
+    "rol": "artista",
+    "evento": "Presentación de «Mujeres de Hierro», de Boticaria García",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Casa de Extremadura en Cádiz": {
+    "rol": "organizador",
+    "evento": "VI Degustación de Patatera y Zambomba Popular",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "IES Columela": {
+    "rol": "lugar",
+    "evento": "Teatro · Por favor, bailemos",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Javier Cámara": {
+    "rol": "artista",
+    "evento": "Verborrea · Javier Cámara e Israel Elejalde",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Pablo Remón": {
+    "rol": "artista",
+    "evento": "Verborrea · Javier Cámara e Israel Elejalde",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Momart Theatre": {
+    "rol": "lugar",
+    "evento": "Mescalina · #80SenEspañol",
+    "fecha": "finde",
+    "instagram_probado": null
+  },
+  "Mescalina": {
+    "rol": "artista",
+    "evento": "Mescalina · #80SenEspañol",
+    "fecha": "finde",
     "instagram_probado": null
   }
 }

@@ -1,0 +1,508 @@
+{
+ "fecha": "2026-11-26",
+ "tipo": "finde",
+ "eventos": [
+  {
+   "id": "gran-traje-1127",
+   "nombre": "El gran traje · Lasal Teatro",
+   "categoria": "infantil",
+   "fecha": "2026-11-27",
+   "hora_inicio": "18:00",
+   "lugar": "Teatro del Títere La Tía Norica",
+   "direccion": "Calle San Miguel, 5, Cádiz",
+   "precio": "Consultar",
+   "publico": "Familiar (+4 años)",
+   "descripcion": "Espectáculo de actriz, títeres y objetos para toda la familia sobre un traje tan grande como una casa. Premiado en ferias de teatro de títeres.",
+   "info": "50 min · entradas en Bacantix",
+   "fuentes": [
+    {
+     "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+     "url": "https://institucional.cadiz.es/evento/el-gran-traje-%C2%B7-lasal-teatro"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Teatro del Títere de la Tía Norica (Calle San Miguel, número 5, Cádiz)",
+    "url": "https://institucional.cadiz.es/evento/el-gran-traje-%C2%B7-lasal-teatro"
+   },
+   "imagen": {
+    "archivo": "img/evento-el-gran-traje-c2-b7-lasal-teatro.jpg",
+    "url_origen": "https://institucional.cadiz.es/evento/el-gran-traje-%C2%B7-lasal-teatro",
+    "fuente": "Ayuntamiento de Cádiz",
+    "alt_text": "Cartel de El gran traje de Lasal Teatro",
+    "ajuste": "contain"
+   },
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "Teatro del Títere La Tía Norica",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    },
+    {
+     "rol": "organizador",
+     "nombre": "Ayuntamiento de Cádiz",
+     "instagram": "ayuntamientocadiz"
+    },
+    {
+     "rol": "artista",
+     "nombre": "Lasal Teatro",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "etiquetas_ig": []
+  },
+  {
+   "id": "alumbrado-1127",
+   "nombre": "Alumbrado de Navidad y espectáculo «Cuando Cádiz enciende las estrellas»",
+   "categoria": "fiesta",
+   "fecha": "2026-11-27",
+   "hora_inicio": "19:00",
+   "lugar": "Plaza de San Juan de Dios",
+   "direccion": "Plaza de San Juan de Dios, Cádiz",
+   "precio": "Gratis",
+   "descripcion": "Inauguración oficial del alumbrado navideño con el espectáculo del músico gaditano Riki Rivera, que abre más de cien actividades de Navidad en 50 espacios de la ciudad.",
+   "info": "Al aire libre",
+   "fuentes": [
+    {
+     "nombre": "Ayuntamiento de Cádiz (Instagram, API oficial)",
+     "url": "https://www.instagram.com/p/DgKf0X_jG9q/"
+    },
+    {
+     "nombre": "Ayuntamiento de Cádiz (nota de prensa)",
+     "url": "https://transparencia.cadiz.es/el-espectaculo-cuando-cadiz-enciende-las-estrellas-de-riki-rivera-abrira-la-navidad-gaditana-el-proximo-27-de-noviembre/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "«inauguración del alumbrado y el espectáculo de Riki Rivera este viernes, 27 de noviembre, a las 19 horas en la plaza de San Juan de Dios #Cádiz»",
+    "url": "https://www.instagram.com/p/DgKf0X_jG9q/"
+   },
+   "importancia": 3,
+   "imagen": {
+    "archivo": "img/rivera-abrira-la-navidad-gaditana-el-proximo-27-de-noviembre.jpg",
+    "url_origen": "https://transparencia.cadiz.es/",
+    "fuente": "Ayuntamiento de Cádiz",
+    "alt_text": "Cartel del alumbrado de Navidad de Cádiz con Riki Rivera",
+    "ajuste": "contain"
+   },
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "Plaza de San Juan de Dios",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    },
+    {
+     "rol": "organizador",
+     "nombre": "Ayuntamiento de Cádiz",
+     "instagram": "ayuntamientocadiz"
+    },
+    {
+     "rol": "artista",
+     "nombre": "Riki Rivera",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "publico": "Todos los públicos",
+   "etiquetas_ig": []
+  },
+  {
+   "id": "boticaria-1127",
+   "nombre": "Presentación de «Mujeres de Hierro», de Boticaria García",
+   "categoria": "otros",
+   "fecha": "2026-11-27",
+   "hora_inicio": "19:00",
+   "lugar": "Fundación Cajasol Cádiz",
+   "direccion": "Plaza de San Antonio, 14, Cádiz",
+   "precio": "Gratis",
+   "descripcion": "La divulgadora Boticaria García presenta su libro «Mujeres de Hierro» dentro del ciclo Cajasol Te Cuida. Entrada libre hasta completar aforo.",
+   "info": "Entrada libre hasta completar aforo",
+   "fuentes": [
+    {
+     "nombre": "Fundación Cajasol",
+     "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "«sede de la Fundación Cajasol en Plaza de San Antonio, 14 (Cádiz)»",
+    "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+   },
+   "imagen": {
+    "archivo": "img/evento-cajasol-te-cuida.jpg",
+    "url_origen": "https://fundacioncajasol.com/wp-content/uploads/NOV-CAJASOL-TE-CUIDA_1920x1080-1.jpg",
+    "fuente": "Fundación Cajasol",
+    "alt_text": "Cartel del ciclo Cajasol Te Cuida",
+    "ajuste": "contain"
+   },
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "Fundación Cajasol Cádiz",
+     "instagram": "fundacioncajasol"
+    },
+    {
+     "rol": "organizador",
+     "nombre": "Fundación Cajasol",
+     "instagram": "fundacioncajasol"
+    },
+    {
+     "rol": "artista",
+     "nombre": "Boticaria García",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "publico": "Todos los públicos",
+   "etiquetas_ig": []
+  },
+  {
+   "id": "patatera-1128",
+   "nombre": "VI Degustación de Patatera y Zambomba Popular",
+   "categoria": "gastronomía",
+   "fecha": "2026-11-28",
+   "hora_inicio": "13:30",
+   "lugar": "Casa de Extremadura en Cádiz",
+   "direccion": "C/ Regimiento de Infantería 7, Cádiz",
+   "precio": "Gratis",
+   "descripcion": "La Casa de Extremadura ofrece una degustación gratuita de patatera con zambomba popular y la actuación de tres grupos. Entrada libre hasta completar aforo.",
+   "info": "Actuaciones desde las 14:00",
+   "fuentes": [
+    {
+     "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+     "url": "https://institucional.cadiz.es/evento/vi-degustaci%C3%B3n-de-patatera-y-zambomba-popular-casa-de-extremadura-c%C3%A1diz"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "C/Regimiento de Infantería 7, Cádiz (Casa de Extremadura)",
+    "url": "https://institucional.cadiz.es/evento/vi-degustaci%C3%B3n-de-patatera-y-zambomba-popular-casa-de-extremadura-c%C3%A1diz"
+   },
+   "imagen": {
+    "archivo": "img/e-patatera-y-zambomba-popular-casa-de-extremadura-c-c3-a1diz.jpg",
+    "url_origen": "https://institucional.cadiz.es/",
+    "fuente": "Ayuntamiento de Cádiz",
+    "alt_text": "Cartel de la degustación de patatera en la Casa de Extremadura",
+    "ajuste": "contain"
+   },
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "Casa de Extremadura en Cádiz",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    },
+    {
+     "rol": "organizador",
+     "nombre": "Casa de Extremadura en Cádiz",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    },
+    {
+     "rol": "institucion",
+     "nombre": "Ayuntamiento de Cádiz",
+     "instagram": "ayuntamientocadiz"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "publico": "Todos los públicos",
+   "etiquetas_ig": []
+  },
+  {
+   "id": "bailemos-1128",
+   "nombre": "Teatro · Por favor, bailemos",
+   "categoria": "teatro",
+   "fecha": "2026-11-28",
+   "hora_inicio": "19:00",
+   "lugar": "IES Columela",
+   "direccion": "Calle Barcelona, 2, Cádiz",
+   "precio": "10 €",
+   "publico": "Adultos",
+   "descripcion": "Comedia sobre Ángela y Roberta, dos mujeres que entienden la vida de formas muy distintas y una relación entre el amor, la rutina y lo que se queda sin decir.",
+   "info": "Entradas en la web del Ayuntamiento",
+   "fuentes": [
+    {
+     "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+     "url": "https://institucional.cadiz.es/evento/teatro-por-favor-bailemos"
+    },
+    {
+     "nombre": "Agenda Cultural de Andalucía (Junta)",
+     "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/por-favor-bailemos"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "IES COLUMELA. Calle Barcelona 2, Cádiz",
+    "url": "https://institucional.cadiz.es/evento/teatro-por-favor-bailemos"
+   },
+   "imagen": {
+    "archivo": "img/evento-teatro-por-favor-bailemos.jpg",
+    "url_origen": "https://institucional.cadiz.es/evento/teatro-por-favor-bailemos",
+    "fuente": "Ayuntamiento de Cádiz",
+    "alt_text": "Cartel de la obra Por favor, bailemos",
+    "ajuste": "contain"
+   },
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "IES Columela",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    },
+    {
+     "rol": "organizador",
+     "nombre": "Ayuntamiento de Cádiz",
+     "instagram": "ayuntamientocadiz"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "etiquetas_ig": []
+  },
+  {
+   "id": "verborrea-1128",
+   "nombre": "Verborrea · Javier Cámara e Israel Elejalde",
+   "categoria": "teatro",
+   "fecha": "2026-11-28",
+   "hora_inicio": "20:00",
+   "lugar": "Gran Teatro Falla",
+   "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+   "precio": "12–30 €",
+   "publico": "Mayores de 16 años",
+   "descripcion": "Comedia escrita y dirigida por Pablo Remón, con Javier Cámara, Israel Elejalde, Marta Nieto y Emilio Tomé, sobre un grupo de expulsados refugiados en una casa de la sierra.",
+   "info": "Recomendada +16 · entradas en Bacantix",
+   "fuentes": [
+    {
+     "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+     "url": "https://institucional.cadiz.es/evento/verborrea"
+    },
+    {
+     "nombre": "VivaCádiz",
+     "url": "https://vivacadiz.com/evento/verborrea-falla-2026-11-28"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Gran Teatro Falla — Plaza Fragela, Cádiz",
+    "url": "https://vivacadiz.com/evento/verborrea-falla-2026-11-28"
+   },
+   "importancia": 3,
+   "imagen": {
+    "archivo": "img/evento-verborrea.jpg",
+    "url_origen": "https://institucional.cadiz.es/evento/verborrea",
+    "fuente": "Ayuntamiento de Cádiz",
+    "alt_text": "Cartel de Verborrea en el Gran Teatro Falla",
+    "ajuste": "contain"
+   },
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "Gran Teatro Falla",
+     "instagram": "teatrofalla"
+    },
+    {
+     "rol": "organizador",
+     "nombre": "Ayuntamiento de Cádiz",
+     "instagram": "ayuntamientocadiz"
+    },
+    {
+     "rol": "artista",
+     "nombre": "Javier Cámara",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    },
+    {
+     "rol": "artista",
+     "nombre": "Pablo Remón",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "etiquetas_ig": []
+  },
+  {
+   "id": "mescalina-1128",
+   "nombre": "Mescalina · #80SenEspañol",
+   "categoria": "música",
+   "fecha": "2026-11-28",
+   "hora_inicio": "22:00",
+   "lugar": "Momart Theatre",
+   "direccion": "Cádiz",
+   "precio": "Desde 19 €",
+   "descripcion": "Tributo al pop rock español de los 80 en directo en el Momart Theatre.",
+   "info": "Entradas en las plataformas de venta",
+   "fuentes": [
+    {
+     "nombre": "La Ganzúa",
+     "url": "https://www.laganzua.net/conciertos/mescalina-80senespanol-cadiz-1017460"
+    },
+    {
+     "nombre": "Conciertos.club",
+     "url": "https://conciertos.club/cadiz/conciertos/124146-80senespanol-mescalina"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "«Mescalina #80Senespañol actuará en Cádiz el sábado 28 de noviembre de 2026 en Momart Theatre» (Momart Theatre, 11003 Cádiz, según Taquilla.com)",
+    "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003"
+   },
+   "sin_imagen_oficial": true,
+   "ilustracion": {
+    "motivos": [
+     "rock",
+     "micrófono"
+    ],
+    "fondo": "noche"
+   },
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "Momart Theatre",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    },
+    {
+     "rol": "artista",
+     "nombre": "Mescalina",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "publico": "Todos los públicos",
+   "etiquetas_ig": [],
+   "imagen": {
+    "archivo": "posts/2026-11-26/finde/img/mescalina-1128-ilustracion.svg",
+    "generada": true,
+    "motivos": [
+     "rock",
+     "micrófono"
+    ],
+    "fuente": "Ilustración propia de Planes en Cádiz",
+    "alt_text": "Ilustración de «Mescalina · #80SenEspañol»: composición con rock, micrófono en azul mar, blanco y amarillo"
+   }
+  },
+  {
+   "id": "cofrade-1129",
+   "nombre": "IV Encuentro Anual de Música Cofrade «Santa Cecilia»",
+   "categoria": "música",
+   "fecha": "2026-11-29",
+   "hora_inicio": "18:00",
+   "lugar": "Gran Teatro Falla",
+   "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+   "precio": "Consultar",
+   "descripcion": "Concierto de bandas con cinco agrupaciones locales de música cofrade en el Gran Teatro Falla.",
+   "info": "Entradas en Bacantix",
+   "fuentes": [
+    {
+     "nombre": "Vivir Ediciones",
+     "url": "https://vivirediciones.es/?p=1150841"
+    },
+    {
+     "nombre": "Bacantix (Teatros de Cádiz)",
+     "url": "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz#1"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "«El Gran Teatro Falla acogerá el IV Encuentro Anual de Música Cofrade el 29 de noviembre a las 18:00»",
+    "url": "https://vivirediciones.es/?p=1150841"
+   },
+   "sin_imagen_oficial": true,
+   "ilustracion": {
+    "motivos": [
+     "violín",
+     "estrella"
+    ],
+    "fondo": "sol"
+   },
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "Gran Teatro Falla",
+     "instagram": "teatrofalla"
+    },
+    {
+     "rol": "organizador",
+     "nombre": "Ayuntamiento de Cádiz",
+     "instagram": "ayuntamientocadiz"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "publico": "Todos los públicos",
+   "etiquetas_ig": [],
+   "imagen": {
+    "archivo": "posts/2026-11-26/finde/img/cofrade-1129-ilustracion.svg",
+    "generada": true,
+    "motivos": [
+     "violín",
+     "estrella"
+    ],
+    "fuente": "Ilustración propia de Planes en Cádiz",
+    "alt_text": "Ilustración de «IV Encuentro Anual de Música Cofrade «Santa Cecilia»»: composición con violín, estrella en azul mar, blanco y amarillo"
+   }
+  },
+  {
+   "id": "cadizcf-1129",
+   "nombre": "Cádiz CF – Córdoba CF · LaLiga Hypermotion J16",
+   "categoria": "deporte",
+   "fecha": "2026-11-29",
+   "hora_inicio": "18:30",
+   "lugar": "Estadio Nuevo Mirandilla",
+   "direccion": "Estadio Nuevo Mirandilla, Cádiz",
+   "precio": "Consultar",
+   "descripcion": "El Cádiz CF recibe al Córdoba CF en la jornada 16 de LaLiga Hypermotion.",
+   "info": "Entradas en la web oficial del club",
+   "fuentes": [
+    {
+     "nombre": "Cádiz CF – partidos",
+     "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-16-cadiz-cf-vs-cordoba-cf-3468"
+    }
+   ],
+   "verificacion_cadiz_capital": {
+    "confirmado": true,
+    "evidencia": "Cádiz CF – Córdoba CF, Estadio Nuevo Mirandilla (JP Financial Estadio), Cádiz",
+    "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-16-cadiz-cf-vs-cordoba-cf-3468"
+   },
+   "importancia": 3,
+   "entidades": [
+    {
+     "rol": "lugar",
+     "nombre": "Estadio Nuevo Mirandilla",
+     "instagram": null,
+     "buscado": "2026-11-26"
+    },
+    {
+     "rol": "organizador",
+     "nombre": "Cádiz CF",
+     "instagram": "cadizclubdefutbol"
+    }
+   ],
+   "hora_fin": null,
+   "todo_el_dia": false,
+   "publico": "Todos los públicos",
+   "etiquetas_ig": [],
+   "imagen": {
+    "archivo": "img/cadizcf-1129-cartel.png",
+    "fuente": "Cartel propio de Planes en Cádiz con los escudos oficiales de la web del Cádiz CF",
+    "generada": true,
+    "alt_text": "Cartel del partido Cádiz CF contra Córdoba CF: LaLiga Hypermotion J16, Domingo 29 de noviembre · 18:30, Estadio Nuevo Mirandilla",
+    "ajuste": "cover"
+   }
+  }
+ ]
+}

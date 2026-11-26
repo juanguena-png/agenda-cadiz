@@ -1,0 +1,122 @@
+{
+  "variante": "A",
+  "paleta": 1,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "fundacioncajasol",
+        "teatrofalla",
+        "momartsalaclub",
+        "cadizclubdefutbol",
+        "laliga"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Planes del finde, 27 – 29 de noviembre. 9 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "gran-traje-1127",
+        "alumbrado-1127"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: El gran traje · Lasal Teatro (18:00, Teatro del Títere La Tía Norica); Alumbrado de Navidad y espectáculo «Cuando Cádiz enciende las estrellas» (19:00, Plaza de San Juan de Dios)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "boticaria-1127"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación de «Mujeres de Hierro», de Boticaria García (19:00, Fundación Cajasol Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "patatera-1128"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: VI Degustación de Patatera y Zambomba Popular (13:30, Casa de Extremadura en Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "bailemos-1128"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Teatro · Por favor, bailemos (19:00, IES Columela)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "verborrea-1128"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Verborrea · Javier Cámara e Israel Elejalde (20:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "mescalina-1128"
+      ],
+      "etiquetas": [
+        "momartsalaclub"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Mescalina · #80SenEspañol (22:00, Momart Theatre)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "cofrade-1129"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: IV Encuentro Anual de Música Cofrade «Santa Cecilia» (18:00, Gran Teatro Falla)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "cadizcf-1129"
+      ],
+      "etiquetas": [
+        "cadizclubdefutbol",
+        "laliga"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Cádiz CF – Córdoba CF · LaLiga Hypermotion J16 (18:30, Estadio Nuevo Mirandilla)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ]
+}
