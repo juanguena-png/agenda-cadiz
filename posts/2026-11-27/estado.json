@@ -1,5 +1,21 @@
 {
-  "publicaciones": {},
+  "publicaciones": {
+    "noche/01.png": {
+      "instagram": {
+        "ts": "2026-11-27T18:30:15+01:00",
+        "estado": "publicado",
+        "resultado": [
+          "18136527484602562",
+          "https://www.instagram.com/stories/planesencadiz/4039790707644606747"
+        ]
+      },
+      "facebook": {
+        "ts": "2026-11-27T18:30:21+01:00",
+        "estado": "publicado",
+        "resultado": "1206537378550717"
+      }
+    }
+  },
   "registro": [
     "2026-11-27T06:55:48+01:00 diario: render OK (9 eventos, variante B)",
     "2026-11-27T16:55:59+01:00 diario: render OK (9 eventos, variante B)",
@@ -8,5 +24,11 @@
   "revision_final": {
     "hecha": true,
     "ts": "2026-11-27T16:56:24+01:00"
-  }
+  },
+  "limite_publicaciones": {
+    "uso": 1,
+    "total": 100,
+    "ts": "2026-11-27T18:28:35+01:00"
+  },
+  "ultima_ejecucion": "2026-11-27T18:30:21+01:00"
 }
