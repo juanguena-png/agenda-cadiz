@@ -1,6 +1,12 @@
 {
   "publicaciones": {},
   "registro": [
-    "2026-11-27T06:55:48+01:00 diario: render OK (9 eventos, variante B)"
-  ]
+    "2026-11-27T06:55:48+01:00 diario: render OK (9 eventos, variante B)",
+    "2026-11-27T16:55:59+01:00 diario: render OK (9 eventos, variante B)",
+    "2026-11-27T16:56:24+01:00 diario: render OK (9 eventos, variante B)"
+  ],
+  "revision_final": {
+    "hecha": true,
+    "ts": "2026-11-27T16:56:24+01:00"
+  }
 }

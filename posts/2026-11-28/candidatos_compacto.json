@@ -1,0 +1,1464 @@
+{
+  "generado": "2026-11-27T16:54:06+01:00",
+  "instruccion": "Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url.",
+  "temporales": [
+    {
+      "nombre": "Programación Teatro del Títere de la Tía Norica, Octubre - Diciembre 2026",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Ayuntamiento de Cádiz – Programación cultural (agenda oficial)",
+          "tipo": "oficial",
+          "url": "https://institucional.cadiz.es/evento/programaci%C3%B3n-teatro-del-t%C3%ADtere-de-la-t%C3%ADa-norica-octubre-diciembre-2026"
+        },
+        {
+          "fuente": "Onda Cádiz – Agenda de eventos",
+          "tipo": "oficial",
+          "url": "https://ondacadiz.es/agenda/2026-10/programacion-teatro-del-titere-de-la-tia-norica-octubre-diciembre-2026"
+        }
+      ],
+      "fecha_inicio_evento": "2026-10-09",
+      "fecha_fin_evento": "2027-01-03",
+      "lugar": "Teatro del Títere de la Tía Norica",
+      "direccion": "Teatro del Títere de la Tía Norica (Calle San Miguel, número 5, Cádiz)",
+      "permanente": false,
+      "multidia": true,
+      "provincial": false,
+      "detalle_texto": "Ayuntamiento de Cádiz - Eventos en Cádiz | Programación Teatro del Títere de la Tía Norica, Octubre - Diciembre 2026 Pasar al contenido principal Cadiz.es - Formulario de búsqueda buscar Tu Ayuntamiento Transparencia Turismo Deporte Onda-Cádiz Prog. Cultural Inicio / Programación Teatro del Títere de la Tía Norica, Octubre - Diciembre 2026 Programa",
+      "descripcion_fuente": "TEATRO DEL TÍTERE LA TÍA NORICA Programación octubre-diciembre 2026 9 de Octubre. 18 h. “MEMORIAS DE TRAPO” LAMONA DANZA (Danza y teatro) Público Familiar (+4 años) 43 min. Sinopsis Es una obra de dan",
+      "imagen_oficial": {
+        "archivo": "img/del-t-c3-adtere-de-la-t-c3-ada-norica-octubre-diciembre-2026.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-09/WhatsApp_Image_2026-09-23_at_09.40.36.jpeg",
+        "fuente": "institucional.cadiz.es",
+        "pagina": "https://institucional.cadiz.es/evento/programaci%C3%B3n-teatro-del-t%C3%ADtere-de-la-t%C3%ADa-norica-octubre-diciembre-2026",
+        "ancho": 1000,
+        "alto": 742,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      },
+      "pista_capital": true
+    },
+    {
+      "nombre": "Exposición 'Divergencia cognitiva'",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Casa de Iberoamérica",
+          "tipo": "recinto",
+          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-13",
+      "fecha_fin_evento": "2027-01-15",
+      "lugar": "Casa de Iberoamérica · Sala Blas de Lezo.",
+      "direccion": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": false,
+      "pista_capital": true,
+      "horario_texto": "De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado..",
+      "detalle_texto": "Exposición 'Divergencia cognitiva' Inicio / Agenda / Exposición 'Divergencia cognitiva' Exposición 'Divergencia cognitiva' 13 noviembre 2026 - 15 enero 2027 // De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado.. Lugar: Sala Blas de Lezo. La exposición 'Divergencia cognitiva' reúne un buen número de Trabajos",
+      "descripcion_fuente": "La exposición 'Divergencia cognitiva' reúne un buen número de Trabajos del artista zaragozano Santiago Pina . Comisariada por Ramón A. Olivares y Jennifer Gómez (The Guide Artists), estará abierta has",
+      "imagen_oficial": {
+        "error": "sin imagen oficial descargable"
+      }
+    },
+    {
+      "nombre": "Exposición '¿Dónde vas con mantón de Manila?'",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Casa de Iberoamérica",
+          "tipo": "recinto",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "fecha_inicio_evento": "2026-10-08",
+      "fecha_fin_evento": "2027-01-09",
+      "lugar": "Casa de Iberoamérica · Sala Zitman",
+      "direccion": "Casa de Iberoamérica, Calle Concepción Arenal s/n, 11006 Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": false,
+      "pista_capital": true,
+      "horario_texto": "De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado..",
+      "detalle_texto": "Exposición '¿Dónde vas con mantón de Manila?' Inicio / Agenda / Exposición '¿Dónde vas con mantón de Manila?' Exposición '¿Dónde vas con mantón de Manila?' 08 octubre 2026 - 09 enero 2027 // De lunes a viernes, de 9:00 a 21:00. Sábados, de 9:00 a 14:00. Domingos y festivos, cerrado.. Lugar: Sala Zitman La exposición ¿Dónde vas con mantón de Manila?",
+      "descripcion_fuente": "La exposición ¿Dónde vas con mantón de Manila? La Ruta del Galeón que vistió a las españolas es una iniciativa de la asociación Hespérides y la Casa de Iberoamérica para conmemorar el III Día Mundial ",
+      "imagen_oficial": {
+        "archivo": "img/agenda-321-exposicion-donde-vas-con-manton-de-manila.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/img/uploads//agenda/listado/2026/10/mantonmanila-post-instagram-vertical.jpg",
+        "fuente": "www.casadeiberoamerica.es",
+        "pagina": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+        "ancho": 262,
+        "alto": 350,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "\"los Humanos\" Martínez Ares",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Palacio de Congresos de Cádiz",
+          "tipo": "recinto",
+          "url": "https://eternidadeventos.com/eventos/los-humanos-cadiz-noviembre-2026/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "lugar": "Palacio de Congresos y Exposiciones de Cádiz",
+      "direccion": "Palacio de Congresos de Cádiz",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "pista_capital": true,
+      "detalle_texto": "Los Humanos - Cádiz- Eternidad Eventos Skip to navigation Skip to main content Los Humanos y su Antología Cádiz - Palacio de Congresos 28 de noviembre Apertura de puertas: 19.00h Comienzo del espectáculo: 20.00h La comparsa de Antonio Martinez Ares vuelve al Coac 2026 después de un año de descanso, en el 2026 se llamaran Los humanos. COMPRAR ENTRAD",
+      "descripcion_fuente": "Acto en el Palacio de Congresos de Cádiz (suele ser profesional o con inscripción: revisar criterios de filtrado).",
+      "imagen_oficial": {
+        "archivo": "img/eventos-los-humanos-cadiz-noviembre-2026.jpg",
+        "url_origen": "https://eternidadeventos.com/wp-content/uploads/2026/08/Destacado-Los-Humanso-y-su-antologia.jpg",
+        "fuente": "eternidadeventos.com",
+        "pagina": "https://eternidadeventos.com/eventos/los-humanos-cadiz-noviembre-2026/",
+        "ancho": 1080,
+        "alto": 1350,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Verborrea Cádiz 2026: 28 noviembre Javier Cámara Gran Teatro Falla",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "VivaCádiz – eventos de Cádiz (lectura con Chromium)",
+          "tipo": "agregador",
+          "url": "https://vivacadiz.com/evento/verborrea-falla-2026-11-28"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza Fragela, Cádiz · Cádiz",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "pista_capital": true,
+      "detalle_texto": "Verborrea Cádiz 2026: 28 noviembre Javier Cámara Falla Evento Cádiz Verborrea Cádiz 2026: 28 noviembre Javier Cámara Gran Teatro Falla sábado, 28 de noviembre, 2026 Gran Teatro Falla — Plaza Fragela, Cádiz, Cádiz Sobre el evento Verborrea se representa el sábado 28 de noviembre de 2026 a las 20:00 en el Gran Teatro Falla (Turismo Cádiz / Ayuntamien",
+      "descripcion_fuente": "28 Nov | Verborrea Cádiz 2026: 28 noviembre Javier Cámara Gran Teatro Falla | Gran Teatro Falla — Plaza Fragela, Cádiz · Cádiz",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "De Nueva York a Jerez",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Guía de Cádiz – Agenda",
+          "tipo": "agregador",
+          "url": "https://www.guiadecadiz.com/es/agenda/noviembre/2026/nueva-york-jerez"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "﻿ De Nueva York a Jerez - Flamenco | Agenda de Guía de Cádiz FLAMENCO Inicio Agenda Flamenco Navidad Despliegue para ver las categorías Carnaval Chiringuitos Conciertos Con peques Danza Deportes Eventos culturales Eventos solidarios Exposiciones Ferias y Fiestas Feria de muestras Festivales Flamenco Friki Gastronomía Halloween Magia Navidad Proyecc",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "ESTA SEMANA, VEJER TE OFRECE",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Guía de Cádiz – Agenda",
+          "tipo": "agregador",
+          "url": "https://www.guiadecadiz.com/es/agenda/julio/2021/esta-semana-vejer-te-ofrece"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-26",
+      "fecha_fin_evento": "2026-12-03",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "﻿ ESTA SEMANA, VEJER TE OFRECE - Rutas y visitas | Agenda de Guía de Cádiz RUTAS Y VISITAS Inicio Agenda Rutas y visitas Exposiciones Despliegue para ver las categorías Carnaval Chiringuitos Conciertos Con peques Danza Deportes Eventos culturales Eventos solidarios Exposiciones Ferias y Fiestas Feria de muestras Festivales Flamenco Friki Gastronomí",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Don Juan Tenorio (Ruta teatralizada)",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-don-juan-tenorio-ruta-teatralizada-1999022327594"
+        }
+      ],
+      "lugar": "Plaza Virgen de los Reyes",
+      "direccion": "Plaza Virgen de los Reyes, 41004, Sevilla",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Don Juan Tenorio (Ruta teatralizada) Entradas, Varias fechas | Eventbrite Comparte este evento Don Juan Tenorio (Ruta teatralizada) Por MolArte Seguir Plaza Virgen de los Reyes Sevilla, AL Varias fechas Resumen MolArte te trae una nueva forma de conocer la Sevilla del siglo XVI, con esta visita teatralizada. Esta adaptación peculiar de la obra, con",
+      "descripcion_fuente": "MolArte te trae una nueva forma de conocer la Sevilla del siglo XVI, con esta visita teatralizada.",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Zambomba de Jerez",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-zambomba-de-jerez-2003787695939"
+        },
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-zambomba-de-jerez-2003787695939"
+        }
+      ],
+      "lugar": "Torre Sevilla",
+      "direccion": "Torre Sevilla, 41092, Sevilla",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Zambomba de Jerez Entradas, sábado, 28 de noviembre • 11:30 - 21:30 | Eventbrite Comparte este evento Zambomba de Jerez Por Share The Table Sevilla Seguir Torre Sevilla Sevilla, AN sábado, 28 de noviembre • 11:30 - 21:30 Resumen Ven a disfrutar de la zambomba de Jerez con Share The Table. Ponemos a tu disposición nuestro autobús para que disfrutes ",
+      "descripcion_fuente": "Ven a disfrutar de la zambomba de Jerez con Share The Table. Ponemos a tu disposición nuestro autobús para que disfrutes con tranquilidad.",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Coffee with Strangers: Seville",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.com/e/coffee-with-strangers-seville-tickets-1847314781239"
+        }
+      ],
+      "lugar": "Cafe of the Day",
+      "direccion": "Calle Regina, 41003, Sevilla",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Coffee with Strangers: Seville Tickets, Multiple dates | Eventbrite Share this event Coffee with Strangers: Seville By BarCada Follow Cafe of the Day Sevilla, AN Multiple dates Overview Join us for brunch or coffee at different cafes. Make some new local friends over coffee at different hot spots. When was the last time you did something completely",
+      "descripcion_fuente": "Join us for brunch or coffee at different cafes. Make some new local friends over coffee at different hot spots.",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Foodies + New Friends: Seville Dinner Club | Giving Back Edition",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.com/e/foodies-new-friends-seville-dinner-club-giving-back-edition-tickets-1989764314628"
+        },
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.com/e/foodies-new-friends-seville-dinner-club-giving-back-edition-tickets-1989764314628"
+        }
+      ],
+      "lugar": "BACAO",
+      "direccion": "9 Calle de Placentines, 41004, Sevilla",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Foodies + New Friends: Seville Dinner Club | Giving Back Edition Tickets, Multiple dates | Eventbrite Previous slide Next slide Go to slide 1 Go to slide 2 Go to slide 3 Share this event Foodies + New Friends: Seville Dinner Club | Giving Back Edition By ADDVentures Follow BACAO Sevilla, AN Multiple dates Overview Join us for cozy dinners with loca",
+      "descripcion_fuente": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Visita Guiada Archivo de Indias",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-visita-guiada-archivo-de-indias-2002424191661"
+        }
+      ],
+      "lugar": "Archivo de Indias",
+      "direccion": "s/n Avenida de la Constitución, 41004, Sevilla",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Visita Guiada Archivo de Indias Entradas, Varias fechas | Eventbrite Comparte este evento Visita Guiada Archivo de Indias Por GuiArte Sevilla Seguir Archivo de Indias Sevilla, AL Varias fechas Resumen Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad. Descubre con nuestra Visita Guiada al Arc",
+      "descripcion_fuente": "Descubre con nuestra Visita Guiada al Archivo de Indias uno de los monumentos más importantes de la ciudad.",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Tina Turner Tribute Show",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-tina-turner-tribute-show-1991555238329"
+        },
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/entradas-tina-turner-tribute-show-1991555238329"
+        }
+      ],
+      "lugar": "Admiral Arena",
+      "direccion": "Ctra. Nacional 340 Cádiz - Málaga Km 124, 11360, San Roque",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Tina Turner Tribute Show Entradas, sábado, 28 de noviembre • Empieza a las 20:00 | Eventbrite Comparte este evento Tina Turner Tribute Show Organizador principal Por Admiral Arena | Casino Admiral San Roque Seguir Admiral Arena San Roque, Cadiz sábado, 28 de noviembre • Empieza a las 20:00 Resumen Gourmet dinner & the ultimate Tina Turner tribute. ",
+      "descripcion_fuente": "Gourmet dinner & the ultimate Tina Turner tribute. La Reina del Rock vuelve a Admiral Arena.",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Foodies + New Friends: Marbella | 40’s Edition",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.com/e/foodies-new-friends-marbella-40s-edition-tickets-1986281309867"
+        }
+      ],
+      "lugar": "Restaurant of the Week",
+      "direccion": "Avenida Bulevar Príncipe Alfonso de Hohenlohe, 29600, Marbella",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "detalle_texto": "Foodies + New Friends: Marbella | 40’s Edition Tickets, Multiple dates | Eventbrite Share this event Foodies + New Friends: Marbella | 40’s Edition E By Ermantourage NYC Follow Restaurant of the Week Marbella, AN Multiple dates Overview Make more connections in your city over a night out at dinner. That's right, you sign up, and we book the restaur",
+      "descripcion_fuente": "Make more connections in your city over a night out at dinner. That's right, you sign up, and we book the restaurant.",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Group Walk in Marbella | Social & Language Exchange Event",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Eventbrite – Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.eventbrite.es/e/group-walk-in-marbella-social-language-exchange-event-tickets-1983105057611"
+        }
+      ],
+      "lugar": "Ona Princesa Playa",
+      "direccion": "Paseo Marítimo, 29602, Marbella",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "detalle_texto": "Group Walk in Marbella | Social & Language Exchange Event Tickets, Multiple dates | Eventbrite Share this event Group Walk in Marbella | Social & Language Exchange Event By SIEIS - Costa Del Sol & Marbella Follow Ona Princesa Playa Marbella, AN Multiple dates Overview Group Walk in Marbella. International and Multilingual Community. Social & Langua",
+      "descripcion_fuente": "Group Walk in Marbella. International and Multilingual Community. Social & Language Exchange Event",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Regata Proyecto Hombre: bodas de plata de la vela solidaria en la Bahía de Cádiz",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Diario de Cádiz – agenda",
+          "tipo": "prensa",
+          "url": "https://www.diariodecadiz.es/deportes/regata-proyecto-hombre-bodas-plata_0_2008599070.html"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Regata Proyecto Hombre: bodas de plata de la vela solidaria en la Bahía de Cádiz Mensaje a la afición El Cádiz CF se ve afectado por un ciberataque y lanza varias recomendaciones Cartel de la prueba que se celebra en aguas gaditanas. / FAV La Regata Proyecto Hombre alcanza este sábado, día 28 de noviembre, su 25ª edición. El Real Club Náutico de El",
+      "descripcion_fuente": "bodas de plata de la vela solidaria en la Bahía de Cádiz. Más de una treintena de barcos participarán este sábado, 28 de noviembre, en la cita benéfica organizada por el RCN de El Puerto",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Mañanas de abrigo y tardes al sol en la provincia de Cádiz: el tiempo para el fin de semana electoral",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Cádiz Directo",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/mananas-de-abrigo-y-tardes-al-sol-en-la-provincia-de-cadiz-el-tiempo-para-el-fin-de-semana-electoral/"
+        },
+        {
+          "fuente": "Cádiz Directo – feed Cádiz",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/mananas-de-abrigo-y-tardes-al-sol-en-la-provincia-de-cadiz-el-tiempo-para-el-fin-de-semana-electoral/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Mañanas de abrigo y tardes al sol en la provincia de Cádiz: el tiempo para el fin de semana electoral Varias personas disfrutan del sol en una terraza de Cádiz capital durante la fresca mañana de este viernes 27 de noviembre. Foto: José Luis Porquicho Prada, Cádiz Mañanas de abrigo y tardes al sol en la provincia de Cádiz: el tiempo para el fin de ",
+      "descripcion_fuente": "de noviembre, a las puertas de un fin de semana marcado por los contrastes térmicos entre las primeras horas de la mañana y los momentos de mayor insolación. La previsión de la Agencia Estatal de Mete",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Una entrada masiva de agua y olas de cuatro metros, la primera hipótesis del naufragio en Ibiza del buque que salió de Algeciras",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Cádiz Directo",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/una-entrada-masiva-de-agua-y-olas-de-cuatro-metros-la-primera-hipotesis-del-naufragio-del-buque-que-salio-de-algeciras/"
+        },
+        {
+          "fuente": "Cádiz Directo – feed Cádiz",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/una-entrada-masiva-de-agua-y-olas-de-cuatro-metros-la-primera-hipotesis-del-naufragio-del-buque-que-salio-de-algeciras/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Una entrada masiva de agua y olas de cuatro metros, la primera hipótesis del naufragio en Ibiza del buque que salió de Algeciras Buque Med Emre. Cádiz Una entrada masiva de agua y olas de cuatro metros, la primera hipótesis del naufragio en Ibiza del buque que salió de Algeciras El capitán del Med Emre apunta a una pérdida de estabilidad del barco,",
+      "descripcion_fuente": "de gasóleo mantiene en alerta al litoral mediterráneo La desaparición de los restos oleosos detectados durante la mañana del jueves ha supuesto un alivio para los servicios de emergencia. La mancha ll",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "El conflicto por el ruido en la calle Las Cortes de San Fernando llegará a los juzgados en plena campaña navideña",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Cádiz Directo",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/el-conflicto-por-el-ruido-en-la-calle-las-cortes-de-san-fernando-llegara-a-los-juzgados-en-plena-campana-navidena/"
+        },
+        {
+          "fuente": "Cádiz Directo – feed Cádiz",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/el-conflicto-por-el-ruido-en-la-calle-las-cortes-de-san-fernando-llegara-a-los-juzgados-en-plena-campana-navidena/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "El conflicto por el ruido en la calle Las Cortes de San Fernando llegará a los juzgados en plena campaña navideña Calle Las Cortes de San Fernando. Cádiz El conflicto por el ruido en la calle Las Cortes de San Fernando llegará a los juzgados en plena campaña navideña La vista se celebrará el próximo 16 de diciembre y los dos concejales citados como",
+      "descripcion_fuente": "y seguridad que han llevado al colectivo vecinal a recurrir a la Justicia. La cita tendrá lugar a las nueve de la mañana, coincidiendo con las semanas previas a la Navidad. El nuevo señalamiento llega",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Fundación Unicaja – agenda cultural",
+          "tipo": "oficial",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": false,
+      "pista_capital": true,
+      "horario_texto": "Todo el día",
+      "detalle_texto": "Exposición 'Guillermo Pérez Villalta'. El Laboratorio infinito' - Fundación Unicaja Ir al contenido AGENDA Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’ Exposición ‘Guillermo Pérez Villalta’. El Laboratorio infinito’ Exposiciones Fundación Unicaja presenta su nueva exposición ‘Guillermo Pérez Villalta. El Laboratorio infinito’ que",
+      "imagen_oficial": {
+        "archivo": "img/-exposicion-guillermo-perez-villalta-el-laboratorio-infinito.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/",
+        "ancho": 1600,
+        "alto": 1067,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Exposición de Belén tradicional en el Centro Fundación Unicaja Cádiz",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Fundación Unicaja – agenda cultural",
+          "tipo": "oficial",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-de-belen-tradicional-en-el-centro-fundacion-unicaja-cadiz/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": false,
+      "pista_capital": true,
+      "horario_texto": "Todo el día",
+      "detalle_texto": "Exposición de Belén tradicional en el Centro Fundación Unicaja Cádiz - Fundación Unicaja Ir al contenido AGENDA Exposición de Belén tradicional en el Centro Fundación Unicaja Cádiz Exposición de Belén tradicional en el Centro Fundación Unicaja Cádiz Exposiciones Fundación Unicaja celebra la Navidad con la exposición en el Centro Fundación Unicaja d",
+      "imagen_oficial": {
+        "archivo": "img/on-de-belen-tradicional-en-el-centro-fundacion-unicaja-cadiz.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/11/Belen-Cadiz-1.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/exposicion-de-belen-tradicional-en-el-centro-fundacion-unicaja-cadiz/",
+        "ancho": 1600,
+        "alto": 1067,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Cajasol te cuida ciclo de salud y cuidado personal",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Fundación Cajasol",
+          "tipo": "recinto",
+          "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+        },
+        {
+          "fuente": "Fundación Cajasol",
+          "tipo": "recinto",
+          "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-24",
+      "fecha_fin_evento": "2026-11-30",
+      "lugar": "Fundación Cajasol (Casa Pemán)",
+      "direccion": "Fundación Cajasol, Plaza de San Antonio, 14, 11003 Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Cádiz acoge una nueva edición del ciclo Cajasol Te Cuida Skip to Content CONFERENCIAS 24 NOV - 30 NOV CAJASOL TE CUIDA CICLO DE SALUD Y CUIDADO PERSONAL CÁDIZ COMPARTIR WhatsApp Facebook Telegram Twitter Linkedin Pinterest La Fundación Cajasol celebra en su sede de Cádiz una nueva edición de “Cajasol Te Cuida” , un ciclo dedicado a la salud y el bi",
+      "descripcion_fuente": "Conferencias en la sede de Cádiz de la Fundación Cajasol.",
+      "imagen_oficial": {
+        "archivo": "img/evento-cajasol-te-cuida.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/NOV-CAJASOL-TE-CUIDA_1920x1080-1.jpg",
+        "fuente": "fundacioncajasol.com",
+        "pagina": "https://fundacioncajasol.com/evento/cajasol-te-cuida/",
+        "ancho": 1600,
+        "alto": 900,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Jornadas Europeas de Patrimonio en Cádiz",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/jornadas-europeas-de-patrimonio-en-cadiz"
+        }
+      ],
+      "fecha_inicio_evento": "2026-10-01",
+      "fecha_fin_evento": "2026-11-30",
+      "lugar": "En varias localidades de la provincia de Cádiz -",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Jornadas Europeas de Patrimonio en Cádiz Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y formación Espectáculos Exposic",
+      "imagen_oficial": {
+        "archivo": "img/ldeandalucia-evento-jornadas-europeas-de-patrimonio-en-cadiz.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-09/Carteles%202026_1.jpg.webp?itok=Z_rnCfGP",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/jornadas-europeas-de-patrimonio-en-cadiz",
+        "ancho": 960,
+        "alto": 1358,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Cádiz. XV Jornadas de la Fundación Carlos Edmundo de Ory, dedicadas a Lo Inquietante",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/cadiz-xv-jornadas-de-la-fundacion-carlos-edmundo-de-ory-dedicadas-lo-inquietante"
+        }
+      ],
+      "fecha_inicio_evento": "2026-10-20",
+      "fecha_fin_evento": "2026-12-03",
+      "lugar": "Varias ubicaciones - Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Cádiz. XV Jornadas de la Fundación Carlos Edmundo de Ory, dedicadas a Lo Inquietante Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovi",
+      "imagen_oficial": {
+        "archivo": "img/-la-fundacion-carlos-edmundo-de-ory-dedicadas-lo-inquietante.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/captura-de-pantalla-2026-11-16-a-las-18.03.43-1.png.webp?itok=i0knrFqs",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/cadiz-xv-jornadas-de-la-fundacion-carlos-edmundo-de-ory-dedicadas-lo-inquietante",
+        "ancho": 960,
+        "alto": 830,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Programación de actividades en la BPE-Biblioteca Provincial de Cádiz",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/programacion-de-actividades-en-la-bpe-biblioteca-provincial-de-cadiz"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-01",
+      "fecha_fin_evento": "2026-11-30",
+      "lugar": "Biblioteca Pública Provincial del Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Programación de actividades en la BPE-Biblioteca Provincial de Cádiz Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y fo",
+      "imagen_oficial": {
+        "archivo": "img/cion-de-actividades-en-la-bpe-biblioteca-provincial-de-cadiz.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/image/2021/10/fachada_bpca.jpg.webp?itok=CdN0q1zX",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/programacion-de-actividades-en-la-bpe-biblioteca-provincial-de-cadiz",
+        "ancho": 960,
+        "alto": 720,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Programación de actividades en el Museo de Cádiz",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-01",
+      "fecha_fin_evento": "2026-11-30",
+      "lugar": "Museo de Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Programación de actividades en el Museo de Cádiz Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y formación Espectáculos",
+      "imagen_oficial": {
+        "archivo": "img/ucia-evento-programacion-de-actividades-en-el-museo-de-cadiz.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2024-02/museo_cadiz.jpg.webp?itok=-vxDTylc",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz",
+        "ancho": 960,
+        "alto": 421,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Programación de actividades en el Conjunto Arqueológico de Baelo Claudia",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-conjunto-arqueologico-de-baelo-claudia"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-01",
+      "fecha_fin_evento": "2026-11-30",
+      "lugar": "Conjunto Arqueológico de Baelo Claudia",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Programación de actividades en el Conjunto Arqueológico de Baelo Claudia Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos ",
+      "imagen_oficial": {
+        "archivo": "img/-de-actividades-en-el-conjunto-arqueologico-de-baelo-claudia.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/image/2023/03/baelo_claudia.jpg.webp?itok=HYjUIZQr",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-conjunto-arqueologico-de-baelo-claudia",
+        "ancho": 960,
+        "alto": 720,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Día del Flamenco en Andalucía 2026: provincia de Cádiz",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/dia-del-flamenco-en-andalucia-2026-provincia-de-cadiz"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-06",
+      "fecha_fin_evento": "2026-12-05",
+      "lugar": "En varias localidades de la provincia de Cádiz -",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": false,
+      "detalle_texto": "Día del Flamenco en Andalucía 2026: provincia de Cádiz Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y formación Espect",
+      "imagen_oficial": {
+        "archivo": "img/evento-dia-del-flamenco-en-andalucia-2026-provincia-de-cadiz.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-10/16N26-RRSS-1920-1080px.png.webp?itok=Csn_QdLv",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/dia-del-flamenco-en-andalucia-2026-provincia-de-cadiz",
+        "ancho": 960,
+        "alto": 540,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "El C3A presenta proyectos de residencias artísticas en ‘Estudios abiertos’",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
+          "tipo": "oficial",
+          "url": "https://vivirediciones.es/c3a-residencias-artisticas-estudios-abiertos/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "detalle_texto": "C3A muestra proyectos de residencias artísticas en Estudios abiertos – vivirEdiciones Saltar al contenido El C3A presenta proyectos de residencias artísticas en ‘Estudios abiertos’ Cinco artistas participan en la muestra con acción en vivo el 27 de noviembre y visita guiada el 28 Junta de Andalucía 27 de noviembre de 2026, 16:40 El Centro de Creaci",
+      "descripcion_fuente": "ante su estancia en el C3A. El evento incluye una acción en vivo el viernes 27 de noviembre y una visita guiada el sábado 28 de noviembre . Actividades programadas Los visitantes podrán acceder a los ",
+      "imagen_oficial": {
+        "archivo": "img/c3a-residencias-artisticas-estudios-abiertos.jpg",
+        "url_origen": "https://media.vivirediciones.es/2026/11/c3a-residencias-artisticas-estudios-abiertos-1795793693284.jpg",
+        "fuente": "vivirediciones.es",
+        "pagina": "https://vivirediciones.es/c3a-residencias-artisticas-estudios-abiertos/",
+        "ancho": 1200,
+        "alto": 675,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Cádiz. Exposición \"El joven Falla. Raíces gaditanas de un compositor universal\"",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/cadiz-exposicion-el-joven-falla-raices-gaditanas-de-un-compositor-universal"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-23",
+      "fecha_fin_evento": "2026-12-30",
+      "hora_inicio": "08:30",
+      "lugar": "Archivo Histórico Provincial de Cádiz",
+      "permanente": false,
+      "multidia": true,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Cádiz. Exposición \"El joven Falla. Raíces gaditanas de un compositor universal\" Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual ",
+      "imagen_oficial": {
+        "archivo": "img/n-el-joven-falla-raices-gaditanas-de-un-compositor-universal.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/external_images/jovenfallaparchivo.jpg.webp?itok=ue2EqXyI",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/cadiz-exposicion-el-joven-falla-raices-gaditanas-de-un-compositor-universal",
+        "ancho": 960,
+        "alto": 1358,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Taller-workshop de fotografía 'Cianotipia sobre madera: Fotografía que se convierte en objeto' con Rosa Campos",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Fundación Unicaja – agenda cultural",
+          "tipo": "oficial",
+          "url": "https://www.fundacionunicaja.com/event/talleres-aula-abierta-en-cadiz/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "hora_inicio": "10:30",
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "pista_capital": true,
+      "horario_texto": "10:30 h",
+      "detalle_texto": "Talleres 'Aula Abierta' en Cádiz - Fundación Unicaja Ir al contenido AGENDA Talleres ‘Aula Abierta’ en Cádiz Talleres ‘Aula Abierta’ en Cádiz Talleres El Centro Fundación Unicaja Cádiz pone en marcha el ciclo ‘Aula Abierta’ con talleres creativos y gratuitos destinados a todos los públicos. Las inscripciones son gratuitas previa inscripción a travé",
+      "imagen_oficial": {
+        "archivo": "img/event-talleres-aula-abierta-en-cadiz.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/collage-cadiz.png",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/talleres-aula-abierta-en-cadiz/",
+        "ancho": 683,
+        "alto": 212,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "VI Degustación de Patatera y Zambomba Popular - Casa de Extremadura Cádiz",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Ayuntamiento de Cádiz – Programación cultural (agenda oficial)",
+          "tipo": "oficial",
+          "url": "https://institucional.cadiz.es/evento/vi-degustaci%C3%B3n-de-patatera-y-zambomba-popular-casa-de-extremadura-c%C3%A1diz"
+        },
+        {
+          "fuente": "Guía de Cádiz – Agenda",
+          "tipo": "agregador",
+          "url": "https://www.guiadecadiz.com/es/agenda/noviembre/2026/vi-degustacion-patatera-zambomba-popular-casa-extremadura-cadiz"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "hora_inicio": "13:30",
+      "lugar": "C/Regimiento de Infantería 7, Cádiz",
+      "direccion": "C/Regimiento de Infantería 7, Cádiz (Casa de Extramadura)",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "horario_texto": "13:30 h.",
+      "precio_texto": "Entrada Libre hasta completar aforo",
+      "detalle_texto": "Ayuntamiento de Cádiz - Eventos en Cádiz | VI Degustación de Patatera y Zambomba Popular - Casa de Extremadura Cádiz Pasar al contenido principal Cadiz.es - Formulario de búsqueda buscar Tu Ayuntamiento Transparencia Turismo Deporte Onda-Cádiz Prog. Cultural Inicio / VI Degustación de Patatera y Zambomba Popular - Casa de Extremadura Cádiz VI Degus",
+      "descripcion_fuente": "La Casa de Extremadura en Cádiz celebrará el sábado 28 de noviembre su VI DEGUSTACIÓN DE PATATERA Y ZAMBOMBA POPULAR . La degustación es gratuita al igual que la entrada hasta completar aforo. La degu",
+      "imagen_oficial": {
+        "archivo": "img/e-patatera-y-zambomba-popular-casa-de-extremadura-c-c3-a1diz.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-11/CARTEL_ZAMBOMBA.jpg",
+        "fuente": "institucional.cadiz.es",
+        "pagina": "https://institucional.cadiz.es/evento/vi-degustaci%C3%B3n-de-patatera-y-zambomba-popular-casa-de-extremadura-c%C3%A1diz",
+        "ancho": 1136,
+        "alto": 1600,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      },
+      "pista_capital": true
+    },
+    {
+      "nombre": "Teatro - Por favor bailemos",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Ayuntamiento de Cádiz – Programación cultural (agenda oficial)",
+          "tipo": "oficial",
+          "url": "https://institucional.cadiz.es/evento/teatro-por-favor-bailemos"
+        },
+        {
+          "fuente": "Guía de Cádiz – Agenda",
+          "tipo": "agregador",
+          "url": "https://www.guiadecadiz.com/es/agenda/noviembre/2026/teatro-favor-bailemos"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "hora_inicio": "19:00",
+      "lugar": "IES COLUMELA. Calle Barcelona 2, Cádiz",
+      "direccion": "IES COLUMELA. Calle Barcelona 2, Cádiz",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "horario_texto": "19:00 h.",
+      "precio_texto": "10€",
+      "detalle_texto": "Ayuntamiento de Cádiz - Eventos en Cádiz | Teatro - Por favor bailemos Pasar al contenido principal Cadiz.es - Formulario de búsqueda buscar Tu Ayuntamiento Transparencia Turismo Deporte Onda-Cádiz Prog. Cultural Inicio / Teatro - Por favor bailemos Teatro - Por favor bailemos Categoría: teatro Teatro - Por favor bailemos Ángela quiere bailar. Robe",
+      "descripcion_fuente": "Teatro - Por favor bailemos Ángela quiere bailar. Roberta no. Dos mujeres, dos maneras muy distintas de entender la vida y una relación construida entre el amor, la rutina, las diferencias y todo aque",
+      "imagen_oficial": {
+        "archivo": "img/evento-teatro-por-favor-bailemos.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-11/CARTEL_BAILEMOS_IES_COLUMELA.png",
+        "fuente": "institucional.cadiz.es",
+        "pagina": "https://institucional.cadiz.es/evento/teatro-por-favor-bailemos",
+        "ancho": 1131,
+        "alto": 1600,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      },
+      "pista_capital": true
+    },
+    {
+      "nombre": "Por favor, bailemos",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/por-favor-bailemos"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "hora_inicio": "19:00",
+      "lugar": "IES Columela",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Por favor, bailemos en Cádiz | Agenda Cultural de Andalucía Pasar al contenido principal Encuentra tu actividad Provincia - Cualquiera - Almería Cádiz Córdoba Granada Huelva Jaén Málaga Sevilla Audiencia - Cualquiera - Adultos Familiar Jóvenes Primera infancia Temática - Cualquiera - Agenda infantil y juvenil Cine y audiovisual Cursos y formación E",
+      "imagen_oficial": {
+        "archivo": "img/aaiicc-agendaculturaldeandalucia-evento-por-favor-bailemos.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/sites/default/files/styles/header_activity_ext_2xl/public/2026-11/Copia%20de%20Texto%20%283000%20x%201700%20px%29.png.webp?itok=lOAw_-xB",
+        "fuente": "www.juntadeandalucia.es",
+        "pagina": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/por-favor-bailemos",
+        "ancho": 960,
+        "alto": 544,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Verborrea",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Ayuntamiento de Cádiz – Programación cultural (agenda oficial)",
+          "tipo": "oficial",
+          "url": "https://institucional.cadiz.es/evento/verborrea"
+        },
+        {
+          "fuente": "Guía de Cádiz – Agenda",
+          "tipo": "agregador",
+          "url": "https://www.guiadecadiz.com/es/agenda/noviembre/2026/verborrea"
+        },
+        {
+          "fuente": "Venta de entradas del Ayuntamiento (Bacantix · Teatros de Cádiz)",
+          "tipo": "entradas",
+          "url": "https://www.bacantix.com/entradas/default.aspx?id=aytocadiz#1"
+        },
+        {
+          "fuente": "Onda Cádiz – Agenda de eventos",
+          "tipo": "oficial",
+          "url": "https://ondacadiz.es/agenda/2026-11/verborrea"
+        },
+        {
+          "fuente": "Junta de Andalucía – Agenda Cultural de Andalucía (provincia de Cádiz)",
+          "tipo": "oficial",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/verborrea"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "hora_inicio": "20:00",
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Gran Teatro Falla",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "horario_texto": "20:00 h.",
+      "precio_texto": "30, 25, 21 y 12 €; Precios especiales - Carné Joven: 6 € en ",
+      "detalle_texto": "Ayuntamiento de Cádiz - Eventos en Cádiz | Verborrea Pasar al contenido principal Cadiz.es - Formulario de búsqueda buscar Tu Ayuntamiento Transparencia Turismo Deporte Onda-Cádiz Prog. Cultural Inicio / Verborrea Verborrea Categoría: teatro Escrita y dirigida por Pablo Remón Con Javier Cámara, Israel Elejalde, Marta Nieto y Emilio Tomé Una coprodu",
+      "descripcion_fuente": "Escrita y dirigida por Pablo Remón Con Javier Cámara, Israel Elejalde, Marta Nieto y Emilio Tomé Una coproducción de Nave 10 y Buxman Producciones Descastados, fugitivos, proscritos, ratas. Estos son ",
+      "imagen_oficial": {
+        "archivo": "img/evento-verborrea.jpg",
+        "url_origen": "https://institucional.cadiz.es/sites/default/files/eventos/2026-08/verborrea.png",
+        "fuente": "institucional.cadiz.es",
+        "pagina": "https://institucional.cadiz.es/evento/verborrea",
+        "ancho": 1499,
+        "alto": 1000,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      },
+      "pista_capital": true
+    },
+    {
+      "nombre": "Turismo Cádiz",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Turismo de Cádiz – Agenda (Ayuntamiento)",
+          "tipo": "oficial",
+          "url": "https://turismo.cadiz.es/es/evento/verborrea"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-28",
+      "fecha_fin_evento": "2026-11-28",
+      "hora_inicio": "20:00",
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Gran Teatro Falla",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "horario_texto": "20:00 h.",
+      "precio_texto": "30, 25, 21 y 12 €; Precios especiales - Carné Joven: 6 € en ",
+      "detalle_texto": "Turismo - Ayuntamiento de Cádiz - Eventos en Cádiz | Verborrea Pasar al contenido principal Turismo Cádiz Cadiz.es turismo Tu Ayuntamiento Turismo Onda-Cádiz Programación Cultural Formulario de búsqueda Inicio / Verborrea Verborrea Categoría: teatro Dirección: Gran Teatro Falla Escrita y dirigida por Pablo Remón Con Javier Cámara, Israel Elejalde, ",
+      "descripcion_fuente": "Escrita y dirigida por Pablo Remón Con Javier Cámara, Israel Elejalde, Marta Nieto y Emilio Tomé Una coproducción de Nave 10 y Buxman Producciones Descastados, fugitivos, proscritos, ratas. Estos son ",
+      "imagen_oficial": {
+        "archivo": "img/es-evento-verborrea.jpg",
+        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/verborrea_62240.png",
+        "fuente": "turismo.cadiz.es",
+        "pagina": "https://turismo.cadiz.es/es/evento/verborrea",
+        "ancho": 1499,
+        "alto": 1000,
+        "alt_text": "",
+        "tipo_imagen": "oficial"
+      }
+    },
+    {
+      "nombre": "Mescalina #80Senespañol",
+      "fecha": "2026-11-28",
+      "fuentes": [
+        {
+          "fuente": "Tickentradas",
+          "tipo": "entradas",
+          "url": "https://www.laganzua.net/conciertos/mescalina-80senespanol-cadiz-1017460"
+        },
+        {
+          "fuente": "Tickentradas",
+          "tipo": "entradas",
+          "url": "https://www.laganzua.net/conciertos/mescalina-80senespanol-cadiz-1017460"
+        }
+      ],
+      "hora_inicio": "22:00",
+      "lugar": "Momart Theatre",
+      "direccion": "Cádiz",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Mescalina #80Senespañol concierto en Cádiz el 28 de noviembre de 2026 - Entradas Mescalina #80Senespañol La Ganzua Revista de Música Independiente 27-11-2026 laganzua.net > conciertos en Cádiz > Mescalina #80Senespañol en Cádiz Mescalina #80Senespañol en Cádiz el sábado 28 de noviembre de 2026 Mescalina #80Senespañol actuará en Cádiz el sábado 28 d",
+      "descripcion_fuente": "Mescalina #80Senespañol dará un concierto en Momart Theatre de Cádiz el sábado 28 de noviembre de 2026. Entradas disponibles desde 19 euros para este concierto de Pop Rock Español.",
+      "imagen_oficial": null
+    }
+  ],
+  "permanentes_solo_relleno": [
+    "\"COLECCIÓN JOSÉ FÉLIX LLOPIS. HORIZONTES DEL ARTE, SUEÑOS DE ULTRAMAR\"",
+    "(RE) DESCUBRE CÁDIZ (UN TOUR GADITANO PARA GENTE GADITANA)",
+    "CATACUMBAS DEL BEATERIO",
+    "Casa del terror y lo fantástico",
+    "Circuito deportivo \"San Roque, Ciudad de los Desafíos\"",
+    "Colección Municipal de Arte Iberoamericano.",
+    "CÁDIZ ATLÁNTICA",
+    "CÁDIZ TIENE NOMBRE DE MUJER",
+    "CÁDIZ TRIMILENARIA",
+    "CÁDIZ ÍNTIMO",
+    "Cádiz al 3 x 4",
+    "DESCUBRE EL YACIMIENTO ARQUEOLÓGICO GADIR",
+    "EXPOSICIÓN PERMANENTE \"CORNELLIS ZITMAN. ESCULTURAS\"",
+    "EXPOSICIÓN PERMANENTE \"EL VALLE DE LOS CAÍDOS (1980-1987) \" DE COSTUS",
+    "EXPOSICIÓN PERMANENTE DE JUAN LUIS VASSALLO",
+    "EXPOSICIÓN PERMANENTE ‘TÍTERES DEL MUNDO’",
+    "EXPOSICIÓN PERMANENTE: LA EXPLOSIÓN DE CÁDIZ DE 1947",
+    "Exposición de Juan Luis Vassallo",
+    "NUEVA COLECCIÓN MUNICIPAL DE ARTE IBEROAMERICANO",
+    "PASEANDO HACIA EL ATARDECER",
+    "RUTA ACCESIBLE POR EL CENTRO DE CÁDIZ",
+    "RUTA CARGADORES A INDIAS",
+    "RUTA DE CASTILLOS Y BALUARTES DE CÁDIZ",
+    "RUTA DE LA CONSTITUCIÓN GADITANA",
+    "RUTA EL CÁDIZ MEDIEVAL Y LAS PUERTAS DE TIERRA",
+    "RUTA FENICIA GADIR",
+    "RUTA SALUDABLE POR EL BORDE MARÍTIMO DE CÁDIZ",
+    "TOUR POR CÁDIZ CON TICKET DE 24 HORAS",
+    "Tour guiado por cádiz",
+    "Tour por el Nuevo Mirandilla, estadio del Cádiz Club de Fútbol",
+    "UN CÁDIZ DE CUENTO",
+    "Visitas al paseo superior de las puertas de tierra y al torreón"
+  ],
+  "pistas_por_dia": {
+    "2026-11-28": [
+      {
+        "fuente": "Museo de Cádiz",
+        "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz",
+        "fragmento": "Noviembre de 2026 24 de Noviembre de 2026 25 de Noviembre de 2026 26 de Noviembre de 2026 27 de Noviembre de 2026 28 de Noviembre de 2026 29 de Noviembre de 2026 30 de Noviembre de 2026 Compartir en: Museo de Cádiz 36.535378, -6.2965293 Añadir a Google Calendar"
+      },
+      {
+        "fuente": "Entradium (Cádiz)",
+        "url": "https://entradium.com/",
+        "fragmento": "TEATRO TAVORA DE SEVILLA), SEVILLA Varias fechas Desde 13,60 € EL GEPERUT (musical en català) NOVA SESSIÓ DISSABTE 28/11 17:00H. LA LÍRICA DE SANT ANDREU (Casal Catòlic) Pons i Gallarza, 58, Barcelona Varias fechas Desde 9,00 € RATONES DE COLORES Sala Petxina , Valencia Varias fechas Desde 16,50 € SUBIT! Teatro Carolina, Valencia Varias fechas Desd"
+      },
+      {
+        "fuente": "Universidad de Cádiz – Extensión universitaria",
+        "url": "https://extension.uca.es/",
+        "fragmento": "uevo proyecto de Peter Buck (R.E.M.), visitará el ciclo Campus Rock Cádiz El Festival Universitario ‘Acústica’, el 28 de noviembre en el Edificio Constitución 1812 Comienza la jornada “Creer. Crear. Hazlo Tú” en el marco del convenio con RTVE de la mano de una charla del director Gustavo Cotta La ilustradora Laura Pérez visita el ciclo ‘Campus Viñetas’ en el"
+      },
+      {
+        "fuente": "Taquilla.com – salas de Cádiz (Momart…)",
+        "url": "https://www.taquilla.com/cadiz/momart-cadiz-11003",
+        "fragmento": "as para Momart: espectáculos y conciertos Del 27-11-2026 al 12-12-2026 Conciertos Antílopez Desde 22,00€ +INFO Del 28-11-2026 al 15-05-2027 Conciertos Barón Rojo Desde 29,00€ +INFO Del 11-12-2026 al 26-11-2027 Conciertos El Kanka Desde 15,00€ +INFO Del 27-11-2026 al 29-05-2027 Conciertos Mescalina - Banda Tributo Desde 17,50€ +INFO Cádiz El 27-11-2"
+      },
+      {
+        "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
+        "url": "https://institucional.cadiz.es/programacion_cultural",
+        "fragmento": "El Gran Traje · Lasal Teatro - ( Títeres ) Hasta el: 27/11/2026 Horario: 18:00 h. Verborrea - ( Teatro ) Hasta el: 28/11/2026 Horario: 20:00 h. Vi Degustación De Patatera Y Zambomba Popular - Casa De Extremadura Cádiz - ( Gastronomía ) Hasta el: 28/11/2026 Horario: 13:30 h. Teatro - Por Favor Bailemos - ( Teatro ) Hasta el: 28/11/2026 Horario: 19:0"
+      },
+      {
+        "fuente": "Peña Flamenca La Perla de Cádiz – Viernes Flamencos y ciclos",
+        "url": "https://perladecadiz.com/noticias/index.php",
+        "fragmento": "llena de alma y ya pod... PUEDE RESERVAR Evento Evento:28 noviembre 2026 Puede Reservar - You can reserve Sábado, 28 de Noviembre, NOCHE BUENA CANTAORA DE JOSÉ BERENJENO Sábado 28 de Noviembre del 2026a partir de las 22:00 horasNOCHE BUENA CANTAORA DE JOSÉ EL BERENJENOel Cante de JOSÉ EL BERENJENO , MARGA DE JEREZ Y ÁFRICA GRANADOSa la guitarra , MANUEL HER"
+      }
+    ]
+  },
+  "consultas_web": [
+    {
+      "fuente": "Bibliotecas municipales y Biblioteca Pública Provincial de Cádiz",
+      "busqueda": "Bibliotecas municipales de Cádiz actividades noviembre 2026 cuentacuentos talleres club de lectura; Biblioteca Provincial de Cádiz programación de actividades noviembre 2026 (PDF en cdn.juntadeandalucia.es)",
+      "urls": [
+        "https://www.bibliotecasdeandalucia.es/web/biblioteca-del-estado-publica-provincial-de-cadiz/servicios/actividades",
+        "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/espacios/biblioteca-publica-del-estado-biblioteca-publica-provincial-de-cadiz"
+      ]
+    },
+    {
+      "fuente": "Museo de Cádiz",
+      "busqueda": "Museo de Cádiz exposiciones temporales y actividades noviembre 2026; Casa Pinillos Cádiz exposición noviembre 2026; Museo y Teatro Romano de Cádiz actividades",
+      "urls": [
+        "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/programacion-de-actividades-en-el-museo-de-cadiz"
+      ]
+    },
+    {
+      "fuente": "Cádiz CF – partidos en casa",
+      "busqueda": "Cádiz CF partido hoy 28 de noviembre de 2026 Nuevo Mirandilla JP Financial Estadio hora rival jornada",
+      "urls": [
+        "https://www.cadizcf.com/partidos"
+      ]
+    },
+    {
+      "fuente": "Hoy Cádiz",
+      "busqueda": "Hoy Cádiz agenda eventos planes Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "En buena edad – agenda del Ayuntamiento",
+      "busqueda": "",
+      "urls": []
+    },
+    {
+      "fuente": "Universidad de Cádiz – eventos",
+      "busqueda": "",
+      "urls": [
+        "https://www.uca.es/evento/"
+      ]
+    },
+    {
+      "fuente": "Planomato – planes en Cádiz",
+      "busqueda": "Planomato Cádiz planes eventos 28 de noviembre de 2026",
+      "urls": [
+        "https://www.planomato.com/es/cadiz"
+      ]
+    },
+    {
+      "fuente": "El Corte Inglés Entradas – Cádiz",
+      "busqueda": "El Corte Inglés entradas Cádiz exposiciones espectáculos noviembre 2026",
+      "urls": [
+        "https://www.elcorteingles.es/entradas/cultura/cadiz/"
+      ]
+    },
+    {
+      "fuente": "Ticketmaster / Giglon – Cádiz",
+      "busqueda": "Ticketmaster conciertos Cádiz noviembre 2026; Giglon conciertos Cádiz noviembre 2026",
+      "urls": [
+        "https://www.ticketmaster.es/"
+      ]
+    },
+    {
+      "fuente": "Teatro Romano de Cádiz, Torre Tavira y Catedral",
+      "busqueda": "Teatro Romano de Cádiz actividades noviembre 2026; Torre Tavira Cádiz actividades noviembre 2026; Catedral de Cádiz conciertos y actos noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Salas y locales de conciertos de Cádiz",
+      "busqueda": "conciertos Cádiz 28 de noviembre de 2026 sala; teatro y monólogos Cádiz 28 de noviembre de 2026; eventos infantiles Cádiz 28 de noviembre de 2026; mercadillos y ferias Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Andalucía.org – agenda de Cádiz (Junta de Andalucía)",
+      "busqueda": "",
+      "urls": [
+        "https://www.andalucia.org/eventos/?bounds=false&view=grid&sort=date&filter_place_level_2%5B0%5D=18161"
+      ]
+    },
+    {
+      "fuente": "Descubrimiento diario · Música en directo",
+      "busqueda": "conciertos música en directo Cádiz capital 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Flamenco",
+      "busqueda": "flamenco Cádiz peña tablao actuación 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Teatro y cartelera",
+      "busqueda": "teatro obra Cádiz 28 de noviembre de 2026 cartelera",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Humor y monólogos",
+      "busqueda": "monólogos humor Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Exposiciones",
+      "busqueda": "exposición inauguración Cádiz 28 de noviembre de 2026 sala museo galería",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Cine",
+      "busqueda": "cine proyección filmoteca cineclub Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Infantil y familia",
+      "busqueda": "actividades infantiles familia Cádiz 28 de noviembre de 2026 taller cuentacuentos",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Talleres y cursos",
+      "busqueda": "taller curso gratuito Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Charlas y presentaciones",
+      "busqueda": "conferencia charla presentación de libro Cádiz 28 de noviembre de 2026 ateneo",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Deporte popular",
+      "busqueda": "carrera popular torneo regata partido Cádiz 28 de noviembre de 2026 deporte",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Gastronomía",
+      "busqueda": "ruta de tapas degustación mercado gastronómico Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Fiestas y tradiciones",
+      "busqueda": "fiesta feria verbena tradición Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Mercadillos y artesanía",
+      "busqueda": "mercadillo feria artesanía rastro Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Visitas guiadas y rutas",
+      "busqueda": "visita guiada ruta Torre Tavira Teatro Romano Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Religión y cofradías",
+      "busqueda": "cultos besapié cofradías hermandades Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Ocio nocturno",
+      "busqueda": "fiesta DJ discoteca noche Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Planes gratis",
+      "busqueda": "plan gratis evento gratuito Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Solidarios y voluntariado",
+      "busqueda": "evento solidario voluntariado Cádiz 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Agenda de prensa local",
+      "busqueda": "agenda Cádiz 28 de noviembre de 2026 Diario de Cádiz La Voz de Cádiz Cádiz Directo",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Academias, ateneos y colegios",
+      "busqueda": "Real Academia Ateneo Colegio profesional Cádiz actividades noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Oratorio San Felipe Neri y Museo de las Cortes",
+      "busqueda": "Oratorio de San Felipe Neri Museo de las Cortes Cádiz actividades noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Fundaciones (Unicaja, Cajasol)",
+      "busqueda": "Fundación Unicaja Cádiz Fundación Cajasol Cádiz exposiciones conciertos noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Diputación (Palacio Provincial, Sala Rivadavia)",
+      "busqueda": "Diputación de Cádiz Palacio Provincial Sala Rivadavia exposición noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Salas de conciertos",
+      "busqueda": "Momart Theatre salas de conciertos Cádiz capital programación noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Universidad (agenda cultural PDF)",
+      "busqueda": "UCA Campus Cádiz extensión universitaria agenda cultural noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Festivales",
+      "busqueda": "festival Cádiz noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Deportes de equipo",
+      "busqueda": "Cádiz CF baloncesto balonmano rugby fútbol sala partido Cádiz capital noviembre 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Descubrimiento diario · Turismo y cruceros",
+      "busqueda": "Cádiz actividades turismo 28 de noviembre de 2026 Ayuntamiento Patronato",
+      "urls": []
+    },
+    {
+      "fuente": "Taquilla.com – salas de Cádiz (Momart…)",
+      "busqueda": "Taquilla Cádiz Momart programación noviembre 2026 (taquilla.com/cadiz/momart-cadiz-11003)",
+      "urls": [
+        "https://www.taquilla.com/cadiz/momart-cadiz-11003"
+      ]
+    },
+    {
+      "fuente": "Casa de la Juventud de Cádiz (Ayuntamiento) – actividades",
+      "busqueda": "Casa de la Juventud Cádiz actividades 28 de noviembre de 2026 noviembre 2026 Cánovas del Castillo 41",
+      "urls": [
+        "https://juventud.cadiz.es/"
+      ]
+    },
+    {
+      "fuente": "Palacio de Congresos de Cádiz – eventos (web oficial)",
+      "busqueda": "",
+      "urls": [
+        "https://palaciocongresos-cadiz.com/es"
+      ]
+    },
+    {
+      "fuente": "Fundación Cádiz CF – actividades",
+      "busqueda": "",
+      "urls": [
+        "https://cadizcf.com/fundacion/"
+      ]
+    },
+    {
+      "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
+      "busqueda": "",
+      "urls": [
+        "https://institucional.cadiz.es/programacion_cultural"
+      ]
+    },
+    {
+      "fuente": "Colegio de Arquitectos de Cádiz – ciclos y conferencias",
+      "busqueda": "",
+      "urls": [
+        "https://www.google.com/search?q=Colegio+Arquitectos+C%C3%A1diz+ciclo+conferencias"
+      ]
+    },
+    {
+      "fuente": "Semana Santa de Cádiz – calendario",
+      "busqueda": "",
+      "urls": [
+        "https://semanasantacadiz.com/calendario/lista/"
+      ]
+    },
+    {
+      "fuente": "Fever – planes en Cádiz",
+      "busqueda": "",
+      "urls": [
+        "https://feverup.com/es/cadiz"
+      ]
+    },
+    {
+      "fuente": "Oazis – planes en Cádiz",
+      "busqueda": "",
+      "urls": [
+        "https://oazis.app/es/planes/cadiz"
+      ]
+    },
+    {
+      "fuente": "Turismo de la provincia de Cádiz – todos los eventos",
+      "busqueda": "",
+      "urls": [
+        "https://www.cadizturismo.com/es/todos-los-eventos"
+      ]
+    },
+    {
+      "fuente": "VivaCádiz – eventos de la provincia (finde y próximos)",
+      "busqueda": "",
+      "urls": [
+        "https://vivacadiz.com/eventos"
+      ]
+    },
+    {
+      "fuente": "Archivo Histórico Provincial de Cádiz – ciclos y charlas",
+      "busqueda": "Archivo Histórico Provincial de Cádiz actividades noviembre 2026 charlas conferencias ciclo (Junta de Andalucía, Agenda Cultural de Andalucía)",
+      "urls": []
+    },
+    {
+      "fuente": "Biblioteca Pública Provincial de Cádiz – sesiones y talleres semanales",
+      "busqueda": "Biblioteca Provincial de Cádiz 28 de noviembre de 2026 sesión de escritura club de lectura taller presentación",
+      "urls": []
+    },
+    {
+      "fuente": "Hospital Universitario Puerta del Mar – jornadas abiertas",
+      "busqueda": "Hospital Puerta del Mar Cádiz jornada abierta 28 de noviembre de 2026 salón de actos asociación pacientes",
+      "urls": []
+    },
+    {
+      "fuente": "CEPer Viento de Levante (Cádiz) – actividades abiertas",
+      "busqueda": "CEPer Viento de Levante Cádiz noviembre 2026 actividades ponencia taller",
+      "urls": []
+    },
+    {
+      "fuente": "UCA Emprende – actividades (Semana Global del Emprendimiento y otras)",
+      "busqueda": "UCA Emprende actividades 28 de noviembre de 2026 Cádiz",
+      "urls": [
+        "https://emprende.uca.es/actividades/"
+      ]
+    },
+    {
+      "fuente": "Empleo Cádiz – Mesa Municipal por el Empleo (Depósitos de Tabaco)",
+      "busqueda": "empleo.cadiz.es Espacio Empleo Cádiz noviembre 2026 jornadas Antiguos Depósitos de Tabaco",
+      "urls": [
+        "https://empleo.cadiz.es/"
+      ]
+    },
+    {
+      "fuente": "Centros culturales municipales – actividades semanales (El Bidón, Ancha 16, Fernando Quiñones)",
+      "busqueda": "Centro Cultural El Bidón Cádiz talleres semanales noviembre 2026; Ancha 16 Cádiz conferencia 28 de noviembre de 2026",
+      "urls": []
+    },
+    {
+      "fuente": "Asociaciones de vecinos de Cádiz – actividades abiertas",
+      "busqueda": "asociación de vecinos Cádiz actividad 28 de noviembre de 2026 OR \"todos los sábados\" taller grupo abierto Cádiz",
+      "urls": []
+    },
+    {
+      "fuente": "Ciclos de cine en salas (cine club y clásicos)",
+      "busqueda": "ciclo cine clásicos Cádiz 28 de noviembre de 2026 V.O.S.E. cinefórum",
+      "urls": []
+    },
+    {
+      "fuente": "Radio y medios: programas en directo con público en Cádiz",
+      "busqueda": "programa en directo con público Cádiz 28 de noviembre de 2026 SER Radio Cádiz Onda Cero Canal Sur",
+      "urls": []
+    },
+    {
+      "fuente": "Fundación Unicaja Cádiz – citas literarias y actos",
+      "busqueda": "Centro Cultural Fundación Unicaja Cádiz 28 de noviembre de 2026 presentación charla",
+      "urls": []
+    }
+  ]
+}

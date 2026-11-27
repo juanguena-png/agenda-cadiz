@@ -234,7 +234,7 @@
       "todo_el_dia": false,
       "lugar": "Nueva Acrópolis Cádiz",
       "direccion": "Calle San Pedro, 1, 11004 Cádiz",
-      "precio": "Consultar",
+      "precio": "Gratis",
       "publico": "Todos los públicos",
       "descripcion": "Las doctoras Mercedes Feu y Rosario del Castillo hablan de epigenética y de cómo transformarnos más allá de los genes, en la escuela de filosofía Nueva Acrópolis.",
       "info": "Inscripción en Eventbrite",
@@ -542,5 +542,135 @@
       "etiqueta": "Hasta el 21 feb"
     }
   ],
-  "noche_manana": []
+  "noche_manana": [
+    {
+      "id": "verborrea-1128",
+      "nombre": "Verborrea · Javier Cámara",
+      "categoria": "teatro",
+      "fecha": "2026-11-28",
+      "hora_inicio": "20:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Gran Teatro Falla",
+      "direccion": "Plaza de Fragela s/n, 11003 Cádiz",
+      "precio": "12–30 €",
+      "publico": "Mayores de 16 años",
+      "descripcion": "Tragicomedia escrita y dirigida por Pablo Remón, con Javier Cámara, Israel Elejalde, Marta Nieto y Emilio Tomé, sobre antiguos miembros de una banda punk de los 80. Recomendada para mayores de 16 años.",
+      "info": "Entradas en Bacantix y taquilla",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/verborrea"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Gran Teatro Falla (programación cultural del Ayuntamiento de Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/verborrea"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Gran Teatro Falla",
+          "instagram": "teatrofalla"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Javier Cámara",
+          "instagram": null,
+          "buscado": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "bailemos-1128",
+      "nombre": "Teatro · Por favor bailemos",
+      "categoria": "teatro",
+      "fecha": "2026-11-28",
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "IES Columela",
+      "direccion": "C/ Barcelona, 2, Cádiz",
+      "precio": "10 €",
+      "publico": "Todos los públicos",
+      "descripcion": "Comedia dramática sobre Ángela y Roberta, dos mujeres con formas muy distintas de entender la vida y su relación.",
+      "info": "Consultar entradas",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/teatro-por-favor-bailemos"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "IES Columela, Calle Barcelona 2, Cádiz",
+        "url": "https://institucional.cadiz.es/evento/teatro-por-favor-bailemos"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "IES Columela",
+          "instagram": null,
+          "buscado": "2026-11-27"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        }
+      ]
+    },
+    {
+      "id": "patatera-1128",
+      "nombre": "VI Degustación de Patatera y Zambomba Popular",
+      "categoria": "gastronomía",
+      "fecha": "2026-11-28",
+      "hora_inicio": "13:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Casa de Extremadura",
+      "direccion": "C/ Regimiento de Infantería, 7, Cádiz",
+      "precio": "Gratis",
+      "publico": "Todos los públicos",
+      "descripcion": "Degustación de patatera con zambomba popular y tres grupos en directo; la primera actuación es a las 14:00. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/vi-degustaci%C3%B3n-de-patatera-y-zambomba-popular-casa-de-extremadura-c%C3%A1diz"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Extremadura, C/ Regimiento de Infantería 7, Cádiz",
+        "url": "https://institucional.cadiz.es/evento/vi-degustaci%C3%B3n-de-patatera-y-zambomba-popular-casa-de-extremadura-c%C3%A1diz"
+      },
+      "etiquetas_ig": [],
+      "importancia": 2,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Extremadura en Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-27"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Extremadura en Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-27"
+        }
+      ]
+    }
+  ]
 }
