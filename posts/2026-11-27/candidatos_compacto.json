@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-26T16:53:45+01:00",
+  "generado": "2026-11-27T06:54:16+01:00",
   "instruccion": "Lee ESTE archivo (no candidatos.json, que pesa ~1 MB). Candidatos agrupados (mismo evento en varias fuentes = 1 entrada). Abre la ficha (`fuentes[].url`) solo de los que vayas a publicar. Si necesitas el texto completo de uno, búscalo en candidatos.json por su url.",
   "temporales": [
     {
@@ -151,65 +151,6 @@
       "imagen_oficial": null
     },
     {
-      "nombre": "NUEVO Taller de Bomba de Baño en LUSH Sevilla - ¡Varias fechas!",
-      "fecha": "2026-11-27",
-      "fuentes": [
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/entradas-nuevo-taller-de-bomba-de-bano-en-lush-sevilla-varias-fechas-2002999273747"
-        }
-      ],
-      "lugar": "Lush Cosmetics Sevilla",
-      "direccion": "6 Calle Tetuán, 41001, Sevilla",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": false,
-      "detalle_texto": "NUEVO Taller de Bomba de Baño en LUSH Sevilla - ¡Varias fechas! Entradas, Varias fechas | Eventbrite Previous slide Next slide Go to slide 1 Go to slide 2 Go to slide 3 Go to slide 4 Comparte este evento NUEVO Taller de Bomba de Baño en LUSH Sevilla - ¡Varias fechas! Por Lush Sevilla Seguir Lush Cosmetics Sevilla Sevilla, AN Varias fechas Resumen ¡",
-      "descripcion_fuente": "¡NUEVO! Crea tu bomba de baño en un taller único. Además llévate una tarjeta regalo de 5 € y un pack de muestras. ¡Reserva ya!",
-      "imagen_oficial": null
-    },
-    {
-      "nombre": "Iain Anderson - Traumedy - Gibraltar",
-      "fecha": "2026-11-27",
-      "fuentes": [
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/iain-anderson-traumedy-gibraltar-tickets-1999665963727"
-        }
-      ],
-      "lugar": "O'Reilly's Marina Bar",
-      "direccion": "Ocean village, GX11 1AA, Gibraltar",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "detalle_texto": "Iain Anderson - Traumedy - Gibraltar Tickets, Friday, November 27 • 8:30 PM - 10:30 PM | Eventbrite Share this event Iain Anderson - Traumedy - Gibraltar By Amans World Comedy Follow O'Reilly's Marina Bar Gibraltar Friday, November 27 • 8:30 PM - 10:30 PM Overview A tragically funny true story about life through the chaos of addiction and the gift ",
-      "descripcion_fuente": "A tragically funny true story about life through the chaos of addiction and the gift of sobriety!",
-      "imagen_oficial": null
-    },
-    {
-      "nombre": "Conferencia: 'Epigenética y transformación. Más allá de los genes'",
-      "fecha": "2026-11-27",
-      "fuentes": [
-        {
-          "fuente": "Eventbrite – Cádiz",
-          "tipo": "agregador",
-          "url": "https://www.eventbrite.es/e/conferencia-epigenetica-y-transformacion-mas-alla-de-los-genes-tickets-2005265266392"
-        }
-      ],
-      "lugar": "Nueva Acrópolis Cádiz",
-      "direccion": "calle san Pedro nº1, 11004, Cádiz",
-      "permanente": false,
-      "multidia": false,
-      "provincial": true,
-      "pista_capital": true,
-      "detalle_texto": "Conferencia: 'Epigenética y transformación. Más allá de los genes' Tickets, Friday, November 27 • 8 PM - 9 PM | Eventbrite Share this event Conferencia: 'Epigenética y transformación. Más allá de los genes' By Nueva Acrópolis Cádiz Follow Nueva Acrópolis Cádiz Cádiz Friday, November 27 • 8 PM - 9 PM Overview Conferencia sobre epigenética y transfor",
-      "descripcion_fuente": "Conferencia sobre epigenética y transformación por las Dras. Mercedes Feu y Rosario del Castillo, bajo el título \"Más allá de los genes\".",
-      "imagen_oficial": null
-    },
-    {
       "nombre": "Charla - intercambio de idiomas",
       "fecha": "2026-11-27",
       "fuentes": [
@@ -269,7 +210,7 @@
       "multidia": false,
       "provincial": true,
       "pista_capital": true,
-      "detalle_texto": "Inauguración del alumbrado de Navidad 2026 de Cádiz: día y hora del espectáculo de Riki Rivera Narcotráfico Amenazas de muerte a agentes de la Guardia Civil embestidos por narcolanchas Las imágenes del encendido del alumbrado especial de la Navidad 2025 en Cádiz / Lourdes de Vicente La Navidad de Cádiz 2026 arrancará este viernes 27 de noviembre a ",
+      "detalle_texto": "Inauguración del alumbrado de Navidad 2026 de Cádiz: día y hora del espectáculo de Riki Rivera Las imágenes del encendido del alumbrado especial de la Navidad 2025 en Cádiz / Lourdes de Vicente La Navidad de Cádiz 2026 arrancará este viernes 27 de noviembre a partir de las 19.00 horas con el acto oficial de inauguración del encendido del alumbrado ",
       "descripcion_fuente": "brado de Navidad 2026 de Cádiz: día y hora del espectáculo de Riki Rivera. La plaza de San Juan de Dios acoge este 27 de noviembre el acto oficial del encendido que contará con un espectáculo producid",
       "imagen_oficial": null
     },
@@ -289,7 +230,7 @@
       "multidia": false,
       "provincial": true,
       "pista_capital": true,
-      "detalle_texto": "Cádiz con Elcano entrega mañana su premio a la navegante oceánica Pilar Pasanau Narcotráfico Amenazas de muerte a agentes de la Guardia Civil embestidos por narcolanchas Pilar Pasanau a bordo de su velero Peter Punk. La Asociación Cádiz con Elcano entregará mañana viernes, 27 de noviembre, el VIII Premio Juan Sebastián Elcano a la navegante oceánic",
+      "detalle_texto": "Cádiz con Elcano entrega mañana su premio a la navegante oceánica Pilar Pasanau Pilar Pasanau a bordo de su velero Peter Punk. La Asociación Cádiz con Elcano entregará mañana viernes, 27 de noviembre, el VIII Premio Juan Sebastián Elcano a la navegante oceánica y capitana de la Marina Mercante Pilar Pasanau , en reconocimiento a su extraordinaria t",
       "descripcion_fuente": "Cádiz con Elcano entrega mañana su premio a la navegante oceánica Pilar Pasanau. La capitana de la Marina Mercante se convirtió el pasado mes de marzo en la primera española en completar una regata de",
       "imagen_oficial": null
     },
@@ -314,7 +255,7 @@
       "multidia": false,
       "provincial": true,
       "pista_capital": true,
-      "detalle_texto": "Cortefiel abre este viernes en El Palillero su primera tienda en el centro de Cádiz Narcotráfico Amenazas de muerte a agentes de la Guardia Civil embestidos por narcolanchas El local comercial Palillero, 1, antiguo cine municipal y, más recientemente, espacio que ocupaba la firma Sfera. / Julio Gonzalez Después de algunos ajustes en la primera fech",
+      "detalle_texto": "Cortefiel abre este viernes en El Palillero su primera tienda en el centro de Cádiz Una imagen del local comercial del Palillero de Cádiz ya transformado en Cortefiel. / Miguel Gómez Después de algunos ajustes en la primera fecha anunciada , la primera tienda de Cortefiel en el centro histórico de Cádiz, la segunda en la ciudad, tiene previsto abri",
       "descripcion_fuente": "ortefiel abre este viernes en El Palillero su primera tienda en el centro de Cádiz. La apertura prevista para este 27 de noviembre coincide con el encendido de las luces de Navidad y la campaña del Bl",
       "imagen_oficial": null
     },
@@ -334,7 +275,7 @@
       "multidia": false,
       "provincial": true,
       "pista_capital": true,
-      "detalle_texto": "Antonio Reguera y su viral anécdota en un gimnasio 24 horas de Cádiz: \"Empecé a ir a las 4 de la mañana\" Narcotráfico Amenazas de muerte a agentes de la Guardia Civil embestidos por narcolanchas Antonio Reguera / Julio González Antonio Reguera tiene una solución muy particular para evitar las aglomeraciones en el gimnasio: levantarse de madrugada y",
+      "detalle_texto": "Antonio Reguera y su viral anécdota en un gimnasio 24 horas de Cádiz: \"Empecé a ir a las 4 de la mañana\" Antonio Reguera / Julio González Antonio Reguera tiene una solución muy particular para evitar las aglomeraciones en el gimnasio: levantarse de madrugada y entrenar cuando prácticamente todo el mundo está durmiendo . El humorista gaditano ha con",
       "descripcion_fuente": "Antonio Reguera y su viral anécdota en un gimnasio 24 horas de Cádiz: \"Empecé a ir a las 4 de la mañana\". El humorista gaditano cuenta cómo cambió sus horarios para entrenar sin aglomeraciones 20.500 ",
       "imagen_oficial": null
     },
@@ -354,7 +295,7 @@
       "multidia": false,
       "provincial": true,
       "pista_capital": false,
-      "detalle_texto": "Es la puerta de entrada a los Pueblos Blancos de Cádiz y no tiene nada que envidiar a Jerez en Navidad: así será su encendido del alumbrado y las fechas de sus más de 30 zambombas Narcotráfico Amenazas de muerte a agentes de la Guardia Civil embestidos por narcolanchas Arcos de la Frontera le dará la bienvenida a la Navidad este viernes, 27 de novi",
+      "detalle_texto": "Es la puerta de entrada a los Pueblos Blancos de Cádiz y no tiene nada que envidiar a Jerez en Navidad: así será su encendido del alumbrado y las fechas de sus más de 30 zambombas Arcos de la Frontera le dará la bienvenida a la Navidad este viernes, 27 de noviembre / @cadizturismo Jerez de la Frontera no será el único municipio de la provincia que ",
       "descripcion_fuente": "ado y las fechas de sus más de 30 zambombas. Arcos de la Frontera le dará la bienvenida a la Navidad este viernes, 27 de noviembre, con el alumbrado navideño y actuaciones musicales Estos son los pueb",
       "imagen_oficial": null
     },
@@ -748,13 +689,13 @@
       }
     },
     {
-      "nombre": "La muestra ‘Astutas’ retrata en San Fernando los oficios y paisajes de las salinas gaditanas",
+      "nombre": "Prisión sin fianza para el detenido por la muerte de Gloria Vallejo en Sancti Petri",
       "fecha": "2026-11-27",
       "fuentes": [
         {
           "fuente": "CádizNoticias – agenda y avisos de actos",
           "tipo": "prensa",
-          "url": "https://cadiznoticias.es/la-muestra-astutas-retrata-en-san-fernando-los-oficios-y-paisajes-de-las-salinas-gaditanas/"
+          "url": "https://cadiznoticias.es/prision-sin-fianza-para-el-detenido-por-la-muerte-de-gloria-vallejo-en-sancti-petri/"
         }
       ],
       "fecha_inicio_evento": "2026-11-27",
@@ -762,58 +703,9 @@
       "permanente": false,
       "multidia": false,
       "provincial": false,
-      "pista_capital": false,
-      "detalle_texto": "La muestra ‘Astutas’ retrata en San Fernando los oficios y paisajes de las salinas gaditanas · Cadiznoticias - publicidad - Inicio / Cultura / La muestra ‘Astutas’ retrata en San Fernando los oficios y paisajes de las salinas gaditanas Cultura La exposición reúne en El Patio de Real63 unas 36 fotografías y una instalación sonora, dentro de una prog",
-      "descripcion_fuente": "el bienestar, además de abordar sus posibilidades de desarrollo y los retos que afrontan durante el siglo XXI. El viernes 27 se celebrarán actividades dirigidas a familias y al público infantil, entre",
+      "detalle_texto": "Prisión sin fianza para el detenido por la muerte de Gloria Vallejo en Sancti Petri · Cadiznoticias - publicidad - Inicio / Bahía de Cádiz y La Janda / Prisión sin fianza para el detenido por la muerte de Gloria Vallejo en Sancti Petri Bahía de Cádiz y La Janda Primera La víctima fue encontrada el 18 de octubre semienterrada en una duna de la playa",
+      "descripcion_fuente": "nstan denuncias judiciales de la víctima contra el ahora investigado. Tras pasar a disposición judicial durante la mañana del 26 de noviembre, el detenido fue enviado a prisión mientras continúa la in",
       "imagen_oficial": null
-    },
-    {
-      "nombre": "Conil estrena el Festival de Ajedrez La Atalaya con tres torneos y un máximo de 100 participantes",
-      "fecha": "2026-11-27",
-      "fuentes": [
-        {
-          "fuente": "CádizNoticias – agenda y avisos de actos",
-          "tipo": "prensa",
-          "url": "https://cadiznoticias.es/conil-estrena-el-festival-de-ajedrez-la-atalaya-con-tres-torneos-y-un-maximo-de-100-participantes/"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-27",
-      "fecha_fin_evento": "2026-11-27",
-      "permanente": false,
-      "multidia": false,
-      "provincial": false,
-      "pista_capital": false,
-      "detalle_texto": "Conil estrena el Festival de Ajedrez La Atalaya con tres torneos y un máximo de 100 participantes · Cadiznoticias - publicidad - Inicio / Deportes / Conil estrena el Festival de Ajedrez La Atalaya con tres torneos y un máximo de 100 participantes Deportes La competición se celebrará los días 27 y 28 de noviembre en el IES La Atalaya y cuenta ya con",
-      "descripcion_fuente": "a y facilitar que puedan sumar puntos a su trayectoria deportiva. Las inscripciones permanecerán abiertas hasta el viernes 27 de noviembre, salvo que antes se complete el límite de 100 plazas establec",
-      "imagen_oficial": null
-    },
-    {
-      "nombre": "La Lajita acoge un día de ciencia y astronomía con observación solar",
-      "fecha": "2026-11-27",
-      "fuentes": [
-        {
-          "fuente": "Antiguos Depósitos de Tabaco – agenda semanal",
-          "tipo": "oficial",
-          "url": "https://vivirediciones.es/la-lajita-ciencia-astronomia-27-noviembre/"
-        }
-      ],
-      "fecha_inicio_evento": "2026-11-27",
-      "fecha_fin_evento": "2026-11-27",
-      "permanente": false,
-      "multidia": false,
-      "provincial": false,
-      "detalle_texto": "La Lajita celebra jornada de ciencia y astronomía – vivirEdiciones Saltar al contenido La Lajita acoge un día de ciencia y astronomía con observación solar Actividades gratuitas el 27 de noviembre con planetario móvil, taller de astrofotografía y observación del cielo Fuerteventura 26 de noviembre de 2026, 15:49 La plaza de La Lajita será el epicen",
-      "descripcion_fuente": "solar. La plaza de La Lajita será el epicentro de una jornada dedicada a la exploración del universo este viernes, 27 de noviembre , con un programa de actividades astronómicas de acceso completamente",
-      "imagen_oficial": {
-        "archivo": "img/la-lajita-ciencia-astronomia-27-noviembre.jpg",
-        "url_origen": "https://media.vivirediciones.es/2026/11/la-lajita-ciencia-astronomia-27-noviembre-1795704148372.jpg",
-        "fuente": "vivirediciones.es",
-        "pagina": "https://vivirediciones.es/la-lajita-ciencia-astronomia-27-noviembre/",
-        "ancho": 1200,
-        "alto": 675,
-        "alt_text": "",
-        "tipo_imagen": "oficial"
-      }
     },
     {
       "nombre": "Cádiz. Exposición \"El joven Falla. Raíces gaditanas de un compositor universal\"",
@@ -880,11 +772,6 @@
       "fecha": "2026-11-27",
       "fuentes": [
         {
-          "fuente": "Cádiz Directo",
-          "tipo": "prensa",
-          "url": "https://www.cadizdirecto.com/cadiz/zambombas-este-fin-de-semana-en-jerez-horarios-y-lugares-para-disfrutar-de-la-navidad-del-27-al-29-de-noviembre/"
-        },
-        {
           "fuente": "Cádiz Directo – feed Cádiz",
           "tipo": "prensa",
           "url": "https://www.cadizdirecto.com/cadiz/zambombas-este-fin-de-semana-en-jerez-horarios-y-lugares-para-disfrutar-de-la-navidad-del-27-al-29-de-noviembre/"
@@ -895,10 +782,49 @@
       "hora_inicio": "16:00",
       "permanente": false,
       "multidia": false,
-      "provincial": true,
+      "provincial": false,
       "pista_capital": false,
       "detalle_texto": "Zambombas este fin de semana en Jerez, horarios y lugares para disfrutar de la Navidad del 27 al 29 de noviembre Zambomba. Cádiz Zambombas este fin de semana en Jerez, horarios y lugares para disfrutar de la Navidad del 27 al 29 de noviembre Las hermandades, las asociaciones y los establecimientos hosteleros multiplican las celebraciones navideñas,",
       "descripcion_fuente": "las primeras celebraciones del pasado fin de semana, la ciudad afronta tres nuevas jornadas de zambombas entre el viernes 27 y el domingo 29 de noviembre. La plaza del Arenal, la Alameda del Banco y l",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Deja de Ser Tú (Joe Dispenza) ✨ Conferencia ",
+      "fecha": "2026-11-27",
+      "fuentes": [
+        {
+          "fuente": "Meetup – grupos de Cádiz",
+          "tipo": "agregador",
+          "url": "https://www.meetup.com/redconsciencia/events/314526333/"
+        }
+      ],
+      "hora_inicio": "16:30",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "detalle_texto": "Deja de Ser Tú (Joe Dispenza) ✨ Conferencia , Fri, Nov 27, 2026, 5:30 PM | Meetup Skip to content Deja de Ser Tú (Joe Dispenza) ✨ Conferencia A Hosted by Alex Super Organizer redConsciencia Online event Link visible for attendees Deja de Ser Tú (Joe Dispenza) ✨ Conferencia A Hosted by Alex Super Organizer redConsciencia Details Únete a nuestro Grup",
+      "descripcion_fuente": "Únete a nuestro Grupo de Whatsapp [https://chat.whatsapp.com/DpaOmS5kLgQJu0TabAPBpd](https://chat.whatsapp.com/DpaOmS5kLgQJu0TabAPBpd) Lista de Correo para estar informado de todas nuestras actividade",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Cinco estudiantes de Cádiz reciben los Premios a la Mejor Trayectoria Educativa del curso 2025/2026",
+      "fecha": "2026-11-27",
+      "fuentes": [
+        {
+          "fuente": "CádizNoticias – agenda y avisos de actos",
+          "tipo": "prensa",
+          "url": "https://cadiznoticias.es/cinco-estudiantes-de-cadiz-reciben-los-premios-a-la-mejor-trayectoria-educativa-del-curso-2025-2026/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-27",
+      "fecha_fin_evento": "2026-11-27",
+      "hora_inicio": "17:00",
+      "permanente": false,
+      "multidia": false,
+      "provincial": false,
+      "pista_capital": true,
+      "detalle_texto": "Cinco estudiantes de Cádiz reciben los Premios a la Mejor Trayectoria Educativa del curso 2025/2026 · Cadiznoticias - publicidad - Inicio / Cádiz / Cinco estudiantes de Cádiz reciben los Premios a la Mejor Trayectoria Educativa del curso 2025/2026 Cádiz El Ayuntamiento entregará el 27 de noviembre ordenadores portátiles a alumnado de ESO, Bachiller",
+      "descripcion_fuente": "es de Cádiz reciben los Premios a la Mejor Trayectoria Educativa del curso 2025/2026. El Ayuntamiento entregará el 27 de noviembre ordenadores portátiles a alumnado de ESO, Bachillerato, Formación Pro",
       "imagen_oficial": null
     },
     {
@@ -914,11 +840,6 @@
           "fuente": "Guía de Cádiz – Agenda",
           "tipo": "agregador",
           "url": "https://www.guiadecadiz.com/es/agenda/noviembre/2026/el-gran-traje"
-        },
-        {
-          "fuente": "Onda Cádiz – Agenda de eventos",
-          "tipo": "oficial",
-          "url": "https://ondacadiz.es/agenda/2026-11/el-gran-traje-lasal-teatro"
         }
       ],
       "fecha_inicio_evento": "2026-11-27",
@@ -967,7 +888,7 @@
       "descripcion_fuente": "27 de Noviembre. 18 h. “EL GRAN TRAJE”. LASAL TEATRO. (actriz, títeres y objetos) FETEN 2002 Premio a la Mejor Escenográfia Premio al Mejor Espectáculo IMAGINA 02 en el Centro Culturas Villa de Nerja ",
       "imagen_oficial": {
         "archivo": "img/es-evento-el-gran-traje-c2-b7-lasal-teatro.jpg",
-        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/la-madre-scaled_121946.jpg",
+        "url_origen": "https://turismo.cadiz.es/sites/default/files/eventos/la-madre-scaled_946867.jpg",
         "fuente": "turismo.cadiz.es",
         "pagina": "https://turismo.cadiz.es/es/evento/el-gran-traje-%C2%B7-lasal-teatro",
         "ancho": 1600,
@@ -1011,6 +932,58 @@
       "detalle_texto": "AI for DevOps & SRE: From Impressive Demos to Operational Trust, Fri, Nov 27, 2026, 9:00 PM | Meetup Skip to content AI for DevOps & SRE: From Impressive Demos to Operational Trust Hosted by Sacha Bucharest XDevOps Meetup Group Online event Link visible for attendees Event chat Attend to join the conversation and connect with other attendees before",
       "descripcion_fuente": "AI for DevOps & SRE: From Impressive Demos to Operational Trust What would make you trust an AI agent with operational changes? An agent can generate a valid command and still misunderstand the object",
       "imagen_oficial": null
+    },
+    {
+      "nombre": "Frente Amplio cierra la campaña en Cádiz con tres romanceros de Carnaval",
+      "fecha": "2026-11-27",
+      "fuentes": [
+        {
+          "fuente": "Cádiz Directo",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/frente-amplio-cierra-la-campana-en-cadiz-con-tres-romanceros-de-carnaval/"
+        },
+        {
+          "fuente": "Cádiz Directo – feed Cádiz",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/frente-amplio-cierra-la-campana-en-cadiz-con-tres-romanceros-de-carnaval/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-27",
+      "fecha_fin_evento": "2026-11-27",
+      "hora_inicio": "19:30",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Frente Amplio cierra la campaña en Cádiz con tres romanceros de Carnaval El romancero Cogeslo ICE, primer premio del concurso de romanceros del Carnaval de Cádiz de 2026, participará en el cierre de campaña de Frente Amplio. Cádiz Frente Amplio cierra la campaña en Cádiz con tres romanceros de Carnaval Esther Gil de Reboleño y Violeta Márquez parti",
+      "descripcion_fuente": "ente Amplio cerrará la campaña electoral en Cádiz con una tarde de romanceros. La coalición ha convocado para este viernes 27 de noviembre, a las 19:30 horas, un encuentro en King Lab, en la calle Mon",
+      "imagen_oficial": null
+    },
+    {
+      "nombre": "Más de un millón de electores podrán votar el 29N en la provincia de Cádiz, con 50.632 nuevos votantes",
+      "fecha": "2026-11-27",
+      "fuentes": [
+        {
+          "fuente": "Cádiz Directo",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/mas-de-un-millon-de-electores-podran-votar-el-29n-en-la-provincia-de-cadiz-con-50-632-nuevos-votantes/"
+        },
+        {
+          "fuente": "Cádiz Directo – feed Cádiz",
+          "tipo": "prensa",
+          "url": "https://www.cadizdirecto.com/cadiz/mas-de-un-millon-de-electores-podran-votar-el-29n-en-la-provincia-de-cadiz-con-50-632-nuevos-votantes/"
+        }
+      ],
+      "fecha_inicio_evento": "2026-11-27",
+      "fecha_fin_evento": "2026-11-27",
+      "hora_inicio": "20:00",
+      "permanente": false,
+      "multidia": false,
+      "provincial": true,
+      "pista_capital": true,
+      "detalle_texto": "Más de un millón de electores podrán votar el 29N en la provincia de Cádiz, con 50.632 nuevos votantes Dos mujeres ante una mesa con todas las papeletas de las últimas elecciones andaluzas. Foto: Eulogio García. Cádiz Más de un millón de electores podrán votar el 29N en la provincia de Cádiz, con 50.632 nuevos votantes La provincia contará con 573 ",
+      "descripcion_fuente": "por las formaciones para seguir los resultados electorales. La fase crítica del programa de seguridad comenzará el viernes 27 de noviembre a las 20:00 horas. Abarcará los actos de final de campaña, la",
+      "imagen_oficial": null
     }
   ],
   "permanentes_solo_relleno": [
@@ -1052,7 +1025,7 @@
       {
         "fuente": "Onda Cádiz – Agenda",
         "url": "https://ondacadiz.es/",
-        "fragmento": "or segunda vez, de realizar el cartel anunciador Televisión Dom, 29/11/2026 Especial Elecciones Generales 29N Vie, 27/11/2026 Alumbrado de Navidad 2026 Jue, 26/11/2026 El Mirador - Social Jue, 26/11/2026 El Mirador - Info Jue, 26/11/2026 Matinal Noticias El tiempo en Cádiz será estable, soleado y fresco. Llegan tres cruceros con más de 4.000 pasaje"
+        "fragmento": "or segunda vez, de realizar el cartel anunciador Televisión Dom, 29/11/2026 Especial Elecciones Generales 29N Vie, 27/11/2026 Alumbrado de Navidad 2026 Jue, 26/11/2026 Saludablemente Visitamos la Feria de la Salud de Cádiz y hablamos de la alopecia con el especialista en dermatología Diego del Ojo. Conocemos la nueva sede de la asociación Ostogades"
       },
       {
         "fuente": "Museo de Cádiz",
@@ -1062,7 +1035,7 @@
       {
         "fuente": "Universidad de Cádiz – Extensión universitaria",
         "url": "https://extension.uca.es/",
-        "fragmento": "tensión Universitaria de la UCA mas eventos... Noticias 24.11.2026 ‘Acústica’ Festival de música universitario, el 27 de noviembre de 2026 en el Edificio Constitución 1812 9.11.2026 El Aula Universitaria de Flamenco del Servicio de Extensión Universitaria presenta su programa “20 años a Kompás” en Algeciras 3.11.2026 Concierto de piano ‘Pasión de Falla’ a ca"
+        "fragmento": "aria y el Ayuntamiento de Cádiz mas eventos... Noticias 24.11.2026 ‘Acústica’ Festival de música universitario, el 27 de noviembre de 2026 en el Edificio Constitución 1812 9.11.2026 El Aula Universitaria de Flamenco del Servicio de Extensión Universitaria presenta su programa “20 años a Kompás” en Algeciras 3.11.2026 Concierto de piano ‘Pasión de Falla’ a ca"
       },
       {
         "fuente": "Taquilla.com – salas de Cádiz (Momart…)",
@@ -1077,7 +1050,7 @@
       {
         "fuente": "Espacios culturales municipales (Ancha 16, Fernando Quiñones, El Bidón)",
         "url": "https://institucional.cadiz.es/programacion_cultural",
-        "fragmento": "17:00 / 18:00 / 19:00 y 20:00h. (aforo 40 personas por pase) El Gran Traje · Lasal Teatro - ( Títeres ) Hasta el: 27/11/2026 Horario: 18:00 h. Teatro - Por Favor Bailemos - ( Teatro ) Hasta el: 28/11/2026 Horario: 19:00 h. Vi Degustación De Patatera Y Zambomba Popular - Casa De Extremadura Cádiz - ( Gastronomía ) Hasta el: 28/11/2026 Horario: 13:3"
+        "fragmento": "ral Inicio / Programación cultural Programación cultural Agenda de eventos culturales Desde el Desde el Date E.g., 27/11/2026 Hasta el Hasta el Date E.g., 27/11/2026 El Gran Traje · Lasal Teatro - ( Títeres ) Hasta el: 27/11/2026 Horario: 18:00 h. Verborrea - ( Teatro ) Hasta el: 28/11/2026 Horario: 20:00 h. Vi Degustación De Patatera Y Zambomba Po"
       },
       {
         "fuente": "Peña Flamenca La Perla de Cádiz – Viernes Flamencos y ciclos",

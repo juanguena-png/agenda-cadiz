@@ -1,0 +1,186 @@
+{
+  "variante": "B",
+  "paleta": 3,
+  "experimentos": {
+    "frase": "B",
+    "cta": "B",
+    "hashtags": "5"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "ayuntamientocadiz",
+        "fundacioncajasol",
+        "nuevaacropolis.cadiz",
+        "centroandaluzdelasletras",
+        "culturacuenta",
+        "casadeiberoamerica",
+        "fundunicaja"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, viernes 27 de noviembre. 9 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "seedo-1127",
+        "gran-traje-1127"
+      ],
+      "etiquetas": [
+        "palaciocongresoscadiz",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO) (consultar horario, Palacio de Congresos de Cádiz); El gran traje · Lasal Teatro (18:00, Teatro del Títere La Tía Norica)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "alumbrado-1127"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Alumbrado de Navidad y espectáculo «Cuando Cádiz enciende las estrellas» (19:00, Plaza de San Juan de Dios)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "boticaria-1127"
+      ],
+      "etiquetas": [
+        "fundacioncajasol"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación de «Mujeres de Hierro», de Boticaria García (19:00, Fundación Cajasol Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "epigenetica-1127"
+      ],
+      "etiquetas": [
+        "nuevaacropolis.cadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Conferencia «Epigenética y transformación. Más allá de los genes» (20:00, Nueva Acrópolis Cádiz)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "jovenfalla-expo-1127"
+      ],
+      "etiquetas": [
+        "centroandaluzdelasletras",
+        "culturacuenta"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «El joven Falla. Raíces gaditanas de un compositor universal» (08:30, Archivo Histórico Provincial de Cádiz)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1127"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1127"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1127"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "seedo-1127",
+      "alt_text": "Ilustración de «XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO)»: composición con bombilla, estrella en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "jovenfalla-expo-1127",
+      "alt_text": "Exposición El joven Falla en el Archivo Histórico Provincial"
+    },
+    {
+      "archivo": "03.png",
+      "id": "divergencia-1127",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "04.png",
+      "id": "manton-1127",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "05.png",
+      "id": "villalta-1127",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "06.png",
+      "id": "gran-traje-1127",
+      "alt_text": "Cartel de El gran traje de Lasal Teatro"
+    },
+    {
+      "archivo": "07.png",
+      "id": "alumbrado-1127",
+      "alt_text": "Cartel del alumbrado de Navidad de Cádiz con Riki Rivera"
+    },
+    {
+      "archivo": "08.png",
+      "id": "boticaria-1127",
+      "alt_text": "Cartel del ciclo Cajasol Te Cuida"
+    },
+    {
+      "archivo": "09.png",
+      "id": "epigenetica-1127",
+      "alt_text": "Ilustración de «Conferencia «Epigenética y transformación. Más allá de los genes»»: composición con bombilla, libro en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "epigenetica-1127"
+      ],
+      "alt_text": "Esta noche en Cádiz: Conferencia «Epigenética y transformación. Más allá de los genes»"
+    }
+  ]
+}

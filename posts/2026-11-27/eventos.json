@@ -1,0 +1,546 @@
+{
+  "fecha": "2026-11-27",
+  "tipo": "diario",
+  "eventos": [
+    {
+      "id": "seedo-1127",
+      "nombre": "XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO)",
+      "categoria": "otros",
+      "hora_inicio": null,
+      "lugar": "Palacio de Congresos de Cádiz",
+      "direccion": "Palacio de Congresos y Exposiciones de Cádiz, Cádiz",
+      "precio": "Consultar",
+      "descripcion": "Congreso médico y científico sobre obesidad que reúne en Cádiz a profesionales de toda España del 25 al 27 de noviembre. Requiere inscripción.",
+      "info": "Consultar horario · inscripción previa (acceso profesional)",
+      "fuentes": [
+        {
+          "nombre": "Congreso SEEDO 2026",
+          "url": "https://congresoseedo.es/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«celebraremos en Cádiz del 25 al 27 de noviembre de 2026»; «Palacio de Congresos de Cádiz»",
+        "url": "https://congresoseedo.es/"
+      },
+      "etiqueta": "Último día",
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "bombilla",
+          "estrella"
+        ],
+        "fondo": "cal"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Palacio de Congresos de Cádiz",
+          "instagram": "palaciocongresoscadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Sociedad Española de Obesidad (SEEDO)",
+          "instagram": null,
+          "buscado": "2026-11-25"
+        }
+      ],
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "fecha": "2026-11-27",
+      "imagen": {
+        "archivo": "posts/2026-11-25/img/seedo-1125-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "bombilla",
+          "estrella"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «XXI Congreso Nacional de la Sociedad Española de Obesidad (SEEDO)»: composición con bombilla, estrella en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "gran-traje-1127",
+      "nombre": "El gran traje · Lasal Teatro",
+      "categoria": "infantil",
+      "fecha": "2026-11-27",
+      "hora_inicio": "18:00",
+      "lugar": "Teatro del Títere La Tía Norica",
+      "direccion": "Calle San Miguel, 5, Cádiz",
+      "precio": "Consultar",
+      "publico": "Familiar (+4 años)",
+      "descripcion": "Espectáculo de actriz, títeres y objetos para toda la familia sobre un traje tan grande como una casa. Premiado en ferias de teatro de títeres.",
+      "info": "50 min · entradas en Bacantix",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz – Programación cultural",
+          "url": "https://institucional.cadiz.es/evento/el-gran-traje-%C2%B7-lasal-teatro"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Teatro del Títere de la Tía Norica (Calle San Miguel, número 5, Cádiz)",
+        "url": "https://institucional.cadiz.es/evento/el-gran-traje-%C2%B7-lasal-teatro"
+      },
+      "imagen": {
+        "archivo": "img/evento-el-gran-traje-c2-b7-lasal-teatro.jpg",
+        "url_origen": "https://institucional.cadiz.es/evento/el-gran-traje-%C2%B7-lasal-teatro",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Cartel de El gran traje de Lasal Teatro",
+        "ajuste": "contain"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Teatro del Títere La Tía Norica",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Lasal Teatro",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        }
+      ],
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "etiquetas_ig": []
+    },
+    {
+      "id": "alumbrado-1127",
+      "nombre": "Alumbrado de Navidad y espectáculo «Cuando Cádiz enciende las estrellas»",
+      "categoria": "fiesta",
+      "fecha": "2026-11-27",
+      "hora_inicio": "19:00",
+      "lugar": "Plaza de San Juan de Dios",
+      "direccion": "Plaza de San Juan de Dios, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Inauguración oficial del alumbrado navideño con el espectáculo del músico gaditano Riki Rivera, que abre más de cien actividades de Navidad en 50 espacios de la ciudad.",
+      "info": "Al aire libre",
+      "fuentes": [
+        {
+          "nombre": "Ayuntamiento de Cádiz (Instagram, API oficial)",
+          "url": "https://www.instagram.com/p/DgNROW6jHYI/"
+        },
+        {
+          "nombre": "Ayuntamiento de Cádiz (nota de prensa)",
+          "url": "https://transparencia.cadiz.es/el-espectaculo-cuando-cadiz-enciende-las-estrellas-de-riki-rivera-abrira-la-navidad-gaditana-el-proximo-27-de-noviembre/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«📅 Este viernes 27 de noviembre ⏰ A las 19 horas 📍 En la plaza de San Juan de Dios» (@ayuntamientocadiz, #Cádiz)",
+        "url": "https://www.instagram.com/p/DgNROW6jHYI/"
+      },
+      "importancia": 3,
+      "imagen": {
+        "archivo": "img/rivera-abrira-la-navidad-gaditana-el-proximo-27-de-noviembre.jpg",
+        "url_origen": "https://transparencia.cadiz.es/",
+        "fuente": "Ayuntamiento de Cádiz",
+        "alt_text": "Cartel del alumbrado de Navidad de Cádiz con Riki Rivera",
+        "ajuste": "contain"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Plaza de San Juan de Dios",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Riki Rivera",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        }
+      ],
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": []
+    },
+    {
+      "id": "boticaria-1127",
+      "nombre": "Presentación de «Mujeres de Hierro», de Boticaria García",
+      "categoria": "otros",
+      "fecha": "2026-11-27",
+      "hora_inicio": "19:00",
+      "lugar": "Fundación Cajasol Cádiz",
+      "direccion": "Plaza de San Antonio, 14, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "La divulgadora Boticaria García presenta su libro «Mujeres de Hierro» dentro del ciclo Cajasol Te Cuida. Entrada libre hasta completar aforo.",
+      "info": "Entrada libre hasta completar aforo",
+      "fuentes": [
+        {
+          "nombre": "Fundación Cajasol",
+          "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«sede de la Fundación Cajasol en Plaza de San Antonio, 14 (Cádiz)»",
+        "url": "https://fundacioncajasol.com/evento/cajasol-te-cuida/"
+      },
+      "imagen": {
+        "archivo": "img/evento-cajasol-te-cuida.jpg",
+        "url_origen": "https://fundacioncajasol.com/wp-content/uploads/NOV-CAJASOL-TE-CUIDA_1920x1080-1.jpg",
+        "fuente": "Fundación Cajasol",
+        "alt_text": "Cartel del ciclo Cajasol Te Cuida",
+        "ajuste": "contain"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Fundación Cajasol Cádiz",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Cajasol",
+          "instagram": "fundacioncajasol"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Boticaria García",
+          "instagram": null,
+          "buscado": "2026-11-26"
+        }
+      ],
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": []
+    },
+    {
+      "id": "epigenetica-1127",
+      "nombre": "Conferencia «Epigenética y transformación. Más allá de los genes»",
+      "categoria": "otros",
+      "fecha": "2026-11-27",
+      "hora_inicio": "20:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Nueva Acrópolis Cádiz",
+      "direccion": "Calle San Pedro, 1, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Las doctoras Mercedes Feu y Rosario del Castillo hablan de epigenética y de cómo transformarnos más allá de los genes, en la escuela de filosofía Nueva Acrópolis.",
+      "info": "Inscripción en Eventbrite",
+      "fuentes": [
+        {
+          "nombre": "Nueva Acrópolis Cádiz (Eventbrite)",
+          "url": "https://www.eventbrite.es/e/conferencia-epigenetica-y-transformacion-mas-alla-de-los-genes-tickets-2005265266392"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Nueva Acrópolis Cádiz · calle San Pedro nº1, 11004, Cádiz",
+        "url": "https://www.eventbrite.es/e/conferencia-epigenetica-y-transformacion-mas-alla-de-los-genes-tickets-2005265266392"
+      },
+      "etiquetas_ig": [],
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "bombilla",
+          "libro"
+        ],
+        "fondo": "cal"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": "nuevaacropolis.cadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Nueva Acrópolis Cádiz",
+          "instagram": "nuevaacropolis.cadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Mercedes Feu",
+          "instagram": null,
+          "buscado": "2026-11-27"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Rosario del Castillo",
+          "instagram": null,
+          "buscado": "2026-11-27"
+        }
+      ],
+      "imagen": {
+        "archivo": "posts/2026-11-27/img/epigenetica-1127-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "bombilla",
+          "libro"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Conferencia «Epigenética y transformación. Más allá de los genes»»: composición con bombilla, libro en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "jovenfalla-expo-1127",
+      "nombre": "Exposición «El joven Falla. Raíces gaditanas de un compositor universal»",
+      "categoria": "exposición",
+      "hora_inicio": "08:30",
+      "hora_fin": "14:30",
+      "lugar": "Archivo Histórico Provincial de Cádiz",
+      "direccion": "Calle Cristóbal Colón, 12, Cádiz",
+      "precio": "Gratis",
+      "descripcion": "Documentos originales de la infancia y juventud de Falla en Cádiz, organizados por la Fundación Joly y el Archivo con el Centro Andaluz de las Letras. Entrada libre hasta completar aforo.",
+      "info": "De lunes a viernes de 8:30 a 14:30",
+      "fuentes": [
+        {
+          "nombre": "Agenda Cultural de Andalucía (Junta)",
+          "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/cadiz-exposicion-el-joven-falla-raices-gaditanas-de-un-compositor-universal"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "«Calle Cristóbal Colón, 12, Cádiz» · Archivo Histórico Provincial de Cádiz",
+        "url": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/evento/cadiz-exposicion-el-joven-falla-raices-gaditanas-de-un-compositor-universal"
+      },
+      "horario_dia": "8:30–14:30",
+      "continuo": true,
+      "bloque": 1,
+      "etiqueta": "Hasta el 30 dic",
+      "imagen": {
+        "archivo": "img/n-el-joven-falla-raices-gaditanas-de-un-compositor-universal.jpg",
+        "url_origen": "https://www.juntadeandalucia.es/aaiicc/agendaculturaldeandalucia/",
+        "fuente": "Junta de Andalucía",
+        "alt_text": "Exposición El joven Falla en el Archivo Histórico Provincial",
+        "ajuste": "contain"
+      },
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Archivo Histórico Provincial de Cádiz",
+          "instagram": null,
+          "buscado": "2026-11-25"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Joly",
+          "instagram": null,
+          "buscado": "2026-11-25"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Centro Andaluz de las Letras",
+          "instagram": "centroandaluzdelasletras"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Junta de Andalucía",
+          "instagram": null,
+          "buscado": "2026-11-25"
+        }
+      ],
+      "todo_el_dia": false,
+      "publico": "Todos los públicos",
+      "etiquetas_ig": [],
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "divergencia-1127",
+      "nombre": "Exposición «Divergencia cognitiva», de Santiago Pina",
+      "categoria": "exposición",
+      "fecha": "2026-11-27",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Pintura de Santiago Pina que trata el cuerpo como algo inestable y reflexiona sobre la percepción actual y la imposibilidad de una identidad fija.",
+      "info": "",
+      "etiqueta": "Hasta el 15 ene",
+      "horario_dia": "9:00–21:00",
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/327/exposicion-divergencia-cognitiva"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "artista",
+          "nombre": "Santiago Pina",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true,
+      "sin_imagen_oficial": true,
+      "ilustracion": {
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fondo": "noche"
+      },
+      "imagen": {
+        "archivo": "posts/2026-11-19/img/divergencia-1119-ilustracion.svg",
+        "generada": true,
+        "motivos": [
+          "marco",
+          "escultura"
+        ],
+        "fuente": "Ilustración propia de Planes en Cádiz",
+        "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+      }
+    },
+    {
+      "id": "manton-1127",
+      "nombre": "Exposición «¿Dónde vas con mantón de Manila?»",
+      "categoria": "exposición",
+      "fecha": "2026-11-27",
+      "hora_inicio": "09:00",
+      "hora_fin": "21:00",
+      "todo_el_dia": false,
+      "lugar": "Casa de Iberoamérica",
+      "direccion": "C/ Concepción Arenal, s/n, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Veintisiete mantones de la colección de Encarnita Perraut, una maqueta de galeón y obras del Museo Cruz Herrera cuentan cómo el galeón llevó el mantón a las mujeres españolas.",
+      "info": "",
+      "etiqueta": "Hasta el 9 ene",
+      "horario_dia": "9:00–21:00",
+      "imagen": {
+        "archivo": "img/manton-1121.jpg",
+        "url_origen": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila",
+        "fuente": "Casa de Iberoamérica",
+        "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica",
+        "ajuste": "contain"
+      },
+      "fuentes": [
+        {
+          "nombre": "Casa de Iberoamérica",
+          "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Casa de Iberoamérica, C/ Concepción Arenal s/n, Cádiz (ficha del propio recinto)",
+        "url": "https://www.casadeiberoamerica.es/agenda/321/exposicion-donde-vas-con-manton-de-manila"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Casa de Iberoamérica",
+          "instagram": "casadeiberoamerica"
+        },
+        {
+          "rol": "institucion",
+          "nombre": "Ayuntamiento de Cádiz",
+          "instagram": "ayuntamientocadiz"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Asociación Hespérides",
+          "instagram": null,
+          "buscado": "2026-11-18"
+        }
+      ],
+      "continuo": true
+    },
+    {
+      "id": "villalta-1127",
+      "nombre": "Exposición «Guillermo Pérez Villalta. El laboratorio infinito»",
+      "categoria": "exposición",
+      "fecha": "2026-11-27",
+      "hora_inicio": "10:00",
+      "hora_fin": "19:00",
+      "todo_el_dia": false,
+      "lugar": "Centro Fundación Unicaja Cádiz",
+      "direccion": "C/ San Francisco, 26, 11004 Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "Gran muestra del pintor Pérez Villalta con obra de distintas etapas.",
+      "info": "",
+      "fuentes": [
+        {
+          "nombre": "Fundación Unicaja",
+          "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Centro Fundación Unicaja Cádiz, Calle San Francisco 26, 11004 Cádiz",
+        "url": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/"
+      },
+      "etiquetas_ig": [],
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Centro Fundación Unicaja Cádiz",
+          "instagram": "fundunicaja"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Fundación Unicaja",
+          "instagram": "fundunicaja"
+        }
+      ],
+      "horario_dia": "10:00–14:00 y 16:00–19:00",
+      "continuo": true,
+      "bloque": 1,
+      "imagen": {
+        "archivo": "img/villalta-1127.jpg",
+        "url_origen": "https://www.fundacionunicaja.com/wp-content/uploads/2026/10/Exposicion-Laboratorio-infinito-5.jpg",
+        "fuente": "www.fundacionunicaja.com",
+        "pagina": "https://www.fundacionunicaja.com/event/exposicion-guillermo-perez-villalta-el-laboratorio-infinito/",
+        "ancho": 1600,
+        "alto": 1067,
+        "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito",
+        "tipo_imagen": "oficial",
+        "ajuste": "contain"
+      },
+      "etiqueta": "Hasta el 21 feb"
+    }
+  ],
+  "noche_manana": []
+}
