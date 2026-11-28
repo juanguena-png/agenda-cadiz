@@ -711,5 +711,47 @@
       "continuo": true
     }
   ],
-  "noche_manana": []
+  "noche_manana": [
+    {
+      "id": "cadizcf-cordoba-1129",
+      "nombre": "Cádiz CF – Córdoba CF · LaLiga Hypermotion",
+      "categoria": "deporte",
+      "fecha": "2026-11-29",
+      "hora_inicio": "18:30",
+      "hora_fin": null,
+      "todo_el_dia": false,
+      "lugar": "Estadio Nuevo Mirandilla",
+      "direccion": "Estadio Nuevo Mirandilla, Cádiz",
+      "precio": "Consultar",
+      "publico": "Todos los públicos",
+      "descripcion": "El Cádiz CF recibe al Córdoba CF en la jornada 16 de LaLiga Hypermotion, en el Nuevo Mirandilla.",
+      "info": "Entradas en entradas.cadizcf.com",
+      "fuentes": [
+        {
+          "nombre": "Cádiz CF (web oficial)",
+          "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-16-cadiz-cf-vs-cordoba-cf-3468"
+        }
+      ],
+      "verificacion_cadiz_capital": {
+        "confirmado": true,
+        "evidencia": "Estadio Nuevo Mirandilla (JP Financial Estadio), Cádiz — partido en casa del Cádiz CF",
+        "url": "https://www.cadizcf.com/partidos/temporada-2026-2027-laliga-hypermotion-16-cadiz-cf-vs-cordoba-cf-3468"
+      },
+      "etiquetas_ig": [],
+      "importancia": 3,
+      "entidades": [
+        {
+          "rol": "lugar",
+          "nombre": "Estadio Nuevo Mirandilla",
+          "instagram": null,
+          "buscado": "2026-11-28"
+        },
+        {
+          "rol": "organizador",
+          "nombre": "Cádiz CF",
+          "instagram": "cadizcf"
+        }
+      ]
+    }
+  ]
 }
