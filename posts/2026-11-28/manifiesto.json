@@ -1,0 +1,214 @@
+{
+  "variante": "A",
+  "paleta": 5,
+  "experimentos": {
+    "frase": "B",
+    "cta": "A",
+    "hashtags": "8"
+  },
+  "carrusel": [
+    {
+      "archivo": "01.png",
+      "tipo": "portada",
+      "etiquetas": [
+        "fundunicaja",
+        "carnavalycoac",
+        "ayuntamientocadiz",
+        "fundacionory",
+        "centroandaluzdelasletras",
+        "palaciocongresoscadiz",
+        "eternidadeventos",
+        "teatrofalla",
+        "momartsalaclub",
+        "casadeiberoamerica"
+      ],
+      "alt_text": "Qué hacer en Cádiz hoy: portada de la agenda de Planes en Cádiz. Qué hacer hoy, sábado 28 de noviembre. 12 planes y eventos."
+    },
+    {
+      "archivo": "02.png",
+      "tipo": "eventos",
+      "ids": [
+        "cianotipia-1128",
+        "merino-1128"
+      ],
+      "etiquetas": [
+        "fundunicaja",
+        "carnavalycoac",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Taller de fotografía «Cianotipia sobre madera», con Rosa Campos (10:30, Centro Fundación Unicaja Cádiz); Presentación de «Tenemos toda la eternidad», de Elena Merino (12:00, Casa del Carnaval)"
+    },
+    {
+      "archivo": "03.png",
+      "tipo": "eventos",
+      "ids": [
+        "ory-1128",
+        "patatera-1128"
+      ],
+      "etiquetas": [
+        "fundacionory",
+        "centroandaluzdelasletras",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Presentación de «Un andar entre ámbar y nubes», de Rafael Damián Lobatón (12:30, Espacio Cultural Ancha 16); VI Degustación de Patatera y Zambomba Popular (13:30, Casa de Extremadura en Cádiz)"
+    },
+    {
+      "archivo": "04.png",
+      "tipo": "eventos",
+      "ids": [
+        "bailemos-1128",
+        "humanos-1128"
+      ],
+      "etiquetas": [
+        "ayuntamientocadiz",
+        "palaciocongresoscadiz",
+        "eternidadeventos"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Teatro · Por favor, bailemos (19:00, IES Columela); Los Humanos y su Antología (20:00, Palacio de Congresos y Exposiciones de Cádiz)"
+    },
+    {
+      "archivo": "05.png",
+      "tipo": "eventos",
+      "ids": [
+        "verborrea-1128",
+        "mescalina-1128"
+      ],
+      "etiquetas": [
+        "teatrofalla",
+        "ayuntamientocadiz",
+        "momartsalaclub"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Verborrea · Javier Cámara e Israel Elejalde (20:00, Gran Teatro Falla); Mescalina · #80SenEspañol (22:00, Momart Theatre)"
+    },
+    {
+      "archivo": "06.png",
+      "tipo": "eventos",
+      "ids": [
+        "divergencia-1128"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Divergencia cognitiva», de Santiago Pina (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "07.png",
+      "tipo": "eventos",
+      "ids": [
+        "manton-1128"
+      ],
+      "etiquetas": [
+        "casadeiberoamerica",
+        "ayuntamientocadiz"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «¿Dónde vas con mantón de Manila?» (09:00, Casa de Iberoamérica)"
+    },
+    {
+      "archivo": "08.png",
+      "tipo": "eventos",
+      "ids": [
+        "belen-1128"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición de Belén tradicional · Enrique Haro (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "09.png",
+      "tipo": "eventos",
+      "ids": [
+        "villalta-1128"
+      ],
+      "etiquetas": [
+        "fundunicaja"
+      ],
+      "alt_text": "Agenda de eventos en Cádiz, planes de hoy: Exposición «Guillermo Pérez Villalta. El laboratorio infinito» (10:00, Centro Fundación Unicaja Cádiz)"
+    },
+    {
+      "archivo": "10.png",
+      "tipo": "cierre",
+      "etiquetas": [],
+      "alt_text": "Si te ha gustado, guarda y comparte esta agenda de planes en Cádiz. Comenta PLANES y te enviamos todos estos planes por mensaje directo. Síguenos para la agenda diaria a las 9:00."
+    }
+  ],
+  "stories": [
+    {
+      "archivo": "01.png",
+      "id": "divergencia-1128",
+      "alt_text": "Ilustración de «Exposición «Divergencia cognitiva», de Santiago Pina»: composición con marco, escultura en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "02.png",
+      "id": "manton-1128",
+      "alt_text": "Mantones de Manila en la exposición de la Casa de Iberoamérica"
+    },
+    {
+      "archivo": "03.png",
+      "id": "belen-1128",
+      "alt_text": "Belén tradicional de estilo hebreo en el Centro Fundación Unicaja Cádiz"
+    },
+    {
+      "archivo": "04.png",
+      "id": "villalta-1128",
+      "alt_text": "Sala de la exposición Guillermo Pérez Villalta. El laboratorio infinito"
+    },
+    {
+      "archivo": "05.png",
+      "id": "cianotipia-1128",
+      "alt_text": "Collage del ciclo de talleres Aula Abierta del Centro Fundación Unicaja Cádiz"
+    },
+    {
+      "archivo": "06.png",
+      "id": "merino-1128",
+      "alt_text": "Cartel de la presentación del libro Tenemos toda la eternidad en la Casa del Carnaval"
+    },
+    {
+      "archivo": "07.png",
+      "id": "ory-1128",
+      "alt_text": "Imagen de las XV Jornadas de la Fundación Carlos Edmundo de Ory"
+    },
+    {
+      "archivo": "08.png",
+      "id": "patatera-1128",
+      "alt_text": "Cartel de la degustación de patatera en la Casa de Extremadura"
+    },
+    {
+      "archivo": "09.png",
+      "id": "bailemos-1128",
+      "alt_text": "Cartel de la obra Por favor, bailemos"
+    },
+    {
+      "archivo": "10.png",
+      "id": "humanos-1128",
+      "alt_text": "Cartel de Los Humanos y su Antología en el Palacio de Congresos de Cádiz"
+    },
+    {
+      "archivo": "11.png",
+      "id": "verborrea-1128",
+      "alt_text": "Cartel de Verborrea en el Gran Teatro Falla"
+    },
+    {
+      "archivo": "12.png",
+      "id": "mescalina-1128",
+      "alt_text": "Ilustración de «Mescalina · #80SenEspañol»: composición con rock, micrófono en azul mar, blanco y amarillo"
+    },
+    {
+      "archivo": "13.png",
+      "tipo": "cierre",
+      "alt_text": "Comparte esta story y escríbenos PLANES para recibir todos los planes de hoy por mensaje."
+    }
+  ],
+  "noche": [
+    {
+      "archivo": "01.png",
+      "ids": [
+        "humanos-1128",
+        "verborrea-1128",
+        "mescalina-1128"
+      ],
+      "alt_text": "Esta noche en Cádiz: Los Humanos y su Antología; Verborrea · Javier Cámara e Israel Elejalde; Mescalina · #80SenEspañol"
+    }
+  ]
+}

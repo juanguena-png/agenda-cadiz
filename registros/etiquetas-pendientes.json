@@ -350,13 +350,13 @@
   "Santiago Pina": {
     "rol": "artista",
     "evento": "Exposición «Divergencia cognitiva», de Santiago Pina",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
     "instagram_probado": null
   },
   "Asociación Hespérides": {
     "rol": "organizador",
     "evento": "Exposición «¿Dónde vas con mantón de Manila?»",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
     "instagram_probado": null
   },
   "Stefano Barneschi": {
@@ -752,37 +752,97 @@
   "Casa de Extremadura en Cádiz": {
     "rol": "organizador",
     "evento": "VI Degustación de Patatera y Zambomba Popular",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
     "instagram_probado": null
   },
   "IES Columela": {
     "rol": "lugar",
     "evento": "Teatro · Por favor, bailemos",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
     "instagram_probado": null
   },
   "Javier Cámara": {
     "rol": "artista",
     "evento": "Verborrea · Javier Cámara e Israel Elejalde",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
     "instagram_probado": null
   },
   "Pablo Remón": {
     "rol": "artista",
     "evento": "Verborrea · Javier Cámara e Israel Elejalde",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
     "instagram_probado": null
   },
   "Momart Theatre": {
     "rol": "lugar",
     "evento": "Mescalina · #80SenEspañol",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
     "instagram_probado": null
   },
   "Mescalina": {
     "rol": "artista",
     "evento": "Mescalina · #80SenEspañol",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Rosa Campos": {
+    "rol": "artista",
+    "evento": "Taller de fotografía «Cianotipia sobre madera», con Rosa Campos",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Casa del Carnaval": {
+    "rol": "lugar",
+    "evento": "Presentación de «Tenemos toda la eternidad», de Elena Merino",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "CarnavalyCOAC": {
+    "rol": "organizador",
+    "evento": "Presentación de «Tenemos toda la eternidad», de Elena Merino",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Elena Merino": {
+    "rol": "artista",
+    "evento": "Presentación de «Tenemos toda la eternidad», de Elena Merino",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Espacio Cultural Ancha 16": {
+    "rol": "lugar",
+    "evento": "Presentación de «Un andar entre ámbar y nubes», de Rafael Damián Lobatón",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Rafael Damián Lobatón": {
+    "rol": "artista",
+    "evento": "Presentación de «Un andar entre ámbar y nubes», de Rafael Damián Lobatón",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Eternidad Eventos": {
+    "rol": "organizador",
+    "evento": "Los Humanos y su Antología · comparsa de Martínez Ares",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Los Humanos (Antonio Martínez Ares)": {
+    "rol": "artista",
+    "evento": "Los Humanos y su Antología",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Enrique Haro": {
+    "rol": "artista",
+    "evento": "Exposición de Belén tradicional · Enrique Haro",
+    "fecha": "2026-11-28",
+    "instagram_probado": null
+  },
+  "Cátedra del Carnaval de la UCA": {
+    "rol": "institucion",
+    "evento": "Presentación de «Tenemos toda la eternidad», de Elena Merino",
+    "fecha": "2026-11-28",
     "instagram_probado": null
   }
 }

@@ -500,6 +500,19 @@
       "claves": [
         "orquesta barroca de sevilla"
       ]
+    },
+    "carnavalycoac": {
+      "nombre": "CarnavalyCOAC",
+      "claves": [
+        "carnavalycoac",
+        "carnaval y coac"
+      ]
+    },
+    "eternidadeventos": {
+      "nombre": "Eternidad Eventos",
+      "claves": [
+        "eternidad eventos"
+      ]
     }
   },
   "descartados": {
